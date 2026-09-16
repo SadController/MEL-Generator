@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-15",
+  "selectionChecks": [
+    {
+      "aircraft": "A319",
+      "count": 1,
+      "cards": 1,
+      "englishOnly": true
+    },
+    {
+      "aircraft": "A320",
+      "count": 2,
+      "cards": 2,
+      "englishOnly": true
+    },
+    {
+      "aircraft": "A321",
+      "count": 3,
+      "cards": 3,
+      "englishOnly": true
+    }
+  ],
+  "returnPreservesSelection": true,
+  "sourceLinks": "Local FAA MMEL PDF with page anchors",
+  "jsErrors": [],
+  "verifiedViewportWidth": 832,
+  "horizontalOverflow": false,
+  "randomGeneration": false
+}

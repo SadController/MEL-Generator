@@ -1,0 +1,10 @@
+node_modules/
+release/
+test-output/
+*.log
+
+# Local staging and editor files
+/commit/
+.DS_Store
+Thumbs.db
+
