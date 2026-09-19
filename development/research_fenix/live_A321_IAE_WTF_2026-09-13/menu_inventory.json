@@ -1,0 +1,3458 @@
+[
+  {
+    "menu_id": "M001",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "CPC",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → CPC → 1",
+    "key": "CPC 1"
+  },
+  {
+    "menu_id": "M002",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "CPC",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → CPC → 2",
+    "key": "CPC 2"
+  },
+  {
+    "menu_id": "M003",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "Overheat",
+    "label": "Pack 1",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → Overheat → Pack 1",
+    "key": "Overheat Pack 1"
+  },
+  {
+    "menu_id": "M004",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "Overheat",
+    "label": "Pack 2",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → Overheat → Pack 2",
+    "key": "Overheat Pack 2"
+  },
+  {
+    "menu_id": "M005",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "Regulator fault",
+    "label": "Pack 1",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → Regulator fault → Pack 1",
+    "key": "Regulator fault Pack 1"
+  },
+  {
+    "menu_id": "M006",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "Regulator fault",
+    "label": "Pack 2",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → Regulator fault → Pack 2",
+    "key": "Regulator fault Pack 2"
+  },
+  {
+    "menu_id": "M007",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "Zone controller",
+    "label": "Primary",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → Zone controller → Primary",
+    "key": "Zone controller Primary"
+  },
+  {
+    "menu_id": "M008",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "Zone controller",
+    "label": "Secondary",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → Zone controller → Secondary",
+    "key": "Zone controller Secondary"
+  },
+  {
+    "menu_id": "M009",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "",
+    "label": "Hot air fault",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → Hot air fault",
+    "key": "Hot air fault"
+  },
+  {
+    "menu_id": "M010",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "",
+    "label": "Cargo ventilation controller",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → Cargo ventilation controller",
+    "key": "Cargo ventilation controller"
+  },
+  {
+    "menu_id": "M011",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "",
+    "label": "Hot air valve aft cargo",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → Hot air valve aft cargo",
+    "key": "Hot air valve aft cargo"
+  },
+  {
+    "menu_id": "M012",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "Cargo vent",
+    "label": "Cargo Fwd Isolation Valve Upstream",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → Cargo vent → Cargo Fwd Isolation Valve Upstream",
+    "key": "Cargo vent Cargo Fwd Isolation Valve Upstream"
+  },
+  {
+    "menu_id": "M013",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "Cargo vent",
+    "label": "Cargo Fwd Isolation Valve Downstream",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → Cargo vent → Cargo Fwd Isolation Valve Downstream",
+    "key": "Cargo vent Cargo Fwd Isolation Valve Downstream"
+  },
+  {
+    "menu_id": "M014",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "Cargo vent",
+    "label": "Cargo Aft Isolation Valve Upstream",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → Cargo vent → Cargo Aft Isolation Valve Upstream",
+    "key": "Cargo vent Cargo Aft Isolation Valve Upstream"
+  },
+  {
+    "menu_id": "M015",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "Cargo vent",
+    "label": "Cargo Aft Isolation Valve Downstream",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → Cargo vent → Cargo Aft Isolation Valve Downstream",
+    "key": "Cargo vent Cargo Aft Isolation Valve Downstream"
+  },
+  {
+    "menu_id": "M016",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "",
+    "label": "Recirculation fans",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → Recirculation fans",
+    "key": "Recirculation fans"
+  },
+  {
+    "menu_id": "M017",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "Decompression",
+    "label": "Slow",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → Decompression → Slow",
+    "key": "Decompression Slow"
+  },
+  {
+    "menu_id": "M018",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "Decompression",
+    "label": "Rapid",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → Decompression → Rapid",
+    "key": "Decompression Rapid"
+  },
+  {
+    "menu_id": "M019",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "",
+    "label": "Outflow valve stuck",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → Outflow valve stuck",
+    "key": "Outflow valve stuck"
+  },
+  {
+    "menu_id": "M020",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "Ventilation",
+    "label": "Aevc",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → Ventilation → Aevc",
+    "key": "Ventilation Aevc"
+  },
+  {
+    "menu_id": "M021",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "Ventilation",
+    "label": "Blower Fault",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → Ventilation → Blower Fault",
+    "key": "Ventilation Blower Fault"
+  },
+  {
+    "menu_id": "M022",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "Ventilation",
+    "label": "Extract Fault",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → Ventilation → Extract Fault",
+    "key": "Ventilation Extract Fault"
+  },
+  {
+    "menu_id": "M023",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "Ventilation valves",
+    "label": "Vent Inlet Valve",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → Ventilation valves → Vent Inlet Valve",
+    "key": "Ventilation valves Vent Inlet Valve"
+  },
+  {
+    "menu_id": "M024",
+    "ata": "ATA 21 - Air Conditioning",
+    "group": "Ventilation valves",
+    "label": "Vent Extract Valve",
+    "enabled": true,
+    "path": "ATA 21 - Air Conditioning → Ventilation valves → Vent Extract Valve",
+    "key": "Ventilation valves Vent Extract Valve"
+  },
+  {
+    "menu_id": "M025",
+    "ata": "ATA 22 - AutoFlight",
+    "group": "Nonresettable fault",
+    "label": "Fac 1",
+    "enabled": true,
+    "path": "ATA 22 - AutoFlight → Nonresettable fault → Fac 1",
+    "key": "Nonresettable fault Fac 1"
+  },
+  {
+    "menu_id": "M026",
+    "ata": "ATA 22 - AutoFlight",
+    "group": "Nonresettable fault",
+    "label": "Fac 2",
+    "enabled": true,
+    "path": "ATA 22 - AutoFlight → Nonresettable fault → Fac 2",
+    "key": "Nonresettable fault Fac 2"
+  },
+  {
+    "menu_id": "M027",
+    "ata": "ATA 22 - AutoFlight",
+    "group": "Resettable fault",
+    "label": "Fac 1",
+    "enabled": true,
+    "path": "ATA 22 - AutoFlight → Resettable fault → Fac 1",
+    "key": "Resettable fault Fac 1"
+  },
+  {
+    "menu_id": "M028",
+    "ata": "ATA 22 - AutoFlight",
+    "group": "Resettable fault",
+    "label": "Fac 2",
+    "enabled": true,
+    "path": "ATA 22 - AutoFlight → Resettable fault → Fac 2",
+    "key": "Resettable fault Fac 2"
+  },
+  {
+    "menu_id": "M029",
+    "ata": "ATA 22 - AutoFlight",
+    "group": "Rudder travel limiter",
+    "label": "Channel 1",
+    "enabled": true,
+    "path": "ATA 22 - AutoFlight → Rudder travel limiter → Channel 1",
+    "key": "Rudder travel limiter Channel 1"
+  },
+  {
+    "menu_id": "M030",
+    "ata": "ATA 22 - AutoFlight",
+    "group": "Rudder travel limiter",
+    "label": "Channel 2",
+    "enabled": true,
+    "path": "ATA 22 - AutoFlight → Rudder travel limiter → Channel 2",
+    "key": "Rudder travel limiter Channel 2"
+  },
+  {
+    "menu_id": "M031",
+    "ata": "ATA 22 - AutoFlight",
+    "group": "Rudder trim",
+    "label": "Channel 1",
+    "enabled": true,
+    "path": "ATA 22 - AutoFlight → Rudder trim → Channel 1",
+    "key": "Rudder trim Channel 1"
+  },
+  {
+    "menu_id": "M032",
+    "ata": "ATA 22 - AutoFlight",
+    "group": "Rudder trim",
+    "label": "Channel 2",
+    "enabled": true,
+    "path": "ATA 22 - AutoFlight → Rudder trim → Channel 2",
+    "key": "Rudder trim Channel 2"
+  },
+  {
+    "menu_id": "M033",
+    "ata": "ATA 22 - AutoFlight",
+    "group": "Reactive W/S det",
+    "label": "Channel 1",
+    "enabled": true,
+    "path": "ATA 22 - AutoFlight → Reactive W/S det → Channel 1",
+    "key": "Reactive W/S det Channel 1"
+  },
+  {
+    "menu_id": "M034",
+    "ata": "ATA 22 - AutoFlight",
+    "group": "Reactive W/S det",
+    "label": "Channel 2",
+    "enabled": true,
+    "path": "ATA 22 - AutoFlight → Reactive W/S det → Channel 2",
+    "key": "Reactive W/S det Channel 2"
+  },
+  {
+    "menu_id": "M035",
+    "ata": "ATA 22 - AutoFlight",
+    "group": "Law override",
+    "label": "Alternate Law With Protection",
+    "enabled": true,
+    "path": "ATA 22 - AutoFlight → Law override → Alternate Law With Protection",
+    "key": "Law override Alternate Law With Protection"
+  },
+  {
+    "menu_id": "M036",
+    "ata": "ATA 22 - AutoFlight",
+    "group": "Law override",
+    "label": "Alternate Law Without Protection",
+    "enabled": true,
+    "path": "ATA 22 - AutoFlight → Law override → Alternate Law Without Protection",
+    "key": "Law override Alternate Law Without Protection"
+  },
+  {
+    "menu_id": "M037",
+    "ata": "ATA 22 - AutoFlight",
+    "group": "Law override",
+    "label": "Direct Law",
+    "enabled": true,
+    "path": "ATA 22 - AutoFlight → Law override → Direct Law",
+    "key": "Law override Direct Law"
+  },
+  {
+    "menu_id": "M038",
+    "ata": "ATA 22 - AutoFlight",
+    "group": "FCU",
+    "label": "Channel 1",
+    "enabled": true,
+    "path": "ATA 22 - AutoFlight → FCU → Channel 1",
+    "key": "FCU Channel 1"
+  },
+  {
+    "menu_id": "M039",
+    "ata": "ATA 22 - AutoFlight",
+    "group": "FCU",
+    "label": "Channel 2",
+    "enabled": true,
+    "path": "ATA 22 - AutoFlight → FCU → Channel 2",
+    "key": "FCU Channel 2"
+  },
+  {
+    "menu_id": "M040",
+    "ata": "ATA 22 - AutoFlight",
+    "group": "A/THR",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 22 - AutoFlight → A/THR → 1",
+    "key": "A/THR 1"
+  },
+  {
+    "menu_id": "M041",
+    "ata": "ATA 22 - AutoFlight",
+    "group": "A/THR",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 22 - AutoFlight → A/THR → 2",
+    "key": "A/THR 2"
+  },
+  {
+    "menu_id": "M042",
+    "ata": "ATA 22 - AutoFlight",
+    "group": "AP",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 22 - AutoFlight → AP → 1",
+    "key": "AP 1"
+  },
+  {
+    "menu_id": "M043",
+    "ata": "ATA 22 - AutoFlight",
+    "group": "AP",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 22 - AutoFlight → AP → 2",
+    "key": "AP 2"
+  },
+  {
+    "menu_id": "M044",
+    "ata": "ATA 24 - Electrical power",
+    "group": "DC Bus Fault",
+    "label": "Dc Bat Bus",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → DC Bus Fault → Dc Bat Bus",
+    "key": "DC Bus Fault Dc Bat Bus"
+  },
+  {
+    "menu_id": "M045",
+    "ata": "ATA 24 - Electrical power",
+    "group": "DC Bus Fault",
+    "label": "Dc Bus 1",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → DC Bus Fault → Dc Bus 1",
+    "key": "DC Bus Fault Dc Bus 1"
+  },
+  {
+    "menu_id": "M046",
+    "ata": "ATA 24 - Electrical power",
+    "group": "DC Bus Fault",
+    "label": "Dc Bus 2",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → DC Bus Fault → Dc Bus 2",
+    "key": "DC Bus Fault Dc Bus 2"
+  },
+  {
+    "menu_id": "M047",
+    "ata": "ATA 24 - Electrical power",
+    "group": "DC Bus Fault",
+    "label": "Hot Bus 1",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → DC Bus Fault → Hot Bus 1",
+    "key": "DC Bus Fault Hot Bus 1"
+  },
+  {
+    "menu_id": "M048",
+    "ata": "ATA 24 - Electrical power",
+    "group": "DC Bus Fault",
+    "label": "Hot Bus 2",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → DC Bus Fault → Hot Bus 2",
+    "key": "DC Bus Fault Hot Bus 2"
+  },
+  {
+    "menu_id": "M049",
+    "ata": "ATA 24 - Electrical power",
+    "group": "DC Bus Fault",
+    "label": "Dc Essential Bus",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → DC Bus Fault → Dc Essential Bus",
+    "key": "DC Bus Fault Dc Essential Bus"
+  },
+  {
+    "menu_id": "M050",
+    "ata": "ATA 24 - Electrical power",
+    "group": "DC Bus Fault",
+    "label": "Dc Essential Shed Bus",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → DC Bus Fault → Dc Essential Shed Bus",
+    "key": "DC Bus Fault Dc Essential Shed Bus"
+  },
+  {
+    "menu_id": "M051",
+    "ata": "ATA 24 - Electrical power",
+    "group": "AC Bus Fault",
+    "label": "Ac Bus 1",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → AC Bus Fault → Ac Bus 1",
+    "key": "AC Bus Fault Ac Bus 1"
+  },
+  {
+    "menu_id": "M052",
+    "ata": "ATA 24 - Electrical power",
+    "group": "AC Bus Fault",
+    "label": "Ac Bus 2",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → AC Bus Fault → Ac Bus 2",
+    "key": "AC Bus Fault Ac Bus 2"
+  },
+  {
+    "menu_id": "M053",
+    "ata": "ATA 24 - Electrical power",
+    "group": "AC Bus Fault",
+    "label": "Ac Essential Bus",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → AC Bus Fault → Ac Essential Bus",
+    "key": "AC Bus Fault Ac Essential Bus"
+  },
+  {
+    "menu_id": "M054",
+    "ata": "ATA 24 - Electrical power",
+    "group": "AC Bus Fault",
+    "label": "Ac Essential Shed Bus",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → AC Bus Fault → Ac Essential Shed Bus",
+    "key": "AC Bus Fault Ac Essential Shed Bus"
+  },
+  {
+    "menu_id": "M055",
+    "ata": "ATA 24 - Electrical power",
+    "group": "AC Bus Fault",
+    "label": "Ac Static Inverter Bus",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → AC Bus Fault → Ac Static Inverter Bus",
+    "key": "AC Bus Fault Ac Static Inverter Bus"
+  },
+  {
+    "menu_id": "M056",
+    "ata": "ATA 24 - Electrical power",
+    "group": "AC 26v Bus Fault",
+    "label": "Ac Bus 1 26v",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → AC 26v Bus Fault → Ac Bus 1 26v",
+    "key": "AC 26v Bus Fault Ac Bus 1 26v"
+  },
+  {
+    "menu_id": "M057",
+    "ata": "ATA 24 - Electrical power",
+    "group": "AC 26v Bus Fault",
+    "label": "Ac Bus 2 26v",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → AC 26v Bus Fault → Ac Bus 2 26v",
+    "key": "AC 26v Bus Fault Ac Bus 2 26v"
+  },
+  {
+    "menu_id": "M058",
+    "ata": "ATA 24 - Electrical power",
+    "group": "AC 26v Bus Fault",
+    "label": "Ac Ess Bus 26v",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → AC 26v Bus Fault → Ac Ess Bus 26v",
+    "key": "AC 26v Bus Fault Ac Ess Bus 26v"
+  },
+  {
+    "menu_id": "M059",
+    "ata": "ATA 24 - Electrical power",
+    "group": "Generator",
+    "label": "Apu",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → Generator → Apu",
+    "key": "Generator Apu"
+  },
+  {
+    "menu_id": "M060",
+    "ata": "ATA 24 - Electrical power",
+    "group": "Generator",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → Generator → 1",
+    "key": "Generator 1"
+  },
+  {
+    "menu_id": "M061",
+    "ata": "ATA 24 - Electrical power",
+    "group": "Generator",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → Generator → 2",
+    "key": "Generator 2"
+  },
+  {
+    "menu_id": "M062",
+    "ata": "ATA 24 - Electrical power",
+    "group": "IDG oil ovht",
+    "label": "Idg 1 Oil Overheat",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → IDG oil ovht → Idg 1 Oil Overheat",
+    "key": "IDG oil ovht Idg 1 Oil Overheat"
+  },
+  {
+    "menu_id": "M063",
+    "ata": "ATA 24 - Electrical power",
+    "group": "IDG oil ovht",
+    "label": "Idg 2 Oil Overheat",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → IDG oil ovht → Idg 2 Oil Overheat",
+    "key": "IDG oil ovht Idg 2 Oil Overheat"
+  },
+  {
+    "menu_id": "M064",
+    "ata": "ATA 24 - Electrical power",
+    "group": "IDG oil low pressure",
+    "label": "Idg 1 Oil Low Pressure",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → IDG oil low pressure → Idg 1 Oil Low Pressure",
+    "key": "IDG oil low pressure Idg 1 Oil Low Pressure"
+  },
+  {
+    "menu_id": "M065",
+    "ata": "ATA 24 - Electrical power",
+    "group": "IDG oil low pressure",
+    "label": "Idg 2 Oil Low Pressure",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → IDG oil low pressure → Idg 2 Oil Low Pressure",
+    "key": "IDG oil low pressure Idg 2 Oil Low Pressure"
+  },
+  {
+    "menu_id": "M066",
+    "ata": "ATA 24 - Electrical power",
+    "group": "",
+    "label": "Static inverter",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → Static inverter",
+    "key": "Static inverter"
+  },
+  {
+    "menu_id": "M067",
+    "ata": "ATA 24 - Electrical power",
+    "group": "TR Failure",
+    "label": "Tr 1",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → TR Failure → Tr 1",
+    "key": "TR Failure Tr 1"
+  },
+  {
+    "menu_id": "M068",
+    "ata": "ATA 24 - Electrical power",
+    "group": "TR Failure",
+    "label": "Tr 2",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → TR Failure → Tr 2",
+    "key": "TR Failure Tr 2"
+  },
+  {
+    "menu_id": "M069",
+    "ata": "ATA 24 - Electrical power",
+    "group": "TR Failure",
+    "label": "Ess",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → TR Failure → Ess",
+    "key": "TR Failure Ess"
+  },
+  {
+    "menu_id": "M070",
+    "ata": "ATA 24 - Electrical power",
+    "group": "",
+    "label": "AC Ess Bus Altn",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → AC Ess Bus Altn",
+    "key": "AC Ess Bus Altn"
+  },
+  {
+    "menu_id": "M071",
+    "ata": "ATA 24 - Electrical power",
+    "group": "AC Ess feed",
+    "label": "From Ac Bus 1",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → AC Ess feed → From Ac Bus 1",
+    "key": "AC Ess feed From Ac Bus 1"
+  },
+  {
+    "menu_id": "M072",
+    "ata": "ATA 24 - Electrical power",
+    "group": "AC Ess feed",
+    "label": "From Ac Bus 2",
+    "enabled": true,
+    "path": "ATA 24 - Electrical power → AC Ess feed → From Ac Bus 2",
+    "key": "AC Ess feed From Ac Bus 2"
+  },
+  {
+    "menu_id": "M073",
+    "ata": "ATA 26 - Fire protection",
+    "group": "",
+    "label": "SDCU",
+    "enabled": true,
+    "path": "ATA 26 - Fire protection → SDCU",
+    "key": "SDCU"
+  },
+  {
+    "menu_id": "M074",
+    "ata": "ATA 26 - Fire protection",
+    "group": "",
+    "label": "Fwd cargo smoke detected",
+    "enabled": true,
+    "path": "ATA 26 - Fire protection → Fwd cargo smoke detected",
+    "key": "Fwd cargo smoke detected"
+  },
+  {
+    "menu_id": "M075",
+    "ata": "ATA 26 - Fire protection",
+    "group": "",
+    "label": "Aft cargo smoke detected",
+    "enabled": true,
+    "path": "ATA 26 - Fire protection → Aft cargo smoke detected",
+    "key": "Aft cargo smoke detected"
+  },
+  {
+    "menu_id": "M076",
+    "ata": "ATA 26 - Fire protection",
+    "group": "",
+    "label": "Lavatory smoke",
+    "enabled": true,
+    "path": "ATA 26 - Fire protection → Lavatory smoke",
+    "key": "Lavatory smoke"
+  },
+  {
+    "menu_id": "M077",
+    "ata": "ATA 26 - Fire protection",
+    "group": "Fire unextinguishable",
+    "label": "Eng 1 Unextinguishable Fire",
+    "enabled": true,
+    "path": "ATA 26 - Fire protection → Fire unextinguishable → Eng 1 Unextinguishable Fire",
+    "key": "Fire unextinguishable Eng 1 Unextinguishable Fire"
+  },
+  {
+    "menu_id": "M078",
+    "ata": "ATA 26 - Fire protection",
+    "group": "Fire unextinguishable",
+    "label": "Eng 2 Unextinguishable Fire",
+    "enabled": true,
+    "path": "ATA 26 - Fire protection → Fire unextinguishable → Eng 2 Unextinguishable Fire",
+    "key": "Fire unextinguishable Eng 2 Unextinguishable Fire"
+  },
+  {
+    "menu_id": "M079",
+    "ata": "ATA 26 - Fire protection",
+    "group": "Fire unextinguishable",
+    "label": "Apu Unextinguishable Fire",
+    "enabled": true,
+    "path": "ATA 26 - Fire protection → Fire unextinguishable → Apu Unextinguishable Fire",
+    "key": "Fire unextinguishable Apu Unextinguishable Fire"
+  },
+  {
+    "menu_id": "M080",
+    "ata": "ATA 26 - Fire protection",
+    "group": "Fire 1 bottle",
+    "label": "Eng 1 Fire Extinguished With 1 Bottle",
+    "enabled": true,
+    "path": "ATA 26 - Fire protection → Fire 1 bottle → Eng 1 Fire Extinguished With 1 Bottle",
+    "key": "Fire 1 bottle Eng 1 Fire Extinguished With 1 Bottle"
+  },
+  {
+    "menu_id": "M081",
+    "ata": "ATA 26 - Fire protection",
+    "group": "Fire 1 bottle",
+    "label": "Eng 2 Fire Extinguished With 1 Bottle",
+    "enabled": true,
+    "path": "ATA 26 - Fire protection → Fire 1 bottle → Eng 2 Fire Extinguished With 1 Bottle",
+    "key": "Fire 1 bottle Eng 2 Fire Extinguished With 1 Bottle"
+  },
+  {
+    "menu_id": "M082",
+    "ata": "ATA 26 - Fire protection",
+    "group": "Fire 1 bottle",
+    "label": "Apu Fire Extinguished With 1 Bottle",
+    "enabled": true,
+    "path": "ATA 26 - Fire protection → Fire 1 bottle → Apu Fire Extinguished With 1 Bottle",
+    "key": "Fire 1 bottle Apu Fire Extinguished With 1 Bottle"
+  },
+  {
+    "menu_id": "M083",
+    "ata": "ATA 26 - Fire protection",
+    "group": "Fire 2 bottles",
+    "label": "Eng 1 Fire Extinguished With 2 Bottles",
+    "enabled": true,
+    "path": "ATA 26 - Fire protection → Fire 2 bottles → Eng 1 Fire Extinguished With 2 Bottles",
+    "key": "Fire 2 bottles Eng 1 Fire Extinguished With 2 Bottles"
+  },
+  {
+    "menu_id": "M084",
+    "ata": "ATA 26 - Fire protection",
+    "group": "Fire 2 bottles",
+    "label": "Eng 2 Fire Extinguished With 2 Bottles",
+    "enabled": true,
+    "path": "ATA 26 - Fire protection → Fire 2 bottles → Eng 2 Fire Extinguished With 2 Bottles",
+    "key": "Fire 2 bottles Eng 2 Fire Extinguished With 2 Bottles"
+  },
+  {
+    "menu_id": "M085",
+    "ata": "ATA 26 - Fire protection",
+    "group": "Loop Eng 1",
+    "label": "Eng 1 Loop A",
+    "enabled": true,
+    "path": "ATA 26 - Fire protection → Loop Eng 1 → Eng 1 Loop A",
+    "key": "Loop Eng 1 Eng 1 Loop A"
+  },
+  {
+    "menu_id": "M086",
+    "ata": "ATA 26 - Fire protection",
+    "group": "Loop Eng 1",
+    "label": "Eng 1 Loop B",
+    "enabled": true,
+    "path": "ATA 26 - Fire protection → Loop Eng 1 → Eng 1 Loop B",
+    "key": "Loop Eng 1 Eng 1 Loop B"
+  },
+  {
+    "menu_id": "M087",
+    "ata": "ATA 26 - Fire protection",
+    "group": "Loop Eng 2",
+    "label": "Eng 2 Loop A",
+    "enabled": true,
+    "path": "ATA 26 - Fire protection → Loop Eng 2 → Eng 2 Loop A",
+    "key": "Loop Eng 2 Eng 2 Loop A"
+  },
+  {
+    "menu_id": "M088",
+    "ata": "ATA 26 - Fire protection",
+    "group": "Loop Eng 2",
+    "label": "Eng 2 Loop B",
+    "enabled": true,
+    "path": "ATA 26 - Fire protection → Loop Eng 2 → Eng 2 Loop B",
+    "key": "Loop Eng 2 Eng 2 Loop B"
+  },
+  {
+    "menu_id": "M089",
+    "ata": "ATA 26 - Fire protection",
+    "group": "Loop APU",
+    "label": "Apu Loop A",
+    "enabled": true,
+    "path": "ATA 26 - Fire protection → Loop APU → Apu Loop A",
+    "key": "Loop APU Apu Loop A"
+  },
+  {
+    "menu_id": "M090",
+    "ata": "ATA 26 - Fire protection",
+    "group": "Loop APU",
+    "label": "Apu Loop B",
+    "enabled": true,
+    "path": "ATA 26 - Fire protection → Loop APU → Apu Loop B",
+    "key": "Loop APU Apu Loop B"
+  },
+  {
+    "menu_id": "M091",
+    "ata": "ATA 26 - Fire protection",
+    "group": "FDU",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 26 - Fire protection → FDU → 1",
+    "key": "FDU 1"
+  },
+  {
+    "menu_id": "M092",
+    "ata": "ATA 26 - Fire protection",
+    "group": "FDU",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 26 - Fire protection → FDU → 2",
+    "key": "FDU 2"
+  },
+  {
+    "menu_id": "M093",
+    "ata": "ATA 26 - Fire protection",
+    "group": "FDU",
+    "label": "3",
+    "enabled": true,
+    "path": "ATA 26 - Fire protection → FDU → 3",
+    "key": "FDU 3"
+  },
+  {
+    "menu_id": "M094",
+    "ata": "ATA 26 - Fire protection",
+    "group": "",
+    "label": "Avionics smoke detected",
+    "enabled": true,
+    "path": "ATA 26 - Fire protection → Avionics smoke detected",
+    "key": "Avionics smoke detected"
+  },
+  {
+    "menu_id": "M095",
+    "ata": "ATA 28 - Fuel",
+    "group": "FQI",
+    "label": "Chan 1",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → FQI → Chan 1",
+    "key": "FQI Chan 1"
+  },
+  {
+    "menu_id": "M096",
+    "ata": "ATA 28 - Fuel",
+    "group": "FQI",
+    "label": "Chan 2",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → FQI → Chan 2",
+    "key": "FQI Chan 2"
+  },
+  {
+    "menu_id": "M097",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel pump left",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel pump left → 1",
+    "key": "Fuel pump left 1"
+  },
+  {
+    "menu_id": "M098",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel pump left",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel pump left → 2",
+    "key": "Fuel pump left 2"
+  },
+  {
+    "menu_id": "M099",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel pump center",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel pump center → 1",
+    "key": "Fuel pump center 1"
+  },
+  {
+    "menu_id": "M100",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel pump center",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel pump center → 2",
+    "key": "Fuel pump center 2"
+  },
+  {
+    "menu_id": "M101",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel pump right",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel pump right → 1",
+    "key": "Fuel pump right 1"
+  },
+  {
+    "menu_id": "M102",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel pump right",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel pump right → 2",
+    "key": "Fuel pump right 2"
+  },
+  {
+    "menu_id": "M103",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel temp high",
+    "label": "Inner Tank High Fuel Temp Ecam",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel temp high → Inner Tank High Fuel Temp Ecam",
+    "key": "Fuel temp high Inner Tank High Fuel Temp Ecam"
+  },
+  {
+    "menu_id": "M104",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel temp high",
+    "label": "Outer Tank High Fuel Temp Ecam",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel temp high → Outer Tank High Fuel Temp Ecam",
+    "key": "Fuel temp high Outer Tank High Fuel Temp Ecam"
+  },
+  {
+    "menu_id": "M105",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel temp high",
+    "label": "Inner Tank High Fuel Temp Adv",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel temp high → Inner Tank High Fuel Temp Adv",
+    "key": "Fuel temp high Inner Tank High Fuel Temp Adv"
+  },
+  {
+    "menu_id": "M106",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel temp high",
+    "label": "Outer Tank High Fuel Temp Adv",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel temp high → Outer Tank High Fuel Temp Adv",
+    "key": "Fuel temp high Outer Tank High Fuel Temp Adv"
+  },
+  {
+    "menu_id": "M107",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel temp low",
+    "label": "Inner Tank Low Fuel Temp Ecam",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel temp low → Inner Tank Low Fuel Temp Ecam",
+    "key": "Fuel temp low Inner Tank Low Fuel Temp Ecam"
+  },
+  {
+    "menu_id": "M108",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel temp low",
+    "label": "Outer Tank Low Fuel Temp Ecam",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel temp low → Outer Tank Low Fuel Temp Ecam",
+    "key": "Fuel temp low Outer Tank Low Fuel Temp Ecam"
+  },
+  {
+    "menu_id": "M109",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel temp low",
+    "label": "Inner Tank Low Fuel Temp Adv",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel temp low → Inner Tank Low Fuel Temp Adv",
+    "key": "Fuel temp low Inner Tank Low Fuel Temp Adv"
+  },
+  {
+    "menu_id": "M110",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel temp low",
+    "label": "Outer Tank Low Fuel Temp Adv",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel temp low → Outer Tank Low Fuel Temp Adv",
+    "key": "Fuel temp low Outer Tank Low Fuel Temp Adv"
+  },
+  {
+    "menu_id": "M111",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel transfer valves",
+    "label": "Left Transfer 1",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel transfer valves → Left Transfer 1",
+    "key": "Fuel transfer valves Left Transfer 1"
+  },
+  {
+    "menu_id": "M112",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel transfer valves",
+    "label": "Left Transfer 2",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel transfer valves → Left Transfer 2",
+    "key": "Fuel transfer valves Left Transfer 2"
+  },
+  {
+    "menu_id": "M113",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel transfer valves",
+    "label": "Right Transfer 1",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel transfer valves → Right Transfer 1",
+    "key": "Fuel transfer valves Right Transfer 1"
+  },
+  {
+    "menu_id": "M114",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel transfer valves",
+    "label": "Right Transfer 2",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel transfer valves → Right Transfer 2",
+    "key": "Fuel transfer valves Right Transfer 2"
+  },
+  {
+    "menu_id": "M115",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel valves",
+    "label": "Eng 1 Fuel Valve Stuck",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel valves → Eng 1 Fuel Valve Stuck",
+    "key": "Fuel valves Eng 1 Fuel Valve Stuck"
+  },
+  {
+    "menu_id": "M116",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel valves",
+    "label": "Eng 2 Fuel Valve Stuck",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel valves → Eng 2 Fuel Valve Stuck",
+    "key": "Fuel valves Eng 2 Fuel Valve Stuck"
+  },
+  {
+    "menu_id": "M117",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel valves",
+    "label": "Crossfeed Valve",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel valves → Crossfeed Valve",
+    "key": "Fuel valves Crossfeed Valve"
+  },
+  {
+    "menu_id": "M118",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel valves",
+    "label": "Defuel/transfer Valve",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel valves → Defuel/transfer Valve",
+    "key": "Fuel valves Defuel/transfer Valve"
+  },
+  {
+    "menu_id": "M119",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel leak",
+    "label": "Left Outer",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel leak → Left Outer",
+    "key": "Fuel leak Left Outer"
+  },
+  {
+    "menu_id": "M120",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel leak",
+    "label": "Left Inner",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel leak → Left Inner",
+    "key": "Fuel leak Left Inner"
+  },
+  {
+    "menu_id": "M121",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel leak",
+    "label": "Center",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel leak → Center",
+    "key": "Fuel leak Center"
+  },
+  {
+    "menu_id": "M122",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel leak",
+    "label": "Right Inner",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel leak → Right Inner",
+    "key": "Fuel leak Right Inner"
+  },
+  {
+    "menu_id": "M123",
+    "ata": "ATA 28 - Fuel",
+    "group": "Fuel leak",
+    "label": "Right Outer",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → Fuel leak → Right Outer",
+    "key": "Fuel leak Right Outer"
+  },
+  {
+    "menu_id": "M124",
+    "ata": "ATA 28 - Fuel",
+    "group": "HP Fuel valve",
+    "label": "Eng 1",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → HP Fuel valve → Eng 1",
+    "key": "HP Fuel valve Eng 1"
+  },
+  {
+    "menu_id": "M125",
+    "ata": "ATA 28 - Fuel",
+    "group": "HP Fuel valve",
+    "label": "Eng 2",
+    "enabled": true,
+    "path": "ATA 28 - Fuel → HP Fuel valve → Eng 2",
+    "key": "HP Fuel valve Eng 2"
+  },
+  {
+    "menu_id": "M126",
+    "ata": "ATA 29 - Hydraulic power",
+    "group": "Hydraulic leak",
+    "label": "Green",
+    "enabled": true,
+    "path": "ATA 29 - Hydraulic power → Hydraulic leak → Green",
+    "key": "Hydraulic leak Green"
+  },
+  {
+    "menu_id": "M127",
+    "ata": "ATA 29 - Hydraulic power",
+    "group": "Hydraulic leak",
+    "label": "Blue",
+    "enabled": true,
+    "path": "ATA 29 - Hydraulic power → Hydraulic leak → Blue",
+    "key": "Hydraulic leak Blue"
+  },
+  {
+    "menu_id": "M128",
+    "ata": "ATA 29 - Hydraulic power",
+    "group": "Hydraulic leak",
+    "label": "Yellow",
+    "enabled": true,
+    "path": "ATA 29 - Hydraulic power → Hydraulic leak → Yellow",
+    "key": "Hydraulic leak Yellow"
+  },
+  {
+    "menu_id": "M129",
+    "ata": "ATA 29 - Hydraulic power",
+    "group": "Reservoir overheat",
+    "label": "Green",
+    "enabled": true,
+    "path": "ATA 29 - Hydraulic power → Reservoir overheat → Green",
+    "key": "Reservoir overheat Green"
+  },
+  {
+    "menu_id": "M130",
+    "ata": "ATA 29 - Hydraulic power",
+    "group": "Reservoir overheat",
+    "label": "Blue",
+    "enabled": true,
+    "path": "ATA 29 - Hydraulic power → Reservoir overheat → Blue",
+    "key": "Reservoir overheat Blue"
+  },
+  {
+    "menu_id": "M131",
+    "ata": "ATA 29 - Hydraulic power",
+    "group": "Reservoir overheat",
+    "label": "Yellow",
+    "enabled": true,
+    "path": "ATA 29 - Hydraulic power → Reservoir overheat → Yellow",
+    "key": "Reservoir overheat Yellow"
+  },
+  {
+    "menu_id": "M132",
+    "ata": "ATA 29 - Hydraulic power",
+    "group": "Reservoir low air pressure",
+    "label": "Green Low Reservoir Air Pressure",
+    "enabled": true,
+    "path": "ATA 29 - Hydraulic power → Reservoir low air pressure → Green Low Reservoir Air Pressure",
+    "key": "Reservoir low air pressure Green Low Reservoir Air Pressure"
+  },
+  {
+    "menu_id": "M133",
+    "ata": "ATA 29 - Hydraulic power",
+    "group": "Reservoir low air pressure",
+    "label": "Blue Low Reservoir Air Pressure",
+    "enabled": true,
+    "path": "ATA 29 - Hydraulic power → Reservoir low air pressure → Blue Low Reservoir Air Pressure",
+    "key": "Reservoir low air pressure Blue Low Reservoir Air Pressure"
+  },
+  {
+    "menu_id": "M134",
+    "ata": "ATA 29 - Hydraulic power",
+    "group": "Reservoir low air pressure",
+    "label": "Yellow Low Reservoir Air Pressure",
+    "enabled": true,
+    "path": "ATA 29 - Hydraulic power → Reservoir low air pressure → Yellow Low Reservoir Air Pressure",
+    "key": "Reservoir low air pressure Yellow Low Reservoir Air Pressure"
+  },
+  {
+    "menu_id": "M135",
+    "ata": "ATA 29 - Hydraulic power",
+    "group": "Hydraulic low",
+    "label": "Green  Level",
+    "enabled": true,
+    "path": "ATA 29 - Hydraulic power → Hydraulic low → Green  Level",
+    "key": "Hydraulic low Green  Level"
+  },
+  {
+    "menu_id": "M136",
+    "ata": "ATA 29 - Hydraulic power",
+    "group": "Hydraulic low",
+    "label": "Blue  Level",
+    "enabled": true,
+    "path": "ATA 29 - Hydraulic power → Hydraulic low → Blue  Level",
+    "key": "Hydraulic low Blue  Level"
+  },
+  {
+    "menu_id": "M137",
+    "ata": "ATA 29 - Hydraulic power",
+    "group": "Hydraulic low",
+    "label": "Yellow  Level",
+    "enabled": true,
+    "path": "ATA 29 - Hydraulic power → Hydraulic low → Yellow  Level",
+    "key": "Hydraulic low Yellow  Level"
+  },
+  {
+    "menu_id": "M138",
+    "ata": "ATA 29 - Hydraulic power",
+    "group": "Engine pumps",
+    "label": "Eng 1 Pump Failure",
+    "enabled": true,
+    "path": "ATA 29 - Hydraulic power → Engine pumps → Eng 1 Pump Failure",
+    "key": "Engine pumps Eng 1 Pump Failure"
+  },
+  {
+    "menu_id": "M139",
+    "ata": "ATA 29 - Hydraulic power",
+    "group": "Engine pumps",
+    "label": "Eng 2 Pump Failure",
+    "enabled": true,
+    "path": "ATA 29 - Hydraulic power → Engine pumps → Eng 2 Pump Failure",
+    "key": "Engine pumps Eng 2 Pump Failure"
+  },
+  {
+    "menu_id": "M140",
+    "ata": "ATA 29 - Hydraulic power",
+    "group": "Fire valves",
+    "label": "Eng 1 Fire Valve",
+    "enabled": true,
+    "path": "ATA 29 - Hydraulic power → Fire valves → Eng 1 Fire Valve",
+    "key": "Fire valves Eng 1 Fire Valve"
+  },
+  {
+    "menu_id": "M141",
+    "ata": "ATA 29 - Hydraulic power",
+    "group": "Fire valves",
+    "label": "Eng 2 Fire Valve",
+    "enabled": true,
+    "path": "ATA 29 - Hydraulic power → Fire valves → Eng 2 Fire Valve",
+    "key": "Fire valves Eng 2 Fire Valve"
+  },
+  {
+    "menu_id": "M142",
+    "ata": "ATA 29 - Hydraulic power",
+    "group": "",
+    "label": "PTU Fault",
+    "enabled": true,
+    "path": "ATA 29 - Hydraulic power → PTU Fault",
+    "key": "PTU Fault"
+  },
+  {
+    "menu_id": "M143",
+    "ata": "ATA 29 - Hydraulic power",
+    "group": "Elec pumps",
+    "label": "Elec Hyd Pump Blue Failure",
+    "enabled": true,
+    "path": "ATA 29 - Hydraulic power → Elec pumps → Elec Hyd Pump Blue Failure",
+    "key": "Elec pumps Elec Hyd Pump Blue Failure"
+  },
+  {
+    "menu_id": "M144",
+    "ata": "ATA 29 - Hydraulic power",
+    "group": "Elec pumps",
+    "label": "Elec Hyd Pump Yellow Failure",
+    "enabled": true,
+    "path": "ATA 29 - Hydraulic power → Elec pumps → Elec Hyd Pump Yellow Failure",
+    "key": "Elec pumps Elec Hyd Pump Yellow Failure"
+  },
+  {
+    "menu_id": "M145",
+    "ata": "ATA 29 - Hydraulic power",
+    "group": "Elec pump overheat",
+    "label": "Elec Blue Pump Overheat",
+    "enabled": true,
+    "path": "ATA 29 - Hydraulic power → Elec pump overheat → Elec Blue Pump Overheat",
+    "key": "Elec pump overheat Elec Blue Pump Overheat"
+  },
+  {
+    "menu_id": "M146",
+    "ata": "ATA 29 - Hydraulic power",
+    "group": "Elec pump overheat",
+    "label": "Elec Yellow Pump Overheat",
+    "enabled": true,
+    "path": "ATA 29 - Hydraulic power → Elec pump overheat → Elec Yellow Pump Overheat",
+    "key": "Elec pump overheat Elec Yellow Pump Overheat"
+  },
+  {
+    "menu_id": "M147",
+    "ata": "ATA 32 - Landing gear",
+    "group": "BSCU",
+    "label": "Sys 1",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → BSCU → Sys 1",
+    "key": "BSCU Sys 1"
+  },
+  {
+    "menu_id": "M148",
+    "ata": "ATA 32 - Landing gear",
+    "group": "BSCU",
+    "label": "Sys 2",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → BSCU → Sys 2",
+    "key": "BSCU Sys 2"
+  },
+  {
+    "menu_id": "M149",
+    "ata": "ATA 32 - Landing gear",
+    "group": "",
+    "label": "ABCU",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → ABCU",
+    "key": "ABCU"
+  },
+  {
+    "menu_id": "M150",
+    "ata": "ATA 32 - Landing gear",
+    "group": "Brake fault",
+    "label": "Bscu 1",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → Brake fault → Bscu 1",
+    "key": "Brake fault Bscu 1"
+  },
+  {
+    "menu_id": "M151",
+    "ata": "ATA 32 - Landing gear",
+    "group": "Brake fault",
+    "label": "Bscu 2",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → Brake fault → Bscu 2",
+    "key": "Brake fault Bscu 2"
+  },
+  {
+    "menu_id": "M152",
+    "ata": "ATA 32 - Landing gear",
+    "group": "Brake fault",
+    "label": "Autobrake Failure",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → Brake fault → Autobrake Failure",
+    "key": "Brake fault Autobrake Failure"
+  },
+  {
+    "menu_id": "M153",
+    "ata": "ATA 32 - Landing gear",
+    "group": "Wheel brake fault",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → Wheel brake fault → 1",
+    "key": "Wheel brake fault 1"
+  },
+  {
+    "menu_id": "M154",
+    "ata": "ATA 32 - Landing gear",
+    "group": "Wheel brake fault",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → Wheel brake fault → 2",
+    "key": "Wheel brake fault 2"
+  },
+  {
+    "menu_id": "M155",
+    "ata": "ATA 32 - Landing gear",
+    "group": "Wheel brake fault",
+    "label": "3",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → Wheel brake fault → 3",
+    "key": "Wheel brake fault 3"
+  },
+  {
+    "menu_id": "M156",
+    "ata": "ATA 32 - Landing gear",
+    "group": "Wheel brake fault",
+    "label": "4",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → Wheel brake fault → 4",
+    "key": "Wheel brake fault 4"
+  },
+  {
+    "menu_id": "M157",
+    "ata": "ATA 32 - Landing gear",
+    "group": "Tyre pressure",
+    "label": "Main 1 Low",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → Tyre pressure → Main 1 Low",
+    "key": "Tyre pressure Main 1 Low"
+  },
+  {
+    "menu_id": "M158",
+    "ata": "ATA 32 - Landing gear",
+    "group": "Tyre pressure",
+    "label": "Main 2 Low",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → Tyre pressure → Main 2 Low",
+    "key": "Tyre pressure Main 2 Low"
+  },
+  {
+    "menu_id": "M159",
+    "ata": "ATA 32 - Landing gear",
+    "group": "Tyre pressure",
+    "label": "Left 1 Low",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → Tyre pressure → Left 1 Low",
+    "key": "Tyre pressure Left 1 Low"
+  },
+  {
+    "menu_id": "M160",
+    "ata": "ATA 32 - Landing gear",
+    "group": "Tyre pressure",
+    "label": "Left 2 Low",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → Tyre pressure → Left 2 Low",
+    "key": "Tyre pressure Left 2 Low"
+  },
+  {
+    "menu_id": "M161",
+    "ata": "ATA 32 - Landing gear",
+    "group": "Tyre pressure",
+    "label": "Right 1 Low",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → Tyre pressure → Right 1 Low",
+    "key": "Tyre pressure Right 1 Low"
+  },
+  {
+    "menu_id": "M162",
+    "ata": "ATA 32 - Landing gear",
+    "group": "Tyre pressure",
+    "label": "Right 2 Low",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → Tyre pressure → Right 2 Low",
+    "key": "Tyre pressure Right 2 Low"
+  },
+  {
+    "menu_id": "M163",
+    "ata": "ATA 32 - Landing gear",
+    "group": "",
+    "label": "Nose wheel steering",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → Nose wheel steering",
+    "key": "Nose wheel steering"
+  },
+  {
+    "menu_id": "M164",
+    "ata": "ATA 32 - Landing gear",
+    "group": "LGCIU",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → LGCIU → 1",
+    "key": "LGCIU 1"
+  },
+  {
+    "menu_id": "M165",
+    "ata": "ATA 32 - Landing gear",
+    "group": "LGCIU",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → LGCIU → 2",
+    "key": "LGCIU 2"
+  },
+  {
+    "menu_id": "M166",
+    "ata": "ATA 32 - Landing gear",
+    "group": "",
+    "label": "Gear safety valve",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → Gear safety valve",
+    "key": "Gear safety valve"
+  },
+  {
+    "menu_id": "M167",
+    "ata": "ATA 32 - Landing gear",
+    "group": "Gear lock",
+    "label": "Left Main Gear Does Not Lock",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → Gear lock → Left Main Gear Does Not Lock",
+    "key": "Gear lock Left Main Gear Does Not Lock"
+  },
+  {
+    "menu_id": "M168",
+    "ata": "ATA 32 - Landing gear",
+    "group": "Gear lock",
+    "label": "Nose Gear Does Not Lock",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → Gear lock → Nose Gear Does Not Lock",
+    "key": "Gear lock Nose Gear Does Not Lock"
+  },
+  {
+    "menu_id": "M169",
+    "ata": "ATA 32 - Landing gear",
+    "group": "Gear lock",
+    "label": "Right Main Gear Does Not Lock",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → Gear lock → Right Main Gear Does Not Lock",
+    "key": "Gear lock Right Main Gear Does Not Lock"
+  },
+  {
+    "menu_id": "M170",
+    "ata": "ATA 32 - Landing gear",
+    "group": "Gear failure",
+    "label": "Gear Locked Up",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → Gear failure → Gear Locked Up",
+    "key": "Gear failure Gear Locked Up"
+  },
+  {
+    "menu_id": "M171",
+    "ata": "ATA 32 - Landing gear",
+    "group": "Gear failure",
+    "label": "Gear Locked Down",
+    "enabled": true,
+    "path": "ATA 32 - Landing gear → Gear failure → Gear Locked Down",
+    "key": "Gear failure Gear Locked Down"
+  },
+  {
+    "menu_id": "M172",
+    "ata": "ATA 34 - Navigation",
+    "group": "IR fault",
+    "label": "Ir1 Ir Failure",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → IR fault → Ir1 Ir Failure",
+    "key": "IR fault Ir1 Ir Failure"
+  },
+  {
+    "menu_id": "M173",
+    "ata": "ATA 34 - Navigation",
+    "group": "IR fault",
+    "label": "Ir2 Ir Failure",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → IR fault → Ir2 Ir Failure",
+    "key": "IR fault Ir2 Ir Failure"
+  },
+  {
+    "menu_id": "M174",
+    "ata": "ATA 34 - Navigation",
+    "group": "IR fault",
+    "label": "Ir3 Ir Failure",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → IR fault → Ir3 Ir Failure",
+    "key": "IR fault Ir3 Ir Failure"
+  },
+  {
+    "menu_id": "M175",
+    "ata": "ATA 34 - Navigation",
+    "group": "IRS position failure",
+    "label": "Ir1 Position Failure",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → IRS position failure → Ir1 Position Failure",
+    "key": "IRS position failure Ir1 Position Failure"
+  },
+  {
+    "menu_id": "M176",
+    "ata": "ATA 34 - Navigation",
+    "group": "IRS position failure",
+    "label": "Ir2 Position Failure",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → IRS position failure → Ir2 Position Failure",
+    "key": "IRS position failure Ir2 Position Failure"
+  },
+  {
+    "menu_id": "M177",
+    "ata": "ATA 34 - Navigation",
+    "group": "IRS position failure",
+    "label": "Ir3 Position Failure",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → IRS position failure → Ir3 Position Failure",
+    "key": "IRS position failure Ir3 Position Failure"
+  },
+  {
+    "menu_id": "M178",
+    "ata": "ATA 34 - Navigation",
+    "group": "ADR fault",
+    "label": "Adr1 Failure",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → ADR fault → Adr1 Failure",
+    "key": "ADR fault Adr1 Failure"
+  },
+  {
+    "menu_id": "M179",
+    "ata": "ATA 34 - Navigation",
+    "group": "ADR fault",
+    "label": "Adr2 Failure",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → ADR fault → Adr2 Failure",
+    "key": "ADR fault Adr2 Failure"
+  },
+  {
+    "menu_id": "M180",
+    "ata": "ATA 34 - Navigation",
+    "group": "ADR fault",
+    "label": "Adr3 Failure",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → ADR fault → Adr3 Failure",
+    "key": "ADR fault Adr3 Failure"
+  },
+  {
+    "menu_id": "M181",
+    "ata": "ATA 34 - Navigation",
+    "group": "IRS Alignment",
+    "label": "Ir1 Alignment",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → IRS Alignment → Ir1 Alignment",
+    "key": "IRS Alignment Ir1 Alignment"
+  },
+  {
+    "menu_id": "M182",
+    "ata": "ATA 34 - Navigation",
+    "group": "IRS Alignment",
+    "label": "Ir2 Alignment",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → IRS Alignment → Ir2 Alignment",
+    "key": "IRS Alignment Ir2 Alignment"
+  },
+  {
+    "menu_id": "M183",
+    "ata": "ATA 34 - Navigation",
+    "group": "IRS Alignment",
+    "label": "Ir3 Alignment",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → IRS Alignment → Ir3 Alignment",
+    "key": "IRS Alignment Ir3 Alignment"
+  },
+  {
+    "menu_id": "M184",
+    "ata": "ATA 34 - Navigation",
+    "group": "Pitot blocked",
+    "label": "Capt",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → Pitot blocked → Capt",
+    "key": "Pitot blocked Capt"
+  },
+  {
+    "menu_id": "M185",
+    "ata": "ATA 34 - Navigation",
+    "group": "Pitot blocked",
+    "label": "F/o",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → Pitot blocked → F/o",
+    "key": "Pitot blocked F/o"
+  },
+  {
+    "menu_id": "M186",
+    "ata": "ATA 34 - Navigation",
+    "group": "Pitot blocked",
+    "label": "Stdby",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → Pitot blocked → Stdby",
+    "key": "Pitot blocked Stdby"
+  },
+  {
+    "menu_id": "M187",
+    "ata": "ATA 34 - Navigation",
+    "group": "Pitch discrepancy",
+    "label": "Ir1",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → Pitch discrepancy → Ir1",
+    "key": "Pitch discrepancy Ir1"
+  },
+  {
+    "menu_id": "M188",
+    "ata": "ATA 34 - Navigation",
+    "group": "Pitch discrepancy",
+    "label": "Ir2",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → Pitch discrepancy → Ir2",
+    "key": "Pitch discrepancy Ir2"
+  },
+  {
+    "menu_id": "M189",
+    "ata": "ATA 34 - Navigation",
+    "group": "Pitch discrepancy",
+    "label": "Ir3",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → Pitch discrepancy → Ir3",
+    "key": "Pitch discrepancy Ir3"
+  },
+  {
+    "menu_id": "M190",
+    "ata": "ATA 34 - Navigation",
+    "group": "Bank discrepancy",
+    "label": "Ir1",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → Bank discrepancy → Ir1",
+    "key": "Bank discrepancy Ir1"
+  },
+  {
+    "menu_id": "M191",
+    "ata": "ATA 34 - Navigation",
+    "group": "Bank discrepancy",
+    "label": "Ir2",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → Bank discrepancy → Ir2",
+    "key": "Bank discrepancy Ir2"
+  },
+  {
+    "menu_id": "M192",
+    "ata": "ATA 34 - Navigation",
+    "group": "Bank discrepancy",
+    "label": "Ir3",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → Bank discrepancy → Ir3",
+    "key": "Bank discrepancy Ir3"
+  },
+  {
+    "menu_id": "M193",
+    "ata": "ATA 34 - Navigation",
+    "group": "Heading discrepancy",
+    "label": "Ir1",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → Heading discrepancy → Ir1",
+    "key": "Heading discrepancy Ir1"
+  },
+  {
+    "menu_id": "M194",
+    "ata": "ATA 34 - Navigation",
+    "group": "Heading discrepancy",
+    "label": "Ir2",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → Heading discrepancy → Ir2",
+    "key": "Heading discrepancy Ir2"
+  },
+  {
+    "menu_id": "M195",
+    "ata": "ATA 34 - Navigation",
+    "group": "Heading discrepancy",
+    "label": "Ir3",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → Heading discrepancy → Ir3",
+    "key": "Heading discrepancy Ir3"
+  },
+  {
+    "menu_id": "M196",
+    "ata": "ATA 34 - Navigation",
+    "group": "IR Disagree",
+    "label": "Ir1",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → IR Disagree → Ir1",
+    "key": "IR Disagree Ir1"
+  },
+  {
+    "menu_id": "M197",
+    "ata": "ATA 34 - Navigation",
+    "group": "IR Disagree",
+    "label": "Ir2",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → IR Disagree → Ir2",
+    "key": "IR Disagree Ir2"
+  },
+  {
+    "menu_id": "M198",
+    "ata": "ATA 34 - Navigation",
+    "group": "MCDU",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → MCDU → 1",
+    "key": "MCDU 1"
+  },
+  {
+    "menu_id": "M199",
+    "ata": "ATA 34 - Navigation",
+    "group": "MCDU",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → MCDU → 2",
+    "key": "MCDU 2"
+  },
+  {
+    "menu_id": "M200",
+    "ata": "ATA 34 - Navigation",
+    "group": "MCDU recoverable fault",
+    "label": "Cdu 1 Recoverable Fault",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → MCDU recoverable fault → Cdu 1 Recoverable Fault",
+    "key": "MCDU recoverable fault Cdu 1 Recoverable Fault"
+  },
+  {
+    "menu_id": "M201",
+    "ata": "ATA 34 - Navigation",
+    "group": "MCDU recoverable fault",
+    "label": "Cdu 2 Recoverable Fault",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → MCDU recoverable fault → Cdu 2 Recoverable Fault",
+    "key": "MCDU recoverable fault Cdu 2 Recoverable Fault"
+  },
+  {
+    "menu_id": "M202",
+    "ata": "ATA 34 - Navigation",
+    "group": "FMGC",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → FMGC → 1",
+    "key": "FMGC 1"
+  },
+  {
+    "menu_id": "M203",
+    "ata": "ATA 34 - Navigation",
+    "group": "FMGC",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → FMGC → 2",
+    "key": "FMGC 2"
+  },
+  {
+    "menu_id": "M204",
+    "ata": "ATA 34 - Navigation",
+    "group": "",
+    "label": "GPWC",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → GPWC",
+    "key": "GPWC"
+  },
+  {
+    "menu_id": "M205",
+    "ata": "ATA 34 - Navigation",
+    "group": "Radios",
+    "label": "Vor 1",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → Radios → Vor 1",
+    "key": "Radios Vor 1"
+  },
+  {
+    "menu_id": "M206",
+    "ata": "ATA 34 - Navigation",
+    "group": "Radios",
+    "label": "Vor 2",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → Radios → Vor 2",
+    "key": "Radios Vor 2"
+  },
+  {
+    "menu_id": "M207",
+    "ata": "ATA 34 - Navigation",
+    "group": "Radios",
+    "label": "Adf 1",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → Radios → Adf 1",
+    "key": "Radios Adf 1"
+  },
+  {
+    "menu_id": "M208",
+    "ata": "ATA 34 - Navigation",
+    "group": "Radios",
+    "label": "Adf 2",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → Radios → Adf 2",
+    "key": "Radios Adf 2"
+  },
+  {
+    "menu_id": "M209",
+    "ata": "ATA 34 - Navigation",
+    "group": "ILS",
+    "label": "1 Loc",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → ILS → 1 Loc",
+    "key": "ILS 1 Loc"
+  },
+  {
+    "menu_id": "M210",
+    "ata": "ATA 34 - Navigation",
+    "group": "ILS",
+    "label": "1 G/s",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → ILS → 1 G/s",
+    "key": "ILS 1 G/s"
+  },
+  {
+    "menu_id": "M211",
+    "ata": "ATA 34 - Navigation",
+    "group": "ILS",
+    "label": "2 Loc",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → ILS → 2 Loc",
+    "key": "ILS 2 Loc"
+  },
+  {
+    "menu_id": "M212",
+    "ata": "ATA 34 - Navigation",
+    "group": "ILS",
+    "label": "2 G/s",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → ILS → 2 G/s",
+    "key": "ILS 2 G/s"
+  },
+  {
+    "menu_id": "M213",
+    "ata": "ATA 34 - Navigation",
+    "group": "ILS transmitter",
+    "label": "Localizer",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → ILS transmitter → Localizer",
+    "key": "ILS transmitter Localizer"
+  },
+  {
+    "menu_id": "M214",
+    "ata": "ATA 34 - Navigation",
+    "group": "ILS transmitter",
+    "label": "Glideslope",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → ILS transmitter → Glideslope",
+    "key": "ILS transmitter Glideslope"
+  },
+  {
+    "menu_id": "M215",
+    "ata": "ATA 34 - Navigation",
+    "group": "GPS",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → GPS → 1",
+    "key": "GPS 1"
+  },
+  {
+    "menu_id": "M216",
+    "ata": "ATA 34 - Navigation",
+    "group": "GPS",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → GPS → 2",
+    "key": "GPS 2"
+  },
+  {
+    "menu_id": "M217",
+    "ata": "ATA 34 - Navigation",
+    "group": "Radio altimeter",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → Radio altimeter → 1",
+    "key": "Radio altimeter 1"
+  },
+  {
+    "menu_id": "M218",
+    "ata": "ATA 34 - Navigation",
+    "group": "Radio altimeter",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → Radio altimeter → 2",
+    "key": "Radio altimeter 2"
+  },
+  {
+    "menu_id": "M219",
+    "ata": "ATA 34 - Navigation",
+    "group": "",
+    "label": "NAV accuracy downgrade",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → NAV accuracy downgrade",
+    "key": "NAV accuracy downgrade"
+  },
+  {
+    "menu_id": "M220",
+    "ata": "ATA 34 - Navigation",
+    "group": "",
+    "label": "TCAS",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → TCAS",
+    "key": "TCAS"
+  },
+  {
+    "menu_id": "M221",
+    "ata": "ATA 34 - Navigation",
+    "group": "ATC",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → ATC → 1",
+    "key": "ATC 1"
+  },
+  {
+    "menu_id": "M222",
+    "ata": "ATA 34 - Navigation",
+    "group": "ATC",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 34 - Navigation → ATC → 2",
+    "key": "ATC 2"
+  },
+  {
+    "menu_id": "M223",
+    "ata": "ATA 36 - Pneumatic",
+    "group": "",
+    "label": "Lavatory/Galley fan",
+    "enabled": true,
+    "path": "ATA 36 - Pneumatic → Lavatory/Galley fan",
+    "key": "Lavatory/Galley fan"
+  },
+  {
+    "menu_id": "M224",
+    "ata": "ATA 36 - Pneumatic",
+    "group": "Pneumatic valves",
+    "label": "Eng 1 Hp Valve",
+    "enabled": true,
+    "path": "ATA 36 - Pneumatic → Pneumatic valves → Eng 1 Hp Valve",
+    "key": "Pneumatic valves Eng 1 Hp Valve"
+  },
+  {
+    "menu_id": "M225",
+    "ata": "ATA 36 - Pneumatic",
+    "group": "Pneumatic valves",
+    "label": "Eng 2 Hp Valve",
+    "enabled": true,
+    "path": "ATA 36 - Pneumatic → Pneumatic valves → Eng 2 Hp Valve",
+    "key": "Pneumatic valves Eng 2 Hp Valve"
+  },
+  {
+    "menu_id": "M226",
+    "ata": "ATA 36 - Pneumatic",
+    "group": "Pneumatic valves",
+    "label": "Ram Air Valve",
+    "enabled": true,
+    "path": "ATA 36 - Pneumatic → Pneumatic valves → Ram Air Valve",
+    "key": "Pneumatic valves Ram Air Valve"
+  },
+  {
+    "menu_id": "M227",
+    "ata": "ATA 36 - Pneumatic",
+    "group": "Pneumatic valves",
+    "label": "Eng 1 Bleed Valve",
+    "enabled": true,
+    "path": "ATA 36 - Pneumatic → Pneumatic valves → Eng 1 Bleed Valve",
+    "key": "Pneumatic valves Eng 1 Bleed Valve"
+  },
+  {
+    "menu_id": "M228",
+    "ata": "ATA 36 - Pneumatic",
+    "group": "Pneumatic valves",
+    "label": "Eng 2 Bleed Valve",
+    "enabled": true,
+    "path": "ATA 36 - Pneumatic → Pneumatic valves → Eng 2 Bleed Valve",
+    "key": "Pneumatic valves Eng 2 Bleed Valve"
+  },
+  {
+    "menu_id": "M229",
+    "ata": "ATA 36 - Pneumatic",
+    "group": "Pneumatic valves",
+    "label": "Hot Air Valve",
+    "enabled": true,
+    "path": "ATA 36 - Pneumatic → Pneumatic valves → Hot Air Valve",
+    "key": "Pneumatic valves Hot Air Valve"
+  },
+  {
+    "menu_id": "M230",
+    "ata": "ATA 36 - Pneumatic",
+    "group": "Bleed air low temperature",
+    "label": "Eng 1 Bleed Low Temp",
+    "enabled": true,
+    "path": "ATA 36 - Pneumatic → Bleed air low temperature → Eng 1 Bleed Low Temp",
+    "key": "Bleed air low temperature Eng 1 Bleed Low Temp"
+  },
+  {
+    "menu_id": "M231",
+    "ata": "ATA 36 - Pneumatic",
+    "group": "Bleed air low temperature",
+    "label": "Eng 2 Bleed Low Temp",
+    "enabled": true,
+    "path": "ATA 36 - Pneumatic → Bleed air low temperature → Eng 2 Bleed Low Temp",
+    "key": "Bleed air low temperature Eng 2 Bleed Low Temp"
+  },
+  {
+    "menu_id": "M232",
+    "ata": "ATA 36 - Pneumatic",
+    "group": "BMC",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 36 - Pneumatic → BMC → 1",
+    "key": "BMC 1"
+  },
+  {
+    "menu_id": "M233",
+    "ata": "ATA 36 - Pneumatic",
+    "group": "BMC",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 36 - Pneumatic → BMC → 2",
+    "key": "BMC 2"
+  },
+  {
+    "menu_id": "M234",
+    "ata": "ATA 36 - Pneumatic",
+    "group": "Pneumatic valve",
+    "label": "Crossbleed Valve",
+    "enabled": true,
+    "path": "ATA 36 - Pneumatic → Pneumatic valve → Crossbleed Valve",
+    "key": "Pneumatic valve Crossbleed Valve"
+  },
+  {
+    "menu_id": "M235",
+    "ata": "ATA 36 - Pneumatic",
+    "group": "Pneumatic valve",
+    "label": "Apu Bleed Valve",
+    "enabled": true,
+    "path": "ATA 36 - Pneumatic → Pneumatic valve → Apu Bleed Valve",
+    "key": "Pneumatic valve Apu Bleed Valve"
+  },
+  {
+    "menu_id": "M236",
+    "ata": "ATA 36 - Pneumatic",
+    "group": "Pack valves",
+    "label": "Pack 1 Flow Control Valve",
+    "enabled": true,
+    "path": "ATA 36 - Pneumatic → Pack valves → Pack 1 Flow Control Valve",
+    "key": "Pack valves Pack 1 Flow Control Valve"
+  },
+  {
+    "menu_id": "M237",
+    "ata": "ATA 36 - Pneumatic",
+    "group": "Pack valves",
+    "label": "Pack 2 Flow Control Valve",
+    "enabled": true,
+    "path": "ATA 36 - Pneumatic → Pack valves → Pack 2 Flow Control Valve",
+    "key": "Pack valves Pack 2 Flow Control Valve"
+  },
+  {
+    "menu_id": "M238",
+    "ata": "ATA 36 - Pneumatic",
+    "group": "Bleed leak",
+    "label": "Wing Engine 1",
+    "enabled": true,
+    "path": "ATA 36 - Pneumatic → Bleed leak → Wing Engine 1",
+    "key": "Bleed leak Wing Engine 1"
+  },
+  {
+    "menu_id": "M239",
+    "ata": "ATA 36 - Pneumatic",
+    "group": "Bleed leak",
+    "label": "Wing Engine 2",
+    "enabled": true,
+    "path": "ATA 36 - Pneumatic → Bleed leak → Wing Engine 2",
+    "key": "Bleed leak Wing Engine 2"
+  },
+  {
+    "menu_id": "M240",
+    "ata": "ATA 36 - Pneumatic",
+    "group": "Bleed leak",
+    "label": "Pylon Engine 1",
+    "enabled": true,
+    "path": "ATA 36 - Pneumatic → Bleed leak → Pylon Engine 1",
+    "key": "Bleed leak Pylon Engine 1"
+  },
+  {
+    "menu_id": "M241",
+    "ata": "ATA 36 - Pneumatic",
+    "group": "Bleed leak",
+    "label": "Pylon Engine 2",
+    "enabled": true,
+    "path": "ATA 36 - Pneumatic → Bleed leak → Pylon Engine 2",
+    "key": "Bleed leak Pylon Engine 2"
+  },
+  {
+    "menu_id": "M242",
+    "ata": "ATA 36 - Pneumatic",
+    "group": "Bleed leak",
+    "label": "Apu",
+    "enabled": true,
+    "path": "ATA 36 - Pneumatic → Bleed leak → Apu",
+    "key": "Bleed leak Apu"
+  },
+  {
+    "menu_id": "M243",
+    "ata": "ATA 49 - APU",
+    "group": "",
+    "label": "ECB",
+    "enabled": true,
+    "path": "ATA 49 - APU → ECB",
+    "key": "ECB"
+  },
+  {
+    "menu_id": "M244",
+    "ata": "ATA 49 - APU",
+    "group": "",
+    "label": "APU Low oil level",
+    "enabled": true,
+    "path": "ATA 49 - APU → APU Low oil level",
+    "key": "APU Low oil level"
+  },
+  {
+    "menu_id": "M245",
+    "ata": "ATA 49 - APU",
+    "group": "",
+    "label": "APU fuel valve",
+    "enabled": true,
+    "path": "ATA 49 - APU → APU fuel valve",
+    "key": "APU fuel valve"
+  },
+  {
+    "menu_id": "M246",
+    "ata": "ATA 23 - Communications",
+    "group": "Stuck mic",
+    "label": "Capt",
+    "enabled": true,
+    "path": "ATA 23 - Communications → Stuck mic → Capt",
+    "key": "Stuck mic Capt"
+  },
+  {
+    "menu_id": "M247",
+    "ata": "ATA 23 - Communications",
+    "group": "Stuck mic",
+    "label": "F/o",
+    "enabled": true,
+    "path": "ATA 23 - Communications → Stuck mic → F/o",
+    "key": "Stuck mic F/o"
+  },
+  {
+    "menu_id": "M248",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "WAI Valves",
+    "label": "Left Wai Valve",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → WAI Valves → Left Wai Valve",
+    "key": "WAI Valves Left Wai Valve"
+  },
+  {
+    "menu_id": "M249",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "WAI Valves",
+    "label": "Right Wai Valve",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → WAI Valves → Right Wai Valve",
+    "key": "WAI Valves Right Wai Valve"
+  },
+  {
+    "menu_id": "M250",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "EAI Valves",
+    "label": "Eng 1 Eai Valve",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → EAI Valves → Eng 1 Eai Valve",
+    "key": "EAI Valves Eng 1 Eai Valve"
+  },
+  {
+    "menu_id": "M251",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "EAI Valves",
+    "label": "Eng 2 Eai Valve",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → EAI Valves → Eng 2 Eai Valve",
+    "key": "EAI Valves Eng 2 Eai Valve"
+  },
+  {
+    "menu_id": "M252",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "WHC",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → WHC → 1",
+    "key": "WHC 1"
+  },
+  {
+    "menu_id": "M253",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "WHC",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → WHC → 2",
+    "key": "WHC 2"
+  },
+  {
+    "menu_id": "M254",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "AOA Heat",
+    "label": "Capt",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → AOA Heat → Capt",
+    "key": "AOA Heat Capt"
+  },
+  {
+    "menu_id": "M255",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "AOA Heat",
+    "label": "F/o",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → AOA Heat → F/o",
+    "key": "AOA Heat F/o"
+  },
+  {
+    "menu_id": "M256",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "AOA Heat",
+    "label": "Stby",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → AOA Heat → Stby",
+    "key": "AOA Heat Stby"
+  },
+  {
+    "menu_id": "M257",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "TAT Heat",
+    "label": "Capt",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → TAT Heat → Capt",
+    "key": "TAT Heat Capt"
+  },
+  {
+    "menu_id": "M258",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "TAT Heat",
+    "label": "F/o",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → TAT Heat → F/o",
+    "key": "TAT Heat F/o"
+  },
+  {
+    "menu_id": "M259",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "TAT Heat",
+    "label": "Stby",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → TAT Heat → Stby",
+    "key": "TAT Heat Stby"
+  },
+  {
+    "menu_id": "M260",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "Pitot Heat",
+    "label": "Capt",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → Pitot Heat → Capt",
+    "key": "Pitot Heat Capt"
+  },
+  {
+    "menu_id": "M261",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "Pitot Heat",
+    "label": "F/o",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → Pitot Heat → F/o",
+    "key": "Pitot Heat F/o"
+  },
+  {
+    "menu_id": "M262",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "Pitot Heat",
+    "label": "Stby",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → Pitot Heat → Stby",
+    "key": "Pitot Heat Stby"
+  },
+  {
+    "menu_id": "M263",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "Static Heat",
+    "label": "Left  Capt",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → Static Heat → Left  Capt",
+    "key": "Static Heat Left  Capt"
+  },
+  {
+    "menu_id": "M264",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "Static Heat",
+    "label": "Right  Capt",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → Static Heat → Right  Capt",
+    "key": "Static Heat Right  Capt"
+  },
+  {
+    "menu_id": "M265",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "Static Heat",
+    "label": "Left  F/o",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → Static Heat → Left  F/o",
+    "key": "Static Heat Left  F/o"
+  },
+  {
+    "menu_id": "M266",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "Static Heat",
+    "label": "Right  F/o",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → Static Heat → Right  F/o",
+    "key": "Static Heat Right  F/o"
+  },
+  {
+    "menu_id": "M267",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "Static Heat",
+    "label": "Left  Stby",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → Static Heat → Left  Stby",
+    "key": "Static Heat Left  Stby"
+  },
+  {
+    "menu_id": "M268",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "Static Heat",
+    "label": "Right  Stby",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → Static Heat → Right  Stby",
+    "key": "Static Heat Right  Stby"
+  },
+  {
+    "menu_id": "M269",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "PHC",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → PHC → 1",
+    "key": "PHC 1"
+  },
+  {
+    "menu_id": "M270",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "PHC",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → PHC → 2",
+    "key": "PHC 2"
+  },
+  {
+    "menu_id": "M271",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "PHC",
+    "label": "3",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → PHC → 3",
+    "key": "PHC 3"
+  },
+  {
+    "menu_id": "M272",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "Icing",
+    "label": "Eng 1",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → Icing → Eng 1",
+    "key": "Icing Eng 1"
+  },
+  {
+    "menu_id": "M273",
+    "ata": "ATA 30 - Ice and rain protection",
+    "group": "Icing",
+    "label": "Eng 2",
+    "enabled": true,
+    "path": "ATA 30 - Ice and rain protection → Icing → Eng 2",
+    "key": "Icing Eng 2"
+  },
+  {
+    "menu_id": "M274",
+    "ata": "ATA 27 - Flight controls",
+    "group": "IPPU",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → IPPU → 1",
+    "key": "IPPU 1"
+  },
+  {
+    "menu_id": "M275",
+    "ata": "ATA 27 - Flight controls",
+    "group": "IPPU",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → IPPU → 2",
+    "key": "IPPU 2"
+  },
+  {
+    "menu_id": "M276",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Surface lock",
+    "label": "Flap Locked",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Surface lock → Flap Locked",
+    "key": "Surface lock Flap Locked"
+  },
+  {
+    "menu_id": "M277",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Surface lock",
+    "label": "Slat Locked",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Surface lock → Slat Locked",
+    "key": "Surface lock Slat Locked"
+  },
+  {
+    "menu_id": "M278",
+    "ata": "ATA 27 - Flight controls",
+    "group": "",
+    "label": "Alignment fault",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Alignment fault",
+    "key": "Alignment fault"
+  },
+  {
+    "menu_id": "M279",
+    "ata": "ATA 27 - Flight controls",
+    "group": "SFCC",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → SFCC → 1",
+    "key": "SFCC 1"
+  },
+  {
+    "menu_id": "M280",
+    "ata": "ATA 27 - Flight controls",
+    "group": "SFCC",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → SFCC → 2",
+    "key": "SFCC 2"
+  },
+  {
+    "menu_id": "M281",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Flap",
+    "label": "Sfcc 1  Sys",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Flap → Sfcc 1  Sys",
+    "key": "Flap Sfcc 1  Sys"
+  },
+  {
+    "menu_id": "M282",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Flap",
+    "label": "Sfcc 2  Sys",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Flap → Sfcc 2  Sys",
+    "key": "Flap Sfcc 2  Sys"
+  },
+  {
+    "menu_id": "M283",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Slat",
+    "label": "Sfcc 1  Sys",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Slat → Sfcc 1  Sys",
+    "key": "Slat Sfcc 1  Sys"
+  },
+  {
+    "menu_id": "M284",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Slat",
+    "label": "Sfcc 2  Sys",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Slat → Sfcc 2  Sys",
+    "key": "Slat Sfcc 2  Sys"
+  },
+  {
+    "menu_id": "M285",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Nonresettable fault",
+    "label": "Elac 1",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Nonresettable fault → Elac 1",
+    "key": "Nonresettable fault Elac 1"
+  },
+  {
+    "menu_id": "M286",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Nonresettable fault",
+    "label": "Elac 2",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Nonresettable fault → Elac 2",
+    "key": "Nonresettable fault Elac 2"
+  },
+  {
+    "menu_id": "M287",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Nonresettable fault",
+    "label": "Sec 1",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Nonresettable fault → Sec 1",
+    "key": "Nonresettable fault Sec 1"
+  },
+  {
+    "menu_id": "M288",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Nonresettable fault",
+    "label": "Sec 2",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Nonresettable fault → Sec 2",
+    "key": "Nonresettable fault Sec 2"
+  },
+  {
+    "menu_id": "M289",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Nonresettable fault",
+    "label": "Sec 3",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Nonresettable fault → Sec 3",
+    "key": "Nonresettable fault Sec 3"
+  },
+  {
+    "menu_id": "M290",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Resettable fault",
+    "label": "Elac 1",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Resettable fault → Elac 1",
+    "key": "Resettable fault Elac 1"
+  },
+  {
+    "menu_id": "M291",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Resettable fault",
+    "label": "Elac 2",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Resettable fault → Elac 2",
+    "key": "Resettable fault Elac 2"
+  },
+  {
+    "menu_id": "M292",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Resettable fault",
+    "label": "Sec 1",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Resettable fault → Sec 1",
+    "key": "Resettable fault Sec 1"
+  },
+  {
+    "menu_id": "M293",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Resettable fault",
+    "label": "Sec 2",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Resettable fault → Sec 2",
+    "key": "Resettable fault Sec 2"
+  },
+  {
+    "menu_id": "M294",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Resettable fault",
+    "label": "Sec 3",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Resettable fault → Sec 3",
+    "key": "Resettable fault Sec 3"
+  },
+  {
+    "menu_id": "M295",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Yaw damper",
+    "label": "Channel 1",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Yaw damper → Channel 1",
+    "key": "Yaw damper Channel 1"
+  },
+  {
+    "menu_id": "M296",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Yaw damper",
+    "label": "Channel 2",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Yaw damper → Channel 2",
+    "key": "Yaw damper Channel 2"
+  },
+  {
+    "menu_id": "M297",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Sidestick reversal",
+    "label": "Pitch Capt",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Sidestick reversal → Pitch Capt",
+    "key": "Sidestick reversal Pitch Capt"
+  },
+  {
+    "menu_id": "M298",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Sidestick reversal",
+    "label": "Roll Capt",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Sidestick reversal → Roll Capt",
+    "key": "Sidestick reversal Roll Capt"
+  },
+  {
+    "menu_id": "M299",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Sidestick reversal",
+    "label": "Pitch F/o",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Sidestick reversal → Pitch F/o",
+    "key": "Sidestick reversal Pitch F/o"
+  },
+  {
+    "menu_id": "M300",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Sidestick reversal",
+    "label": "Roll F/o",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Sidestick reversal → Roll F/o",
+    "key": "Sidestick reversal Roll F/o"
+  },
+  {
+    "menu_id": "M301",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Sidestick",
+    "label": "Fault Capt",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Sidestick → Fault Capt",
+    "key": "Sidestick Fault Capt"
+  },
+  {
+    "menu_id": "M302",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Sidestick",
+    "label": "Fault F/o",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Sidestick → Fault F/o",
+    "key": "Sidestick Fault F/o"
+  },
+  {
+    "menu_id": "M303",
+    "ata": "ATA 27 - Flight controls",
+    "group": "FCDC",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → FCDC → 1",
+    "key": "FCDC 1"
+  },
+  {
+    "menu_id": "M304",
+    "ata": "ATA 27 - Flight controls",
+    "group": "FCDC",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → FCDC → 2",
+    "key": "FCDC 2"
+  },
+  {
+    "menu_id": "M305",
+    "ata": "ATA 27 - Flight controls",
+    "group": "",
+    "label": "Stabilizer jam",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Stabilizer jam",
+    "key": "Stabilizer jam"
+  },
+  {
+    "menu_id": "M306",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Elev",
+    "label": "L+r Failure",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Elev → L+r Failure",
+    "key": "Elev L+r Failure"
+  },
+  {
+    "menu_id": "M307",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Elev",
+    "label": "L  Failure",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Elev → L  Failure",
+    "key": "Elev L  Failure"
+  },
+  {
+    "menu_id": "M308",
+    "ata": "ATA 27 - Flight controls",
+    "group": "Elev",
+    "label": "R  Failure",
+    "enabled": true,
+    "path": "ATA 27 - Flight controls → Elev → R  Failure",
+    "key": "Elev R  Failure"
+  },
+  {
+    "menu_id": "M309",
+    "ata": "ATA 80 - Start faults",
+    "group": "Start valve",
+    "label": "Left",
+    "enabled": true,
+    "path": "ATA 80 - Start faults → Start valve → Left",
+    "key": "Start valve Left"
+  },
+  {
+    "menu_id": "M310",
+    "ata": "ATA 80 - Start faults",
+    "group": "Start valve",
+    "label": "Right",
+    "enabled": true,
+    "path": "ATA 80 - Start faults → Start valve → Right",
+    "key": "Start valve Right"
+  },
+  {
+    "menu_id": "M311",
+    "ata": "ATA 80 - Start faults",
+    "group": "Hot start",
+    "label": "Eng 1",
+    "enabled": true,
+    "path": "ATA 80 - Start faults → Hot start → Eng 1",
+    "key": "Hot start Eng 1"
+  },
+  {
+    "menu_id": "M312",
+    "ata": "ATA 80 - Start faults",
+    "group": "Hot start",
+    "label": "Eng 2",
+    "enabled": true,
+    "path": "ATA 80 - Start faults → Hot start → Eng 2",
+    "key": "Hot start Eng 2"
+  },
+  {
+    "menu_id": "M313",
+    "ata": "ATA 80 - Start faults",
+    "group": "Stall/Hung start",
+    "label": "Eng 1 Hung Start",
+    "enabled": true,
+    "path": "ATA 80 - Start faults → Stall/Hung start → Eng 1 Hung Start",
+    "key": "Stall/Hung start Eng 1 Hung Start"
+  },
+  {
+    "menu_id": "M314",
+    "ata": "ATA 80 - Start faults",
+    "group": "Stall/Hung start",
+    "label": "Eng 2 Hung Start",
+    "enabled": true,
+    "path": "ATA 80 - Start faults → Stall/Hung start → Eng 2 Hung Start",
+    "key": "Stall/Hung start Eng 2 Hung Start"
+  },
+  {
+    "menu_id": "M315",
+    "ata": "ATA 80 - Start faults",
+    "group": "No ignition",
+    "label": "Eng 1",
+    "enabled": true,
+    "path": "ATA 80 - Start faults → No ignition → Eng 1",
+    "key": "No ignition Eng 1"
+  },
+  {
+    "menu_id": "M316",
+    "ata": "ATA 80 - Start faults",
+    "group": "No ignition",
+    "label": "Eng 2",
+    "enabled": true,
+    "path": "ATA 80 - Start faults → No ignition → Eng 2",
+    "key": "No ignition Eng 2"
+  },
+  {
+    "menu_id": "M317",
+    "ata": "ATA 31 - Indicating/Recording system",
+    "group": "",
+    "label": "CFDIU",
+    "enabled": true,
+    "path": "ATA 31 - Indicating/Recording system → CFDIU",
+    "key": "CFDIU"
+  },
+  {
+    "menu_id": "M318",
+    "ata": "ATA 31 - Indicating/Recording system",
+    "group": "",
+    "label": "ECP",
+    "enabled": true,
+    "path": "ATA 31 - Indicating/Recording system → ECP",
+    "key": "ECP"
+  },
+  {
+    "menu_id": "M319",
+    "ata": "ATA 31 - Indicating/Recording system",
+    "group": "SDAC",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 31 - Indicating/Recording system → SDAC → 1",
+    "key": "SDAC 1"
+  },
+  {
+    "menu_id": "M320",
+    "ata": "ATA 31 - Indicating/Recording system",
+    "group": "SDAC",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 31 - Indicating/Recording system → SDAC → 2",
+    "key": "SDAC 2"
+  },
+  {
+    "menu_id": "M321",
+    "ata": "ATA 31 - Indicating/Recording system",
+    "group": "FWC",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 31 - Indicating/Recording system → FWC → 1",
+    "key": "FWC 1"
+  },
+  {
+    "menu_id": "M322",
+    "ata": "ATA 31 - Indicating/Recording system",
+    "group": "FWC",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 31 - Indicating/Recording system → FWC → 2",
+    "key": "FWC 2"
+  },
+  {
+    "menu_id": "M323",
+    "ata": "ATA 31 - Indicating/Recording system",
+    "group": "",
+    "label": "CVR",
+    "enabled": true,
+    "path": "ATA 31 - Indicating/Recording system → CVR",
+    "key": "CVR"
+  },
+  {
+    "menu_id": "M324",
+    "ata": "ATA 31 - Indicating/Recording system",
+    "group": "DMC",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 31 - Indicating/Recording system → DMC → 1",
+    "key": "DMC 1"
+  },
+  {
+    "menu_id": "M325",
+    "ata": "ATA 31 - Indicating/Recording system",
+    "group": "DMC",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 31 - Indicating/Recording system → DMC → 2",
+    "key": "DMC 2"
+  },
+  {
+    "menu_id": "M326",
+    "ata": "ATA 31 - Indicating/Recording system",
+    "group": "DMC",
+    "label": "3",
+    "enabled": true,
+    "path": "ATA 31 - Indicating/Recording system → DMC → 3",
+    "key": "DMC 3"
+  },
+  {
+    "menu_id": "M327",
+    "ata": "ATA 31 - Indicating/Recording system",
+    "group": "DCDU",
+    "label": "Capt",
+    "enabled": true,
+    "path": "ATA 31 - Indicating/Recording system → DCDU → Capt",
+    "key": "DCDU Capt"
+  },
+  {
+    "menu_id": "M328",
+    "ata": "ATA 31 - Indicating/Recording system",
+    "group": "DCDU",
+    "label": "Fo",
+    "enabled": true,
+    "path": "ATA 31 - Indicating/Recording system → DCDU → Fo",
+    "key": "DCDU Fo"
+  },
+  {
+    "menu_id": "M329",
+    "ata": "ATA 31 - Indicating/Recording system",
+    "group": "DU",
+    "label": "Capt Pfd",
+    "enabled": true,
+    "path": "ATA 31 - Indicating/Recording system → DU → Capt Pfd",
+    "key": "DU Capt Pfd"
+  },
+  {
+    "menu_id": "M330",
+    "ata": "ATA 31 - Indicating/Recording system",
+    "group": "DU",
+    "label": "Capt Nd",
+    "enabled": true,
+    "path": "ATA 31 - Indicating/Recording system → DU → Capt Nd",
+    "key": "DU Capt Nd"
+  },
+  {
+    "menu_id": "M331",
+    "ata": "ATA 31 - Indicating/Recording system",
+    "group": "DU",
+    "label": "F/o Nd",
+    "enabled": true,
+    "path": "ATA 31 - Indicating/Recording system → DU → F/o Nd",
+    "key": "DU F/o Nd"
+  },
+  {
+    "menu_id": "M332",
+    "ata": "ATA 31 - Indicating/Recording system",
+    "group": "DU",
+    "label": "F/o Pfd",
+    "enabled": true,
+    "path": "ATA 31 - Indicating/Recording system → DU → F/o Pfd",
+    "key": "DU F/o Pfd"
+  },
+  {
+    "menu_id": "M333",
+    "ata": "ATA 31 - Indicating/Recording system",
+    "group": "DU",
+    "label": "Ecam Upper",
+    "enabled": true,
+    "path": "ATA 31 - Indicating/Recording system → DU → Ecam Upper",
+    "key": "DU Ecam Upper"
+  },
+  {
+    "menu_id": "M334",
+    "ata": "ATA 31 - Indicating/Recording system",
+    "group": "DU",
+    "label": "Ecam Lower",
+    "enabled": true,
+    "path": "ATA 31 - Indicating/Recording system → DU → Ecam Lower",
+    "key": "DU Ecam Lower"
+  },
+  {
+    "menu_id": "M335",
+    "ata": "ATA 35 - Oxygen",
+    "group": "Crew oxygen 1",
+    "label": "Crew Oxygen Pressure < 400",
+    "enabled": true,
+    "path": "ATA 35 - Oxygen → Crew oxygen 1 → Crew Oxygen Pressure < 400",
+    "key": "Crew oxygen 1 Crew Oxygen Pressure < 400"
+  },
+  {
+    "menu_id": "M336",
+    "ata": "ATA 35 - Oxygen",
+    "group": "Crew oxygen 1",
+    "label": "Crew Oxygen Pressure < 800",
+    "enabled": true,
+    "path": "ATA 35 - Oxygen → Crew oxygen 1 → Crew Oxygen Pressure < 800",
+    "key": "Crew oxygen 1 Crew Oxygen Pressure < 800"
+  },
+  {
+    "menu_id": "M337",
+    "ata": "ATA 35 - Oxygen",
+    "group": "Crew oxygen 2",
+    "label": "Pressure < 400",
+    "enabled": true,
+    "path": "ATA 35 - Oxygen → Crew oxygen 2 → Pressure < 400",
+    "key": "Crew oxygen 2 Pressure < 400"
+  },
+  {
+    "menu_id": "M338",
+    "ata": "ATA 35 - Oxygen",
+    "group": "Crew oxygen 2",
+    "label": "Pressure < 800",
+    "enabled": true,
+    "path": "ATA 35 - Oxygen → Crew oxygen 2 → Pressure < 800",
+    "key": "Crew oxygen 2 Pressure < 800"
+  },
+  {
+    "menu_id": "M339",
+    "ata": "ATA 35 - Oxygen",
+    "group": "Crew oxygen",
+    "label": "Oxygen Supply Valve",
+    "enabled": true,
+    "path": "ATA 35 - Oxygen → Crew oxygen → Oxygen Supply Valve",
+    "key": "Crew oxygen Oxygen Supply Valve"
+  },
+  {
+    "menu_id": "M340",
+    "ata": "ATA 35 - Oxygen",
+    "group": "Crew oxygen",
+    "label": "Oxygen Supply Valve 2",
+    "enabled": true,
+    "path": "ATA 35 - Oxygen → Crew oxygen → Oxygen Supply Valve 2",
+    "key": "Crew oxygen Oxygen Supply Valve 2"
+  },
+  {
+    "menu_id": "M341",
+    "ata": "ATA 46 - Information systems",
+    "group": "",
+    "label": "ATSU",
+    "enabled": true,
+    "path": "ATA 46 - Information systems → ATSU",
+    "key": "ATSU"
+  },
+  {
+    "menu_id": "M342",
+    "ata": "ATA 52 - Doors",
+    "group": "Doors left",
+    "label": "Forward Avionics Door",
+    "enabled": true,
+    "path": "ATA 52 - Doors → Doors left → Forward Avionics Door",
+    "key": "Doors left Forward Avionics Door"
+  },
+  {
+    "menu_id": "M343",
+    "ata": "ATA 52 - Doors",
+    "group": "Doors left",
+    "label": "Left Avionics Door",
+    "enabled": true,
+    "path": "ATA 52 - Doors → Doors left → Left Avionics Door",
+    "key": "Doors left Left Avionics Door"
+  },
+  {
+    "menu_id": "M344",
+    "ata": "ATA 52 - Doors",
+    "group": "Doors left",
+    "label": "Right Avionics Door",
+    "enabled": true,
+    "path": "ATA 52 - Doors → Doors left → Right Avionics Door",
+    "key": "Doors left Right Avionics Door"
+  },
+  {
+    "menu_id": "M345",
+    "ata": "ATA 52 - Doors",
+    "group": "Doors left",
+    "label": "Forward Entry Left Door",
+    "enabled": true,
+    "path": "ATA 52 - Doors → Doors left → Forward Entry Left Door",
+    "key": "Doors left Forward Entry Left Door"
+  },
+  {
+    "menu_id": "M346",
+    "ata": "ATA 52 - Doors",
+    "group": "Doors left",
+    "label": "Left Wing 1 Door",
+    "enabled": true,
+    "path": "ATA 52 - Doors → Doors left → Left Wing 1 Door",
+    "key": "Doors left Left Wing 1 Door"
+  },
+  {
+    "menu_id": "M347",
+    "ata": "ATA 52 - Doors",
+    "group": "Doors left",
+    "label": "Left Wing 2 Door",
+    "enabled": true,
+    "path": "ATA 52 - Doors → Doors left → Left Wing 2 Door",
+    "key": "Doors left Left Wing 2 Door"
+  },
+  {
+    "menu_id": "M348",
+    "ata": "ATA 52 - Doors",
+    "group": "Doors left",
+    "label": "Aft Entry Left Door",
+    "enabled": true,
+    "path": "ATA 52 - Doors → Doors left → Aft Entry Left Door",
+    "key": "Doors left Aft Entry Left Door"
+  },
+  {
+    "menu_id": "M349",
+    "ata": "ATA 52 - Doors",
+    "group": "Doors right",
+    "label": "Forward Entry Right Door",
+    "enabled": true,
+    "path": "ATA 52 - Doors → Doors right → Forward Entry Right Door",
+    "key": "Doors right Forward Entry Right Door"
+  },
+  {
+    "menu_id": "M350",
+    "ata": "ATA 52 - Doors",
+    "group": "Doors right",
+    "label": "Aft Avionics Door",
+    "enabled": true,
+    "path": "ATA 52 - Doors → Doors right → Aft Avionics Door",
+    "key": "Doors right Aft Avionics Door"
+  },
+  {
+    "menu_id": "M351",
+    "ata": "ATA 52 - Doors",
+    "group": "Doors right",
+    "label": "Forward Cargo Door",
+    "enabled": true,
+    "path": "ATA 52 - Doors → Doors right → Forward Cargo Door",
+    "key": "Doors right Forward Cargo Door"
+  },
+  {
+    "menu_id": "M352",
+    "ata": "ATA 52 - Doors",
+    "group": "Doors right",
+    "label": "Right Wing 1 Door",
+    "enabled": true,
+    "path": "ATA 52 - Doors → Doors right → Right Wing 1 Door",
+    "key": "Doors right Right Wing 1 Door"
+  },
+  {
+    "menu_id": "M353",
+    "ata": "ATA 52 - Doors",
+    "group": "Doors right",
+    "label": "Right Wing 2 Door",
+    "enabled": true,
+    "path": "ATA 52 - Doors → Doors right → Right Wing 2 Door",
+    "key": "Doors right Right Wing 2 Door"
+  },
+  {
+    "menu_id": "M354",
+    "ata": "ATA 52 - Doors",
+    "group": "Doors right",
+    "label": "Aft Cargo Door",
+    "enabled": true,
+    "path": "ATA 52 - Doors → Doors right → Aft Cargo Door",
+    "key": "Doors right Aft Cargo Door"
+  },
+  {
+    "menu_id": "M355",
+    "ata": "ATA 52 - Doors",
+    "group": "Doors right",
+    "label": "Bulk Door",
+    "enabled": true,
+    "path": "ATA 52 - Doors → Doors right → Bulk Door",
+    "key": "Doors right Bulk Door"
+  },
+  {
+    "menu_id": "M356",
+    "ata": "ATA 52 - Doors",
+    "group": "Doors right",
+    "label": "Aft Entry Right Door",
+    "enabled": true,
+    "path": "ATA 52 - Doors → Doors right → Aft Entry Right Door",
+    "key": "Doors right Aft Entry Right Door"
+  },
+  {
+    "menu_id": "M357",
+    "ata": "ATA 70 - Power plant",
+    "group": "Fadec",
+    "label": "Left Channel A",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → Fadec → Left Channel A",
+    "key": "Fadec Left Channel A"
+  },
+  {
+    "menu_id": "M358",
+    "ata": "ATA 70 - Power plant",
+    "group": "Fadec",
+    "label": "Left Channel B",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → Fadec → Left Channel B",
+    "key": "Fadec Left Channel B"
+  },
+  {
+    "menu_id": "M359",
+    "ata": "ATA 70 - Power plant",
+    "group": "Fadec",
+    "label": "Right Channel A",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → Fadec → Right Channel A",
+    "key": "Fadec Right Channel A"
+  },
+  {
+    "menu_id": "M360",
+    "ata": "ATA 70 - Power plant",
+    "group": "Fadec",
+    "label": "Right Channel B",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → Fadec → Right Channel B",
+    "key": "Fadec Right Channel B"
+  },
+  {
+    "menu_id": "M361",
+    "ata": "ATA 70 - Power plant",
+    "group": "EIU",
+    "label": "1",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → EIU → 1",
+    "key": "EIU 1"
+  },
+  {
+    "menu_id": "M362",
+    "ata": "ATA 70 - Power plant",
+    "group": "EIU",
+    "label": "2",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → EIU → 2",
+    "key": "EIU 2"
+  },
+  {
+    "menu_id": "M363",
+    "ata": "ATA 70 - Power plant",
+    "group": "Engine surge",
+    "label": "Left Surge",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → Engine surge → Left Surge",
+    "key": "Engine surge Left Surge"
+  },
+  {
+    "menu_id": "M364",
+    "ata": "ATA 70 - Power plant",
+    "group": "Engine surge",
+    "label": "Right Surge",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → Engine surge → Right Surge",
+    "key": "Engine surge Right Surge"
+  },
+  {
+    "menu_id": "M365",
+    "ata": "ATA 70 - Power plant",
+    "group": "Engine failure",
+    "label": "Eng 1 Failure",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → Engine failure → Eng 1 Failure",
+    "key": "Engine failure Eng 1 Failure"
+  },
+  {
+    "menu_id": "M366",
+    "ata": "ATA 70 - Power plant",
+    "group": "Engine failure",
+    "label": "Eng 2 Failure",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → Engine failure → Eng 2 Failure",
+    "key": "Engine failure Eng 2 Failure"
+  },
+  {
+    "menu_id": "M367",
+    "ata": "ATA 70 - Power plant",
+    "group": "Engine failure with damage",
+    "label": "Eng 1 Failure With Damage",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → Engine failure with damage → Eng 1 Failure With Damage",
+    "key": "Engine failure with damage Eng 1 Failure With Damage"
+  },
+  {
+    "menu_id": "M368",
+    "ata": "ATA 70 - Power plant",
+    "group": "Engine failure with damage",
+    "label": "Eng 2 Failure With Damage",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → Engine failure with damage → Eng 2 Failure With Damage",
+    "key": "Engine failure with damage Eng 2 Failure With Damage"
+  },
+  {
+    "menu_id": "M369",
+    "ata": "ATA 70 - Power plant",
+    "group": "Engine birdstrike",
+    "label": "Left Bird Strike",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → Engine birdstrike → Left Bird Strike",
+    "key": "Engine birdstrike Left Bird Strike"
+  },
+  {
+    "menu_id": "M370",
+    "ata": "ATA 70 - Power plant",
+    "group": "Engine birdstrike",
+    "label": "Right Bird Strike",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → Engine birdstrike → Right Bird Strike",
+    "key": "Engine birdstrike Right Bird Strike"
+  },
+  {
+    "menu_id": "M371",
+    "ata": "ATA 70 - Power plant",
+    "group": "Reverser pressurized",
+    "label": "Left",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → Reverser pressurized → Left",
+    "key": "Reverser pressurized Left"
+  },
+  {
+    "menu_id": "M372",
+    "ata": "ATA 70 - Power plant",
+    "group": "Reverser pressurized",
+    "label": "Right",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → Reverser pressurized → Right",
+    "key": "Reverser pressurized Right"
+  },
+  {
+    "menu_id": "M373",
+    "ata": "ATA 70 - Power plant",
+    "group": "Reverser unlocked",
+    "label": "Left",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → Reverser unlocked → Left",
+    "key": "Reverser unlocked Left"
+  },
+  {
+    "menu_id": "M374",
+    "ata": "ATA 70 - Power plant",
+    "group": "Reverser unlocked",
+    "label": "Right",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → Reverser unlocked → Right",
+    "key": "Reverser unlocked Right"
+  },
+  {
+    "menu_id": "M375",
+    "ata": "ATA 70 - Power plant",
+    "group": "Reverser inhibited by maintenance",
+    "label": "Left Reverser Inhibited By Maint",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → Reverser inhibited by maintenance → Left Reverser Inhibited By Maint",
+    "key": "Reverser inhibited by maintenance Left Reverser Inhibited By Maint"
+  },
+  {
+    "menu_id": "M376",
+    "ata": "ATA 70 - Power plant",
+    "group": "Reverser inhibited by maintenance",
+    "label": "Right Reverser Inhibited By Maint",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → Reverser inhibited by maintenance → Right Reverser Inhibited By Maint",
+    "key": "Reverser inhibited by maintenance Right Reverser Inhibited By Maint"
+  },
+  {
+    "menu_id": "M377",
+    "ata": "ATA 70 - Power plant",
+    "group": "vibration N1",
+    "label": "Eng 1 High",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → vibration N1 → Eng 1 High",
+    "key": "vibration N1 Eng 1 High"
+  },
+  {
+    "menu_id": "M378",
+    "ata": "ATA 70 - Power plant",
+    "group": "vibration N1",
+    "label": "Eng 2 High",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → vibration N1 → Eng 2 High",
+    "key": "vibration N1 Eng 2 High"
+  },
+  {
+    "menu_id": "M379",
+    "ata": "ATA 70 - Power plant",
+    "group": "vibration N2",
+    "label": "Eng 1 High",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → vibration N2 → Eng 1 High",
+    "key": "vibration N2 Eng 1 High"
+  },
+  {
+    "menu_id": "M380",
+    "ata": "ATA 70 - Power plant",
+    "group": "vibration N2",
+    "label": "Eng 2 High",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → vibration N2 → Eng 2 High",
+    "key": "vibration N2 Eng 2 High"
+  },
+  {
+    "menu_id": "M381",
+    "ata": "ATA 70 - Power plant",
+    "group": "Oil leak",
+    "label": "Left",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → Oil leak → Left",
+    "key": "Oil leak Left"
+  },
+  {
+    "menu_id": "M382",
+    "ata": "ATA 70 - Power plant",
+    "group": "Oil leak",
+    "label": "Right",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → Oil leak → Right",
+    "key": "Oil leak Right"
+  },
+  {
+    "menu_id": "M383",
+    "ata": "ATA 70 - Power plant",
+    "group": "Reverser shutoff valve",
+    "label": "Left",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → Reverser shutoff valve → Left",
+    "key": "Reverser shutoff valve Left"
+  },
+  {
+    "menu_id": "M384",
+    "ata": "ATA 70 - Power plant",
+    "group": "Reverser shutoff valve",
+    "label": "Right",
+    "enabled": true,
+    "path": "ATA 70 - Power plant → Reverser shutoff valve → Right",
+    "key": "Reverser shutoff valve Right"
+  }
+]

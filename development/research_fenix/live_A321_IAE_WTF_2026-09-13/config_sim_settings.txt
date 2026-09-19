@@ -1,0 +1,40 @@
+- text: 13 Sep 2026 21:56L / 19:56Z
+- generic: A321-231 IAE
+- generic: 
+- generic: Customise Aircraft
+- button "Restore Airline Settings"
+- button "Airframe"
+- button "Airline Modifiable Information"
+- button "Cabin"
+- button "Controls"
+- button "RA Callouts"
+- button "Units"
+- button "GSX"
+- button "Cabin Announcements"
+- generic: DDRMI
+- switch
+- generic: Standby
+- generic: ISIS
+- generic: Metric Standby Alt
+- switch
+- generic: BRAKE FANS
+- switch [checked]
+- generic: DCDU
+- switch [checked]
+- generic: SatCom Antenna
+- generic: European
+- generic: ACP
+- generic: Modern
+- generic: ADIRS
+- generic: ADIRS
+- navigation:
+  - link "My Flights":
+    - /url: "#/efb/fenix/my-flight"
+  - link "Ground Services":
+    - /url: "#/efb/fenix/ground-services"
+  - link "Mass And Balance":
+    - /url: "#/efb/fenix/mass-balance"
+  - generic: Panel States
+  - link "Sim Settings" [active]:
+    - /url: "#/efb/fenix/sim-settings"
+- generic:  

@@ -1,0 +1,4706 @@
+{
+  "metadata": {
+    "compared_on": "2026-09-14",
+    "old_document": "Fenix Failure List v0.2 Alpha, 12/07/2021",
+    "old_document_origin": "Fenix-authored PDF retrieved from soarbywire.com mirror",
+    "old_url": "https://soarbywire.com/wp-content/uploads/2021/08/failurelist-v0.2.pdf",
+    "current_source": "Captured live EFB menu, A321-231 IAE, WTF user-reported, Fenix 2.4.0.4720",
+    "current_snapshot_date": "2026-09-13",
+    "scope": "Names and menu organization; not operation, completeness of internal failure model, or availability on other aircraft configurations."
+  },
+  "counts": {
+    "old_pdf_entries": 383,
+    "observed_menu_buttons": 384,
+    "old_entries_with_one_menu_match": 363,
+    "old_entries_split_into_two_buttons": 2,
+    "old_entries_not_found": 18,
+    "current_buttons_without_old_entry": 17,
+    "old_names_present_fraction": 0.9530026109660574,
+    "behavior_tests": 0
+  },
+  "old_entries": [
+    {
+      "name": "A/THR 1",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M040"
+      ],
+      "menu_paths": [
+        "ATA 22 - AutoFlight → A/THR → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "A/THR 2",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M041"
+      ],
+      "menu_paths": [
+        "ATA 22 - AutoFlight → A/THR → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "ABCU",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M149"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → ABCU"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "AC bus 1",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M051"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → AC Bus Fault → Ac Bus 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "AC bus 1 26v",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M056"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → AC 26v Bus Fault → Ac Bus 1 26v"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "AC bus 2",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M052"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → AC Bus Fault → Ac Bus 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "AC bus 2 26v",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M057"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → AC 26v Bus Fault → Ac Bus 2 26v"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "AC ESS bus 26v",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M058"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → AC 26v Bus Fault → Ac Ess Bus 26v"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "AC ESS bus ALTN",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M070"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → AC Ess Bus Altn"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "AC ESS feed from AC bus 1",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M071"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → AC Ess feed → From Ac Bus 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "AC ESS feed from AC bus 2",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M072"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → AC Ess feed → From Ac Bus 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "AC essential bus",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M053"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → AC Bus Fault → Ac Essential Bus"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "AC essential shed bus",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M054"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → AC Bus Fault → Ac Essential Shed Bus"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "AC static inverter bus",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M055"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → AC Bus Fault → Ac Static Inverter Bus"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "ADF 1",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M207"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → Radios → Adf 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "ADF 2",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M208"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → Radios → Adf 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "ADR1 failure",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M178"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → ADR fault → Adr1 Failure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "ADR2 failure",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M179"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → ADR fault → Adr2 Failure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "ADR3 failure",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M180"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → ADR fault → Adr3 Failure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Aft avionics door",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M350"
+      ],
+      "menu_paths": [
+        "ATA 52 - Doors → Doors right → Aft Avionics Door"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Aft cargo door",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M354"
+      ],
+      "menu_paths": [
+        "ATA 52 - Doors → Doors right → Aft Cargo Door"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Aft cargo smoke detected",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M075"
+      ],
+      "menu_paths": [
+        "ATA 26 - Fire protection → Aft cargo smoke detected"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Aft entry left door",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M348"
+      ],
+      "menu_paths": [
+        "ATA 52 - Doors → Doors left → Aft Entry Left Door"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Aft entry right door",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M356"
+      ],
+      "menu_paths": [
+        "ATA 52 - Doors → Doors right → Aft Entry Right Door"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Alignment fault",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M278"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Alignment fault"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Alternate law with protection",
+      "pdf_page": 2,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M035"
+      ],
+      "menu_paths": [
+        "ATA 22 - AutoFlight → Law override → Alternate Law With Protection"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Alternate law without protection",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M036"
+      ],
+      "menu_paths": [
+        "ATA 22 - AutoFlight → Law override → Alternate Law Without Protection"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "AOA heat Capt",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M254"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → AOA Heat → Capt"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "AOA heat F/O",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M255"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → AOA Heat → F/o"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "AOA heat STBY",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M256"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → AOA Heat → Stby"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "AP 1",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M042"
+      ],
+      "menu_paths": [
+        "ATA 22 - AutoFlight → AP → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "AP 2",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M043"
+      ],
+      "menu_paths": [
+        "ATA 22 - AutoFlight → AP → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "APU bleed valve",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M235"
+      ],
+      "menu_paths": [
+        "ATA 36 - Pneumatic → Pneumatic valve → Apu Bleed Valve"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "APU fire extinguished with 1 bottle",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M082"
+      ],
+      "menu_paths": [
+        "ATA 26 - Fire protection → Fire 1 bottle → Apu Fire Extinguished With 1 Bottle"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "APU fuel valve",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M245"
+      ],
+      "menu_paths": [
+        "ATA 49 - APU → APU fuel valve"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "APU generator",
+      "pdf_page": 3,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M059"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → Generator → Apu"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "APU Loop A",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M089"
+      ],
+      "menu_paths": [
+        "ATA 26 - Fire protection → Loop APU → Apu Loop A"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "APU Loop B",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M090"
+      ],
+      "menu_paths": [
+        "ATA 26 - Fire protection → Loop APU → Apu Loop B"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "APU low oil level",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M244"
+      ],
+      "menu_paths": [
+        "ATA 49 - APU → APU Low oil level"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "APU inextinguishable fire",
+      "pdf_page": 3,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M079"
+      ],
+      "menu_paths": [
+        "ATA 26 - Fire protection → Fire unextinguishable → Apu Unextinguishable Fire"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "ATC 1",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M221"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → ATC → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "ATC 2",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M222"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → ATC → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "ATSU",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M341"
+      ],
+      "menu_paths": [
+        "ATA 46 - Information systems → ATSU"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Autobrake failure",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M152"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → Brake fault → Autobrake Failure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Avionics smoke detected",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M094"
+      ],
+      "menu_paths": [
+        "ATA 26 - Fire protection → Avionics smoke detected"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Bleed leak APU",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M242"
+      ],
+      "menu_paths": [
+        "ATA 36 - Pneumatic → Bleed leak → Apu"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Bleed leak pylon engine 1",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M240"
+      ],
+      "menu_paths": [
+        "ATA 36 - Pneumatic → Bleed leak → Pylon Engine 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Bleed leak pylon engine 2",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M241"
+      ],
+      "menu_paths": [
+        "ATA 36 - Pneumatic → Bleed leak → Pylon Engine 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Bleed leak wing engine 1",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M238"
+      ],
+      "menu_paths": [
+        "ATA 36 - Pneumatic → Bleed leak → Wing Engine 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Bleed leak wing engine 2",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M239"
+      ],
+      "menu_paths": [
+        "ATA 36 - Pneumatic → Bleed leak → Wing Engine 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Blue hydraulic leak",
+      "pdf_page": 3,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M127"
+      ],
+      "menu_paths": [
+        "ATA 29 - Hydraulic power → Hydraulic leak → Blue"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Blue low reservoir air pressure",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M133"
+      ],
+      "menu_paths": [
+        "ATA 29 - Hydraulic power → Reservoir low air pressure → Blue Low Reservoir Air Pressure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Blue reservoir overheat",
+      "pdf_page": 3,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M130"
+      ],
+      "menu_paths": [
+        "ATA 29 - Hydraulic power → Reservoir overheat → Blue"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "BMC 1",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M232"
+      ],
+      "menu_paths": [
+        "ATA 36 - Pneumatic → BMC → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "BMC 2",
+      "pdf_page": 3,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M233"
+      ],
+      "menu_paths": [
+        "ATA 36 - Pneumatic → BMC → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "BSCU 1 brake fault",
+      "pdf_page": 3,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M150"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → Brake fault → Bscu 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "BSCU 2 brake fault",
+      "pdf_page": 4,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M151"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → Brake fault → Bscu 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "BSCU SYS 1",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M147"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → BSCU → Sys 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "BSCU SYS 2",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M148"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → BSCU → Sys 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Bulk door",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M355"
+      ],
+      "menu_paths": [
+        "ATA 52 - Doors → Doors right → Bulk Door"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Capt stuck mic",
+      "pdf_page": 4,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M246"
+      ],
+      "menu_paths": [
+        "ATA 23 - Communications → Stuck mic → Capt"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Cargo aft isolation valve downstream",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M015"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → Cargo vent → Cargo Aft Isolation Valve Downstream"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Cargo aft isolation valve upstream",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M014"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → Cargo vent → Cargo Aft Isolation Valve Upstream"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Cargo fwd isolation valve downstream",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M013"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → Cargo vent → Cargo Fwd Isolation Valve Downstream"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Cargo fwd isolation valve upstream",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M012"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → Cargo vent → Cargo Fwd Isolation Valve Upstream"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Cargo ventilation controller",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M010"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → Cargo ventilation controller"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "CDU 1 recoverable fault",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M200"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → MCDU recoverable fault → Cdu 1 Recoverable Fault"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "CDU 2 recoverable fault",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M201"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → MCDU recoverable fault → Cdu 2 Recoverable Fault"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "CFDIU",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M317"
+      ],
+      "menu_paths": [
+        "ATA 31 - Indicating/Recording system → CFDIU"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "CPC 1",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M001"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → CPC → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "CPC 2",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M002"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → CPC → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Crew oxygen pressure < 400",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M335"
+      ],
+      "menu_paths": [
+        "ATA 35 - Oxygen → Crew oxygen 1 → Crew Oxygen Pressure < 400"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Crew oxygen pressure < 800",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M336"
+      ],
+      "menu_paths": [
+        "ATA 35 - Oxygen → Crew oxygen 1 → Crew Oxygen Pressure < 800"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Crossbleed valve",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M234"
+      ],
+      "menu_paths": [
+        "ATA 36 - Pneumatic → Pneumatic valve → Crossbleed Valve"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Crossfeed valve",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M117"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel valves → Crossfeed Valve"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "CVR",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M323"
+      ],
+      "menu_paths": [
+        "ATA 31 - Indicating/Recording system → CVR"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "DC Bat bus",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M044"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → DC Bus Fault → Dc Bat Bus"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "DC bus 1",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M045"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → DC Bus Fault → Dc Bus 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "DC bus 2",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M046"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → DC Bus Fault → Dc Bus 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "DC essential bus",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M049"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → DC Bus Fault → Dc Essential Bus"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "DC essential shed bus",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M050"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → DC Bus Fault → Dc Essential Shed Bus"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Direct law",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M037"
+      ],
+      "menu_paths": [
+        "ATA 22 - AutoFlight → Law override → Direct Law"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "DMC 1",
+      "pdf_page": 4,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M324"
+      ],
+      "menu_paths": [
+        "ATA 31 - Indicating/Recording system → DMC → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "DMC 2",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M325"
+      ],
+      "menu_paths": [
+        "ATA 31 - Indicating/Recording system → DMC → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "DMC 3",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M326"
+      ],
+      "menu_paths": [
+        "ATA 31 - Indicating/Recording system → DMC → 3"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "DU Capt ND",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M330"
+      ],
+      "menu_paths": [
+        "ATA 31 - Indicating/Recording system → DU → Capt Nd"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "DU Capt PFD",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M329"
+      ],
+      "menu_paths": [
+        "ATA 31 - Indicating/Recording system → DU → Capt Pfd"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "DU ECAM Lower",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M334"
+      ],
+      "menu_paths": [
+        "ATA 31 - Indicating/Recording system → DU → Ecam Lower"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "DU ECAM Upper",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M333"
+      ],
+      "menu_paths": [
+        "ATA 31 - Indicating/Recording system → DU → Ecam Upper"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "DU F/O ND",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M331"
+      ],
+      "menu_paths": [
+        "ATA 31 - Indicating/Recording system → DU → F/o Nd"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "DU F/O PFD",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M332"
+      ],
+      "menu_paths": [
+        "ATA 31 - Indicating/Recording system → DU → F/o Pfd"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "ECB",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M243"
+      ],
+      "menu_paths": [
+        "ATA 49 - APU → ECB"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "ECP",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M318"
+      ],
+      "menu_paths": [
+        "ATA 31 - Indicating/Recording system → ECP"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "EIU 1",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M361"
+      ],
+      "menu_paths": [
+        "ATA 70 - Power plant → EIU → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "EIU 2",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M362"
+      ],
+      "menu_paths": [
+        "ATA 70 - Power plant → EIU → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "ELAC 1",
+      "pdf_page": 5,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M285"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Nonresettable fault → Elac 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "ELAC 1 resettable fault",
+      "pdf_page": 5,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M290"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Resettable fault → Elac 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "ELAC 2",
+      "pdf_page": 5,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M286"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Nonresettable fault → Elac 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "ELAC 2 resettable fault",
+      "pdf_page": 5,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M291"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Resettable fault → Elac 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Elec blue pump overheat",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M145"
+      ],
+      "menu_paths": [
+        "ATA 29 - Hydraulic power → Elec pump overheat → Elec Blue Pump Overheat"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Elec hyd pump blue failure",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M143"
+      ],
+      "menu_paths": [
+        "ATA 29 - Hydraulic power → Elec pumps → Elec Hyd Pump Blue Failure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Elec hyd pump yellow failure",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M144"
+      ],
+      "menu_paths": [
+        "ATA 29 - Hydraulic power → Elec pumps → Elec Hyd Pump Yellow Failure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Elec yellow pump overheat",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M146"
+      ],
+      "menu_paths": [
+        "ATA 29 - Hydraulic power → Elec pump overheat → Elec Yellow Pump Overheat"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Elev L+R failure",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M306"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Elev → L+r Failure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 1 bleed low temp",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M230"
+      ],
+      "menu_paths": [
+        "ATA 36 - Pneumatic → Bleed air low temperature → Eng 1 Bleed Low Temp"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 1 bleed valve",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M227"
+      ],
+      "menu_paths": [
+        "ATA 36 - Pneumatic → Pneumatic valves → Eng 1 Bleed Valve"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 1 EAI Valve",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M250"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → EAI Valves → Eng 1 Eai Valve"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 1 failure",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M365"
+      ],
+      "menu_paths": [
+        "ATA 70 - Power plant → Engine failure → Eng 1 Failure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 1 failure with damage",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M367"
+      ],
+      "menu_paths": [
+        "ATA 70 - Power plant → Engine failure with damage → Eng 1 Failure With Damage"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 1 fire extinguished with 1 bottle",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M080"
+      ],
+      "menu_paths": [
+        "ATA 26 - Fire protection → Fire 1 bottle → Eng 1 Fire Extinguished With 1 Bottle"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 1 fire extinguished with 2 bottles",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M083"
+      ],
+      "menu_paths": [
+        "ATA 26 - Fire protection → Fire 2 bottles → Eng 1 Fire Extinguished With 2 Bottles"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 1 fire valve",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M140"
+      ],
+      "menu_paths": [
+        "ATA 29 - Hydraulic power → Fire valves → Eng 1 Fire Valve"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 1 fuel valve stuck",
+      "pdf_page": 5,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M115"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel valves → Eng 1 Fuel Valve Stuck"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 1 high vibration N1",
+      "pdf_page": 5,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M377"
+      ],
+      "menu_paths": [
+        "ATA 70 - Power plant → vibration N1 → Eng 1 High"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 1 high vibration N2",
+      "pdf_page": 6,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M379"
+      ],
+      "menu_paths": [
+        "ATA 70 - Power plant → vibration N2 → Eng 1 High"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 1 hot start",
+      "pdf_page": 6,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M311"
+      ],
+      "menu_paths": [
+        "ATA 80 - Start faults → Hot start → Eng 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 1 hp fuel valve",
+      "pdf_page": 6,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M124"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → HP Fuel valve → Eng 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 1 HP Valve",
+      "pdf_page": 6,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M224"
+      ],
+      "menu_paths": [
+        "ATA 36 - Pneumatic → Pneumatic valves → Eng 1 Hp Valve"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 1 hung start",
+      "pdf_page": 6,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M313"
+      ],
+      "menu_paths": [
+        "ATA 80 - Start faults → Stall/Hung start → Eng 1 Hung Start"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 1 Loop A",
+      "pdf_page": 6,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M085"
+      ],
+      "menu_paths": [
+        "ATA 26 - Fire protection → Loop Eng 1 → Eng 1 Loop A"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 1 Loop B",
+      "pdf_page": 6,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M086"
+      ],
+      "menu_paths": [
+        "ATA 26 - Fire protection → Loop Eng 1 → Eng 1 Loop B"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 1 low oil quantity",
+      "pdf_page": 6,
+      "match_type": "not_found",
+      "menu_ids": [],
+      "menu_paths": [],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 1 no ignition",
+      "pdf_page": 6,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M315"
+      ],
+      "menu_paths": [
+        "ATA 80 - Start faults → No ignition → Eng 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 1 oil temperature high",
+      "pdf_page": 6,
+      "match_type": "not_found",
+      "menu_ids": [],
+      "menu_paths": [],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 1 oil temperature high advisory",
+      "pdf_page": 6,
+      "match_type": "not_found",
+      "menu_ids": [],
+      "menu_paths": [],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 1 pump failure",
+      "pdf_page": 6,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M138"
+      ],
+      "menu_paths": [
+        "ATA 29 - Hydraulic power → Engine pumps → Eng 1 Pump Failure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 1 inextinguishable fire",
+      "pdf_page": 6,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M077"
+      ],
+      "menu_paths": [
+        "ATA 26 - Fire protection → Fire unextinguishable → Eng 1 Unextinguishable Fire"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 2 bleed low temp",
+      "pdf_page": 6,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M231"
+      ],
+      "menu_paths": [
+        "ATA 36 - Pneumatic → Bleed air low temperature → Eng 2 Bleed Low Temp"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 2 bleed valve",
+      "pdf_page": 6,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M228"
+      ],
+      "menu_paths": [
+        "ATA 36 - Pneumatic → Pneumatic valves → Eng 2 Bleed Valve"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 2 EAI Valve",
+      "pdf_page": 6,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M251"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → EAI Valves → Eng 2 Eai Valve"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 2 failure",
+      "pdf_page": 6,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M366"
+      ],
+      "menu_paths": [
+        "ATA 70 - Power plant → Engine failure → Eng 2 Failure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 2 failure with damage",
+      "pdf_page": 6,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M368"
+      ],
+      "menu_paths": [
+        "ATA 70 - Power plant → Engine failure with damage → Eng 2 Failure With Damage"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 2 fire extinguished with 1 bottle",
+      "pdf_page": 6,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M081"
+      ],
+      "menu_paths": [
+        "ATA 26 - Fire protection → Fire 1 bottle → Eng 2 Fire Extinguished With 1 Bottle"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 2 fire extinguished with 2 bottles",
+      "pdf_page": 6,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M084"
+      ],
+      "menu_paths": [
+        "ATA 26 - Fire protection → Fire 2 bottles → Eng 2 Fire Extinguished With 2 Bottles"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 2 fire valve",
+      "pdf_page": 6,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M141"
+      ],
+      "menu_paths": [
+        "ATA 29 - Hydraulic power → Fire valves → Eng 2 Fire Valve"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 2 fuel valve stuck",
+      "pdf_page": 6,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M116"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel valves → Eng 2 Fuel Valve Stuck"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 2 high vibration N1",
+      "pdf_page": 6,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M378"
+      ],
+      "menu_paths": [
+        "ATA 70 - Power plant → vibration N1 → Eng 2 High"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 2 high vibration N2",
+      "pdf_page": 6,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M380"
+      ],
+      "menu_paths": [
+        "ATA 70 - Power plant → vibration N2 → Eng 2 High"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 2 hot start",
+      "pdf_page": 6,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M312"
+      ],
+      "menu_paths": [
+        "ATA 80 - Start faults → Hot start → Eng 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 2 hp fuel valve",
+      "pdf_page": 6,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M125"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → HP Fuel valve → Eng 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 2 HP Valve",
+      "pdf_page": 6,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M225"
+      ],
+      "menu_paths": [
+        "ATA 36 - Pneumatic → Pneumatic valves → Eng 2 Hp Valve"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 2 hung start",
+      "pdf_page": 6,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M314"
+      ],
+      "menu_paths": [
+        "ATA 80 - Start faults → Stall/Hung start → Eng 2 Hung Start"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 2 Loop A",
+      "pdf_page": 6,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M087"
+      ],
+      "menu_paths": [
+        "ATA 26 - Fire protection → Loop Eng 2 → Eng 2 Loop A"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 2 Loop B",
+      "pdf_page": 7,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M088"
+      ],
+      "menu_paths": [
+        "ATA 26 - Fire protection → Loop Eng 2 → Eng 2 Loop B"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 2 low oil quantity",
+      "pdf_page": 7,
+      "match_type": "not_found",
+      "menu_ids": [],
+      "menu_paths": [],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 2 no ignition",
+      "pdf_page": 7,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M316"
+      ],
+      "menu_paths": [
+        "ATA 80 - Start faults → No ignition → Eng 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 2 oil temperature high",
+      "pdf_page": 7,
+      "match_type": "not_found",
+      "menu_ids": [],
+      "menu_paths": [],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 2 oil temperature high advisory",
+      "pdf_page": 7,
+      "match_type": "not_found",
+      "menu_ids": [],
+      "menu_paths": [],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 2 pump failure",
+      "pdf_page": 7,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M139"
+      ],
+      "menu_paths": [
+        "ATA 29 - Hydraulic power → Engine pumps → Eng 2 Pump Failure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Eng 2 inextinguishable fire",
+      "pdf_page": 7,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M078"
+      ],
+      "menu_paths": [
+        "ATA 26 - Fire protection → Fire unextinguishable → Eng 2 Unextinguishable Fire"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "ESS TR failure",
+      "pdf_page": 7,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M069"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → TR Failure → Ess"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "F/O stuck mic",
+      "pdf_page": 7,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M247"
+      ],
+      "menu_paths": [
+        "ATA 23 - Communications → Stuck mic → F/o"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "FAC 1",
+      "pdf_page": 7,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M025"
+      ],
+      "menu_paths": [
+        "ATA 22 - AutoFlight → Nonresettable fault → Fac 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "FAC 1 resettable fault",
+      "pdf_page": 7,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M027"
+      ],
+      "menu_paths": [
+        "ATA 22 - AutoFlight → Resettable fault → Fac 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "FAC 2",
+      "pdf_page": 7,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M026"
+      ],
+      "menu_paths": [
+        "ATA 22 - AutoFlight → Nonresettable fault → Fac 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "FAC 2 resettable fault",
+      "pdf_page": 7,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M028"
+      ],
+      "menu_paths": [
+        "ATA 22 - AutoFlight → Resettable fault → Fac 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "FADEC Left Channel A",
+      "pdf_page": 7,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M357"
+      ],
+      "menu_paths": [
+        "ATA 70 - Power plant → Fadec → Left Channel A"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "FADEC Left Channel B",
+      "pdf_page": 7,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M358"
+      ],
+      "menu_paths": [
+        "ATA 70 - Power plant → Fadec → Left Channel B"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "FADEC Right Channel A",
+      "pdf_page": 7,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M359"
+      ],
+      "menu_paths": [
+        "ATA 70 - Power plant → Fadec → Right Channel A"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "FADEC Right Channel B",
+      "pdf_page": 7,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M360"
+      ],
+      "menu_paths": [
+        "ATA 70 - Power plant → Fadec → Right Channel B"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "FCDC 1",
+      "pdf_page": 7,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M303"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → FCDC → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "FCDC 2",
+      "pdf_page": 7,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M304"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → FCDC → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "FCU Channel 1",
+      "pdf_page": 7,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M038"
+      ],
+      "menu_paths": [
+        "ATA 22 - AutoFlight → FCU → Channel 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "FCU Channel 2",
+      "pdf_page": 7,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M039"
+      ],
+      "menu_paths": [
+        "ATA 22 - AutoFlight → FCU → Channel 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "FDU 1",
+      "pdf_page": 7,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M091"
+      ],
+      "menu_paths": [
+        "ATA 26 - Fire protection → FDU → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "FDU 2",
+      "pdf_page": 7,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M092"
+      ],
+      "menu_paths": [
+        "ATA 26 - Fire protection → FDU → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "FDU 3",
+      "pdf_page": 7,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M093"
+      ],
+      "menu_paths": [
+        "ATA 26 - Fire protection → FDU → 3"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Flap locked",
+      "pdf_page": 7,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M276"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Surface lock → Flap Locked"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "FMGC 1",
+      "pdf_page": 7,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M202"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → FMGC → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "FMGC 2",
+      "pdf_page": 7,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M203"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → FMGC → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Forward avionics door",
+      "pdf_page": 7,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M342"
+      ],
+      "menu_paths": [
+        "ATA 52 - Doors → Doors left → Forward Avionics Door"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Forward cargo door",
+      "pdf_page": 7,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M351"
+      ],
+      "menu_paths": [
+        "ATA 52 - Doors → Doors right → Forward Cargo Door"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Forward entry left door",
+      "pdf_page": 7,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M345"
+      ],
+      "menu_paths": [
+        "ATA 52 - Doors → Doors left → Forward Entry Left Door"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Forward entry right door",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M349"
+      ],
+      "menu_paths": [
+        "ATA 52 - Doors → Doors right → Forward Entry Right Door"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "FQI Chan 1",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M095"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → FQI → Chan 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "FQI Chan 2",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M096"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → FQI → Chan 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Fuel leak Center",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M121"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel leak → Center"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Fuel leak Left inner",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M120"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel leak → Left Inner"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Fuel leak Left outer",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M119"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel leak → Left Outer"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Fuel leak Right inner",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M122"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel leak → Right Inner"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Fuel leak Right outer",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M123"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel leak → Right Outer"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Fuel pump center 1",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M099"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel pump center → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Fuel pump center 2",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M100"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel pump center → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Fuel pump left 1",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M097"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel pump left → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Fuel pump left 2",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M098"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel pump left → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Fuel pump right 1",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M101"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel pump right → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Fuel pump right 2",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M102"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel pump right → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "FWC 1",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M321"
+      ],
+      "menu_paths": [
+        "ATA 31 - Indicating/Recording system → FWC → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "FWC 2",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M322"
+      ],
+      "menu_paths": [
+        "ATA 31 - Indicating/Recording system → FWC → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Fwd cargo smoke detected",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M074"
+      ],
+      "menu_paths": [
+        "ATA 26 - Fire protection → Fwd cargo smoke detected"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Gear locked down",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M171"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → Gear failure → Gear Locked Down"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Gear locked up",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M170"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → Gear failure → Gear Locked Up"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Gear safety valve",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M166"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → Gear safety valve"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Generator 1",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M060"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → Generator → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Generator 2",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M061"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → Generator → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Glideslope",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M214"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → ILS transmitter → Glideslope"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "GPS 1",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M215"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → GPS → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "GPS 2",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M216"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → GPS → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "GPWC",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M204"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → GPWC"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Green hydraulic leak",
+      "pdf_page": 8,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M126"
+      ],
+      "menu_paths": [
+        "ATA 29 - Hydraulic power → Hydraulic leak → Green"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Green low reservoir air pressure",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M132"
+      ],
+      "menu_paths": [
+        "ATA 29 - Hydraulic power → Reservoir low air pressure → Green Low Reservoir Air Pressure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Green reservoir overheat",
+      "pdf_page": 8,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M129"
+      ],
+      "menu_paths": [
+        "ATA 29 - Hydraulic power → Reservoir overheat → Green"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Hot air fault",
+      "pdf_page": 8,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M009"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → Hot air fault"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Hot air valve",
+      "pdf_page": 9,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M229"
+      ],
+      "menu_paths": [
+        "ATA 36 - Pneumatic → Pneumatic valves → Hot Air Valve"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Hot air valve aft cargo",
+      "pdf_page": 9,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M011"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → Hot air valve aft cargo"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Hot bus 1",
+      "pdf_page": 9,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M047"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → DC Bus Fault → Hot Bus 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Hot bus 2",
+      "pdf_page": 9,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M048"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → DC Bus Fault → Hot Bus 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Icing eng 1",
+      "pdf_page": 9,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M272"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → Icing → Eng 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Icing eng 2",
+      "pdf_page": 9,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M273"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → Icing → Eng 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IDG 1 oil low pressure",
+      "pdf_page": 9,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M064"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → IDG oil low pressure → Idg 1 Oil Low Pressure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IDG 1 oil overheat",
+      "pdf_page": 9,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M062"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → IDG oil ovht → Idg 1 Oil Overheat"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IDG 2 oil low pressure",
+      "pdf_page": 9,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M065"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → IDG oil low pressure → Idg 2 Oil Low Pressure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IDG 2 oil overheat",
+      "pdf_page": 9,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M063"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → IDG oil ovht → Idg 2 Oil Overheat"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "ILS 1 G/S",
+      "pdf_page": 9,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M210"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → ILS → 1 G/s"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "ILS 1 LOC",
+      "pdf_page": 9,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M209"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → ILS → 1 Loc"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "ILS 2 G/S",
+      "pdf_page": 9,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M212"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → ILS → 2 G/s"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "ILS 2 LOC",
+      "pdf_page": 9,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M211"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → ILS → 2 Loc"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Inner tank high fuel temp advisory",
+      "pdf_page": 9,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M105"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel temp high → Inner Tank High Fuel Temp Adv"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Inner tank high fuel temp ECAM",
+      "pdf_page": 9,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M103"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel temp high → Inner Tank High Fuel Temp Ecam"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Inner tank low fuel temp advisory",
+      "pdf_page": 9,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M109"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel temp low → Inner Tank Low Fuel Temp Adv"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Inner tank low fuel temp ECAM",
+      "pdf_page": 9,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M107"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel temp low → Inner Tank Low Fuel Temp Ecam"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IPPU1",
+      "pdf_page": 9,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M274"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → IPPU → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IPPU2",
+      "pdf_page": 9,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M275"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → IPPU → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IR1 alignment",
+      "pdf_page": 9,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M181"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → IRS Alignment → Ir1 Alignment"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IR1 bank discrepancy",
+      "pdf_page": 9,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M190"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → Bank discrepancy → Ir1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IR1 heading discrepancy",
+      "pdf_page": 9,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M193"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → Heading discrepancy → Ir1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IR1 IR disagree",
+      "pdf_page": 9,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M196"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → IR Disagree → Ir1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IR1 IR failure",
+      "pdf_page": 9,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M172"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → IR fault → Ir1 Ir Failure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IR1 pitch discrepancy",
+      "pdf_page": 9,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M187"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → Pitch discrepancy → Ir1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IR1 position failure",
+      "pdf_page": 9,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M175"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → IRS position failure → Ir1 Position Failure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IR2 alignment",
+      "pdf_page": 9,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M182"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → IRS Alignment → Ir2 Alignment"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IR2 bank discrepancy",
+      "pdf_page": 10,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M191"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → Bank discrepancy → Ir2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IR2 heading discrepancy",
+      "pdf_page": 10,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M194"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → Heading discrepancy → Ir2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IR2 IR Disagree",
+      "pdf_page": 10,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M197"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → IR Disagree → Ir2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IR2 IR failure",
+      "pdf_page": 10,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M173"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → IR fault → Ir2 Ir Failure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IR2 pitch discrepancy",
+      "pdf_page": 10,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M188"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → Pitch discrepancy → Ir2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IR2 position failure",
+      "pdf_page": 10,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M176"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → IRS position failure → Ir2 Position Failure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IR3 alignment",
+      "pdf_page": 10,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M183"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → IRS Alignment → Ir3 Alignment"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IR3 bank discrepancy",
+      "pdf_page": 10,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M192"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → Bank discrepancy → Ir3"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IR3 heading discrepancy",
+      "pdf_page": 10,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M195"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → Heading discrepancy → Ir3"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IR3 IR failure",
+      "pdf_page": 10,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M174"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → IR fault → Ir3 Ir Failure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IR3 pitch discrepancy",
+      "pdf_page": 10,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M189"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → Pitch discrepancy → Ir3"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "IR3 position failure",
+      "pdf_page": 10,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M177"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → IRS position failure → Ir3 Position Failure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "L Elev failure",
+      "pdf_page": 10,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M307"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Elev → L  Failure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Lavatory/Galley fan",
+      "pdf_page": 10,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M223"
+      ],
+      "menu_paths": [
+        "ATA 36 - Pneumatic → Lavatory/Galley fan"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Left avionics door",
+      "pdf_page": 10,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M343"
+      ],
+      "menu_paths": [
+        "ATA 52 - Doors → Doors left → Left Avionics Door"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Left high EGT",
+      "pdf_page": 10,
+      "match_type": "not_found",
+      "menu_ids": [],
+      "menu_paths": [],
+      "behavior_verified": false
+    },
+    {
+      "name": "Left high N1",
+      "pdf_page": 10,
+      "match_type": "not_found",
+      "menu_ids": [],
+      "menu_paths": [],
+      "behavior_verified": false
+    },
+    {
+      "name": "Left main gear does not lock",
+      "pdf_page": 10,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M167"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → Gear lock → Left Main Gear Does Not Lock"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Left nacelle temperature high",
+      "pdf_page": 10,
+      "match_type": "not_found",
+      "menu_ids": [],
+      "menu_paths": [],
+      "behavior_verified": false
+    },
+    {
+      "name": "Left oil pressure below advisory limit",
+      "pdf_page": 10,
+      "match_type": "not_found",
+      "menu_ids": [],
+      "menu_paths": [],
+      "behavior_verified": false
+    },
+    {
+      "name": "Left oil pressure high",
+      "pdf_page": 10,
+      "match_type": "not_found",
+      "menu_ids": [],
+      "menu_paths": [],
+      "behavior_verified": false
+    },
+    {
+      "name": "Left oil pressure low",
+      "pdf_page": 10,
+      "match_type": "not_found",
+      "menu_ids": [],
+      "menu_paths": [],
+      "behavior_verified": false
+    },
+    {
+      "name": "Left reverser inhibited by maint",
+      "pdf_page": 10,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M375"
+      ],
+      "menu_paths": [
+        "ATA 70 - Power plant → Reverser inhibited by maintenance → Left Reverser Inhibited By Maint"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Left reverser pressurized",
+      "pdf_page": 10,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M371"
+      ],
+      "menu_paths": [
+        "ATA 70 - Power plant → Reverser pressurized → Left"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Left reverser unlocked",
+      "pdf_page": 10,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M373"
+      ],
+      "menu_paths": [
+        "ATA 70 - Power plant → Reverser unlocked → Left"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Left Static heat Capt",
+      "pdf_page": 10,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M263"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → Static Heat → Left  Capt"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Left Static heat F/O",
+      "pdf_page": 10,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M265"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → Static Heat → Left  F/o"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Left Static heat Stby",
+      "pdf_page": 10,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M267"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → Static Heat → Left  Stby"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Left transfer 1",
+      "pdf_page": 11,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M111"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel transfer valves → Left Transfer 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Left transfer 2",
+      "pdf_page": 11,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M112"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel transfer valves → Left Transfer 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Left WAI Valve",
+      "pdf_page": 11,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M248"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → WAI Valves → Left Wai Valve"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Left wing 1 door",
+      "pdf_page": 11,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M346"
+      ],
+      "menu_paths": [
+        "ATA 52 - Doors → Doors left → Left Wing 1 Door"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Left wing 2 door",
+      "pdf_page": 11,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M347"
+      ],
+      "menu_paths": [
+        "ATA 52 - Doors → Doors left → Left Wing 2 Door"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "LGCUI 1",
+      "pdf_page": 11,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M164"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → LGCIU → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "LGCUI 2",
+      "pdf_page": 11,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M165"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → LGCIU → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Localizer",
+      "pdf_page": 11,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M213"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → ILS transmitter → Localizer"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "MCDU 1",
+      "pdf_page": 11,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M198"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → MCDU → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "MCDU 2",
+      "pdf_page": 11,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M199"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → MCDU → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Nose gear does not lock",
+      "pdf_page": 11,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M168"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → Gear lock → Nose Gear Does Not Lock"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Nose wheel steering",
+      "pdf_page": 11,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M163"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → Nose wheel steering"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Outer tank high fuel temp advisory",
+      "pdf_page": 11,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M106"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel temp high → Outer Tank High Fuel Temp Adv"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Outer tank high fuel temp ECAM",
+      "pdf_page": 11,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M104"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel temp high → Outer Tank High Fuel Temp Ecam"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Outer tank low fuel temp advisory",
+      "pdf_page": 11,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M110"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel temp low → Outer Tank Low Fuel Temp Adv"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Outer tank low fuel temp ECAM",
+      "pdf_page": 11,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M108"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel temp low → Outer Tank Low Fuel Temp Ecam"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Outflow valve stuck",
+      "pdf_page": 11,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M019"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → Outflow valve stuck"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Oxygen supply valve",
+      "pdf_page": 11,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M339"
+      ],
+      "menu_paths": [
+        "ATA 35 - Oxygen → Crew oxygen → Oxygen Supply Valve"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Pack 1 flow control valve",
+      "pdf_page": 11,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M236"
+      ],
+      "menu_paths": [
+        "ATA 36 - Pneumatic → Pack valves → Pack 1 Flow Control Valve"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Pack 1 overheat",
+      "pdf_page": 11,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M003"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → Overheat → Pack 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Pack 1 regulator fault",
+      "pdf_page": 11,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M005"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → Regulator fault → Pack 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Pack 2 flow control valve",
+      "pdf_page": 11,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M237"
+      ],
+      "menu_paths": [
+        "ATA 36 - Pneumatic → Pack valves → Pack 2 Flow Control Valve"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Pack 2 overheat",
+      "pdf_page": 11,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M004"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → Overheat → Pack 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Pack 2 regulator fault",
+      "pdf_page": 11,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M006"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → Regulator fault → Pack 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "PHC 1",
+      "pdf_page": 11,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M269"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → PHC → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "PHC 2",
+      "pdf_page": 11,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M270"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → PHC → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "PHC 3",
+      "pdf_page": 11,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M271"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → PHC → 3"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Pitot blocked Capt",
+      "pdf_page": 12,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M184"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → Pitot blocked → Capt"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Pitot blocked F/O",
+      "pdf_page": 12,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M185"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → Pitot blocked → F/o"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Pitot blocked Stdby",
+      "pdf_page": 12,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M186"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → Pitot blocked → Stdby"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Pitot heat Capt",
+      "pdf_page": 12,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M260"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → Pitot Heat → Capt"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Pitot heat F/O",
+      "pdf_page": 12,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M261"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → Pitot Heat → F/o"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Pitot heat STBY",
+      "pdf_page": 12,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M262"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → Pitot Heat → Stby"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "PTU Fault",
+      "pdf_page": 12,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M142"
+      ],
+      "menu_paths": [
+        "ATA 29 - Hydraulic power → PTU Fault"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "R Elev failure",
+      "pdf_page": 12,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M308"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Elev → R  Failure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Radio altimeter 1",
+      "pdf_page": 12,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M217"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → Radio altimeter → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Radio altimeter 2",
+      "pdf_page": 12,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M218"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → Radio altimeter → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Ram air valve",
+      "pdf_page": 12,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M226"
+      ],
+      "menu_paths": [
+        "ATA 36 - Pneumatic → Pneumatic valves → Ram Air Valve"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Rapid decompression",
+      "pdf_page": 12,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M018"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → Decompression → Rapid"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Reactive W/S det channel 1",
+      "pdf_page": 12,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M033"
+      ],
+      "menu_paths": [
+        "ATA 22 - AutoFlight → Reactive W/S det → Channel 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Reactive W/S det channel 2",
+      "pdf_page": 12,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M034"
+      ],
+      "menu_paths": [
+        "ATA 22 - AutoFlight → Reactive W/S det → Channel 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Recirculation fans",
+      "pdf_page": 12,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M016"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → Recirculation fans"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Reverser shutoff valve left",
+      "pdf_page": 12,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M383"
+      ],
+      "menu_paths": [
+        "ATA 70 - Power plant → Reverser shutoff valve → Left"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Reverser shutoff valve right",
+      "pdf_page": 12,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M384"
+      ],
+      "menu_paths": [
+        "ATA 70 - Power plant → Reverser shutoff valve → Right"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Right avionics door",
+      "pdf_page": 12,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M344"
+      ],
+      "menu_paths": [
+        "ATA 52 - Doors → Doors left → Right Avionics Door"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Right high EGT",
+      "pdf_page": 12,
+      "match_type": "not_found",
+      "menu_ids": [],
+      "menu_paths": [],
+      "behavior_verified": false
+    },
+    {
+      "name": "Right high N1",
+      "pdf_page": 12,
+      "match_type": "not_found",
+      "menu_ids": [],
+      "menu_paths": [],
+      "behavior_verified": false
+    },
+    {
+      "name": "Right main gear does not lock",
+      "pdf_page": 12,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M169"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → Gear lock → Right Main Gear Does Not Lock"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Right nacelle temperature high",
+      "pdf_page": 12,
+      "match_type": "not_found",
+      "menu_ids": [],
+      "menu_paths": [],
+      "behavior_verified": false
+    },
+    {
+      "name": "Right oil pressure below advisory limit",
+      "pdf_page": 12,
+      "match_type": "not_found",
+      "menu_ids": [],
+      "menu_paths": [],
+      "behavior_verified": false
+    },
+    {
+      "name": "Right oil pressure high",
+      "pdf_page": 12,
+      "match_type": "not_found",
+      "menu_ids": [],
+      "menu_paths": [],
+      "behavior_verified": false
+    },
+    {
+      "name": "Right oil pressure low",
+      "pdf_page": 12,
+      "match_type": "not_found",
+      "menu_ids": [],
+      "menu_paths": [],
+      "behavior_verified": false
+    },
+    {
+      "name": "Right reverser inhibited by maint",
+      "pdf_page": 12,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M376"
+      ],
+      "menu_paths": [
+        "ATA 70 - Power plant → Reverser inhibited by maintenance → Right Reverser Inhibited By Maint"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Right reverser pressurized",
+      "pdf_page": 12,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M372"
+      ],
+      "menu_paths": [
+        "ATA 70 - Power plant → Reverser pressurized → Right"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Right reverser unlocked",
+      "pdf_page": 12,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M374"
+      ],
+      "menu_paths": [
+        "ATA 70 - Power plant → Reverser unlocked → Right"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Right Static heat Capt",
+      "pdf_page": 13,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M264"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → Static Heat → Right  Capt"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Right Static heat F/O",
+      "pdf_page": 13,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M266"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → Static Heat → Right  F/o"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Right Static heat Stby",
+      "pdf_page": 13,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M268"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → Static Heat → Right  Stby"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Right transfer 1",
+      "pdf_page": 13,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M113"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel transfer valves → Right Transfer 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Right transfer 2",
+      "pdf_page": 13,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M114"
+      ],
+      "menu_paths": [
+        "ATA 28 - Fuel → Fuel transfer valves → Right Transfer 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Right WAI Valve",
+      "pdf_page": 13,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M249"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → WAI Valves → Right Wai Valve"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Right wing 1 door",
+      "pdf_page": 13,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M352"
+      ],
+      "menu_paths": [
+        "ATA 52 - Doors → Doors right → Right Wing 1 Door"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Right wing 2 door",
+      "pdf_page": 13,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M353"
+      ],
+      "menu_paths": [
+        "ATA 52 - Doors → Doors right → Right Wing 2 Door"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Rudder travel limiter channel 1",
+      "pdf_page": 13,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M029"
+      ],
+      "menu_paths": [
+        "ATA 22 - AutoFlight → Rudder travel limiter → Channel 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Rudder travel limiter channel 2",
+      "pdf_page": 13,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M030"
+      ],
+      "menu_paths": [
+        "ATA 22 - AutoFlight → Rudder travel limiter → Channel 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Rudder trim channel 1",
+      "pdf_page": 13,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M031"
+      ],
+      "menu_paths": [
+        "ATA 22 - AutoFlight → Rudder trim → Channel 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Rudder trim channel 2",
+      "pdf_page": 13,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M032"
+      ],
+      "menu_paths": [
+        "ATA 22 - AutoFlight → Rudder trim → Channel 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "SDAC 1",
+      "pdf_page": 13,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M319"
+      ],
+      "menu_paths": [
+        "ATA 31 - Indicating/Recording system → SDAC → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "SDAC 2",
+      "pdf_page": 13,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M320"
+      ],
+      "menu_paths": [
+        "ATA 31 - Indicating/Recording system → SDAC → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "SDCU",
+      "pdf_page": 13,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M073"
+      ],
+      "menu_paths": [
+        "ATA 26 - Fire protection → SDCU"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "SEC 1",
+      "pdf_page": 13,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M287"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Nonresettable fault → Sec 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "SEC 1 resettable fault",
+      "pdf_page": 13,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M292"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Resettable fault → Sec 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "SEC 2",
+      "pdf_page": 13,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M288"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Nonresettable fault → Sec 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "SEC 2 resettable fault",
+      "pdf_page": 13,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M293"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Resettable fault → Sec 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "SEC 3",
+      "pdf_page": 13,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M289"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Nonresettable fault → Sec 3"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "SEC 3 resettable fault",
+      "pdf_page": 13,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M294"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Resettable fault → Sec 3"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "SFCC 1",
+      "pdf_page": 13,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M279"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → SFCC → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "SFCC 1 flap sys",
+      "pdf_page": 13,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M281"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Flap → Sfcc 1  Sys"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "SFCC 1 slat sys",
+      "pdf_page": 13,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M283"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Slat → Sfcc 1  Sys"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "SFCC 2",
+      "pdf_page": 13,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M280"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → SFCC → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "SFCC 2 flap sys",
+      "pdf_page": 13,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M282"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Flap → Sfcc 2  Sys"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "SFCC 2 slat sys",
+      "pdf_page": 13,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M284"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Slat → Sfcc 2  Sys"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Sidestick fault Capt",
+      "pdf_page": 13,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M301"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Sidestick → Fault Capt"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Sidestick fault F/O",
+      "pdf_page": 13,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M302"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Sidestick → Fault F/o"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Sidestick reversal Capt",
+      "pdf_page": 13,
+      "match_type": "split_pitch_roll_controls",
+      "menu_ids": [
+        "M297",
+        "M298"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Sidestick reversal → Pitch Capt",
+        "ATA 27 - Flight controls → Sidestick reversal → Roll Capt"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Sidestick reversal F/O",
+      "pdf_page": 14,
+      "match_type": "split_pitch_roll_controls",
+      "menu_ids": [
+        "M299",
+        "M300"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Sidestick reversal → Pitch F/o",
+        "ATA 27 - Flight controls → Sidestick reversal → Roll F/o"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Slat locked",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M277"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Surface lock → Slat Locked"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Slow decompression",
+      "pdf_page": 14,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M017"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → Decompression → Slow"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Stabilizer jam",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M305"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Stabilizer jam"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Start valve left",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M309"
+      ],
+      "menu_paths": [
+        "ATA 80 - Start faults → Start valve → Left"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Start valve right",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M310"
+      ],
+      "menu_paths": [
+        "ATA 80 - Start faults → Start valve → Right"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Static inverter",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M066"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → Static inverter"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "TAT heat Capt",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M257"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → TAT Heat → Capt"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "TAT heat F/O",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M258"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → TAT Heat → F/o"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "TAT heat STBY",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M259"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → TAT Heat → Stby"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "TCAS",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M220"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → TCAS"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "TR 1",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M067"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → TR Failure → Tr 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "TR 2",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M068"
+      ],
+      "menu_paths": [
+        "ATA 24 - Electrical power → TR Failure → Tr 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Tyre pressure left 1 low",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M159"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → Tyre pressure → Left 1 Low"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Tyre pressure left 2 low",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M160"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → Tyre pressure → Left 2 Low"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Tyre pressure main 1 low",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M157"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → Tyre pressure → Main 1 Low"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Tyre pressure main 2 low",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M158"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → Tyre pressure → Main 2 Low"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Tyre pressure right 1 low",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M161"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → Tyre pressure → Right 1 Low"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Tyre pressure right 2 low",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M162"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → Tyre pressure → Right 2 Low"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Vent extract valve",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M024"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → Ventilation valves → Vent Extract Valve"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Vent inlet valve",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M023"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → Ventilation valves → Vent Inlet Valve"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Ventilation AEVC",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M020"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → Ventilation → Aevc"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Ventilation blower fault",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M021"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → Ventilation → Blower Fault"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Ventilation extract fault",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M022"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → Ventilation → Extract Fault"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "VOR 1",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M205"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → Radios → Vor 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "VOR 2",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M206"
+      ],
+      "menu_paths": [
+        "ATA 34 - Navigation → Radios → Vor 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "WHC 1",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M252"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → WHC → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "WHC 2",
+      "pdf_page": 14,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M253"
+      ],
+      "menu_paths": [
+        "ATA 30 - Ice and rain protection → WHC → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Wheel brake fault 1",
+      "pdf_page": 15,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M153"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → Wheel brake fault → 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Wheel brake fault 2",
+      "pdf_page": 15,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M154"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → Wheel brake fault → 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Wheel brake fault 3",
+      "pdf_page": 15,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M155"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → Wheel brake fault → 3"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Wheel brake fault 4",
+      "pdf_page": 15,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M156"
+      ],
+      "menu_paths": [
+        "ATA 32 - Landing gear → Wheel brake fault → 4"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Yaw damper channel 1",
+      "pdf_page": 15,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M295"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Yaw damper → Channel 1"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Yaw damper channel 2",
+      "pdf_page": 15,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M296"
+      ],
+      "menu_paths": [
+        "ATA 27 - Flight controls → Yaw damper → Channel 2"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Yellow hydraulic leak",
+      "pdf_page": 15,
+      "match_type": "reviewed_group_label_alias",
+      "menu_ids": [
+        "M128"
+      ],
+      "menu_paths": [
+        "ATA 29 - Hydraulic power → Hydraulic leak → Yellow"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Yellow low reservoir air pressure",
+      "pdf_page": 15,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M134"
+      ],
+      "menu_paths": [
+        "ATA 29 - Hydraulic power → Reservoir low air pressure → Yellow Low Reservoir Air Pressure"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Yellow reservoir overheat",
+      "pdf_page": 15,
+      "match_type": "reviewed_name_or_group_rewording",
+      "menu_ids": [
+        "M131"
+      ],
+      "menu_paths": [
+        "ATA 29 - Hydraulic power → Reservoir overheat → Yellow"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Zone controller primary",
+      "pdf_page": 15,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M007"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → Zone controller → Primary"
+      ],
+      "behavior_verified": false
+    },
+    {
+      "name": "Zone controller secondary",
+      "pdf_page": 15,
+      "match_type": "normalized_exact_label_or_group_label",
+      "menu_ids": [
+        "M008"
+      ],
+      "menu_paths": [
+        "ATA 21 - Air Conditioning → Zone controller → Secondary"
+      ],
+      "behavior_verified": false
+    }
+  ],
+  "current_buttons_without_old_match": [
+    {
+      "menu_id": "M076",
+      "ata": "ATA 26 - Fire protection",
+      "group": "",
+      "label": "Lavatory smoke",
+      "enabled": true,
+      "path": "ATA 26 - Fire protection → Lavatory smoke",
+      "key": "Lavatory smoke"
+    },
+    {
+      "menu_id": "M118",
+      "ata": "ATA 28 - Fuel",
+      "group": "Fuel valves",
+      "label": "Defuel/transfer Valve",
+      "enabled": true,
+      "path": "ATA 28 - Fuel → Fuel valves → Defuel/transfer Valve",
+      "key": "Fuel valves Defuel/transfer Valve"
+    },
+    {
+      "menu_id": "M135",
+      "ata": "ATA 29 - Hydraulic power",
+      "group": "Hydraulic low",
+      "label": "Green  Level",
+      "enabled": true,
+      "path": "ATA 29 - Hydraulic power → Hydraulic low → Green  Level",
+      "key": "Hydraulic low Green  Level"
+    },
+    {
+      "menu_id": "M136",
+      "ata": "ATA 29 - Hydraulic power",
+      "group": "Hydraulic low",
+      "label": "Blue  Level",
+      "enabled": true,
+      "path": "ATA 29 - Hydraulic power → Hydraulic low → Blue  Level",
+      "key": "Hydraulic low Blue  Level"
+    },
+    {
+      "menu_id": "M137",
+      "ata": "ATA 29 - Hydraulic power",
+      "group": "Hydraulic low",
+      "label": "Yellow  Level",
+      "enabled": true,
+      "path": "ATA 29 - Hydraulic power → Hydraulic low → Yellow  Level",
+      "key": "Hydraulic low Yellow  Level"
+    },
+    {
+      "menu_id": "M219",
+      "ata": "ATA 34 - Navigation",
+      "group": "",
+      "label": "NAV accuracy downgrade",
+      "enabled": true,
+      "path": "ATA 34 - Navigation → NAV accuracy downgrade",
+      "key": "NAV accuracy downgrade"
+    },
+    {
+      "menu_id": "M327",
+      "ata": "ATA 31 - Indicating/Recording system",
+      "group": "DCDU",
+      "label": "Capt",
+      "enabled": true,
+      "path": "ATA 31 - Indicating/Recording system → DCDU → Capt",
+      "key": "DCDU Capt"
+    },
+    {
+      "menu_id": "M328",
+      "ata": "ATA 31 - Indicating/Recording system",
+      "group": "DCDU",
+      "label": "Fo",
+      "enabled": true,
+      "path": "ATA 31 - Indicating/Recording system → DCDU → Fo",
+      "key": "DCDU Fo"
+    },
+    {
+      "menu_id": "M337",
+      "ata": "ATA 35 - Oxygen",
+      "group": "Crew oxygen 2",
+      "label": "Pressure < 400",
+      "enabled": true,
+      "path": "ATA 35 - Oxygen → Crew oxygen 2 → Pressure < 400",
+      "key": "Crew oxygen 2 Pressure < 400"
+    },
+    {
+      "menu_id": "M338",
+      "ata": "ATA 35 - Oxygen",
+      "group": "Crew oxygen 2",
+      "label": "Pressure < 800",
+      "enabled": true,
+      "path": "ATA 35 - Oxygen → Crew oxygen 2 → Pressure < 800",
+      "key": "Crew oxygen 2 Pressure < 800"
+    },
+    {
+      "menu_id": "M340",
+      "ata": "ATA 35 - Oxygen",
+      "group": "Crew oxygen",
+      "label": "Oxygen Supply Valve 2",
+      "enabled": true,
+      "path": "ATA 35 - Oxygen → Crew oxygen → Oxygen Supply Valve 2",
+      "key": "Crew oxygen Oxygen Supply Valve 2"
+    },
+    {
+      "menu_id": "M363",
+      "ata": "ATA 70 - Power plant",
+      "group": "Engine surge",
+      "label": "Left Surge",
+      "enabled": true,
+      "path": "ATA 70 - Power plant → Engine surge → Left Surge",
+      "key": "Engine surge Left Surge"
+    },
+    {
+      "menu_id": "M364",
+      "ata": "ATA 70 - Power plant",
+      "group": "Engine surge",
+      "label": "Right Surge",
+      "enabled": true,
+      "path": "ATA 70 - Power plant → Engine surge → Right Surge",
+      "key": "Engine surge Right Surge"
+    },
+    {
+      "menu_id": "M369",
+      "ata": "ATA 70 - Power plant",
+      "group": "Engine birdstrike",
+      "label": "Left Bird Strike",
+      "enabled": true,
+      "path": "ATA 70 - Power plant → Engine birdstrike → Left Bird Strike",
+      "key": "Engine birdstrike Left Bird Strike"
+    },
+    {
+      "menu_id": "M370",
+      "ata": "ATA 70 - Power plant",
+      "group": "Engine birdstrike",
+      "label": "Right Bird Strike",
+      "enabled": true,
+      "path": "ATA 70 - Power plant → Engine birdstrike → Right Bird Strike",
+      "key": "Engine birdstrike Right Bird Strike"
+    },
+    {
+      "menu_id": "M381",
+      "ata": "ATA 70 - Power plant",
+      "group": "Oil leak",
+      "label": "Left",
+      "enabled": true,
+      "path": "ATA 70 - Power plant → Oil leak → Left",
+      "key": "Oil leak Left"
+    },
+    {
+      "menu_id": "M382",
+      "ata": "ATA 70 - Power plant",
+      "group": "Oil leak",
+      "label": "Right",
+      "enabled": true,
+      "path": "ATA 70 - Power plant → Oil leak → Right",
+      "key": "Oil leak Right"
+    }
+  ]
+}

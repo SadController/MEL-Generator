@@ -1,0 +1,2748 @@
+
+=== PDF PAGE 1 ===
+ISSUE DATE: 03 DEC 21
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 2 ===
+Intentionally left blank
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 3 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+TRANSMITTAL LETTER
+TRL P 1/2
+03 DEC 21
+Issue date: 03 DEC 21
+This is the MINIMUM EQUIPMENT LIST at issue date 03 DEC 21 for the A318/A319/A320/A321
+and replacing last issue dated 27 MAY 21
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 4 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+TRANSMITTAL LETTER
+Intentionally left blank
+TRL P 2/2
+03 DEC 21
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 5 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+FILING INSTRUCTIONS
+FI P 1/8
+03 DEC 21
+Please incorporate this revision as follow:
+Insert
+Localization
+Subsection Title
+Remove
+Rev. Date
+PLP-TOC
+TABLE OF CONTENTS
+ALL
+03 DEC 21
+PLP-LESS
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+ALL
+03 DEC 21
+PLP-LEDU
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+ALL
+03 DEC 21
+PLP-LOM
+LIST OF MODIFICATIONS
+ALL
+03 DEC 21
+ME-PLP-TOC
+TABLE OF CONTENTS
+ALL
+03 DEC 21
+ME-PLP-SOH
+SUMMARY OF HIGHLIGHTS
+ALL
+03 DEC 21
+ME-21
+Air Conditioning
+ALL
+03 DEC 21
+ME-22
+Auto Flight
+ALL
+03 DEC 21
+ME-23
+Communications
+ALL
+03 DEC 21
+ME-24
+Electrical Power
+ALL
+03 DEC 21
+ME-26
+Fire Protection
+ALL
+03 DEC 21
+ME-27
+Flight Controls
+ALL
+18 AUG 21
+ME-28
+Fuel
+ALL
+03 DEC 21
+ME-29
+Hydraulic Power
+ALL
+03 DEC 21
+ME-32
+Landing Gear
+ALL
+03 DEC 21
+ME-34
+Navigation
+ALL
+03 DEC 21
+ME-36
+Pneumatic
+ALL
+03 DEC 21
+ME-46
+Information Systems
+ALL
+03 DEC 21
+ME-52
+Doors
+ALL
+03 DEC 21
+Continued on the following page
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 6 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+FILING INSTRUCTIONS
+FI P 2/8
+03 DEC 21
+Continued from the previous page
+Insert
+Localization
+Subsection Title
+Remove
+Rev. Date
+ME-70
+Engine
+ALL
+03 DEC 21
+MI-PLP-TOC
+TABLE OF CONTENTS
+ALL
+03 DEC 21
+MI-PLP-SOH
+SUMMARY OF HIGHLIGHTS
+ALL
+03 DEC 21
+MI-00-01
+Approval Reference
+ALL
+03 DEC 21
+MI-21-00
+MAINTENANCE Messages on the STATUS SD page
+ALL
+03 DEC 21
+MI-21-51
+Pack Flow Control
+ALL
+03 DEC 21
+MI-21-52
+Air Cooling System
+ALL
+03 DEC 21
+MI-21-61
+Pack Temperature Control
+ALL
+03 DEC 21
+MI-21-63
+Cockpit and Cabin Temperature Control
+ALL
+03 DEC 21
+MI-22-70
+Flight Management System (FMS)
+ALL
+03 DEC 21
+MI-22-81-01
+Auto Flight Control Panel (FCU)
+ALL
+03 DEC 21
+MI-22-81-02
+EFIS Control Panel (FCU)
+ALL
+03 DEC 21
+MI-22-81-03
+FCU Channel
+ALL
+03 DEC 21
+MI-22-83
+Flight Management and Guidance Computer (FMGC)
+ALL
+03 DEC 21
+MI-23-10
+Speech Communication
+ALL
+03 DEC 21
+MI-23-13
+Radio Management
+ALL
+03 DEC 21
+MI-23-20
+Data Transmission and Automatic Calling
+ALL
+03 DEC 21
+MI-23-73-01
+Cabin Intercommunication Data System (CIDS)
+ALL
+03 DEC 21
+MI-23-73-03
+DEU B
+ALL
+03 DEC 21
+MI-23-74
+Cabin Crew Panel
+ALL
+03 DEC 21
+Continued on the following page
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 7 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+FILING INSTRUCTIONS
+FI P 3/8
+03 DEC 21
+Continued from the previous page
+Insert
+Localization
+Subsection Title
+Remove
+Rev. Date
+MI-23-99
+Controller Pilot Data Link Communications, CPDLC
+ALL
+03 DEC 21
+MI-24-01-01
+ELEC Overhead Panel
+ALL
+03 DEC 21
+MI-24-09
+ECAM Alerts
+ALL
+03 DEC 21
+MI-24-22
+AC Main Generation
+ALL
+03 DEC 21
+MI-24-23
+AC Auxiliary Generation
+ALL
+03 DEC 21
+MI-24-26
+Galley and Commercial Supply System
+ALL
+03 DEC 21
+MI-24-32
+DC Main Generation (TR 1, TR 2)
+ALL
+03 DEC 21
+MI-25-07
+Indications on the DOOR/OXY SD page
+ALL
+03 DEC 21
+MI-25-12
+Third and Fourth Occupant Seats
+ALL
+03 DEC 21
+MI-25-50
+Cargo Compartments
+ALL
+03 DEC 21
+MI-25-62
+Cabin Escape Facilities
+ALL
+03 DEC 21
+MI-26-00
+MAINTENANCE Message on the STATUS SD page
+ALL
+03 DEC 21
+MI-26-01-02
+CARGO SMOKE Overhead Panel
+ALL
+03 DEC 21
+MI-26-17
+Lavatory Smoke Detection
+ALL
+03 DEC 21
+MI-26-23
+Cargo Compartment Fire Extinguishing
+ALL
+03 DEC 21
+MI-27-14
+Aileron and Hydraulic Actuation
+ALL
+03 DEC 21
+MI-27-64
+Spoiler Hydraulic Actuation
+ALL
+03 DEC 21
+MI-27-92
+Electrical Flight Control System (EFCS) Control Inputs and Power Supply
+ALL
+03 DEC 21
+MI-27-93
+ELAC System (Elevator Aileron Computer)
+ALL
+03 DEC 21
+MI-27-94
+SEC System (Spoiler and Elevator Computer)
+ALL
+03 DEC 21
+Continued on the following page
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 8 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+FILING INSTRUCTIONS
+FI P 4/8
+03 DEC 21
+Continued from the previous page
+Insert
+Localization
+Subsection Title
+Remove
+Rev. Date
+MI-28-21
+Main Fuel Pump System
+ALL
+03 DEC 21
+MI-28-43
+Manual Magnetic Indicators
+ALL
+03 DEC 21
+MI-29-07
+Indications on the HYD SD page
+ALL
+03 DEC 21
+MI-29-09
+ECAM Alerts
+ALL
+03 DEC 21
+MI-29-10
+Main Hydraulic Power
+ALL
+03 DEC 21
+MI-30-21
+Engine Air Intake Ice Protection
+ALL
+03 DEC 21
+MI-30-81
+Ice Detection
+ALL
+03 DEC 21
+MI-31-07
+Indications on the System Display (SD)
+ALL
+03 DEC 21
+MI-31-38
+Up and Down Data Loading System Acquisition/Interface and Equipment
+ALL
+03 DEC 21
+MI-31-62
+Display Management Computer (DMC)
+ALL
+03 DEC 21
+MI-31-63
+Display Unit (DU)
+ALL
+03 DEC 21
+MI-32-07
+Indications on the WHEEL SD page
+ALL
+03 DEC 21
+MI-32-42
+Normal Braking
+ALL
+03 DEC 21
+MI-32-44
+Alternate Braking
+ALL
+03 DEC 21
+MI-33-51
+Cabin Emergency Lighting
+ALL
+03 DEC 21
+MI-34-05
+Indications on the Primary Flight Display (PFD)
+ALL
+03 DEC 21
+MI-34-06
+Indications on the Navigation Display (ND)
+ALL
+03 DEC 21
+MI-34-10
+Air Data/Inertial Reference System (ADIRS)
+ALL
+03 DEC 21
+MI-34-21
+Altitude and Airspeed Standby Data
+ALL
+03 DEC 21
+MI-34-22
+Attitude and Heading Standby Data
+ALL
+03 DEC 21
+Continued on the following page
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 9 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+FILING INSTRUCTIONS
+FI P 5/8
+03 DEC 21
+Continued from the previous page
+Insert
+Localization
+Subsection Title
+Remove
+Rev. Date
+MI-34-23
+Integrated Standby Instrument System (ISIS)
+ALL
+03 DEC 21
+MI-34-30
+Landing and Taxiing Aid
+ALL
+03 DEC 21
+MI-34-40
+GPWS, Radio Altimeter, TCAS, Weather Radar
+ALL
+03 DEC 21
+MI-34-50
+ATC and Radio/GPS Navigation Systems
+ALL
+03 DEC 21
+MI-36-09
+ECAM Alerts
+ALL
+03 DEC 21
+MI-36-11
+Engine Bleed Air Supply System
+ALL
+03 DEC 21
+MI-36-22
+Leak Detection Loop
+ALL
+03 DEC 21
+MI-46-21
+Air Traffic and Information Management System
+ALL
+03 DEC 21
+MI-52-07
+Indications on the DOOR/OXY SD page
+ALL
+03 DEC 21
+MI-73-07
+Indications on the ENGINE SD page
+ALL
+03 DEC 21
+MI-73-08
+Indications on the EWD
+ALL
+03 DEC 21
+MI-73-10
+Distribution
+ALL
+03 DEC 21
+MI-73-20
+Controlling
+ALL
+03 DEC 21
+MI-74-09
+ECAM Alert
+ALL
+03 DEC 21
+MI-74-31
+Ignition Starting and Continuous Relight
+ALL
+03 DEC 21
+MI-77-08
+Indications on the EWD
+ALL
+03 DEC 21
+MI-78-08
+Indications on the EWD
+ALL
+03 DEC 21
+MI-78-30
+Thrust Reversers
+ALL
+03 DEC 21
+MI-79-07
+Indications on the ENGINE SD page
+ALL
+03 DEC 21
+MI-79-09
+ECAM Alerts
+ALL
+03 DEC 21
+Continued on the following page
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 10 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+FILING INSTRUCTIONS
+FI P 6/8
+03 DEC 21
+Continued from the previous page
+Insert
+Localization
+Subsection Title
+Remove
+Rev. Date
+MI-79-20
+Distribution
+ALL
+03 DEC 21
+MO-PLP-TOC
+TABLE OF CONTENTS
+ALL
+03 DEC 21
+MO-PLP-SOH
+SUMMARY OF HIGHLIGHTS
+ALL
+03 DEC 21
+MO-21-23
+Lavatory and Galley Ventilation
+ALL
+03 DEC 21
+MO-21-31
+Pressure Control and Monitoring
+ALL
+03 DEC 21
+MO-21-61
+Pack Temperature Control
+ALL
+03 DEC 21
+MO-21-63
+Cockpit and Cabin Temperature Control
+ALL
+03 DEC 21
+MO-23-20
+Data Transmission and Automatic Calling
+ALL
+03 DEC 21
+MO-24-01-01
+ELEC Overhead Panel
+ALL
+03 DEC 21
+MO-24-07
+Indications on the ELEC SD page
+ALL
+03 DEC 21
+MO-24-09
+ECAM Alerts
+ALL
+03 DEC 21
+MO-24-22
+AC Main Generation
+ALL
+03 DEC 21
+MO-24-23
+AC Auxiliary Generation
+ALL
+18 AUG 21
+MO-27-64
+Spoiler Hydraulic Actuation
+ALL
+03 DEC 21
+MO-27-92
+Electrical Flight Control System (EFCS) Control Inputs and Power Supply
+ALL
+03 MAR 21
+MO-28-20
+Distribution
+ALL
+03 DEC 21
+MO-30-11
+Wing Ice Protection
+ALL
+03 MAR 21
+MO-30-21
+Engine Air Intake Ice Protection
+ALL
+03 MAR 21
+MO-30-31
+Probe Ice Protection
+ALL
+03 DEC 21
+MO-30-81
+Ice Detection
+ALL
+03 DEC 21
+Continued on the following page
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 11 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+FILING INSTRUCTIONS
+FI P 7/8
+03 DEC 21
+Continued from the previous page
+Insert
+Localization
+Subsection Title
+Remove
+Rev. Date
+MO-31-07
+Indications on the System Display (SD)
+ALL
+03 DEC 21
+MO-32-07
+Indications on the WHEEL SD page
+ALL
+03 DEC 21
+MO-32-31
+Normal Extension and Retraction
+ALL
+03 DEC 21
+MO-32-32
+Proximity Detector System
+ALL
+03 DEC 21
+MO-32-42
+Normal Braking
+ALL
+03 MAR 21
+MO-32-51
+Steering
+ALL
+03 DEC 21
+MO-34-10
+Air Data/Inertial Reference System (ADIRS)
+ALL
+03 DEC 21
+MO-34-21
+Altitude and Airspeed Standby Data
+ALL
+03 DEC 21
+MO-34-22
+Attitude and Heading Standby Data
+ALL
+03 DEC 21
+MO-34-40
+GPWS, Radio Altimeter, TCAS, Weather Radar
+ALL
+03 DEC 21
+MO-34-50
+ATC and Radio/GPS Navigation Systems
+ALL
+03 DEC 21
+MO-36-09
+ECAM Alerts
+ALL
+03 DEC 21
+MO-36-11
+Engine Bleed Air Supply System
+ALL
+03 DEC 21
+MO-36-22
+Leak Detection Loop
+ALL
+03 DEC 21
+MO-46-21
+Air Traffic and Information Management System
+ALL
+03 DEC 21
+MO-73-20
+Controlling
+ALL
+03 MAR 21
+MO-74-31
+Ignition Starting and Continuous Relight
+ALL
+03 DEC 21
+MO-78-30
+Thrust Reversers
+ALL
+03 MAR 21
+MO-79-20
+Distribution
+ALL
+03 DEC 21
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 12 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+FILING INSTRUCTIONS
+Intentionally left blank
+FI P 8/8
+03 DEC 21
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 13 ===
+PRELIMINARY PAGES
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 14 ===
+Intentionally left blank
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 15 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+PRELIMINARY PAGES
+TABLE OF CONTENTS
+PLP-TOC P 1/2
+03 DEC 21
+HOW How to Use
+ME MEL Entries
+MI MEL Items
+MO MEL Operational Procedures
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 16 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+PRELIMINARY PAGES
+TABLE OF CONTENTS
+Intentionally left blank
+PLP-TOC P 2/2
+03 DEC 21
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 17 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+PLP-LESS P 1/12
+03 DEC 21
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+R
+PLP-LESS
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+03 DEC 21
+PLP-LETDU
+LIST OF EFFECTIVE TEMPORARY DOCUMENTARY UNITS
+03 DEC 21
+HOW
+How to Use
+27 MAY 21
+E
+ME-21
+Air Conditioning
+03 DEC 21
+E
+ME-22
+Auto Flight
+03 DEC 21
+R
+ME-23
+Communications
+03 DEC 21
+R
+ME-24
+Electrical Power
+03 DEC 21
+R
+ME-26
+Fire Protection
+03 DEC 21
+R
+ME-27
+Flight Controls
+18 AUG 21
+E
+ME-28
+Fuel
+03 DEC 21
+E
+ME-29
+Hydraulic Power
+03 DEC 21
+ME-30
+Ice and Rain Protection
+22 NOV 17
+ME-31
+Indicating/Recording Systems
+22 NOV 17
+R
+ME-32
+Landing Gear
+03 DEC 21
+R
+ME-34
+Navigation
+03 DEC 21
+E
+ME-36
+Pneumatic
+03 DEC 21
+E
+ME-46
+Information Systems
+03 DEC 21
+ME-49
+Airborne Auxiliary Power
+22 NOV 17
+R
+ME-52
+Doors
+03 DEC 21
+R
+ME-70
+Engine
+03 DEC 21
+R
+MI-00-01
+Approval Reference
+03 DEC 21
+MI-00-02
+Introduction to the MEL
+19 AUG 20
+MI-00-03
+Criteria for Dispatch
+03 MAR 21
+MI-00-04
+Maintenance Action
+03 MAR 21
+MI-00-05
+Repair Interval
+03 MAR 21
+MI-00-06
+Repair Interval Extension
+03 MAR 21
+MI-00-07
+Definitions
+03 MAR 21
+MI-00-08
+ECAM and MAINTENANCE STATUS
+03 MAR 21
+MI-00-09
+MEL Items depending on Local Regulations
+27 MAY 21
+E
+MI-21-00
+MAINTENANCE Messages on the STATUS SD page
+03 DEC 21
+MI-21-01-01
+AIR COND Overhead Panel
+22 NOV 17
+MI-21-01-02
+CABIN PRESS Overhead Panel
+22 NOV 17
+MI-21-01-03
+CARGO VENT Overhead Panel
+06 APR 20
+MI-21-01-04
+VENTILATION Overhead Panel
+22 NOV 17
+MI-21-07-01
+Indications on the BLEED SD page
+22 NOV 17
+MI-21-07-02
+Indications on the CAB PRESS SD page
+22 MAY 19
+MI-21-07-03
+Indications on the COND SD page
+22 NOV 17
+MI-21-07-04
+Indications on the CRUISE SD page
+22 NOV 17
+MI-21-09
+ECAM Alerts
+22 MAY 19
+MI-21-21
+Air Distribution and Recirculation
+22 MAY 19
+Continued on the following page
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 18 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+PLP-LESS P 2/12
+03 DEC 21
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+MI-21-23
+Lavatory and Galley Ventilation
+22 MAY 19
+MI-21-26
+Avionics Equipment Ventilation
+22 MAY 19
+MI-21-28
+Cargo Compartment Ventilation
+03 MAR 21
+MI-21-31
+Pressure Control and Monitoring
+03 MAR 21
+MI-21-43
+Cargo Compartment Heating
+16 DEC 19
+E
+MI-21-51
+Pack Flow Control
+03 DEC 21
+R
+MI-21-52
+Air Cooling System
+03 DEC 21
+MI-21-55
+Emergency Ram Air Inlet
+03 MAR 21
+E
+MI-21-61
+Pack Temperature Control
+03 DEC 21
+E
+MI-21-63
+Cockpit and Cabin Temperature Control
+03 DEC 21
+MI-22-01-01
+FLT CTL Overhead Panel
+17 MAY 18
+MI-22-05
+FMA Indications on the PFD
+13 MAY 20
+MI-22-10
+Autopilot/Flight Director (AP/FD)
+22 MAY 19
+MI-22-30
+Autothrust
+22 MAY 19
+MI-22-60
+Flight Augmentation (FAC)
+27 MAY 21
+E
+MI-22-70
+Flight Management System (FMS)
+03 DEC 21
+E
+MI-22-81-01
+Auto Flight Control Panel (FCU)
+03 DEC 21
+E
+MI-22-81-02
+EFIS Control Panel (FCU)
+03 DEC 21
+E
+MI-22-81-03
+FCU Channel
+03 DEC 21
+MI-22-82
+Multipurpose Control and Display Unit (MCDU)
+13 MAY 20
+E
+MI-22-83
+Flight Management and Guidance Computer (FMGC)
+03 DEC 21
+MI-23-00
+MAINTENANCE Message on the STATUS SD page
+19 NOV 19
+MI-23-01-01
+RCDR Overhead Panel
+22 NOV 17
+MI-23-01-02
+CALLS Overhead Panel
+03 MAR 21
+MI-23-01-03
+AUDIO SWITCHING Overhead Panel
+22 NOV 17
+MI-23-09
+ECAM Alerts
+03 MAR 21
+E
+MI-23-10
+Speech Communication
+03 DEC 21
+E
+MI-23-13
+Radio Management
+03 DEC 21
+R
+MI-23-20
+Data Transmission and Automatic Calling
+03 DEC 21
+MI-23-31
+Passenger Address System
+16 DEC 19
+MI-23-40
+Interphone
+15 NOV 18
+MI-23-51
+Audio Management
+03 MAR 21
+MI-23-52
+Audio Control Panel (ACP)
+06 APR 20
+MI-23-71
+Cockpit Voice Recorder (CVR)
+22 NOV 17
+MI-23-72
+Cockpit Door Surveillance System (CDSS)
+13 MAY 20
+E
+MI-23-73-01
+Cabin Intercommunication Data System (CIDS)
+03 DEC 21
+MI-23-73-02
+DEU A
+03 MAR 21
+E
+MI-23-73-03
+DEU B
+03 DEC 21
+MI-23-73-04
+Cabin Individual Call
+03 MAR 21
+Continued on the following page
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 19 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+PLP-LESS P 3/12
+03 DEC 21
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+MI-23-73-05
+Cabin Loudspeaker
+27 MAY 21
+MI-23-73-06
+Handset
+03 MAR 21
+MI-23-73-07
+Prerecorded Announcement and Music Reproducer (PRAM)
+03 MAR 21
+MI-23-73-08
+Cabin Assignment Module (CAM)
+22 NOV 17
+MI-23-73-10
+Smoke Detection Function
+03 MAR 21
+E
+MI-23-74
+Cabin Crew Panel
+03 DEC 21
+R
+MI-23-99
+Controller Pilot Data Link Communications, CPDLC
+03 DEC 21
+MI-24-00
+MAINTENANCE Messages on the STATUS SD page
+22 NOV 17
+E
+MI-24-01-01
+ELEC Overhead Panel
+03 DEC 21
+MI-24-01-02
+EMER ELEC PWR Overhead Panel
+22 NOV 17
+MI-24-07
+Indications on the ELEC SD page
+22 MAY 19
+E
+MI-24-09
+ECAM Alerts
+03 DEC 21
+E
+MI-24-22
+AC Main Generation
+03 DEC 21
+E
+MI-24-23
+AC Auxiliary Generation
+03 DEC 21
+MI-24-24
+AC Emergency Generation
+22 MAY 19
+MI-24-25
+AC Essential Generation Switching
+22 MAY 19
+E
+MI-24-26
+Galley and Commercial Supply System
+03 DEC 21
+MI-24-28
+Static Inverter AC Generation
+22 NOV 17
+E
+MI-24-32
+DC Main Generation (TR 1, TR 2)
+03 DEC 21
+MI-24-34
+DC Emergency Generation (ESS TR)
+22 NOV 17
+MI-24-35
+DC Essential and Normal Generation Switching
+22 NOV 17
+MI-24-38
+DC Battery Generation
+22 MAY 19
+MI-24-41
+AC External Power Control
+13 MAY 20
+E
+MI-25-07
+Indications on the DOOR/OXY SD page
+03 DEC 21
+MI-25-11
+Pilot Seats
+03 MAR 21
+E
+MI-25-12
+Third and Fourth Occupant Seats
+03 DEC 21
+MI-25-13
+Lining and Furnishings
+22 NOV 17
+MI-25-20
+Cabin Seats
+03 MAR 21
+MI-25-35
+Galley Equipment
+03 MAR 21
+MI-25-40
+Lavatories
+03 MAR 21
+R
+MI-25-50
+Cargo Compartments
+03 DEC 21
+R
+MI-25-62
+Cabin Escape Facilities
+03 DEC 21
+MI-25-63
+Evacuation Signaling Equipment
+03 MAR 21
+MI-25-64
+First Aid Equipment
+03 MAR 21
+MI-25-65
+Emergency Equipment
+27 MAY 21
+MI-25-66
+Floatation and Survival Equipment
+03 MAR 21
+E
+MI-26-00
+MAINTENANCE Message on the STATUS SD page
+03 DEC 21
+MI-26-01-01
+FIRE Overhead Panel
+22 MAY 19
+E
+MI-26-01-02
+CARGO SMOKE Overhead Panel
+03 DEC 21
+Continued on the following page
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 20 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+PLP-LESS P 4/12
+03 DEC 21
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+MI-26-12
+Engine Fire and Overheat Detection
+03 MAR 21
+MI-26-13
+APU Fire and Overheat Detection
+22 MAY 19
+MI-26-15
+Avionics Compartment Smoke Detection
+22 MAY 19
+MI-26-16
+Cargo Compartment Smoke Detection
+03 MAR 21
+R
+MI-26-17
+Lavatory Smoke Detection
+03 DEC 21
+MI-26-22
+APU Fire Extinguishing
+22 MAY 19
+E
+MI-26-23
+Cargo Compartment Fire Extinguishing
+03 DEC 21
+MI-26-24
+Portable Fire Extinguisher
+03 MAR 21
+MI-26-25
+Lavatory Fire Extinguishing
+03 MAR 21
+MI-27-00
+MAINTENANCE Messages on the STATUS SD page
+22 NOV 17
+MI-27-01-01
+FLT CTL Overhead Panel
+22 NOV 17
+MI-27-07
+Indications on SD pages
+03 MAR 21
+MI-27-08
+Indications on the EWD
+22 NOV 17
+E
+MI-27-14
+Aileron and Hydraulic Actuation
+03 DEC 21
+MI-27-21
+Rudder Mechanical Control
+22 MAY 19
+MI-27-22
+Rudder Trim Actuation
+22 MAY 19
+MI-27-23
+Artificial feel and rudder travel limiting actuation
+22 NOV 17
+MI-27-34
+Elevator and Hydraulic Actuation
+13 MAY 20
+MI-27-40
+Trimmable Horizontal Stabilizer (THS)
+22 MAY 19
+MI-27-51
+Flaps Electrical Control and Monitoring
+13 MAY 20
+MI-27-54
+Flaps Hydraulic Actuation and Power Transmission
+22 NOV 17
+R
+MI-27-64
+Spoiler Hydraulic Actuation
+03 DEC 21
+MI-27-81
+Slats Electrical Control and Monitoring
+22 MAY 19
+MI-27-84
+Slats Hydraulic Actuation and Power Transmission
+22 NOV 17
+E
+MI-27-92
+Electrical Flight Control System (EFCS) Control Inputs and
+Power Supply
+03 DEC 21
+E
+MI-27-93
+ELAC System (Elevator Aileron Computer)
+03 DEC 21
+E
+MI-27-94
+SEC System (Spoiler and Elevator Computer)
+03 DEC 21
+MI-27-95
+FCDC System (Flight Control Data Concentrator)
+22 MAY 19
+MI-28-00
+MAINTENANCE Message on the STATUS SD page
+22 NOV 17
+MI-28-01-01
+FUEL Overhead Panel
+22 MAY 19
+MI-28-07-01
+Fuel Quantity Indications on the FUEL SD page
+19 NOV 19
+MI-28-07-02
+Fuel Temperature Indications on the FUEL SD page
+22 NOV 17
+MI-28-07-03
+Tank Pump Indications on the FUEL SD page
+22 NOV 17
+MI-28-07-04
+Valve Indications on the FUEL SD page
+22 MAY 19
+MI-28-07-05
+Fuel Flow Indication on the FUEL SD page
+03 MAR 21
+MI-28-07-06
+Fuel Used Indication on the FUEL SD page
+03 MAR 21
+MI-28-09
+ECAM Alerts
+22 MAY 19
+MI-28-12
+Tank Venting System
+22 MAY 19
+Continued on the following page
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 21 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+PLP-LESS P 5/12
+03 DEC 21
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+MI-28-15
+Intercell Transfer System
+22 MAY 19
+MI-28-20
+Distribution
+22 MAY 19
+E
+MI-28-21
+Main Fuel Pump System
+03 DEC 21
+MI-28-22
+APU Fuel Pump System
+22 MAY 19
+MI-28-23
+Crossfeed System
+22 NOV 17
+MI-28-24
+Engine LP Fuel Shutoff
+22 MAY 19
+MI-28-25
+Refuel/Defuel System
+03 MAR 21
+MI-28-29
+APU LP Fuel Shutoff
+22 MAY 19
+E
+MI-28-43
+Manual Magnetic Indicators
+03 DEC 21
+MI-28-46
+Tank Level Sensing
+22 MAY 19
+MI-28-50
+Fuel Management
+22 MAY 19
+MI-29-01-01
+HYD Overhead Panel
+22 MAY 19
+MI-29-01-02
+Maintenance HYD Overhead Panel
+22 NOV 17
+E
+MI-29-07
+Indications on the HYD SD page
+03 DEC 21
+E
+MI-29-09
+ECAM Alerts
+03 DEC 21
+R
+MI-29-10
+Main Hydraulic Power
+03 DEC 21
+MI-29-22
+Blue Auxiliary Hydraulic Power
+22 NOV 17
+MI-29-23
+Power Transfer
+22 MAY 19
+MI-29-24
+Yellow Auxiliary Hydraulic Power
+22 MAY 19
+MI-30-01-01
+ANTI ICE Overhead Panel
+22 MAY 19
+MI-30-01-02
+WIPER Overhead Panel
+18 NOV 20
+MI-30-07
+Indications on the BLEED SD page
+22 NOV 17
+MI-30-11
+Wing Ice Protection
+22 MAY 19
+E
+MI-30-21
+Engine Air Intake Ice Protection
+03 DEC 21
+MI-30-31
+Probe Ice Protection
+22 MAY 19
+MI-30-42
+Windshield Anti-Icing and Defogging
+03 MAR 21
+MI-30-45
+Windshield Rain Protection
+22 MAY 19
+MI-30-71
+Waste Water Ice Protection
+22 MAY 19
+E
+MI-30-81
+Ice Detection
+03 DEC 21
+MI-31-00
+MAINTENANCE Message on the STATUS SD page
+03 MAR 21
+MI-31-01-01
+RCDR Overhead Panel
+22 NOV 17
+MI-31-05
+Indications on the Primary Flight Display (PFD)
+22 NOV 17
+MI-31-06
+Indications on the Navigation Display (ND)
+22 NOV 17
+E
+MI-31-07
+Indications on the System Display (SD)
+03 DEC 21
+MI-31-08
+Indications on the Engine Warning Display (EWD)
+13 MAY 20
+MI-31-20
+Independent Instruments
+22 MAY 19
+MI-31-30
+Centralized Fault Display System (CFDS) and Data Recording
+System
+03 MAR 21
+Continued on the following page
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 22 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+PLP-LESS P 6/12
+03 DEC 21
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+E
+MI-31-38
+Up and Down Data Loading System Acquisition/Interface and
+Equipment
+03 DEC 21
+MI-31-53
+Flight Warning Computer (FWC)
+22 MAY 19
+MI-31-55
+System Data Acquisition Concentrator (SDAC)
+22 NOV 17
+MI-31-56
+ECAM Control Panel (ECP)
+22 MAY 19
+E
+MI-31-62
+Display Management Computer (DMC)
+03 DEC 21
+E
+MI-31-63
+Display Unit (DU)
+03 DEC 21
+MI-31-68
+Switching Panel
+22 MAY 19
+E
+MI-32-07
+Indications on the WHEEL SD page
+03 DEC 21
+MI-32-09
+ECAM Alerts
+03 MAR 21
+MI-32-11
+Main Gear
+22 NOV 17
+MI-32-12
+Main Gear Doors
+22 NOV 17
+MI-32-31
+Normal Extension and Retraction
+22 MAY 19
+MI-32-32
+Proximity Detector System
+22 MAY 19
+MI-32-33
+Free Fall Extension
+22 MAY 19
+MI-32-41
+Wheels
+13 MAY 20
+E
+MI-32-42
+Normal Braking
+03 DEC 21
+E
+MI-32-44
+Alternate Braking
+03 DEC 21
+MI-32-45
+Parking/Ultimate Emergency Braking
+22 MAY 19
+MI-32-47
+Brake Temperature System
+22 MAY 19
+MI-32-48
+Brake Cooling
+03 MAR 21
+MI-32-51
+Steering
+22 MAY 19
+MI-32-61
+Landing Gear Panel on the Center Instrument Panel
+22 NOV 17
+MI-33-01-01
+ANN LT Overhead Panel
+22 MAY 19
+MI-33-01-02
+SIGNS Overhead Panel
+03 MAR 21
+MI-33-10
+Cockpit General Illumination
+03 MAR 21
+MI-33-20
+Cabin General Illumination
+03 MAR 21
+MI-33-30
+Cargo and Service Compartment Lighting
+22 NOV 17
+MI-33-40
+Exterior Lighting
+13 MAY 20
+E
+MI-33-51
+Cabin Emergency Lighting
+03 DEC 21
+MI-34-00
+MAINTENANCE Messages on the STATUS SD page
+22 NOV 17
+MI-34-01-01
+ADIRS Overhead Panel
+18 NOV 20
+MI-34-01-02
+GPWS Overhead Panel
+18 NOV 20
+R
+MI-34-05
+Indications on the Primary Flight Display (PFD)
+03 DEC 21
+R
+MI-34-06
+Indications on the Navigation Display (ND)
+03 DEC 21
+R
+MI-34-10
+Air Data/Inertial Reference System (ADIRS)
+03 DEC 21
+MI-34-11
+Sensors
+22 MAY 19
+E
+MI-34-21
+Altitude and Airspeed Standby Data
+03 DEC 21
+R
+MI-34-22
+Attitude and Heading Standby Data
+03 DEC 21
+Continued on the following page
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 23 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+PLP-LESS P 7/12
+03 DEC 21
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+R
+MI-34-23
+Integrated Standby Instrument System (ISIS)
+03 DEC 21
+E
+MI-34-30
+Landing and Taxiing Aid
+03 DEC 21
+R
+MI-34-40
+GPWS, Radio Altimeter, TCAS, Weather Radar
+03 DEC 21
+R
+MI-34-50
+ATC and Radio/GPS Navigation Systems
+03 DEC 21
+MI-35-01-01
+OXYGEN Overhead Panel
+27 MAY 21
+MI-35-07
+Indications on the DOOR/OXY SD page
+22 MAY 19
+MI-35-10
+Crew Oxygen
+03 MAR 21
+MI-35-20
+Passenger Oxygen
+27 MAY 21
+MI-35-30
+Portable Oxygen
+03 MAR 21
+MI-36-00
+MAINTENANCE Message on the STATUS SD page
+03 MAR 21
+MI-36-01
+AIR COND Overhead Panel
+22 NOV 17
+MI-36-07
+Indications on the BLEED SD page
+22 NOV 17
+E
+MI-36-09
+ECAM Alerts
+03 DEC 21
+E
+MI-36-11
+Engine Bleed Air Supply System
+03 DEC 21
+MI-36-12
+APU Bleed Air Supply and Crossbleed Systems
+22 MAY 19
+E
+MI-36-22
+Leak Detection Loop
+03 DEC 21
+MI-46-11
+Aircraft Information Network Systems
+27 MAY 21
+E
+MI-46-21
+Air Traffic and Information Management System
+03 DEC 21
+MI-49-00
+MAINTENANCE Message on the STATUS SD page
+22 NOV 17
+MI-49-01
+APU Overhead Panel
+22 MAY 19
+MI-49-07
+Indications on the APU SD page
+22 NOV 17
+MI-49-10
+Power Plant
+22 MAY 19
+MI-52-01-01
+CKPT DOOR CONT Normal Overhead Panel
+22 MAY 19
+E
+MI-52-07
+Indications on the DOOR/OXY SD page
+03 DEC 21
+MI-52-10
+Cabin Door
+03 MAR 21
+MI-52-30
+Cargo Door
+03 MAR 21
+MI-52-33
+Bulk Cargo Compartment Door
+19 AUG 20
+MI-52-51
+Reinforced Cockpit Door (CDLS)
+03 MAR 21
+MI-52-53
+COCKPIT DOOR Panel on the Center Pedestal
+22 NOV 17
+MI-56-10
+Cockpit
+13 MAY 20
+MI-56-20
+Cabin
+03 MAR 21
+MI-70-00
+MAINTENANCE Messages on the STATUS SD page
+13 JAN 20
+E
+MI-73-07
+Indications on the ENGINE SD page
+03 DEC 21
+E
+MI-73-08
+Indications on the EWD
+03 DEC 21
+MI-73-09
+ECAM Alerts
+22 NOV 17
+E
+MI-73-10
+Distribution
+03 DEC 21
+R
+MI-73-20
+Controlling
+03 DEC 21
+MI-74-07
+Indications on the ENGINE SD page
+22 MAY 19
+E
+MI-74-09
+ECAM Alert
+03 DEC 21
+Continued on the following page
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 24 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+PLP-LESS P 8/12
+03 DEC 21
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+E
+MI-74-31
+Ignition Starting and Continuous Relight
+03 DEC 21
+MI-76-11
+Throttle Control
+22 MAY 19
+MI-77-07-01
+Indications on the CRUISE SD page
+22 NOV 17
+MI-77-07-02
+Indications on the ENGINE SD page
+22 MAY 19
+E
+MI-77-08
+Indications on the EWD
+03 DEC 21
+E
+MI-78-08
+Indications on the EWD
+03 DEC 21
+E
+MI-78-30
+Thrust Reversers
+03 DEC 21
+E
+MI-79-07
+Indications on the ENGINE SD page
+03 DEC 21
+E
+MI-79-09
+ECAM Alerts
+03 DEC 21
+E
+MI-79-20
+Distribution
+03 DEC 21
+MI-79-40
+IDG Oil Cooling System
+03 MAR 21
+MI-80-01
+ENG MAN START Overhead Panel
+22 NOV 17
+MI-80-07
+Indication on the ENGINE SD page
+19 NOV 19
+MI-80-11
+Pneumatic Starter and Valve System
+22 MAY 19
+MI-80-12
+ENG MASTER Panel on the Center Pedestal
+22 NOV 17
+MI-98-00
+Introduction
+13 MAY 20
+MI-98-01
+Flight Deck
+13 MAY 20
+MI-98-02
+Cabin General
+03 MAR 21
+MI-98-03
+Galley
+13 MAY 20
+MI-98-04
+Passenger Compartment
+03 MAR 21
+MI-98-05
+Lavatory
+13 MAY 20
+MI-98-06-01
+Portable Water Service Bay
+13 MAY 20
+MI-98-06-02
+Toilet Service Bay
+13 MAY 20
+MI-98-06-03
+Hydraulic Service Bay
+13 MAY 20
+MI-98-07-01
+Air Outlets
+13 MAY 20
+MI-98-07-02
+Cargo Compartment
+13 MAY 20
+MI-98-08
+Exterior of Aircraft
+13 MAY 20
+MO-21-09
+ECAM Alerts
+22 NOV 17
+MO-21-21
+Air Distribution and Recirculation
+22 NOV 17
+E
+MO-21-23
+Lavatory and Galley Ventilation
+03 DEC 21
+MO-21-26
+Avionics Equipment Ventilation
+13 MAY 20
+MO-21-28
+Cargo Compartment Ventilation
+03 MAR 21
+E
+MO-21-31
+Pressure Control and Monitoring
+03 DEC 21
+MO-21-43
+Cargo Compartment Heating
+16 DEC 19
+MO-21-51
+Pack Flow Control
+03 MAR 21
+MO-21-52
+Air Cooling System
+03 MAR 21
+E
+MO-21-61
+Pack Temperature Control
+03 DEC 21
+E
+MO-21-63
+Cockpit and Cabin Temperature Control
+03 DEC 21
+MO-22-05
+FMA Indications on the PFD
+22 NOV 17
+Continued on the following page
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 25 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+PLP-LESS P 9/12
+03 DEC 21
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+MO-22-10
+Autopilot/Flight Director (AP/FD)
+13 MAY 20
+MO-22-30
+Autothrust
+03 MAR 21
+MO-22-60
+Flight Augmentation (FAC)
+22 NOV 17
+MO-22-70
+Flight Management System (FMS)
+27 MAY 21
+MO-22-81-01
+Auto Flight Control Panel (FCU)
+22 MAY 19
+MO-22-81-02
+EFIS Control Panel (FCU)
+22 MAY 19
+MO-22-81-03
+FCU Channel
+22 NOV 17
+MO-22-82
+Multipurpose Control and Display Unit (MCDU)
+22 NOV 17
+MO-22-83
+Flight Management and Guidance Computer (FMGC)
+19 AUG 20
+MO-23-09
+ECAM Alerts
+13 MAY 20
+MO-23-10
+Speech Communication
+19 AUG 20
+R
+MO-23-20
+Data Transmission and Automatic Calling
+03 DEC 21
+MO-23-40
+Interphone
+13 MAY 20
+MO-23-51
+Audio Management
+13 MAY 20
+MO-23-52
+Audio Control Panel (ACP)
+22 NOV 17
+MO-23-72
+Cockpit Door Surveillance System (CDSS)
+03 MAR 21
+MO-23-73-02
+DEU A
+22 NOV 17
+MO-23-73-03
+DEU B
+13 MAY 20
+MO-23-73-05
+Cabin Loudspeaker
+13 MAY 20
+MO-23-73-06
+Handset
+13 MAY 20
+MO-23-73-07
+Prerecorded Announcement and Music Reproducer (PRAM)
+13 MAY 20
+MO-23-74
+Cabin Crew Panel
+03 MAR 21
+MO-23-99
+Controller Pilot Data Link Communications, CPDLC
+03 MAR 21
+E
+MO-24-01-01
+ELEC Overhead Panel
+03 DEC 21
+E
+MO-24-07
+Indications on the ELEC SD page
+03 DEC 21
+E
+MO-24-09
+ECAM Alerts
+03 DEC 21
+E
+MO-24-22
+AC Main Generation
+03 DEC 21
+R
+MO-24-23
+AC Auxiliary Generation
+18 AUG 21
+MO-24-25
+AC Essential Generation Switching
+22 NOV 17
+MO-24-26
+Galley and Commercial Supply System
+03 MAR 21
+MO-24-32
+DC Main Generation (TR 1, TR 2)
+22 NOV 17
+MO-24-38
+DC Battery Generation
+22 NOV 17
+MO-25-07
+Indications on the DOOR/OXY SD page
+17 MAY 18
+MO-25-11
+Pilot Seats
+22 NOV 17
+MO-25-12
+Third and Fourth Occupant Seats
+03 MAR 21
+MO-25-20
+Cabin Seats
+13 MAY 20
+MO-25-35
+Galley Equipment
+03 MAR 21
+MO-25-40
+Lavatories
+13 MAY 20
+MO-25-62
+Cabin Escape Facilities
+27 MAY 21
+Continued on the following page
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 26 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+PLP-LESS P 10/12
+03 DEC 21
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+MO-25-63
+Evacuation Signaling Equipment
+13 MAY 20
+MO-25-64
+First Aid Equipment
+22 NOV 17
+MO-25-65
+Emergency Eqiupment
+03 MAR 21
+MO-26-12
+Engine Fire and Overheat Detection
+22 NOV 17
+MO-26-13
+APU Fire and Overheat Detection
+22 NOV 17
+MO-26-15
+Avionics Compartment Smoke Detection
+22 NOV 17
+MO-26-17
+Lavatory Smoke Detection
+03 MAR 21
+MO-26-18
+Auxiliary Areas Smoke Detection
+13 MAY 20
+MO-26-24
+Cabin Portable Fire Extinguisher
+22 NOV 17
+MO-27-07
+Indications on SD pages
+22 NOV 17
+MO-27-14
+Aileron and Hydraulic Actuation
+22 NOV 17
+MO-27-21
+Rudder Mechanical Control
+22 NOV 17
+MO-27-22
+Rudder Trim Actuation
+22 NOV 17
+MO-27-51
+Flaps Electrical Control and Monitoring
+22 NOV 17
+E
+MO-27-64
+Spoiler Hydraulic Actuation
+03 DEC 21
+MO-27-81
+Slats Electrical Control and Monitoring
+27 MAY 21
+R
+MO-27-92
+Electrical Flight Control System (EFCS) Control Inputs and
+Power Supply
+03 MAR 21
+MO-27-93
+ELAC System (Elevator Aileron Computer)
+22 NOV 17
+MO-27-94
+SEC System (Spoiler and Elevator Computer)
+17 MAY 18
+MO-27-95
+FCDC System (Flight Control Data Concentrator)
+22 NOV 17
+MO-28-01-01
+FUEL Overhead Panel
+22 NOV 17
+MO-28-07-01
+Fuel Quantity Indications on the FUEL SD page
+22 NOV 17
+MO-28-07-04
+Valve Indications on the FUEL SD page
+22 NOV 17
+MO-28-09
+ECAM Alerts
+22 NOV 17
+MO-28-12
+Tank Venting System
+22 NOV 17
+MO-28-15
+Intercell Transfer System
+22 MAY 19
+E
+MO-28-20
+Distribution
+03 DEC 21
+MO-28-21
+Main Fuel Pump System
+13 MAY 20
+MO-28-22
+APU Fuel Pump System
+22 NOV 17
+MO-28-29
+APU LP Fuel Shutoff
+22 NOV 17
+MO-28-50
+Fuel Management
+22 NOV 17
+MO-29-07
+Indications on the HYD SD page
+22 NOV 17
+MO-29-09
+ECAM Alerts
+20 AUG 19
+MO-29-10
+Main Hydraulic Power
+22 NOV 17
+MO-29-23
+Power Transfer
+22 NOV 17
+MO-29-24
+Yellow Auxiliary Hydraulic Power
+22 NOV 17
+MO-30-01-01
+ANTI ICE Overhead Panel
+03 MAR 21
+R
+MO-30-11
+Wing Ice Protection
+03 MAR 21
+Continued on the following page
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 27 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+PLP-LESS P 11/12
+03 DEC 21
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+R
+MO-30-21
+Engine Air Intake Ice Protection
+03 MAR 21
+E
+MO-30-31
+Probe Ice Protection
+03 DEC 21
+MO-30-42
+Windshield Anti-Icing and Defogging
+22 NOV 17
+MO-30-45
+Windshield Rain Protection
+22 NOV 17
+E
+MO-30-81
+Ice Detection
+03 DEC 21
+MO-31-01-01
+RCDR Overhead Panel
+17 MAY 18
+E
+MO-31-07
+Indications on the System Display (SD)
+03 DEC 21
+MO-31-20
+Independent Instruments
+22 NOV 17
+MO-31-53
+Flight Warning Computer (FWC)
+22 NOV 17
+MO-31-56
+ECAM Control Panel (ECP)
+22 NOV 17
+MO-31-62
+Display Management Computer (DMC)
+03 MAR 21
+MO-31-63
+Display Unit (DU)
+13 MAY 20
+MO-31-68
+Switching Panel
+22 NOV 17
+E
+MO-32-07
+Indications on the WHEEL SD page
+03 DEC 21
+MO-32-09
+ECAM Alerts
+03 MAR 21
+R
+MO-32-31
+Normal Extension and Retraction
+03 DEC 21
+E
+MO-32-32
+Proximity Detector System
+03 DEC 21
+MO-32-33
+Free Fall Extension
+03 MAR 21
+R
+MO-32-42
+Normal Braking
+03 MAR 21
+MO-32-44
+ACCU PRESS Indicator
+03 MAR 21
+MO-32-47
+Brake Temperature System
+22 NOV 17
+MO-32-48
+Brake Fan System
+22 NOV 17
+E
+MO-32-51
+Steering
+03 DEC 21
+MO-33-01-02
+SIGNS Overhead Panel
+13 MAY 20
+MO-33-20
+Cabin General Illumination
+03 MAR 21
+MO-33-40
+Exterior Lighting
+13 MAY 20
+MO-33-51
+Cabin Emergency Lighting
+06 FEB 19
+MO-34-01-01
+ADIRS Overhead Panel
+18 NOV 20
+MO-34-05
+Indications on the Primary Flight Display (PFD)
+15 FEB 18
+MO-34-06
+Indications on the Navigation Display (ND)
+15 FEB 18
+R
+MO-34-10
+Air Data/Inertial Reference System (ADIRS)
+03 DEC 21
+MO-34-11
+Sensors
+22 NOV 17
+E
+MO-34-21
+Altitude and Airspeed Standby Data
+03 DEC 21
+E
+MO-34-22
+Attitude and Heading Standby Data
+03 DEC 21
+MO-34-23
+Integrated Standby Instrument System (ISIS)
+03 MAR 21
+MO-34-30
+Landing and Taxiing Aid
+18 NOV 20
+R
+MO-34-40
+GPWS, Radio Altimeter, TCAS, Weather Radar
+03 DEC 21
+R
+MO-34-50
+ATC and Radio/GPS Navigation Systems
+03 DEC 21
+MO-35-01-01
+OXYGEN Overhead Panel
+27 MAY 21
+Continued on the following page
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 28 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+PLP-LESS P 12/12
+03 DEC 21
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+MO-35-07
+Indications on the DOOR/OXY SD page
+22 NOV 17
+MO-35-10
+Crew Oxygen
+22 NOV 17
+MO-35-20
+Passenger Oxygen
+27 MAY 21
+MO-35-30
+Portable Oxygen
+13 MAY 20
+E
+MO-36-09
+ECAM Alerts
+03 DEC 21
+E
+MO-36-11
+Engine Bleed Air Supply System
+03 DEC 21
+MO-36-12
+APU Bleed Air Supply and Crossbleed Systems
+17 MAY 18
+E
+MO-36-22
+Leak Detection Loop
+03 DEC 21
+MO-46-11
+Aircraft Information Network Systems
+27 MAY 21
+E
+MO-46-21
+Air Traffic and Information Management System
+03 DEC 21
+MO-49-10
+Power Plant
+22 NOV 17
+MO-52-01-01
+CKPT DOOR CONT Overhead Panel
+22 NOV 17
+MO-52-07
+Indications on the DOOR/OXY SD page
+13 MAY 20
+MO-52-10
+Cabin Door
+27 MAY 21
+MO-52-30
+Cargo Door
+22 NOV 17
+MO-52-51
+Reinforced Cockpit Door (CDLS)
+03 MAR 21
+MO-52-53
+COCKPIT DOOR Panel on the Center Pedestal
+22 NOV 17
+MO-56-10
+Cockpit
+22 NOV 17
+R
+MO-73-20
+Controlling
+03 MAR 21
+MO-74-07
+Indications on the ENGINE SD page
+22 NOV 17
+E
+MO-74-31
+Ignition Starting and Continuous Relight
+03 DEC 21
+R
+MO-78-30
+Thrust Reversers
+03 MAR 21
+MO-79-09
+ECAM Alerts
+22 NOV 17
+E
+MO-79-20
+Distribution
+03 DEC 21
+MO-80-11
+Pneumatic Starter and Valve System
+22 NOV 17
+(1) Evolution code : N=New, R=Revised, E=Effectivity, M=Moved
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 29 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+PRELIMINARY PAGES
+LIST OF EFFECTIVE TEMPORARY DOCUMENTARY UNITS
+PLP-LETDU P 1/2
+03 DEC 21
+M
+Localization
+DU Title
+DU identification
+DU date
+No Temporary Documentary Unit
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 30 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+PRELIMINARY PAGES
+LIST OF EFFECTIVE TEMPORARY DOCUMENTARY UNITS
+Intentionally left blank
+PLP-LETDU P 2/2
+03 DEC 21
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 31 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+PRELIMINARY PAGES
+AIRCRAFT ALLOCATION TABLE
+PLP-AAT P 1/2
+03 MAR 21
+This table gives, for each delivered aircraft, the cross reference between:
+-
+The Manufacturing Serial Number (MSN).
+-
+The Fleet Serial Number (FSN) of the aircraft as known by AIRBUS S.A.S.
+-
+The registration number of the aircraft as known by AIRBUS S.A.S.
+-
+The aircraft model.
+M
+(1)
+MSN
+FSN
+Registration Number
+Model
+00928
+LY-COB
+320-232
+02029
+LY-OWL
+320-232
+02077
+LY-ELK
+320-232
+02118
+LY-EMU
+320-233
+02774
+LY-COD
+319-112
+03139
+LY-RAM
+319-112
+(1) Evolution code : N=New, R=Revised
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 32 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+PRELIMINARY PAGES
+AIRCRAFT ALLOCATION TABLE
+Intentionally left blank
+PLP-AAT P 2/2
+03 MAR 21
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 33 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+PRELIMINARY PAGES
+LIST OF MODIFICATIONS
+PLP-LOM P 1/24
+03 DEC 21
+M
+(1)
+CRITERION
+Linked SB
+Incorp. Date
+Title
+J0006
+22 NOV 17
+FUEL SYSTEM - ADDITIONAL TREATMENT OF
+CENTRE TANK STRUCTURE AND INSTALLATION OF
+CENTRE TANK SYSTEM
+Applicable to: ALL
+J0012
+22 NOV 17
+NAVIGATION LIGHTS SYSTEM - INSTALLATION OF A
+SECOND NAVIGATION LIGHT SYSTEM
+Applicable to: ALL
+J0022
+13 MAY 20
+INSTALLATION OF A FUEL QUANTITY SELECTOR IN
+THE FLIGHT COMPARTMENT
+Applicable to:
+J0071
+22 NOV 17
+WING STRUCTURE-INTRODUCTION OF A WING TIP
+INCORPORATING A TIP FENCE FOR 72T MTOW A/C
+Applicable to: ALL
+J0376
+22 NOV 17
+LANDING GEAR-DELETION OF REDUNDANT TEST
+PUSH BUTTON WIRING
+Applicable to: ALL
+J0739
+22 NOV 17
+MLG - INTRODUCTION OF TORQUE LINK APEX
+DAMPERS
+Applicable to: ALL
+J0937
+22 NOV 17
+LANDING GEAR - MLG - INTRODUCTION OF NEW
+STANDARD TORQUE LINK DAMPER AND ABEX PIN
+Applicable to: ALL
+J1570
+28-1070 01
+22 NOV 17
+FUEL - ENGINE FEED - TWIN MOTOR ACTUATOR
+FOR LP AND CROSS FEED VALVE
+Applicable to: ALL
+J1617
+22 NOV 17
+FLIGHT CONTROLS - GENERAL - DELETE LAF
+FEATURE FROM A320 DEFINITION (PRODUCTION
+SOLUTION)
+Applicable to: LY-COB, LY-ELK, LY-EMU, LY-OWL
+J1735
+22 NOV 17
+LANDIDNG GEAR - CONTROL AND MONITORING -
+IMPROVEMENTS TO REPORTING OF PROX SENSOR
+FAULTS
+Applicable to: ALL
+J2257
+28-1106 03
+30 OCT 18
+FUEL - MANUAL MAGNETIC INDICATORS - ATTITUDE
+MONITOR DELETION
+Applicable to: ALL
+J2332
+26 MAR 19
+FUEL - MANUAL (MAGNETIC) INDICATORS -
+ REINTRODUCE ATTITUDE MONITOR ON A/C
+Applicable to: LY-ELK, LY-OWL
+J2360
+03 JUN 19
+FUEL - QUANTITY INDICATION - INTRODUCE FUEL
+LEAK DETECTION ASSOCIATED WITH FQIC - 13 - 9
+Applicable to: LY-COD, LY-RAM
+Continued on the following page
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 34 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+PRELIMINARY PAGES
+LIST OF MODIFICATIONS
+PLP-LOM P 2/24
+03 DEC 21
+Continued from the previous page
+M
+(1)
+CRITERION
+Linked SB
+Incorp. Date
+Title
+J2361
+28-1150 01
+03 JUN 19
+FUEL - QUANTITY INDICATION - REMOVAL OF FUEL
+LEAK DETECTION FUNCTION ASSOCIATED WITH
+THE FQIC 13 - 9
+Applicable to: LY-COD, LY-RAM
+J2765
+03 JUN 19
+WING - MAIN STRUCTURE - TOP SKIN PANEL NO.2 -
+ REMOVAL OF MANUAL REFUEL APERTURE
+Applicable to:
+J2832
+28-1159 00
+03 JUN 19
+MAIN FUEL PUMP SYSTEM - FUEL PUMPS - INSPECT
+AFFECTED EATON FUEL PUMPS
+Applicable to: ALL
+J2963
+03 JUN 19
+REDUCTION IN QUANTITY OF MAGNETIC LEVEL
+INDICATORS
+Applicable to:
+K0024
+22 NOV 17
+INSTALLATION OF ADDITIONAL CARGO DOOR
+(BULK DOOR)
+Applicable to: LY-COB, LY-ELK, LY-EMU, LY-OWL
+K0035
+22 NOV 17
+FIRE PROTECTION - FWD LOWER HOLD -
+ INSTALLATION OF SMOKE DETECTION SYSTEM
+Applicable to: ALL
+K0036
+22 NOV 17
+FIRE PROTECTION - AFT LOWER HOLD -
+ INSTALLATION OF SMOKE DETECTION SYSTEM
+Applicable to: ALL
+K0037
+22 NOV 17
+FIRE PROTECTION - FWD AND AFT LOWER
+HOLD INSTALLATION OF A SINGLE SHOT FIRE
+EXTINGUISHING SYSTEM
+Applicable to: ALL
+K0052
+31-1123 11
+22 NOV 17
+INSTALLATION OF AN AIDS
+Applicable to: ALL
+K0064
+22 NOV 17
+LIGHTS - INSTALLATION OF STROBE LIGHTS
+SYNCHRONISED MODE
+Applicable to: ALL
+K0070
+22 NOV 17
+AIR CONDITIONING - VENTILATION SYSTEM FOR
+AFT CARGO COMPARTMENT
+Applicable to: LY-COB, LY-COD
+K0071
+17 MAY 18
+AIR CONDITIONING - HEATING SYSTEM FOR AFT
+CARGO COMPARTMENT -
+Applicable to: LY-COB, LY-COD
+K0344
+17 MAY 18
+LIGHTS-INSTALLATION OF A LSI-EEPMS FOR 164
+Applicable to:
+K0402
+22 NOV 17
+DRAIN MAST ICE PROTECTION-INSTALL A
+TEMPERATURE REGULATED DRAINMAST SYSTEM
+Applicable to: ALL
+Continued on the following page
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 35 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+PRELIMINARY PAGES
+LIST OF MODIFICATIONS
+PLP-LOM P 3/24
+03 DEC 21
+Continued from the previous page
+M
+(1)
+CRITERION
+Linked SB
+Incorp. Date
+Title
+K10494
+03 JUN 19
+AIRBORNE AUXILIARY POWER - CHANGE
+STANDARD APU HONEYWELL GTCP36-300 TO APIC
+APS3200
+Applicable to: LY-COD, LY-RAM
+K11047
+16 DEC 19
+COMMUNICATION - ANTI HIJACK CAMERA
+MONITORING - INSTALL COCKPIT DOOR
+SURVEILLANCE SYSTEM DISPLAYEDON SD
+Applicable to: LY-RAM
+K1498
+22 NOV 17
+A320-BLUE SYSTEM ACCUMULATOR-RELOCATION
+OF HYDRAULIC CONNECTION
+Applicable to: ALL
+K1522
+16 DEC 19
+COMMUNICATIONS-PA "IN USE" LAMP
+Applicable to: LY-RAM
+K1688
+26 MAR 19
+ETOPS-FIRE PROTECTION-INSTALL A FLOW
+METERING SYSTEM FOR FIRE EXTINGUISHING IN
+CARGO COMP.
+Applicable to: LY-COB
+K1733
+17 MAY 18
+EMERGENCY LIGHTING REMOVAL OF EL-LIGHT
+STRIPS IN FWD/AFT DOOR AREA
+Applicable to:
+K1806
+22 NOV 17
+AIR CONDITIONING SYSTEM POWER SUPPLY -
+ MODIFY POWER TO FLOW CONTROL VALVE
+Applicable to: ALL
+K2335
+22 NOV 17
+LAVATORY SMOKE DETECTION - IMPROVEMENT OF
+SMOKE DETECTION
+Applicable to: ALL
+K2450
+49-1029 27
+26 MAR 19
+AUXILIARY POWER UNIT - INTRODUCTION OF APIC
+APS-3000
+Applicable to: LY-COB, LY-COD, LY-RAM
+K2770
+22 NOV 17
+AUXILIARY POWER UNIT - CONTROL AND
+MONITORING - INTRODUCTION OF ECB P/N
+304640-3
+Applicable to: ALL
+K2962
+22 NOV 17
+HYDRAULIC POWER - MAIN BLUE HYDRAULIC
+POWER - IMPROVE MAINTENACE STATUS OF BLUE
+HYDRAULIC RESERVOIR -
+Applicable to: ALL
+K3680
+22 NOV 17
+APU - STORAGE AND DISTRIBUTION -
+ MODIFICATION FOR COMMON LUBRICATION
+SYSTEM APU/GEN
+Applicable to: ALL
+Continued on the following page
+FOR TRAINING PURPOSES ONLY
+
+=== PDF PAGE 1634 ===
+A318/A319/A320/A321
+MINIMUM EQUIPMENT LIST
+MEL OPERATIONAL PROCEDURES
+80 - STARTING
+80-11 - Pneumatic Starter and Valve System
+Intentionally left blank
+MO-80-11 P 2/2
+22 NOV 17
+FOR TRAINING PURPOSES ONLY

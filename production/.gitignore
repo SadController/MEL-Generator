@@ -1,0 +1,4 @@
+node_modules/
+release/
+test-output/
+*.log

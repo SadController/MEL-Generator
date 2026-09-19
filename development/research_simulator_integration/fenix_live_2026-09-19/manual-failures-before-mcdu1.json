@@ -1,0 +1,3236 @@
+{
+  "atas": [
+    {
+      "id": 21,
+      "title": "Air Conditioning",
+      "shortTitle": "Air",
+      "groups": [
+        {
+          "groupName": "CPC",
+          "failures": [
+            {
+              "id": "F_PNEUMATIC_CPC_1",
+              "title": "CPC 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_CPC_2",
+              "title": "CPC 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Overheat",
+          "failures": [
+            {
+              "id": "F_PNEUMATIC_PACK_1_OVERHEAT",
+              "title": "Pack 1 overheat",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_PACK_2_OVERHEAT",
+              "title": "Pack 2 overheat",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Regulator fault",
+          "failures": [
+            {
+              "id": "F_PNEUMATIC_PACK_1_REG_FAULT",
+              "title": "Pack 1 regulator fault",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_PACK_2_REG_FAULT",
+              "title": "Pack 2 regulator fault",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Zone controller",
+          "failures": [
+            {
+              "id": "F_PNEUMATIC_ZONECONTROLLER_PRIM",
+              "title": "Zone controller primary",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_ZONECONTROLLER_SEC",
+              "title": "Zone controller secondary",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Trim air",
+          "failures": [
+            {
+              "id": "F_PNEUMATIC_TRIM_AIR",
+              "title": "Hot air fault",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Cargo",
+          "failures": [
+            {
+              "id": "F_PNEUMATIC_CVC",
+              "title": "Cargo ventilation controller",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Pneumatic valves",
+          "failures": [
+            {
+              "id": "F_PNEUMATIC_HOT_AIR_VALVE_AFT_CARGO",
+              "title": "Hot air valve aft cargo",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Cargo vent",
+          "failures": [
+            {
+              "id": "F_PNEUMATIC_CARGO_ISOL_FWD_UP",
+              "title": "Cargo fwd isolation valve upstream",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_CARGO_ISOL_FWD_DOWN",
+              "title": "Cargo fwd isolation valve downstream",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_CARGO_ISOL_AFT_UP",
+              "title": "Cargo aft isolation valve upstream",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_CARGO_ISOL_AFT_DOWN",
+              "title": "Cargo aft isolation valve downstream",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Recirculation",
+          "failures": [
+            {
+              "id": "F_PNEUMATIC_RECIRC_FANS",
+              "title": "Recirculation fans",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Decompression",
+          "failures": [
+            {
+              "id": "F_PNEUMATIC_DECOMPRESSION_MINOR",
+              "title": "Slow decompression",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_DECOMPRESSION_MAJOR",
+              "title": "Rapid decompression",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Outflow valve",
+          "failures": [
+            {
+              "id": "F_PNEUMATIC_OUTFLOWVALVE_STUCK",
+              "title": "Outflow valve stuck",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Ventilation",
+          "failures": [
+            {
+              "id": "F_PNEUMATIC_AEVC",
+              "title": "Ventilation AEVC",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_BLOWER",
+              "title": "Ventilation blower fault",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_EXTRACT",
+              "title": "Ventilation extract fault",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Ventilation valves",
+          "failures": [
+            {
+              "id": "F_PNEUMATIC_VENT_INLET",
+              "title": "Vent inlet valve",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_VENT_EXTRACT",
+              "title": "Vent extract valve",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "AutoFlight",
+      "shortTitle": "AutoFlight",
+      "groups": [
+        {
+          "groupName": "Nonresettable fault",
+          "failures": [
+            {
+              "id": "F_OH_FLT_CTL_FAC_1",
+              "title": "FAC 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_FLT_CTL_FAC_2",
+              "title": "FAC 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Resettable fault",
+          "failures": [
+            {
+              "id": "F_OH_FLT_CTL_FAC_RECOVERABLE_1",
+              "title": "FAC 1 resettable fault",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_FLT_CTL_FAC_RECOVERABLE_2",
+              "title": "FAC 2 resettable fault",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Rudder travel limiter",
+          "failures": [
+            {
+              "id": "F_FC_YAW_RTL_1",
+              "title": "Rudder travel limiter channel 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FC_YAW_RTL_2",
+              "title": "Rudder travel limiter channel 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Rudder trim",
+          "failures": [
+            {
+              "id": "F_FC_RUDDERTRIM_1",
+              "title": "Rudder trim channel 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FC_RUDDERTRIM_2",
+              "title": "Rudder trim channel 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Reactive W/S det",
+          "failures": [
+            {
+              "id": "F_FC_WINDSHEAR_1",
+              "title": "Reactive W/S det channel 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FC_WINDSHEAR_2",
+              "title": "Reactive W/S det channel 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Law override",
+          "failures": [
+            {
+              "id": "F_FC_ALTERNATE_LAW_1",
+              "title": "Alternate law with protection",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FC_ALTERNATE_LAW_2",
+              "title": "Alternate law without protection",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FC_DIRECT_LAW",
+              "title": "Direct law",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "FCU",
+          "failures": [
+            {
+              "id": "F_FCU_1",
+              "title": "FCU Channel 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FCU_2",
+              "title": "FCU Channel 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "A/THR",
+          "failures": [
+            {
+              "id": "F_AUTOFLIGHT_ATHR1",
+              "title": "A/THR 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_AUTOFLIGHT_ATHR2",
+              "title": "A/THR 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "AP",
+          "failures": [
+            {
+              "id": "F_AUTOFLIGHT_AP1",
+              "title": "AP 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_AUTOFLIGHT_AP2",
+              "title": "AP 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Electrical power",
+      "shortTitle": "Elec",
+      "groups": [
+        {
+          "groupName": "DC Bus Fault",
+          "failures": [
+            {
+              "id": "F_ELEC_BUS_BAT",
+              "title": "DC Bat bus",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ELEC_BUS_DC_1",
+              "title": "DC bus 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ELEC_BUS_DC_2",
+              "title": "DC bus 2",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ELEC_BUS_HOT_1",
+              "title": "Hot bus 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ELEC_BUS_HOT_2",
+              "title": "Hot bus 2",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ELEC_BUS_DC_ESSENTIAL",
+              "title": "DC Essential bus",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ELEC_BUS_DC_SHED",
+              "title": "DC Essential shed bus",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "AC Bus Fault",
+          "failures": [
+            {
+              "id": "F_ELEC_BUS_AC_1",
+              "title": "AC bus 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ELEC_BUS_AC_2",
+              "title": "AC bus 2",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ELEC_BUS_AC_ESSENTIAL",
+              "title": "AC Essential bus",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ELEC_BUS_AC_SHED",
+              "title": "AC Essential shed bus",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ELEC_BUS_AC_STATIC_INVERTER",
+              "title": "AC Static inverter bus",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "AC 26v Bus Fault",
+          "failures": [
+            {
+              "id": "F_ELEC_BUS_AC26_1",
+              "title": "AC bus 1 26v",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ELEC_BUS_AC26_2",
+              "title": "AC bus 2 26v",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ELEC_BUS_AC26_ESS",
+              "title": "AC ess bus 26v",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Generator",
+          "failures": [
+            {
+              "id": "F_ELEC_APU_GEN",
+              "title": "APU Generator",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ELEC_DRIVE_FAILURE_L",
+              "title": "Generator 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ELEC_DRIVE_FAILURE_R",
+              "title": "Generator 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "IDG oil ovht",
+          "failures": [
+            {
+              "id": "F_ELEC_GEN_OVERHEAT_L",
+              "title": "IDG 1 oil overheat",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ELEC_GEN_OVERHEAT_R",
+              "title": "IDG 2 oil overheat",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "IDG oil low pressure",
+          "failures": [
+            {
+              "id": "F_ELEC_DRIVE_OIL_LOW_L",
+              "title": "IDG 1 oil low pressure",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ELEC_DRIVE_OIL_LOW_R",
+              "title": "IDG 2 oil low pressure",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Static inverter",
+          "failures": [
+            {
+              "id": "F_ELEC_STATIC_INVERTER",
+              "title": "Static inverter",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "TR Failure",
+          "failures": [
+            {
+              "id": "F_ELEC_TR1",
+              "title": "TR 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ELEC_TR2",
+              "title": "TR 2",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ELEC_TR_ESS",
+              "title": "ESS TR failure",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "AC Ess",
+          "failures": [
+            {
+              "id": "F_ELEC_AC_ESS_ALTN",
+              "title": "AC Ess Bus Altn",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "AC Ess feed",
+          "failures": [
+            {
+              "id": "F_ELEC_AC_ESS_FEED_1",
+              "title": "AC Ess feed from AC Bus 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ELEC_AC_ESS_FEED_2",
+              "title": "AC Ess feed from AC Bus 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Fire protection",
+      "shortTitle": "Fire",
+      "groups": [
+        {
+          "groupName": "SDCU",
+          "failures": [
+            {
+              "id": "F_SDCU",
+              "title": "SDCU",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Fwd cargo",
+          "failures": [
+            {
+              "id": "F_FIRE_CARGO_FWD_SMOKE",
+              "title": "Fwd cargo smoke detected",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Aft cargo",
+          "failures": [
+            {
+              "id": "F_FIRE_CARGO_AFT_SMOKE",
+              "title": "Aft cargo smoke detected",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Lavatory",
+          "failures": [
+            {
+              "id": "F_FIRE_LAVATORY_SMOKE",
+              "title": "Lavatory smoke",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Fire unextinguishable",
+          "failures": [
+            {
+              "id": "F_OH_FIRE_ENG_1",
+              "title": "Eng 1 unextinguishable fire ",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_FIRE_ENG_2",
+              "title": "Eng 2 unextinguishable fire ",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_FIRE_APU",
+              "title": "APU unextinguishable fire ",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Fire 1 bottle",
+          "failures": [
+            {
+              "id": "F_OH_FIRE_ENG_1_1BOTTLE",
+              "title": "Eng 1 fire extinguished with 1 bottle",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_FIRE_ENG_2_1BOTTLE",
+              "title": "Eng 2 fire extinguished with 1 bottle",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_FIRE_APU_1BOTTLE",
+              "title": "APU fire extinguished with 1 bottle",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Fire 2 bottles",
+          "failures": [
+            {
+              "id": "F_OH_FIRE_ENG_1_2BOTTLES",
+              "title": "Eng 1 fire extinguished with 2 bottles",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_FIRE_ENG_2_2BOTTLES",
+              "title": "Eng 2 fire extinguished with 2 bottles",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Loop Eng 1",
+          "failures": [
+            {
+              "id": "F_OH_FIRE_ENG1_LOOP_A",
+              "title": "Eng 1 Loop A",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_FIRE_ENG1_LOOP_B",
+              "title": "Eng 1 Loop B",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Loop Eng 2",
+          "failures": [
+            {
+              "id": "F_OH_FIRE_ENG2_LOOP_A",
+              "title": "Eng 2 Loop A",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_FIRE_ENG2_LOOP_B",
+              "title": "Eng 2 Loop B",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Loop APU",
+          "failures": [
+            {
+              "id": "F_OH_FIRE_AP2_LOOP_A",
+              "title": "APU Loop A",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_FIRE_APU_LOOP_B",
+              "title": "APU Loop B",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "FDU",
+          "failures": [
+            {
+              "id": "F_FIRE_FDU1",
+              "title": "FDU 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FIRE_FDU2",
+              "title": "FDU 2",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FIRE_FDU3",
+              "title": "FDU 3",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Avionics",
+          "failures": [
+            {
+              "id": "F_FIRE_AVIONICS_SMOKE",
+              "title": "Avionics smoke detected",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Fuel",
+      "shortTitle": "Fuel",
+      "groups": [
+        {
+          "groupName": "FQI",
+          "failures": [
+            {
+              "id": "F_FUEL_FQI1",
+              "title": "FQI Chan 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FUEL_FQI2",
+              "title": "FQI Chan 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Fuel pump left",
+          "failures": [
+            {
+              "id": "F_FUEL_PUMP_LEFT_1",
+              "title": "Fuel pump left 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FUEL_PUMP_LEFT_2",
+              "title": "Fuel pump left 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Fuel pump center",
+          "failures": [
+            {
+              "id": "F_FUEL_PUMP_CENTER_1",
+              "title": "Fuel pump center 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FUEL_PUMP_CENTER_2",
+              "title": "Fuel pump center 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Fuel pump right",
+          "failures": [
+            {
+              "id": "F_FUEL_PUMP_RIGHT_1",
+              "title": "Fuel pump right 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FUEL_PUMP_RIGHT_2",
+              "title": "Fuel pump right 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Fuel temp high",
+          "failures": [
+            {
+              "id": "F_FUEL_HIGH_TEMP_INNER",
+              "title": "Inner tank high fuel temp ECAM",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FUEL_HIGH_TEMP_OUTER",
+              "title": "Outer tank high fuel temp ECAM",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FUEL_HIGH_TEMP_INNER_ADV",
+              "title": "Inner tank high fuel temp Adv",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FUEL_HIGH_TEMP_OUTER_ADV",
+              "title": "Outer tank high fuel temp Adv",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Fuel temp low",
+          "failures": [
+            {
+              "id": "F_FUEL_LOW_TEMP_INNER",
+              "title": "Inner tank low fuel temp ECAM",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FUEL_LOW_TEMP_OUTER",
+              "title": "Outer tank low fuel temp ECAM",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FUEL_LOW_TEMP_INNER_ADV",
+              "title": "Inner tank low fuel temp Adv",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FUEL_LOW_TEMP_OUTER_ADV",
+              "title": "Outer tank low fuel temp Adv",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Fuel transfer valves",
+          "failures": [
+            {
+              "id": "F_FUEL_XFER_VALVE_1_L",
+              "title": "Left transfer 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FUEL_XFER_VALVE_2_L",
+              "title": "Left transfer 2",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FUEL_XFER_VALVE_1_R",
+              "title": "Right transfer 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FUEL_XFER_VALVE_2_R",
+              "title": "Right transfer 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Fuel valves",
+          "failures": [
+            {
+              "id": "F_FUEL_ENGINE_1_VALVE",
+              "title": "Eng 1 fuel valve stuck",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FUEL_ENGINE_2_VALVE",
+              "title": "Eng 2 fuel valve stuck",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FUEL_VALVE_CROSSFEED",
+              "title": "Crossfeed valve",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_DEFUEL_TRANSFER_VALVE",
+              "title": "Defuel/Transfer Valve",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Fuel leak",
+          "failures": [
+            {
+              "id": "F_FUEL_LEAK_LEFT_OUTER",
+              "title": "Fuel leak Left outer",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FUEL_LEAK_LEFT_INNER",
+              "title": "Fuel leak Left inner",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FUEL_LEAK_CENTER",
+              "title": "Fuel leak Center",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FUEL_LEAK_RIGHT_INNER",
+              "title": "Fuel leak Right inner",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FUEL_LEAK_RIGHT_OUTER",
+              "title": "Fuel leak Right outer",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "HP Fuel valve",
+          "failures": [
+            {
+              "id": "F_ENG1_HP_VALVE",
+              "title": "Eng 1 hp fuel valve",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ENG2_HP_VALVE",
+              "title": "Eng 2 hp fuel valve",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Hydraulic power",
+      "shortTitle": "Hydraulic",
+      "groups": [
+        {
+          "groupName": "Hydraulic leak",
+          "failures": [
+            {
+              "id": "F_HYD_LEAK_GREEN",
+              "title": "Green hydraulic leak",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_HYD_LEAK_BLUE",
+              "title": "Blue hydraulic leak",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_HYD_LEAK_YELLOW",
+              "title": "Yellow hydraulic leak",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Reservoir overheat",
+          "failures": [
+            {
+              "id": "F_HYD_RSVR_OVERHEAT_GREEN",
+              "title": "Green reservoir overheat",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_HYD_RSVR_OVERHEAT_BLUE",
+              "title": "Blue reservoir overheat",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_HYD_RSVR_OVERHEAT_YELLOW",
+              "title": "Yellow reservoir overheat",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Reservoir low air pressure",
+          "failures": [
+            {
+              "id": "F_HYD_RSVR_AIR_PRESSURE_GREEN",
+              "title": "Green low reservoir air pressure",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_HYD_RSVR_AIR_PRESSURE_BLUE",
+              "title": "Blue low reservoir air pressure",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_HYD_RSVR_AIR_PRESSURE_YELLOW",
+              "title": "Yellow low reservoir air pressure",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Hydraulic low",
+          "failures": [
+            {
+              "id": "F_HYD_LOW_GREEN",
+              "title": "Green hydraulic low level",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_HYD_LOW_BLUE",
+              "title": "Blue hydraulic low level",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_HYD_LOW_YELLOW",
+              "title": "Yellow hydraulic low level",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Engine pumps",
+          "failures": [
+            {
+              "id": "F_HYD_PUMP_ENG_1",
+              "title": "Eng 1 pump failure",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_HYD_PUMP_ENG_2",
+              "title": "Eng 2 pump failure",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Fire valves",
+          "failures": [
+            {
+              "id": "F_HYD_FIRE_VALVE_1",
+              "title": "Eng 1 fire valve",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_HYD_FIRE_VALVE_2",
+              "title": "Eng 2 fire valve",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "PTU",
+          "failures": [
+            {
+              "id": "F_HYD_PTU",
+              "title": "PTU Fault",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Elec pumps",
+          "failures": [
+            {
+              "id": "F_HYD_PUMP_BLUE",
+              "title": "Elec hyd pump Blue failure",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_HYD_PUMP_YELLOW",
+              "title": "Elec hyd pump Yellow failure",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Elec pump overheat",
+          "failures": [
+            {
+              "id": "F_HYD_PUMP_OVERHEAT_BLUE",
+              "title": "Elec blue pump overheat",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_HYD_PUMP_OVERHEAT_YELLOW",
+              "title": "Elec yellow pump overheat",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Landing gear",
+      "shortTitle": "Gear",
+      "groups": [
+        {
+          "groupName": "BSCU",
+          "failures": [
+            {
+              "id": "F_BSCU_1",
+              "title": "BSCU Sys 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_BSCU_2",
+              "title": "BSCU Sys 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "ABCU",
+          "failures": [
+            {
+              "id": "F_BRAKE_ABCU",
+              "title": "ABCU",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Brake fault",
+          "failures": [
+            {
+              "id": "F_HYD_BSCU_1",
+              "title": "BSCU 1 brake fault",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_HYD_BSCU_2",
+              "title": "BSCU 2 brake fault",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_BRAKE_AUTOBRAKE",
+              "title": "Autobrake failure",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Wheel brake fault",
+          "failures": [
+            {
+              "id": "F_BRAKE_WHEEL_1",
+              "title": "Wheel brake fault 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_BRAKE_WHEEL_2",
+              "title": "Wheel brake fault 2",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_BRAKE_WHEEL_3",
+              "title": "Wheel brake fault 3",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_BRAKE_WHEEL_4",
+              "title": "Wheel brake fault 4",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Tyre pressure",
+          "failures": [
+            {
+              "id": "F_GEAR_TYRE_PSI_MAIN_1",
+              "title": "Tyre pressure main 1 low",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_GEAR_TYRE_PSI_MAIN_2",
+              "title": "Tyre pressure main 2 low",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_GEAR_TYRE_PSI_LEFT_1",
+              "title": "Tyre pressure left 1 low",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_GEAR_TYRE_PSI_LEFT_2",
+              "title": "Tyre pressure left 2 low",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_GEAR_TYRE_PSI_RIGHT_1",
+              "title": "Tyre pressure right 1 low",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_GEAR_TYRE_PSI_RIGHT_2",
+              "title": "Tyre pressure right 2 low",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Steering",
+          "failures": [
+            {
+              "id": "F_BRAKE_NWS",
+              "title": "Nose wheel steering",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "LGCIU",
+          "failures": [
+            {
+              "id": "F_MISC_LGCIU1",
+              "title": "LGCIU 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_MISC_LGCIU2",
+              "title": "LGCIU 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Hydraulics valves",
+          "failures": [
+            {
+              "id": "F_GEAR_SAFETY_VALVE",
+              "title": "Gear safety valve",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Gear lock",
+          "failures": [
+            {
+              "id": "F_GEAR_LOCK_LEFT",
+              "title": "Left main gear does not lock",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_GEAR_LOCK_NOSE",
+              "title": "Nose gear does not lock",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_GEAR_LOCK_RIGHT",
+              "title": "Right main gear does not lock",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Gear failure",
+          "failures": [
+            {
+              "id": "F_GEAR_LOCKED_UP",
+              "title": "Gear locked up",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_GEAR_LOCKED_DOWN",
+              "title": "Gear locked down",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Navigation",
+      "shortTitle": "Navigation",
+      "groups": [
+        {
+          "groupName": "IR fault",
+          "failures": [
+            {
+              "id": "F_OH_NAV_IR_TOTAL_1",
+              "title": "IR1 IR failure",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_NAV_IR_TOTAL_2",
+              "title": "IR2 IR failure",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_NAV_IR_TOTAL_3",
+              "title": "IR3 IR failure",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "IRS position failure",
+          "failures": [
+            {
+              "id": "F_OH_NAV_IR_POSITION_1",
+              "title": "IR1 position failure",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_NAV_IR_POSITION_2",
+              "title": "IR2 position failure",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_NAV_IR_POSITION_3",
+              "title": "IR3 position failure",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "ADR fault",
+          "failures": [
+            {
+              "id": "F_OH_NAV_ADR_ADR1",
+              "title": "ADR1 failure",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_NAV_ADR_ADR2",
+              "title": "ADR2 failure",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_NAV_ADR_ADR3",
+              "title": "ADR3 failure",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "IRS Alignment",
+          "failures": [
+            {
+              "id": "F_OH_NAV_IR_ALIGNMENT_1",
+              "title": "IR1 alignment",
+              "failureCondition": null,
+              "failed": true
+            },
+            {
+              "id": "F_OH_NAV_IR_ALIGNMENT_2",
+              "title": "IR2 alignment",
+              "failureCondition": null,
+              "failed": true
+            },
+            {
+              "id": "F_OH_NAV_IR_ALIGNMENT_3",
+              "title": "IR3 alignment",
+              "failureCondition": null,
+              "failed": true
+            }
+          ]
+        },
+        {
+          "groupName": "Pitot blocked",
+          "failures": [
+            {
+              "id": "F_OH_NAV_PITOT_BLOCKED_1",
+              "title": "Pitot blocked Capt",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_NAV_PITOT_BLOCKED_2",
+              "title": "Pitot blocked F/O",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_NAV_PITOT_BLOCKED_3",
+              "title": "Pitot blocked Stdby",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Pitch discrepancy",
+          "failures": [
+            {
+              "id": "F_NAV_IR1_PITCH_DISCREPANCY",
+              "title": "IR1 pitch discrepancy",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_NAV_IR2_PITCH_DISCREPANCY",
+              "title": "IR2 pitch discrepancy",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_NAV_IR3_PITCH_DISCREPANCY",
+              "title": "IR3 pitch discrepancy",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Bank discrepancy",
+          "failures": [
+            {
+              "id": "F_NAV_IR1_BANK_DISCREPANCY",
+              "title": "IR1 bank discrepancy",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_NAV_IR2_BANK_DISCREPANCY",
+              "title": "IR2 bank discrepancy",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_NAV_IR3_BANK_DISCREPANCY",
+              "title": "IR3 bank discrepancy",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Heading discrepancy",
+          "failures": [
+            {
+              "id": "F_NAV_IR1_HDG_DISCREPANCY",
+              "title": "IR1 heading discrepancy",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_NAV_IR2_HDG_DISCREPANCY",
+              "title": "IR2 heading discrepancy",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_NAV_IR3_HDG_DISCREPANCY",
+              "title": "IR3 heading discrepancy",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "IR Disagree",
+          "failures": [
+            {
+              "id": "F_NAV_IR_DISAGREE1",
+              "title": "IR1 IR Disagree",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_NAV_IR_DISAGREE2",
+              "title": "IR2 IR Disagree",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "MCDU",
+          "failures": [
+            {
+              "id": "F_MCDU_1",
+              "title": "MCDU 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_MCDU_2",
+              "title": "MCDU 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "MCDU recoverable fault",
+          "failures": [
+            {
+              "id": "F_MCDU_1_RECOVERABLE",
+              "title": "CDU 1 recoverable fault",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_MCDU_2_RECOVERABLE",
+              "title": "CDU 2 recoverable fault",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "FMGC",
+          "failures": [
+            {
+              "id": "F_FMGC_1",
+              "title": "FMGC 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FMGC_2",
+              "title": "FMGC 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "GPWC",
+          "failures": [
+            {
+              "id": "F_GPWS",
+              "title": "GPWC",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Radios",
+          "failures": [
+            {
+              "id": "F_NAV_VOR1",
+              "title": "VOR 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_NAV_VOR2",
+              "title": "VOR 2",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_NAV_ADF1",
+              "title": "ADF 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_NAV_ADF2",
+              "title": "ADF 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "ILS",
+          "failures": [
+            {
+              "id": "F_NAV_ILS1_LOC",
+              "title": "ILS 1 LOC",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_NAV_ILS1_GS",
+              "title": "ILS 1 G/S",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_NAV_ILS2_LOC",
+              "title": "ILS 2 LOC",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_NAV_ILS2_GS",
+              "title": "ILS 2 G/S",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "ILS transmitter",
+          "failures": [
+            {
+              "id": "F_NAV_LOC",
+              "title": "Localizer",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_NAV_GS",
+              "title": "Glideslope",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "GPS",
+          "failures": [
+            {
+              "id": "F_NAV_GPS1",
+              "title": "GPS 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_NAV_GPS2",
+              "title": "GPS 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Radio altimeter",
+          "failures": [
+            {
+              "id": "F_NAV_RALT1",
+              "title": "Radio altimeter 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_NAV_RALT2",
+              "title": "Radio altimeter 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "NAV",
+          "failures": [
+            {
+              "id": "F_NAV_ACCURACY_DOWNGRADE",
+              "title": "NAV accuracy downgrade",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "TCAS",
+          "failures": [
+            {
+              "id": "F_NAV_TCAS",
+              "title": "TCAS",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "ATC",
+          "failures": [
+            {
+              "id": "F_NAV_ATC1",
+              "title": "ATC 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_NAV_ATC2",
+              "title": "ATC 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Pneumatic",
+      "shortTitle": "Pneumatic",
+      "groups": [
+        {
+          "groupName": "Lavatory/Galley Fan",
+          "failures": [
+            {
+              "id": "F_PNEUMATIC_LAV_GAL_FAN",
+              "title": "Lavatory/Galley fan",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Pneumatic valves",
+          "failures": [
+            {
+              "id": "F_PNEUMATIC_HP_VALVE_1",
+              "title": "Eng 1 HP Valve",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_HP_VALVE_2",
+              "title": "Eng 2 HP Valve",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_RAM_AIR_VALVE",
+              "title": "Ram air valve",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_BLEED_VALVE_1",
+              "title": "Eng 1 bleed valve",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_BLEED_VALVE_2",
+              "title": "Eng 2 bleed valve",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_HOT_AIR_VALVE",
+              "title": "Hot air valve",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Bleed air low temperature",
+          "failures": [
+            {
+              "id": "F_ENG1_BLEED_LOW_TEMP",
+              "title": "Eng 1 bleed low temp",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ENG2_BLEED_LOW_TEMP",
+              "title": "Eng 2 bleed low temp",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "BMC",
+          "failures": [
+            {
+              "id": "F_PNEUMATIC_BMC_1",
+              "title": "BMC 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_BMC_2",
+              "title": "BMC 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Pneumatic valve",
+          "failures": [
+            {
+              "id": "F_PNEUMATIC_CROSS_BLEED_VALVE",
+              "title": "Crossbleed valve",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_APU_VALVE",
+              "title": "APU Bleed valve",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Pack valves",
+          "failures": [
+            {
+              "id": "F_PNEUMATIC_PACK_VALVE_1",
+              "title": "Pack 1 flow control valve",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_PACK_VALVE_2",
+              "title": "Pack 2 flow control valve",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Bleed leak",
+          "failures": [
+            {
+              "id": "F_PNEUMATIC_LEAK_WING_ENG1",
+              "title": "Bleed leak wing engine 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_LEAK_WING_ENG2",
+              "title": "Bleed leak wing engine 2",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_LEAK_PYLON_ENG1",
+              "title": "Bleed leak pylon engine 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_LEAK_PYLON_ENG2",
+              "title": "Bleed leak pylon engine 2",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_LEAK_APU",
+              "title": "Bleed leak APU",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "APU",
+      "shortTitle": "APU",
+      "groups": [
+        {
+          "groupName": "ECB",
+          "failures": [
+            {
+              "id": "F_ELEC_APU_ECB",
+              "title": "ECB",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Oil",
+          "failures": [
+            {
+              "id": "F_APU_LOW_OIL",
+              "title": "APU Low oil level",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Fuel valves",
+          "failures": [
+            {
+              "id": "F_FUEL_VALVE_APU",
+              "title": "APU fuel valve",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Communications",
+      "shortTitle": "Communications",
+      "groups": [
+        {
+          "groupName": "Stuck mic",
+          "failures": [
+            {
+              "id": "F_COMM_STUCK_PTT_CAPT",
+              "title": "Capt stuck mic",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_COMM_STUCK_PTT_FO",
+              "title": "F/O stuck mic",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Ice and rain protection",
+      "shortTitle": "Ice/Rain",
+      "groups": [
+        {
+          "groupName": "WAI Valves",
+          "failures": [
+            {
+              "id": "F_PNEUMATIC_WAI_1",
+              "title": "Left WAI Valve",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_WAI_2",
+              "title": "Right WAI Valve",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "EAI Valves",
+          "failures": [
+            {
+              "id": "F_PNEUMATIC_EAI_1",
+              "title": "Eng 1 EAI Valve",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_EAI_2",
+              "title": "Eng 2 EAI Valve",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "WHC",
+          "failures": [
+            {
+              "id": "F_ICE_WHC_1",
+              "title": "WHC 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ICE_WHC_2",
+              "title": "WHC 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "AOA Heat",
+          "failures": [
+            {
+              "id": "F_ICE_AOA_HEAT_CPT",
+              "title": "AOA heat Capt",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ICE_AOA_FO",
+              "title": "AOA heat F/O",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ICE_AOA_STBY",
+              "title": "AOA heat STBY",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "TAT Heat",
+          "failures": [
+            {
+              "id": "F_ICE_TAT_HEAT_CPT",
+              "title": "TAT heat Capt",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ICE_TAT_FO",
+              "title": "TAT heat F/O",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ICE_TAT_STBY",
+              "title": "TAT heat STBY",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Pitot Heat",
+          "failures": [
+            {
+              "id": "F_ICE_PITOT_HEAT_CPT",
+              "title": "Pitot heat Capt",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ICE_PITOT_FO",
+              "title": "Pitot heat F/O",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ICE_PITOT_STBY",
+              "title": "Pitot heat STBY",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Static Heat",
+          "failures": [
+            {
+              "id": "F_ICE_STAT_HEAT_CPT_L",
+              "title": "Left Static heat Capt",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ICE_STAT_HEAT_CPT_R",
+              "title": "Right Static heat Capt",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ICE_STAT_FO_L",
+              "title": "Left Static heat F/O",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ICE_STAT_FO_R",
+              "title": "Right Static heat F/O",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ICE_STAT_STBY_L",
+              "title": "Left Static heat Stby",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ICE_STAT_STBY_R",
+              "title": "Right Static heat Stby",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "PHC",
+          "failures": [
+            {
+              "id": "F_ICE_PHC1",
+              "title": "PHC 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ICE_PHC2",
+              "title": "PHC 2",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ICE_PHC3",
+              "title": "PHC 3",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Icing",
+          "failures": [
+            {
+              "id": "F_ICING_ENG1",
+              "title": "Icing eng 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ICING_ENG2",
+              "title": "Icing eng 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Flight controls",
+      "shortTitle": "Flight controls",
+      "groups": [
+        {
+          "groupName": "IPPU",
+          "failures": [
+            {
+              "id": "F_FC_IPPU1",
+              "title": "Ippu1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FC_IPPU2",
+              "title": "Ippu2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Surface lock",
+          "failures": [
+            {
+              "id": "F_HYD_WTB_FLAP",
+              "title": "Flap locked",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_HYD_WTB_SLAT",
+              "title": "Slat locked",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Flaps",
+          "failures": [
+            {
+              "id": "F_HYD_FSCC_ALIGNMENT",
+              "title": "Alignment fault",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "SFCC",
+          "failures": [
+            {
+              "id": "F_OH_FLT_CLT_SFCC_1",
+              "title": "SFCC 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_FLT_CLT_SFCC_2",
+              "title": "SFCC 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Flap",
+          "failures": [
+            {
+              "id": "F_SFCC_1_FLAP",
+              "title": "SFCC 1 flap sys",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_SFCC_2_FLAP",
+              "title": "SFCC 2 flap sys",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Slat",
+          "failures": [
+            {
+              "id": "F_SFCC_1_SLAT",
+              "title": "SFCC 1 slat sys",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_SFCC_2_SLAT",
+              "title": "SFCC 2 slat sys",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Nonresettable fault",
+          "failures": [
+            {
+              "id": "F_OH_FLT_CTL_ELAC_1",
+              "title": "ELAC 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_FLT_CTL_ELAC_2",
+              "title": "ELAC 2",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_FLT_CTL_SEC_1",
+              "title": "SEC 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_FLT_CTL_SEC_2",
+              "title": "SEC 2",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_FLT_CTL_SEC_3",
+              "title": "SEC 3",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Resettable fault",
+          "failures": [
+            {
+              "id": "F_OH_FLT_CTL_ELAC_RECOVERABLE_1",
+              "title": "ELAC 1 resettable fault",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_FLT_CTL_ELAC_RECOVERABLE_2",
+              "title": "ELAC 2 resettable fault",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_FLT_CTL_SEC_RECOVERABLE_1",
+              "title": "SEC 1 resettable fault",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_FLT_CTL_SEC_RECOVERABLE_2",
+              "title": "SEC 2 resettable fault",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OH_FLT_CTL_SEC_RECOVERABLE_3",
+              "title": "SEC 3 resettable fault",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Yaw damper",
+          "failures": [
+            {
+              "id": "F_FC_YAW_DAMPER_1",
+              "title": "Yaw damper channel 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FC_YAW_DAMPER_2",
+              "title": "Yaw damper channel 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Sidestick reversal",
+          "failures": [
+            {
+              "id": "F_FC_SIDESTICK_REV_PITCH_CAPT",
+              "title": "Sidestick reversal pitch Capt",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FC_SIDESTICK_REV_ROLL_CAPT",
+              "title": "Sidestick reversal roll Capt",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FC_SIDESTICK_REV_PITCH_FO",
+              "title": "Sidestick reversal pitch F/O",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FC_SIDESTICK_REV_ROLL_FO",
+              "title": "Sidestick reversal roll F/O",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Sidestick",
+          "failures": [
+            {
+              "id": "F_FC_SIDESTICK_FAULT_CAPT",
+              "title": "Sidestick fault Capt",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FC_SIDESTICK_FAULT_FO",
+              "title": "Sidestick fault F/O",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "FCDC",
+          "failures": [
+            {
+              "id": "B_INT_SFCDC1F",
+              "title": "FCDC 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "B_INT_SFCDC2F",
+              "title": "FCDC 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Stabilizer",
+          "failures": [
+            {
+              "id": "F_FCTL_STAB_JAM",
+              "title": "Stabilizer jam",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Elev",
+          "failures": [
+            {
+              "id": "F_FCTL_ELEV_LR",
+              "title": "Elev L+R failure",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FCTL_ELEV_L",
+              "title": "L Elev failure",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FCTL_ELEV_R",
+              "title": "R Elev failure",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Start faults",
+      "shortTitle": "Start Faults",
+      "groups": [
+        {
+          "groupName": "Start valve",
+          "failures": [
+            {
+              "id": "F_PNEUMATIC_START_VALVE_1",
+              "title": "Start valve left",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_PNEUMATIC_START_VALVE_2",
+              "title": "Start valve right",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Hot start",
+          "failures": [
+            {
+              "id": "F_START_FAULT_1_HOT_START",
+              "title": "Eng 1 hot start",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_START_FAULT_2_HOT_START",
+              "title": "Eng 2 hot start",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Stall/Hung start",
+          "failures": [
+            {
+              "id": "F_START_FAULT_1_HUNG_START",
+              "title": "Eng 1 hung start",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_START_FAULT_2_HUNG_START",
+              "title": "Eng 2 hung start",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "No ignition",
+          "failures": [
+            {
+              "id": "F_START_FAULT_1_NO_IGNITION",
+              "title": "Eng 1 no ignition",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_START_FAULT_2_NO_IGNITION",
+              "title": "Eng 2 no ignition",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Indicating/Recording system",
+      "shortTitle": "Indicating/Recording",
+      "groups": [
+        {
+          "groupName": "CFDIU",
+          "failures": [
+            {
+              "id": "F_CFDIU",
+              "title": "CFDIU",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "ECP",
+          "failures": [
+            {
+              "id": "F_ECP",
+              "title": "ECP",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "SDAC",
+          "failures": [
+            {
+              "id": "F_SDAC_1",
+              "title": "SDAC 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_SDAC_2",
+              "title": "SDAC 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "FWC",
+          "failures": [
+            {
+              "id": "F_FWC1",
+              "title": "FWC 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_FWC2",
+              "title": "FWC 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "CVR",
+          "failures": [
+            {
+              "id": "F_CVR",
+              "title": "CVR",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "DMC",
+          "failures": [
+            {
+              "id": "F_DISPLAY_DMC_1",
+              "title": "DMC 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_DISPLAY_DMC_2",
+              "title": "DMC 2",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_DISPLAY_DMC_3",
+              "title": "DMC 3",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "DCDU",
+          "failures": [
+            {
+              "id": "F_DISPLAY_DCDU_CAPT",
+              "title": "DCDU Capt",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_DISPLAY_DCDU_FO",
+              "title": "DCDU FO",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "DU",
+          "failures": [
+            {
+              "id": "F_DISPLAY_DU_CAPTAIN_OUT",
+              "title": "DU Capt PFD",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_DISPLAY_DU_CAPTAIN_IN",
+              "title": "DU Capt ND",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_DISPLAY_DU_FO_IN",
+              "title": "DU F/O ND",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_DISPLAY_DU_FO_OUT",
+              "title": "DU F/O PFD",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_DISPLAY_DU_ECAM_UPPER",
+              "title": "DU ECAM Upper",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_DISPLAY_DU_ECAM_LOWER",
+              "title": "DU ECAM Lower",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Oxygen",
+      "shortTitle": "Oxygen",
+      "groups": [
+        {
+          "groupName": "Crew oxygen 1",
+          "failures": [
+            {
+              "id": "F_OXYGEN_CREW_LOW",
+              "title": "Crew oxygen pressure < 400",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OXYGEN_CREW_MED",
+              "title": "Crew oxygen pressure < 800",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Crew oxygen 2",
+          "failures": [
+            {
+              "id": "F_OXYGEN_CREW2_LOW",
+              "title": "Crew oxygen 2 pressure < 400",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OXYGEN_CREW2_MED",
+              "title": "Crew oxygen 2 pressure < 800",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Crew oxygen",
+          "failures": [
+            {
+              "id": "F_OXYGEN_CREW_SUPPLY_VALVE",
+              "title": "Oxygen supply valve",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_OXYGEN_CREW_SUPPLY_VALVE2",
+              "title": "Oxygen supply valve 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Information systems",
+      "shortTitle": "Information",
+      "groups": [
+        {
+          "groupName": "ATSU",
+          "failures": [
+            {
+              "id": "F_INFO_ATSU",
+              "title": "ATSU",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Doors",
+      "shortTitle": "Doors",
+      "groups": [
+        {
+          "groupName": "Doors left",
+          "failures": [
+            {
+              "id": "F_DOOR_AVIONICS_1",
+              "title": "Forward avionics door",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_DOOR_AVIONICS_2",
+              "title": "Left avionics door",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_DOOR_AVIONICS_3",
+              "title": "Right avionics door",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_DOOR_FWD_ENTRY_LEFT",
+              "title": "Forward entry left door",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_DOOR_LEFT_WING_1",
+              "title": "Left wing 1 door",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_DOOR_LEFT_WING_2",
+              "title": "Left wing 2 door",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_DOOR_AFT_ENTRY_LEFT",
+              "title": "Aft entry left door",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Doors right",
+          "failures": [
+            {
+              "id": "F_DOOR_FWD_ENTRY_RIGHT",
+              "title": "Forward entry right door",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_DOOR_AVIONICS_4",
+              "title": "Aft avionics door",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_DOOR_FWD_CARGO",
+              "title": "Forward cargo door",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_DOOR_RIGHT_WING_1",
+              "title": "Right wing 1 door",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_DOOR_RIGHT_WING_2",
+              "title": "Right wing 2 door",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_DOOR_AFT_CARGO",
+              "title": "Aft cargo door",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_DOOR_BULK",
+              "title": "Bulk door",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_DOOR_AFT_ENTRY_RIGHT",
+              "title": "Aft entry right door",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Power plant",
+      "shortTitle": "Engines",
+      "groups": [
+        {
+          "groupName": "Fadec",
+          "failures": [
+            {
+              "id": "F_ENGINE_FADEC_LEFT_A",
+              "title": "Fadec Left Channel A",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ENGINE_FADEC_LEFT_B",
+              "title": "Fadec Left Channel B",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ENGINE_FADEC_RIGHT_A",
+              "title": "Fadec Right Channel A",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ENGINE_FADEC_RIGHT_B",
+              "title": "Fadec Right Channel B",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "EIU",
+          "failures": [
+            {
+              "id": "F_ENG1_EIU",
+              "title": "EIU 1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ENG2_EIU",
+              "title": "EIU 2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Engine surge",
+          "failures": [
+            {
+              "id": "F_ENGINE_1_SURGE",
+              "title": "Left surge",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ENGINE_2_SURGE",
+              "title": "Right surge",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Engine failure",
+          "failures": [
+            {
+              "id": "F_ENGINE_1",
+              "title": "Eng 1 failure",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ENGINE_2",
+              "title": "Eng 2 failure",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Engine failure with damage",
+          "failures": [
+            {
+              "id": "F_ENGINE_1_DAMAGE",
+              "title": "Eng 1 failure with damage",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ENGINE_2_DAMAGE",
+              "title": "Eng 2 failure with damage",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Engine birdstrike",
+          "failures": [
+            {
+              "id": "F_ENGINE_1_BIRDSTRIKE",
+              "title": "Left bird strike",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ENGINE_2_BIRDSTRIKE",
+              "title": "Right bird strike",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Reverser pressurized",
+          "failures": [
+            {
+              "id": "F_REV_PRESS_ENG_1",
+              "title": "Left reverser pressurized",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_REV_PRESS_ENG_2",
+              "title": "Right reverser pressurized",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Reverser unlocked",
+          "failures": [
+            {
+              "id": "F_REV_UNLOCK_ENG_1",
+              "title": "Left reverser unlocked",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_REV_UNLOCK_ENG_2",
+              "title": "Right reverser unlocked",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Reverser inhibited by maintenance",
+          "failures": [
+            {
+              "id": "F_REV_INHIBIT_ENG_1",
+              "title": "Left reverser inhibited by maint",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_REV_INHIBIT_ENG_2",
+              "title": "Right reverser inhibited by maint",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "vibration N1",
+          "failures": [
+            {
+              "id": "F_VIB_N1_ENG_1",
+              "title": "Eng 1 high vibration N1",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_VIB_N1_ENG_2",
+              "title": "Eng 2 high vibration N1",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "vibration N2",
+          "failures": [
+            {
+              "id": "F_VIB_N2_ENG_1",
+              "title": "Eng 1 high vibration N2",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_VIB_N2_ENG_2",
+              "title": "Eng 2 high vibration N2",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Oil leak",
+          "failures": [
+            {
+              "id": "F_ENG1_OIL_LEAK",
+              "title": "Left oil leak",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_ENG2_OIL_LEAK",
+              "title": "Right oil leak",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        },
+        {
+          "groupName": "Reverser shutoff valve",
+          "failures": [
+            {
+              "id": "F_HYD_REVERSER_SHUTOFF_VALVE_1",
+              "title": "Reverser shutoff valve left",
+              "failureCondition": null,
+              "failed": false
+            },
+            {
+              "id": "F_HYD_REVERSER_SHUTOFF_VALVE_2",
+              "title": "Reverser shutoff valve right",
+              "failureCondition": null,
+              "failed": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

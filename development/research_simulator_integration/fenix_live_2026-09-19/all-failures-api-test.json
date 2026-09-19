@@ -1,0 +1,3576 @@
+{
+  "startedUtc": "2026-09-19T19:33:32.860746+00:00",
+  "mode": "activation-readback-restoration",
+  "catalogCount": 53,
+  "mapping": {
+    "M001": "F_PNEUMATIC_CPC_1",
+    "M002": "F_PNEUMATIC_CPC_2",
+    "M020": "F_PNEUMATIC_AEVC",
+    "M021": "F_PNEUMATIC_BLOWER",
+    "M022": "F_PNEUMATIC_EXTRACT",
+    "M026": "F_OH_FLT_CTL_FAC_2",
+    "M029": "F_FC_YAW_RTL_1",
+    "M030": "F_FC_YAW_RTL_2",
+    "M031": "F_FC_RUDDERTRIM_1",
+    "M032": "F_FC_RUDDERTRIM_2",
+    "M038": "F_FCU_1",
+    "M039": "F_FCU_2",
+    "M042": "F_AUTOFLIGHT_AP1",
+    "M043": "F_AUTOFLIGHT_AP2",
+    "M067": "F_ELEC_TR1",
+    "M085": "F_OH_FIRE_ENG1_LOOP_A",
+    "M086": "F_OH_FIRE_ENG1_LOOP_B",
+    "M087": "F_OH_FIRE_ENG2_LOOP_A",
+    "M088": "F_OH_FIRE_ENG2_LOOP_B",
+    "M089": "F_OH_FIRE_AP2_LOOP_A",
+    "M090": "F_OH_FIRE_APU_LOOP_B",
+    "M144": "F_HYD_PUMP_YELLOW",
+    "M152": "F_BRAKE_AUTOBRAKE",
+    "M153": "F_BRAKE_WHEEL_1",
+    "M154": "F_BRAKE_WHEEL_2",
+    "M155": "F_BRAKE_WHEEL_3",
+    "M156": "F_BRAKE_WHEEL_4",
+    "M198": "F_MCDU_1",
+    "M199": "F_MCDU_2",
+    "M254": "F_ICE_AOA_HEAT_CPT",
+    "M255": "F_ICE_AOA_FO",
+    "M256": "F_ICE_AOA_STBY",
+    "M257": "F_ICE_TAT_HEAT_CPT",
+    "M258": "F_ICE_TAT_FO",
+    "M260": "F_ICE_PITOT_HEAT_CPT",
+    "M261": "F_ICE_PITOT_FO",
+    "M262": "F_ICE_PITOT_STBY",
+    "M263": "F_ICE_STAT_HEAT_CPT_L",
+    "M264": "F_ICE_STAT_HEAT_CPT_R",
+    "M265": "F_ICE_STAT_FO_L",
+    "M266": "F_ICE_STAT_FO_R",
+    "M267": "F_ICE_STAT_STBY_L",
+    "M268": "F_ICE_STAT_STBY_R",
+    "M282": "F_SFCC_2_FLAP",
+    "M284": "F_SFCC_2_SLAT",
+    "M295": "F_FC_YAW_DAMPER_1",
+    "M296": "F_FC_YAW_DAMPER_2",
+    "M317": "F_CFDIU",
+    "M320": "F_SDAC_2",
+    "M322": "F_FWC2",
+    "M323": "F_CVR",
+    "M327": "F_DISPLAY_DCDU_CAPT",
+    "M328": "F_DISPLAY_DCDU_FO"
+  },
+  "results": [
+    {
+      "index": 1,
+      "catalogId": "M001",
+      "catalogName": "Cabin pressure controller 1",
+      "fenixId": "F_PNEUMATIC_CPC_1",
+      "fenixTitle": "CPC 1",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_PNEUMATIC_CPC_1",
+        "title": "CPC 1",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_PNEUMATIC_CPC_1",
+        "title": "CPC 1",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 21,
+        "group": "CPC"
+      },
+      "restorationResponse": {
+        "id": "F_PNEUMATIC_CPC_1",
+        "title": "CPC 1",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_PNEUMATIC_CPC_1",
+        "title": "CPC 1",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 21,
+        "group": "CPC"
+      }
+    },
+    {
+      "index": 2,
+      "catalogId": "M002",
+      "catalogName": "Cabin pressure controller 2",
+      "fenixId": "F_PNEUMATIC_CPC_2",
+      "fenixTitle": "CPC 2",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_PNEUMATIC_CPC_2",
+        "title": "CPC 2",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_PNEUMATIC_CPC_2",
+        "title": "CPC 2",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 21,
+        "group": "CPC"
+      },
+      "restorationResponse": {
+        "id": "F_PNEUMATIC_CPC_2",
+        "title": "CPC 2",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_PNEUMATIC_CPC_2",
+        "title": "CPC 2",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 21,
+        "group": "CPC"
+      }
+    },
+    {
+      "index": 3,
+      "catalogId": "M020",
+      "catalogName": "Avionics ventilation computer",
+      "fenixId": "F_PNEUMATIC_AEVC",
+      "fenixTitle": "Ventilation AEVC",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_PNEUMATIC_AEVC",
+        "title": "Ventilation AEVC",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_PNEUMATIC_AEVC",
+        "title": "Ventilation AEVC",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 21,
+        "group": "Ventilation"
+      },
+      "restorationResponse": {
+        "id": "F_PNEUMATIC_AEVC",
+        "title": "Ventilation AEVC",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_PNEUMATIC_AEVC",
+        "title": "Ventilation AEVC",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 21,
+        "group": "Ventilation"
+      }
+    },
+    {
+      "index": 4,
+      "catalogId": "M021",
+      "catalogName": "Avionics blower fan",
+      "fenixId": "F_PNEUMATIC_BLOWER",
+      "fenixTitle": "Ventilation blower fault",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_PNEUMATIC_BLOWER",
+        "title": "Ventilation blower fault",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_PNEUMATIC_BLOWER",
+        "title": "Ventilation blower fault",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 21,
+        "group": "Ventilation"
+      },
+      "restorationResponse": {
+        "id": "F_PNEUMATIC_BLOWER",
+        "title": "Ventilation blower fault",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_PNEUMATIC_BLOWER",
+        "title": "Ventilation blower fault",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 21,
+        "group": "Ventilation"
+      }
+    },
+    {
+      "index": 5,
+      "catalogId": "M022",
+      "catalogName": "Avionics extract fan",
+      "fenixId": "F_PNEUMATIC_EXTRACT",
+      "fenixTitle": "Ventilation extract fault",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_PNEUMATIC_EXTRACT",
+        "title": "Ventilation extract fault",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_PNEUMATIC_EXTRACT",
+        "title": "Ventilation extract fault",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 21,
+        "group": "Ventilation"
+      },
+      "restorationResponse": {
+        "id": "F_PNEUMATIC_EXTRACT",
+        "title": "Ventilation extract fault",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_PNEUMATIC_EXTRACT",
+        "title": "Ventilation extract fault",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 21,
+        "group": "Ventilation"
+      }
+    },
+    {
+      "index": 6,
+      "catalogId": "M026",
+      "catalogName": "FAC 2 \u2014 nonresettable fault",
+      "fenixId": "F_OH_FLT_CTL_FAC_2",
+      "fenixTitle": "FAC 2",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_OH_FLT_CTL_FAC_2",
+        "title": "FAC 2",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_OH_FLT_CTL_FAC_2",
+        "title": "FAC 2",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 22,
+        "group": "Nonresettable fault"
+      },
+      "restorationResponse": {
+        "id": "F_OH_FLT_CTL_FAC_2",
+        "title": "FAC 2",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_OH_FLT_CTL_FAC_2",
+        "title": "FAC 2",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 22,
+        "group": "Nonresettable fault"
+      }
+    },
+    {
+      "index": 7,
+      "catalogId": "M029",
+      "catalogName": "Rudder travel limiter \u2014 channel 1",
+      "fenixId": "F_FC_YAW_RTL_1",
+      "fenixTitle": "Rudder travel limiter channel 1",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_FC_YAW_RTL_1",
+        "title": "Rudder travel limiter channel 1",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_FC_YAW_RTL_1",
+        "title": "Rudder travel limiter channel 1",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 22,
+        "group": "Rudder travel limiter"
+      },
+      "restorationResponse": {
+        "id": "F_FC_YAW_RTL_1",
+        "title": "Rudder travel limiter channel 1",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_FC_YAW_RTL_1",
+        "title": "Rudder travel limiter channel 1",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 22,
+        "group": "Rudder travel limiter"
+      }
+    },
+    {
+      "index": 8,
+      "catalogId": "M030",
+      "catalogName": "Rudder travel limiter \u2014 channel 2",
+      "fenixId": "F_FC_YAW_RTL_2",
+      "fenixTitle": "Rudder travel limiter channel 2",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_FC_YAW_RTL_2",
+        "title": "Rudder travel limiter channel 2",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_FC_YAW_RTL_2",
+        "title": "Rudder travel limiter channel 2",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 22,
+        "group": "Rudder travel limiter"
+      },
+      "restorationResponse": {
+        "id": "F_FC_YAW_RTL_2",
+        "title": "Rudder travel limiter channel 2",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_FC_YAW_RTL_2",
+        "title": "Rudder travel limiter channel 2",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 22,
+        "group": "Rudder travel limiter"
+      }
+    },
+    {
+      "index": 9,
+      "catalogId": "M031",
+      "catalogName": "Rudder trim \u2014 channel 1",
+      "fenixId": "F_FC_RUDDERTRIM_1",
+      "fenixTitle": "Rudder trim channel 1",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_FC_RUDDERTRIM_1",
+        "title": "Rudder trim channel 1",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_FC_RUDDERTRIM_1",
+        "title": "Rudder trim channel 1",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 22,
+        "group": "Rudder trim"
+      },
+      "restorationResponse": {
+        "id": "F_FC_RUDDERTRIM_1",
+        "title": "Rudder trim channel 1",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_FC_RUDDERTRIM_1",
+        "title": "Rudder trim channel 1",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 22,
+        "group": "Rudder trim"
+      }
+    },
+    {
+      "index": 10,
+      "catalogId": "M032",
+      "catalogName": "Rudder trim \u2014 channel 2",
+      "fenixId": "F_FC_RUDDERTRIM_2",
+      "fenixTitle": "Rudder trim channel 2",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_FC_RUDDERTRIM_2",
+        "title": "Rudder trim channel 2",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_FC_RUDDERTRIM_2",
+        "title": "Rudder trim channel 2",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 22,
+        "group": "Rudder trim"
+      },
+      "restorationResponse": {
+        "id": "F_FC_RUDDERTRIM_2",
+        "title": "Rudder trim channel 2",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_FC_RUDDERTRIM_2",
+        "title": "Rudder trim channel 2",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 22,
+        "group": "Rudder trim"
+      }
+    },
+    {
+      "index": 11,
+      "catalogId": "M038",
+      "catalogName": "FCU \u2014 channel 1",
+      "fenixId": "F_FCU_1",
+      "fenixTitle": "FCU Channel 1",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_FCU_1",
+        "title": "FCU Channel 1",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_FCU_1",
+        "title": "FCU Channel 1",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 22,
+        "group": "FCU"
+      },
+      "restorationResponse": {
+        "id": "F_FCU_1",
+        "title": "FCU Channel 1",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_FCU_1",
+        "title": "FCU Channel 1",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 22,
+        "group": "FCU"
+      }
+    },
+    {
+      "index": 12,
+      "catalogId": "M039",
+      "catalogName": "FCU \u2014 channel 2",
+      "fenixId": "F_FCU_2",
+      "fenixTitle": "FCU Channel 2",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_FCU_2",
+        "title": "FCU Channel 2",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_FCU_2",
+        "title": "FCU Channel 2",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 22,
+        "group": "FCU"
+      },
+      "restorationResponse": {
+        "id": "F_FCU_2",
+        "title": "FCU Channel 2",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_FCU_2",
+        "title": "FCU Channel 2",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 22,
+        "group": "FCU"
+      }
+    },
+    {
+      "index": 13,
+      "catalogId": "M042",
+      "catalogName": "Autopilot 1",
+      "fenixId": "F_AUTOFLIGHT_AP1",
+      "fenixTitle": "AP 1",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_AUTOFLIGHT_AP1",
+        "title": "AP 1",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_AUTOFLIGHT_AP1",
+        "title": "AP 1",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 22,
+        "group": "AP"
+      },
+      "restorationResponse": {
+        "id": "F_AUTOFLIGHT_AP1",
+        "title": "AP 1",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_AUTOFLIGHT_AP1",
+        "title": "AP 1",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 22,
+        "group": "AP"
+      }
+    },
+    {
+      "index": 14,
+      "catalogId": "M043",
+      "catalogName": "Autopilot 2",
+      "fenixId": "F_AUTOFLIGHT_AP2",
+      "fenixTitle": "AP 2",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_AUTOFLIGHT_AP2",
+        "title": "AP 2",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_AUTOFLIGHT_AP2",
+        "title": "AP 2",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 22,
+        "group": "AP"
+      },
+      "restorationResponse": {
+        "id": "F_AUTOFLIGHT_AP2",
+        "title": "AP 2",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_AUTOFLIGHT_AP2",
+        "title": "AP 2",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 22,
+        "group": "AP"
+      }
+    },
+    {
+      "index": 15,
+      "catalogId": "M067",
+      "catalogName": "Transformer rectifier 1",
+      "fenixId": "F_ELEC_TR1",
+      "fenixTitle": "TR 1",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_ELEC_TR1",
+        "title": "TR 1",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_ELEC_TR1",
+        "title": "TR 1",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 24,
+        "group": "TR Failure"
+      },
+      "restorationResponse": {
+        "id": "F_ELEC_TR1",
+        "title": "TR 1",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_ELEC_TR1",
+        "title": "TR 1",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 24,
+        "group": "TR Failure"
+      }
+    },
+    {
+      "index": 16,
+      "catalogId": "M085",
+      "catalogName": "Engine 1 fire detection \u2014 loop A",
+      "fenixId": "F_OH_FIRE_ENG1_LOOP_A",
+      "fenixTitle": "Eng 1 Loop A",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_OH_FIRE_ENG1_LOOP_A",
+        "title": "Eng 1 Loop A",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_OH_FIRE_ENG1_LOOP_A",
+        "title": "Eng 1 Loop A",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 26,
+        "group": "Loop Eng 1"
+      },
+      "restorationResponse": {
+        "id": "F_OH_FIRE_ENG1_LOOP_A",
+        "title": "Eng 1 Loop A",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_OH_FIRE_ENG1_LOOP_A",
+        "title": "Eng 1 Loop A",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 26,
+        "group": "Loop Eng 1"
+      }
+    },
+    {
+      "index": 17,
+      "catalogId": "M086",
+      "catalogName": "Engine 1 fire detection \u2014 loop B",
+      "fenixId": "F_OH_FIRE_ENG1_LOOP_B",
+      "fenixTitle": "Eng 1 Loop B",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_OH_FIRE_ENG1_LOOP_B",
+        "title": "Eng 1 Loop B",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_OH_FIRE_ENG1_LOOP_B",
+        "title": "Eng 1 Loop B",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 26,
+        "group": "Loop Eng 1"
+      },
+      "restorationResponse": {
+        "id": "F_OH_FIRE_ENG1_LOOP_B",
+        "title": "Eng 1 Loop B",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_OH_FIRE_ENG1_LOOP_B",
+        "title": "Eng 1 Loop B",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 26,
+        "group": "Loop Eng 1"
+      }
+    },
+    {
+      "index": 18,
+      "catalogId": "M087",
+      "catalogName": "Engine 2 fire detection \u2014 loop A",
+      "fenixId": "F_OH_FIRE_ENG2_LOOP_A",
+      "fenixTitle": "Eng 2 Loop A",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_OH_FIRE_ENG2_LOOP_A",
+        "title": "Eng 2 Loop A",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_OH_FIRE_ENG2_LOOP_A",
+        "title": "Eng 2 Loop A",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 26,
+        "group": "Loop Eng 2"
+      },
+      "restorationResponse": {
+        "id": "F_OH_FIRE_ENG2_LOOP_A",
+        "title": "Eng 2 Loop A",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_OH_FIRE_ENG2_LOOP_A",
+        "title": "Eng 2 Loop A",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 26,
+        "group": "Loop Eng 2"
+      }
+    },
+    {
+      "index": 19,
+      "catalogId": "M088",
+      "catalogName": "Engine 2 fire detection \u2014 loop B",
+      "fenixId": "F_OH_FIRE_ENG2_LOOP_B",
+      "fenixTitle": "Eng 2 Loop B",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_OH_FIRE_ENG2_LOOP_B",
+        "title": "Eng 2 Loop B",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_OH_FIRE_ENG2_LOOP_B",
+        "title": "Eng 2 Loop B",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 26,
+        "group": "Loop Eng 2"
+      },
+      "restorationResponse": {
+        "id": "F_OH_FIRE_ENG2_LOOP_B",
+        "title": "Eng 2 Loop B",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_OH_FIRE_ENG2_LOOP_B",
+        "title": "Eng 2 Loop B",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 26,
+        "group": "Loop Eng 2"
+      }
+    },
+    {
+      "index": 20,
+      "catalogId": "M089",
+      "catalogName": "APU fire detection \u2014 loop A",
+      "fenixId": "F_OH_FIRE_AP2_LOOP_A",
+      "fenixTitle": "APU Loop A",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_OH_FIRE_AP2_LOOP_A",
+        "title": "APU Loop A",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_OH_FIRE_AP2_LOOP_A",
+        "title": "APU Loop A",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 26,
+        "group": "Loop APU"
+      },
+      "restorationResponse": {
+        "id": "F_OH_FIRE_AP2_LOOP_A",
+        "title": "APU Loop A",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_OH_FIRE_AP2_LOOP_A",
+        "title": "APU Loop A",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 26,
+        "group": "Loop APU"
+      }
+    },
+    {
+      "index": 21,
+      "catalogId": "M090",
+      "catalogName": "APU fire detection \u2014 loop B",
+      "fenixId": "F_OH_FIRE_APU_LOOP_B",
+      "fenixTitle": "APU Loop B",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_OH_FIRE_APU_LOOP_B",
+        "title": "APU Loop B",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_OH_FIRE_APU_LOOP_B",
+        "title": "APU Loop B",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 26,
+        "group": "Loop APU"
+      },
+      "restorationResponse": {
+        "id": "F_OH_FIRE_APU_LOOP_B",
+        "title": "APU Loop B",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_OH_FIRE_APU_LOOP_B",
+        "title": "APU Loop B",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 26,
+        "group": "Loop APU"
+      }
+    },
+    {
+      "index": 22,
+      "catalogId": "M144",
+      "catalogName": "Yellow electric hydraulic pump",
+      "fenixId": "F_HYD_PUMP_YELLOW",
+      "fenixTitle": "Elec hyd pump Yellow failure",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_HYD_PUMP_YELLOW",
+        "title": "Elec hyd pump Yellow failure",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_HYD_PUMP_YELLOW",
+        "title": "Elec hyd pump Yellow failure",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 29,
+        "group": "Elec pumps"
+      },
+      "restorationResponse": {
+        "id": "F_HYD_PUMP_YELLOW",
+        "title": "Elec hyd pump Yellow failure",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_HYD_PUMP_YELLOW",
+        "title": "Elec hyd pump Yellow failure",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 29,
+        "group": "Elec pumps"
+      }
+    },
+    {
+      "index": 23,
+      "catalogId": "M152",
+      "catalogName": "Autobrake function",
+      "fenixId": "F_BRAKE_AUTOBRAKE",
+      "fenixTitle": "Autobrake failure",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_BRAKE_AUTOBRAKE",
+        "title": "Autobrake failure",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_BRAKE_AUTOBRAKE",
+        "title": "Autobrake failure",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 32,
+        "group": "Brake fault"
+      },
+      "restorationResponse": {
+        "id": "F_BRAKE_AUTOBRAKE",
+        "title": "Autobrake failure",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_BRAKE_AUTOBRAKE",
+        "title": "Autobrake failure",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 32,
+        "group": "Brake fault"
+      }
+    },
+    {
+      "index": 24,
+      "catalogId": "M153",
+      "catalogName": "Wheel brake 1",
+      "fenixId": "F_BRAKE_WHEEL_1",
+      "fenixTitle": "Wheel brake fault 1",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_BRAKE_WHEEL_1",
+        "title": "Wheel brake fault 1",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_BRAKE_WHEEL_1",
+        "title": "Wheel brake fault 1",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 32,
+        "group": "Wheel brake fault"
+      },
+      "restorationResponse": {
+        "id": "F_BRAKE_WHEEL_1",
+        "title": "Wheel brake fault 1",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_BRAKE_WHEEL_1",
+        "title": "Wheel brake fault 1",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 32,
+        "group": "Wheel brake fault"
+      }
+    },
+    {
+      "index": 25,
+      "catalogId": "M154",
+      "catalogName": "Wheel brake 2",
+      "fenixId": "F_BRAKE_WHEEL_2",
+      "fenixTitle": "Wheel brake fault 2",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_BRAKE_WHEEL_2",
+        "title": "Wheel brake fault 2",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_BRAKE_WHEEL_2",
+        "title": "Wheel brake fault 2",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 32,
+        "group": "Wheel brake fault"
+      },
+      "restorationResponse": {
+        "id": "F_BRAKE_WHEEL_2",
+        "title": "Wheel brake fault 2",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_BRAKE_WHEEL_2",
+        "title": "Wheel brake fault 2",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 32,
+        "group": "Wheel brake fault"
+      }
+    },
+    {
+      "index": 26,
+      "catalogId": "M155",
+      "catalogName": "Wheel brake 3",
+      "fenixId": "F_BRAKE_WHEEL_3",
+      "fenixTitle": "Wheel brake fault 3",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_BRAKE_WHEEL_3",
+        "title": "Wheel brake fault 3",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_BRAKE_WHEEL_3",
+        "title": "Wheel brake fault 3",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 32,
+        "group": "Wheel brake fault"
+      },
+      "restorationResponse": {
+        "id": "F_BRAKE_WHEEL_3",
+        "title": "Wheel brake fault 3",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_BRAKE_WHEEL_3",
+        "title": "Wheel brake fault 3",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 32,
+        "group": "Wheel brake fault"
+      }
+    },
+    {
+      "index": 27,
+      "catalogId": "M156",
+      "catalogName": "Wheel brake 4",
+      "fenixId": "F_BRAKE_WHEEL_4",
+      "fenixTitle": "Wheel brake fault 4",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_BRAKE_WHEEL_4",
+        "title": "Wheel brake fault 4",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_BRAKE_WHEEL_4",
+        "title": "Wheel brake fault 4",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 32,
+        "group": "Wheel brake fault"
+      },
+      "restorationResponse": {
+        "id": "F_BRAKE_WHEEL_4",
+        "title": "Wheel brake fault 4",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_BRAKE_WHEEL_4",
+        "title": "Wheel brake fault 4",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 32,
+        "group": "Wheel brake fault"
+      }
+    },
+    {
+      "index": 28,
+      "catalogId": "M198",
+      "catalogName": "MCDU 1",
+      "fenixId": "F_MCDU_1",
+      "fenixTitle": "MCDU 1",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_MCDU_1",
+        "title": "MCDU 1",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_MCDU_1",
+        "title": "MCDU 1",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 34,
+        "group": "MCDU"
+      },
+      "restorationResponse": {
+        "id": "F_MCDU_1",
+        "title": "MCDU 1",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_MCDU_1",
+        "title": "MCDU 1",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 34,
+        "group": "MCDU"
+      }
+    },
+    {
+      "index": 29,
+      "catalogId": "M199",
+      "catalogName": "MCDU 2",
+      "fenixId": "F_MCDU_2",
+      "fenixTitle": "MCDU 2",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_MCDU_2",
+        "title": "MCDU 2",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_MCDU_2",
+        "title": "MCDU 2",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 34,
+        "group": "MCDU"
+      },
+      "restorationResponse": {
+        "id": "F_MCDU_2",
+        "title": "MCDU 2",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_MCDU_2",
+        "title": "MCDU 2",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 34,
+        "group": "MCDU"
+      }
+    },
+    {
+      "index": 30,
+      "catalogId": "M254",
+      "catalogName": "CAPT angle of attack probe heater",
+      "fenixId": "F_ICE_AOA_HEAT_CPT",
+      "fenixTitle": "AOA heat Capt",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_ICE_AOA_HEAT_CPT",
+        "title": "AOA heat Capt",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_ICE_AOA_HEAT_CPT",
+        "title": "AOA heat Capt",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 30,
+        "group": "AOA Heat"
+      },
+      "restorationResponse": {
+        "id": "F_ICE_AOA_HEAT_CPT",
+        "title": "AOA heat Capt",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_ICE_AOA_HEAT_CPT",
+        "title": "AOA heat Capt",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 30,
+        "group": "AOA Heat"
+      }
+    },
+    {
+      "index": 31,
+      "catalogId": "M255",
+      "catalogName": "F/O angle of attack probe heater",
+      "fenixId": "F_ICE_AOA_FO",
+      "fenixTitle": "AOA heat F/O",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_ICE_AOA_FO",
+        "title": "AOA heat F/O",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_ICE_AOA_FO",
+        "title": "AOA heat F/O",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 30,
+        "group": "AOA Heat"
+      },
+      "restorationResponse": {
+        "id": "F_ICE_AOA_FO",
+        "title": "AOA heat F/O",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_ICE_AOA_FO",
+        "title": "AOA heat F/O",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 30,
+        "group": "AOA Heat"
+      }
+    },
+    {
+      "index": 32,
+      "catalogId": "M256",
+      "catalogName": "STBY angle of attack probe heater",
+      "fenixId": "F_ICE_AOA_STBY",
+      "fenixTitle": "AOA heat STBY",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_ICE_AOA_STBY",
+        "title": "AOA heat STBY",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_ICE_AOA_STBY",
+        "title": "AOA heat STBY",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 30,
+        "group": "AOA Heat"
+      },
+      "restorationResponse": {
+        "id": "F_ICE_AOA_STBY",
+        "title": "AOA heat STBY",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_ICE_AOA_STBY",
+        "title": "AOA heat STBY",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 30,
+        "group": "AOA Heat"
+      }
+    },
+    {
+      "index": 33,
+      "catalogId": "M257",
+      "catalogName": "CAPT TAT probe heater",
+      "fenixId": "F_ICE_TAT_HEAT_CPT",
+      "fenixTitle": "TAT heat Capt",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_ICE_TAT_HEAT_CPT",
+        "title": "TAT heat Capt",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_ICE_TAT_HEAT_CPT",
+        "title": "TAT heat Capt",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 30,
+        "group": "TAT Heat"
+      },
+      "restorationResponse": {
+        "id": "F_ICE_TAT_HEAT_CPT",
+        "title": "TAT heat Capt",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_ICE_TAT_HEAT_CPT",
+        "title": "TAT heat Capt",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 30,
+        "group": "TAT Heat"
+      }
+    },
+    {
+      "index": 34,
+      "catalogId": "M258",
+      "catalogName": "F/O TAT probe heater",
+      "fenixId": "F_ICE_TAT_FO",
+      "fenixTitle": "TAT heat F/O",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_ICE_TAT_FO",
+        "title": "TAT heat F/O",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_ICE_TAT_FO",
+        "title": "TAT heat F/O",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 30,
+        "group": "TAT Heat"
+      },
+      "restorationResponse": {
+        "id": "F_ICE_TAT_FO",
+        "title": "TAT heat F/O",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_ICE_TAT_FO",
+        "title": "TAT heat F/O",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 30,
+        "group": "TAT Heat"
+      }
+    },
+    {
+      "index": 35,
+      "catalogId": "M260",
+      "catalogName": "CAPT pitot heater",
+      "fenixId": "F_ICE_PITOT_HEAT_CPT",
+      "fenixTitle": "Pitot heat Capt",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_ICE_PITOT_HEAT_CPT",
+        "title": "Pitot heat Capt",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_ICE_PITOT_HEAT_CPT",
+        "title": "Pitot heat Capt",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 30,
+        "group": "Pitot Heat"
+      },
+      "restorationResponse": {
+        "id": "F_ICE_PITOT_HEAT_CPT",
+        "title": "Pitot heat Capt",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_ICE_PITOT_HEAT_CPT",
+        "title": "Pitot heat Capt",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 30,
+        "group": "Pitot Heat"
+      }
+    },
+    {
+      "index": 36,
+      "catalogId": "M261",
+      "catalogName": "F/O pitot heater",
+      "fenixId": "F_ICE_PITOT_FO",
+      "fenixTitle": "Pitot heat F/O",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_ICE_PITOT_FO",
+        "title": "Pitot heat F/O",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_ICE_PITOT_FO",
+        "title": "Pitot heat F/O",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 30,
+        "group": "Pitot Heat"
+      },
+      "restorationResponse": {
+        "id": "F_ICE_PITOT_FO",
+        "title": "Pitot heat F/O",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_ICE_PITOT_FO",
+        "title": "Pitot heat F/O",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 30,
+        "group": "Pitot Heat"
+      }
+    },
+    {
+      "index": 37,
+      "catalogId": "M262",
+      "catalogName": "STBY pitot heater",
+      "fenixId": "F_ICE_PITOT_STBY",
+      "fenixTitle": "Pitot heat STBY",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_ICE_PITOT_STBY",
+        "title": "Pitot heat STBY",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_ICE_PITOT_STBY",
+        "title": "Pitot heat STBY",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 30,
+        "group": "Pitot Heat"
+      },
+      "restorationResponse": {
+        "id": "F_ICE_PITOT_STBY",
+        "title": "Pitot heat STBY",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_ICE_PITOT_STBY",
+        "title": "Pitot heat STBY",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 30,
+        "group": "Pitot Heat"
+      }
+    },
+    {
+      "index": 38,
+      "catalogId": "M263",
+      "catalogName": "CAPT static port heater \u2014 left",
+      "fenixId": "F_ICE_STAT_HEAT_CPT_L",
+      "fenixTitle": "Left Static heat Capt",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_ICE_STAT_HEAT_CPT_L",
+        "title": "Left Static heat Capt",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_ICE_STAT_HEAT_CPT_L",
+        "title": "Left Static heat Capt",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 30,
+        "group": "Static Heat"
+      },
+      "restorationResponse": {
+        "id": "F_ICE_STAT_HEAT_CPT_L",
+        "title": "Left Static heat Capt",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_ICE_STAT_HEAT_CPT_L",
+        "title": "Left Static heat Capt",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 30,
+        "group": "Static Heat"
+      }
+    },
+    {
+      "index": 39,
+      "catalogId": "M264",
+      "catalogName": "CAPT static port heater \u2014 right",
+      "fenixId": "F_ICE_STAT_HEAT_CPT_R",
+      "fenixTitle": "Right Static heat Capt",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_ICE_STAT_HEAT_CPT_R",
+        "title": "Right Static heat Capt",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_ICE_STAT_HEAT_CPT_R",
+        "title": "Right Static heat Capt",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 30,
+        "group": "Static Heat"
+      },
+      "restorationResponse": {
+        "id": "F_ICE_STAT_HEAT_CPT_R",
+        "title": "Right Static heat Capt",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_ICE_STAT_HEAT_CPT_R",
+        "title": "Right Static heat Capt",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 30,
+        "group": "Static Heat"
+      }
+    },
+    {
+      "index": 40,
+      "catalogId": "M265",
+      "catalogName": "F/O static port heater \u2014 left",
+      "fenixId": "F_ICE_STAT_FO_L",
+      "fenixTitle": "Left Static heat F/O",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_ICE_STAT_FO_L",
+        "title": "Left Static heat F/O",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_ICE_STAT_FO_L",
+        "title": "Left Static heat F/O",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 30,
+        "group": "Static Heat"
+      },
+      "restorationResponse": {
+        "id": "F_ICE_STAT_FO_L",
+        "title": "Left Static heat F/O",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_ICE_STAT_FO_L",
+        "title": "Left Static heat F/O",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 30,
+        "group": "Static Heat"
+      }
+    },
+    {
+      "index": 41,
+      "catalogId": "M266",
+      "catalogName": "F/O static port heater \u2014 right",
+      "fenixId": "F_ICE_STAT_FO_R",
+      "fenixTitle": "Right Static heat F/O",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_ICE_STAT_FO_R",
+        "title": "Right Static heat F/O",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_ICE_STAT_FO_R",
+        "title": "Right Static heat F/O",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 30,
+        "group": "Static Heat"
+      },
+      "restorationResponse": {
+        "id": "F_ICE_STAT_FO_R",
+        "title": "Right Static heat F/O",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_ICE_STAT_FO_R",
+        "title": "Right Static heat F/O",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 30,
+        "group": "Static Heat"
+      }
+    },
+    {
+      "index": 42,
+      "catalogId": "M267",
+      "catalogName": "STBY static port heater \u2014 left",
+      "fenixId": "F_ICE_STAT_STBY_L",
+      "fenixTitle": "Left Static heat Stby",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_ICE_STAT_STBY_L",
+        "title": "Left Static heat Stby",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_ICE_STAT_STBY_L",
+        "title": "Left Static heat Stby",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 30,
+        "group": "Static Heat"
+      },
+      "restorationResponse": {
+        "id": "F_ICE_STAT_STBY_L",
+        "title": "Left Static heat Stby",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_ICE_STAT_STBY_L",
+        "title": "Left Static heat Stby",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 30,
+        "group": "Static Heat"
+      }
+    },
+    {
+      "index": 43,
+      "catalogId": "M268",
+      "catalogName": "STBY static port heater \u2014 right",
+      "fenixId": "F_ICE_STAT_STBY_R",
+      "fenixTitle": "Right Static heat Stby",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_ICE_STAT_STBY_R",
+        "title": "Right Static heat Stby",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_ICE_STAT_STBY_R",
+        "title": "Right Static heat Stby",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 30,
+        "group": "Static Heat"
+      },
+      "restorationResponse": {
+        "id": "F_ICE_STAT_STBY_R",
+        "title": "Right Static heat Stby",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_ICE_STAT_STBY_R",
+        "title": "Right Static heat Stby",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 30,
+        "group": "Static Heat"
+      }
+    },
+    {
+      "index": 44,
+      "catalogId": "M282",
+      "catalogName": "SFCC 2 \u2014 flap channel",
+      "fenixId": "F_SFCC_2_FLAP",
+      "fenixTitle": "SFCC 2 flap sys",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_SFCC_2_FLAP",
+        "title": "SFCC 2 flap sys",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_SFCC_2_FLAP",
+        "title": "SFCC 2 flap sys",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 27,
+        "group": "Flap"
+      },
+      "restorationResponse": {
+        "id": "F_SFCC_2_FLAP",
+        "title": "SFCC 2 flap sys",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_SFCC_2_FLAP",
+        "title": "SFCC 2 flap sys",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 27,
+        "group": "Flap"
+      }
+    },
+    {
+      "index": 45,
+      "catalogId": "M284",
+      "catalogName": "SFCC 2 \u2014 slat channel",
+      "fenixId": "F_SFCC_2_SLAT",
+      "fenixTitle": "SFCC 2 slat sys",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_SFCC_2_SLAT",
+        "title": "SFCC 2 slat sys",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_SFCC_2_SLAT",
+        "title": "SFCC 2 slat sys",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 27,
+        "group": "Slat"
+      },
+      "restorationResponse": {
+        "id": "F_SFCC_2_SLAT",
+        "title": "SFCC 2 slat sys",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_SFCC_2_SLAT",
+        "title": "SFCC 2 slat sys",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 27,
+        "group": "Slat"
+      }
+    },
+    {
+      "index": 46,
+      "catalogId": "M295",
+      "catalogName": "Yaw damper \u2014 channel 1",
+      "fenixId": "F_FC_YAW_DAMPER_1",
+      "fenixTitle": "Yaw damper channel 1",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_FC_YAW_DAMPER_1",
+        "title": "Yaw damper channel 1",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_FC_YAW_DAMPER_1",
+        "title": "Yaw damper channel 1",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 27,
+        "group": "Yaw damper"
+      },
+      "restorationResponse": {
+        "id": "F_FC_YAW_DAMPER_1",
+        "title": "Yaw damper channel 1",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_FC_YAW_DAMPER_1",
+        "title": "Yaw damper channel 1",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 27,
+        "group": "Yaw damper"
+      }
+    },
+    {
+      "index": 47,
+      "catalogId": "M296",
+      "catalogName": "Yaw damper \u2014 channel 2",
+      "fenixId": "F_FC_YAW_DAMPER_2",
+      "fenixTitle": "Yaw damper channel 2",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_FC_YAW_DAMPER_2",
+        "title": "Yaw damper channel 2",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_FC_YAW_DAMPER_2",
+        "title": "Yaw damper channel 2",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 27,
+        "group": "Yaw damper"
+      },
+      "restorationResponse": {
+        "id": "F_FC_YAW_DAMPER_2",
+        "title": "Yaw damper channel 2",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_FC_YAW_DAMPER_2",
+        "title": "Yaw damper channel 2",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 27,
+        "group": "Yaw damper"
+      }
+    },
+    {
+      "index": 48,
+      "catalogId": "M317",
+      "catalogName": "Centralized fault display interface unit",
+      "fenixId": "F_CFDIU",
+      "fenixTitle": "CFDIU",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_CFDIU",
+        "title": "CFDIU",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_CFDIU",
+        "title": "CFDIU",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 31,
+        "group": "CFDIU"
+      },
+      "restorationResponse": {
+        "id": "F_CFDIU",
+        "title": "CFDIU",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_CFDIU",
+        "title": "CFDIU",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 31,
+        "group": "CFDIU"
+      }
+    },
+    {
+      "index": 49,
+      "catalogId": "M320",
+      "catalogName": "System data acquisition concentrator 2",
+      "fenixId": "F_SDAC_2",
+      "fenixTitle": "SDAC 2",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_SDAC_2",
+        "title": "SDAC 2",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_SDAC_2",
+        "title": "SDAC 2",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 31,
+        "group": "SDAC"
+      },
+      "restorationResponse": {
+        "id": "F_SDAC_2",
+        "title": "SDAC 2",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_SDAC_2",
+        "title": "SDAC 2",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 31,
+        "group": "SDAC"
+      }
+    },
+    {
+      "index": 50,
+      "catalogId": "M322",
+      "catalogName": "Flight warning computer 2",
+      "fenixId": "F_FWC2",
+      "fenixTitle": "FWC 2",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_FWC2",
+        "title": "FWC 2",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_FWC2",
+        "title": "FWC 2",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 31,
+        "group": "FWC"
+      },
+      "restorationResponse": {
+        "id": "F_FWC2",
+        "title": "FWC 2",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_FWC2",
+        "title": "FWC 2",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 31,
+        "group": "FWC"
+      }
+    },
+    {
+      "index": 51,
+      "catalogId": "M323",
+      "catalogName": "Cockpit voice recorder",
+      "fenixId": "F_CVR",
+      "fenixTitle": "CVR",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_CVR",
+        "title": "CVR",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_CVR",
+        "title": "CVR",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 31,
+        "group": "CVR"
+      },
+      "restorationResponse": {
+        "id": "F_CVR",
+        "title": "CVR",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_CVR",
+        "title": "CVR",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 31,
+        "group": "CVR"
+      }
+    },
+    {
+      "index": 52,
+      "catalogId": "M327",
+      "catalogName": "CAPT DCDU",
+      "fenixId": "F_DISPLAY_DCDU_CAPT",
+      "fenixTitle": "DCDU Capt",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_DISPLAY_DCDU_CAPT",
+        "title": "DCDU Capt",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_DISPLAY_DCDU_CAPT",
+        "title": "DCDU Capt",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 31,
+        "group": "DCDU"
+      },
+      "restorationResponse": {
+        "id": "F_DISPLAY_DCDU_CAPT",
+        "title": "DCDU Capt",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_DISPLAY_DCDU_CAPT",
+        "title": "DCDU Capt",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 31,
+        "group": "DCDU"
+      }
+    },
+    {
+      "index": 53,
+      "catalogId": "M328",
+      "catalogName": "F/O DCDU",
+      "fenixId": "F_DISPLAY_DCDU_FO",
+      "fenixTitle": "DCDU FO",
+      "activation": "verified",
+      "restoration": "verified",
+      "activationResponse": {
+        "id": "F_DISPLAY_DCDU_FO",
+        "title": "DCDU FO",
+        "failureCondition": null,
+        "failed": true
+      },
+      "activeReadback": {
+        "id": "F_DISPLAY_DCDU_FO",
+        "title": "DCDU FO",
+        "failureCondition": null,
+        "failed": true,
+        "ata": 31,
+        "group": "DCDU"
+      },
+      "restorationResponse": {
+        "id": "F_DISPLAY_DCDU_FO",
+        "title": "DCDU FO",
+        "failureCondition": null,
+        "failed": false
+      },
+      "restoredReadback": {
+        "id": "F_DISPLAY_DCDU_FO",
+        "title": "DCDU FO",
+        "failureCondition": null,
+        "failed": false,
+        "ata": 31,
+        "group": "DCDU"
+      }
+    }
+  ],
+  "complete": true,
+  "aircraft": "FenixA321 IAE WF SC",
+  "initialSimulatorState": {
+    "TITLE": "FenixA321 IAE WF SC",
+    "SIM ON GROUND": 1.0,
+    "GROUND VELOCITY": 1.87207733711759e-09,
+    "GENERAL ENG COMBUSTION:1": 0.0,
+    "GENERAL ENG COMBUSTION:2": 0.0,
+    "BRAKE PARKING POSITION": 1.0
+  },
+  "initialManualFailureState": {
+    "F_PNEUMATIC_CPC_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_CPC_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_PACK_1_OVERHEAT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_PACK_2_OVERHEAT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_PACK_1_REG_FAULT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_PACK_2_REG_FAULT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_ZONECONTROLLER_PRIM": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_ZONECONTROLLER_SEC": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_TRIM_AIR": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_CVC": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_HOT_AIR_VALVE_AFT_CARGO": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_CARGO_ISOL_FWD_UP": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_CARGO_ISOL_FWD_DOWN": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_CARGO_ISOL_AFT_UP": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_CARGO_ISOL_AFT_DOWN": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_RECIRC_FANS": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_DECOMPRESSION_MINOR": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_DECOMPRESSION_MAJOR": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_OUTFLOWVALVE_STUCK": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_AEVC": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_BLOWER": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_EXTRACT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_VENT_INLET": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_VENT_EXTRACT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FLT_CTL_FAC_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FLT_CTL_FAC_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FLT_CTL_FAC_RECOVERABLE_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FLT_CTL_FAC_RECOVERABLE_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FC_YAW_RTL_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FC_YAW_RTL_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FC_RUDDERTRIM_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FC_RUDDERTRIM_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FC_WINDSHEAR_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FC_WINDSHEAR_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FC_ALTERNATE_LAW_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FC_ALTERNATE_LAW_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FC_DIRECT_LAW": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FCU_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FCU_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_AUTOFLIGHT_ATHR1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_AUTOFLIGHT_ATHR2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_AUTOFLIGHT_AP1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_AUTOFLIGHT_AP2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_BUS_BAT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_BUS_DC_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_BUS_DC_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_BUS_HOT_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_BUS_HOT_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_BUS_DC_ESSENTIAL": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_BUS_DC_SHED": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_BUS_AC_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_BUS_AC_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_BUS_AC_ESSENTIAL": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_BUS_AC_SHED": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_BUS_AC_STATIC_INVERTER": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_BUS_AC26_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_BUS_AC26_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_BUS_AC26_ESS": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_APU_GEN": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_DRIVE_FAILURE_L": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_DRIVE_FAILURE_R": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_GEN_OVERHEAT_L": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_GEN_OVERHEAT_R": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_DRIVE_OIL_LOW_L": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_DRIVE_OIL_LOW_R": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_STATIC_INVERTER": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_TR1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_TR2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_TR_ESS": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_AC_ESS_ALTN": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_AC_ESS_FEED_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_AC_ESS_FEED_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_SDCU": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FIRE_CARGO_FWD_SMOKE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FIRE_CARGO_AFT_SMOKE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FIRE_LAVATORY_SMOKE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FIRE_ENG_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FIRE_ENG_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FIRE_APU": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FIRE_ENG_1_1BOTTLE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FIRE_ENG_2_1BOTTLE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FIRE_APU_1BOTTLE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FIRE_ENG_1_2BOTTLES": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FIRE_ENG_2_2BOTTLES": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FIRE_ENG1_LOOP_A": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FIRE_ENG1_LOOP_B": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FIRE_ENG2_LOOP_A": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FIRE_ENG2_LOOP_B": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FIRE_AP2_LOOP_A": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FIRE_APU_LOOP_B": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FIRE_FDU1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FIRE_FDU2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FIRE_FDU3": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FIRE_AVIONICS_SMOKE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_FQI1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_FQI2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_PUMP_LEFT_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_PUMP_LEFT_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_PUMP_CENTER_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_PUMP_CENTER_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_PUMP_RIGHT_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_PUMP_RIGHT_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_HIGH_TEMP_INNER": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_HIGH_TEMP_OUTER": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_HIGH_TEMP_INNER_ADV": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_HIGH_TEMP_OUTER_ADV": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_LOW_TEMP_INNER": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_LOW_TEMP_OUTER": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_LOW_TEMP_INNER_ADV": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_LOW_TEMP_OUTER_ADV": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_XFER_VALVE_1_L": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_XFER_VALVE_2_L": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_XFER_VALVE_1_R": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_XFER_VALVE_2_R": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_ENGINE_1_VALVE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_ENGINE_2_VALVE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_VALVE_CROSSFEED": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DEFUEL_TRANSFER_VALVE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_LEAK_LEFT_OUTER": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_LEAK_LEFT_INNER": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_LEAK_CENTER": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_LEAK_RIGHT_INNER": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_LEAK_RIGHT_OUTER": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ENG1_HP_VALVE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ENG2_HP_VALVE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_LEAK_GREEN": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_LEAK_BLUE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_LEAK_YELLOW": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_RSVR_OVERHEAT_GREEN": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_RSVR_OVERHEAT_BLUE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_RSVR_OVERHEAT_YELLOW": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_RSVR_AIR_PRESSURE_GREEN": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_RSVR_AIR_PRESSURE_BLUE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_RSVR_AIR_PRESSURE_YELLOW": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_LOW_GREEN": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_LOW_BLUE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_LOW_YELLOW": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_PUMP_ENG_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_PUMP_ENG_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_FIRE_VALVE_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_FIRE_VALVE_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_PTU": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_PUMP_BLUE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_PUMP_YELLOW": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_PUMP_OVERHEAT_BLUE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_PUMP_OVERHEAT_YELLOW": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_BSCU_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_BSCU_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_BRAKE_ABCU": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_BSCU_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_BSCU_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_BRAKE_AUTOBRAKE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_BRAKE_WHEEL_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_BRAKE_WHEEL_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_BRAKE_WHEEL_3": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_BRAKE_WHEEL_4": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_GEAR_TYRE_PSI_MAIN_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_GEAR_TYRE_PSI_MAIN_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_GEAR_TYRE_PSI_LEFT_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_GEAR_TYRE_PSI_LEFT_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_GEAR_TYRE_PSI_RIGHT_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_GEAR_TYRE_PSI_RIGHT_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_BRAKE_NWS": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_MISC_LGCIU1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_MISC_LGCIU2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_GEAR_SAFETY_VALVE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_GEAR_LOCK_LEFT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_GEAR_LOCK_NOSE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_GEAR_LOCK_RIGHT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_GEAR_LOCKED_UP": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_GEAR_LOCKED_DOWN": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_NAV_IR_TOTAL_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_NAV_IR_TOTAL_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_NAV_IR_TOTAL_3": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_NAV_IR_POSITION_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_NAV_IR_POSITION_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_NAV_IR_POSITION_3": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_NAV_ADR_ADR1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_NAV_ADR_ADR2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_NAV_ADR_ADR3": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_NAV_IR_ALIGNMENT_1": {
+      "failed": true,
+      "failureCondition": null
+    },
+    "F_OH_NAV_IR_ALIGNMENT_2": {
+      "failed": true,
+      "failureCondition": null
+    },
+    "F_OH_NAV_IR_ALIGNMENT_3": {
+      "failed": true,
+      "failureCondition": null
+    },
+    "F_OH_NAV_PITOT_BLOCKED_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_NAV_PITOT_BLOCKED_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_NAV_PITOT_BLOCKED_3": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_IR1_PITCH_DISCREPANCY": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_IR2_PITCH_DISCREPANCY": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_IR3_PITCH_DISCREPANCY": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_IR1_BANK_DISCREPANCY": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_IR2_BANK_DISCREPANCY": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_IR3_BANK_DISCREPANCY": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_IR1_HDG_DISCREPANCY": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_IR2_HDG_DISCREPANCY": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_IR3_HDG_DISCREPANCY": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_IR_DISAGREE1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_IR_DISAGREE2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_MCDU_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_MCDU_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_MCDU_1_RECOVERABLE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_MCDU_2_RECOVERABLE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FMGC_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FMGC_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_GPWS": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_VOR1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_VOR2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_ADF1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_ADF2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_ILS1_LOC": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_ILS1_GS": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_ILS2_LOC": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_ILS2_GS": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_LOC": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_GS": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_GPS1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_GPS2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_RALT1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_RALT2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_ACCURACY_DOWNGRADE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_TCAS": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_ATC1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_NAV_ATC2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_LAV_GAL_FAN": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_HP_VALVE_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_HP_VALVE_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_RAM_AIR_VALVE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_BLEED_VALVE_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_BLEED_VALVE_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_HOT_AIR_VALVE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ENG1_BLEED_LOW_TEMP": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ENG2_BLEED_LOW_TEMP": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_BMC_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_BMC_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_CROSS_BLEED_VALVE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_APU_VALVE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_PACK_VALVE_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_PACK_VALVE_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_LEAK_WING_ENG1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_LEAK_WING_ENG2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_LEAK_PYLON_ENG1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_LEAK_PYLON_ENG2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_LEAK_APU": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ELEC_APU_ECB": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_APU_LOW_OIL": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FUEL_VALVE_APU": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_COMM_STUCK_PTT_CAPT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_COMM_STUCK_PTT_FO": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_WAI_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_WAI_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_EAI_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_EAI_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ICE_WHC_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ICE_WHC_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ICE_AOA_HEAT_CPT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ICE_AOA_FO": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ICE_AOA_STBY": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ICE_TAT_HEAT_CPT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ICE_TAT_FO": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ICE_TAT_STBY": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ICE_PITOT_HEAT_CPT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ICE_PITOT_FO": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ICE_PITOT_STBY": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ICE_STAT_HEAT_CPT_L": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ICE_STAT_HEAT_CPT_R": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ICE_STAT_FO_L": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ICE_STAT_FO_R": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ICE_STAT_STBY_L": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ICE_STAT_STBY_R": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ICE_PHC1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ICE_PHC2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ICE_PHC3": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ICING_ENG1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ICING_ENG2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FC_IPPU1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FC_IPPU2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_WTB_FLAP": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_WTB_SLAT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_FSCC_ALIGNMENT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FLT_CLT_SFCC_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FLT_CLT_SFCC_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_SFCC_1_FLAP": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_SFCC_2_FLAP": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_SFCC_1_SLAT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_SFCC_2_SLAT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FLT_CTL_ELAC_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FLT_CTL_ELAC_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FLT_CTL_SEC_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FLT_CTL_SEC_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FLT_CTL_SEC_3": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FLT_CTL_ELAC_RECOVERABLE_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FLT_CTL_ELAC_RECOVERABLE_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FLT_CTL_SEC_RECOVERABLE_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FLT_CTL_SEC_RECOVERABLE_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OH_FLT_CTL_SEC_RECOVERABLE_3": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FC_YAW_DAMPER_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FC_YAW_DAMPER_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FC_SIDESTICK_REV_PITCH_CAPT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FC_SIDESTICK_REV_ROLL_CAPT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FC_SIDESTICK_REV_PITCH_FO": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FC_SIDESTICK_REV_ROLL_FO": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FC_SIDESTICK_FAULT_CAPT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FC_SIDESTICK_FAULT_FO": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "B_INT_SFCDC1F": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "B_INT_SFCDC2F": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FCTL_STAB_JAM": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FCTL_ELEV_LR": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FCTL_ELEV_L": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FCTL_ELEV_R": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_START_VALVE_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_PNEUMATIC_START_VALVE_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_START_FAULT_1_HOT_START": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_START_FAULT_2_HOT_START": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_START_FAULT_1_HUNG_START": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_START_FAULT_2_HUNG_START": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_START_FAULT_1_NO_IGNITION": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_START_FAULT_2_NO_IGNITION": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_CFDIU": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ECP": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_SDAC_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_SDAC_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FWC1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_FWC2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_CVR": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DISPLAY_DMC_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DISPLAY_DMC_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DISPLAY_DMC_3": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DISPLAY_DCDU_CAPT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DISPLAY_DCDU_FO": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DISPLAY_DU_CAPTAIN_OUT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DISPLAY_DU_CAPTAIN_IN": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DISPLAY_DU_FO_IN": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DISPLAY_DU_FO_OUT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DISPLAY_DU_ECAM_UPPER": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DISPLAY_DU_ECAM_LOWER": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OXYGEN_CREW_LOW": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OXYGEN_CREW_MED": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OXYGEN_CREW2_LOW": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OXYGEN_CREW2_MED": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OXYGEN_CREW_SUPPLY_VALVE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_OXYGEN_CREW_SUPPLY_VALVE2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_INFO_ATSU": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DOOR_AVIONICS_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DOOR_AVIONICS_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DOOR_AVIONICS_3": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DOOR_FWD_ENTRY_LEFT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DOOR_LEFT_WING_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DOOR_LEFT_WING_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DOOR_AFT_ENTRY_LEFT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DOOR_FWD_ENTRY_RIGHT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DOOR_AVIONICS_4": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DOOR_FWD_CARGO": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DOOR_RIGHT_WING_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DOOR_RIGHT_WING_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DOOR_AFT_CARGO": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DOOR_BULK": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_DOOR_AFT_ENTRY_RIGHT": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ENGINE_FADEC_LEFT_A": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ENGINE_FADEC_LEFT_B": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ENGINE_FADEC_RIGHT_A": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ENGINE_FADEC_RIGHT_B": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ENG1_EIU": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ENG2_EIU": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ENGINE_1_SURGE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ENGINE_2_SURGE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ENGINE_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ENGINE_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ENGINE_1_DAMAGE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ENGINE_2_DAMAGE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ENGINE_1_BIRDSTRIKE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ENGINE_2_BIRDSTRIKE": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_REV_PRESS_ENG_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_REV_PRESS_ENG_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_REV_UNLOCK_ENG_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_REV_UNLOCK_ENG_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_REV_INHIBIT_ENG_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_REV_INHIBIT_ENG_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_VIB_N1_ENG_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_VIB_N1_ENG_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_VIB_N2_ENG_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_VIB_N2_ENG_2": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ENG1_OIL_LEAK": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ENG2_OIL_LEAK": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_REVERSER_SHUTOFF_VALVE_1": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_HYD_REVERSER_SHUTOFF_VALVE_2": {
+      "failed": false,
+      "failureCondition": null
+    }
+  },
+  "finishedUtc": "2026-09-19T19:34:14.779183+00:00",
+  "summary": {
+    "passed": 53,
+    "failed": 0
+  }
+}

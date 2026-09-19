@@ -1,0 +1,951 @@
+- text: 13 Sep 2026 21:54L / 19:54Z
+- generic: A321-231 IAE
+- generic: 
+- generic: Manual Failures
+- textbox "search"
+- button " Failed":
+  - generic: 
+  - text: Failed
+- button " Armed":
+  - generic: 
+  - text: Armed
+- button " Reload":
+  - generic: 
+  - text: Reload
+- generic: 
+- text: ATA 21 - Air Conditioning
+- generic: CPC
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- generic: Overheat
+- button "Pack 1":
+  - generic: Pack 1
+- button "Pack 2":
+  - generic: Pack 2
+- generic: Regulator fault
+- button "Pack 1":
+  - generic: Pack 1
+- button "Pack 2":
+  - generic: Pack 2
+- generic: Zone controller
+- button "Primary":
+  - generic: Primary
+- button "Secondary":
+  - generic: Secondary
+- button "Hot air fault":
+  - generic: Hot air fault
+- button "Cargo ventilation controller":
+  - generic: Cargo ventilation controller
+- button "Hot air valve aft cargo":
+  - generic: Hot air valve aft cargo
+- generic: Cargo vent
+- button "Cargo Fwd Isolation Valve Upstream":
+  - generic: Cargo Fwd Isolation Valve Upstream
+- button "Cargo Fwd Isolation Valve Downstream":
+  - generic: Cargo Fwd Isolation Valve Downstream
+- button "Cargo Aft Isolation Valve Upstream":
+  - generic: Cargo Aft Isolation Valve Upstream
+- button "Cargo Aft Isolation Valve Downstream":
+  - generic: Cargo Aft Isolation Valve Downstream
+- button "Recirculation fans":
+  - generic: Recirculation fans
+- generic: Decompression
+- button "Slow":
+  - generic: Slow
+- button "Rapid":
+  - generic: Rapid
+- button "Outflow valve stuck":
+  - generic: Outflow valve stuck
+- generic: Ventilation
+- button "Aevc":
+  - generic: Aevc
+- button "Blower Fault":
+  - generic: Blower Fault
+- button "Extract Fault":
+  - generic: Extract Fault
+- generic: Ventilation valves
+- button "Vent Inlet Valve":
+  - generic: Vent Inlet Valve
+- button "Vent Extract Valve":
+  - generic: Vent Extract Valve
+- generic: 
+- text: ATA 22 - AutoFlight
+- generic: Nonresettable fault
+- button "Fac 1":
+  - generic: Fac 1
+- button "Fac 2":
+  - generic: Fac 2
+- generic: Resettable fault
+- button "Fac 1":
+  - generic: Fac 1
+- button "Fac 2":
+  - generic: Fac 2
+- generic: Rudder travel limiter
+- button "Channel 1":
+  - generic: Channel 1
+- button "Channel 2":
+  - generic: Channel 2
+- generic: Rudder trim
+- button "Channel 1":
+  - generic: Channel 1
+- button "Channel 2":
+  - generic: Channel 2
+- generic: Reactive W/S det
+- button "Channel 1":
+  - generic: Channel 1
+- button "Channel 2":
+  - generic: Channel 2
+- generic: Law override
+- button "Alternate Law With Protection":
+  - generic: Alternate Law With Protection
+- button "Alternate Law Without Protection":
+  - generic: Alternate Law Without Protection
+- button "Direct Law":
+  - generic: Direct Law
+- generic: FCU
+- button "Channel 1":
+  - generic: Channel 1
+- button "Channel 2":
+  - generic: Channel 2
+- generic: A/THR
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- generic: AP
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- generic: 
+- text: ATA 24 - Electrical power
+- generic: DC Bus Fault
+- button "Dc Bat Bus":
+  - generic: Dc Bat Bus
+- button "Dc Bus 1":
+  - generic: Dc Bus 1
+- button "Dc Bus 2":
+  - generic: Dc Bus 2
+- button "Hot Bus 1":
+  - generic: Hot Bus 1
+- button "Hot Bus 2":
+  - generic: Hot Bus 2
+- button "Dc Essential Bus":
+  - generic: Dc Essential Bus
+- button "Dc Essential Shed Bus":
+  - generic: Dc Essential Shed Bus
+- generic: AC Bus Fault
+- button "Ac Bus 1":
+  - generic: Ac Bus 1
+- button "Ac Bus 2":
+  - generic: Ac Bus 2
+- button "Ac Essential Bus":
+  - generic: Ac Essential Bus
+- button "Ac Essential Shed Bus":
+  - generic: Ac Essential Shed Bus
+- button "Ac Static Inverter Bus":
+  - generic: Ac Static Inverter Bus
+- generic: AC 26v Bus Fault
+- button "Ac Bus 1 26v":
+  - generic: Ac Bus 1 26v
+- button "Ac Bus 2 26v":
+  - generic: Ac Bus 2 26v
+- button "Ac Ess Bus 26v":
+  - generic: Ac Ess Bus 26v
+- generic: Generator
+- button "Apu":
+  - generic: Apu
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- generic: IDG oil ovht
+- button "Idg 1 Oil Overheat":
+  - generic: Idg 1 Oil Overheat
+- button "Idg 2 Oil Overheat":
+  - generic: Idg 2 Oil Overheat
+- generic: IDG oil low pressure
+- button "Idg 1 Oil Low Pressure":
+  - generic: Idg 1 Oil Low Pressure
+- button "Idg 2 Oil Low Pressure":
+  - generic: Idg 2 Oil Low Pressure
+- button "Static inverter":
+  - generic: Static inverter
+- generic: TR Failure
+- button "Tr 1":
+  - generic: Tr 1
+- button "Tr 2":
+  - generic: Tr 2
+- button "Ess":
+  - generic: Ess
+- button "AC Ess Bus Altn":
+  - generic: AC Ess Bus Altn
+- generic: AC Ess feed
+- button "From Ac Bus 1":
+  - generic: From Ac Bus 1
+- button "From Ac Bus 2":
+  - generic: From Ac Bus 2
+- generic: 
+- text: ATA 26 - Fire protection
+- button "SDCU":
+  - generic: SDCU
+- button "Fwd cargo smoke detected":
+  - generic: Fwd cargo smoke detected
+- button "Aft cargo smoke detected":
+  - generic: Aft cargo smoke detected
+- button "Lavatory smoke":
+  - generic: Lavatory smoke
+- generic: Fire unextinguishable
+- button "Eng 1 Unextinguishable Fire":
+  - generic: Eng 1 Unextinguishable Fire
+- button "Eng 2 Unextinguishable Fire":
+  - generic: Eng 2 Unextinguishable Fire
+- button "Apu Unextinguishable Fire":
+  - generic: Apu Unextinguishable Fire
+- generic: Fire 1 bottle
+- button "Eng 1 Fire Extinguished With 1 Bottle":
+  - generic: Eng 1 Fire Extinguished With 1 Bottle
+- button "Eng 2 Fire Extinguished With 1 Bottle":
+  - generic: Eng 2 Fire Extinguished With 1 Bottle
+- button "Apu Fire Extinguished With 1 Bottle":
+  - generic: Apu Fire Extinguished With 1 Bottle
+- generic: Fire 2 bottles
+- button "Eng 1 Fire Extinguished With 2 Bottles":
+  - generic: Eng 1 Fire Extinguished With 2 Bottles
+- button "Eng 2 Fire Extinguished With 2 Bottles":
+  - generic: Eng 2 Fire Extinguished With 2 Bottles
+- generic: Loop Eng 1
+- button "Eng 1 Loop A":
+  - generic: Eng 1 Loop A
+- button "Eng 1 Loop B":
+  - generic: Eng 1 Loop B
+- generic: Loop Eng 2
+- button "Eng 2 Loop A":
+  - generic: Eng 2 Loop A
+- button "Eng 2 Loop B":
+  - generic: Eng 2 Loop B
+- generic: Loop APU
+- button "Apu Loop A":
+  - generic: Apu Loop A
+- button "Apu Loop B":
+  - generic: Apu Loop B
+- generic: FDU
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- button "3":
+  - generic: "3"
+- button "Avionics smoke detected":
+  - generic: Avionics smoke detected
+- generic: 
+- text: ATA 28 - Fuel
+- generic: FQI
+- button "Chan 1":
+  - generic: Chan 1
+- button "Chan 2":
+  - generic: Chan 2
+- generic: Fuel pump left
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- generic: Fuel pump center
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- generic: Fuel pump right
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- generic: Fuel temp high
+- button "Inner Tank High Fuel Temp Ecam":
+  - generic: Inner Tank High Fuel Temp Ecam
+- button "Outer Tank High Fuel Temp Ecam":
+  - generic: Outer Tank High Fuel Temp Ecam
+- button "Inner Tank High Fuel Temp Adv":
+  - generic: Inner Tank High Fuel Temp Adv
+- button "Outer Tank High Fuel Temp Adv":
+  - generic: Outer Tank High Fuel Temp Adv
+- generic: Fuel temp low
+- button "Inner Tank Low Fuel Temp Ecam":
+  - generic: Inner Tank Low Fuel Temp Ecam
+- button "Outer Tank Low Fuel Temp Ecam":
+  - generic: Outer Tank Low Fuel Temp Ecam
+- button "Inner Tank Low Fuel Temp Adv":
+  - generic: Inner Tank Low Fuel Temp Adv
+- button "Outer Tank Low Fuel Temp Adv":
+  - generic: Outer Tank Low Fuel Temp Adv
+- generic: Fuel transfer valves
+- button "Left Transfer 1":
+  - generic: Left Transfer 1
+- button "Left Transfer 2":
+  - generic: Left Transfer 2
+- button "Right Transfer 1":
+  - generic: Right Transfer 1
+- button "Right Transfer 2":
+  - generic: Right Transfer 2
+- generic: Fuel valves
+- button "Eng 1 Fuel Valve Stuck":
+  - generic: Eng 1 Fuel Valve Stuck
+- button "Eng 2 Fuel Valve Stuck":
+  - generic: Eng 2 Fuel Valve Stuck
+- button "Crossfeed Valve":
+  - generic: Crossfeed Valve
+- button "Defuel/transfer Valve":
+  - generic: Defuel/transfer Valve
+- generic: Fuel leak
+- button "Left Outer":
+  - generic: Left Outer
+- button "Left Inner":
+  - generic: Left Inner
+- button "Center":
+  - generic: Center
+- button "Right Inner":
+  - generic: Right Inner
+- button "Right Outer":
+  - generic: Right Outer
+- generic: HP Fuel valve
+- button "Eng 1":
+  - generic: Eng 1
+- button "Eng 2":
+  - generic: Eng 2
+- generic: 
+- text: ATA 29 - Hydraulic power
+- generic: Hydraulic leak
+- button "Green":
+  - generic: Green
+- button "Blue":
+  - generic: Blue
+- button "Yellow":
+  - generic: Yellow
+- generic: Reservoir overheat
+- button "Green":
+  - generic: Green
+- button "Blue":
+  - generic: Blue
+- button "Yellow":
+  - generic: Yellow
+- generic: Reservoir low air pressure
+- button "Green Low Reservoir Air Pressure":
+  - generic: Green Low Reservoir Air Pressure
+- button "Blue Low Reservoir Air Pressure":
+  - generic: Blue Low Reservoir Air Pressure
+- button "Yellow Low Reservoir Air Pressure":
+  - generic: Yellow Low Reservoir Air Pressure
+- generic: Hydraulic low
+- button "Green Level":
+  - generic: Green Level
+- button "Blue Level":
+  - generic: Blue Level
+- button "Yellow Level":
+  - generic: Yellow Level
+- generic: Engine pumps
+- button "Eng 1 Pump Failure":
+  - generic: Eng 1 Pump Failure
+- button "Eng 2 Pump Failure":
+  - generic: Eng 2 Pump Failure
+- generic: Fire valves
+- button "Eng 1 Fire Valve":
+  - generic: Eng 1 Fire Valve
+- button "Eng 2 Fire Valve":
+  - generic: Eng 2 Fire Valve
+- button "PTU Fault":
+  - generic: PTU Fault
+- generic: Elec pumps
+- button "Elec Hyd Pump Blue Failure":
+  - generic: Elec Hyd Pump Blue Failure
+- button "Elec Hyd Pump Yellow Failure":
+  - generic: Elec Hyd Pump Yellow Failure
+- generic: Elec pump overheat
+- button "Elec Blue Pump Overheat":
+  - generic: Elec Blue Pump Overheat
+- button "Elec Yellow Pump Overheat":
+  - generic: Elec Yellow Pump Overheat
+- generic: 
+- text: ATA 32 - Landing gear
+- generic: BSCU
+- button "Sys 1":
+  - generic: Sys 1
+- button "Sys 2":
+  - generic: Sys 2
+- button "ABCU":
+  - generic: ABCU
+- generic: Brake fault
+- button "Bscu 1":
+  - generic: Bscu 1
+- button "Bscu 2":
+  - generic: Bscu 2
+- button "Autobrake Failure":
+  - generic: Autobrake Failure
+- generic: Wheel brake fault
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- button "3":
+  - generic: "3"
+- button "4":
+  - generic: "4"
+- generic: Tyre pressure
+- button "Main 1 Low":
+  - generic: Main 1 Low
+- button "Main 2 Low":
+  - generic: Main 2 Low
+- button "Left 1 Low":
+  - generic: Left 1 Low
+- button "Left 2 Low":
+  - generic: Left 2 Low
+- button "Right 1 Low":
+  - generic: Right 1 Low
+- button "Right 2 Low":
+  - generic: Right 2 Low
+- button "Nose wheel steering":
+  - generic: Nose wheel steering
+- generic: LGCIU
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- button "Gear safety valve":
+  - generic: Gear safety valve
+- generic: Gear lock
+- button "Left Main Gear Does Not Lock":
+  - generic: Left Main Gear Does Not Lock
+- button "Nose Gear Does Not Lock":
+  - generic: Nose Gear Does Not Lock
+- button "Right Main Gear Does Not Lock":
+  - generic: Right Main Gear Does Not Lock
+- generic: Gear failure
+- button "Gear Locked Up":
+  - generic: Gear Locked Up
+- button "Gear Locked Down":
+  - generic: Gear Locked Down
+- generic: 
+- text: ATA 34 - Navigation
+- generic: IR fault
+- button "Ir1 Ir Failure":
+  - generic: Ir1 Ir Failure
+- button "Ir2 Ir Failure":
+  - generic: Ir2 Ir Failure
+- button "Ir3 Ir Failure":
+  - generic: Ir3 Ir Failure
+- generic: IRS position failure
+- button "Ir1 Position Failure":
+  - generic: Ir1 Position Failure
+- button "Ir2 Position Failure":
+  - generic: Ir2 Position Failure
+- button "Ir3 Position Failure":
+  - generic: Ir3 Position Failure
+- generic: ADR fault
+- button "Adr1 Failure":
+  - generic: Adr1 Failure
+- button "Adr2 Failure":
+  - generic: Adr2 Failure
+- button "Adr3 Failure":
+  - generic: Adr3 Failure
+- generic: IRS Alignment
+- button "Ir1 Alignment":
+  - generic: Ir1 Alignment
+- button "Ir2 Alignment":
+  - generic: Ir2 Alignment
+- button "Ir3 Alignment":
+  - generic: Ir3 Alignment
+- generic: Pitot blocked
+- button "Capt":
+  - generic: Capt
+- button "F/o":
+  - generic: F/o
+- button "Stdby":
+  - generic: Stdby
+- generic: Pitch discrepancy
+- button "Ir1":
+  - generic: Ir1
+- button "Ir2":
+  - generic: Ir2
+- button "Ir3":
+  - generic: Ir3
+- generic: Bank discrepancy
+- button "Ir1":
+  - generic: Ir1
+- button "Ir2":
+  - generic: Ir2
+- button "Ir3":
+  - generic: Ir3
+- generic: Heading discrepancy
+- button "Ir1":
+  - generic: Ir1
+- button "Ir2":
+  - generic: Ir2
+- button "Ir3":
+  - generic: Ir3
+- generic: IR Disagree
+- button "Ir1":
+  - generic: Ir1
+- button "Ir2":
+  - generic: Ir2
+- generic: MCDU
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- generic: MCDU recoverable fault
+- button "Cdu 1 Recoverable Fault":
+  - generic: Cdu 1 Recoverable Fault
+- button "Cdu 2 Recoverable Fault":
+  - generic: Cdu 2 Recoverable Fault
+- generic: FMGC
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- button "GPWC":
+  - generic: GPWC
+- generic: Radios
+- button "Vor 1":
+  - generic: Vor 1
+- button "Vor 2":
+  - generic: Vor 2
+- button "Adf 1":
+  - generic: Adf 1
+- button "Adf 2":
+  - generic: Adf 2
+- generic: ILS
+- button "1 Loc":
+  - generic: 1 Loc
+- button "1 G/s":
+  - generic: 1 G/s
+- button "2 Loc":
+  - generic: 2 Loc
+- button "2 G/s":
+  - generic: 2 G/s
+- generic: ILS transmitter
+- button "Localizer":
+  - generic: Localizer
+- button "Glideslope":
+  - generic: Glideslope
+- generic: GPS
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- generic: Radio altimeter
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- button "NAV accuracy downgrade":
+  - generic: NAV accuracy downgrade
+- button "TCAS":
+  - generic: TCAS
+- generic: ATC
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- generic: 
+- text: ATA 36 - Pneumatic
+- button "Lavatory/Galley fan":
+  - generic: Lavatory/Galley fan
+- generic: Pneumatic valves
+- button "Eng 1 Hp Valve":
+  - generic: Eng 1 Hp Valve
+- button "Eng 2 Hp Valve":
+  - generic: Eng 2 Hp Valve
+- button "Ram Air Valve":
+  - generic: Ram Air Valve
+- button "Eng 1 Bleed Valve":
+  - generic: Eng 1 Bleed Valve
+- button "Eng 2 Bleed Valve":
+  - generic: Eng 2 Bleed Valve
+- button "Hot Air Valve":
+  - generic: Hot Air Valve
+- generic: Bleed air low temperature
+- button "Eng 1 Bleed Low Temp":
+  - generic: Eng 1 Bleed Low Temp
+- button "Eng 2 Bleed Low Temp":
+  - generic: Eng 2 Bleed Low Temp
+- generic: BMC
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- generic: Pneumatic valve
+- button "Crossbleed Valve":
+  - generic: Crossbleed Valve
+- button "Apu Bleed Valve":
+  - generic: Apu Bleed Valve
+- generic: Pack valves
+- button "Pack 1 Flow Control Valve":
+  - generic: Pack 1 Flow Control Valve
+- button "Pack 2 Flow Control Valve":
+  - generic: Pack 2 Flow Control Valve
+- generic: Bleed leak
+- button "Wing Engine 1":
+  - generic: Wing Engine 1
+- button "Wing Engine 2":
+  - generic: Wing Engine 2
+- button "Pylon Engine 1":
+  - generic: Pylon Engine 1
+- button "Pylon Engine 2":
+  - generic: Pylon Engine 2
+- button "Apu":
+  - generic: Apu
+- generic: 
+- text: ATA 49 - APU
+- button "ECB":
+  - generic: ECB
+- button "APU Low oil level":
+  - generic: APU Low oil level
+- button "APU fuel valve":
+  - generic: APU fuel valve
+- generic: 
+- text: ATA 23 - Communications
+- generic: Stuck mic
+- button "Capt":
+  - generic: Capt
+- button "F/o":
+  - generic: F/o
+- generic: 
+- text: ATA 30 - Ice and rain protection
+- generic: WAI Valves
+- button "Left Wai Valve":
+  - generic: Left Wai Valve
+- button "Right Wai Valve":
+  - generic: Right Wai Valve
+- generic: EAI Valves
+- button "Eng 1 Eai Valve":
+  - generic: Eng 1 Eai Valve
+- button "Eng 2 Eai Valve":
+  - generic: Eng 2 Eai Valve
+- generic: WHC
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- generic: AOA Heat
+- button "Capt":
+  - generic: Capt
+- button "F/o":
+  - generic: F/o
+- button "Stby":
+  - generic: Stby
+- generic: TAT Heat
+- button "Capt":
+  - generic: Capt
+- button "F/o":
+  - generic: F/o
+- button "Stby":
+  - generic: Stby
+- generic: Pitot Heat
+- button "Capt":
+  - generic: Capt
+- button "F/o":
+  - generic: F/o
+- button "Stby":
+  - generic: Stby
+- generic: Static Heat
+- button "Left Capt":
+  - generic: Left Capt
+- button "Right Capt":
+  - generic: Right Capt
+- button "Left F/o":
+  - generic: Left F/o
+- button "Right F/o":
+  - generic: Right F/o
+- button "Left Stby":
+  - generic: Left Stby
+- button "Right Stby":
+  - generic: Right Stby
+- generic: PHC
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- button "3":
+  - generic: "3"
+- generic: Icing
+- button "Eng 1":
+  - generic: Eng 1
+- button "Eng 2":
+  - generic: Eng 2
+- generic: 
+- text: ATA 27 - Flight controls
+- generic: IPPU
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- generic: Surface lock
+- button "Flap Locked":
+  - generic: Flap Locked
+- button "Slat Locked":
+  - generic: Slat Locked
+- button "Alignment fault":
+  - generic: Alignment fault
+- generic: SFCC
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- generic: Flap
+- button "Sfcc 1 Sys":
+  - generic: Sfcc 1 Sys
+- button "Sfcc 2 Sys":
+  - generic: Sfcc 2 Sys
+- generic: Slat
+- button "Sfcc 1 Sys":
+  - generic: Sfcc 1 Sys
+- button "Sfcc 2 Sys":
+  - generic: Sfcc 2 Sys
+- generic: Nonresettable fault
+- button "Elac 1":
+  - generic: Elac 1
+- button "Elac 2":
+  - generic: Elac 2
+- button "Sec 1":
+  - generic: Sec 1
+- button "Sec 2":
+  - generic: Sec 2
+- button "Sec 3":
+  - generic: Sec 3
+- generic: Resettable fault
+- button "Elac 1":
+  - generic: Elac 1
+- button "Elac 2":
+  - generic: Elac 2
+- button "Sec 1":
+  - generic: Sec 1
+- button "Sec 2":
+  - generic: Sec 2
+- button "Sec 3":
+  - generic: Sec 3
+- generic: Yaw damper
+- button "Channel 1":
+  - generic: Channel 1
+- button "Channel 2":
+  - generic: Channel 2
+- generic: Sidestick reversal
+- button "Pitch Capt":
+  - generic: Pitch Capt
+- button "Roll Capt":
+  - generic: Roll Capt
+- button "Pitch F/o":
+  - generic: Pitch F/o
+- button "Roll F/o":
+  - generic: Roll F/o
+- generic: Sidestick
+- button "Fault Capt":
+  - generic: Fault Capt
+- button "Fault F/o":
+  - generic: Fault F/o
+- generic: FCDC
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- button "Stabilizer jam":
+  - generic: Stabilizer jam
+- generic: Elev
+- button "L+r Failure":
+  - generic: L+r Failure
+- button "L Failure":
+  - generic: L Failure
+- button "R Failure":
+  - generic: R Failure
+- generic: 
+- text: ATA 80 - Start faults
+- generic: Start valve
+- button "Left":
+  - generic: Left
+- button "Right":
+  - generic: Right
+- generic: Hot start
+- button "Eng 1":
+  - generic: Eng 1
+- button "Eng 2":
+  - generic: Eng 2
+- generic: Stall/Hung start
+- button "Eng 1 Hung Start":
+  - generic: Eng 1 Hung Start
+- button "Eng 2 Hung Start":
+  - generic: Eng 2 Hung Start
+- generic: No ignition
+- button "Eng 1":
+  - generic: Eng 1
+- button "Eng 2":
+  - generic: Eng 2
+- generic: 
+- text: ATA 31 - Indicating/Recording system
+- button "CFDIU":
+  - generic: CFDIU
+- button "ECP":
+  - generic: ECP
+- generic: SDAC
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- generic: FWC
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- button "CVR":
+  - generic: CVR
+- generic: DMC
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- button "3":
+  - generic: "3"
+- generic: DCDU
+- button "Capt":
+  - generic: Capt
+- button "Fo":
+  - generic: Fo
+- generic: DU
+- button "Capt Pfd":
+  - generic: Capt Pfd
+- button "Capt Nd":
+  - generic: Capt Nd
+- button "F/o Nd":
+  - generic: F/o Nd
+- button "F/o Pfd":
+  - generic: F/o Pfd
+- button "Ecam Upper":
+  - generic: Ecam Upper
+- button "Ecam Lower":
+  - generic: Ecam Lower
+- generic: 
+- text: ATA 35 - Oxygen
+- generic: Crew oxygen 1
+- button "Crew Oxygen Pressure < 400":
+  - generic: Crew Oxygen Pressure < 400
+- button "Crew Oxygen Pressure < 800":
+  - generic: Crew Oxygen Pressure < 800
+- generic: Crew oxygen 2
+- button "Pressure < 400":
+  - generic: Pressure < 400
+- button "Pressure < 800":
+  - generic: Pressure < 800
+- generic: Crew oxygen
+- button "Oxygen Supply Valve":
+  - generic: Oxygen Supply Valve
+- button "Oxygen Supply Valve 2":
+  - generic: Oxygen Supply Valve 2
+- generic: 
+- text: ATA 46 - Information systems
+- button "ATSU":
+  - generic: ATSU
+- generic: 
+- text: ATA 52 - Doors
+- generic: Doors left
+- button "Forward Avionics Door":
+  - generic: Forward Avionics Door
+- button "Left Avionics Door":
+  - generic: Left Avionics Door
+- button "Right Avionics Door":
+  - generic: Right Avionics Door
+- button "Forward Entry Left Door":
+  - generic: Forward Entry Left Door
+- button "Left Wing 1 Door":
+  - generic: Left Wing 1 Door
+- button "Left Wing 2 Door":
+  - generic: Left Wing 2 Door
+- button "Aft Entry Left Door":
+  - generic: Aft Entry Left Door
+- generic: Doors right
+- button "Forward Entry Right Door":
+  - generic: Forward Entry Right Door
+- button "Aft Avionics Door":
+  - generic: Aft Avionics Door
+- button "Forward Cargo Door":
+  - generic: Forward Cargo Door
+- button "Right Wing 1 Door":
+  - generic: Right Wing 1 Door
+- button "Right Wing 2 Door":
+  - generic: Right Wing 2 Door
+- button "Aft Cargo Door":
+  - generic: Aft Cargo Door
+- button "Bulk Door":
+  - generic: Bulk Door
+- button "Aft Entry Right Door":
+  - generic: Aft Entry Right Door
+- generic: 
+- text: ATA 70 - Power plant
+- generic: Fadec
+- button "Left Channel A":
+  - generic: Left Channel A
+- button "Left Channel B":
+  - generic: Left Channel B
+- button "Right Channel A":
+  - generic: Right Channel A
+- button "Right Channel B":
+  - generic: Right Channel B
+- generic: EIU
+- button "1":
+  - generic: "1"
+- button "2":
+  - generic: "2"
+- generic: Engine surge
+- button "Left Surge":
+  - generic: Left Surge
+- button "Right Surge":
+  - generic: Right Surge
+- generic: Engine failure
+- button "Eng 1 Failure":
+  - generic: Eng 1 Failure
+- button "Eng 2 Failure":
+  - generic: Eng 2 Failure
+- generic: Engine failure with damage
+- button "Eng 1 Failure With Damage":
+  - generic: Eng 1 Failure With Damage
+- button "Eng 2 Failure With Damage":
+  - generic: Eng 2 Failure With Damage
+- generic: Engine birdstrike
+- button "Left Bird Strike":
+  - generic: Left Bird Strike
+- button "Right Bird Strike":
+  - generic: Right Bird Strike
+- generic: Reverser pressurized
+- button "Left":
+  - generic: Left
+- button "Right":
+  - generic: Right
+- generic: Reverser unlocked
+- button "Left":
+  - generic: Left
+- button "Right":
+  - generic: Right
+- generic: Reverser inhibited by maintenance
+- button "Left Reverser Inhibited By Maint":
+  - generic: Left Reverser Inhibited By Maint
+- button "Right Reverser Inhibited By Maint":
+  - generic: Right Reverser Inhibited By Maint
+- generic: vibration N1
+- button "Eng 1 High":
+  - generic: Eng 1 High
+- button "Eng 2 High":
+  - generic: Eng 2 High
+- generic: vibration N2
+- button "Eng 1 High":
+  - generic: Eng 1 High
+- button "Eng 2 High":
+  - generic: Eng 2 High
+- generic: Oil leak
+- button "Left":
+  - generic: Left
+- button "Right":
+  - generic: Right
+- generic: Reverser shutoff valve
+- button "Left":
+  - generic: Left
+- button "Right":
+  - generic: Right
+- generic:  

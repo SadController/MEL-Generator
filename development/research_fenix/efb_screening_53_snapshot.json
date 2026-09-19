@@ -1,0 +1,1508 @@
+{
+  "metadata": {
+    "date": "2026-09-14",
+    "basis": "384 saved live EFB entries, 2026-09-13",
+    "aircraft": "A321-231 IAE; WTF user-reported",
+    "fenix_version": "2.4.0.4720",
+    "mmel": "FAA A320 MMEL Rev32, 2025-07-30",
+    "scope": "Single failures, simulator scenarios, document-only classification. No behavior tests; no app development.",
+    "assumption": "The EFB failure name identifies the failed component/function. Unknown secondary simulator effects are accepted by user.",
+    "coverage": "Only entries with reviewed conditional MMEL permission are included in the working registry.",
+    "counts": {
+      "conditional_permission": 53
+    }
+  },
+  "records": [
+    {
+      "menu_id": "M001",
+      "path": "ATA 21 - Air Conditioning → CPC → 1",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "21-31-01",
+          "assessment_id": "F010",
+          "conditions_summary": "CPC1: без ETOPS; отключить CPC1; исправны ручной режим, индикация, оба FCU и CPC2; устранение в течение 3 flight-days.",
+          "pdf_pages": [
+            37
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F010",
+          "mmel_id": "21-31-01",
+          "branch": "1) System 1",
+          "status": "K",
+          "note": "CPC1 и CPC2 имеют разные сроки/условия. Оба канала FCU и оставшийся CPC должны работать."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M002",
+      "path": "ATA 21 - Air Conditioning → CPC → 2",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "21-31-01",
+          "assessment_id": "F011",
+          "conditions_summary": "CPC2: отключить CPC2; исправны ручной режим, индикация, оба FCU и CPC1.",
+          "pdf_pages": [
+            37
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F011",
+          "mmel_id": "21-31-01",
+          "branch": "2) System 2",
+          "status": "K",
+          "note": "Проверить ручной режим и индикацию; CPC1 и оба канала FCU должны работать."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M020",
+      "path": "ATA 21 - Air Conditioning → Ventilation → Aevc",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "21-26-10",
+          "assessment_id": "F007",
+          "conditions_summary": "AEVC: исправный Extract; BLOWER/EXTRACT OVRD; оба pack исправны; заданные положения клапанов, включая закрытый skin inlet. Проверки (M)(O) остаются условиями MMEL.",
+          "pdf_pages": [
+            34
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F007",
+          "mmel_id": "21-26-10",
+          "branch": "AEVC",
+          "status": "K",
+          "note": "Совпадает компьютер; отключение компьютера не заменяет проверку вентиляторов и положений клапанов."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M021",
+      "path": "ATA 21 - Air Conditioning → Ventilation → Blower Fault",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "21-26-01",
+          "assessment_id": "F003",
+          "conditions_summary": "Один Blower fan. Extract и оба pack исправны; BLOWER OVRD. Условия клапана/предупреждения и FL270 при Mod.20056 — по выбранной строке.",
+          "pdf_pages": [
+            30
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F003",
+          "mmel_id": "21-26-01",
+          "branch": "Blower Fan",
+          "status": "K",
+          "note": "Не объединять с Extract fan или Pack: MMEL требует их исправности."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M022",
+      "path": "ATA 21 - Air Conditioning → Ventilation → Extract Fault",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "21-26-02",
+          "assessment_id": "F004",
+          "conditions_summary": "Один Extract fan. Blower и оба pack исправны; EXTRACT OVRD. Условия клапана/предупреждения и пределы OAT/времени на земле — по выбранной строке.",
+          "pdf_pages": [
+            31,
+            32
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F004",
+          "mmel_id": "21-26-02",
+          "branch": "Extract Fan",
+          "status": "K",
+          "note": "Не объединять с Blower fan или Pack; существуют ограничения температуры и времени на земле."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M026",
+      "path": "ATA 22 - AutoFlight → Nonresettable fault → Fac 2",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "22-66-01",
+          "assessment_id": "F022",
+          "conditions_summary": "FAC2, ветвь без eRudder: исправны оба FCU, ELAC, SEC, ADIRS, SFCC, RA и LGCIU; соответствующие минимумы захода.",
+          "pdf_pages": [
+            60
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F022",
+          "mmel_id": "22-66-01",
+          "branch": "1) FAC 2, without eRudder",
+          "status": "K",
+          "note": "Разрешение относится именно к FAC2, при исправности перечисленных систем управления и навигации."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M029",
+      "path": "ATA 22 - AutoFlight → Rudder travel limiter → Channel 1",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "27-23-01",
+          "assessment_id": "F038",
+          "conditions_summary": "Одна из двух систем rudder travel limiter, ветвь без eRudder.",
+          "pdf_pages": [
+            178
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F038",
+          "mmel_id": "27-23-01",
+          "branch": "one system, without eRudder",
+          "status": "K",
+          "note": "MMEL допускает один из двух. В руководстве Fenix 2025 есть снимок активированного канала1."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M030",
+      "path": "ATA 22 - AutoFlight → Rudder travel limiter → Channel 2",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "27-23-01",
+          "assessment_id": "F038",
+          "conditions_summary": "Одна из двух систем rudder travel limiter, ветвь без eRudder.",
+          "pdf_pages": [
+            178
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F038",
+          "mmel_id": "27-23-01",
+          "branch": "one system, without eRudder",
+          "status": "K",
+          "note": "MMEL допускает один из двух. В руководстве Fenix 2025 есть снимок активированного канала1."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M031",
+      "path": "ATA 22 - AutoFlight → Rudder trim → Channel 1",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "27-22-01",
+          "assessment_id": "F037",
+          "conditions_summary": "Один канал rudder trim; другой исправен; соответствующие минимумы. Для System1 дополнительно исключён ETOPS.",
+          "pdf_pages": [
+            178
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F037",
+          "mmel_id": "27-22-01",
+          "branch": "Rudder Trim Systems",
+          "status": "K",
+          "note": "Выбирать конкретный канал и проверять оставшееся управление."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M032",
+      "path": "ATA 22 - AutoFlight → Rudder trim → Channel 2",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "27-22-01",
+          "assessment_id": "F037",
+          "conditions_summary": "Один канал rudder trim; другой исправен; соответствующие минимумы. Для System1 дополнительно исключён ETOPS.",
+          "pdf_pages": [
+            178
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F037",
+          "mmel_id": "27-22-01",
+          "branch": "Rudder Trim Systems",
+          "status": "K",
+          "note": "Выбирать конкретный канал и проверять оставшееся управление."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M038",
+      "path": "ATA 22 - AutoFlight → FCU → Channel 1",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "22-81-01",
+          "assessment_id": "F025",
+          "conditions_summary": "Один FCU channel, ветвь без eRudder: без ETOPS; исправны 2 RMP, все DU, оба RA/LGCIU/FAC/CPC, три ADIRS и standby altimeter/ISIS baro. Альтернатива MMEL — один flight-leg.",
+          "pdf_pages": [
+            63
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F025",
+          "mmel_id": "22-81-01",
+          "branch": "1) one FCU channel, without eRudder",
+          "status": "K",
+          "note": "В MMEL требуется исправность CPC, FAC, RA, LGCIU, ADIRS и всех DU; многие пары отказов исключаются."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M039",
+      "path": "ATA 22 - AutoFlight → FCU → Channel 2",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "22-81-01",
+          "assessment_id": "F025",
+          "conditions_summary": "Один FCU channel, ветвь без eRudder: без ETOPS; исправны 2 RMP, все DU, оба RA/LGCIU/FAC/CPC, три ADIRS и standby altimeter/ISIS baro. Альтернатива MMEL — один flight-leg.",
+          "pdf_pages": [
+            63
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F025",
+          "mmel_id": "22-81-01",
+          "branch": "1) one FCU channel, without eRudder",
+          "status": "K",
+          "note": "В MMEL требуется исправность CPC, FAC, RA, LGCIU, ADIRS и всех DU; многие пары отказов исключаются."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M042",
+      "path": "ATA 22 - AutoFlight → AP → 1",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "22-10-01",
+          "assessment_id": "F019",
+          "conditions_summary": "Один AP; второй исправен; минимумы захода не требуют отказавший AP. Здесь используется строка для одного AP.",
+          "pdf_pages": [
+            57
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F019",
+          "mmel_id": "22-10-01",
+          "branch": "Autopilot Systems",
+          "status": "K",
+          "note": "Отказ AP-функции при сохранённом FD. Не заменять отказом всего FMGC; выбрать строку для одного либо двух AP."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M043",
+      "path": "ATA 22 - AutoFlight → AP → 2",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "22-10-01",
+          "assessment_id": "F019",
+          "conditions_summary": "Один AP; второй исправен; минимумы захода не требуют отказавший AP. Здесь используется строка для одного AP.",
+          "pdf_pages": [
+            57
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F019",
+          "mmel_id": "22-10-01",
+          "branch": "Autopilot Systems",
+          "status": "K",
+          "note": "Отказ AP-функции при сохранённом FD. Не заменять отказом всего FMGC; выбрать строку для одного либо двух AP."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M067",
+      "path": "ATA 24 - Electrical power → TR Failure → Tr 1",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "24-30-01",
+          "assessment_id": "F031",
+          "conditions_summary": "Только TR1: без ETOPS; исправны Extract, индикация напряжения батарей и оба pack; соответствующие минимумы; устранение в течение 2 flight-days.",
+          "pdf_pages": [
+            119
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F031",
+          "mmel_id": "24-30-01",
+          "branch": "TR1",
+          "status": "K",
+          "note": "Допуск касается TR1; исправность packs/extract и остальных источников остаётся условием."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M085",
+      "path": "ATA 26 - Fire protection → Loop Eng 1 → Eng 1 Loop A",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "26-12-01",
+          "assessment_id": "F034",
+          "conditions_summary": "Один loop на двигатель; другой loop того же двигателя исправен; fire test перед каждым вылетом; без ETOPS свыше 120 минут.",
+          "pdf_pages": [
+            156
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F034",
+          "mmel_id": "26-12-01",
+          "branch": "1) Loop A / 2) Loop B",
+          "status": "K",
+          "note": "Один loop на двигатель при исправном другом. Реальный пожар или отказ всего FDU — другие состояния."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M086",
+      "path": "ATA 26 - Fire protection → Loop Eng 1 → Eng 1 Loop B",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "26-12-01",
+          "assessment_id": "F034",
+          "conditions_summary": "Один loop на двигатель; другой loop того же двигателя исправен; fire test перед каждым вылетом; без ETOPS свыше 120 минут.",
+          "pdf_pages": [
+            156
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F034",
+          "mmel_id": "26-12-01",
+          "branch": "1) Loop A / 2) Loop B",
+          "status": "K",
+          "note": "Один loop на двигатель при исправном другом. Реальный пожар или отказ всего FDU — другие состояния."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M087",
+      "path": "ATA 26 - Fire protection → Loop Eng 2 → Eng 2 Loop A",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "26-12-01",
+          "assessment_id": "F034",
+          "conditions_summary": "Один loop на двигатель; другой loop того же двигателя исправен; fire test перед каждым вылетом; без ETOPS свыше 120 минут.",
+          "pdf_pages": [
+            156
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F034",
+          "mmel_id": "26-12-01",
+          "branch": "1) Loop A / 2) Loop B",
+          "status": "K",
+          "note": "Один loop на двигатель при исправном другом. Реальный пожар или отказ всего FDU — другие состояния."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M088",
+      "path": "ATA 26 - Fire protection → Loop Eng 2 → Eng 2 Loop B",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "26-12-01",
+          "assessment_id": "F034",
+          "conditions_summary": "Один loop на двигатель; другой loop того же двигателя исправен; fire test перед каждым вылетом; без ETOPS свыше 120 минут.",
+          "pdf_pages": [
+            156
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F034",
+          "mmel_id": "26-12-01",
+          "branch": "1) Loop A / 2) Loop B",
+          "status": "K",
+          "note": "Один loop на двигатель при исправном другом. Реальный пожар или отказ всего FDU — другие состояния."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M089",
+      "path": "ATA 26 - Fire protection → Loop APU → Apu Loop A",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "26-13-01",
+          "assessment_id": "F035",
+          "conditions_summary": "Один APU loop при исправном другом; fire test перед каждым запуском APU; без ETOPS свыше 120 минут. Для Loop A дополнительно наблюдение из кабины на земле.",
+          "pdf_pages": [
+            156,
+            157
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F035",
+          "mmel_id": "26-13-01",
+          "branch": "1) APU loops",
+          "status": "K",
+          "note": "Loop A/B имеют разные условия наземного наблюдения. Отказ обоих относится к другим строкам с неиспользуемым APU."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M090",
+      "path": "ATA 26 - Fire protection → Loop APU → Apu Loop B",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "26-13-01",
+          "assessment_id": "F035",
+          "conditions_summary": "Один APU loop при исправном другом; fire test перед каждым запуском APU; без ETOPS свыше 120 минут. Для Loop A дополнительно наблюдение из кабины на земле.",
+          "pdf_pages": [
+            156,
+            157
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F035",
+          "mmel_id": "26-13-01",
+          "branch": "1) APU loops",
+          "status": "K",
+          "note": "Loop A/B имеют разные условия наземного наблюдения. Отказ обоих относится к другим строкам с неиспользуемым APU."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M144",
+      "path": "ATA 29 - Hydraulic power → Elec pumps → Elec Hyd Pump Yellow Failure",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "29-25-01",
+          "assessment_id": "F055",
+          "conditions_summary": "Yellow electric pump: соответствующая кнопка OFF; передняя и задняя грузовые двери обслуживаются вручную.",
+          "pdf_pages": [
+            266
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F055",
+          "mmel_id": "29-25-01",
+          "branch": "Yellow System Electric Pump",
+          "status": "K",
+          "note": "Прямой кандидат на отказ насоса; кнопка OFF, cargo doors требуют ручного обслуживания по MMEL."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M152",
+      "path": "ATA 32 - Landing gear → Brake fault → Autobrake Failure",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "32-42-04",
+          "assessment_id": "F081",
+          "conditions_summary": "AUTO/BRK function: обычное торможение сохраняется; минимумы захода не требуют AUTO/BRK.",
+          "pdf_pages": [
+            313
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F081",
+          "mmel_id": "32-42-04",
+          "branch": "main AUTO/BRK function",
+          "status": "K",
+          "note": "Обычное торможение должно сохраняться. Не выбирать подпункты ламп LO/MED/MAX вместо функции."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M153",
+      "path": "ATA 32 - Landing gear → Wheel brake fault → 1",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "32-42-01",
+          "assessment_id": "F079",
+          "conditions_summary": "Один wheel brake: ВПП минимум 45 м; исправны antiskid, NWS, оба reverser и green/yellow на остальных тормозах; отказавший тормоз отключён; поправки AFM; AUTO/BRK считается неработающим.",
+          "pdf_pages": [
+            306
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F079",
+          "mmel_id": "32-42-01",
+          "branch": "one wheel brake",
+          "status": "K",
+          "note": "Разрешён один тормоз; требуется исправность antiskid, NWS и обоих reverser. AUTO/BRK считается неработающим последствием."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M154",
+      "path": "ATA 32 - Landing gear → Wheel brake fault → 2",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "32-42-01",
+          "assessment_id": "F079",
+          "conditions_summary": "Один wheel brake: ВПП минимум 45 м; исправны antiskid, NWS, оба reverser и green/yellow на остальных тормозах; отказавший тормоз отключён; поправки AFM; AUTO/BRK считается неработающим.",
+          "pdf_pages": [
+            306
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F079",
+          "mmel_id": "32-42-01",
+          "branch": "one wheel brake",
+          "status": "K",
+          "note": "Разрешён один тормоз; требуется исправность antiskid, NWS и обоих reverser. AUTO/BRK считается неработающим последствием."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M155",
+      "path": "ATA 32 - Landing gear → Wheel brake fault → 3",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "32-42-01",
+          "assessment_id": "F079",
+          "conditions_summary": "Один wheel brake: ВПП минимум 45 м; исправны antiskid, NWS, оба reverser и green/yellow на остальных тормозах; отказавший тормоз отключён; поправки AFM; AUTO/BRK считается неработающим.",
+          "pdf_pages": [
+            306
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F079",
+          "mmel_id": "32-42-01",
+          "branch": "one wheel brake",
+          "status": "K",
+          "note": "Разрешён один тормоз; требуется исправность antiskid, NWS и обоих reverser. AUTO/BRK считается неработающим последствием."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M156",
+      "path": "ATA 32 - Landing gear → Wheel brake fault → 4",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "32-42-01",
+          "assessment_id": "F079",
+          "conditions_summary": "Один wheel brake: ВПП минимум 45 м; исправны antiskid, NWS, оба reverser и green/yellow на остальных тормозах; отказавший тормоз отключён; поправки AFM; AUTO/BRK считается неработающим.",
+          "pdf_pages": [
+            306
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F079",
+          "mmel_id": "32-42-01",
+          "branch": "one wheel brake",
+          "status": "K",
+          "note": "Разрешён один тормоз; требуется исправность antiskid, NWS и обоих reverser. AUTO/BRK считается неработающим последствием."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M198",
+      "path": "ATA 34 - Navigation → MCDU → 1",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "22-82-01",
+          "assessment_id": "F026",
+          "conditions_summary": "Один MCDU пилотов при исправном втором; навигационные процедуры не требуют отказавшее устройство. Это полный отказ, не recoverable fault.",
+          "pdf_pages": [
+            68
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F026",
+          "mmel_id": "22-82-01",
+          "branch": "MCDU",
+          "status": "K",
+          "note": "Проверить количество установленных устройств и оставшиеся способы управления; не использовать recoverable fault как постоянный дефект без проверки."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M199",
+      "path": "ATA 34 - Navigation → MCDU → 2",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "22-82-01",
+          "assessment_id": "F026",
+          "conditions_summary": "Один MCDU пилотов при исправном втором; навигационные процедуры не требуют отказавшее устройство. Это полный отказ, не recoverable fault.",
+          "pdf_pages": [
+            68
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F026",
+          "mmel_id": "22-82-01",
+          "branch": "MCDU",
+          "status": "K",
+          "note": "Проверить количество установленных устройств и оставшиеся способы управления; не использовать recoverable fault как постоянный дефект без проверки."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M254",
+      "path": "ATA 30 - Ice and rain protection → AOA Heat → Capt",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "30-31-04",
+          "assessment_id": "F063",
+          "conditions_summary": "Один AOA heater по позиции, не A321neo XLR. Проверки остальных датчиков/обогревов/предупреждений; для CAPT дополнительно ограничения ETOPS, видимой влаги и обледенения.",
+          "pdf_pages": [
+            280
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F063",
+          "mmel_id": "30-31-04",
+          "branch": "AOA heaters, CEO",
+          "status": "K",
+          "note": "Выбирать отдельную позицию и её условия; отказ датчика AOA не тождественен heater."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M255",
+      "path": "ATA 30 - Ice and rain protection → AOA Heat → F/o",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "30-31-04",
+          "assessment_id": "F063",
+          "conditions_summary": "Один AOA heater по позиции, не A321neo XLR. Проверки остальных датчиков/обогревов/предупреждений; для CAPT дополнительно ограничения ETOPS, видимой влаги и обледенения.",
+          "pdf_pages": [
+            280
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F063",
+          "mmel_id": "30-31-04",
+          "branch": "AOA heaters, CEO",
+          "status": "K",
+          "note": "Выбирать отдельную позицию и её условия; отказ датчика AOA не тождественен heater."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M256",
+      "path": "ATA 30 - Ice and rain protection → AOA Heat → Stby",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "30-31-04",
+          "assessment_id": "F063",
+          "conditions_summary": "Один AOA heater по позиции, не A321neo XLR. Проверки остальных датчиков/обогревов/предупреждений; для CAPT дополнительно ограничения ETOPS, видимой влаги и обледенения.",
+          "pdf_pages": [
+            280
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F063",
+          "mmel_id": "30-31-04",
+          "branch": "AOA heaters, CEO",
+          "status": "K",
+          "note": "Выбирать отдельную позицию и её условия; отказ датчика AOA не тождественен heater."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M257",
+      "path": "ATA 30 - Ice and rain protection → TAT Heat → Capt",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "30-31-05",
+          "assessment_id": "F064",
+          "conditions_summary": "Один из двух TAT heaters; используется строка C, 2 установлено, 1 требуется. STBY TAT в этот допуск не входит.",
+          "pdf_pages": [
+            281
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F064",
+          "mmel_id": "30-31-05",
+          "branch": "TAT heaters, 2 installed",
+          "status": "K",
+          "note": "MMEL указывает два TAT heater; нужен актуальный список Fenix."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M258",
+      "path": "ATA 30 - Ice and rain protection → TAT Heat → F/o",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "30-31-05",
+          "assessment_id": "F064",
+          "conditions_summary": "Один из двух TAT heaters; используется строка C, 2 установлено, 1 требуется. STBY TAT в этот допуск не входит.",
+          "pdf_pages": [
+            281
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F064",
+          "mmel_id": "30-31-05",
+          "branch": "TAT heaters, 2 installed",
+          "status": "K",
+          "note": "MMEL указывает два TAT heater; нужен актуальный список Fenix."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M260",
+      "path": "ATA 30 - Ice and rain protection → Pitot Heat → Capt",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "30-31-02",
+          "assessment_id": "F061",
+          "conditions_summary": "Один pitot heater. Раздельные условия CAPT/F/O/STBY: исправность остальных датчиков/обогревов/предупреждений; ограничения обледенения, видимой влаги, ETOPS и CONF1+F — по позиции.",
+          "pdf_pages": [
+            278
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F061",
+          "mmel_id": "30-31-02",
+          "branch": "CAPT / F/O / STBY",
+          "status": "K",
+          "note": "Раздельные строки по месту установки; blockage не равно отказу обогрева."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M261",
+      "path": "ATA 30 - Ice and rain protection → Pitot Heat → F/o",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "30-31-02",
+          "assessment_id": "F061",
+          "conditions_summary": "Один pitot heater. Раздельные условия CAPT/F/O/STBY: исправность остальных датчиков/обогревов/предупреждений; ограничения обледенения, видимой влаги, ETOPS и CONF1+F — по позиции.",
+          "pdf_pages": [
+            278
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F061",
+          "mmel_id": "30-31-02",
+          "branch": "CAPT / F/O / STBY",
+          "status": "K",
+          "note": "Раздельные строки по месту установки; blockage не равно отказу обогрева."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M262",
+      "path": "ATA 30 - Ice and rain protection → Pitot Heat → Stby",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "30-31-02",
+          "assessment_id": "F061",
+          "conditions_summary": "Один pitot heater. Раздельные условия CAPT/F/O/STBY: исправность остальных датчиков/обогревов/предупреждений; ограничения обледенения, видимой влаги, ETOPS и CONF1+F — по позиции.",
+          "pdf_pages": [
+            278
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F061",
+          "mmel_id": "30-31-02",
+          "branch": "CAPT / F/O / STBY",
+          "status": "K",
+          "note": "Раздельные строки по месту установки; blockage не равно отказу обогрева."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M263",
+      "path": "ATA 30 - Ice and rain protection → Static Heat → Left  Capt",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "30-31-03",
+          "assessment_id": "F062",
+          "conditions_summary": "Static heater по конкретной позиции CAPT/F/O/STBY. Для одного STBY есть отдельная строка. Остальные ветви имеют условия исправности, температуры, обледенения и ETOPS.",
+          "pdf_pages": [
+            279
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F062",
+          "mmel_id": "30-31-03",
+          "branch": "Static heaters, side and position",
+          "status": "K",
+          "note": "Не путать левый/правый порт с CAPT/F/O/STBY. В MMEL установлено шесть heaters."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M264",
+      "path": "ATA 30 - Ice and rain protection → Static Heat → Right  Capt",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "30-31-03",
+          "assessment_id": "F062",
+          "conditions_summary": "Static heater по конкретной позиции CAPT/F/O/STBY. Для одного STBY есть отдельная строка. Остальные ветви имеют условия исправности, температуры, обледенения и ETOPS.",
+          "pdf_pages": [
+            279
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F062",
+          "mmel_id": "30-31-03",
+          "branch": "Static heaters, side and position",
+          "status": "K",
+          "note": "Не путать левый/правый порт с CAPT/F/O/STBY. В MMEL установлено шесть heaters."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M265",
+      "path": "ATA 30 - Ice and rain protection → Static Heat → Left  F/o",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "30-31-03",
+          "assessment_id": "F062",
+          "conditions_summary": "Static heater по конкретной позиции CAPT/F/O/STBY. Для одного STBY есть отдельная строка. Остальные ветви имеют условия исправности, температуры, обледенения и ETOPS.",
+          "pdf_pages": [
+            279
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F062",
+          "mmel_id": "30-31-03",
+          "branch": "Static heaters, side and position",
+          "status": "K",
+          "note": "Не путать левый/правый порт с CAPT/F/O/STBY. В MMEL установлено шесть heaters."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M266",
+      "path": "ATA 30 - Ice and rain protection → Static Heat → Right  F/o",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "30-31-03",
+          "assessment_id": "F062",
+          "conditions_summary": "Static heater по конкретной позиции CAPT/F/O/STBY. Для одного STBY есть отдельная строка. Остальные ветви имеют условия исправности, температуры, обледенения и ETOPS.",
+          "pdf_pages": [
+            279
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F062",
+          "mmel_id": "30-31-03",
+          "branch": "Static heaters, side and position",
+          "status": "K",
+          "note": "Не путать левый/правый порт с CAPT/F/O/STBY. В MMEL установлено шесть heaters."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M267",
+      "path": "ATA 30 - Ice and rain protection → Static Heat → Left  Stby",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "30-31-03",
+          "assessment_id": "F062",
+          "conditions_summary": "Static heater по конкретной позиции CAPT/F/O/STBY. Для одного STBY есть отдельная строка. Остальные ветви имеют условия исправности, температуры, обледенения и ETOPS.",
+          "pdf_pages": [
+            279
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F062",
+          "mmel_id": "30-31-03",
+          "branch": "Static heaters, side and position",
+          "status": "K",
+          "note": "Не путать левый/правый порт с CAPT/F/O/STBY. В MMEL установлено шесть heaters."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M268",
+      "path": "ATA 30 - Ice and rain protection → Static Heat → Right  Stby",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "30-31-03",
+          "assessment_id": "F062",
+          "conditions_summary": "Static heater по конкретной позиции CAPT/F/O/STBY. Для одного STBY есть отдельная строка. Остальные ветви имеют условия исправности, температуры, обледенения и ETOPS.",
+          "pdf_pages": [
+            279
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F062",
+          "mmel_id": "30-31-03",
+          "branch": "Static heaters, side and position",
+          "status": "K",
+          "note": "Не путать левый/правый порт с CAPT/F/O/STBY. В MMEL установлено шесть heaters."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M282",
+      "path": "ATA 27 - Flight controls → Flap → Sfcc 2  Sys",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "27-51-01",
+          "assessment_id": "F039",
+          "conditions_summary": "Только отдельный канал SFCC2 FLAP или SLAT, CEO/без eRudder. SFCC1 исправен, проверки WTB, отключение питания отказавшего канала и зависимости по MMEL. Для SLAT запрещён взлёт CONF1+F.",
+          "pdf_pages": [
+            180,
+            181,
+            182
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F039",
+          "mmel_id": "27-51-01",
+          "branch": "1)a) SFCC2 flap / 2)a) SFCC2 slat",
+          "status": "K",
+          "note": "Для CEO документ называет канал SFCC2. Не переносить на SFCC1 или целиком SFCC2; условия испытаний WTB сохраняются."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M284",
+      "path": "ATA 27 - Flight controls → Slat → Sfcc 2  Sys",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "27-51-01",
+          "assessment_id": "F039",
+          "conditions_summary": "Только отдельный канал SFCC2 FLAP или SLAT, CEO/без eRudder. SFCC1 исправен, проверки WTB, отключение питания отказавшего канала и зависимости по MMEL. Для SLAT запрещён взлёт CONF1+F.",
+          "pdf_pages": [
+            180,
+            181,
+            182
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F039",
+          "mmel_id": "27-51-01",
+          "branch": "1)a) SFCC2 flap / 2)a) SFCC2 slat",
+          "status": "K",
+          "note": "Для CEO документ называет канал SFCC2. Не переносить на SFCC1 или целиком SFCC2; условия испытаний WTB сохраняются."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M295",
+      "path": "ATA 27 - Flight controls → Yaw damper → Channel 1",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "22-63-01",
+          "assessment_id": "F021",
+          "conditions_summary": "Один канал yaw damper при исправном другом; минимумы захода не требуют его использования. Для System2 при утечке актуатора предусмотрена деактивация.",
+          "pdf_pages": [
+            60
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F021",
+          "mmel_id": "22-63-01",
+          "branch": "1) System 1 / 2) System 2",
+          "status": "K",
+          "note": "Раздельные ветви; второй демпфер должен работать."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M296",
+      "path": "ATA 27 - Flight controls → Yaw damper → Channel 2",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "22-63-01",
+          "assessment_id": "F021",
+          "conditions_summary": "Один канал yaw damper при исправном другом; минимумы захода не требуют его использования. Для System2 при утечке актуатора предусмотрена деактивация.",
+          "pdf_pages": [
+            60
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F021",
+          "mmel_id": "22-63-01",
+          "branch": "1) System 1 / 2) System 2",
+          "status": "K",
+          "note": "Раздельные ветви; второй демпфер должен работать."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M317",
+      "path": "ATA 31 - Indicating/Recording system → CFDIU",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "31-30-01",
+          "assessment_id": "F067",
+          "conditions_summary": "CFDIU сопоставлен CFDS по назначению. CFDS должен быть доступен, когда требуется для предусмотренных работ техобслуживания.",
+          "pdf_pages": [
+            288
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F067",
+          "mmel_id": "31-30-01",
+          "branch": "CFDS",
+          "status": "K",
+          "note": "Совпадает система диагностики; проверить, что отказ не шире CFDS."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M320",
+      "path": "ATA 31 - Indicating/Recording system → SDAC → 2",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "31-55-01",
+          "assessment_id": "F070",
+          "conditions_summary": "Только SDAC2: C, 2 установлено, 1 требуется.",
+          "pdf_pages": [
+            291
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F070",
+          "mmel_id": "31-55-01",
+          "branch": "SDAC2 only",
+          "status": "K",
+          "note": "MMEL явно называет SDAC2."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M322",
+      "path": "ATA 31 - Indicating/Recording system → FWC → 2",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "31-53-01",
+          "assessment_id": "F068",
+          "conditions_summary": "Только FWC2; минимумы захода не требуют его использования. При Mod.35542 не используется steep approach.",
+          "pdf_pages": [
+            291
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F068",
+          "mmel_id": "31-53-01",
+          "branch": "FWC2 only",
+          "status": "K",
+          "note": "Документ разрешает FWC2, с условиями steep approach и минимумов."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M323",
+      "path": "ATA 31 - Indicating/Recording system → CVR",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "23-71-01",
+          "assessment_id": "F028",
+          "conditions_summary": "CVR: FDR исправен; устранение в течение 3 flight-days.",
+          "pdf_pages": [
+            86
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "F028",
+          "mmel_id": "23-71-01",
+          "branch": "CVR system",
+          "status": "K",
+          "note": "Совпадает компонент; ограничения выбранной строки FAA сохраняются. Подтверждение записи звука в симуляторе отсутствует."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M327",
+      "path": "ATA 31 - Indicating/Recording system → DCDU → Capt",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "46-21-02",
+          "assessment_id": "LIVE-NEW-01",
+          "conditions_summary": "Один из двух DCDU; используется строка C, 2 установлено, 1 требуется. DCDU включены в просмотренной конфигурации EFB.",
+          "pdf_pages": [
+            403
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "LIVE-NEW-01",
+          "mmel_id": "46-21-02",
+          "branch": "one DCDU",
+          "status": "K",
+          "note": "Пункт DCDU есть в актуальном меню; Sim Settings показывает DCDU включённым. Один отказ требует проверки поведения. Не спутывать DCDU с MCDU."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    },
+    {
+      "menu_id": "M328",
+      "path": "ATA 31 - Indicating/Recording system → DCDU → Fo",
+      "group": "conditional_permission",
+      "reason": "Найден прямой документальный допуск для одиночного отказа; условия MMEL обязательны.",
+      "permissions": [
+        {
+          "mmel_id": "46-21-02",
+          "assessment_id": "LIVE-NEW-01",
+          "conditions_summary": "Один из двух DCDU; используется строка C, 2 установлено, 1 требуется. DCDU включены в просмотренной конфигурации EFB.",
+          "pdf_pages": [
+            403
+          ]
+        }
+      ],
+      "prior_references": [
+        {
+          "assessment_id": "LIVE-NEW-01",
+          "mmel_id": "46-21-02",
+          "branch": "one DCDU",
+          "status": "K",
+          "note": "Пункт DCDU есть в актуальном меню; Sim Settings показывает DCDU включённым. Один отказ требует проверки поведения. Не спутывать DCDU с MCDU."
+        }
+      ],
+      "behavior_verification_required": false,
+      "assumed_failure_scope": "Named EFB component/function; no empirical guarantee of consequences.",
+      "combination_permission": "not_assessed"
+    }
+  ]
+}

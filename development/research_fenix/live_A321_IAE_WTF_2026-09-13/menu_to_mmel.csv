@@ -1,0 +1,385 @@
+﻿menu_id,path,evaluated_references,screening_status,behavior_tested,approved_for_generation
+M001,ATA 21 - Air Conditioning → CPC → 1,21-31-01 [K] F010,см. оценку каждого соответствия,False,False
+M002,ATA 21 - Air Conditioning → CPC → 2,21-31-01 [K] F011,см. оценку каждого соответствия,False,False
+M003,ATA 21 - Air Conditioning → Overheat → Pack 1,21-52-01 [U] F015,см. оценку каждого соответствия,False,False
+M004,ATA 21 - Air Conditioning → Overheat → Pack 2,21-52-01 [U] F015,см. оценку каждого соответствия,False,False
+M005,ATA 21 - Air Conditioning → Regulator fault → Pack 1,21-52-01 [U] F014,см. оценку каждого соответствия,False,False
+M006,ATA 21 - Air Conditioning → Regulator fault → Pack 2,21-52-01 [U] F014,см. оценку каждого соответствия,False,False
+M007,ATA 21 - Air Conditioning → Zone controller → Primary,21-63-01 [K] F017,см. оценку каждого соответствия,False,False
+M008,ATA 21 - Air Conditioning → Zone controller → Secondary,21-63-01 [K] F017,см. оценку каждого соответствия,False,False
+M009,ATA 21 - Air Conditioning → Hot air fault,,соответствие FAA MMEL пока не установлено,False,False
+M010,ATA 21 - Air Conditioning → Cargo ventilation controller,,соответствие FAA MMEL пока не установлено,False,False
+M011,ATA 21 - Air Conditioning → Hot air valve aft cargo,,соответствие FAA MMEL пока не установлено,False,False
+M012,ATA 21 - Air Conditioning → Cargo vent → Cargo Fwd Isolation Valve Upstream,21-28-02 [U] F008,см. оценку каждого соответствия,False,False
+M013,ATA 21 - Air Conditioning → Cargo vent → Cargo Fwd Isolation Valve Downstream,21-28-02 [U] F008,см. оценку каждого соответствия,False,False
+M014,ATA 21 - Air Conditioning → Cargo vent → Cargo Aft Isolation Valve Upstream,21-28-05 [U] F009,см. оценку каждого соответствия,False,False
+M015,ATA 21 - Air Conditioning → Cargo vent → Cargo Aft Isolation Valve Downstream,21-28-05 [U] F009,см. оценку каждого соответствия,False,False
+M016,ATA 21 - Air Conditioning → Recirculation fans,21-21-01 [U] F001,см. оценку каждого соответствия,False,False
+M017,ATA 21 - Air Conditioning → Decompression → Slow,,соответствие FAA MMEL пока не установлено,False,False
+M018,ATA 21 - Air Conditioning → Decompression → Rapid,,соответствие FAA MMEL пока не установлено,False,False
+M019,ATA 21 - Air Conditioning → Outflow valve stuck,21-31-01 [X] F012,см. оценку каждого соответствия,False,False
+M020,ATA 21 - Air Conditioning → Ventilation → Aevc,21-26-10 [K] F007,см. оценку каждого соответствия,False,False
+M021,ATA 21 - Air Conditioning → Ventilation → Blower Fault,21-26-01 [K] F003,см. оценку каждого соответствия,False,False
+M022,ATA 21 - Air Conditioning → Ventilation → Extract Fault,21-26-02 [K] F004,см. оценку каждого соответствия,False,False
+M023,ATA 21 - Air Conditioning → Ventilation valves → Vent Inlet Valve,21-26-05 [U] F006,см. оценку каждого соответствия,False,False
+M024,ATA 21 - Air Conditioning → Ventilation valves → Vent Extract Valve,21-26-04 [U] F005,см. оценку каждого соответствия,False,False
+M025,ATA 22 - AutoFlight → Nonresettable fault → Fac 1,22-66-01 [X] F023,см. оценку каждого соответствия,False,False
+M026,ATA 22 - AutoFlight → Nonresettable fault → Fac 2,22-66-01 [K] F022,см. оценку каждого соответствия,False,False
+M027,ATA 22 - AutoFlight → Resettable fault → Fac 1,,соответствие FAA MMEL пока не установлено,False,False
+M028,ATA 22 - AutoFlight → Resettable fault → Fac 2,,соответствие FAA MMEL пока не установлено,False,False
+M029,ATA 22 - AutoFlight → Rudder travel limiter → Channel 1,27-23-01 [K] F038,см. оценку каждого соответствия,False,False
+M030,ATA 22 - AutoFlight → Rudder travel limiter → Channel 2,27-23-01 [K] F038,см. оценку каждого соответствия,False,False
+M031,ATA 22 - AutoFlight → Rudder trim → Channel 1,27-22-01 [K] F037,см. оценку каждого соответствия,False,False
+M032,ATA 22 - AutoFlight → Rudder trim → Channel 2,27-22-01 [K] F037,см. оценку каждого соответствия,False,False
+M033,ATA 22 - AutoFlight → Reactive W/S det → Channel 1,22-66-03 [U] F024,см. оценку каждого соответствия,False,False
+M034,ATA 22 - AutoFlight → Reactive W/S det → Channel 2,22-66-03 [U] F024,см. оценку каждого соответствия,False,False
+M035,ATA 22 - AutoFlight → Law override → Alternate Law With Protection,,соответствие FAA MMEL пока не установлено,False,False
+M036,ATA 22 - AutoFlight → Law override → Alternate Law Without Protection,,соответствие FAA MMEL пока не установлено,False,False
+M037,ATA 22 - AutoFlight → Law override → Direct Law,,соответствие FAA MMEL пока не установлено,False,False
+M038,ATA 22 - AutoFlight → FCU → Channel 1,22-81-01 [K] F025,см. оценку каждого соответствия,False,False
+M039,ATA 22 - AutoFlight → FCU → Channel 2,22-81-01 [K] F025,см. оценку каждого соответствия,False,False
+M040,ATA 22 - AutoFlight → A/THR → 1,22-30-01 [U] F020,см. оценку каждого соответствия,False,False
+M041,ATA 22 - AutoFlight → A/THR → 2,22-30-01 [U] F020,см. оценку каждого соответствия,False,False
+M042,ATA 22 - AutoFlight → AP → 1,22-10-01 [K] F019,см. оценку каждого соответствия,False,False
+M043,ATA 22 - AutoFlight → AP → 2,22-10-01 [K] F019,см. оценку каждого соответствия,False,False
+M044,ATA 24 - Electrical power → DC Bus Fault → Dc Bat Bus,,соответствие FAA MMEL пока не установлено,False,False
+M045,ATA 24 - Electrical power → DC Bus Fault → Dc Bus 1,,соответствие FAA MMEL пока не установлено,False,False
+M046,ATA 24 - Electrical power → DC Bus Fault → Dc Bus 2,,соответствие FAA MMEL пока не установлено,False,False
+M047,ATA 24 - Electrical power → DC Bus Fault → Hot Bus 1,,соответствие FAA MMEL пока не установлено,False,False
+M048,ATA 24 - Electrical power → DC Bus Fault → Hot Bus 2,,соответствие FAA MMEL пока не установлено,False,False
+M049,ATA 24 - Electrical power → DC Bus Fault → Dc Essential Bus,,соответствие FAA MMEL пока не установлено,False,False
+M050,ATA 24 - Electrical power → DC Bus Fault → Dc Essential Shed Bus,,соответствие FAA MMEL пока не установлено,False,False
+M051,ATA 24 - Electrical power → AC Bus Fault → Ac Bus 1,,соответствие FAA MMEL пока не установлено,False,False
+M052,ATA 24 - Electrical power → AC Bus Fault → Ac Bus 2,,соответствие FAA MMEL пока не установлено,False,False
+M053,ATA 24 - Electrical power → AC Bus Fault → Ac Essential Bus,,соответствие FAA MMEL пока не установлено,False,False
+M054,ATA 24 - Electrical power → AC Bus Fault → Ac Essential Shed Bus,,соответствие FAA MMEL пока не установлено,False,False
+M055,ATA 24 - Electrical power → AC Bus Fault → Ac Static Inverter Bus,,соответствие FAA MMEL пока не установлено,False,False
+M056,ATA 24 - Electrical power → AC 26v Bus Fault → Ac Bus 1 26v,,соответствие FAA MMEL пока не установлено,False,False
+M057,ATA 24 - Electrical power → AC 26v Bus Fault → Ac Bus 2 26v,,соответствие FAA MMEL пока не установлено,False,False
+M058,ATA 24 - Electrical power → AC 26v Bus Fault → Ac Ess Bus 26v,,соответствие FAA MMEL пока не установлено,False,False
+M059,ATA 24 - Electrical power → Generator → Apu,24-20-02 [K] F030,см. оценку каждого соответствия,False,False
+M060,ATA 24 - Electrical power → Generator → 1,24-20-01 [K] F029,см. оценку каждого соответствия,False,False
+M061,ATA 24 - Electrical power → Generator → 2,24-20-01 [K] F029,см. оценку каждого соответствия,False,False
+M062,ATA 24 - Electrical power → IDG oil ovht → Idg 1 Oil Overheat,,соответствие FAA MMEL пока не установлено,False,False
+M063,ATA 24 - Electrical power → IDG oil ovht → Idg 2 Oil Overheat,,соответствие FAA MMEL пока не установлено,False,False
+M064,ATA 24 - Electrical power → IDG oil low pressure → Idg 1 Oil Low Pressure,,соответствие FAA MMEL пока не установлено,False,False
+M065,ATA 24 - Electrical power → IDG oil low pressure → Idg 2 Oil Low Pressure,,соответствие FAA MMEL пока не установлено,False,False
+M066,ATA 24 - Electrical power → Static inverter,,соответствие FAA MMEL пока не установлено,False,False
+M067,ATA 24 - Electrical power → TR Failure → Tr 1,24-30-01 [K] F031,см. оценку каждого соответствия,False,False
+M068,ATA 24 - Electrical power → TR Failure → Tr 2,24-30-01 [U] F032,см. оценку каждого соответствия,False,False
+M069,ATA 24 - Electrical power → TR Failure → Ess,24-30-01 [X] F033,см. оценку каждого соответствия,False,False
+M070,ATA 24 - Electrical power → AC Ess Bus Altn,,соответствие FAA MMEL пока не установлено,False,False
+M071,ATA 24 - Electrical power → AC Ess feed → From Ac Bus 1,,соответствие FAA MMEL пока не установлено,False,False
+M072,ATA 24 - Electrical power → AC Ess feed → From Ac Bus 2,,соответствие FAA MMEL пока не установлено,False,False
+M073,ATA 26 - Fire protection → SDCU,26-17-02 [U] F036,см. оценку каждого соответствия,False,False
+M074,ATA 26 - Fire protection → Fwd cargo smoke detected,,соответствие FAA MMEL пока не установлено,False,False
+M075,ATA 26 - Fire protection → Aft cargo smoke detected,,соответствие FAA MMEL пока не установлено,False,False
+M076,ATA 26 - Fire protection → Lavatory smoke,,соответствие FAA MMEL пока не установлено,False,False
+M077,ATA 26 - Fire protection → Fire unextinguishable → Eng 1 Unextinguishable Fire,,соответствие FAA MMEL пока не установлено,False,False
+M078,ATA 26 - Fire protection → Fire unextinguishable → Eng 2 Unextinguishable Fire,,соответствие FAA MMEL пока не установлено,False,False
+M079,ATA 26 - Fire protection → Fire unextinguishable → Apu Unextinguishable Fire,,соответствие FAA MMEL пока не установлено,False,False
+M080,ATA 26 - Fire protection → Fire 1 bottle → Eng 1 Fire Extinguished With 1 Bottle,,соответствие FAA MMEL пока не установлено,False,False
+M081,ATA 26 - Fire protection → Fire 1 bottle → Eng 2 Fire Extinguished With 1 Bottle,,соответствие FAA MMEL пока не установлено,False,False
+M082,ATA 26 - Fire protection → Fire 1 bottle → Apu Fire Extinguished With 1 Bottle,,соответствие FAA MMEL пока не установлено,False,False
+M083,ATA 26 - Fire protection → Fire 2 bottles → Eng 1 Fire Extinguished With 2 Bottles,,соответствие FAA MMEL пока не установлено,False,False
+M084,ATA 26 - Fire protection → Fire 2 bottles → Eng 2 Fire Extinguished With 2 Bottles,,соответствие FAA MMEL пока не установлено,False,False
+M085,ATA 26 - Fire protection → Loop Eng 1 → Eng 1 Loop A,26-12-01 [K] F034,см. оценку каждого соответствия,False,False
+M086,ATA 26 - Fire protection → Loop Eng 1 → Eng 1 Loop B,26-12-01 [K] F034,см. оценку каждого соответствия,False,False
+M087,ATA 26 - Fire protection → Loop Eng 2 → Eng 2 Loop A,26-12-01 [K] F034,см. оценку каждого соответствия,False,False
+M088,ATA 26 - Fire protection → Loop Eng 2 → Eng 2 Loop B,26-12-01 [K] F034,см. оценку каждого соответствия,False,False
+M089,ATA 26 - Fire protection → Loop APU → Apu Loop A,26-13-01 [K] F035,см. оценку каждого соответствия,False,False
+M090,ATA 26 - Fire protection → Loop APU → Apu Loop B,26-13-01 [K] F035,см. оценку каждого соответствия,False,False
+M091,ATA 26 - Fire protection → FDU → 1,,соответствие FAA MMEL пока не установлено,False,False
+M092,ATA 26 - Fire protection → FDU → 2,,соответствие FAA MMEL пока не установлено,False,False
+M093,ATA 26 - Fire protection → FDU → 3,,соответствие FAA MMEL пока не установлено,False,False
+M094,ATA 26 - Fire protection → Avionics smoke detected,,соответствие FAA MMEL пока не установлено,False,False
+M095,ATA 28 - Fuel → FQI → Chan 1,28-40-02 [K] F051,см. оценку каждого соответствия,False,False
+M096,ATA 28 - Fuel → FQI → Chan 2,28-40-02 [K] F051,см. оценку каждого соответствия,False,False
+M097,ATA 28 - Fuel → Fuel pump left → 1,28-21-01 [K] F047,см. оценку каждого соответствия,False,False
+M098,ATA 28 - Fuel → Fuel pump left → 2,28-21-01 [K] F047,см. оценку каждого соответствия,False,False
+M099,ATA 28 - Fuel → Fuel pump center → 1,28-21-02 [U] F048,см. оценку каждого соответствия,False,False
+M100,ATA 28 - Fuel → Fuel pump center → 2,28-21-02 [U] F048,см. оценку каждого соответствия,False,False
+M101,ATA 28 - Fuel → Fuel pump right → 1,28-21-01 [K] F047,см. оценку каждого соответствия,False,False
+M102,ATA 28 - Fuel → Fuel pump right → 2,28-21-01 [K] F047,см. оценку каждого соответствия,False,False
+M103,ATA 28 - Fuel → Fuel temp high → Inner Tank High Fuel Temp Ecam,,соответствие FAA MMEL пока не установлено,False,False
+M104,ATA 28 - Fuel → Fuel temp high → Outer Tank High Fuel Temp Ecam,,соответствие FAA MMEL пока не установлено,False,False
+M105,ATA 28 - Fuel → Fuel temp high → Inner Tank High Fuel Temp Adv,,соответствие FAA MMEL пока не установлено,False,False
+M106,ATA 28 - Fuel → Fuel temp high → Outer Tank High Fuel Temp Adv,,соответствие FAA MMEL пока не установлено,False,False
+M107,ATA 28 - Fuel → Fuel temp low → Inner Tank Low Fuel Temp Ecam,,соответствие FAA MMEL пока не установлено,False,False
+M108,ATA 28 - Fuel → Fuel temp low → Outer Tank Low Fuel Temp Ecam,,соответствие FAA MMEL пока не установлено,False,False
+M109,ATA 28 - Fuel → Fuel temp low → Inner Tank Low Fuel Temp Adv,,соответствие FAA MMEL пока не установлено,False,False
+M110,ATA 28 - Fuel → Fuel temp low → Outer Tank Low Fuel Temp Adv,,соответствие FAA MMEL пока не установлено,False,False
+M111,ATA 28 - Fuel → Fuel transfer valves → Left Transfer 1,28-15-01 [U] F046,см. оценку каждого соответствия,False,False
+M112,ATA 28 - Fuel → Fuel transfer valves → Left Transfer 2,28-15-01 [U] F046,см. оценку каждого соответствия,False,False
+M113,ATA 28 - Fuel → Fuel transfer valves → Right Transfer 1,28-15-01 [U] F046,см. оценку каждого соответствия,False,False
+M114,ATA 28 - Fuel → Fuel transfer valves → Right Transfer 2,28-15-01 [U] F046,см. оценку каждого соответствия,False,False
+M115,ATA 28 - Fuel → Fuel valves → Eng 1 Fuel Valve Stuck,,соответствие FAA MMEL пока не установлено,False,False
+M116,ATA 28 - Fuel → Fuel valves → Eng 2 Fuel Valve Stuck,,соответствие FAA MMEL пока не установлено,False,False
+M117,ATA 28 - Fuel → Fuel valves → Crossfeed Valve,28-23-02 [X] F050,см. оценку каждого соответствия,False,False
+M118,ATA 28 - Fuel → Fuel valves → Defuel/transfer Valve,28-25-05 [U] LIVE-NEW-02,см. оценку каждого соответствия,False,False
+M119,ATA 28 - Fuel → Fuel leak → Left Outer,,соответствие FAA MMEL пока не установлено,False,False
+M120,ATA 28 - Fuel → Fuel leak → Left Inner,,соответствие FAA MMEL пока не установлено,False,False
+M121,ATA 28 - Fuel → Fuel leak → Center,,соответствие FAA MMEL пока не установлено,False,False
+M122,ATA 28 - Fuel → Fuel leak → Right Inner,,соответствие FAA MMEL пока не установлено,False,False
+M123,ATA 28 - Fuel → Fuel leak → Right Outer,,соответствие FAA MMEL пока не установлено,False,False
+M124,ATA 28 - Fuel → HP Fuel valve → Eng 1,,соответствие FAA MMEL пока не установлено,False,False
+M125,ATA 28 - Fuel → HP Fuel valve → Eng 2,,соответствие FAA MMEL пока не установлено,False,False
+M126,ATA 29 - Hydraulic power → Hydraulic leak → Green,29-30-03 [X] F056,см. оценку каждого соответствия,False,False
+M127,ATA 29 - Hydraulic power → Hydraulic leak → Blue,29-30-03 [X] F056,см. оценку каждого соответствия,False,False
+M128,ATA 29 - Hydraulic power → Hydraulic leak → Yellow,29-30-03 [X] F056,см. оценку каждого соответствия,False,False
+M129,ATA 29 - Hydraulic power → Reservoir overheat → Green,,соответствие FAA MMEL пока не установлено,False,False
+M130,ATA 29 - Hydraulic power → Reservoir overheat → Blue,,соответствие FAA MMEL пока не установлено,False,False
+M131,ATA 29 - Hydraulic power → Reservoir overheat → Yellow,,соответствие FAA MMEL пока не установлено,False,False
+M132,ATA 29 - Hydraulic power → Reservoir low air pressure → Green Low Reservoir Air Pressure,,соответствие FAA MMEL пока не установлено,False,False
+M133,ATA 29 - Hydraulic power → Reservoir low air pressure → Blue Low Reservoir Air Pressure,,соответствие FAA MMEL пока не установлено,False,False
+M134,ATA 29 - Hydraulic power → Reservoir low air pressure → Yellow Low Reservoir Air Pressure,,соответствие FAA MMEL пока не установлено,False,False
+M135,ATA 29 - Hydraulic power → Hydraulic low → Green  Level,,соответствие FAA MMEL пока не установлено,False,False
+M136,ATA 29 - Hydraulic power → Hydraulic low → Blue  Level,,соответствие FAA MMEL пока не установлено,False,False
+M137,ATA 29 - Hydraulic power → Hydraulic low → Yellow  Level,,соответствие FAA MMEL пока не установлено,False,False
+M138,ATA 29 - Hydraulic power → Engine pumps → Eng 1 Pump Failure,29-10-01 [X] F052,см. оценку каждого соответствия,False,False
+M139,ATA 29 - Hydraulic power → Engine pumps → Eng 2 Pump Failure,29-10-01 [X] F052,см. оценку каждого соответствия,False,False
+M140,ATA 29 - Hydraulic power → Fire valves → Eng 1 Fire Valve,,соответствие FAA MMEL пока не установлено,False,False
+M141,ATA 29 - Hydraulic power → Fire valves → Eng 2 Fire Valve,,соответствие FAA MMEL пока не установлено,False,False
+M142,ATA 29 - Hydraulic power → PTU Fault,29-23-01 [X] F054,см. оценку каждого соответствия,False,False
+M143,ATA 29 - Hydraulic power → Elec pumps → Elec Hyd Pump Blue Failure,29-10-02 [X] F053,см. оценку каждого соответствия,False,False
+M144,ATA 29 - Hydraulic power → Elec pumps → Elec Hyd Pump Yellow Failure,29-25-01 [K] F055,см. оценку каждого соответствия,False,False
+M145,ATA 29 - Hydraulic power → Elec pump overheat → Elec Blue Pump Overheat,,соответствие FAA MMEL пока не установлено,False,False
+M146,ATA 29 - Hydraulic power → Elec pump overheat → Elec Yellow Pump Overheat,,соответствие FAA MMEL пока не установлено,False,False
+M147,ATA 32 - Landing gear → BSCU → Sys 1,32-42-03 [U] F080,см. оценку каждого соответствия,False,False
+M148,ATA 32 - Landing gear → BSCU → Sys 2,32-42-03 [U] F080,см. оценку каждого соответствия,False,False
+M149,ATA 32 - Landing gear → ABCU,,соответствие FAA MMEL пока не установлено,False,False
+M150,ATA 32 - Landing gear → Brake fault → Bscu 1,,соответствие FAA MMEL пока не установлено,False,False
+M151,ATA 32 - Landing gear → Brake fault → Bscu 2,,соответствие FAA MMEL пока не установлено,False,False
+M152,ATA 32 - Landing gear → Brake fault → Autobrake Failure,32-42-04 [K] F081,см. оценку каждого соответствия,False,False
+M153,ATA 32 - Landing gear → Wheel brake fault → 1,32-42-01 [K] F079,см. оценку каждого соответствия,False,False
+M154,ATA 32 - Landing gear → Wheel brake fault → 2,32-42-01 [K] F079,см. оценку каждого соответствия,False,False
+M155,ATA 32 - Landing gear → Wheel brake fault → 3,32-42-01 [K] F079,см. оценку каждого соответствия,False,False
+M156,ATA 32 - Landing gear → Wheel brake fault → 4,32-42-01 [K] F079,см. оценку каждого соответствия,False,False
+M157,ATA 32 - Landing gear → Tyre pressure → Main 1 Low,,соответствие FAA MMEL пока не установлено,False,False
+M158,ATA 32 - Landing gear → Tyre pressure → Main 2 Low,,соответствие FAA MMEL пока не установлено,False,False
+M159,ATA 32 - Landing gear → Tyre pressure → Left 1 Low,32-49-01 [X] F082,см. оценку каждого соответствия,False,False
+M160,ATA 32 - Landing gear → Tyre pressure → Left 2 Low,,соответствие FAA MMEL пока не установлено,False,False
+M161,ATA 32 - Landing gear → Tyre pressure → Right 1 Low,,соответствие FAA MMEL пока не установлено,False,False
+M162,ATA 32 - Landing gear → Tyre pressure → Right 2 Low,,соответствие FAA MMEL пока не установлено,False,False
+M163,ATA 32 - Landing gear → Nose wheel steering,,соответствие FAA MMEL пока не установлено,False,False
+M164,ATA 32 - Landing gear → LGCIU → 1,32-31-01 [X] F077,см. оценку каждого соответствия,False,False
+M165,ATA 32 - Landing gear → LGCIU → 2,32-31-01 [K] F076,см. оценку каждого соответствия,False,False
+M166,ATA 32 - Landing gear → Gear safety valve,,соответствие FAA MMEL пока не установлено,False,False
+M167,ATA 32 - Landing gear → Gear lock → Left Main Gear Does Not Lock,,соответствие FAA MMEL пока не установлено,False,False
+M168,ATA 32 - Landing gear → Gear lock → Nose Gear Does Not Lock,,соответствие FAA MMEL пока не установлено,False,False
+M169,ATA 32 - Landing gear → Gear lock → Right Main Gear Does Not Lock,,соответствие FAA MMEL пока не установлено,False,False
+M170,ATA 32 - Landing gear → Gear failure → Gear Locked Up,,соответствие FAA MMEL пока не установлено,False,False
+M171,ATA 32 - Landing gear → Gear failure → Gear Locked Down,32-31-02 [U] F078,см. оценку каждого соответствия,False,False
+M172,ATA 34 - Navigation → IR fault → Ir1 Ir Failure,,соответствие FAA MMEL пока не установлено,False,False
+M173,ATA 34 - Navigation → IR fault → Ir2 Ir Failure,34-10-01 [U] F086,см. оценку каждого соответствия,False,False
+M174,ATA 34 - Navigation → IR fault → Ir3 Ir Failure,34-10-01 [U] F086,см. оценку каждого соответствия,False,False
+M175,ATA 34 - Navigation → IRS position failure → Ir1 Position Failure,34-10-01 [U] F085,см. оценку каждого соответствия,False,False
+M176,ATA 34 - Navigation → IRS position failure → Ir2 Position Failure,34-10-01 [U] F086,см. оценку каждого соответствия,False,False
+M177,ATA 34 - Navigation → IRS position failure → Ir3 Position Failure,34-10-01 [U] F086,см. оценку каждого соответствия,False,False
+M178,ATA 34 - Navigation → ADR fault → Adr1 Failure,34-10-01 [X] F084,см. оценку каждого соответствия,False,False
+M179,ATA 34 - Navigation → ADR fault → Adr2 Failure,34-10-01 [K] F083,см. оценку каждого соответствия,False,False
+M180,ATA 34 - Navigation → ADR fault → Adr3 Failure,34-10-01 [K] F083,см. оценку каждого соответствия,False,False
+M181,ATA 34 - Navigation → IRS Alignment → Ir1 Alignment,,соответствие FAA MMEL пока не установлено,False,False
+M182,ATA 34 - Navigation → IRS Alignment → Ir2 Alignment,,соответствие FAA MMEL пока не установлено,False,False
+M183,ATA 34 - Navigation → IRS Alignment → Ir3 Alignment,,соответствие FAA MMEL пока не установлено,False,False
+M184,ATA 34 - Navigation → Pitot blocked → Capt,,соответствие FAA MMEL пока не установлено,False,False
+M185,ATA 34 - Navigation → Pitot blocked → F/o,,соответствие FAA MMEL пока не установлено,False,False
+M186,ATA 34 - Navigation → Pitot blocked → Stdby,,соответствие FAA MMEL пока не установлено,False,False
+M187,ATA 34 - Navigation → Pitch discrepancy → Ir1,,соответствие FAA MMEL пока не установлено,False,False
+M188,ATA 34 - Navigation → Pitch discrepancy → Ir2,,соответствие FAA MMEL пока не установлено,False,False
+M189,ATA 34 - Navigation → Pitch discrepancy → Ir3,,соответствие FAA MMEL пока не установлено,False,False
+M190,ATA 34 - Navigation → Bank discrepancy → Ir1,,соответствие FAA MMEL пока не установлено,False,False
+M191,ATA 34 - Navigation → Bank discrepancy → Ir2,,соответствие FAA MMEL пока не установлено,False,False
+M192,ATA 34 - Navigation → Bank discrepancy → Ir3,,соответствие FAA MMEL пока не установлено,False,False
+M193,ATA 34 - Navigation → Heading discrepancy → Ir1,,соответствие FAA MMEL пока не установлено,False,False
+M194,ATA 34 - Navigation → Heading discrepancy → Ir2,,соответствие FAA MMEL пока не установлено,False,False
+M195,ATA 34 - Navigation → Heading discrepancy → Ir3,,соответствие FAA MMEL пока не установлено,False,False
+M196,ATA 34 - Navigation → IR Disagree → Ir1,,соответствие FAA MMEL пока не установлено,False,False
+M197,ATA 34 - Navigation → IR Disagree → Ir2,,соответствие FAA MMEL пока не установлено,False,False
+M198,ATA 34 - Navigation → MCDU → 1,22-82-01 [K] F026,см. оценку каждого соответствия,False,False
+M199,ATA 34 - Navigation → MCDU → 2,22-82-01 [K] F026,см. оценку каждого соответствия,False,False
+M200,ATA 34 - Navigation → MCDU recoverable fault → Cdu 1 Recoverable Fault,,соответствие FAA MMEL пока не установлено,False,False
+M201,ATA 34 - Navigation → MCDU recoverable fault → Cdu 2 Recoverable Fault,,соответствие FAA MMEL пока не установлено,False,False
+M202,ATA 34 - Navigation → FMGC → 1,22-83-01 [K] F027,см. оценку каждого соответствия,False,False
+M203,ATA 34 - Navigation → FMGC → 2,22-83-01 [K] F027,см. оценку каждого соответствия,False,False
+M204,ATA 34 - Navigation → GPWC,34-48-01 [U] F091,см. оценку каждого соответствия,False,False
+M205,ATA 34 - Navigation → Radios → Vor 1,34-55-01 [K] F094,см. оценку каждого соответствия,False,False
+M206,ATA 34 - Navigation → Radios → Vor 2,34-55-01 [K] F094,см. оценку каждого соответствия,False,False
+M207,ATA 34 - Navigation → Radios → Adf 1,34-53-01 [K] F093,см. оценку каждого соответствия,False,False
+M208,ATA 34 - Navigation → Radios → Adf 2,34-53-01 [K] F093,см. оценку каждого соответствия,False,False
+M209,ATA 34 - Navigation → ILS → 1 Loc,34-36-01 [U] F087,см. оценку каждого соответствия,False,False
+M210,ATA 34 - Navigation → ILS → 1 G/s,34-36-01 [U] F087,см. оценку каждого соответствия,False,False
+M211,ATA 34 - Navigation → ILS → 2 Loc,34-36-01 [U] F087,см. оценку каждого соответствия,False,False
+M212,ATA 34 - Navigation → ILS → 2 G/s,34-36-01 [U] F087,см. оценку каждого соответствия,False,False
+M213,ATA 34 - Navigation → ILS transmitter → Localizer,,соответствие FAA MMEL пока не установлено,False,False
+M214,ATA 34 - Navigation → ILS transmitter → Glideslope,,соответствие FAA MMEL пока не установлено,False,False
+M215,ATA 34 - Navigation → GPS → 1,34-58-01 [K] F095,см. оценку каждого соответствия,False,False
+M216,ATA 34 - Navigation → GPS → 2,34-58-01 [K] F095,см. оценку каждого соответствия,False,False
+M217,ATA 34 - Navigation → Radio altimeter → 1,34-42-01 [K] F089,см. оценку каждого соответствия,False,False
+M218,ATA 34 - Navigation → Radio altimeter → 2,34-42-01 [K] F089,см. оценку каждого соответствия,False,False
+M219,ATA 34 - Navigation → NAV accuracy downgrade,,соответствие FAA MMEL пока не установлено,False,False
+M220,ATA 34 - Navigation → TCAS,34-43-01 [K] F090,см. оценку каждого соответствия,False,False
+M221,ATA 34 - Navigation → ATC → 1,34-52-01 [K] F092,см. оценку каждого соответствия,False,False
+M222,ATA 34 - Navigation → ATC → 2,34-52-01 [K] F092,см. оценку каждого соответствия,False,False
+M223,ATA 36 - Pneumatic → Lavatory/Galley fan,21-23-01 [K] F002,см. оценку каждого соответствия,False,False
+M224,ATA 36 - Pneumatic → Pneumatic valves → Eng 1 Hp Valve,36-11-07 [U] F098,см. оценку каждого соответствия,False,False
+M225,ATA 36 - Pneumatic → Pneumatic valves → Eng 2 Hp Valve,36-11-07 [U] F098,см. оценку каждого соответствия,False,False
+M226,ATA 36 - Pneumatic → Pneumatic valves → Ram Air Valve,21-55-01 [U] F016,см. оценку каждого соответствия,False,False
+M227,ATA 36 - Pneumatic → Pneumatic valves → Eng 1 Bleed Valve,36-11-02 [U] F097,см. оценку каждого соответствия,False,False
+M228,ATA 36 - Pneumatic → Pneumatic valves → Eng 2 Bleed Valve,36-11-02 [U] F097,см. оценку каждого соответствия,False,False
+M229,ATA 36 - Pneumatic → Pneumatic valves → Hot Air Valve,21-63-03 [U] F018,см. оценку каждого соответствия,False,False
+M230,ATA 36 - Pneumatic → Bleed air low temperature → Eng 1 Bleed Low Temp,,соответствие FAA MMEL пока не установлено,False,False
+M231,ATA 36 - Pneumatic → Bleed air low temperature → Eng 2 Bleed Low Temp,,соответствие FAA MMEL пока не установлено,False,False
+M232,ATA 36 - Pneumatic → BMC → 1,36-11-08 [U] F099,см. оценку каждого соответствия,False,False
+M233,ATA 36 - Pneumatic → BMC → 2,36-11-08 [U] F099,см. оценку каждого соответствия,False,False
+M234,ATA 36 - Pneumatic → Pneumatic valve → Crossbleed Valve,36-12-04 [X] F101,см. оценку каждого соответствия,False,False
+M235,ATA 36 - Pneumatic → Pneumatic valve → Apu Bleed Valve,36-12-02 [U] F100,см. оценку каждого соответствия,False,False
+M236,ATA 36 - Pneumatic → Pack valves → Pack 1 Flow Control Valve,21-51-01 [U] F013,см. оценку каждого соответствия,False,False
+M237,ATA 36 - Pneumatic → Pack valves → Pack 2 Flow Control Valve,21-51-01 [U] F013,см. оценку каждого соответствия,False,False
+M238,ATA 36 - Pneumatic → Bleed leak → Wing Engine 1,,соответствие FAA MMEL пока не установлено,False,False
+M239,ATA 36 - Pneumatic → Bleed leak → Wing Engine 2,,соответствие FAA MMEL пока не установлено,False,False
+M240,ATA 36 - Pneumatic → Bleed leak → Pylon Engine 1,36-22-15 [X] F102,см. оценку каждого соответствия,False,False
+M241,ATA 36 - Pneumatic → Bleed leak → Pylon Engine 2,36-22-15 [X] F102,см. оценку каждого соответствия,False,False
+M242,ATA 36 - Pneumatic → Bleed leak → Apu,,соответствие FAA MMEL пока не установлено,False,False
+M243,ATA 49 - APU → ECB,49-10-01 [U] F104,см. оценку каждого соответствия,False,False
+M244,ATA 49 - APU → APU Low oil level,,соответствие FAA MMEL пока не установлено,False,False
+M245,ATA 49 - APU → APU fuel valve,49-30-02 [U] F105,см. оценку каждого соответствия,False,False
+M246,ATA 23 - Communications → Stuck mic → Capt,,соответствие FAA MMEL пока не установлено,False,False
+M247,ATA 23 - Communications → Stuck mic → F/o,,соответствие FAA MMEL пока не установлено,False,False
+M248,ATA 30 - Ice and rain protection → WAI Valves → Left Wai Valve,30-11-01 [U] F057,см. оценку каждого соответствия,False,False
+M249,ATA 30 - Ice and rain protection → WAI Valves → Right Wai Valve,30-11-01 [U] F057,см. оценку каждого соответствия,False,False
+M250,ATA 30 - Ice and rain protection → EAI Valves → Eng 1 Eai Valve,30-21-01 [U] F058,см. оценку каждого соответствия,False,False
+M251,ATA 30 - Ice and rain protection → EAI Valves → Eng 2 Eai Valve,30-21-01 [U] F058,см. оценку каждого соответствия,False,False
+M252,ATA 30 - Ice and rain protection → WHC → 1,30-42-01 [U] F066,см. оценку каждого соответствия,False,False
+M253,ATA 30 - Ice and rain protection → WHC → 2,30-42-01 [U] F066,см. оценку каждого соответствия,False,False
+M254,ATA 30 - Ice and rain protection → AOA Heat → Capt,30-31-04 [K] F063,см. оценку каждого соответствия,False,False
+M255,ATA 30 - Ice and rain protection → AOA Heat → F/o,30-31-04 [K] F063,см. оценку каждого соответствия,False,False
+M256,ATA 30 - Ice and rain protection → AOA Heat → Stby,30-31-04 [K] F063,см. оценку каждого соответствия,False,False
+M257,ATA 30 - Ice and rain protection → TAT Heat → Capt,30-31-05 [K] F064,см. оценку каждого соответствия,False,False
+M258,ATA 30 - Ice and rain protection → TAT Heat → F/o,30-31-05 [K] F064,см. оценку каждого соответствия,False,False
+M259,ATA 30 - Ice and rain protection → TAT Heat → Stby,30-31-05 [X] F065,см. оценку каждого соответствия,False,False
+M260,ATA 30 - Ice and rain protection → Pitot Heat → Capt,30-31-02 [K] F061,см. оценку каждого соответствия,False,False
+M261,ATA 30 - Ice and rain protection → Pitot Heat → F/o,30-31-02 [K] F061,см. оценку каждого соответствия,False,False
+M262,ATA 30 - Ice and rain protection → Pitot Heat → Stby,30-31-02 [K] F061,см. оценку каждого соответствия,False,False
+M263,ATA 30 - Ice and rain protection → Static Heat → Left  Capt,30-31-03 [K] F062,см. оценку каждого соответствия,False,False
+M264,ATA 30 - Ice and rain protection → Static Heat → Right  Capt,30-31-03 [K] F062,см. оценку каждого соответствия,False,False
+M265,ATA 30 - Ice and rain protection → Static Heat → Left  F/o,30-31-03 [K] F062,см. оценку каждого соответствия,False,False
+M266,ATA 30 - Ice and rain protection → Static Heat → Right  F/o,30-31-03 [K] F062,см. оценку каждого соответствия,False,False
+M267,ATA 30 - Ice and rain protection → Static Heat → Left  Stby,30-31-03 [K] F062,см. оценку каждого соответствия,False,False
+M268,ATA 30 - Ice and rain protection → Static Heat → Right  Stby,30-31-03 [K] F062,см. оценку каждого соответствия,False,False
+M269,ATA 30 - Ice and rain protection → PHC → 1,30-31-01 [X] F060,см. оценку каждого соответствия,False,False
+M270,ATA 30 - Ice and rain protection → PHC → 2,30-31-01 [U] F059,см. оценку каждого соответствия,False,False
+M271,ATA 30 - Ice and rain protection → PHC → 3,30-31-01 [U] F059,см. оценку каждого соответствия,False,False
+M272,ATA 30 - Ice and rain protection → Icing → Eng 1,,соответствие FAA MMEL пока не установлено,False,False
+M273,ATA 30 - Ice and rain protection → Icing → Eng 2,,соответствие FAA MMEL пока не установлено,False,False
+M274,ATA 27 - Flight controls → IPPU → 1,,соответствие FAA MMEL пока не установлено,False,False
+M275,ATA 27 - Flight controls → IPPU → 2,,соответствие FAA MMEL пока не установлено,False,False
+M276,ATA 27 - Flight controls → Surface lock → Flap Locked,,соответствие FAA MMEL пока не установлено,False,False
+M277,ATA 27 - Flight controls → Surface lock → Slat Locked,,соответствие FAA MMEL пока не установлено,False,False
+M278,ATA 27 - Flight controls → Alignment fault,,соответствие FAA MMEL пока не установлено,False,False
+M279,ATA 27 - Flight controls → SFCC → 1,27-51-01 [X] F040,см. оценку каждого соответствия,False,False
+M280,ATA 27 - Flight controls → SFCC → 2,27-51-01 [X] F040,см. оценку каждого соответствия,False,False
+M281,ATA 27 - Flight controls → Flap → Sfcc 1  Sys,,соответствие FAA MMEL пока не установлено,False,False
+M282,ATA 27 - Flight controls → Flap → Sfcc 2  Sys,27-51-01 [K] F039,см. оценку каждого соответствия,False,False
+M283,ATA 27 - Flight controls → Slat → Sfcc 1  Sys,,соответствие FAA MMEL пока не установлено,False,False
+M284,ATA 27 - Flight controls → Slat → Sfcc 2  Sys,27-51-01 [K] F039,см. оценку каждого соответствия,False,False
+M285,ATA 27 - Flight controls → Nonresettable fault → Elac 1,27-93-01 [K] F041,см. оценку каждого соответствия,False,False
+M286,ATA 27 - Flight controls → Nonresettable fault → Elac 2,27-93-01 [X] F042,см. оценку каждого соответствия,False,False
+M287,ATA 27 - Flight controls → Nonresettable fault → Sec 1,27-94-01 [K] F043,см. оценку каждого соответствия,False,False
+M288,ATA 27 - Flight controls → Nonresettable fault → Sec 2,27-94-01 [K] F043,см. оценку каждого соответствия,False,False
+M289,ATA 27 - Flight controls → Nonresettable fault → Sec 3,27-94-01 [K] F043,см. оценку каждого соответствия,False,False
+M290,ATA 27 - Flight controls → Resettable fault → Elac 1,,соответствие FAA MMEL пока не установлено,False,False
+M291,ATA 27 - Flight controls → Resettable fault → Elac 2,,соответствие FAA MMEL пока не установлено,False,False
+M292,ATA 27 - Flight controls → Resettable fault → Sec 1,,соответствие FAA MMEL пока не установлено,False,False
+M293,ATA 27 - Flight controls → Resettable fault → Sec 2,,соответствие FAA MMEL пока не установлено,False,False
+M294,ATA 27 - Flight controls → Resettable fault → Sec 3,,соответствие FAA MMEL пока не установлено,False,False
+M295,ATA 27 - Flight controls → Yaw damper → Channel 1,22-63-01 [K] F021,см. оценку каждого соответствия,False,False
+M296,ATA 27 - Flight controls → Yaw damper → Channel 2,22-63-01 [K] F021,см. оценку каждого соответствия,False,False
+M297,ATA 27 - Flight controls → Sidestick reversal → Pitch Capt,,соответствие FAA MMEL пока не установлено,False,False
+M298,ATA 27 - Flight controls → Sidestick reversal → Roll Capt,,соответствие FAA MMEL пока не установлено,False,False
+M299,ATA 27 - Flight controls → Sidestick reversal → Pitch F/o,,соответствие FAA MMEL пока не установлено,False,False
+M300,ATA 27 - Flight controls → Sidestick reversal → Roll F/o,,соответствие FAA MMEL пока не установлено,False,False
+M301,ATA 27 - Flight controls → Sidestick → Fault Capt,,соответствие FAA MMEL пока не установлено,False,False
+M302,ATA 27 - Flight controls → Sidestick → Fault F/o,,соответствие FAA MMEL пока не установлено,False,False
+M303,ATA 27 - Flight controls → FCDC → 1,27-95-01 [X] F045,см. оценку каждого соответствия,False,False
+M304,ATA 27 - Flight controls → FCDC → 2,27-95-01 [K] F044,см. оценку каждого соответствия,False,False
+M305,ATA 27 - Flight controls → Stabilizer jam,,соответствие FAA MMEL пока не установлено,False,False
+M306,ATA 27 - Flight controls → Elev → L+r Failure,,соответствие FAA MMEL пока не установлено,False,False
+M307,ATA 27 - Flight controls → Elev → L  Failure,,соответствие FAA MMEL пока не установлено,False,False
+M308,ATA 27 - Flight controls → Elev → R  Failure,,соответствие FAA MMEL пока не установлено,False,False
+M309,ATA 80 - Start faults → Start valve → Left,80-11-01 [U] F111,см. оценку каждого соответствия,False,False
+M310,ATA 80 - Start faults → Start valve → Right,80-11-01 [U] F111,см. оценку каждого соответствия,False,False
+M311,ATA 80 - Start faults → Hot start → Eng 1,,соответствие FAA MMEL пока не установлено,False,False
+M312,ATA 80 - Start faults → Hot start → Eng 2,,соответствие FAA MMEL пока не установлено,False,False
+M313,ATA 80 - Start faults → Stall/Hung start → Eng 1 Hung Start,,соответствие FAA MMEL пока не установлено,False,False
+M314,ATA 80 - Start faults → Stall/Hung start → Eng 2 Hung Start,,соответствие FAA MMEL пока не установлено,False,False
+M315,ATA 80 - Start faults → No ignition → Eng 1,74-31-01 [U] F107,см. оценку каждого соответствия,False,False
+M316,ATA 80 - Start faults → No ignition → Eng 2,74-31-01 [U] F107,см. оценку каждого соответствия,False,False
+M317,ATA 31 - Indicating/Recording system → CFDIU,31-30-01 [K] F067,см. оценку каждого соответствия,False,False
+M318,ATA 31 - Indicating/Recording system → ECP,31-56-01 [U] F072,см. оценку каждого соответствия,False,False
+M319,ATA 31 - Indicating/Recording system → SDAC → 1,31-55-01 [X] F071,см. оценку каждого соответствия,False,False
+M320,ATA 31 - Indicating/Recording system → SDAC → 2,31-55-01 [K] F070,см. оценку каждого соответствия,False,False
+M321,ATA 31 - Indicating/Recording system → FWC → 1,31-53-01 [X] F069,см. оценку каждого соответствия,False,False
+M322,ATA 31 - Indicating/Recording system → FWC → 2,31-53-01 [K] F068,см. оценку каждого соответствия,False,False
+M323,ATA 31 - Indicating/Recording system → CVR,23-71-01 [K] F028,см. оценку каждого соответствия,False,False
+M324,ATA 31 - Indicating/Recording system → DMC → 1,31-63-02 [U] F075,см. оценку каждого соответствия,False,False
+M325,ATA 31 - Indicating/Recording system → DMC → 2,31-63-02 [U] F075,см. оценку каждого соответствия,False,False
+M326,ATA 31 - Indicating/Recording system → DMC → 3,31-63-02 [U] F075,см. оценку каждого соответствия,False,False
+M327,ATA 31 - Indicating/Recording system → DCDU → Capt,46-21-02 [K] LIVE-NEW-01,см. оценку каждого соответствия,False,False
+M328,ATA 31 - Indicating/Recording system → DCDU → Fo,46-21-02 [K] LIVE-NEW-01,см. оценку каждого соответствия,False,False
+M329,ATA 31 - Indicating/Recording system → DU → Capt Pfd,31-63-01 [X] F074,см. оценку каждого соответствия,False,False
+M330,ATA 31 - Indicating/Recording system → DU → Capt Nd,31-63-01 [K] F073,см. оценку каждого соответствия,False,False
+M331,ATA 31 - Indicating/Recording system → DU → F/o Nd,31-63-01 [K] F073,см. оценку каждого соответствия,False,False
+M332,ATA 31 - Indicating/Recording system → DU → F/o Pfd,31-63-01 [K] F073,см. оценку каждого соответствия,False,False
+M333,ATA 31 - Indicating/Recording system → DU → Ecam Upper,31-63-01 [X] F074,см. оценку каждого соответствия,False,False
+M334,ATA 31 - Indicating/Recording system → DU → Ecam Lower,31-63-01 [K] F073,см. оценку каждого соответствия,False,False
+M335,ATA 35 - Oxygen → Crew oxygen 1 → Crew Oxygen Pressure < 400,35-13-01 [X] F096,см. оценку каждого соответствия,False,False
+M336,ATA 35 - Oxygen → Crew oxygen 1 → Crew Oxygen Pressure < 800,35-13-01 [X] F096,см. оценку каждого соответствия,False,False
+M337,ATA 35 - Oxygen → Crew oxygen 2 → Pressure < 400,,соответствие FAA MMEL пока не установлено,False,False
+M338,ATA 35 - Oxygen → Crew oxygen 2 → Pressure < 800,,соответствие FAA MMEL пока не установлено,False,False
+M339,ATA 35 - Oxygen → Crew oxygen → Oxygen Supply Valve,,соответствие FAA MMEL пока не установлено,False,False
+M340,ATA 35 - Oxygen → Crew oxygen → Oxygen Supply Valve 2,,соответствие FAA MMEL пока не установлено,False,False
+M341,ATA 46 - Information systems → ATSU,46-21-01 [K] F103,см. оценку каждого соответствия,False,False
+M342,ATA 52 - Doors → Doors left → Forward Avionics Door,52-70-01 [U] F106,см. оценку каждого соответствия,False,False
+M343,ATA 52 - Doors → Doors left → Left Avionics Door,,соответствие FAA MMEL пока не установлено,False,False
+M344,ATA 52 - Doors → Doors left → Right Avionics Door,,соответствие FAA MMEL пока не установлено,False,False
+M345,ATA 52 - Doors → Doors left → Forward Entry Left Door,,соответствие FAA MMEL пока не установлено,False,False
+M346,ATA 52 - Doors → Doors left → Left Wing 1 Door,,соответствие FAA MMEL пока не установлено,False,False
+M347,ATA 52 - Doors → Doors left → Left Wing 2 Door,,соответствие FAA MMEL пока не установлено,False,False
+M348,ATA 52 - Doors → Doors left → Aft Entry Left Door,,соответствие FAA MMEL пока не установлено,False,False
+M349,ATA 52 - Doors → Doors right → Forward Entry Right Door,,соответствие FAA MMEL пока не установлено,False,False
+M350,ATA 52 - Doors → Doors right → Aft Avionics Door,,соответствие FAA MMEL пока не установлено,False,False
+M351,ATA 52 - Doors → Doors right → Forward Cargo Door,52-70-01 [U] F106,см. оценку каждого соответствия,False,False
+M352,ATA 52 - Doors → Doors right → Right Wing 1 Door,,соответствие FAA MMEL пока не установлено,False,False
+M353,ATA 52 - Doors → Doors right → Right Wing 2 Door,,соответствие FAA MMEL пока не установлено,False,False
+M354,ATA 52 - Doors → Doors right → Aft Cargo Door,52-70-01 [U] F106,см. оценку каждого соответствия,False,False
+M355,ATA 52 - Doors → Doors right → Bulk Door,,соответствие FAA MMEL пока не установлено,False,False
+M356,ATA 52 - Doors → Doors right → Aft Entry Right Door,,соответствие FAA MMEL пока не установлено,False,False
+M357,ATA 70 - Power plant → Fadec → Left Channel A,,соответствие FAA MMEL пока не установлено,False,False
+M358,ATA 70 - Power plant → Fadec → Left Channel B,,соответствие FAA MMEL пока не установлено,False,False
+M359,ATA 70 - Power plant → Fadec → Right Channel A,,соответствие FAA MMEL пока не установлено,False,False
+M360,ATA 70 - Power plant → Fadec → Right Channel B,,соответствие FAA MMEL пока не установлено,False,False
+M361,ATA 70 - Power plant → EIU → 1,,соответствие FAA MMEL пока не установлено,False,False
+M362,ATA 70 - Power plant → EIU → 2,,соответствие FAA MMEL пока не установлено,False,False
+M363,ATA 70 - Power plant → Engine surge → Left Surge,,соответствие FAA MMEL пока не установлено,False,False
+M364,ATA 70 - Power plant → Engine surge → Right Surge,,соответствие FAA MMEL пока не установлено,False,False
+M365,ATA 70 - Power plant → Engine failure → Eng 1 Failure,,соответствие FAA MMEL пока не установлено,False,False
+M366,ATA 70 - Power plant → Engine failure → Eng 2 Failure,,соответствие FAA MMEL пока не установлено,False,False
+M367,ATA 70 - Power plant → Engine failure with damage → Eng 1 Failure With Damage,,соответствие FAA MMEL пока не установлено,False,False
+M368,ATA 70 - Power plant → Engine failure with damage → Eng 2 Failure With Damage,,соответствие FAA MMEL пока не установлено,False,False
+M369,ATA 70 - Power plant → Engine birdstrike → Left Bird Strike,,соответствие FAA MMEL пока не установлено,False,False
+M370,ATA 70 - Power plant → Engine birdstrike → Right Bird Strike,,соответствие FAA MMEL пока не установлено,False,False
+M371,ATA 70 - Power plant → Reverser pressurized → Left,78-30-01 [X] F109,см. оценку каждого соответствия,False,False
+M372,ATA 70 - Power plant → Reverser pressurized → Right,78-30-01 [X] F109,см. оценку каждого соответствия,False,False
+M373,ATA 70 - Power plant → Reverser unlocked → Left,78-30-01 [X] F109,см. оценку каждого соответствия,False,False
+M374,ATA 70 - Power plant → Reverser unlocked → Right,78-30-01 [X] F109,см. оценку каждого соответствия,False,False
+M375,ATA 70 - Power plant → Reverser inhibited by maintenance → Left Reverser Inhibited By Maint,78-30-01 [K] F108,см. оценку каждого соответствия,False,False
+M376,ATA 70 - Power plant → Reverser inhibited by maintenance → Right Reverser Inhibited By Maint,78-30-01 [K] F108,см. оценку каждого соответствия,False,False
+M377,ATA 70 - Power plant → vibration N1 → Eng 1 High,,соответствие FAA MMEL пока не установлено,False,False
+M378,ATA 70 - Power plant → vibration N1 → Eng 2 High,,соответствие FAA MMEL пока не установлено,False,False
+M379,ATA 70 - Power plant → vibration N2 → Eng 1 High,,соответствие FAA MMEL пока не установлено,False,False
+M380,ATA 70 - Power plant → vibration N2 → Eng 2 High,,соответствие FAA MMEL пока не установлено,False,False
+M381,ATA 70 - Power plant → Oil leak → Left,,соответствие FAA MMEL пока не установлено,False,False
+M382,ATA 70 - Power plant → Oil leak → Right,,соответствие FAA MMEL пока не установлено,False,False
+M383,ATA 70 - Power plant → Reverser shutoff valve → Left,,соответствие FAA MMEL пока не установлено,False,False
+M384,ATA 70 - Power plant → Reverser shutoff valve → Right,,соответствие FAA MMEL пока не установлено,False,False

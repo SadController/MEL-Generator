@@ -1,0 +1,1922 @@
+[
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Pack 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Pack 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Pack 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Pack 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Primary"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Secondary"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Hot air fault"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Cargo ventilation controller"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Hot air valve aft cargo"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Cargo Fwd Isolation Valve Upstream"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Cargo Fwd Isolation Valve Downstream"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Cargo Aft Isolation Valve Upstream"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Cargo Aft Isolation Valve Downstream"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Recirculation fans"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Slow"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Rapid"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Outflow valve stuck"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Aevc"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Blower Fault"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Extract Fault"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Vent Inlet Valve"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Vent Extract Valve"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Fac 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Fac 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Fac 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Fac 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Channel 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Channel 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Channel 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Channel 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Channel 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Channel 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Alternate Law With Protection"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Alternate Law Without Protection"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Direct Law"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Channel 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Channel 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Dc Bat Bus"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Dc Bus 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Dc Bus 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Hot Bus 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Hot Bus 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Dc Essential Bus"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Dc Essential Shed Bus"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ac Bus 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ac Bus 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ac Essential Bus"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ac Essential Shed Bus"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ac Static Inverter Bus"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ac Bus 1 26v"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ac Bus 2 26v"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ac Ess Bus 26v"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Apu"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Idg 1 Oil Overheat"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Idg 2 Oil Overheat"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Idg 1 Oil Low Pressure"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Idg 2 Oil Low Pressure"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Static inverter"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Tr 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Tr 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ess"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "AC Ess Bus Altn"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "From Ac Bus 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "From Ac Bus 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "SDCU"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Fwd cargo smoke detected"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Aft cargo smoke detected"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Lavatory smoke"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 1 Unextinguishable Fire"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 2 Unextinguishable Fire"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Apu Unextinguishable Fire"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 1 Fire Extinguished With 1 Bottle"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 2 Fire Extinguished With 1 Bottle"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Apu Fire Extinguished With 1 Bottle"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 1 Fire Extinguished With 2 Bottles"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 2 Fire Extinguished With 2 Bottles"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 1 Loop A"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 1 Loop B"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 2 Loop A"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 2 Loop B"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Apu Loop A"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Apu Loop B"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "3"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Avionics smoke detected"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Chan 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Chan 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Inner Tank High Fuel Temp Ecam"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Outer Tank High Fuel Temp Ecam"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Inner Tank High Fuel Temp Adv"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Outer Tank High Fuel Temp Adv"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Inner Tank Low Fuel Temp Ecam"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Outer Tank Low Fuel Temp Ecam"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Inner Tank Low Fuel Temp Adv"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Outer Tank Low Fuel Temp Adv"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left Transfer 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left Transfer 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right Transfer 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right Transfer 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 1 Fuel Valve Stuck"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 2 Fuel Valve Stuck"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Crossfeed Valve"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Defuel/transfer Valve"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left Outer"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left Inner"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Center"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right Inner"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right Outer"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Green"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Blue"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Yellow"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Green"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Blue"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Yellow"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Green Low Reservoir Air Pressure"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Blue Low Reservoir Air Pressure"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Yellow Low Reservoir Air Pressure"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Green  Level"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Blue  Level"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Yellow  Level"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 1 Pump Failure"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 2 Pump Failure"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 1 Fire Valve"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 2 Fire Valve"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "PTU Fault"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Elec Hyd Pump Blue Failure"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Elec Hyd Pump Yellow Failure"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Elec Blue Pump Overheat"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Elec Yellow Pump Overheat"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Sys 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Sys 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "ABCU"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Bscu 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Bscu 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Autobrake Failure"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "3"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "4"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Main 1 Low"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Main 2 Low"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left 1 Low"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left 2 Low"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right 1 Low"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right 2 Low"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Nose wheel steering"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Gear safety valve"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left Main Gear Does Not Lock"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Nose Gear Does Not Lock"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right Main Gear Does Not Lock"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Gear Locked Up"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Gear Locked Down"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ir1 Ir Failure"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ir2 Ir Failure"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ir3 Ir Failure"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ir1 Position Failure"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ir2 Position Failure"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ir3 Position Failure"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Adr1 Failure"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Adr2 Failure"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Adr3 Failure"
+  },
+  {
+    "classes": "manual-failure-item manual-failure-failed",
+    "disabled": false,
+    "label": "Ir1 Alignment"
+  },
+  {
+    "classes": "manual-failure-item manual-failure-failed",
+    "disabled": false,
+    "label": "Ir2 Alignment"
+  },
+  {
+    "classes": "manual-failure-item manual-failure-failed",
+    "disabled": false,
+    "label": "Ir3 Alignment"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Capt"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "F/o"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Stdby"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ir1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ir2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ir3"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ir1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ir2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ir3"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ir1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ir2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ir3"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ir1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ir2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Cdu 1 Recoverable Fault"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Cdu 2 Recoverable Fault"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "GPWC"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Vor 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Vor 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Adf 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Adf 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1 Loc"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1 G/s"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2 Loc"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2 G/s"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Localizer"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Glideslope"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "NAV accuracy downgrade"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "TCAS"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Lavatory/Galley fan"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 1 Hp Valve"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 2 Hp Valve"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ram Air Valve"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 1 Bleed Valve"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 2 Bleed Valve"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Hot Air Valve"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 1 Bleed Low Temp"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 2 Bleed Low Temp"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Crossbleed Valve"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Apu Bleed Valve"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Pack 1 Flow Control Valve"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Pack 2 Flow Control Valve"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Wing Engine 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Wing Engine 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Pylon Engine 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Pylon Engine 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Apu"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "ECB"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "APU Low oil level"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "APU fuel valve"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Capt"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "F/o"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left Wai Valve"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right Wai Valve"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 1 Eai Valve"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 2 Eai Valve"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Capt"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "F/o"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Stby"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Capt"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "F/o"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Stby"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Capt"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "F/o"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Stby"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left  Capt"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right  Capt"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left  F/o"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right  F/o"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left  Stby"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right  Stby"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "3"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Flap Locked"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Slat Locked"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Alignment fault"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Sfcc 1  Sys"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Sfcc 2  Sys"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Sfcc 1  Sys"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Sfcc 2  Sys"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Elac 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Elac 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Sec 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Sec 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Sec 3"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Elac 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Elac 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Sec 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Sec 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Sec 3"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Channel 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Channel 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Pitch Capt"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Roll Capt"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Pitch F/o"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Roll F/o"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Fault Capt"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Fault F/o"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Stabilizer jam"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "L+r Failure"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "L  Failure"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "R  Failure"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 1 Hung Start"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 2 Hung Start"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "CFDIU"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "ECP"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "CVR"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "3"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Capt"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Fo"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Capt Pfd"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Capt Nd"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "F/o Nd"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "F/o Pfd"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ecam Upper"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Ecam Lower"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Crew Oxygen Pressure < 400"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Crew Oxygen Pressure < 800"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Pressure < 400"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Pressure < 800"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Oxygen Supply Valve"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Oxygen Supply Valve 2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "ATSU"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Forward Avionics Door"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left Avionics Door"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right Avionics Door"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Forward Entry Left Door"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left Wing 1 Door"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left Wing 2 Door"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Aft Entry Left Door"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Forward Entry Right Door"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Aft Avionics Door"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Forward Cargo Door"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right Wing 1 Door"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right Wing 2 Door"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Aft Cargo Door"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Bulk Door"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Aft Entry Right Door"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left Channel A"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left Channel B"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right Channel A"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right Channel B"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "1"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "2"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left Surge"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right Surge"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 1 Failure"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 2 Failure"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 1 Failure With Damage"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 2 Failure With Damage"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left Bird Strike"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right Bird Strike"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left Reverser Inhibited By Maint"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right Reverser Inhibited By Maint"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 1 High"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 2 High"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 1 High"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Eng 2 High"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Left"
+  },
+  {
+    "classes": "manual-failure-item",
+    "disabled": false,
+    "label": "Right"
+  }
+]

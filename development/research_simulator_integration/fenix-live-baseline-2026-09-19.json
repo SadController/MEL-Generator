@@ -1,0 +1,31 @@
+{
+  "utc": "2026-09-19T19:21:57.102469+00:00",
+  "dll": "F:\\SteamLibrary\\steamapps\\common\\MSFS2024\\Community\\Community\\p42-util-chaseplane\\Modules\\ChasePlane\\SimConnect.dll",
+  "mode": "read-only",
+  "state": {
+    "TITLE": "FenixA321 IAE WF SC",
+    "SIM ON GROUND": 1.0,
+    "GROUND VELOCITY": 1.5679527187665524e-09,
+    "GENERAL ENG COMBUSTION:1": 0.0,
+    "GENERAL ENG COMBUSTION:2": 0.0,
+    "L:A22X Parking Brake": 0.0,
+    "L:A22X L MKP Powered": 0.0,
+    "L:A22X R MKP Powered": 0.0,
+    "L:A22X DU1 Backlight": 0.0,
+    "L:A22X DU2 Backlight": 0.0,
+    "L:A22X DU3 Backlight": 0.0,
+    "L:A22X Circuit Breaker R C1": 0.0,
+    "L:A22X Circuit Breaker R B4": 0.0,
+    "L:A22X Dome Lights": 0.0,
+    "L:A22X Dome Lights Annunciator": 0.0,
+    "L:A22X Caution PBA": 0.0,
+    "L:A22X Warning PBA": 0.0,
+    "COM STATUS:1": 0.0,
+    "COM STATUS:2": 0.0,
+    "COM STATUS:3": 0.0,
+    "COM TEST:1": 0.0,
+    "COM TEST:2": 0.0,
+    "COM TEST:3": 0.0,
+    "LIGHT POTENTIOMETER:18": 100.0
+  }
+}

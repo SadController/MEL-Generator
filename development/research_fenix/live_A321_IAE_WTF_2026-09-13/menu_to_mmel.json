@@ -1,0 +1,4634 @@
+[
+  {
+    "menu_id": "M001",
+    "path": "ATA 21 - Air Conditioning → CPC → 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F010",
+        "mmel_id": "21-31-01",
+        "branch": "1) System 1",
+        "status": "K",
+        "note": "CPC1 и CPC2 имеют разные сроки/условия. Оба канала FCU и оставшийся CPC должны работать."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M002",
+    "path": "ATA 21 - Air Conditioning → CPC → 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F011",
+        "mmel_id": "21-31-01",
+        "branch": "2) System 2",
+        "status": "K",
+        "note": "Проверить ручной режим и индикацию; CPC1 и оба канала FCU должны работать."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M003",
+    "path": "ATA 21 - Air Conditioning → Overheat → Pack 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F015",
+        "mmel_id": "21-52-01",
+        "branch": "pack failure vs indication sensor",
+        "status": "U",
+        "note": "В alpha описание указывает отказ датчика температуры. Нельзя автоматически считать весь pack неработающим."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M004",
+    "path": "ATA 21 - Air Conditioning → Overheat → Pack 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F015",
+        "mmel_id": "21-52-01",
+        "branch": "pack failure vs indication sensor",
+        "status": "U",
+        "note": "В alpha описание указывает отказ датчика температуры. Нельзя автоматически считать весь pack неработающим."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M005",
+    "path": "ATA 21 - Air Conditioning → Regulator fault → Pack 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F014",
+        "mmel_id": "21-52-01",
+        "branch": "single pack, exact configuration pending",
+        "status": "U",
+        "note": "Кандидат на неработающий pack, но отказ регулятора может оставлять резервное управление. Проверить реальный результат и ветвь ECS/модели."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M006",
+    "path": "ATA 21 - Air Conditioning → Regulator fault → Pack 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F014",
+        "mmel_id": "21-52-01",
+        "branch": "single pack, exact configuration pending",
+        "status": "U",
+        "note": "Кандидат на неработающий pack, но отказ регулятора может оставлять резервное управление. Проверить реальный результат и ветвь ECS/модели."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M007",
+    "path": "ATA 21 - Air Conditioning → Zone controller → Primary",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F017",
+        "mmel_id": "21-63-01",
+        "branch": "1) Primary / 2) Secondary, without Mod.30626",
+        "status": "K",
+        "note": "Подпункты имеют разные последствия. Не переносить в enhanced ECS без отдельного подтверждения."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M008",
+    "path": "ATA 21 - Air Conditioning → Zone controller → Secondary",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F017",
+        "mmel_id": "21-63-01",
+        "branch": "1) Primary / 2) Secondary, without Mod.30626",
+        "status": "K",
+        "note": "Подпункты имеют разные последствия. Не переносить в enhanced ECS без отдельного подтверждения."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M009",
+    "path": "ATA 21 - Air Conditioning → Hot air fault",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M010",
+    "path": "ATA 21 - Air Conditioning → Cargo ventilation controller",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M011",
+    "path": "ATA 21 - Air Conditioning → Hot air valve aft cargo",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M012",
+    "path": "ATA 21 - Air Conditioning → Cargo vent → Cargo Fwd Isolation Valve Upstream",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F008",
+        "mmel_id": "21-28-02",
+        "branch": "Forward Cargo Isolation Valves",
+        "status": "U",
+        "note": "Только если передняя cargo ventilation установлена. Нужны фактические положения клапанов."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M013",
+    "path": "ATA 21 - Air Conditioning → Cargo vent → Cargo Fwd Isolation Valve Downstream",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F008",
+        "mmel_id": "21-28-02",
+        "branch": "Forward Cargo Isolation Valves",
+        "status": "U",
+        "note": "Только если передняя cargo ventilation установлена. Нужны фактические положения клапанов."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M014",
+    "path": "ATA 21 - Air Conditioning → Cargo vent → Cargo Aft Isolation Valve Upstream",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F009",
+        "mmel_id": "21-28-05",
+        "branch": "Aft Cargo Isolation Valves",
+        "status": "U",
+        "note": "Учитывать комплектацию cargo ventilation и положение клапана."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M015",
+    "path": "ATA 21 - Air Conditioning → Cargo vent → Cargo Aft Isolation Valve Downstream",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F009",
+        "mmel_id": "21-28-05",
+        "branch": "Aft Cargo Isolation Valves",
+        "status": "U",
+        "note": "Учитывать комплектацию cargo ventilation и положение клапана."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M016",
+    "path": "ATA 21 - Air Conditioning → Recirculation fans",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F001",
+        "mmel_id": "21-21-01",
+        "branch": "one cabin fan",
+        "status": "U",
+        "note": "MMEL допускает один из двух; старое имя во множественном числе не устанавливает, один или оба вентилятора выключает Fenix."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M017",
+    "path": "ATA 21 - Air Conditioning → Decompression → Slow",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M018",
+    "path": "ATA 21 - Air Conditioning → Decompression → Rapid",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M019",
+    "path": "ATA 21 - Air Conditioning → Outflow valve stuck",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F012",
+        "mmel_id": "21-31-01",
+        "branch": "AUTO channels vs stuck outflow",
+        "status": "X",
+        "note": "Заклинивание клапана не равно отказу автоматического канала CPC: может затронуть и ручное управление."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M020",
+    "path": "ATA 21 - Air Conditioning → Ventilation → Aevc",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F007",
+        "mmel_id": "21-26-10",
+        "branch": "AEVC",
+        "status": "K",
+        "note": "Совпадает компьютер; отключение компьютера не заменяет проверку вентиляторов и положений клапанов."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M021",
+    "path": "ATA 21 - Air Conditioning → Ventilation → Blower Fault",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F003",
+        "mmel_id": "21-26-01",
+        "branch": "Blower Fan",
+        "status": "K",
+        "note": "Не объединять с Extract fan или Pack: MMEL требует их исправности."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M022",
+    "path": "ATA 21 - Air Conditioning → Ventilation → Extract Fault",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F004",
+        "mmel_id": "21-26-02",
+        "branch": "Extract Fan",
+        "status": "K",
+        "note": "Не объединять с Blower fan или Pack; существуют ограничения температуры и времени на земле."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M023",
+    "path": "ATA 21 - Air Conditioning → Ventilation valves → Vent Inlet Valve",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F006",
+        "mmel_id": "21-26-05",
+        "branch": "Skin Air Inlet Valve",
+        "status": "U",
+        "note": "Нужно подтвердить положение, требуемое выбранной строкой MMEL."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M024",
+    "path": "ATA 21 - Air Conditioning → Ventilation valves → Vent Extract Valve",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F005",
+        "mmel_id": "21-26-04",
+        "branch": "Skin Air Outlet Valve",
+        "status": "U",
+        "note": "Уточнить тождество клапана и его положение. Не путать с отказом вытяжного вентилятора."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M025",
+    "path": "ATA 22 - AutoFlight → Nonresettable fault → Fac 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F023",
+        "mmel_id": "22-66-01",
+        "branch": "FAC 1 is not the permitted FAC 2",
+        "status": "X",
+        "note": "Наличие FAC1 в Fenix не даёт допуска: подпункт FAA указан для FAC2, отдельно описано последствие потери FAC1."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M026",
+    "path": "ATA 22 - AutoFlight → Nonresettable fault → Fac 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F022",
+        "mmel_id": "22-66-01",
+        "branch": "1) FAC 2, without eRudder",
+        "status": "K",
+        "note": "Разрешение относится именно к FAC2, при исправности перечисленных систем управления и навигации."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M027",
+    "path": "ATA 22 - AutoFlight → Resettable fault → Fac 1",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M028",
+    "path": "ATA 22 - AutoFlight → Resettable fault → Fac 2",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M029",
+    "path": "ATA 22 - AutoFlight → Rudder travel limiter → Channel 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F038",
+        "mmel_id": "27-23-01",
+        "branch": "one system, without eRudder",
+        "status": "K",
+        "note": "MMEL допускает один из двух. В руководстве Fenix 2025 есть снимок активированного канала1."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M030",
+    "path": "ATA 22 - AutoFlight → Rudder travel limiter → Channel 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F038",
+        "mmel_id": "27-23-01",
+        "branch": "one system, without eRudder",
+        "status": "K",
+        "note": "MMEL допускает один из двух. В руководстве Fenix 2025 есть снимок активированного канала1."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M031",
+    "path": "ATA 22 - AutoFlight → Rudder trim → Channel 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F037",
+        "mmel_id": "27-22-01",
+        "branch": "Rudder Trim Systems",
+        "status": "K",
+        "note": "Выбирать конкретный канал и проверять оставшееся управление."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M032",
+    "path": "ATA 22 - AutoFlight → Rudder trim → Channel 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F037",
+        "mmel_id": "27-22-01",
+        "branch": "Rudder Trim Systems",
+        "status": "K",
+        "note": "Выбирать конкретный канал и проверять оставшееся управление."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M033",
+    "path": "ATA 22 - AutoFlight → Reactive W/S det → Channel 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F024",
+        "mmel_id": "22-66-03",
+        "branch": "Reactive windshear branch",
+        "status": "U",
+        "note": "Отделить reactive от predictive windshear; проверить, какой уровень системы теряется после одного канала."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M034",
+    "path": "ATA 22 - AutoFlight → Reactive W/S det → Channel 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F024",
+        "mmel_id": "22-66-03",
+        "branch": "Reactive windshear branch",
+        "status": "U",
+        "note": "Отделить reactive от predictive windshear; проверить, какой уровень системы теряется после одного канала."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M035",
+    "path": "ATA 22 - AutoFlight → Law override → Alternate Law With Protection",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M036",
+    "path": "ATA 22 - AutoFlight → Law override → Alternate Law Without Protection",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M037",
+    "path": "ATA 22 - AutoFlight → Law override → Direct Law",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M038",
+    "path": "ATA 22 - AutoFlight → FCU → Channel 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F025",
+        "mmel_id": "22-81-01",
+        "branch": "1) one FCU channel, without eRudder",
+        "status": "K",
+        "note": "В MMEL требуется исправность CPC, FAC, RA, LGCIU, ADIRS и всех DU; многие пары отказов исключаются."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M039",
+    "path": "ATA 22 - AutoFlight → FCU → Channel 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F025",
+        "mmel_id": "22-81-01",
+        "branch": "1) one FCU channel, without eRudder",
+        "status": "K",
+        "note": "В MMEL требуется исправность CPC, FAC, RA, LGCIU, ADIRS и всех DU; многие пары отказов исключаются."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M040",
+    "path": "ATA 22 - AutoFlight → A/THR → 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F020",
+        "mmel_id": "22-30-01",
+        "branch": "Autothrust Function",
+        "status": "U",
+        "note": "Отказ A/THR-функции одного FMGC может оставлять общий autothrust работоспособным. Нужно проверить фактическую потерю функции."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M041",
+    "path": "ATA 22 - AutoFlight → A/THR → 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F020",
+        "mmel_id": "22-30-01",
+        "branch": "Autothrust Function",
+        "status": "U",
+        "note": "Отказ A/THR-функции одного FMGC может оставлять общий autothrust работоспособным. Нужно проверить фактическую потерю функции."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M042",
+    "path": "ATA 22 - AutoFlight → AP → 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F019",
+        "mmel_id": "22-10-01",
+        "branch": "Autopilot Systems",
+        "status": "K",
+        "note": "Отказ AP-функции при сохранённом FD. Не заменять отказом всего FMGC; выбрать строку для одного либо двух AP."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M043",
+    "path": "ATA 22 - AutoFlight → AP → 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F019",
+        "mmel_id": "22-10-01",
+        "branch": "Autopilot Systems",
+        "status": "K",
+        "note": "Отказ AP-функции при сохранённом FD. Не заменять отказом всего FMGC; выбрать строку для одного либо двух AP."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M044",
+    "path": "ATA 24 - Electrical power → DC Bus Fault → Dc Bat Bus",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M045",
+    "path": "ATA 24 - Electrical power → DC Bus Fault → Dc Bus 1",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M046",
+    "path": "ATA 24 - Electrical power → DC Bus Fault → Dc Bus 2",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M047",
+    "path": "ATA 24 - Electrical power → DC Bus Fault → Hot Bus 1",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M048",
+    "path": "ATA 24 - Electrical power → DC Bus Fault → Hot Bus 2",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M049",
+    "path": "ATA 24 - Electrical power → DC Bus Fault → Dc Essential Bus",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M050",
+    "path": "ATA 24 - Electrical power → DC Bus Fault → Dc Essential Shed Bus",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M051",
+    "path": "ATA 24 - Electrical power → AC Bus Fault → Ac Bus 1",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M052",
+    "path": "ATA 24 - Electrical power → AC Bus Fault → Ac Bus 2",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M053",
+    "path": "ATA 24 - Electrical power → AC Bus Fault → Ac Essential Bus",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M054",
+    "path": "ATA 24 - Electrical power → AC Bus Fault → Ac Essential Shed Bus",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M055",
+    "path": "ATA 24 - Electrical power → AC Bus Fault → Ac Static Inverter Bus",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M056",
+    "path": "ATA 24 - Electrical power → AC 26v Bus Fault → Ac Bus 1 26v",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M057",
+    "path": "ATA 24 - Electrical power → AC 26v Bus Fault → Ac Bus 2 26v",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M058",
+    "path": "ATA 24 - Electrical power → AC 26v Bus Fault → Ac Ess Bus 26v",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M059",
+    "path": "ATA 24 - Electrical power → Generator → Apu",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F030",
+        "mmel_id": "24-20-02",
+        "branch": "APU generator, CEO/configuration branch",
+        "status": "K",
+        "note": "Отдельно от общего отказа APU; сверить условия выбранной модификации."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M060",
+    "path": "ATA 24 - Electrical power → Generator → 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F029",
+        "mmel_id": "24-20-01",
+        "branch": "one engine generator channel, CEO branch",
+        "status": "K",
+        "note": "Нужна ветвь CEO и проверка резервных источников. Отказ AC BUS не эквивалентен отказу генератора."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M061",
+    "path": "ATA 24 - Electrical power → Generator → 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F029",
+        "mmel_id": "24-20-01",
+        "branch": "one engine generator channel, CEO branch",
+        "status": "K",
+        "note": "Нужна ветвь CEO и проверка резервных источников. Отказ AC BUS не эквивалентен отказу генератора."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M062",
+    "path": "ATA 24 - Electrical power → IDG oil ovht → Idg 1 Oil Overheat",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M063",
+    "path": "ATA 24 - Electrical power → IDG oil ovht → Idg 2 Oil Overheat",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M064",
+    "path": "ATA 24 - Electrical power → IDG oil low pressure → Idg 1 Oil Low Pressure",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M065",
+    "path": "ATA 24 - Electrical power → IDG oil low pressure → Idg 2 Oil Low Pressure",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M066",
+    "path": "ATA 24 - Electrical power → Static inverter",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M067",
+    "path": "ATA 24 - Electrical power → TR Failure → Tr 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F031",
+        "mmel_id": "24-30-01",
+        "branch": "TR1",
+        "status": "K",
+        "note": "Допуск касается TR1; исправность packs/extract и остальных источников остаётся условием."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M068",
+    "path": "ATA 24 - Electrical power → TR Failure → Tr 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F032",
+        "mmel_id": "24-30-01",
+        "branch": "TR2, without/with Mod.27620",
+        "status": "U",
+        "note": "Обнаружена ошибка заголовка в исходном PDF на 24-22: текст о TR2 стоит под 24-27-09. Не исправлять молча; ветвь с ISIS требует уточнения."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M069",
+    "path": "ATA 24 - Electrical power → TR Failure → Ess",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F033",
+        "mmel_id": "24-30-01",
+        "branch": "ESS TR is not TR1/TR2",
+        "status": "X",
+        "note": "Разрешения прочитанного пункта относятся к TR1/TR2; перенос на ESS TR не подтверждён."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M070",
+    "path": "ATA 24 - Electrical power → AC Ess Bus Altn",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M071",
+    "path": "ATA 24 - Electrical power → AC Ess feed → From Ac Bus 1",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M072",
+    "path": "ATA 24 - Electrical power → AC Ess feed → From Ac Bus 2",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M073",
+    "path": "ATA 26 - Fire protection → SDCU",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F036",
+        "mmel_id": "26-17-02",
+        "branch": "SDCU, installed standard",
+        "status": "U",
+        "note": "Проверить CIDS/SDCU стандарт и охват потерянных каналов; не отождествлять с фактическим дымом."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M074",
+    "path": "ATA 26 - Fire protection → Fwd cargo smoke detected",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M075",
+    "path": "ATA 26 - Fire protection → Aft cargo smoke detected",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M076",
+    "path": "ATA 26 - Fire protection → Lavatory smoke",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M077",
+    "path": "ATA 26 - Fire protection → Fire unextinguishable → Eng 1 Unextinguishable Fire",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M078",
+    "path": "ATA 26 - Fire protection → Fire unextinguishable → Eng 2 Unextinguishable Fire",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M079",
+    "path": "ATA 26 - Fire protection → Fire unextinguishable → Apu Unextinguishable Fire",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M080",
+    "path": "ATA 26 - Fire protection → Fire 1 bottle → Eng 1 Fire Extinguished With 1 Bottle",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M081",
+    "path": "ATA 26 - Fire protection → Fire 1 bottle → Eng 2 Fire Extinguished With 1 Bottle",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M082",
+    "path": "ATA 26 - Fire protection → Fire 1 bottle → Apu Fire Extinguished With 1 Bottle",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M083",
+    "path": "ATA 26 - Fire protection → Fire 2 bottles → Eng 1 Fire Extinguished With 2 Bottles",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M084",
+    "path": "ATA 26 - Fire protection → Fire 2 bottles → Eng 2 Fire Extinguished With 2 Bottles",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M085",
+    "path": "ATA 26 - Fire protection → Loop Eng 1 → Eng 1 Loop A",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F034",
+        "mmel_id": "26-12-01",
+        "branch": "1) Loop A / 2) Loop B",
+        "status": "K",
+        "note": "Один loop на двигатель при исправном другом. Реальный пожар или отказ всего FDU — другие состояния."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M086",
+    "path": "ATA 26 - Fire protection → Loop Eng 1 → Eng 1 Loop B",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F034",
+        "mmel_id": "26-12-01",
+        "branch": "1) Loop A / 2) Loop B",
+        "status": "K",
+        "note": "Один loop на двигатель при исправном другом. Реальный пожар или отказ всего FDU — другие состояния."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M087",
+    "path": "ATA 26 - Fire protection → Loop Eng 2 → Eng 2 Loop A",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F034",
+        "mmel_id": "26-12-01",
+        "branch": "1) Loop A / 2) Loop B",
+        "status": "K",
+        "note": "Один loop на двигатель при исправном другом. Реальный пожар или отказ всего FDU — другие состояния."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M088",
+    "path": "ATA 26 - Fire protection → Loop Eng 2 → Eng 2 Loop B",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F034",
+        "mmel_id": "26-12-01",
+        "branch": "1) Loop A / 2) Loop B",
+        "status": "K",
+        "note": "Один loop на двигатель при исправном другом. Реальный пожар или отказ всего FDU — другие состояния."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M089",
+    "path": "ATA 26 - Fire protection → Loop APU → Apu Loop A",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F035",
+        "mmel_id": "26-13-01",
+        "branch": "1) APU loops",
+        "status": "K",
+        "note": "Loop A/B имеют разные условия наземного наблюдения. Отказ обоих относится к другим строкам с неиспользуемым APU."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M090",
+    "path": "ATA 26 - Fire protection → Loop APU → Apu Loop B",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F035",
+        "mmel_id": "26-13-01",
+        "branch": "1) APU loops",
+        "status": "K",
+        "note": "Loop A/B имеют разные условия наземного наблюдения. Отказ обоих относится к другим строкам с неиспользуемым APU."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M091",
+    "path": "ATA 26 - Fire protection → FDU → 1",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M092",
+    "path": "ATA 26 - Fire protection → FDU → 2",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M093",
+    "path": "ATA 26 - Fire protection → FDU → 3",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M094",
+    "path": "ATA 26 - Fire protection → Avionics smoke detected",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M095",
+    "path": "ATA 28 - Fuel → FQI → Chan 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F051",
+        "mmel_id": "28-40-02",
+        "branch": "1) one FQI channel",
+        "status": "K",
+        "note": "Сверить модификацию и ACT; отказ канала отличается от отдельной ошибки индикации количества."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M096",
+    "path": "ATA 28 - Fuel → FQI → Chan 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F051",
+        "mmel_id": "28-40-02",
+        "branch": "1) one FQI channel",
+        "status": "K",
+        "note": "Сверить модификацию и ACT; отказ канала отличается от отдельной ошибки индикации количества."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M097",
+    "path": "ATA 28 - Fuel → Fuel pump left → 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F047",
+        "mmel_id": "28-21-01",
+        "branch": "Wing Tank Pumps",
+        "status": "K",
+        "note": "Уточнить Mod.36387/SB и число исправных насосов. Не отождествлять с утечкой бака."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M098",
+    "path": "ATA 28 - Fuel → Fuel pump left → 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F047",
+        "mmel_id": "28-21-01",
+        "branch": "Wing Tank Pumps",
+        "status": "K",
+        "note": "Уточнить Mod.36387/SB и число исправных насосов. Не отождествлять с утечкой бака."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M099",
+    "path": "ATA 28 - Fuel → Fuel pump center → 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F048",
+        "mmel_id": "28-21-02",
+        "branch": "1)a) electric center pumps, no ACT",
+        "status": "U",
+        "note": "Только A319/A320 без Mod.154327. Для A321 требуются ветви transfer valves, а не этот отказ."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M100",
+    "path": "ATA 28 - Fuel → Fuel pump center → 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F048",
+        "mmel_id": "28-21-02",
+        "branch": "1)a) electric center pumps, no ACT",
+        "status": "U",
+        "note": "Только A319/A320 без Mod.154327. Для A321 требуются ветви transfer valves, а не этот отказ."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M101",
+    "path": "ATA 28 - Fuel → Fuel pump right → 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F047",
+        "mmel_id": "28-21-01",
+        "branch": "Wing Tank Pumps",
+        "status": "K",
+        "note": "Уточнить Mod.36387/SB и число исправных насосов. Не отождествлять с утечкой бака."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M102",
+    "path": "ATA 28 - Fuel → Fuel pump right → 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F047",
+        "mmel_id": "28-21-01",
+        "branch": "Wing Tank Pumps",
+        "status": "K",
+        "note": "Уточнить Mod.36387/SB и число исправных насосов. Не отождествлять с утечкой бака."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M103",
+    "path": "ATA 28 - Fuel → Fuel temp high → Inner Tank High Fuel Temp Ecam",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M104",
+    "path": "ATA 28 - Fuel → Fuel temp high → Outer Tank High Fuel Temp Ecam",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M105",
+    "path": "ATA 28 - Fuel → Fuel temp high → Inner Tank High Fuel Temp Adv",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M106",
+    "path": "ATA 28 - Fuel → Fuel temp high → Outer Tank High Fuel Temp Adv",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M107",
+    "path": "ATA 28 - Fuel → Fuel temp low → Inner Tank Low Fuel Temp Ecam",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M108",
+    "path": "ATA 28 - Fuel → Fuel temp low → Outer Tank Low Fuel Temp Ecam",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M109",
+    "path": "ATA 28 - Fuel → Fuel temp low → Inner Tank Low Fuel Temp Adv",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M110",
+    "path": "ATA 28 - Fuel → Fuel temp low → Outer Tank Low Fuel Temp Adv",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M111",
+    "path": "ATA 28 - Fuel → Fuel transfer valves → Left Transfer 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F046",
+        "mmel_id": "28-15-01",
+        "branch": "1)a) LH / 1)b) RH",
+        "status": "U",
+        "note": "Только outer-to-inner transfer: состояние открыто/закрыто определяет строку; не относится к A321."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M112",
+    "path": "ATA 28 - Fuel → Fuel transfer valves → Left Transfer 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F046",
+        "mmel_id": "28-15-01",
+        "branch": "1)a) LH / 1)b) RH",
+        "status": "U",
+        "note": "Только outer-to-inner transfer: состояние открыто/закрыто определяет строку; не относится к A321."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M113",
+    "path": "ATA 28 - Fuel → Fuel transfer valves → Right Transfer 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F046",
+        "mmel_id": "28-15-01",
+        "branch": "1)a) LH / 1)b) RH",
+        "status": "U",
+        "note": "Только outer-to-inner transfer: состояние открыто/закрыто определяет строку; не относится к A321."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M114",
+    "path": "ATA 28 - Fuel → Fuel transfer valves → Right Transfer 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F046",
+        "mmel_id": "28-15-01",
+        "branch": "1)a) LH / 1)b) RH",
+        "status": "U",
+        "note": "Только outer-to-inner transfer: состояние открыто/закрыто определяет строку; не относится к A321."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M115",
+    "path": "ATA 28 - Fuel → Fuel valves → Eng 1 Fuel Valve Stuck",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M116",
+    "path": "ATA 28 - Fuel → Fuel valves → Eng 2 Fuel Valve Stuck",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M117",
+    "path": "ATA 28 - Fuel → Fuel valves → Crossfeed Valve",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F050",
+        "mmel_id": "28-23-02",
+        "branch": "pushbutton lights vs crossfeed valve",
+        "status": "X",
+        "note": "В FAA 28-23-02 относится к кнопке/лампам. Заклинивание crossfeed нельзя подменять неисправностью его индикации."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M118",
+    "path": "ATA 28 - Fuel → Fuel valves → Defuel/transfer Valve",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "LIVE-NEW-02",
+        "mmel_id": "28-25-05",
+        "branch": "valve secured closed",
+        "status": "U",
+        "note": "Проверить, что отказ позволяет получить закрытое положение, требуемое FAA. Названия недостаточно."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M119",
+    "path": "ATA 28 - Fuel → Fuel leak → Left Outer",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M120",
+    "path": "ATA 28 - Fuel → Fuel leak → Left Inner",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M121",
+    "path": "ATA 28 - Fuel → Fuel leak → Center",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M122",
+    "path": "ATA 28 - Fuel → Fuel leak → Right Inner",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M123",
+    "path": "ATA 28 - Fuel → Fuel leak → Right Outer",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M124",
+    "path": "ATA 28 - Fuel → HP Fuel valve → Eng 1",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M125",
+    "path": "ATA 28 - Fuel → HP Fuel valve → Eng 2",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M126",
+    "path": "ATA 29 - Hydraulic power → Hydraulic leak → Green",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F056",
+        "mmel_id": "29-30-03",
+        "branch": "indication vs hydraulic leak",
+        "status": "X",
+        "note": "Пункт об индикации HYD не разрешает реальную потерю жидкости. Наличие утечки в Fenix подтверждено также руководством 2025."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M127",
+    "path": "ATA 29 - Hydraulic power → Hydraulic leak → Blue",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F056",
+        "mmel_id": "29-30-03",
+        "branch": "indication vs hydraulic leak",
+        "status": "X",
+        "note": "Пункт об индикации HYD не разрешает реальную потерю жидкости. Наличие утечки в Fenix подтверждено также руководством 2025."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M128",
+    "path": "ATA 29 - Hydraulic power → Hydraulic leak → Yellow",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F056",
+        "mmel_id": "29-30-03",
+        "branch": "indication vs hydraulic leak",
+        "status": "X",
+        "note": "Пункт об индикации HYD не разрешает реальную потерю жидкости. Наличие утечки в Fenix подтверждено также руководством 2025."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M129",
+    "path": "ATA 29 - Hydraulic power → Reservoir overheat → Green",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M130",
+    "path": "ATA 29 - Hydraulic power → Reservoir overheat → Blue",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M131",
+    "path": "ATA 29 - Hydraulic power → Reservoir overheat → Yellow",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M132",
+    "path": "ATA 29 - Hydraulic power → Reservoir low air pressure → Green Low Reservoir Air Pressure",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M133",
+    "path": "ATA 29 - Hydraulic power → Reservoir low air pressure → Blue Low Reservoir Air Pressure",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M134",
+    "path": "ATA 29 - Hydraulic power → Reservoir low air pressure → Yellow Low Reservoir Air Pressure",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M135",
+    "path": "ATA 29 - Hydraulic power → Hydraulic low → Green  Level",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M136",
+    "path": "ATA 29 - Hydraulic power → Hydraulic low → Blue  Level",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M137",
+    "path": "ATA 29 - Hydraulic power → Hydraulic low → Yellow  Level",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M138",
+    "path": "ATA 29 - Hydraulic power → Engine pumps → Eng 1 Pump Failure",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F052",
+        "mmel_id": "29-10-01",
+        "branch": "depressurization vs failed engine pump",
+        "status": "X",
+        "note": "Разрешение относится к функции разгрузки, а не потере подачи гидронасоса."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M139",
+    "path": "ATA 29 - Hydraulic power → Engine pumps → Eng 2 Pump Failure",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F052",
+        "mmel_id": "29-10-01",
+        "branch": "depressurization vs failed engine pump",
+        "status": "X",
+        "note": "Разрешение относится к функции разгрузки, а не потере подачи гидронасоса."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M140",
+    "path": "ATA 29 - Hydraulic power → Fire valves → Eng 1 Fire Valve",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M141",
+    "path": "ATA 29 - Hydraulic power → Fire valves → Eng 2 Fire Valve",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M142",
+    "path": "ATA 29 - Hydraulic power → PTU Fault",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F054",
+        "mmel_id": "29-23-01",
+        "branch": "1) automatic activation vs total PTU failure",
+        "status": "X",
+        "note": "FAA рассматривает отказ автоматики при непрерывной работе PTU; передача мощности должна сохраняться. Общий PTU Fault не эквивалентен."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M143",
+    "path": "ATA 29 - Hydraulic power → Elec pumps → Elec Hyd Pump Blue Failure",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F053",
+        "mmel_id": "29-10-02",
+        "branch": "1) automatic control vs total pump failure",
+        "status": "X",
+        "note": "MMEL требует сохранения ручной работы насоса. Полный отказ Blue electric pump этому не соответствует."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M144",
+    "path": "ATA 29 - Hydraulic power → Elec pumps → Elec Hyd Pump Yellow Failure",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F055",
+        "mmel_id": "29-25-01",
+        "branch": "Yellow System Electric Pump",
+        "status": "K",
+        "note": "Прямой кандидат на отказ насоса; кнопка OFF, cargo doors требуют ручного обслуживания по MMEL."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M145",
+    "path": "ATA 29 - Hydraulic power → Elec pump overheat → Elec Blue Pump Overheat",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M146",
+    "path": "ATA 29 - Hydraulic power → Elec pump overheat → Elec Yellow Pump Overheat",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M147",
+    "path": "ATA 32 - Landing gear → BSCU → Sys 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F080",
+        "mmel_id": "32-42-03",
+        "branch": "BSCU channels/systems",
+        "status": "U",
+        "note": "Нужны стандарт BSCU и модель самолёта. BSCU brake fault и отказ канала SYS не объединять."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M148",
+    "path": "ATA 32 - Landing gear → BSCU → Sys 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F080",
+        "mmel_id": "32-42-03",
+        "branch": "BSCU channels/systems",
+        "status": "U",
+        "note": "Нужны стандарт BSCU и модель самолёта. BSCU brake fault и отказ канала SYS не объединять."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M149",
+    "path": "ATA 32 - Landing gear → ABCU",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M150",
+    "path": "ATA 32 - Landing gear → Brake fault → Bscu 1",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M151",
+    "path": "ATA 32 - Landing gear → Brake fault → Bscu 2",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M152",
+    "path": "ATA 32 - Landing gear → Brake fault → Autobrake Failure",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F081",
+        "mmel_id": "32-42-04",
+        "branch": "main AUTO/BRK function",
+        "status": "K",
+        "note": "Обычное торможение должно сохраняться. Не выбирать подпункты ламп LO/MED/MAX вместо функции."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M153",
+    "path": "ATA 32 - Landing gear → Wheel brake fault → 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F079",
+        "mmel_id": "32-42-01",
+        "branch": "one wheel brake",
+        "status": "K",
+        "note": "Разрешён один тормоз; требуется исправность antiskid, NWS и обоих reverser. AUTO/BRK считается неработающим последствием."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M154",
+    "path": "ATA 32 - Landing gear → Wheel brake fault → 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F079",
+        "mmel_id": "32-42-01",
+        "branch": "one wheel brake",
+        "status": "K",
+        "note": "Разрешён один тормоз; требуется исправность antiskid, NWS и обоих reverser. AUTO/BRK считается неработающим последствием."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M155",
+    "path": "ATA 32 - Landing gear → Wheel brake fault → 3",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F079",
+        "mmel_id": "32-42-01",
+        "branch": "one wheel brake",
+        "status": "K",
+        "note": "Разрешён один тормоз; требуется исправность antiskid, NWS и обоих reverser. AUTO/BRK считается неработающим последствием."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M156",
+    "path": "ATA 32 - Landing gear → Wheel brake fault → 4",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F079",
+        "mmel_id": "32-42-01",
+        "branch": "one wheel brake",
+        "status": "K",
+        "note": "Разрешён один тормоз; требуется исправность antiskid, NWS и обоих reverser. AUTO/BRK считается неработающим последствием."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M157",
+    "path": "ATA 32 - Landing gear → Tyre pressure → Main 1 Low",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M158",
+    "path": "ATA 32 - Landing gear → Tyre pressure → Main 2 Low",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M159",
+    "path": "ATA 32 - Landing gear → Tyre pressure → Left 1 Low",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F082",
+        "mmel_id": "32-49-01",
+        "branch": "pressure indication vs low tyre pressure",
+        "status": "X",
+        "note": "Низкое физическое давление не равно отказу индикатора давления."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M160",
+    "path": "ATA 32 - Landing gear → Tyre pressure → Left 2 Low",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M161",
+    "path": "ATA 32 - Landing gear → Tyre pressure → Right 1 Low",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M162",
+    "path": "ATA 32 - Landing gear → Tyre pressure → Right 2 Low",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M163",
+    "path": "ATA 32 - Landing gear → Nose wheel steering",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M164",
+    "path": "ATA 32 - Landing gear → LGCIU → 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F077",
+        "mmel_id": "32-31-01",
+        "branch": "LGCIU1 vs LGCIU2",
+        "status": "X",
+        "note": "MMEL пункт озаглавлен LGCIU2; разрешение на LGCIU1 не переносится."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M165",
+    "path": "ATA 32 - Landing gear → LGCIU → 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F076",
+        "mmel_id": "32-31-01",
+        "branch": "1) LGCIU2 CEO, and relevant ACT branch",
+        "status": "K",
+        "note": "В alpha опечатка LGCUI. FAA разрешает LGCIU2 с большим списком зависимостей; актуальное имя проверить."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M166",
+    "path": "ATA 32 - Landing gear → Gear safety valve",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M167",
+    "path": "ATA 32 - Landing gear → Gear lock → Left Main Gear Does Not Lock",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M168",
+    "path": "ATA 32 - Landing gear → Gear lock → Nose Gear Does Not Lock",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M169",
+    "path": "ATA 32 - Landing gear → Gear lock → Right Main Gear Does Not Lock",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M170",
+    "path": "ATA 32 - Landing gear → Gear failure → Gear Locked Up",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M171",
+    "path": "ATA 32 - Landing gear → Gear failure → Gear Locked Down",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F078",
+        "mmel_id": "32-31-02",
+        "branch": "retraction, gear down",
+        "status": "U",
+        "note": "Может соответствовать только после проверки истинного отказа уборки и всех условий; не равно Gear locked up."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M172",
+    "path": "ATA 34 - Navigation → IR fault → Ir1 Ir Failure",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M173",
+    "path": "ATA 34 - Navigation → IR fault → Ir2 Ir Failure",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F086",
+        "mmel_id": "34-10-01",
+        "branch": "2) IR2 / 3) IR3, NAV or total as specified",
+        "status": "U",
+        "note": "Разделить NAV-only и полный отказ. Для IR2 учитываются стандарт FMS и модификации; не заменять IR1."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M174",
+    "path": "ATA 34 - Navigation → IR fault → Ir3 Ir Failure",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F086",
+        "mmel_id": "34-10-01",
+        "branch": "2) IR2 / 3) IR3, NAV or total as specified",
+        "status": "U",
+        "note": "Разделить NAV-only и полный отказ. Для IR2 учитываются стандарт FMS и модификации; не заменять IR1."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M175",
+    "path": "ATA 34 - Navigation → IRS position failure → Ir1 Position Failure",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F085",
+        "mmel_id": "34-10-01",
+        "branch": "1) IR1 NAV mode only",
+        "status": "U",
+        "note": "Требуется сохранение ATT; полный IR1 failure шире разрешения. Выбрать ветвь стандарта FMS."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M176",
+    "path": "ATA 34 - Navigation → IRS position failure → Ir2 Position Failure",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F086",
+        "mmel_id": "34-10-01",
+        "branch": "2) IR2 / 3) IR3, NAV or total as specified",
+        "status": "U",
+        "note": "Разделить NAV-only и полный отказ. Для IR2 учитываются стандарт FMS и модификации; не заменять IR1."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M177",
+    "path": "ATA 34 - Navigation → IRS position failure → Ir3 Position Failure",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F086",
+        "mmel_id": "34-10-01",
+        "branch": "2) IR2 / 3) IR3, NAV or total as specified",
+        "status": "U",
+        "note": "Разделить NAV-only и полный отказ. Для IR2 учитываются стандарт FMS и модификации; не заменять IR1."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M178",
+    "path": "ATA 34 - Navigation → ADR fault → Adr1 Failure",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F084",
+        "mmel_id": "34-10-01",
+        "branch": "ADR1 not covered by ADR2/3 relief",
+        "status": "X",
+        "note": "В прочитанном пункте указаны ADR2 и ADR3; нельзя автоматически разрешать ADR1."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M179",
+    "path": "ATA 34 - Navigation → ADR fault → Adr2 Failure",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F083",
+        "mmel_id": "34-10-01",
+        "branch": "4) ADR2 / 5) ADR3",
+        "status": "K",
+        "note": "Раздельные условия; ADR2 отличается ограничениями от ADR3."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M180",
+    "path": "ATA 34 - Navigation → ADR fault → Adr3 Failure",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F083",
+        "mmel_id": "34-10-01",
+        "branch": "4) ADR2 / 5) ADR3",
+        "status": "K",
+        "note": "Раздельные условия; ADR2 отличается ограничениями от ADR3."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M181",
+    "path": "ATA 34 - Navigation → IRS Alignment → Ir1 Alignment",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M182",
+    "path": "ATA 34 - Navigation → IRS Alignment → Ir2 Alignment",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M183",
+    "path": "ATA 34 - Navigation → IRS Alignment → Ir3 Alignment",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M184",
+    "path": "ATA 34 - Navigation → Pitot blocked → Capt",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M185",
+    "path": "ATA 34 - Navigation → Pitot blocked → F/o",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M186",
+    "path": "ATA 34 - Navigation → Pitot blocked → Stdby",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M187",
+    "path": "ATA 34 - Navigation → Pitch discrepancy → Ir1",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M188",
+    "path": "ATA 34 - Navigation → Pitch discrepancy → Ir2",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M189",
+    "path": "ATA 34 - Navigation → Pitch discrepancy → Ir3",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M190",
+    "path": "ATA 34 - Navigation → Bank discrepancy → Ir1",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M191",
+    "path": "ATA 34 - Navigation → Bank discrepancy → Ir2",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M192",
+    "path": "ATA 34 - Navigation → Bank discrepancy → Ir3",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M193",
+    "path": "ATA 34 - Navigation → Heading discrepancy → Ir1",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M194",
+    "path": "ATA 34 - Navigation → Heading discrepancy → Ir2",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M195",
+    "path": "ATA 34 - Navigation → Heading discrepancy → Ir3",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M196",
+    "path": "ATA 34 - Navigation → IR Disagree → Ir1",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M197",
+    "path": "ATA 34 - Navigation → IR Disagree → Ir2",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M198",
+    "path": "ATA 34 - Navigation → MCDU → 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F026",
+        "mmel_id": "22-82-01",
+        "branch": "MCDU",
+        "status": "K",
+        "note": "Проверить количество установленных устройств и оставшиеся способы управления; не использовать recoverable fault как постоянный дефект без проверки."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M199",
+    "path": "ATA 34 - Navigation → MCDU → 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F026",
+        "mmel_id": "22-82-01",
+        "branch": "MCDU",
+        "status": "K",
+        "note": "Проверить количество установленных устройств и оставшиеся способы управления; не использовать recoverable fault как постоянный дефект без проверки."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M200",
+    "path": "ATA 34 - Navigation → MCDU recoverable fault → Cdu 1 Recoverable Fault",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M201",
+    "path": "ATA 34 - Navigation → MCDU recoverable fault → Cdu 2 Recoverable Fault",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M202",
+    "path": "ATA 34 - Navigation → FMGC → 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F027",
+        "mmel_id": "22-83-01",
+        "branch": "1) FMGC1 / 2) FMGC2",
+        "status": "K",
+        "note": "Потеря AP/FD относится к последствиям того же FMGC. Не считать их дополнительными независимыми отказами."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M203",
+    "path": "ATA 34 - Navigation → FMGC → 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F027",
+        "mmel_id": "22-83-01",
+        "branch": "1) FMGC1 / 2) FMGC2",
+        "status": "K",
+        "note": "Потеря AP/FD относится к последствиям того же FMGC. Не считать их дополнительными независимыми отказами."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M204",
+    "path": "ATA 34 - Navigation → GPWC",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F091",
+        "mmel_id": "34-48-01",
+        "branch": "GPWS",
+        "status": "U",
+        "note": "Полный GPWC может затронуть GPWS, TAWS и windshear; выделить все последствия."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M205",
+    "path": "ATA 34 - Navigation → Radios → Vor 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F094",
+        "mmel_id": "34-55-01",
+        "branch": "VOR",
+        "status": "K",
+        "note": "Сохранить требования к маршруту/средствам навигации из MMEL."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M206",
+    "path": "ATA 34 - Navigation → Radios → Vor 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F094",
+        "mmel_id": "34-55-01",
+        "branch": "VOR",
+        "status": "K",
+        "note": "Сохранить требования к маршруту/средствам навигации из MMEL."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M207",
+    "path": "ATA 34 - Navigation → Radios → Adf 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F093",
+        "mmel_id": "34-53-01",
+        "branch": "ADF",
+        "status": "K",
+        "note": "Только установленные приёмники; alpha упоминает два, комплектация конкретного Fenix ещё не проверена."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M208",
+    "path": "ATA 34 - Navigation → Radios → Adf 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F093",
+        "mmel_id": "34-53-01",
+        "branch": "ADF",
+        "status": "K",
+        "note": "Только установленные приёмники; alpha упоминает два, комплектация конкретного Fenix ещё не проверена."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M209",
+    "path": "ATA 34 - Navigation → ILS → 1 Loc",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F087",
+        "mmel_id": "34-36-01",
+        "branch": "ILS systems",
+        "status": "U",
+        "note": "Канальный отказ приёмника и полный ILS различны. Localizer/Glideslope transmitter в alpha — отказ наземного средства, не бортового ILS."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M210",
+    "path": "ATA 34 - Navigation → ILS → 1 G/s",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F087",
+        "mmel_id": "34-36-01",
+        "branch": "ILS systems",
+        "status": "U",
+        "note": "Канальный отказ приёмника и полный ILS различны. Localizer/Glideslope transmitter в alpha — отказ наземного средства, не бортового ILS."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M211",
+    "path": "ATA 34 - Navigation → ILS → 2 Loc",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F087",
+        "mmel_id": "34-36-01",
+        "branch": "ILS systems",
+        "status": "U",
+        "note": "Канальный отказ приёмника и полный ILS различны. Localizer/Glideslope transmitter в alpha — отказ наземного средства, не бортового ILS."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M212",
+    "path": "ATA 34 - Navigation → ILS → 2 G/s",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F087",
+        "mmel_id": "34-36-01",
+        "branch": "ILS systems",
+        "status": "U",
+        "note": "Канальный отказ приёмника и полный ILS различны. Localizer/Glideslope transmitter в alpha — отказ наземного средства, не бортового ILS."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M213",
+    "path": "ATA 34 - Navigation → ILS transmitter → Localizer",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M214",
+    "path": "ATA 34 - Navigation → ILS transmitter → Glideslope",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M215",
+    "path": "ATA 34 - Navigation → GPS → 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F095",
+        "mmel_id": "34-58-01",
+        "branch": "GPS, selected configuration",
+        "status": "K",
+        "note": "Определить стандарт GPS/MMR и оставшиеся навигационные функции; не смешивать GPS с полным ADIRS."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M216",
+    "path": "ATA 34 - Navigation → GPS → 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F095",
+        "mmel_id": "34-58-01",
+        "branch": "GPS, selected configuration",
+        "status": "K",
+        "note": "Определить стандарт GPS/MMR и оставшиеся навигационные функции; не смешивать GPS с полным ADIRS."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M217",
+    "path": "ATA 34 - Navigation → Radio altimeter → 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F089",
+        "mmel_id": "34-42-01",
+        "branch": "1) RA1 / RA2 without eRudder",
+        "status": "K",
+        "note": "RA1/RA2 имеют разные сроки устранения; остальные перечисленные компьютеры должны работать."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M218",
+    "path": "ATA 34 - Navigation → Radio altimeter → 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F089",
+        "mmel_id": "34-42-01",
+        "branch": "1) RA1 / RA2 without eRudder",
+        "status": "K",
+        "note": "RA1/RA2 имеют разные сроки устранения; остальные перечисленные компьютеры должны работать."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M219",
+    "path": "ATA 34 - Navigation → NAV accuracy downgrade",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M220",
+    "path": "ATA 34 - Navigation → TCAS",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F090",
+        "mmel_id": "34-43-01",
+        "branch": "TCAS II",
+        "status": "K",
+        "note": "Совпадает функция; проверить режим отказа и ограничения выбранной строки."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M221",
+    "path": "ATA 34 - Navigation → ATC → 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F092",
+        "mmel_id": "34-52-01",
+        "branch": "ATC transponder",
+        "status": "K",
+        "note": "Учитывать оставшийся транспондер, altitude reporting и ADS-B; не считать все функции автоматически тождественными."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M222",
+    "path": "ATA 34 - Navigation → ATC → 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F092",
+        "mmel_id": "34-52-01",
+        "branch": "ATC transponder",
+        "status": "K",
+        "note": "Учитывать оставшийся транспондер, altitude reporting и ADS-B; не считать все функции автоматически тождественными."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M223",
+    "path": "ATA 36 - Pneumatic → Lavatory/Galley fan",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F002",
+        "mmel_id": "21-23-01",
+        "branch": "1) / 2)",
+        "status": "K",
+        "note": "Совпадает компонент; выбрать ветвь Mod.22561, проверить последствия для smoke detection."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M224",
+    "path": "ATA 36 - Pneumatic → Pneumatic valves → Eng 1 Hp Valve",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F098",
+        "mmel_id": "36-11-07",
+        "branch": "HPV closed",
+        "status": "U",
+        "note": "Нужно подтвердить закрытое положение и соответствующую строку MMEL."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M225",
+    "path": "ATA 36 - Pneumatic → Pneumatic valves → Eng 2 Hp Valve",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F098",
+        "mmel_id": "36-11-07",
+        "branch": "HPV closed",
+        "status": "U",
+        "note": "Нужно подтвердить закрытое положение и соответствующую строку MMEL."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M226",
+    "path": "ATA 36 - Pneumatic → Pneumatic valves → Ram Air Valve",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F016",
+        "mmel_id": "21-55-01",
+        "branch": "Emergency Ram Air Inlet",
+        "status": "U",
+        "note": "Уточнить клапан и положение; не смешивать с ram-air flaps теплообменника pack."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M227",
+    "path": "ATA 36 - Pneumatic → Pneumatic valves → Eng 1 Bleed Valve",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F097",
+        "mmel_id": "36-11-02",
+        "branch": "PRV secured closed",
+        "status": "U",
+        "note": "Fenix фиксирует текущее положение. Требуется именно closed и последствия по 36-11-01."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M228",
+    "path": "ATA 36 - Pneumatic → Pneumatic valves → Eng 2 Bleed Valve",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F097",
+        "mmel_id": "36-11-02",
+        "branch": "PRV secured closed",
+        "status": "U",
+        "note": "Fenix фиксирует текущее положение. Требуется именно closed и последствия по 36-11-01."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M229",
+    "path": "ATA 36 - Pneumatic → Pneumatic valves → Hot Air Valve",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F018",
+        "mmel_id": "21-63-03",
+        "branch": "Hot Air Pressure Regulating Valve",
+        "status": "U",
+        "note": "Сначала установить фактическое положение клапана и работоспособность trim-air; общий Hot air fault недостаточен."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M230",
+    "path": "ATA 36 - Pneumatic → Bleed air low temperature → Eng 1 Bleed Low Temp",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M231",
+    "path": "ATA 36 - Pneumatic → Bleed air low temperature → Eng 2 Bleed Low Temp",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M232",
+    "path": "ATA 36 - Pneumatic → BMC → 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F099",
+        "mmel_id": "36-11-08",
+        "branch": "BMC, CEO standard",
+        "status": "U",
+        "note": "Ветви зависят от модификаций/систем; не считать BMC1/BMC2 симметричными без разбора строки."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M233",
+    "path": "ATA 36 - Pneumatic → BMC → 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F099",
+        "mmel_id": "36-11-08",
+        "branch": "BMC, CEO standard",
+        "status": "U",
+        "note": "Ветви зависят от модификаций/систем; не считать BMC1/BMC2 симметричными без разбора строки."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M234",
+    "path": "ATA 36 - Pneumatic → Pneumatic valve → Crossbleed Valve",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F101",
+        "mmel_id": "36-12-04",
+        "branch": "AUTO/MAN control vs mechanically stuck valve",
+        "status": "X",
+        "note": "MMEL допускает потерю одного способа управления при сохранении другого; заклинивший клапан не эквивалентен."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M235",
+    "path": "ATA 36 - Pneumatic → Pneumatic valve → Apu Bleed Valve",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F100",
+        "mmel_id": "36-12-02",
+        "branch": "APU bleed valve, state and ACT",
+        "status": "U",
+        "note": "Раздельно open/closed. Для ACT-конфигураций есть дополнительные условия."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M236",
+    "path": "ATA 36 - Pneumatic → Pack valves → Pack 1 Flow Control Valve",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F013",
+        "mmel_id": "21-51-01",
+        "branch": "without Mod.30626",
+        "status": "U",
+        "note": "Для обычной однопаковой ветви клапан должен быть закрыт; Fenix фиксирует текущее положение. Также применить 21-52-01."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M237",
+    "path": "ATA 36 - Pneumatic → Pack valves → Pack 2 Flow Control Valve",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F013",
+        "mmel_id": "21-51-01",
+        "branch": "without Mod.30626",
+        "status": "U",
+        "note": "Для обычной однопаковой ветви клапан должен быть закрыт; Fenix фиксирует текущее положение. Также применить 21-52-01."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M238",
+    "path": "ATA 36 - Pneumatic → Bleed leak → Wing Engine 1",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M239",
+    "path": "ATA 36 - Pneumatic → Bleed leak → Wing Engine 2",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M240",
+    "path": "ATA 36 - Pneumatic → Bleed leak → Pylon Engine 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F102",
+        "mmel_id": "36-22-15",
+        "branch": "detection loops vs actual leak",
+        "status": "X",
+        "note": "Настоящая утечка не является отказом контура обнаружения утечки."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M241",
+    "path": "ATA 36 - Pneumatic → Bleed leak → Pylon Engine 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F102",
+        "mmel_id": "36-22-15",
+        "branch": "detection loops vs actual leak",
+        "status": "X",
+        "note": "Настоящая утечка не является отказом контура обнаружения утечки."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M242",
+    "path": "ATA 36 - Pneumatic → Bleed leak → Apu",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M243",
+    "path": "ATA 49 - APU → ECB",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F104",
+        "mmel_id": "49-10-01",
+        "branch": "APU system via ECB failure",
+        "status": "U",
+        "note": "Проверить потерю APU и отсутствие пожара/других повреждений; выбрать ветвь ACT."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M244",
+    "path": "ATA 49 - APU → APU Low oil level",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M245",
+    "path": "ATA 49 - APU → APU fuel valve",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F105",
+        "mmel_id": "49-30-02",
+        "branch": "APU LP valve",
+        "status": "U",
+        "note": "Требуется идентификация клапана и его положения; APU fire не эквивалентен."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M246",
+    "path": "ATA 23 - Communications → Stuck mic → Capt",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M247",
+    "path": "ATA 23 - Communications → Stuck mic → F/o",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M248",
+    "path": "ATA 30 - Ice and rain protection → WAI Valves → Left Wai Valve",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F057",
+        "mmel_id": "30-11-01",
+        "branch": "wing anti-ice valve",
+        "status": "U",
+        "note": "Разрешённые позиции и условия различны; stuck in current position нужно перевести в проверенный конкретный сценарий."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M249",
+    "path": "ATA 30 - Ice and rain protection → WAI Valves → Right Wai Valve",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F057",
+        "mmel_id": "30-11-01",
+        "branch": "wing anti-ice valve",
+        "status": "U",
+        "note": "Разрешённые позиции и условия различны; stuck in current position нужно перевести в проверенный конкретный сценарий."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M250",
+    "path": "ATA 30 - Ice and rain protection → EAI Valves → Eng 1 Eai Valve",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F058",
+        "mmel_id": "30-21-01",
+        "branch": "CEO valve, CFM/IAE rows",
+        "status": "U",
+        "note": "Сначала определить открыто/закрыто. Ветка IAE при открытом клапане имеет дополнительное условие OAT; neo-ветви исключены."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M251",
+    "path": "ATA 30 - Ice and rain protection → EAI Valves → Eng 2 Eai Valve",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F058",
+        "mmel_id": "30-21-01",
+        "branch": "CEO valve, CFM/IAE rows",
+        "status": "U",
+        "note": "Сначала определить открыто/закрыто. Ветка IAE при открытом клапане имеет дополнительное условие OAT; neo-ветви исключены."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M252",
+    "path": "ATA 30 - Ice and rain protection → WHC → 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F066",
+        "mmel_id": "30-42-01",
+        "branch": "Window Heat Computers",
+        "status": "U",
+        "note": "Проверить, какие обогреватели теряются и допустимость выбранной строки; не путать компьютер с отдельным стеклом."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M253",
+    "path": "ATA 30 - Ice and rain protection → WHC → 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F066",
+        "mmel_id": "30-42-01",
+        "branch": "Window Heat Computers",
+        "status": "U",
+        "note": "Проверить, какие обогреватели теряются и допустимость выбранной строки; не путать компьютер с отдельным стеклом."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M254",
+    "path": "ATA 30 - Ice and rain protection → AOA Heat → Capt",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F063",
+        "mmel_id": "30-31-04",
+        "branch": "AOA heaters, CEO",
+        "status": "K",
+        "note": "Выбирать отдельную позицию и её условия; отказ датчика AOA не тождественен heater."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M255",
+    "path": "ATA 30 - Ice and rain protection → AOA Heat → F/o",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F063",
+        "mmel_id": "30-31-04",
+        "branch": "AOA heaters, CEO",
+        "status": "K",
+        "note": "Выбирать отдельную позицию и её условия; отказ датчика AOA не тождественен heater."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M256",
+    "path": "ATA 30 - Ice and rain protection → AOA Heat → Stby",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F063",
+        "mmel_id": "30-31-04",
+        "branch": "AOA heaters, CEO",
+        "status": "K",
+        "note": "Выбирать отдельную позицию и её условия; отказ датчика AOA не тождественен heater."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M257",
+    "path": "ATA 30 - Ice and rain protection → TAT Heat → Capt",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F064",
+        "mmel_id": "30-31-05",
+        "branch": "TAT heaters, 2 installed",
+        "status": "K",
+        "note": "MMEL указывает два TAT heater; нужен актуальный список Fenix."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M258",
+    "path": "ATA 30 - Ice and rain protection → TAT Heat → F/o",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F064",
+        "mmel_id": "30-31-05",
+        "branch": "TAT heaters, 2 installed",
+        "status": "K",
+        "note": "MMEL указывает два TAT heater; нужен актуальный список Fenix."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M259",
+    "path": "ATA 30 - Ice and rain protection → TAT Heat → Stby",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F065",
+        "mmel_id": "30-31-05",
+        "branch": "unsupported third TAT heater",
+        "status": "X",
+        "note": "Alpha содержит STBY, но MMEL указывает два установленных TAT heater. Не создавать третий по устаревшему перечню."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M260",
+    "path": "ATA 30 - Ice and rain protection → Pitot Heat → Capt",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F061",
+        "mmel_id": "30-31-02",
+        "branch": "CAPT / F/O / STBY",
+        "status": "K",
+        "note": "Раздельные строки по месту установки; blockage не равно отказу обогрева."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M261",
+    "path": "ATA 30 - Ice and rain protection → Pitot Heat → F/o",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F061",
+        "mmel_id": "30-31-02",
+        "branch": "CAPT / F/O / STBY",
+        "status": "K",
+        "note": "Раздельные строки по месту установки; blockage не равно отказу обогрева."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M262",
+    "path": "ATA 30 - Ice and rain protection → Pitot Heat → Stby",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F061",
+        "mmel_id": "30-31-02",
+        "branch": "CAPT / F/O / STBY",
+        "status": "K",
+        "note": "Раздельные строки по месту установки; blockage не равно отказу обогрева."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M263",
+    "path": "ATA 30 - Ice and rain protection → Static Heat → Left  Capt",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F062",
+        "mmel_id": "30-31-03",
+        "branch": "Static heaters, side and position",
+        "status": "K",
+        "note": "Не путать левый/правый порт с CAPT/F/O/STBY. В MMEL установлено шесть heaters."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M264",
+    "path": "ATA 30 - Ice and rain protection → Static Heat → Right  Capt",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F062",
+        "mmel_id": "30-31-03",
+        "branch": "Static heaters, side and position",
+        "status": "K",
+        "note": "Не путать левый/правый порт с CAPT/F/O/STBY. В MMEL установлено шесть heaters."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M265",
+    "path": "ATA 30 - Ice and rain protection → Static Heat → Left  F/o",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F062",
+        "mmel_id": "30-31-03",
+        "branch": "Static heaters, side and position",
+        "status": "K",
+        "note": "Не путать левый/правый порт с CAPT/F/O/STBY. В MMEL установлено шесть heaters."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M266",
+    "path": "ATA 30 - Ice and rain protection → Static Heat → Right  F/o",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F062",
+        "mmel_id": "30-31-03",
+        "branch": "Static heaters, side and position",
+        "status": "K",
+        "note": "Не путать левый/правый порт с CAPT/F/O/STBY. В MMEL установлено шесть heaters."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M267",
+    "path": "ATA 30 - Ice and rain protection → Static Heat → Left  Stby",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F062",
+        "mmel_id": "30-31-03",
+        "branch": "Static heaters, side and position",
+        "status": "K",
+        "note": "Не путать левый/правый порт с CAPT/F/O/STBY. В MMEL установлено шесть heaters."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M268",
+    "path": "ATA 30 - Ice and rain protection → Static Heat → Right  Stby",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F062",
+        "mmel_id": "30-31-03",
+        "branch": "Static heaters, side and position",
+        "status": "K",
+        "note": "Не путать левый/правый порт с CAPT/F/O/STBY. В MMEL установлено шесть heaters."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M269",
+    "path": "ATA 30 - Ice and rain protection → PHC → 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F060",
+        "mmel_id": "30-31-01",
+        "branch": "1) retained heater operation vs PHC1 loss",
+        "status": "X",
+        "note": "Alpha PHC1 выключает обогрев CAPT. Строка1 требует исправный соответствующий heater; эквивалентность не доказана."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M270",
+    "path": "ATA 30 - Ice and rain protection → PHC → 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F059",
+        "mmel_id": "30-31-01",
+        "branch": "2) F/O or STBY loss of heating",
+        "status": "U",
+        "note": "Alpha определяет PHC как потерю обогрева: не использовать строку1, где обогрев должен оставаться исправным. Для F/O/STBY читать специальные строки."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M271",
+    "path": "ATA 30 - Ice and rain protection → PHC → 3",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F059",
+        "mmel_id": "30-31-01",
+        "branch": "2) F/O or STBY loss of heating",
+        "status": "U",
+        "note": "Alpha определяет PHC как потерю обогрева: не использовать строку1, где обогрев должен оставаться исправным. Для F/O/STBY читать специальные строки."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M272",
+    "path": "ATA 30 - Ice and rain protection → Icing → Eng 1",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M273",
+    "path": "ATA 30 - Ice and rain protection → Icing → Eng 2",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M274",
+    "path": "ATA 27 - Flight controls → IPPU → 1",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M275",
+    "path": "ATA 27 - Flight controls → IPPU → 2",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M276",
+    "path": "ATA 27 - Flight controls → Surface lock → Flap Locked",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M277",
+    "path": "ATA 27 - Flight controls → Surface lock → Slat Locked",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M278",
+    "path": "ATA 27 - Flight controls → Alignment fault",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M279",
+    "path": "ATA 27 - Flight controls → SFCC → 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F040",
+        "mmel_id": "27-51-01",
+        "branch": "SFCC1/full computer vs permitted channel",
+        "status": "X",
+        "note": "Общий отказ компьютера шире отдельного разрешённого канала. Нельзя автоматически применить один подпункт."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M280",
+    "path": "ATA 27 - Flight controls → SFCC → 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F040",
+        "mmel_id": "27-51-01",
+        "branch": "SFCC1/full computer vs permitted channel",
+        "status": "X",
+        "note": "Общий отказ компьютера шире отдельного разрешённого канала. Нельзя автоматически применить один подпункт."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M281",
+    "path": "ATA 27 - Flight controls → Flap → Sfcc 1  Sys",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M282",
+    "path": "ATA 27 - Flight controls → Flap → Sfcc 2  Sys",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F039",
+        "mmel_id": "27-51-01",
+        "branch": "1)a) SFCC2 flap / 2)a) SFCC2 slat",
+        "status": "K",
+        "note": "Для CEO документ называет канал SFCC2. Не переносить на SFCC1 или целиком SFCC2; условия испытаний WTB сохраняются."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M283",
+    "path": "ATA 27 - Flight controls → Slat → Sfcc 1  Sys",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M284",
+    "path": "ATA 27 - Flight controls → Slat → Sfcc 2  Sys",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F039",
+        "mmel_id": "27-51-01",
+        "branch": "1)a) SFCC2 flap / 2)a) SFCC2 slat",
+        "status": "K",
+        "note": "Для CEO документ называет канал SFCC2. Не переносить на SFCC1 или целиком SFCC2; условия испытаний WTB сохраняются."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M285",
+    "path": "ATA 27 - Flight controls → Nonresettable fault → Elac 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F041",
+        "mmel_id": "27-93-01",
+        "branch": "1) / 2) ELAC1",
+        "status": "K",
+        "note": "ELAC1; ветвь зависит от модели/модификаций. ELAC2 и остальные перечисленные системы должны работать."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M286",
+    "path": "ATA 27 - Flight controls → Nonresettable fault → Elac 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F042",
+        "mmel_id": "27-93-01",
+        "branch": "ELAC2 vs permitted ELAC1",
+        "status": "X",
+        "note": "Прочитанные разрешения относятся к ELAC1 либо его функции; симметрия по номеру недопустима."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M287",
+    "path": "ATA 27 - Flight controls → Nonresettable fault → Sec 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F043",
+        "mmel_id": "27-94-01",
+        "branch": "1) SEC1 / 2) SEC2 / 3) SEC3",
+        "status": "K",
+        "note": "Нужны разные записи по SEC и комплектации. Для A320 Sharklets выделены отдельные подпункты; применяются требования к характеристикам AFM."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M288",
+    "path": "ATA 27 - Flight controls → Nonresettable fault → Sec 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F043",
+        "mmel_id": "27-94-01",
+        "branch": "1) SEC1 / 2) SEC2 / 3) SEC3",
+        "status": "K",
+        "note": "Нужны разные записи по SEC и комплектации. Для A320 Sharklets выделены отдельные подпункты; применяются требования к характеристикам AFM."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M289",
+    "path": "ATA 27 - Flight controls → Nonresettable fault → Sec 3",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F043",
+        "mmel_id": "27-94-01",
+        "branch": "1) SEC1 / 2) SEC2 / 3) SEC3",
+        "status": "K",
+        "note": "Нужны разные записи по SEC и комплектации. Для A320 Sharklets выделены отдельные подпункты; применяются требования к характеристикам AFM."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M290",
+    "path": "ATA 27 - Flight controls → Resettable fault → Elac 1",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M291",
+    "path": "ATA 27 - Flight controls → Resettable fault → Elac 2",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M292",
+    "path": "ATA 27 - Flight controls → Resettable fault → Sec 1",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M293",
+    "path": "ATA 27 - Flight controls → Resettable fault → Sec 2",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M294",
+    "path": "ATA 27 - Flight controls → Resettable fault → Sec 3",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M295",
+    "path": "ATA 27 - Flight controls → Yaw damper → Channel 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F021",
+        "mmel_id": "22-63-01",
+        "branch": "1) System 1 / 2) System 2",
+        "status": "K",
+        "note": "Раздельные ветви; второй демпфер должен работать."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M296",
+    "path": "ATA 27 - Flight controls → Yaw damper → Channel 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F021",
+        "mmel_id": "22-63-01",
+        "branch": "1) System 1 / 2) System 2",
+        "status": "K",
+        "note": "Раздельные ветви; второй демпфер должен работать."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M297",
+    "path": "ATA 27 - Flight controls → Sidestick reversal → Pitch Capt",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M298",
+    "path": "ATA 27 - Flight controls → Sidestick reversal → Roll Capt",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M299",
+    "path": "ATA 27 - Flight controls → Sidestick reversal → Pitch F/o",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M300",
+    "path": "ATA 27 - Flight controls → Sidestick reversal → Roll F/o",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M301",
+    "path": "ATA 27 - Flight controls → Sidestick → Fault Capt",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M302",
+    "path": "ATA 27 - Flight controls → Sidestick → Fault F/o",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M303",
+    "path": "ATA 27 - Flight controls → FCDC → 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F045",
+        "mmel_id": "27-95-01",
+        "branch": "FCDC1 not covered by FCDC2 relief",
+        "status": "X",
+        "note": "Нельзя переносить разрешение FCDC2 на FCDC1."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M304",
+    "path": "ATA 27 - Flight controls → FCDC → 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F044",
+        "mmel_id": "27-95-01",
+        "branch": "FCDC2 only",
+        "status": "K",
+        "note": "FAA разрешает FCDC2. Ветвь зависит от Mod.35542/steep approach; не смешивать с ELAC/SEC."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M305",
+    "path": "ATA 27 - Flight controls → Stabilizer jam",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M306",
+    "path": "ATA 27 - Flight controls → Elev → L+r Failure",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M307",
+    "path": "ATA 27 - Flight controls → Elev → L  Failure",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M308",
+    "path": "ATA 27 - Flight controls → Elev → R  Failure",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M309",
+    "path": "ATA 80 - Start faults → Start valve → Left",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F111",
+        "mmel_id": "80-11-01",
+        "branch": "1)a) CFM/IAE start valve",
+        "status": "U",
+        "note": "Alpha: механически закрыт. FAA требует наземной ручной работы клапана; доступность такого обслуживания в Fenix не подтверждена."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M310",
+    "path": "ATA 80 - Start faults → Start valve → Right",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F111",
+        "mmel_id": "80-11-01",
+        "branch": "1)a) CFM/IAE start valve",
+        "status": "U",
+        "note": "Alpha: механически закрыт. FAA требует наземной ручной работы клапана; доступность такого обслуживания в Fenix не подтверждена."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M311",
+    "path": "ATA 80 - Start faults → Hot start → Eng 1",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M312",
+    "path": "ATA 80 - Start faults → Hot start → Eng 2",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M313",
+    "path": "ATA 80 - Start faults → Stall/Hung start → Eng 1 Hung Start",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M314",
+    "path": "ATA 80 - Start faults → Stall/Hung start → Eng 2 Hung Start",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M315",
+    "path": "ATA 80 - Start faults → No ignition → Eng 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F107",
+        "mmel_id": "74-31-01",
+        "branch": "ignition channel vs no ignition",
+        "status": "U",
+        "note": "Нельзя назначить допуск отдельного igniter на общий отказ запуска без проверки, какой канал остался работоспособен."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M316",
+    "path": "ATA 80 - Start faults → No ignition → Eng 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F107",
+        "mmel_id": "74-31-01",
+        "branch": "ignition channel vs no ignition",
+        "status": "U",
+        "note": "Нельзя назначить допуск отдельного igniter на общий отказ запуска без проверки, какой канал остался работоспособен."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M317",
+    "path": "ATA 31 - Indicating/Recording system → CFDIU",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F067",
+        "mmel_id": "31-30-01",
+        "branch": "CFDS",
+        "status": "K",
+        "note": "Совпадает система диагностики; проверить, что отказ не шире CFDS."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M318",
+    "path": "ATA 31 - Indicating/Recording system → ECP",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F072",
+        "mmel_id": "31-56-01",
+        "branch": "ECAM Control Panel",
+        "status": "U",
+        "note": "Уточнить, совпадает ли полный internal failure панели с разрешёнными функциями/ветвью."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M319",
+    "path": "ATA 31 - Indicating/Recording system → SDAC → 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F071",
+        "mmel_id": "31-55-01",
+        "branch": "SDAC1 not covered by SDAC2 relief",
+        "status": "X",
+        "note": "Нельзя переносить разрешение SDAC2 на SDAC1."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M320",
+    "path": "ATA 31 - Indicating/Recording system → SDAC → 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F070",
+        "mmel_id": "31-55-01",
+        "branch": "SDAC2 only",
+        "status": "K",
+        "note": "MMEL явно называет SDAC2."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M321",
+    "path": "ATA 31 - Indicating/Recording system → FWC → 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F069",
+        "mmel_id": "31-53-01",
+        "branch": "FWC1 not covered by FWC2 relief",
+        "status": "X",
+        "note": "Нельзя переносить разрешение FWC2 на FWC1."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M322",
+    "path": "ATA 31 - Indicating/Recording system → FWC → 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F068",
+        "mmel_id": "31-53-01",
+        "branch": "FWC2 only",
+        "status": "K",
+        "note": "Документ разрешает FWC2, с условиями steep approach и минимумов."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M323",
+    "path": "ATA 31 - Indicating/Recording system → CVR",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F028",
+        "mmel_id": "23-71-01",
+        "branch": "CVR system",
+        "status": "K",
+        "note": "Совпадает компонент; ограничения выбранной строки FAA сохраняются. Подтверждение записи звука в симуляторе отсутствует."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M324",
+    "path": "ATA 31 - Indicating/Recording system → DMC → 1",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F075",
+        "mmel_id": "31-63-02",
+        "branch": "1) DMC1 / 2) DMC2 / 3) DMC3",
+        "status": "U",
+        "note": "Факт EIS2 не определяет S4-2/S7/S8-2 и автоматическое AC ESS switching. Требуется точная комплектация."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M325",
+    "path": "ATA 31 - Indicating/Recording system → DMC → 2",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F075",
+        "mmel_id": "31-63-02",
+        "branch": "1) DMC1 / 2) DMC2 / 3) DMC3",
+        "status": "U",
+        "note": "Факт EIS2 не определяет S4-2/S7/S8-2 и автоматическое AC ESS switching. Требуется точная комплектация."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M326",
+    "path": "ATA 31 - Indicating/Recording system → DMC → 3",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F075",
+        "mmel_id": "31-63-02",
+        "branch": "1) DMC1 / 2) DMC2 / 3) DMC3",
+        "status": "U",
+        "note": "Факт EIS2 не определяет S4-2/S7/S8-2 и автоматическое AC ESS switching. Требуется точная комплектация."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M327",
+    "path": "ATA 31 - Indicating/Recording system → DCDU → Capt",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "LIVE-NEW-01",
+        "mmel_id": "46-21-02",
+        "branch": "one DCDU",
+        "status": "K",
+        "note": "Пункт DCDU есть в актуальном меню; Sim Settings показывает DCDU включённым. Один отказ требует проверки поведения. Не спутывать DCDU с MCDU."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M328",
+    "path": "ATA 31 - Indicating/Recording system → DCDU → Fo",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "LIVE-NEW-01",
+        "mmel_id": "46-21-02",
+        "branch": "one DCDU",
+        "status": "K",
+        "note": "Пункт DCDU есть в актуальном меню; Sim Settings показывает DCDU включённым. Один отказ требует проверки поведения. Не спутывать DCDU с MCDU."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M329",
+    "path": "ATA 31 - Indicating/Recording system → DU → Capt Pfd",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F074",
+        "mmel_id": "31-63-01",
+        "branch": "CAPT PFD and upper ECAM not listed",
+        "status": "X",
+        "note": "PFDU1 и E/WDU не включены в прочитанные разрешения; не добавлять по аналогии с другими DU."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M330",
+    "path": "ATA 31 - Indicating/Recording system → DU → Capt Nd",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F073",
+        "mmel_id": "31-63-01",
+        "branch": "1) PFDU2 / 2) NDU1 / 3) NDU2 / 4) SDU",
+        "status": "K",
+        "note": "FAA перечисляет конкретные дисплеи. Для SDU отдельные Mod.36414/38111; остальные дисплеи должны быть исправны."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M331",
+    "path": "ATA 31 - Indicating/Recording system → DU → F/o Nd",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F073",
+        "mmel_id": "31-63-01",
+        "branch": "1) PFDU2 / 2) NDU1 / 3) NDU2 / 4) SDU",
+        "status": "K",
+        "note": "FAA перечисляет конкретные дисплеи. Для SDU отдельные Mod.36414/38111; остальные дисплеи должны быть исправны."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M332",
+    "path": "ATA 31 - Indicating/Recording system → DU → F/o Pfd",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F073",
+        "mmel_id": "31-63-01",
+        "branch": "1) PFDU2 / 2) NDU1 / 3) NDU2 / 4) SDU",
+        "status": "K",
+        "note": "FAA перечисляет конкретные дисплеи. Для SDU отдельные Mod.36414/38111; остальные дисплеи должны быть исправны."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M333",
+    "path": "ATA 31 - Indicating/Recording system → DU → Ecam Upper",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F074",
+        "mmel_id": "31-63-01",
+        "branch": "CAPT PFD and upper ECAM not listed",
+        "status": "X",
+        "note": "PFDU1 и E/WDU не включены в прочитанные разрешения; не добавлять по аналогии с другими DU."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M334",
+    "path": "ATA 31 - Indicating/Recording system → DU → Ecam Lower",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F073",
+        "mmel_id": "31-63-01",
+        "branch": "1) PFDU2 / 2) NDU1 / 3) NDU2 / 4) SDU",
+        "status": "K",
+        "note": "FAA перечисляет конкретные дисплеи. Для SDU отдельные Mod.36414/38111; остальные дисплеи должны быть исправны."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M335",
+    "path": "ATA 35 - Oxygen → Crew oxygen 1 → Crew Oxygen Pressure < 400",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F096",
+        "mmel_id": "35-13-01",
+        "branch": "pressure indication vs oxygen depletion",
+        "status": "X",
+        "note": "Малое количество кислорода не равно отказу указателя. Эти сценарии не включать по пункту индикации."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M336",
+    "path": "ATA 35 - Oxygen → Crew oxygen 1 → Crew Oxygen Pressure < 800",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F096",
+        "mmel_id": "35-13-01",
+        "branch": "pressure indication vs oxygen depletion",
+        "status": "X",
+        "note": "Малое количество кислорода не равно отказу указателя. Эти сценарии не включать по пункту индикации."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M337",
+    "path": "ATA 35 - Oxygen → Crew oxygen 2 → Pressure < 400",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M338",
+    "path": "ATA 35 - Oxygen → Crew oxygen 2 → Pressure < 800",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M339",
+    "path": "ATA 35 - Oxygen → Crew oxygen → Oxygen Supply Valve",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M340",
+    "path": "ATA 35 - Oxygen → Crew oxygen → Oxygen Supply Valve 2",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M341",
+    "path": "ATA 46 - Information systems → ATSU",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F103",
+        "mmel_id": "46-21-01",
+        "branch": "ATSU",
+        "status": "K",
+        "note": "Совпадает блок; определить связанные функции datalink, не переносить на EFB."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M342",
+    "path": "ATA 52 - Doors → Doors left → Forward Avionics Door",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F106",
+        "mmel_id": "52-70-01",
+        "branch": "door indication by physical door type",
+        "status": "U",
+        "note": "Alpha описывает сигнал датчика. Проверить, что дверь физически закрыта; количество/расположение дверей различается у A319/320/321."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M343",
+    "path": "ATA 52 - Doors → Doors left → Left Avionics Door",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M344",
+    "path": "ATA 52 - Doors → Doors left → Right Avionics Door",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M345",
+    "path": "ATA 52 - Doors → Doors left → Forward Entry Left Door",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M346",
+    "path": "ATA 52 - Doors → Doors left → Left Wing 1 Door",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M347",
+    "path": "ATA 52 - Doors → Doors left → Left Wing 2 Door",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M348",
+    "path": "ATA 52 - Doors → Doors left → Aft Entry Left Door",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M349",
+    "path": "ATA 52 - Doors → Doors right → Forward Entry Right Door",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M350",
+    "path": "ATA 52 - Doors → Doors right → Aft Avionics Door",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M351",
+    "path": "ATA 52 - Doors → Doors right → Forward Cargo Door",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F106",
+        "mmel_id": "52-70-01",
+        "branch": "door indication by physical door type",
+        "status": "U",
+        "note": "Alpha описывает сигнал датчика. Проверить, что дверь физически закрыта; количество/расположение дверей различается у A319/320/321."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M352",
+    "path": "ATA 52 - Doors → Doors right → Right Wing 1 Door",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M353",
+    "path": "ATA 52 - Doors → Doors right → Right Wing 2 Door",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M354",
+    "path": "ATA 52 - Doors → Doors right → Aft Cargo Door",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F106",
+        "mmel_id": "52-70-01",
+        "branch": "door indication by physical door type",
+        "status": "U",
+        "note": "Alpha описывает сигнал датчика. Проверить, что дверь физически закрыта; количество/расположение дверей различается у A319/320/321."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M355",
+    "path": "ATA 52 - Doors → Doors right → Bulk Door",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M356",
+    "path": "ATA 52 - Doors → Doors right → Aft Entry Right Door",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M357",
+    "path": "ATA 70 - Power plant → Fadec → Left Channel A",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M358",
+    "path": "ATA 70 - Power plant → Fadec → Left Channel B",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M359",
+    "path": "ATA 70 - Power plant → Fadec → Right Channel A",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M360",
+    "path": "ATA 70 - Power plant → Fadec → Right Channel B",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M361",
+    "path": "ATA 70 - Power plant → EIU → 1",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M362",
+    "path": "ATA 70 - Power plant → EIU → 2",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M363",
+    "path": "ATA 70 - Power plant → Engine surge → Left Surge",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M364",
+    "path": "ATA 70 - Power plant → Engine surge → Right Surge",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M365",
+    "path": "ATA 70 - Power plant → Engine failure → Eng 1 Failure",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M366",
+    "path": "ATA 70 - Power plant → Engine failure → Eng 2 Failure",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M367",
+    "path": "ATA 70 - Power plant → Engine failure with damage → Eng 1 Failure With Damage",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M368",
+    "path": "ATA 70 - Power plant → Engine failure with damage → Eng 2 Failure With Damage",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M369",
+    "path": "ATA 70 - Power plant → Engine birdstrike → Left Bird Strike",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M370",
+    "path": "ATA 70 - Power plant → Engine birdstrike → Right Bird Strike",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M371",
+    "path": "ATA 70 - Power plant → Reverser pressurized → Left",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F109",
+        "mmel_id": "78-30-01",
+        "branch": "unlocked/pressurized is not secured stowed",
+        "status": "X",
+        "note": "Не соответствует требованию отключённого убранного реверса и отсутствия REV PRESSURIZED."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M372",
+    "path": "ATA 70 - Power plant → Reverser pressurized → Right",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F109",
+        "mmel_id": "78-30-01",
+        "branch": "unlocked/pressurized is not secured stowed",
+        "status": "X",
+        "note": "Не соответствует требованию отключённого убранного реверса и отсутствия REV PRESSURIZED."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M373",
+    "path": "ATA 70 - Power plant → Reverser unlocked → Left",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F109",
+        "mmel_id": "78-30-01",
+        "branch": "unlocked/pressurized is not secured stowed",
+        "status": "X",
+        "note": "Не соответствует требованию отключённого убранного реверса и отсутствия REV PRESSURIZED."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M374",
+    "path": "ATA 70 - Power plant → Reverser unlocked → Right",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F109",
+        "mmel_id": "78-30-01",
+        "branch": "unlocked/pressurized is not secured stowed",
+        "status": "X",
+        "note": "Не соответствует требованию отключённого убранного реверса и отсутствия REV PRESSURIZED."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M375",
+    "path": "ATA 70 - Power plant → Reverser inhibited by maintenance → Left Reverser Inhibited By Maint",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F108",
+        "mmel_id": "78-30-01",
+        "branch": "1) CEO, one reverser secured stowed",
+        "status": "K",
+        "note": "Подходящий вид отказа. Раздельные проверки CFM switches / IAE LVDT; оба тормозных условия и характеристики обязательны."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M376",
+    "path": "ATA 70 - Power plant → Reverser inhibited by maintenance → Right Reverser Inhibited By Maint",
+    "evaluated_mmel_references": [
+      {
+        "assessment_id": "F108",
+        "mmel_id": "78-30-01",
+        "branch": "1) CEO, one reverser secured stowed",
+        "status": "K",
+        "note": "Подходящий вид отказа. Раздельные проверки CFM switches / IAE LVDT; оба тормозных условия и характеристики обязательны."
+      }
+    ],
+    "screening_status": "см. оценку каждого соответствия",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M377",
+    "path": "ATA 70 - Power plant → vibration N1 → Eng 1 High",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M378",
+    "path": "ATA 70 - Power plant → vibration N1 → Eng 2 High",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M379",
+    "path": "ATA 70 - Power plant → vibration N2 → Eng 1 High",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M380",
+    "path": "ATA 70 - Power plant → vibration N2 → Eng 2 High",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M381",
+    "path": "ATA 70 - Power plant → Oil leak → Left",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M382",
+    "path": "ATA 70 - Power plant → Oil leak → Right",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M383",
+    "path": "ATA 70 - Power plant → Reverser shutoff valve → Left",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  },
+  {
+    "menu_id": "M384",
+    "path": "ATA 70 - Power plant → Reverser shutoff valve → Right",
+    "evaluated_mmel_references": [],
+    "screening_status": "соответствие FAA MMEL пока не установлено",
+    "behavior_tested": false,
+    "approved_for_generation": false
+  }
+]

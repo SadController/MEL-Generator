@@ -1,0 +1,1241 @@
+
+=== PDF PAGE 1 ===
+REFERENCE: NWS A320/A321 FLEET CCOM
+ISSUE DATE: 24 APR 14
+A320/A321
+CABIN CREW
+OPERATING MANUAL
+The content of this document is the property of Airbus. It is supplied in confidence and commercial
+security on its contents must be maintained. It must not be used for any purpose other than that for
+which it is supplied, nor may information contained in it be disclosed to unauthorized persons. It must
+not be reproduced in whole or in part without permission in writing from the owners of the copyright.
+© AIRBUS 2005. All rights reserved.
+AIRBUS S.A.S
+CUSTOMER SERVICES DIRECTORATE
+31707 BLAGNAC CEDEX
+FRANCE
+
+=== PDF PAGE 2 ===
+Intentionally left blank
+
+=== PDF PAGE 3 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+TRANSMITTAL LETTER
+NWS A320/A321 FLEET
+TRL P 1/2
+CCOM
+24 APR 14
+Issue date: 24 APR 14
+This is the CABIN CREW OPERATING MANUAL at issue date 24 APR 14 for the A320/A321 and
+replacing last issue dated 22 JAN 14
+
+=== PDF PAGE 4 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+TRANSMITTAL LETTER
+Intentionally left blank
+NWS A320/A321 FLEET
+TRL P 2/2
+CCOM
+24 APR 14
+
+=== PDF PAGE 5 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+FILING INSTRUCTIONS
+NWS A320/A321 FLEET
+FI P 1/2
+CCOM
+24 APR 14
+Please incorporate this revision as follow:
+Insert
+Localization
+Subsection Title
+Remove
+Rev. Date
+PLP-LESS
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+ALL
+24 APR 14
+PLP-LEDU
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+ALL
+24 APR 14
+02-PLP-TOC
+TABLE OF CONTENTS
+ALL
+24 APR 14
+02-PLP-SOH
+SUMMARY OF HIGHLIGHTS
+ALL
+24 APR 14
+02-110
+LAVATORIES
+ALL
+24 APR 14
+
+=== PDF PAGE 6 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+FILING INSTRUCTIONS
+Intentionally left blank
+NWS A320/A321 FLEET
+FI P 2/2
+CCOM
+24 APR 14
+
+=== PDF PAGE 7 ===
+ 
+PRELIMINARY PAGES
+
+=== PDF PAGE 8 ===
+Intentionally left blank
+
+=== PDF PAGE 9 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE CABIN CREW BULLETIN
+NWS A320/A321 FLEET
+PLP-LECCB P 1/2
+CCOM
+05 SEP 12
+M
+(1)
+Identification
+T
+(2)
+Rev. Date
+Title
+CCB1 issue 1.0
+W
+28 SEP 07
+Spurious FAP Message - Approval
+Criteria: K8400
+Applicable to: ALL
+CCB2 issue 1.0
+W
+28 SEP 07
+Inadvertent FAP Reset - Approval
+Criteria: K8400
+Applicable to: ALL
+CCB3 issue 1.0
+W
+28 SEP 07
+Loss Of The I-PRAM Audio Sound - Approval
+Criteria: K8400
+Applicable to: ALL
+CCB4 issue 1.0
+W
+28 SEP 07
+Anomalies On The FAP Pages - Approval
+Criteria: K8400
+Applicable to: ALL
+(1) Evolution code : N=New, R=Revised, E=Effectivity
+(2) Ecam Importance Type
+
+=== PDF PAGE 10 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE CABIN CREW BULLETIN
+Intentionally left blank
+NWS A320/A321 FLEET
+PLP-LECCB P 2/2
+CCOM
+05 SEP 12
+
+=== PDF PAGE 11 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+PRELIMINARY PAGES
+TABLE OF CONTENTS
+NWS A320/A321 FLEET
+PLP-TOC P 1/2
+CCOM
+12 DEC 13
+00 INTRODUCTION
+01 AIRCRAFT GENERAL
+02 CABIN INTERIOR
+03 CIDS AND COMMUNICATIONS
+04 CABIN INFORMATION AND ENTERTAINMENT SYSTEMS
+05 EVACUATION DEVICES
+06 OXYGEN
+07 EMERGENCY EQUIPMENT
+08 STANDARD OPERATING PROCEDURES
+09 ABNORMAL/EMERGENCY PROCEDURES
+10 CABIN CREW BULLETINS
+
+=== PDF PAGE 12 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+PRELIMINARY PAGES
+TABLE OF CONTENTS
+Intentionally left blank
+NWS A320/A321 FLEET
+PLP-TOC P 2/2
+CCOM
+12 DEC 13
+
+=== PDF PAGE 13 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320/A321 FLEET
+PLP-LESS P 1/4
+CCOM
+24 APR 14
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+R
+PLP-LESS
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+24 APR 14
+PLP-LETDU
+LIST OF EFFECTIVE TEMPORARY DOCUMENTARY UNITS
+05 SEP 12
+00-010
+GENERAL INTRODUCTION
+28 JAN 14
+00-050
+LIST OF ABBREVIATIONS
+05 SEP 12
+00-060
+UNITS CONVERSION TABLE
+05 SEP 12
+01-010
+AIRCRAFT PRESENTATION
+07 MAR 13
+01-020
+AIRCRAFT DIMENSIONS
+07 MAR 13
+01-030
+PERFORMANCE
+07 MAR 13
+01-040
+PRESSURIZATION
+05 SEP 12
+01-050
+FLIGHT CONTROLS
+07 MAR 13
+01-060
+LANDING GEARS
+07 MAR 13
+01-070
+CARGO COMPARTMENTS
+07 MAR 13
+01-080
+CABIN DOORS
+07 MAR 13
+02-010
+FLIGHT DECK
+24 APR 14
+02-030
+CABIN LAYOUT
+24 APR 14
+02-040
+STOWAGE COMPARTMENTS
+12 DEC 13
+02-050
+CABIN CREW STATIONS
+12 DEC 13
+02-060
+CONTROL PANELS
+07 MAR 13
+02-070
+CABIN LIGHTING SYSTEM
+07 MAR 13
+02-080
+CIRCUIT BREAKER (PANELS)
+07 MAR 13
+02-090
+AIR CONDITIONING
+07 MAR 13
+02-100
+WATER AND WASTE
+24 APR 14
+R
+02-110
+LAVATORIES
+24 APR 14
+02-120
+DOORS AND EXITS
+12 DEC 13
+02-140
+GALLEYS
+12 DEC 13
+03-010
+CABIN INTERCOMMUNICATION DATA SYSTEM
+12 DEC 13
+03-020
+CABIN PROGRAMMING
+05 SEP 12
+03-030
+COMMUNICATION
+05 SEP 12
+03-040
+PA SYSTEM
+07 MAR 13
+03-050
+SERVICE INTERPHONE
+05 SEP 12
+03-060
+CABIN INTERPHONE
+12 DEC 13
+03-070
+PASSENGER CALL SYSTEM
+05 SEP 12
+03-080
+PASSENGER LIGHTED SIGNS
+05 SEP 12
+03-090
+AUDIO
+05 SEP 12
+04-010
+IN-FLIGHT ENTERTAINMENT SYSTEM
+12 DEC 13
+04-020
+MUSIC
+12 DEC 13
+04-030
+VIDEO
+12 DEC 13
+04-040
+AIRSHOW
+07 MAR 13
+04-060
+TELEPHONE
+07 MAR 13
+04-080
+IN-SEAT POWER SUPPLY SYSTEM (ISPSS)
+12 DEC 13
+Continued on the following page
+
+=== PDF PAGE 14 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320/A321 FLEET
+PLP-LESS P 2/4
+CCOM
+24 APR 14
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+05-010
+EVACUATION ALERT SYSTEM
+05 SEP 12
+05-020
+COCKPIT EMERGENCY EXITS
+12 DEC 13
+05-030
+ESCAPE SLIDES/ SLIDE RAFTS
+07 MAR 13
+05-040
+AIRCRAFT CRASH POSITION
+07 MAR 13
+06-010
+GENERAL
+05 SEP 12
+06-020
+COCKPIT
+07 MAR 13
+06-030
+CABIN
+12 DEC 13
+06-040
+PORTABLE BREATHING EQUIPMENT
+07 MAR 13
+07-010
+PORTABLE EMERGENCY EQUIPMENT
+12 DEC 13
+07-020
+FIXED EMERGENCY EQUIPMENT
+05 SEP 12
+07-030
+SUPPLEMENTARY MEDICAL EQUIPMENT
+05 SEP 12
+08-010
+INTRODUCTION
+05 SEP 12
+08-012-010
+EFFECTIVE BRIEFINGS FOR CABINE OPERATIONS
+12 DEC 13
+08-012-020
+CREW COMMUNICATION
+12 DEC 13
+08-015
+PHASES OF FLIGHT
+05 SEP 12
+08-020
+DOOR OPERATION
+12 DEC 13
+08-030
+COCKPIT DOOR OPERATION
+05 SEP 12
+08-040
+COCKPIT SLIDING WINDOW OPERATION
+05 SEP 12
+08-045
+PREFLIGHT BRIEFING
+05 SEP 12
+08-050
+GROUND CHECK
+12 DEC 13
+08-060
+DEPARTURE
+12 DEC 13
+08-070
+ARRIVAL
+12 DEC 13
+08-080
+CABIN CREW SAFETY-RELATED DUTIES
+12 DEC 13
+08-090
+PASSENGER SAFETY BRIEFING
+05 SEP 12
+08-100
+REFUELLING DEFUELING
+05 SEP 12
+08-130
+DANGEROUS GOODS
+12 DEC 13
+09-010
+INTRODUCTION
+05 SEP 12
+09-020
+FIRE PROTECTION
+28 JAN 14
+09-025
+EMERGENCY COMMUNICATIONS
+05 SEP 12
+09-030
+EMERGENCY CABIN EVACUATION
+07 MAR 13
+09-040
+EMERGENCY COCKPIT EVACUATION
+05 SEP 12
+09-050
+DEPRESSURIZATION
+07 MAR 13
+09-055
+TURBULENCE MANAGEMENT
+05 SEP 12
+09-070
+MISCELLANEOUS
+07 MAR 13
+09-080-10
+EVACUATION AWARENESS
+12 DEC 13
+09-080-20
+TURBULENCE THREAT AWARENESS
+12 DEC 13
+09-080-30
+CABIN DEPRESSURIZATION AWARENESS
+12 DEC 13
+09-080-40
+PLANNED DITCHING - UNPLANNED DITCHING
+12 DEC 13
+09-080-50
+CABIN SMOKE AWARENESS
+12 DEC 13
+Continued on the following page
+
+=== PDF PAGE 15 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320/A321 FLEET
+PLP-LESS P 3/4
+CCOM
+24 APR 14
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+09-080-60
+MANAGING IN-FLIGHT FIRES
+12 DEC 13
+10-10
+Introduction
+05 SEP 12
+10-CCB1
+Spurious FAP Message
+05 SEP 12
+10-CCB2
+Inadvertent FAP Reset
+05 SEP 12
+10-CCB3
+Loss Of The I-PRAM Audio Sound
+05 SEP 12
+10-CCB4
+Anomalies On The FAP Pages
+05 SEP 12
+(1) Evolution code : N=New, R=Revised, E=Effectivity, M=Moved
+
+=== PDF PAGE 16 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+Intentionally left blank
+NWS A320/A321 FLEET
+PLP-LESS P 4/4
+CCOM
+24 APR 14
+
+=== PDF PAGE 17 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE TEMPORARY DOCUMENTARY UNITS
+NWS A320/A321 FLEET
+PLP-LETDU P 1/2
+CCOM
+05 SEP 12
+M
+Localization
+DU Title
+DU identification
+DU date
+No Temporary Documentary Unit
+
+=== PDF PAGE 18 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE TEMPORARY DOCUMENTARY UNITS
+Intentionally left blank
+NWS A320/A321 FLEET
+PLP-LETDU P 2/2
+CCOM
+05 SEP 12
+
+=== PDF PAGE 19 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+PRELIMINARY PAGES
+AIRCRAFT ALLOCATION TABLE
+NWS A320/A321 FLEET
+PLP-AAT P 1/2
+CCOM
+12 DEC 13
+This table gives, for each delivered aircraft, the cross reference between:
+-
+The Manufacturing Serial Number (MSN).
+-
+The Fleet Serial Number (FSN) of the aircraft as known by AIRBUS S.A.S.
+-
+The registration number of the aircraft as known by AIRBUS S.A.S.
+-
+The aircraft model.
+M
+(1)
+MSN
+FSN
+Registration Number
+Model
+2649
+VP-BJH
+320-232
+2927
+VQ-BRO
+321-231
+2933
+VQ-BRU
+321-232
+3034
+VP-BGH
+321-232
+3120
+VP-BRD
+321-232
+(1) Evolution code : N=New, R=Revised
+
+=== PDF PAGE 20 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+PRELIMINARY PAGES
+AIRCRAFT ALLOCATION TABLE
+Intentionally left blank
+NWS A320/A321 FLEET
+PLP-AAT P 2/2
+CCOM
+12 DEC 13
+
+=== PDF PAGE 21 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF MODIFICATIONS
+NWS A320/A321 FLEET
+PLP-LOM P 1/6
+CCOM
+12 DEC 13
+M
+(1)
+MODIFICATION
+Linked SB
+Incorp. Date
+Title
+P2493
+05 SEP 12
+EQUIPMENT/FURNISHINGS - COCKPIT SEATS -
+ INTRODUCE TYPE A340 SEATS
+Applicable to: ALL
+P0006
+05 SEP 12
+DOORS - PAX DOORS - EMERGENCY EXIT AND
+CARGO COMPARTMENT DOORS - DEFINE DOORS
+OF THE BASIC AIRCRAFT -
+Applicable to: ALL
+P1363
+05 SEP 12
+FIRE PROTECTION - COCKPIT - INSTALL A MAIP
+PORTABLE FIRE EXTINGUISHER (SFE) -
+Applicable to: ALL
+K2113
+05 SEP 12
+FUSELAGE - REAR FUSELAGE SECTION 16A -
+ DEFINE A321 BASIC STRUCTURE
+Applicable to: MSN 2927-3120
+K0008
+05 SEP 12
+EQUIPMENT/FURNISHINGS- DEFINE STANDARD
+CABIN INTERIOR-
+Applicable to: ALL
+K2675
+05 SEP 12
+EQUIPMENT/FURNISHINGS-PAX COMPARTMENT-
+ USE THE DOOR N.2 L/H AS A PASSENGER DOOR.
+Applicable to: MSN 2927-3120
+K5564
+07 MAR 13
+E/F-FWD/AFT CARGO COMPARTMENT- -INTRODUCE
+A MINIMUM PROVISION FOR CLS MECHANISED
+BULK LOADING SYS(A320)
+Applicable to: MSN 2649
+K5565
+05 SEP 12
+E/F-FWD/AFT CARGO COMPARTMENT -INTRODUCE
+A MINIMUM PROVISION FOR CLS MECHANISED
+BULK LOADING SYS (A321)
+Applicable to: MSN 2927-3120
+K8999
+07 MAR 13
+COMMUNICATION - CIDS: INSTALL A PED-POWER
+ON/OFF CONTROL SWITCH ON FAP WITH CIDS A318
+TYPE
+Applicable to: MSN 2649-2933
+P7278
+05 SEP 12
+INDICATING/RECORDING SYSTEM-EIS2- INSTALL
+MODIFIED EIS2 SOFTWARE
+Applicable to: ALL
+K10143
+23-1293 02
+05 SEP 12
+EQUIPMENT/FURNISHINGS - MISC. EMERGENCY
+EQUIPMENT-INSTALL ELT(406AF) WITH PROG.
+DONGLE AND RCP IN COCKPIT - THALES
+Applicable to: ALL
+P0160
+07 MAR 13
+OXYGEN - FLIGHT CREW OXYGEN - INSTALL A 115
+CU/FT STEEL OXYGEN CYLINDER -
+Applicable to: MSN 2649
+Continued on the following page
+
+=== PDF PAGE 22 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF MODIFICATIONS
+NWS A320/A321 FLEET
+PLP-LOM P 2/6
+CCOM
+12 DEC 13
+Continued from the previous page
+M
+(1)
+MODIFICATION
+Linked SB
+Incorp. Date
+Title
+K10188
+07 MAR 13
+COMMUNICATIONS- INTEGRATED IFE SYSTEM-
+ INSTALL THALES I4000 FOR RJA02 VERSION
+Applicable to: MSN 2649
+K0151
+07 MAR 13
+EQUIPMENT/FURNISHINGS-PAX COMPARTMENT-
+ INSTALL SLIDE RAFTS (AIRCRUISER).
+Applicable to: MSN 2649
+K7847
+07 MAR 13
+EQUIPMENT/FURNISHINGS-PASSENGER COMPART
+SEATS - INTRODUCE ISPSS IN CONJUNCTION WITH
+INTEGRATED IFE/SPSS
+Applicable to: MSN 2649-2933
+K2100
+05 SEP 12
+DOORS - EMERGENCY EXITS - DEFINE EMERGENCY
+EXITS FOR A321
+Applicable to: MSN 2927-3120
+K0011
+05 SEP 12
+WATER/WASTE - DEFINE A320 BASIC SYSTEM
+Applicable to: ALL
+K9459
+05 SEP 12
+EQUIPMENT/FURNISHINGS - LININGS AND
+FURNISHINGS- DELETE POSITION FOR SAFETY PIN
+STOWAGE AT DOOR 2 AND 3 LH/RH
+Applicable to: MSN 2927-3120
+P0022
+07 MAR 13
+OXYGEN- FLIGHT CREW SYSTEM- INSTALL A
+REPLENISHING CONNECTOR-
+Applicable to: MSN 2649
+K9049
+07 MAR 13
+COMMUNICATIONS - CIDS - INSTALL ADAPTED
+ENHANCED CIDS ON A320 A/C
+Applicable to: MSN 2649
+K2108
+05 SEP 12
+EQUIPMENT/FURNISHINGS-PAX COMPARTMENT-
+ ADAPT STANDARD INTERIOR ITEMS TO A321
+DEFINITION
+Applicable to: MSN 2927-3120
+K11219
+05 SEP 12
+EQUIPMENT/ FURNISHING / PAX COMPARTMENT
+ADAPT CABIN LAYOUT FOR KFR04 VERSION
+Applicable to: MSN 3034-3120
+K10784
+07 MAR 13
+COMMUNICATIONS - CIDS - CAM PROGRAMMING
+FOR THE HEATED FLOOR PANELS ACTIVATION
+Applicable to: MSN 3120
+P4497
+07 MAR 13
+OVERPRESS. WARNING SYSTEMS-MODIFY CTRL
+LOGIC OF THE OVERPRESS. WARNING SYST
+Applicable to: ALL
+K11459
+05 SEP 12
+COMMUNICATIONS - ADAPT INTEGRATED IFE
+SYSTEM THALES FOR KFR04 VERSION DUE TO NON
+INST. OF SEATS AND MONUMENTS
+Applicable to: MSN 3034
+Continued on the following page
+
+=== PDF PAGE 23 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF MODIFICATIONS
+NWS A320/A321 FLEET
+PLP-LOM P 3/6
+CCOM
+12 DEC 13
+Continued from the previous page
+M
+(1)
+MODIFICATION
+Linked SB
+Incorp. Date
+Title
+K8400
+05 SEP 12
+COMMUNICATIONS-CIDS-INTRODUCE ENHANCED
+CIDS (A318 VERSION) AND RELATED SYSTEMS ON
+SINGLE AISLE FAMILY
+Applicable to: ALL
+K7755
+05 SEP 12
+EQUIPMENT FURNISHINGS-CURTAINS AND
+PARTITIONS-MODIFIED INTRUSION AND
+PENETRATION RESISTANT COCKPIT DOOR
+Applicable to: ALL
+25-1537 01
+05 SEP 12
+EQUIPMENT/FURNISHINGS - PASSENGER
+COMPARTMENT - CHANGE CABIN CONFIGURATION
+TO A 199 TOURIST CLASS SEATS LAYOUT
+Applicable to: MSN 3034
+K9256
+05 SEP 12
+COMMUNICATIONS-CABIN INTERCOMMUNICATION
+DATA SYSTEM (CIDS) - ADAPT ENHANCED CIDS ON
+A321 A/C
+Applicable to: MSN 2927-3120
+K2423
+05 SEP 12
+EQUIPMENT/FURNISHINGS-PAX COMPARTMENT-
+ AFT LAVATORY- DEFINE AND INSTALL LAVATORY
+"D"
+Applicable to: ALL
+K10190
+07 MAR 13
+EQUIPMENT/FURNISHINGS-PAX COMPARTMENT-
+ INSTALL TWO CLASS CABIN LAYOUT FOR RJA02
+VERSION
+Applicable to: MSN 2649
+K8062
+05 SEP 12
+COMMUNICATION - PASSENGER ENTERTAINMENT
+SYSTEM (VIDEO) - INSTALL ADDITIONAL POWER
+SUPPLY FOR SMOKE DETECTION IN VCC
+Applicable to: ALL
+P7062
+05 SEP 12
+OXYGEN - CREW OXYGEN - INSTALL ALTERNATIVE
+115CU FT FLIGHT CREW OXYGEN CYLINDER
+COMPOSITE SCOTT P/N 897940-15
+Applicable to: MSN 2927-3120
+K7790
+05 SEP 12
+DOORS-PASSENGER COMPARTMENT FIXED
+INTERIOR DOORS-INSTALL ELECTRICAL COCKPIT
+DOOR RELEASE SYSTEM
+Applicable to: ALL
+K11819
+05 SEP 12
+COMMUNICATIONS - CIDS - ADAPT CIDS FOR KFR04
+(D5) VERSION DUE TO NON INSTALLATION OF
+ISPSS
+Applicable to: MSN 3034
+Continued on the following page
+
+=== PDF PAGE 24 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF MODIFICATIONS
+NWS A320/A321 FLEET
+PLP-LOM P 4/6
+CCOM
+12 DEC 13
+Continued from the previous page
+M
+(1)
+MODIFICATION
+Linked SB
+Incorp. Date
+Title
+K10189
+07 MAR 13
+COMMUNICATIONS- CIDS- DEFINE CABIN
+INTERCOMMUNICATION DATA SYSTEM (CIDS) FOR
+RJA02 VERSION
+Applicable to: MSN 2649
+K4453
+07 MAR 13
+COMMUNICATION - INSTALL AN ALL CABIN
+ATTENDANTS CALL PUSH BUTTON IN THE FLIGHT
+COMPARTMENT
+Applicable to: MSN 2649
+K10368
+05 SEP 12
+COMMUNICATION - INTEGRATED IFE SYSTEM -
+INSTALL VCC SMOKE INDICATION LIGHT ON 3700VU
+Applicable to: MSN 2927-3120
+P4654
+07 MAR 13
+OXYGEN - INSTALL COCKPIT PROTECTIVE
+BREATHING EQUIPMENT (PBE) AIR LIQUIDE -SFE-
+Applicable to: MSN 2649
+P6886
+05 SEP 12
+EQUIPMENT/FURNISHINGS-COCKPIT-INTRODUCE
+FLASHLIGHTS P/N MZ112-00-000
+Applicable to: ALL
+K11400
+07 MAR 13
+COMMUNICATIONS - INTEGRATED IFE SYSTEM-
+ADAPT THALES I4000 TO I3000 FOR KFR04 VERSION
+Applicable to: MSN 3120
+K11401
+07 MAR 13
+COMMUNICATIONS - CIDS - ADAPT CABIN
+INTERCOMMUNICATION DATA SYSTEM (CIDS) FOR
+KFR04 VERSION (I2L*IA)
+Applicable to: MSN 3120
+K4653
+05 SEP 12
+LIGHTS-EMERGENCY LIGHTING-INSTALL- A
+FLOOR PROXIMITY EMERGENCY ESCAPE PATH
+MARKING-PHOTOLUMINESCENT SYST.LTAG
+Applicable to: MSN 2927-3120
+K11409
+07 MAR 13
+COMMUNICATIONS - CIDS - ADAPT CIDS
+FROM DUAL CLASS TO SINGLE CLASS CABIN
+CONFIGURATION FOR KFR04 VERSION
+Applicable to: MSN 3120
+K11390
+07 MAR 13
+EQUIPMENT/FURNISHINGS-PAX COMPARTMENT 
+- ADAPT CABIN LAYOUT INTO SINGLE CLASS
+CONFIGURATION FOR KFR04 VERSION
+Applicable to: MSN 3120
+K11136
+05 SEP 12
+COMMUNICATIONS-PASSENGER ENTERTAINMENT
+SYSTEMS-INSTALL INTEGRATED IFE SYSTEM-
+ THALES-ON KFR04 VERSION
+Applicable to: MSN 2927-3120
+Continued on the following page
+
+=== PDF PAGE 25 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF MODIFICATIONS
+NWS A320/A321 FLEET
+PLP-LOM P 5/6
+CCOM
+12 DEC 13
+Continued from the previous page
+M
+(1)
+MODIFICATION
+Linked SB
+Incorp. Date
+Title
+K11138
+05 SEP 12
+EQUIPMENT FURNISHINGS-PAX COMPARTMENT-
+ INSTALL A DUAL CLASS CABIN LAYOUT FOR KFR04
+VERSION
+Applicable to: MSN 2927-3120
+K3712
+05 SEP 12
+EQUIPMENT/FURNISHING -PAX COMPARTMENT-
+ INSTALL SLIDE RAFTS ON A321 A/C
+Applicable to: MSN 2927-3120
+K11137
+05 SEP 12
+COMMUNICATION-CIDSDEFINE CABIN
+INTERCOMMUNICATION DATA SYSTEM (CIDS) FOR
+KFR04 VERSION
+Applicable to: MSN 2927-3120
+P0040
+05 SEP 12
+EQUIPMENT/FURNISHINGS - FLIGHT
+COMPARTMENT - INSTALL A 4TH OCCUPANT SEAT -
+Applicable to: ALL
+K5104
+07 MAR 13
+LIGHTS - EMERGENCY LIGHTING - INSTALL A
+FLOOR PROXIMITY EMERGENCY ESCAPE PATH
+MARKING-PHOTOLUMINISCENT SYSTEM LTAG
+Applicable to: MSN 2649
+P7360
+05 SEP 12
+OXYGEN - OXYGEN DISTRIBUTION - INSTALL
+FOURTH OXYGEN MASK EROS WITH ASSOCIATED
+BOX
+Applicable to: ALL
+(1) Evolution code : N=New, R=Revised, E=Effectivity
+
+=== PDF PAGE 26 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF MODIFICATIONS
+Intentionally left blank
+NWS A320/A321 FLEET
+PLP-LOM P 6/6
+CCOM
+12 DEC 13
+
+=== PDF PAGE 27 ===
+ 
+INTRODUCTION
+
+=== PDF PAGE 28 ===
+Intentionally left blank
+
+=== PDF PAGE 29 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+INTRODUCTION
+PRELIMINARY PAGES
+TABLE OF CONTENTS
+NWS A320/A321 FLEET
+00-PLP-TOC P 1/2
+CCOM
+28 JAN 14
+00-010 GENERAL INTRODUCTION
+MAIN CCOM CHANGES.........................................................................................................................................A
+FOREWORD ...........................................................................................................................................................B
+COMMENTS AND ENQUIRY..................................................................................................................................C
+GENERAL ...............................................................................................................................................................D
+PRESENTATION ....................................................................................................................................................E
+PAGINATION ..........................................................................................................................................................F
+REVISION/UPDATING ...........................................................................................................................................G
+CUSTOMIZATION................................................................................................................................................... H
+00-050 LIST OF ABBREVIATIONS
+ABBREVIATIONS ...................................................................................................................................................A
+00-060 UNITS CONVERSION TABLE
+UNITS CONVERSION TABLE ...............................................................................................................................A
+
+=== PDF PAGE 30 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+INTRODUCTION
+PRELIMINARY PAGES
+TABLE OF CONTENTS
+Intentionally left blank
+NWS A320/A321 FLEET
+00-PLP-TOC P 2/2
+CCOM
+28 JAN 14
+
+=== PDF PAGE 31 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+INTRODUCTION
+GENERAL INTRODUCTION
+NWS A320/A321 FLEET
+00-010 P 1/8
+CCOM
+A →
+28 JAN 14
+MAIN CCOM CHANGES
+Applicable to: ALL
+INTRODUCTION
+PURPOSES
+The purpose of the Main CCOM Changes is to provide general information about the CCOM
+revision and to highlight the main changes for:
+‐ Standard Operating Procedures (Chapter 08)
+‐ Abnormal /Emergency Procedures (Chapter 09)
+‐ System Description affecting a basic cabin system.
+Note:
+In addition, each Documentary Unit (DU) provides highlights with the reason(s) for
+change and uses revision bars to indicate the revised sections.
+TIMEFRAME
+The subjects in the Main CCOM Changes are categorized by month and, are published
+regardless of the revision cycle that is applicable to each Operator.
+Applicable to: ALL
+NOVEMBER 2008
+PRECAUTIONARY EVACUATION PROCEDURE
+The precautionary evacuation procedure was deleted for the following reasons: In case of
+obvious rapid disembarkation on the stand initiated by the flight crew, specific airline procedures
+for both aircraft and on ground activities should apply.
+Applicable to: MSN 2927-3120
+JUNE 2012
+According to the official A321 certification status, the use of the escape slides at doors 2 and 3
+were not considered as part of a planned ditching.
+In addition, as per Airbus SB 25-1416 and production modification 34989:
+‐ One of the two aspirators on each escape slide at doors 2 and 3 is removed and,
+‐ The quick disconnection coupling of the inflation hose is replaced by a permanent coupling
+of the inflation hose on each escape slide preventing the slide to be fully detached from the
+aircraft.
+The A321 Cabin procedures (09-30 Cabin preparation for ditching and Evacuation on water) have
+changed to reflect that , in the case of ditching, doors 2 and 3 must be disarmed during the cabin
+preparation and prior to an evacuation on water.
+
+=== PDF PAGE 32 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+INTRODUCTION
+GENERAL INTRODUCTION
+NWS A320/A321 FLEET
+00-010 P 2/8
+CCOM
+← A to C →
+28 JAN 14
+Refer to 09-030 CABIN PREPARATION FOR DITCHINGRefer to 09-030 EVACUATION ON
+WATER
+You can also refer to the Airbus FOT 999.0064/12 Dated 12 July 2012
+Applicable to: ALL
+JANUARY 2014
+In the ABNORMAL and EMERGENCY procedures section:
+‐ The OVERHEAD BINS SMOKE/FIRE PROCEDURE is revised to take into account the potential
+presence of lithium batteries. Refer to 09-020 OVERHEAD BIN SMOKE/FIRE PROCEDURE
+‐ New procedures LITHIUM BATTERIES FIRES and STORAGE PROCEDURE AFTER A
+LITHIUM BATTERY FIRE are added.
+Refer to 09-020 LITHIUM BATTERY FIRES Refer to 09-020 STORAGE PROCEDURE AFTER
+A LITHIUM BATTERY FIRE
+FOREWORD
+Applicable to: ALL
+The CABIN CREW OPERATING MANUAL (CCOM) provides descriptive information on the standard
+version of the aircraft, operating instructions and Function Recovery Procedures (FRP) guidelines
+for items and/or equipment managed by the cabin crew, and operating instructions for normal and/or
+emergency/abnormal operations.
+"Standard aircraft" signifies the aircraft as delivered by Airbus, with all applicable Service Bulletins
+(SBs) embedded. All airline-specific equipment can be added via the Customer Originated Change
+(COC) procedure.
+In keeping with the philosophy of the FLIGHT CREW OPERATING MANUAL (FCOM), only
+information unique to this particular aircraft configuration is included.
+In case of conflict between this CCOM and the FCOM or the regulations of the Approved Authorities'
+Procedures, the FCOM and the regulations of the Approved Authorities' Procedures will apply.
+COMMENTS AND ENQUIRY
+Applicable to: ALL
+All manual holders and users are encouraged to forward any questions and suggestions regarding
+the Cabin Crew Operating Manual (CCOM) to :
+AIRBUS
+BP 33
+1 ROND-POINT MAURICE BELLONTE
+31707 BLAGNAC CEDEX - FRANCE
+TELEFAX : 33 (0) 561.93.29.68
+
+=== PDF PAGE 33 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+INTRODUCTION
+GENERAL INTRODUCTION
+NWS A320/A321 FLEET
+00-010 P 3/8
+CCOM
+← C to E →
+28 JAN 14
+ATTN. : FLIGHT OPERATIONS SUPPORT - STLC
+EMAIL: fltops.cabin@airbus.com
+GENERAL
+Applicable to: ALL
+The CCOM must address the unique requirements dictated by its use in a cabin environment and,
+possibly, by the conditions associated with abnormal or emergency situations. Some subjects are
+also included in the FCOM, but each manual is specific to the applicable crew.
+The CCOM content and format shall also satisfy the requirements for use as a reference document
+during cabin crew training.
+The CCOM will be available in the following electronic formats :
+‐ Extensible Markup Language (XML, World Wide Web specifications).
+‐ Portable Document Format (PDF, open Adobe specification).
+The CCOM is delivered on CD-ROM or, online using Airbus World.
+No paper versions will be made available.
+WARNINGS, CAUTIONS AND NOTES
+WARNING :
+An operating procedure, technique, etc., which may result in injury or loss of life, if
+not carefully followed.
+CAUTION :
+An operating procedure, technique, etc., which may result in damage to
+equipment, if not carefully followed.
+NOTE
+:
+An operating procedure, technique, etc., considered essential to emphasize.
+PRESENTATION
+Applicable to: ALL
+The CCOM is made up of one volume, which is divided into 10 chapters. Each chapter is divided into
+pre-defined sections. Optional sections can be added to address, airline-specific requirements (Ex :
+airline requests...).
+Each section is made up of Documentary Units (DU), which are information segments containing
+technical data. Each DU is assigned an effectivity.
+▪Chapter 00 : INTRODUCTION
+This chapter provides general information about the manual.
+▪Chapter 01: AIRCRAFT GENERAL
+This chapter presents an overview of the aircraft.
+▪Chapter 02 : CABIN INTERIOR
+This chapter provides descriptive and operational information on cabin equipment and systems.
+
+=== PDF PAGE 34 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+INTRODUCTION
+GENERAL INTRODUCTION
+NWS A320/A321 FLEET
+00-010 P 4/8
+CCOM
+← E to F →
+28 JAN 14
+▪Chapter 03 : CIDS AND COMMUNICATION
+This chapter provides descriptive and operational information on the communication systems and
+on the CIDS, in particular.
+▪Chapter 04 : CABIN INFORMATION AND ENTERTAINMENT SYSTEMS
+This chapter provides descriptive and operational information on the entertainment equipment and
+systems.
+▪Chapter 05 : EVACUATION DEVICES
+This chapter provides descriptive and operational information on the evacuation equipment and
+systems.
+▪Chapter 06 : OXYGEN
+This chapter provides descriptive and operational information on the oxygen equipment and
+systems.
+▪Chapter 07 : EMERGENCY EQUIPMENT
+This chapter provides descriptive and operational information on the EMERGENCY equipment
+and systems.
+▪Chapter 08 : STANDARD OPERATING PROCEDURES (SOPs)
+This chapter provides normal procedures for standard aircraft operations by the cabin crew.
+SOPs consist of inspections, cabin preparations and normal procedures.
+▪Chapter 09 : ABNORMAL/EMERGENCY PROCEDURES
+This chapter provides Abnormal/Emergency procedures to be applied by cabin crews in case of a
+failure.
+▪Chapter 10 : CABIN CREW BULLETINS (CCB)
+This chapter contains Cabin Crew Bulletins (CCB), which supplement the information and
+procedures given in the different CCOM sections. Each CCB will be managed like a section of the
+previous chapters.
+For chapters 02, 03, 04, whenever possible, a Function Recovery Procedures (FRP) section will
+be included at the end of the descriptive section. This section should assist the cabin crew in
+resetting/reactivating cabin systems or functions.
+PAGINATION
+Applicable to: ALL
+FORMAT
+The "PDF" CCOM is designed with the following paper layout :
+‐ Page format and size : A5 (148.5 mm x 210 mm).
+‐ Orientation : Portrait
+‐ Left-Hand/Right-Hand.
+‐ Standard character type and size : Helvetica, 9 points.
+
+=== PDF PAGE 35 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+INTRODUCTION
+GENERAL INTRODUCTION
+NWS A320/A321 FLEET
+00-010 P 5/8
+CCOM
+← F
+28 JAN 14
+The PDF CCOM page is composed of the following three zones :
+‐ A header,
+‐ A footer,
+‐ A body.
+HEADER
+The header is composed of the following three parts :
+‐ The left side : Includes the manual's title, the applicable aircraft program, and the applicable
+logo (company logo, or Airbus logo by default).
+‐ The middle : Indicates the title of the current chapter at the top of the zone, and the title of the
+current section at the bottom of the zone.
+‐ The right side : Provides the sections's identification and revision date.
+HEADER
+FOOTER
+The footer contains such remaining Operating Manual identification data, not included in the
+header, as : The extracted Document IDENT, and page numbering information (that is, the current
+page number and the total number of pages).
+EXAMPLE : FLEET CCOM
+
+=== PDF PAGE 804 ===
+A320/A321
+CABIN CREW OPERATING MANUAL
+CABIN CREW BULLETINS
+ANOMALIES ON THE FAP PAGES
+NWS A320/A321 FLEET
+10-CCB4 P 4/4
+CCOM
+← A
+05 SEP 12
+Applicable to: ALL
+EXPLANATION
+It may happen that display and operation anomalies may be experienced on the FAP pages
+(Mostly audio or Lighting page).
+Applicable to: ALL
+PROCEDURE
+CABIN CREW...................................................................... COORDINATE WITH FLIGHT CREW
+The correct FAP indication or the FAP operation can be recovered by a reset of the Directors via
+C/Bs located on 49VU and 121VU in the cockpit.

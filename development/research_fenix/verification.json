@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-13",
+  "mode": "documents_only_requested_by_user",
+  "pdf_pages": 472,
+  "system_pages": 445,
+  "distinct_printed_item_numbers": 606,
+  "independent_word_level_index_check": "PASS",
+  "all_system_pages_indexed": true,
+  "detailed_assessed_item_numbers": 113,
+  "unmapped_item_numbers": 493,
+  "assessment_rows": 133,
+  "status_counts": {
+    "U": 39,
+    "K": 48,
+    "X": 24,
+    "N": 22
+  },
+  "source_anomalies": [
+    {
+      "printed_page": "24-22",
+      "pdf_page": 120,
+      "issue": "TR2 With Mod.27620 text printed under 24-27-09 COMMERCIAL pb Switch; no silent renumbering"
+    }
+  ],
+  "relative_markdown_links_checked": 144,
+  "simulator_tests_performed": 0,
+  "approved_for_generation": 0,
+  "files": [
+    {
+      "path": "D:\\MEL generator\\sources_mel_mmel\\00_current_mmel\\FAA_A320_MMEL_Rev32_2025-07-30.pdf",
+      "bytes": 4269896,
+      "sha256": "fb76761ff1e170d994423d1acc94b83b4dfb5cc424429a18e06f1cb918cd0448",
+      "pages": 472
+    },
+    {
+      "path": "D:\\MEL generator\\research_fenix\\evidence\\Fenix_failurelist_v0.2_ALPHA_2021-07-12.pdf",
+      "bytes": 339840,
+      "sha256": "881f4f68d6dd89018718f9ac53c1659dde7342661977217a7014771011c4de2f",
+      "pages": 15
+    },
+    {
+      "path": "D:\\MEL generator\\research_fenix\\evidence\\Fenix_User_Guide_v2.0_2025.pdf",
+      "bytes": 13923329,
+      "sha256": "c486061ce746d7f5c92286eb3729dccf87db41dca40b58c9be063f70282603e7",
+      "pages": 26
+    },
+    {
+      "path": "D:\\MEL generator\\research_fenix\\evidence\\Fenix_support_failures_1.webp",
+      "bytes": 30520,
+      "sha256": "8edb5a47a074aa038bed6e1f6b76874ac11c907c543e5e1fe1e6a8848c3f4098",
+      "pages": null
+    },
+    {
+      "path": "D:\\MEL generator\\research_fenix\\evidence\\Fenix_support_failures_2.webp",
+      "bytes": 27640,
+      "sha256": "cf1e607e1f23400a0a3ed1fcdfa1fc623a09e80c1d0f74c7a7f8c1cd70a9e230",
+      "pages": null
+    }
+  ]
+}
