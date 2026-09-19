@@ -25,7 +25,7 @@ entry and uninstaller.
 |---|---|---|---|---|---|---|
 | BL-001 | Automatic failure activation in the simulator | Integration | P1 | 1.1.0 | In Development | Verified provider adapters over SimConnect/WASM |
 | BL-002 | Technical log note presentation | Presentation | P2 | 1.2.0 | Proposed | Technical log template and content rules |
-| BL-003 | Application settings | Core UX | P1 | 1.1.0 | Research | Agreement on settings scope and persistence rules |
+| BL-003 | Application settings | Core UX | P1 | 1.1.0 | In Development | Packaged acceptance of implemented settings and diagnostics |
 | BL-004 | Dark and light themes | UI | P2 | 1.2.0 | Proposed | BL-003 application settings |
 | BL-005 | In-app application updates | Distribution | P1 | 1.1.0 | Proposed | Release hosting, signing and update policy |
 | BL-006 | PMDG 737 and 777 support | Aircraft support | P3 | 3.0.0 | Research | Family-specific catalogs and verified PMDG SDK failure interfaces |
@@ -203,8 +203,12 @@ actions in the current scope. Connected-aircraft and adapter details belong in t
 not on the Settings screen. Diagnostic report export and settings reset remain possible
 future ideas.
 
-**Open decisions:** Default values of the three booleans, log rotation inside the
-seven-day retention window and the final replacement label for `To failures`.
+**Implementation milestone, 20 September 2026:** All three approved settings are stored,
+validated and migrated through schema version 3. Startup and manual update checks use
+the public stable GitHub Release endpoint. Diagnostic logging is opt-in JSON Lines with
+credential-field redaction, 10 MB rotation and seven-day cleanup. The update button uses
+the approved manual release-page fallback until BL-005 supplies installation. The final
+replacement label for `To failures` remains deferred.
 
 ## BL-004 — Dark and light themes
 
@@ -257,8 +261,8 @@ certificate at this stage. If the project is not accepted, record the reason and
 a separate decision before public rollout; self-signed certificates are not considered
 a substitute for a publicly trusted signature.
 
-**Open decisions:** Eligibility and acceptance by the free signing program, default
-value of the startup-check setting, installation timing and staged rollout.
+**Open decisions:** Eligibility and acceptance by the free signing program, installation
+timing and staged rollout. The startup-check default is enabled under BL-003.
 
 ## BL-006 — PMDG 737 and 777 support
 

@@ -146,12 +146,47 @@ const settingsDialog=document.getElementById('settings-dialog');
 document.getElementById('settings-button').addEventListener('click',()=>settingsDialog.showModal());
 document.getElementById('settings-close').addEventListener('click',()=>settingsDialog.close());
 settingsDialog.addEventListener('click',event=>{ if(event.target===settingsDialog) settingsDialog.close(); });
-document.getElementById('auto-activate-setting').addEventListener('change',async event=>{
-  const input=event.currentTarget;
+async function saveBooleanSetting(input,key,errorText) {
+  const previous=!input.checked;
   input.disabled=true;
-  try { await window.mel.saveAppSettings({activateFailuresOnBriefing:input.checked}); }
-  catch { input.checked=!input.checked; message('The automatic activation setting could not be saved.'); }
+  try { await window.mel.saveAppSettings({[key]:input.checked}); }
+  catch { input.checked=previous; message(errorText); }
   finally { input.disabled=false; }
+}
+document.getElementById('startup-update-setting').addEventListener('change',event=>{
+  saveBooleanSetting(event.currentTarget,'checkForUpdatesOnStartup','The update setting could not be saved.');
+});
+document.getElementById('auto-activate-setting').addEventListener('change',event=>{
+  saveBooleanSetting(event.currentTarget,'activateFailuresOnBriefing','The automatic activation setting could not be saved.');
+});
+document.getElementById('diagnostic-log-setting').addEventListener('change',event=>{
+  saveBooleanSetting(event.currentTarget,'enableDiagnosticLog','The diagnostic log setting could not be saved.');
+});
+const updateButton=document.getElementById('update-available');
+const checkUpdatesButton=document.getElementById('check-updates');
+const updateStatus=document.getElementById('settings-update-status');
+function renderUpdateState(state) {
+  const available=state?.status === 'available';
+  updateButton.hidden=!available;
+  checkUpdatesButton.disabled=state?.status === 'checking';
+  updateStatus.className=`settings-status ${state?.status || ''}`;
+  if(state?.status === 'checking') updateStatus.textContent='Checking for updates…';
+  else if(available) updateStatus.textContent=`Version ${state.latestVersion} is available.`;
+  else if(state?.status === 'current' && state.manual) updateStatus.textContent='No updates available';
+  else if(state?.status === 'error') updateStatus.textContent=state.message || 'Unable to check for updates.';
+  else updateStatus.textContent='';
+  updateStatus.hidden=!updateStatus.textContent;
+}
+checkUpdatesButton.addEventListener('click',async()=>{
+  renderUpdateState({status:'checking',manual:true});
+  try { renderUpdateState(await window.mel.checkForUpdates()); }
+  catch { renderUpdateState({status:'error',manual:true,message:'Unable to check for updates.'}); }
+});
+updateButton.addEventListener('click',async()=>{
+  updateButton.disabled=true;
+  try { await window.mel.openUpdate(); }
+  catch { message('Unable to open the release page. Please try again.'); }
+  finally { updateButton.disabled=false; }
 });
 function renderIntegrationState(state) {
   integrationState=state;
@@ -167,6 +202,7 @@ function renderIntegrationState(state) {
   adapter.title=adapterText; adapter.setAttribute('aria-label',adapterText);
 }
 window.mel.onIntegrationState(renderIntegrationState);
+window.mel.onUpdateStatus(renderUpdateState);
 document.querySelector('.tabbar').addEventListener('keydown',event=>{
   if (!['ArrowLeft','ArrowRight','Home','End'].includes(event.key)) return;
   event.preventDefault();
@@ -180,11 +216,14 @@ document.querySelector('.tabbar').addEventListener('keydown',event=>{
     const info = await window.mel.initialize();
     form.elements.aircraft.value = info.settings.aircraft;
     form.elements.count.value = String(info.settings.count);
-    document.getElementById('version-badge').textContent = `Offline · v${info.version}`;
+    document.getElementById('version-badge').textContent = `v${info.version}`;
     document.getElementById('settings-app-version').textContent = info.version;
     document.getElementById('settings-integration-version').textContent = info.integrationVersion;
+    document.getElementById('startup-update-setting').checked = info.settings.checkForUpdatesOnStartup;
     document.getElementById('auto-activate-setting').checked = info.settings.activateFailuresOnBriefing;
+    document.getElementById('diagnostic-log-setting').checked = info.settings.enableDiagnosticLog;
     renderIntegrationState(info.integration || {});
+    renderUpdateState(info.update);
     document.getElementById('catalogue-count').textContent = info.catalogueCount;
     updateSummary();
     submit.disabled = false;

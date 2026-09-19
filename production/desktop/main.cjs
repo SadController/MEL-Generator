@@ -1,10 +1,12 @@
 'use strict';
-const {app, BrowserWindow, ipcMain, Menu, protocol, session, dialog, screen} = require('electron');
+const {app, BrowserWindow, ipcMain, Menu, protocol, session, dialog, screen, shell} = require('electron');
 const fs = require('node:fs');
 const path = require('node:path');
 const {Generator} = require('../core/generator.cjs');
 const {readSettings, writeSettings} = require('./settings.cjs');
 const {FenixAdapter,IntegrationController,findSimConnectDll} = require('./integration.cjs');
+const {DiagnosticLogger} = require('./diagnostic-log.cjs');
+const {UpdateChecker} = require('./update-checker.cjs');
 const catalog = require('../data/catalog.json');
 const rules = require('../data/rules.json');
 const fenixMapping = require('../integration/fenix-mapping.json');
@@ -26,6 +28,11 @@ let settings;
 let settingsFile;
 let lastScenario;
 let integration;
+let logger;
+let updateChecker;
+let updateCheckPromise;
+let latestUpdate;
+const qaArg = process.argv.find(a => a.startsWith('--qa-output='));
 
 function checkSender(event) {
   if (!mainWindow || event.sender !== mainWindow.webContents ||
@@ -66,6 +73,7 @@ function createWindow() {
     mainWindow.show();
   });
   mainWindow.webContents.on('render-process-gone', () => {
+    logger?.event('renderer.stopped');
     dialog.showErrorBox('MEL Generator', 'The interface stopped unexpectedly. Please close and reopen the application.');
   });
   mainWindow.on('close', () => {
@@ -78,6 +86,41 @@ function createWindow() {
   mainWindow.loadURL(origin + '/index.html');
 }
 
+function publicUpdateState(value) {
+  if(!value) return null;
+  return {status:value.status,currentVersion:value.currentVersion,
+    latestVersion:value.latestVersion || null,releaseName:value.releaseName || null,
+    message:value.message || null,manual:value.manual === true};
+}
+
+function publishUpdateState(value) {
+  if(mainWindow && !mainWindow.isDestroyed()) {
+    mainWindow.webContents.send('mel:update-status',publicUpdateState(value));
+  }
+}
+
+async function runUpdateCheck({manual=false}={}) {
+  if(updateCheckPromise) return updateCheckPromise;
+  const checking={status:'checking',currentVersion:app.getVersion(),manual};
+  publishUpdateState(checking);
+  logger?.event('update.check.started',{manual});
+  updateCheckPromise=updateChecker.check().then(result=>{
+    result={...result,manual};
+    latestUpdate=result.status === 'available' ? result : null;
+    logger?.event('update.check.completed',{manual,status:result.status,
+      currentVersion:result.currentVersion,latestVersion:result.latestVersion});
+    publishUpdateState(result);
+    return publicUpdateState(result);
+  }).catch(error=>{
+    const result={status:'error',currentVersion:app.getVersion(),manual,
+      message:'Unable to check for updates. Check your internet connection and try again.'};
+    logger?.event('update.check.failed',{manual,error:error.message});
+    publishUpdateState(result);
+    return publicUpdateState(result);
+  }).finally(()=>{updateCheckPromise=null;});
+  return updateCheckPromise;
+}
+
 if (!app.requestSingleInstanceLock()) app.quit();
 else {
   app.on('second-instance', () => {
@@ -87,6 +130,11 @@ else {
     Menu.setApplicationMenu(null);
     settingsFile = path.join(app.getPath('userData'),'settings.json');
     settings = readSettings(settingsFile);
+    logger = new DiagnosticLogger({directory:path.join(app.getPath('userData'),'logs'),
+      enabled:settings.enableDiagnosticLog});
+    try { logger.cleanup(); } catch { /* Log maintenance is best effort. */ }
+    logger.event('application.started',{version:app.getVersion(),platform:process.platform,arch:process.arch});
+    updateChecker = new UpdateChecker({currentVersion:app.getVersion()});
     generator = new Generator(catalog,rules);
     const pdf = path.join(app.isPackaged ? process.resourcesPath : path.resolve(__dirname,'../resources'),'MMEL.pdf');
     const allowed = new Map([
@@ -113,26 +161,53 @@ else {
     ipcMain.handle('mel:initialize', event => {
       checkSender(event);
       return {settings:{aircraft:settings.aircraft,count:settings.count,
-        activateFailuresOnBriefing:settings.activateFailuresOnBriefing},
+        checkForUpdatesOnStartup:settings.checkForUpdatesOnStartup,
+        activateFailuresOnBriefing:settings.activateFailuresOnBriefing,
+        enableDiagnosticLog:settings.enableDiagnosticLog},
         integration:integration?.publicState(), version:app.getVersion(),
-        integrationVersion:'1.0.0',catalogueCount:catalog.records.length};
+        integrationVersion:'1.0.0',catalogueCount:catalog.records.length,
+        update:publicUpdateState(latestUpdate)};
     });
     ipcMain.handle('mel:selection', (event,value) => { checkSender(event); return saveSelection(value); });
     ipcMain.handle('mel:app-settings', (event,value) => {
       checkSender(event);
-      if(!value || typeof value.activateFailuresOnBriefing !== 'boolean') throw new Error('Invalid application settings.');
-      settings={...settings,activateFailuresOnBriefing:value.activateFailuresOnBriefing};
+      const allowed=['checkForUpdatesOnStartup','activateFailuresOnBriefing','enableDiagnosticLog'];
+      const keys=value && typeof value === 'object' ? Object.keys(value) : [];
+      if(!keys.length || keys.some(key=>!allowed.includes(key) || typeof value[key] !== 'boolean')) {
+        throw new Error('Invalid application settings.');
+      }
+      const wasLogging=settings.enableDiagnosticLog;
+      if(wasLogging && value.enableDiagnosticLog === false) logger.event('diagnostic-log.disabled');
+      settings={...settings,...value};
       writeSettings(settingsFile,settings);
-      return {activateFailuresOnBriefing:settings.activateFailuresOnBriefing};
+      logger.setEnabled(settings.enableDiagnosticLog);
+      if(!wasLogging && settings.enableDiagnosticLog) logger.event('diagnostic-log.enabled');
+      logger.event('settings.changed',{keys});
+      return {checkForUpdatesOnStartup:settings.checkForUpdatesOnStartup,
+        activateFailuresOnBriefing:settings.activateFailuresOnBriefing,
+        enableDiagnosticLog:settings.enableDiagnosticLog};
+    });
+    ipcMain.handle('mel:check-updates', event => { checkSender(event); return runUpdateCheck({manual:true}); });
+    ipcMain.handle('mel:open-update', async event => {
+      checkSender(event);
+      if(!latestUpdate?.releaseUrl) throw new Error('No compatible update is available.');
+      logger.event('update.release-page.opened',{latestVersion:latestUpdate.latestVersion});
+      await shell.openExternal(latestUpdate.releaseUrl);
+      return {opened:true};
     });
     ipcMain.handle('mel:generate', async (event,value) => {
       checkSender(event);
       const selected = checkSelection(value);
       lastScenario = generator.draw(selected.aircraft, selected.count);
       saveSelection(selected);
+      logger.event('scenario.generated',{aircraft:selected.aircraft,count:selected.count,
+        ids:lastScenario.cards.map(card=>card.id),automaticActivation:settings.activateFailuresOnBriefing});
       const activation=settings.activateFailuresOnBriefing
         ? await integration.activate(lastScenario.cards.map(card=>card.id))
         : {requested:false,overall:'disabled',results:[]};
+      if(activation.requested) logger.event('activation.completed',{overall:activation.overall,
+        rolledBack:activation.rolledBack === true,results:activation.results.map(item=>({
+          catalogId:item.catalogId,fenixId:item.fenixId || null,status:item.status}))});
       return {...lastScenario,activation};
     });
     ipcMain.handle('mel:source', async (event, value) => {
@@ -159,17 +234,20 @@ else {
     integration=new IntegrationController({bridgePath,simConnectDll,
       adapter:new FenixAdapter({mapping:fenixMapping}),
       onState:state=>{
+        logger.event('integration.state',state);
         if(mainWindow && !mainWindow.isDestroyed()) mainWindow.webContents.send('mel:integration-state',state);
       }});
     integration.start();
     createWindow();
-    const qa = process.argv.find(a => a.startsWith('--qa-output='));
-    if (qa) require('./qa.cjs').run({app, BrowserWindow, mainWindow, session:session.defaultSession,
-      output:path.resolve(qa.slice('--qa-output='.length)), settingsFile});
+    mainWindow.webContents.once('did-finish-load',()=>{
+      if(settings.checkForUpdatesOnStartup && !qaArg) runUpdateCheck({manual:false});
+    });
+    if (qaArg) require('./qa.cjs').run({app, BrowserWindow, mainWindow, session:session.defaultSession,
+      output:path.resolve(qaArg.slice('--qa-output='.length)), settingsFile});
   }).catch(error => {
     dialog.showErrorBox('MEL Generator', `Unable to start the application.\n${error.message}`);
     app.quit();
   });
-  app.on('before-quit',()=>integration?.stop());
+  app.on('before-quit',()=>{logger?.event('application.stopped');integration?.stop();});
   app.on('window-all-closed', () => app.quit());
 }

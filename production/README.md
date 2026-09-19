@@ -90,8 +90,11 @@ Research, source documents, tests, design history, release records and the histo
 web prototype are kept in the sibling `development/` folder.
 
 Preferences are stored in `%APPDATA%\MEL Generator\settings.json`. No scenario history
-is saved across launches. Updates in the current alpha are manual. The build is unsigned;
-no signing certificate or online publication is included in this project.
+is saved across launches. Update checks use the public stable GitHub Release endpoint;
+the current alpha opens an available release page for manual installation. Automatic
+download and installation remain part of BL-005. Optional diagnostic logs are stored as
+JSON Lines under `%APPDATA%\MEL Generator\logs`, rotate at 10 MB and are deleted after
+seven days. The build is unsigned; no signing certificate is included in this project.
 
 The integration helper looks for `SimConnect.dll` in this order: the
 `MEL_GENERATOR_SIMCONNECT_DLL` support environment variable, an integration resource

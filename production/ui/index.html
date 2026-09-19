@@ -35,6 +35,7 @@
           <span id="sim-status" class="status-light" tabindex="0" role="status" aria-label="Simulator and aircraft not detected" title="Simulator and aircraft not detected"></span>
           <span id="adapter-status" class="status-light" tabindex="0" role="status" aria-label="Automatic activation unavailable" title="Automatic activation unavailable"></span>
         </div>
+        <button id="update-available" class="update-available" type="button" hidden>Update available</button>
         <button id="settings-button" class="icon-button" type="button" aria-label="Open settings" title="Settings"><svg aria-hidden="true"><use href="#settings"/></svg></button>
         <div class="preview-badge" id="version-badge">v1.0.0</div>
       </div>
@@ -43,7 +44,10 @@
 
   <dialog id="settings-dialog" class="settings-dialog" aria-labelledby="settings-title">
     <div class="settings-head"><div><div class="eyebrow">APPLICATION</div><h2 id="settings-title">Settings</h2></div><button id="settings-close" class="icon-button" type="button" aria-label="Close settings"><svg aria-hidden="true"><use href="#close"/></svg></button></div>
+    <div class="setting-row"><div><strong>Check for updates on startup</strong><p>Check GitHub Releases in the background when the application starts.</p></div><label class="switch"><input id="startup-update-setting" type="checkbox"><span aria-hidden="true"></span></label></div>
     <div class="setting-row"><div><strong>Automatically activate failures</strong><p>Apply generated failures to a supported loaded aircraft when creating the briefing.</p></div><label class="switch"><input id="auto-activate-setting" type="checkbox"><span aria-hidden="true"></span></label></div>
+    <div class="setting-row"><div><strong>Enable diagnostic log</strong><p>Record connection, update and activation events locally. Logs older than seven days are removed automatically.</p></div><label class="switch"><input id="diagnostic-log-setting" type="checkbox"><span aria-hidden="true"></span></label></div>
+    <div class="settings-actions"><button id="check-updates" class="secondary-button" type="button">Check for updates</button><p id="settings-update-status" class="settings-status" role="status" aria-live="polite" hidden></p></div>
     <div class="settings-versions"><span>Application <b id="settings-app-version">—</b></span><span>Integration Service <b id="settings-integration-version">—</b></span></div>
   </dialog>
 
