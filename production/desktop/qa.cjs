@@ -49,6 +49,11 @@ async function run({app,BrowserWindow,mainWindow,session,output,settingsFile}) {
     const startup = await js(`({aircraft:document.getElementById('setup-form').elements.aircraft.value,count:Number(document.getElementById('setup-form').elements.count.value),disabled:document.getElementById('failures-tab').disabled})`);
     assert.equal(startup.disabled,true);
     checks.push({name:'Startup and restored preferences',result:startup});
+    assert.equal(await js(`document.querySelector('.brand-copy small').textContent`),'Built for a different kind of flight.');
+    assert.equal(await js(`document.getElementById('version-badge')`),null);
+    assert.equal(await js(`document.body.innerText.includes('For flight simulation')`),false);
+    assert.equal(await js(`document.body.innerText.includes('Fenix integration')`),false);
+    checks.push({name:'Header slogan and simplified main-screen chrome',passed:true});
     assert.equal(await js(`typeof require`),'undefined');
     assert.equal(await js(`typeof process`),'undefined');
     assert.deepEqual(await js(`Object.keys(window.mel).sort()`),['checkForUpdates','generate','initialize',

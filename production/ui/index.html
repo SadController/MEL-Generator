@@ -28,7 +28,7 @@
     <div class="topbar-inner">
       <a class="brand" href="#setup" aria-label="MEL Generator home">
         <span class="brand-mark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M3 15l9-4 9 4M8 21l4-3 4 3"/></svg></span>
-        <span>MEL<span class="brand-light"> / Generator</span></span>
+        <span class="brand-copy"><span>MEL<span class="brand-light"> / Generator</span></span><small>Built for a different kind of flight.</small></span>
       </a>
       <div class="topbar-actions">
         <div class="status-lights" role="group" aria-label="Simulator integration status">
@@ -37,7 +37,6 @@
         </div>
         <button id="update-available" class="update-available" type="button" hidden>Update available</button>
         <button id="settings-button" class="icon-button" type="button" aria-label="Open settings" title="Settings"><svg aria-hidden="true"><use href="#settings"/></svg></button>
-        <div class="preview-badge" id="version-badge">v1.0.0</div>
       </div>
     </div>
   </header>
@@ -98,7 +97,6 @@
       <div class="failure-grid" id="failure-cards" data-count="2"></div>
       <div class="briefing-footer"><span class="source-dot" aria-hidden="true"></span><p>FAA A320 MMEL · Rev. 32 · 30 Jul 2025</p><span id="activation-footer">Activation status is shown on each card.</span></div>
     </section>
-    <footer class="page-footer"><span>Built for a different kind of flight.</span><span>For flight simulation <i></i> Fenix integration</span></footer>
   </main>
   <script src="renderer.js"></script>
 </body>

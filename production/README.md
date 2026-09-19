@@ -6,6 +6,8 @@ Uses the agreed pool of 53 failures and FAA A320 MMEL Rev. 32 (30 July 2025).
 # Run
 
 Install `release/MEL-Generator-Setup-1.1.0-alpha.1.exe` for the current Windows user.
+The assisted installer offers a `Create desktop icon` checkbox and always creates the
+approved Start menu shortcut.
 Portable editions are no longer produced. No separately installed browser, Node.js or
 Python is required.
 Choose the aircraft and 1–3 failures, then select **To failures**. **View source** opens the bundled PDF at the selected MMEL page.

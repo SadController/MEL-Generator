@@ -25,6 +25,6 @@
     "asarUnpack": ["integration/SimConnectBridge.exe"],
     "extraResources": [{ "from": "resources/MMEL.pdf", "to": "MMEL.pdf" }, { "from": "resources/THIRD-PARTY-NOTICES.txt", "to": "THIRD-PARTY-NOTICES.txt" }],
     "win": { "target": ["nsis"], "icon": "resources/icon.ico", "signAndEditExecutable": true },
-    "nsis": { "artifactName": "MEL-Generator-Setup-${version}.exe", "oneClick": false, "perMachine": false, "allowElevation": false, "allowToChangeInstallationDirectory": true, "createDesktopShortcut": false, "createStartMenuShortcut": true, "runAfterFinish": false, "deleteAppDataOnUninstall": false, "installerLanguages": ["en_US"] }
+    "nsis": { "artifactName": "MEL-Generator-Setup-${version}.exe", "oneClick": false, "perMachine": false, "allowElevation": false, "allowToChangeInstallationDirectory": true, "include": "resources/installer.nsh", "createDesktopShortcut": true, "createStartMenuShortcut": true, "runAfterFinish": false, "deleteAppDataOnUninstall": false, "installerLanguages": ["en_US"] }
   }
 }

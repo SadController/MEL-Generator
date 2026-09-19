@@ -43,6 +43,7 @@ entry and uninstaller.
 | BL-018 | Synaptic A220 support | Aircraft support | — | — | Research | A220 catalog and verified mappings using the published external interface |
 | BL-019 | Fenix event-type failures | Generator / Fenix | — | — | Proposed | Separate event catalog, generation rules and verified Fenix manager mappings |
 | BL-020 | Expand the Fenix MEL failure pool | Data / Fenix | — | 2.0.0 | Proposed | BL-010, reviewed source-document coverage and verified Fenix manager mappings |
+| BL-021 | User-facing error catalogue and recovery messages | Reliability / UX | P1 | 1.1.0 | Proposed | Reviewed failures across BL-001, BL-003 and BL-005 |
 
 ## Release roadmap
 
@@ -51,6 +52,7 @@ entry and uninstaller.
 - BL-001 — Automatic failure activation in the simulator.
 - BL-003 — Application settings.
 - BL-005 — In-app application updates.
+- BL-021 — User-facing error catalogue and recovery messages.
 
 ### Version 1.2.0 — Priority P2
 
@@ -652,6 +654,42 @@ in the separate BL-019 event catalog.
 items with several MMEL alternatives, first additional source document and whether the
 expanded pool is delivered in one release or in reviewed batches within version 2.0.0.
 
+## BL-021 — User-facing error catalogue and recovery messages
+
+**Goal:** Define and implement clear user-facing messages for every expected failure in
+the version 1.1.0 user journey, with an actionable next step and diagnostic detail kept
+out of the primary interface.
+
+**Scope to investigate:**
+
+- application startup, corrupted settings, missing packaged resources and renderer
+  failures;
+- update checks with no network connection, DNS/TLS failure, timeout, GitHub API
+  unavailability or rate limiting, malformed metadata and no compatible release;
+- update download, signature, checksum, disk-space, permission, installation, restart
+  and recovery failures introduced by BL-005;
+- MSFS not running, no aircraft loaded, unsupported aircraft, unavailable SimConnect
+  runtime or helper process, lost connection and reconnecting states;
+- unavailable Fenix EFB gateway, incomplete failure mapping, activation rejection,
+  readback mismatch, partial activation and rollback failure;
+- invalid or unavailable catalogue data, inability to generate a compatible scenario,
+  missing MMEL PDF and failure to open a source page;
+- settings and diagnostic-log write failures, including a full or read-only user-data
+  location;
+- consistent placement, wording, severity, retry action and dismissal behavior for
+  messages on the main screen, Settings screen and failure briefing.
+
+**Acceptance direction:** Every recoverable failure expected in 1.1.0 has a plain-English
+message that distinguishes the cause from a successful empty result. In particular, a
+failed update request or absent network connection is never shown as `No updates
+available`. The user is told what remains safe, what action can be retried and whether
+manual failure activation is required. Technical stack traces and credentials are never
+shown in the interface; diagnostic context is written only when logging is enabled.
+
+**Open decisions:** Final message catalogue, error codes, inline versus modal placement,
+retry timing, whether transient reconnect states need delayed presentation and which
+failures warrant a persistent banner.
+
 ## Dependency notes
 
 - BL-004 should follow the settings foundation in BL-003.
@@ -681,6 +719,8 @@ expanded pool is delivered in one release or in reviewed batches within version 
 - BL-020 targets version 2.0.0 with BL-010 because the larger Fenix catalog should use
   the redesigned applicability, compatibility, severity and weighting model rather than
   extend the current precomputed combination pools.
+- BL-021 must be completed after the main BL-001, BL-003 and BL-005 flows stabilize so
+  its catalogue covers their actual failure modes before the 1.1.0 release candidate.
 
 ## Backlog workflow
 

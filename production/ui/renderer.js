@@ -216,7 +216,6 @@ document.querySelector('.tabbar').addEventListener('keydown',event=>{
     const info = await window.mel.initialize();
     form.elements.aircraft.value = info.settings.aircraft;
     form.elements.count.value = String(info.settings.count);
-    document.getElementById('version-badge').textContent = `v${info.version}`;
     document.getElementById('settings-app-version').textContent = info.version;
     document.getElementById('settings-integration-version').textContent = info.integrationVersion;
     document.getElementById('startup-update-setting').checked = info.settings.checkForUpdatesOnStartup;
