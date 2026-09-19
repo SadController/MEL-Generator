@@ -4,8 +4,10 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const os = require('node:os');
 const path = require('node:path');
+const {EventEmitter} = require('node:events');
 const {DiagnosticLogger,DAY_MS} = require('../../production/desktop/diagnostic-log.cjs');
 const {UpdateChecker,parseVersion,compareVersions} = require('../../production/desktop/update-checker.cjs');
+const {UpdateManager} = require('../../production/desktop/update-manager.cjs');
 
 test('diagnostic logging is opt-in, redacts secrets, rotates and removes only expired app logs',()=>{
   const dir=fs.mkdtempSync(path.join(os.tmpdir(),'mel-logs-'));
@@ -57,4 +59,48 @@ test('update checker accepts the legacy Stable tag using the release name versio
   })});
   assert.deepEqual(await checker.check(),{status:'current',currentVersion:'1.1.0-alpha.1',
     latestVersion:'1.0.0',releaseName:'v1.0.0',releaseUrl:null});
+});
+
+test('update manager downloads once, reports progress and installs only after completion',async()=>{
+  class FakeUpdater extends EventEmitter {
+    async checkForUpdates() { return {updateInfo:{version:'1.1.0'}}; }
+    async downloadUpdate() {
+      this.emit('download-progress',{percent:42,transferred:42,total:100});
+      this.emit('update-downloaded',{version:'1.1.0'});
+    }
+    quitAndInstall(silent,runAfter) { this.installArgs=[silent,runAfter]; }
+  }
+  const updater=new FakeUpdater();
+  const states=[];
+  const manager=new UpdateManager({updater,isPackaged:true,signaturePolicyReady:true,
+    onState:state=>states.push(state)});
+  assert.equal(updater.autoDownload,false);
+  assert.equal(updater.autoInstallOnAppQuit,false);
+  await manager.download();
+  assert.equal(states.some(state=>state.status === 'downloading' && state.percent === 42),true);
+  assert.equal(manager.publicState().status,'downloaded');
+  assert.deepEqual(manager.install(),{installing:true});
+  assert.deepEqual(updater.installArgs,[false,true]);
+});
+
+test('update manager keeps the installed version after network and verification failures',async()=>{
+  class FakeUpdater extends EventEmitter {
+    async checkForUpdates() { throw new Error('ENOTFOUND github.com'); }
+    async downloadUpdate() { throw new Error('must not run'); }
+  }
+  const network=new UpdateManager({updater:new FakeUpdater(),isPackaged:true,signaturePolicyReady:true});
+  assert.match((await network.download()).message,/internet connection/);
+  assert.throws(()=>network.install(),/No verified update/);
+  assert.match(network.errorMessage(new Error('publisher signature mismatch')),/could not be verified/);
+});
+
+test('update manager blocks automatic installation until a signed publisher policy exists',async()=>{
+  class FakeUpdater extends EventEmitter {
+    async checkForUpdates() { throw new Error('must not contact the release channel'); }
+  }
+  const manager=new UpdateManager({updater:new FakeUpdater(),isPackaged:true});
+  const result=await manager.download();
+  assert.equal(result.status,'error');
+  assert.match(result.message,/release signing/);
+  assert.throws(()=>manager.install(),/No verified update/);
 });

@@ -1,5 +1,6 @@
 'use strict';
-const {app, BrowserWindow, ipcMain, Menu, protocol, session, dialog, screen, shell} = require('electron');
+const {app, BrowserWindow, ipcMain, Menu, protocol, session, dialog, screen} = require('electron');
+const {autoUpdater} = require('electron-updater');
 const fs = require('node:fs');
 const path = require('node:path');
 const {Generator} = require('../core/generator.cjs');
@@ -7,6 +8,7 @@ const {readSettings, writeSettings} = require('./settings.cjs');
 const {FenixAdapter,IntegrationController,findSimConnectDll} = require('./integration.cjs');
 const {DiagnosticLogger} = require('./diagnostic-log.cjs');
 const {UpdateChecker} = require('./update-checker.cjs');
+const {UpdateManager} = require('./update-manager.cjs');
 const catalog = require('../data/catalog.json');
 const rules = require('../data/rules.json');
 const fenixMapping = require('../integration/fenix-mapping.json');
@@ -30,6 +32,7 @@ let lastScenario;
 let integration;
 let logger;
 let updateChecker;
+let updateManager;
 let updateCheckPromise;
 let latestUpdate;
 const qaArg = process.argv.find(a => a.startsWith('--qa-output='));
@@ -90,7 +93,18 @@ function publicUpdateState(value) {
   if(!value) return null;
   return {status:value.status,currentVersion:value.currentVersion,
     latestVersion:value.latestVersion || null,releaseName:value.releaseName || null,
-    message:value.message || null,manual:value.manual === true};
+    message:value.message || null,manual:value.manual === true,
+    percent:Number.isFinite(value.percent) ? value.percent : null};
+}
+
+async function activateCurrentScenario({manual=true}={}) {
+  if(!lastScenario?.cards?.length) throw new Error('No generated scenario is available.');
+  const activation=await integration.activate(lastScenario.cards.map(card=>card.id));
+  logger.event('activation.completed',{overall:activation.overall,
+    rolledBack:activation.rolledBack === true,manual,results:(activation.results || []).map(item=>({
+      catalogId:item.catalogId,fenixId:item.fenixId || null,status:item.status}))});
+  lastScenario={...lastScenario,activation};
+  return activation;
 }
 
 function publishUpdateState(value) {
@@ -135,6 +149,15 @@ else {
     try { logger.cleanup(); } catch { /* Log maintenance is best effort. */ }
     logger.event('application.started',{version:app.getVersion(),platform:process.platform,arch:process.arch});
     updateChecker = new UpdateChecker({currentVersion:app.getVersion()});
+    const updateConfig=app.isPackaged ? path.join(process.resourcesPath,'app-update.yml') : null;
+    const signaturePolicyReady=Boolean(updateConfig && fs.existsSync(updateConfig) &&
+      /^publisherName\s*:/m.test(fs.readFileSync(updateConfig,'utf8')));
+    updateManager = new UpdateManager({updater:autoUpdater,isPackaged:app.isPackaged,
+      signaturePolicyReady,logger,
+      onState:state=>{
+        latestUpdate={...(latestUpdate || {}),...state};
+        publishUpdateState(latestUpdate);
+      }});
     generator = new Generator(catalog,rules);
     const pdf = path.join(app.isPackaged ? process.resourcesPath : path.resolve(__dirname,'../resources'),'MMEL.pdf');
     const allowed = new Map([
@@ -188,13 +211,15 @@ else {
         enableDiagnosticLog:settings.enableDiagnosticLog};
     });
     ipcMain.handle('mel:check-updates', event => { checkSender(event); return runUpdateCheck({manual:true}); });
-    ipcMain.handle('mel:open-update', async event => {
+    ipcMain.handle('mel:run-update', async event => {
       checkSender(event);
-      if(!latestUpdate?.releaseUrl) throw new Error('No compatible update is available.');
-      logger.event('update.release-page.opened',{latestVersion:latestUpdate.latestVersion});
-      await shell.openExternal(latestUpdate.releaseUrl);
-      return {opened:true};
+      if(updateManager.publicState().status === 'downloaded') return updateManager.install();
+      if(!latestUpdate || !['available','error','downloading'].includes(latestUpdate.status)) {
+        throw new Error('No compatible update is available.');
+      }
+      return updateManager.download();
     });
+    ipcMain.handle('mel:activate-current', async event => { checkSender(event); return activateCurrentScenario(); });
     ipcMain.handle('mel:generate', async (event,value) => {
       checkSender(event);
       const selected = checkSelection(value);
@@ -203,11 +228,8 @@ else {
       logger.event('scenario.generated',{aircraft:selected.aircraft,count:selected.count,
         ids:lastScenario.cards.map(card=>card.id),automaticActivation:settings.activateFailuresOnBriefing});
       const activation=settings.activateFailuresOnBriefing
-        ? await integration.activate(lastScenario.cards.map(card=>card.id))
+        ? await activateCurrentScenario({manual:false})
         : {requested:false,overall:'disabled',results:[]};
-      if(activation.requested) logger.event('activation.completed',{overall:activation.overall,
-        rolledBack:activation.rolledBack === true,results:activation.results.map(item=>({
-          catalogId:item.catalogId,fenixId:item.fenixId || null,status:item.status}))});
       return {...lastScenario,activation};
     });
     ipcMain.handle('mel:source', async (event, value) => {

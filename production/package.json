@@ -19,12 +19,67 @@
   "build": {
     "appId": "local.melgenerator.desktop",
     "asar": true,
-    "electronLanguages": ["en-US"],
-    "directories": { "output": "release", "buildResources": "resources" },
-    "files": ["desktop/**", "core/**", "ui/**", "data/**", "integration/**", "package.json"],
-    "asarUnpack": ["integration/SimConnectBridge.exe"],
-    "extraResources": [{ "from": "resources/MMEL.pdf", "to": "MMEL.pdf" }, { "from": "resources/THIRD-PARTY-NOTICES.txt", "to": "THIRD-PARTY-NOTICES.txt" }],
-    "win": { "target": ["nsis"], "icon": "resources/icon.ico", "signAndEditExecutable": true },
-    "nsis": { "artifactName": "MEL-Generator-Setup-${version}.exe", "oneClick": false, "perMachine": false, "allowElevation": false, "allowToChangeInstallationDirectory": true, "include": "resources/installer.nsh", "createDesktopShortcut": true, "createStartMenuShortcut": true, "runAfterFinish": false, "deleteAppDataOnUninstall": false, "installerLanguages": ["en_US"] }
+    "electronLanguages": [
+      "en-US"
+    ],
+    "directories": {
+      "output": "release",
+      "buildResources": "resources"
+    },
+    "files": [
+      "desktop/**",
+      "core/**",
+      "ui/**",
+      "data/**",
+      "integration/**",
+      "package.json"
+    ],
+    "asarUnpack": [
+      "integration/SimConnectBridge.exe"
+    ],
+    "extraResources": [
+      {
+        "from": "resources/MMEL.pdf",
+        "to": "MMEL.pdf"
+      },
+      {
+        "from": "resources/THIRD-PARTY-NOTICES.txt",
+        "to": "THIRD-PARTY-NOTICES.txt"
+      }
+    ],
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "SadController",
+        "repo": "MEL-Generator",
+        "releaseType": "release"
+      }
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "resources/icon.ico",
+      "signAndEditExecutable": true,
+      "verifyUpdateCodeSignature": true
+    },
+    "nsis": {
+      "artifactName": "MEL-Generator-Setup-${version}.exe",
+      "oneClick": false,
+      "perMachine": false,
+      "allowElevation": false,
+      "allowToChangeInstallationDirectory": true,
+      "include": "resources/installer.nsh",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "runAfterFinish": false,
+      "deleteAppDataOnUninstall": false,
+      "installerLanguages": [
+        "en_US"
+      ]
+    }
+  },
+  "dependencies": {
+    "electron-updater": "6.8.9"
   }
 }

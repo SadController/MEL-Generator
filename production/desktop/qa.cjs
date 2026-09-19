@@ -56,8 +56,8 @@ async function run({app,BrowserWindow,mainWindow,session,output,settingsFile}) {
     checks.push({name:'Header slogan and simplified main-screen chrome',passed:true});
     assert.equal(await js(`typeof require`),'undefined');
     assert.equal(await js(`typeof process`),'undefined');
-    assert.deepEqual(await js(`Object.keys(window.mel).sort()`),['checkForUpdates','generate','initialize',
-      'onIntegrationState','onUpdateStatus','openSource','openUpdate','saveAppSettings','saveSelection']);
+    assert.deepEqual(await js(`Object.keys(window.mel).sort()`),['activateCurrent','checkForUpdates','generate','initialize',
+      'onIntegrationState','onUpdateStatus','openSource','runUpdate','saveAppSettings','saveSelection']);
     checks.push({name:'Renderer isolation and narrow preload',passed:true});
     assert.equal(await js(`document.querySelectorAll('.status-light').length`),2);
     assert.equal(await js(`Array.from(document.querySelectorAll('.status-light')).every(item=>!item.textContent.trim())`),true);
@@ -72,6 +72,10 @@ async function run({app,BrowserWindow,mainWindow,session,output,settingsFile}) {
     assert.equal(await js(`document.getElementById('settings-update-status').textContent`),'No updates available');
     await js(`renderUpdateState({status:'available',latestVersion:'9.9.9',currentVersion:'1.1.0'})`);
     assert.equal(await js(`document.getElementById('update-available').hidden`),false);
+    await js(`renderUpdateState({status:'downloading',latestVersion:'9.9.9',percent:42})`);
+    assert.equal(await js(`document.getElementById('update-available').textContent`),'Downloading 42%');
+    await js(`renderUpdateState({status:'downloaded',latestVersion:'9.9.9'})`);
+    assert.equal(await js(`document.getElementById('update-available').textContent`),'Restart to update');
     await js(`renderUpdateState(null)`);
     await js(`document.getElementById('diagnostic-log-setting').click()`);
     await until(`document.getElementById('diagnostic-log-setting').checked && !document.getElementById('diagnostic-log-setting').disabled`);
@@ -91,6 +95,7 @@ async function run({app,BrowserWindow,mainWindow,session,output,settingsFile}) {
       assert.equal(result.length,count);
       assert.equal(new Set(result.map(c=>c.id)).size,count);
       assert.equal(await js(`document.getElementById('results-title').textContent`),aircraft+' failures');
+      assert.equal(await js(`document.getElementById('activate-failures').textContent`),'Activate failures');
       assert.equal(await js(`/[\u0400-\u04ff]/.test(document.body.innerText)`),false);
       assert.equal(await js(`document.documentElement.scrollWidth<=innerWidth`),true);
       await pause(300);

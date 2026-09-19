@@ -9,7 +9,9 @@ const label = document.getElementById('generate-label');
 let scenario = null;
 let currentView = 'setup';
 let busy = false;
+let activationBusy = false;
 let integrationState = null;
+const activationButton = document.getElementById('activate-failures');
 const selection = () => ({aircraft:form.elements.aircraft.value, count:Number(form.elements.count.value)});
 const pad = n => String(n).padStart(2,'0');
 function message(text = '') {
@@ -42,6 +44,15 @@ function element(tag, className, text) {
   if (className) el.className = className;
   if (text !== undefined) el.textContent = text;
   return el;
+}
+function updateActivationButton() {
+  const succeeded=scenario?.activation?.requested && scenario.activation.overall === 'success';
+  const ready=integrationState?.simConnected && integrationState?.aircraftLoaded &&
+    integrationState?.supportedAircraft && integrationState?.adapterReady;
+  activationButton.textContent=activationBusy ? 'Activating…' : succeeded ? 'Failures active'
+    : scenario?.activation?.requested ? 'Retry activation' : 'Activate failures';
+  activationButton.disabled=activationBusy || !scenario || !ready || succeeded;
+  activationButton.title=ready ? '' : 'Load a supported Fenix aircraft to activate these failures.';
 }
 function renderScenario(result) {
   const activationById = new Map((result.activation?.results || []).map(item=>[item.catalogId,item]));
@@ -114,6 +125,7 @@ function renderScenario(result) {
     summary.textContent='';
     document.getElementById('activation-footer').textContent='Activate these failures manually in Fenix.';
   }
+  updateActivationButton();
 }
 form.addEventListener('change', async () => {
   updateSummary();
@@ -132,13 +144,25 @@ form.addEventListener('submit', async event => {
   message();
   try {
     const result = await window.mel.generate(selection());
-    renderScenario(result);
     scenario = result;
+    renderScenario(result);
     switchView('failures',true);
   } catch { message('Unable to generate a scenario. Please try again.'); }
   finally { busy = false; submit.disabled = false; label.textContent = 'To failures'; form.setAttribute('aria-busy','false'); }
 });
 document.getElementById('back-button').addEventListener('click',()=>switchView('setup',true));
+activationButton.addEventListener('click',async()=>{
+  if(activationBusy || activationButton.disabled || !scenario) return;
+  activationBusy=true;
+  updateActivationButton();
+  message();
+  try {
+    const activation=await window.mel.activateCurrent();
+    scenario={...scenario,activation};
+    renderScenario(scenario);
+  } catch { message('Unable to activate the failures. Confirm that Fenix is loaded and try again.'); }
+  finally { activationBusy=false; updateActivationButton(); }
+});
 setupTab.addEventListener('click',()=>switchView('setup'));
 failuresTab.addEventListener('click',()=>switchView('failures'));
 document.querySelector('.brand').addEventListener('click',event=>{event.preventDefault();switchView('setup',true);});
@@ -167,11 +191,19 @@ const checkUpdatesButton=document.getElementById('check-updates');
 const updateStatus=document.getElementById('settings-update-status');
 function renderUpdateState(state) {
   const available=state?.status === 'available';
-  updateButton.hidden=!available;
+  const downloading=state?.status === 'downloading';
+  const downloaded=state?.status === 'downloaded';
+  const retry=state?.status === 'error' && Boolean(state.latestVersion);
+  updateButton.hidden=!(available || downloading || downloaded || retry);
+  updateButton.disabled=downloading;
+  updateButton.textContent=downloading ? `Downloading ${Math.round(state.percent || 0)}%`
+    : downloaded ? 'Restart to update' : retry ? 'Retry update' : 'Update available';
   checkUpdatesButton.disabled=state?.status === 'checking';
   updateStatus.className=`settings-status ${state?.status || ''}`;
   if(state?.status === 'checking') updateStatus.textContent='Checking for updates…';
   else if(available) updateStatus.textContent=`Version ${state.latestVersion} is available.`;
+  else if(downloading) updateStatus.textContent=`Downloading version ${state.latestVersion || ''}… ${Math.round(state.percent || 0)}%`;
+  else if(downloaded) updateStatus.textContent=`Version ${state.latestVersion} is ready. Restart to install it.`;
   else if(state?.status === 'current' && state.manual) updateStatus.textContent='No updates available';
   else if(state?.status === 'error') updateStatus.textContent=state.message || 'Unable to check for updates.';
   else updateStatus.textContent='';
@@ -184,9 +216,11 @@ checkUpdatesButton.addEventListener('click',async()=>{
 });
 updateButton.addEventListener('click',async()=>{
   updateButton.disabled=true;
-  try { await window.mel.openUpdate(); }
-  catch { message('Unable to open the release page. Please try again.'); }
-  finally { updateButton.disabled=false; }
+  try {
+    const result=await window.mel.runUpdate();
+    if(result?.status) renderUpdateState(result);
+  }
+  catch { renderUpdateState({status:'error',latestVersion:'unknown',message:'Unable to update the application. The installed version was not changed.'}); }
 });
 function renderIntegrationState(state) {
   integrationState=state;
@@ -200,6 +234,7 @@ function renderIntegrationState(state) {
   const adapterText=adapterReady ? 'Automatic activation available' : 'Automatic activation unavailable';
   sim.title=simText; sim.setAttribute('aria-label',simText);
   adapter.title=adapterText; adapter.setAttribute('aria-label',adapterText);
+  updateActivationButton();
 }
 window.mel.onIntegrationState(renderIntegrationState);
 window.mel.onUpdateStatus(renderUpdateState);
