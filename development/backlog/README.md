@@ -145,7 +145,12 @@ approved two-circle header status. Automated adapter, generator, settings and El
 UI checks pass. The production controller, SimConnect helper and Fenix adapter also
 passed a live activation/readback/restoration test on `FenixA321 IAE WF SC`, while
 preserving three pre-existing unmapped Fenix states. Final installed-application
-acceptance and broader reconnection/error-path checks remain before BL-001 is complete.
+acceptance remains before BL-001 is complete. On 20 September the packaged alpha also
+passed a two-failure UI activation with separate Fenix readback, an already-active item,
+an Integration Service interruption, a clean application restart and reconnection.
+Both generated failures were restored and all 53 mapped entries passed the final clear-
+state check. See
+[`BL-021-LIVE-ACCEPTANCE-2026-09-20.md`](../release-records/BL-021-LIVE-ACCEPTANCE-2026-09-20.md).
 The Failures page also provides an explicit `Activate failures` action beside the
 scenario count; it retries the same verified adapter operation without generating a new
 scenario and changes to `Failures active` after successful readback.
@@ -737,8 +742,10 @@ retry loop. Every displayed error includes its stable code.
 service tests and the complete Electron UI suite in both development and packaged
 builds. The packaged run explicitly verified the offline update error, actionable
 SimConnect banner, settings, all aircraft/count combinations, repeated generation and
-the bundled PDF viewer. Live MSFS/Fenix recovery scenarios and the signed release
-candidate remain release-candidate checks.
+the bundled PDF viewer. A live Fenix A321 run then verified both green readiness lights,
+mixed `already-active`/`activated` readback, restoration, an Integration Service failure
+without technical-detail leakage, and successful reconnection after restart. The signed
+release candidate remains the final BL-021 release-candidate check.
 
 ## Dependency notes
 

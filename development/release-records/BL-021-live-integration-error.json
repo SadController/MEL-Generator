@@ -1,0 +1,11 @@
+{
+  "tooltip": {
+    "sim": "Simulator and aircraft not detected",
+    "adapter": "Simulator integration stopped. Close and reopen MEL Generator, then try activation again."
+  },
+  "error": {
+    "code": "GENERATION_UNAVAILABLE",
+    "text": "Scenario generation is unavailable\nThe Integration Service did not return a scenario.\nClose and reopen MEL Generator, then try again. · GENERATION_UNAVAILABLE",
+    "hasTechnical": false
+  }
+}
