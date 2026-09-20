@@ -111,12 +111,11 @@ download and installation remain part of BL-005. Optional diagnostic logs are st
 JSON Lines under `%APPDATA%\MEL Generator\logs`, rotate at 10 MB and are deleted after
 seven days. The build is unsigned; no signing certificate is included in this project.
 
-The integration helper looks for `SimConnect.dll` in this order: the
-`MEL_GENERATOR_SIMCONNECT_DLL` support environment variable, an integration resource
-bundled with a future approved distribution, the optional
-`%APPDATA%\MEL Generator\simconnect-path.txt` support override. The alpha installer does
-not redistribute a third-party copy of SimConnect and does not load an arbitrary DLL
-discovered inside the Community folder.
+The installer includes the unmodified native `SimConnect.dll` from Microsoft Flight
+Simulator 2024 Core SDK 1.7.3. The integration helper looks for `SimConnect.dll` in this
+order: the `MEL_GENERATOR_SIMCONNECT_DLL` support environment variable, the bundled SDK
+library, and the optional `%APPDATA%\MEL Generator\simconnect-path.txt` support override.
+It does not load an arbitrary DLL discovered inside the Community folder.
 
 This is a flight simulation application. Card text summarizes the selected source
 provision; the complete original PDF is available offline. See the bundled

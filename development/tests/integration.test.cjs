@@ -1,6 +1,8 @@
 'use strict';
 const test = require('node:test');
 const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const crypto = require('node:crypto');
 const path = require('node:path');
 const {spawn} = require('node:child_process');
 const readline = require('node:readline');
@@ -9,6 +11,12 @@ const {IntegrationServiceClient,isSupportedFenix,PROTOCOL_VERSION} = require('..
 const root=path.resolve(__dirname,'../..');
 const service=path.join(root,'production','integration','service','MelGenerator.IntegrationService.exe');
 const data=path.join(root,'production','integration','service','data');
+const simConnect=path.join(root,'production','integration','SimConnect.dll');
+
+test('bundled SimConnect client matches the accepted official SDK binary',()=>{
+  const hash=crypto.createHash('sha256').update(fs.readFileSync(simConnect)).digest('hex').toUpperCase();
+  assert.equal(hash,'B10DE7ADF4C62E5F66C89DD6D01B64091BBBCEC83411CFE191D6B85FBEE61D15');
+});
 
 test('integration client accepts only protocol v2 state and strict Fenix titles',()=>{
   const states=[];

@@ -28,15 +28,16 @@ not running, the Integration Service loaded the library and reached `SimConnect_
 which returned `E_FAIL` as expected for an unavailable simulator. This replaces the
 ChasePlane copy as the local development dependency.
 
-## Distribution status
+## Distribution decision
 
-The SDK EULA prohibits sharing the SDK except for code separately classified as
-distributable. The SDK package does not identify `SimConnect.dll` as distributable and
-does not include a SimConnect-specific redistribution notice. A current Microsoft/Asobo
-DevSupport request for a written determination remains unanswered. Therefore the
-official DLL is approved for local development only and must not be committed, uploaded
-to GitHub Releases or included in the public installer until redistribution permission
-is established.
+Project decision, 20 September 2026: the unmodified native `SimConnect.dll` from the
+official Microsoft Flight Simulator 2024 SDK is accepted as redistributable code for MEL
+Generator. It is committed under `production/integration`, included in the installer and
+recorded in `THIRD-PARTY-NOTICES.txt`. The SDK EULA accompanies the installed application.
+
+This is the project's distribution decision. The SDK package does not contain a separate
+SimConnect redistribution notice, and the current Microsoft/Asobo DevSupport request for
+an explicit written classification remains unanswered.
 
 ## Installed simulator candidate
 

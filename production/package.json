@@ -32,6 +32,7 @@
       "ui/**",
       "data/**",
       "integration/**",
+      "!integration/SimConnect.dll",
       "package.json"
     ],
     "asarUnpack": [
@@ -45,6 +46,14 @@
       {
         "from": "resources/THIRD-PARTY-NOTICES.txt",
         "to": "THIRD-PARTY-NOTICES.txt"
+      },
+      {
+        "from": "integration/SimConnect.dll",
+        "to": "integration/SimConnect.dll"
+      },
+      {
+        "from": "resources/MSFS-SDK-EULA.pdf",
+        "to": "MSFS-SDK-EULA.pdf"
       }
     ],
     "publish": [

@@ -5,9 +5,9 @@ Backlog item: BL-001
 Status: Research completed for the initial Fenix slice; production implementation is in
 progress in version 1.1.0 alpha 1.
 
-The locally acquired Microsoft SDK and SimConnect provenance are recorded in
-`SIMCONNECT_SDK_PROVENANCE.md`. The DLL is a development dependency only while its
-redistribution status remains unconfirmed.
+The acquired Microsoft SDK and SimConnect provenance are recorded in
+`SIMCONNECT_SDK_PROVENANCE.md`. The project accepts the official SDK client DLL as a
+redistributable runtime dependency and bundles the unmodified file with the application.
 
 The complete requested aircraft pool, current product variants and provider-by-provider
 activation routes are recorded in [Aircraft Pool and Failure-Activation Matrix](AIRCRAFT_MATRIX.md).
