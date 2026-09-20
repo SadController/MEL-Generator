@@ -341,11 +341,16 @@ mapping begins only after that gate.
 - Which Fenix versions should 1.1.0 support, and how can the installed version be read
   through a supported interface?
 - Which exact PMDG product will be the first non-Fenix adapter?
-- Will the integration service be C#/.NET or native C++? The protocol intentionally
-  leaves this implementation choice replaceable.
 - Should the optional WASM package be installed automatically by the app installer or
   separately after the first adapter proves it necessary?
 - Which failure is the safest reversible vertical-slice test for each provider?
+
+## Implementation decision — 20 September 2026
+
+The shared service is implemented in C# on .NET 8 and published as a self-contained
+Windows executable. Protocol version 2 carries generation, activation and state traffic
+over redirected standard pipes. The Electron shell no longer owns SimConnect, Fenix HTTP
+commands or scenario generation. See `../architecture/CORE_AND_INTEGRATION_SERVICE.md`.
 
 ## Source registry
 

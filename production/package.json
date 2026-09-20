@@ -10,7 +10,8 @@
   "scripts": {
     "start": "electron .",
     "test": "node --test ../development/tests/*.test.cjs",
-    "build": "electron-builder --win nsis --x64"
+    "build:service": "powershell -NoProfile -ExecutionPolicy Bypass -File ../development/scripts/build-service.ps1",
+    "build": "pnpm run build:service && electron-builder --win nsis --x64"
   },
   "devDependencies": {
     "electron": "44.3.0",
@@ -28,14 +29,13 @@
     },
     "files": [
       "desktop/**",
-      "core/**",
       "ui/**",
       "data/**",
       "integration/**",
       "package.json"
     ],
     "asarUnpack": [
-      "integration/SimConnectBridge.exe"
+      "integration/service/**"
     ],
     "extraResources": [
       {

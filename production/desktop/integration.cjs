@@ -1,154 +1,10 @@
 'use strict';
 const fs = require('node:fs');
 const path = require('node:path');
-const http = require('node:http');
 const {spawn} = require('node:child_process');
 const readline = require('node:readline');
 
-const PROTOCOL_VERSION = 1;
-const DEFAULT_BASE_URL = 'http://127.0.0.1:8083/fenix';
-
-function requestJson(url, {method='GET', body, timeoutMs=2500}={}) {
-  return new Promise((resolve,reject)=>{
-    const payload = body === undefined ? null : Buffer.from(JSON.stringify(body));
-    const request = http.request(url,{method,timeout:timeoutMs,headers:{
-      Accept:'application/json',
-      ...(payload ? {'Content-Type':'application/json','Content-Length':payload.length} : {})
-    }},response=>{
-      const chunks=[];
-      response.on('data',chunk=>chunks.push(chunk));
-      response.on('end',()=>{
-        const text=Buffer.concat(chunks).toString('utf8');
-        if(response.statusCode < 200 || response.statusCode >= 300) {
-          reject(new Error(`Fenix gateway returned HTTP ${response.statusCode}.`));
-          return;
-        }
-        try { resolve(JSON.parse(text)); }
-        catch { reject(new Error('Fenix gateway returned invalid JSON.')); }
-      });
-    });
-    request.on('timeout',()=>request.destroy(new Error('Fenix gateway timed out.')));
-    request.on('error',reject);
-    if(payload) request.write(payload);
-    request.end();
-  });
-}
-
-function flattenManualFailures(payload) {
-  if(!payload || !Array.isArray(payload.atas)) throw new Error('Unexpected Fenix failure catalogue format.');
-  const result = new Map();
-  for(const ata of payload.atas) for(const group of ata.groups || []) for(const failure of group.failures || []) {
-    if(!failure || typeof failure.id !== 'string') continue;
-    result.set(failure.id,{...failure,ata:ata.id,group:group.groupName});
-  }
-  return result;
-}
-
-function stableState(item) {
-  return {failed:item?.failed === true,failureCondition:item?.failureCondition ?? null};
-}
-
-function sameState(left,right) {
-  return left.failed === right.failed && left.failureCondition === right.failureCondition;
-}
-
-class FenixAdapter {
-  constructor({mapping,baseUrl=DEFAULT_BASE_URL,request=requestJson,clearSettleMs=750}={}) {
-    this.mapping = Object.freeze({...mapping});
-    this.baseUrl = baseUrl.replace(/\/$/,'');
-    this.request = request;
-    this.clearSettleMs = clearSettleMs;
-  }
-
-  async catalogue() {
-    return flattenManualFailures(await this.request(`${this.baseUrl}/failures/manual`));
-  }
-
-  async probe() {
-    const catalogue = await this.catalogue();
-    const missing = Object.values(this.mapping).filter(id=>!catalogue.has(id));
-    if(missing.length) throw new Error(`Fenix adapter is missing ${missing.length} mapped failure records.`);
-    return {ready:true,records:catalogue.size,mapped:Object.keys(this.mapping).length};
-  }
-
-  async setFailure(item,failed) {
-    const attempts=failed ? 1 : 2;
-    let readback;
-    for(let attempt=0;attempt<attempts;attempt++) {
-      const response = await this.request(`${this.baseUrl}/failures/saveManual`,{
-        method:'POST',
-        body:{id:item.id,title:item.title,failureCondition:null,failed}
-      });
-      if(response?.failed !== failed) throw new Error(`Fenix did not acknowledge ${item.id}.`);
-      readback = (await this.catalogue()).get(item.id);
-      if(failed) {
-        if(readback?.failed === true) return readback;
-        break;
-      }
-      if(this.clearSettleMs>0) await new Promise(resolve=>setTimeout(resolve,this.clearSettleMs));
-      readback = (await this.catalogue()).get(item.id);
-      if(readback?.failed === false && readback.failureCondition == null) return readback;
-    }
-    throw new Error(`Fenix readback did not confirm ${item.id}=${failed}.`);
-  }
-
-  async activate(catalogIds) {
-    const unique=[...new Set(catalogIds)];
-    if(unique.length !== catalogIds.length || unique.some(id=>!this.mapping[id])) {
-      throw new Error('Scenario contains an unsupported Fenix failure mapping.');
-    }
-    const baseline=await this.catalogue();
-    const mappedIds=Object.values(this.mapping);
-    const missing=mappedIds.filter(id=>!baseline.has(id));
-    if(missing.length) throw new Error(`Fenix failure catalogue is missing: ${missing.join(', ')}.`);
-    const before=new Map(mappedIds.map(id=>[id,stableState(baseline.get(id))]));
-    const results=[];
-    const activated=[];
-    try {
-      for(const catalogId of unique) {
-        const fenixId=this.mapping[catalogId];
-        const item=baseline.get(fenixId);
-        if(item.failed === true) {
-          results.push({catalogId,fenixId,status:'already-active'});
-          continue;
-        }
-        if(item.failed === true || item.failureCondition != null) {
-          throw new Error(`${fenixId} is armed or active in an incompatible state.`);
-        }
-        try { await this.setFailure(item,true); }
-        catch(error) {
-          try {
-            const current=(await this.catalogue()).get(fenixId);
-            if(current?.failed === true) activated.push({catalogId,fenixId,item});
-          } catch { /* Preserve the original activation error. */ }
-          throw error;
-        }
-        activated.push({catalogId,fenixId,item});
-        results.push({catalogId,fenixId,status:'activated'});
-      }
-      const finalState=await this.catalogue();
-      const intended=new Set(unique.map(id=>this.mapping[id]));
-      const collateral=mappedIds.filter(id=>!intended.has(id) && !sameState(stableState(finalState.get(id)),before.get(id)));
-      if(collateral.length) throw new Error(`Other mapped failures changed: ${collateral.join(', ')}.`);
-      return {requested:true,overall:'success',results,rolledBack:false};
-    } catch(error) {
-      let rollbackError=null;
-      for(const entry of activated.reverse()) {
-        try {
-          await this.setFailure(entry.item,false);
-          const result=results.find(value=>value.catalogId===entry.catalogId);
-          if(result) result.status='rolled-back';
-        } catch(rollback) { rollbackError=rollback.message; }
-      }
-      const completed=new Set(results.map(result=>result.catalogId));
-      for(const catalogId of unique) if(!completed.has(catalogId)) {
-        results.push({catalogId,fenixId:this.mapping[catalogId],status:'failed',message:error.message});
-      }
-      return {requested:true,overall:'failed',results,rolledBack:activated.length>0,
-        message:error.message,rollbackError};
-    }
-  }
-}
+const PROTOCOL_VERSION = 2;
 
 function findSimConnectDll({resourcesPath,userData}={}) {
   const explicit=process.env.MEL_GENERATOR_SIMCONNECT_DLL;
@@ -165,24 +21,22 @@ function isSupportedFenix(title) {
   return typeof title === 'string' && /^FenixA(?:319|320|321)\b/i.test(title.trim());
 }
 
-class IntegrationController {
-  constructor({bridgePath,simConnectDll,adapter,onState,pollMs=2500}={}) {
-    this.bridgePath=bridgePath;
+class IntegrationServiceClient {
+  constructor({servicePath,simConnectDll,dataDirectory,onState,requestTimeoutMs=30000}={}) {
+    this.servicePath=servicePath;
     this.simConnectDll=simConnectDll;
-    this.adapter=adapter;
+    this.dataDirectory=dataDirectory;
     this.onState=typeof onState === 'function' ? onState : ()=>{};
-    this.pollMs=pollMs;
-    this.bridge=null;
-    this.timer=null;
-    this.probing=false;
+    this.requestTimeoutMs=requestTimeoutMs;
+    this.process=null;
+    this.sequence=0;
+    this.pending=new Map();
     this.state={simConnected:false,aircraftLoaded:false,aircraftTitle:null,
       supportedAircraft:false,adapterReady:false,bridgeError:null,adapterError:null};
   }
 
   publish(patch={}) {
     const next={...this.state,...patch};
-    next.supportedAircraft=next.simConnected && next.aircraftLoaded && isSupportedFenix(next.aircraftTitle);
-    if(!next.supportedAircraft) next.adapterReady=false;
     if(JSON.stringify(next)===JSON.stringify(this.state)) return;
     this.state=next;
     this.onState(this.publicState());
@@ -191,68 +45,96 @@ class IntegrationController {
   publicState() { return {...this.state}; }
 
   start() {
-    if(!this.bridgePath || !fs.existsSync(this.bridgePath) || !this.simConnectDll) {
-      this.publish({bridgeError:!this.simConnectDll ? 'SimConnect.dll was not found.' : 'Integration service is missing.'});
-    } else {
-      this.bridge=spawn(this.bridgePath,['--dll',this.simConnectDll],{windowsHide:true,stdio:['ignore','pipe','pipe']});
-      const lines=readline.createInterface({input:this.bridge.stdout});
-      lines.on('line',line=>{
-        try {
-          const message=JSON.parse(line);
-          if(message.protocolVersion!==PROTOCOL_VERSION || message.type!=='state') return;
-          this.publish({simConnected:message.simConnected===true,
-            aircraftLoaded:message.aircraftLoaded===true,aircraftTitle:message.aircraftTitle || null,
-            bridgeError:message.error || null});
-          this.probeAdapter();
-        } catch { this.publish({bridgeError:'Integration service returned invalid data.'}); }
-      });
-      this.bridge.on('error',error=>this.publish({simConnected:false,aircraftLoaded:false,
-        aircraftTitle:null,bridgeError:error.message}));
-      this.bridge.on('exit',()=>{ this.bridge=null; this.publish({simConnected:false,
-        aircraftLoaded:false,aircraftTitle:null,adapterReady:false,
-        bridgeError:'Integration service stopped.'}); });
-    }
-    this.timer=setInterval(()=>this.probeAdapter(),this.pollMs);
-    this.timer.unref?.();
-    this.probeAdapter();
-  }
-
-  async probeAdapter() {
-    if(this.probing) return;
-    if(!this.state.supportedAircraft) {
-      this.publish({adapterReady:false,adapterError:null});
+    if(this.process) return;
+    if(!this.servicePath || !fs.existsSync(this.servicePath)) {
+      this.publish({bridgeError:'Integration service is missing.'});
       return;
     }
-    this.probing=true;
-    try { await this.adapter.probe(); this.publish({adapterReady:true,adapterError:null}); }
-    catch(error) { this.publish({adapterReady:false,adapterError:error.message}); }
-    finally { this.probing=false; }
+    const args=[];
+    if(this.dataDirectory) args.push('--data',this.dataDirectory);
+    if(this.simConnectDll) args.push('--dll',this.simConnectDll);
+    this.process=spawn(this.servicePath,args,{windowsHide:true,stdio:['pipe','pipe','pipe']});
+    const lines=readline.createInterface({input:this.process.stdout});
+    lines.on('line',line=>this.handleLine(line));
+    this.process.stderr.on('data',chunk=>{
+      const text=String(chunk).trim();
+      if(text) this.publish({bridgeError:text.slice(0,500)});
+    });
+    this.process.on('error',error=>this.stopWithError(error.message));
+    this.process.on('exit',(code,signal)=>this.stopWithError(
+      `Integration service stopped${code==null?'':` with code ${code}`}${signal?` (${signal})`:''}.`));
   }
 
-  async activate(catalogIds) {
-    if(!this.state.simConnected || !this.state.aircraftLoaded) {
-      return {requested:true,overall:'failed',message:'MSFS and a loaded aircraft were not detected.',
-        results:catalogIds.map(catalogId=>({catalogId,status:'failed'}))};
+  handleLine(line) {
+    let message;
+    try { message=JSON.parse(line); }
+    catch { this.publish({bridgeError:'Integration service returned invalid JSON.'}); return; }
+    if(message.protocolVersion!==PROTOCOL_VERSION) {
+      this.publish({bridgeError:'Integration service protocol is incompatible.'});
+      return;
     }
-    if(!this.state.supportedAircraft) {
-      return {requested:true,overall:'failed',message:'The loaded aircraft is not supported for automatic activation.',
-        results:catalogIds.map(catalogId=>({catalogId,status:'unsupported'}))};
+    if(message.type==='state') {
+      this.publish({simConnected:message.simConnected===true,
+        aircraftLoaded:message.aircraftLoaded===true,aircraftTitle:message.aircraftTitle || null,
+        supportedAircraft:message.supportedAircraft===true,adapterReady:message.adapterReady===true,
+        bridgeError:message.error || null,adapterError:message.adapterError || null});
+      return;
     }
-    if(!this.state.adapterReady) await this.probeAdapter();
-    if(!this.state.adapterReady) {
-      return {requested:true,overall:'failed',message:this.state.adapterError || 'The Fenix adapter is unavailable.',
-        results:catalogIds.map(catalogId=>({catalogId,status:'failed'}))};
+    if(message.type==='response' && typeof message.requestId === 'string') {
+      const pending=this.pending.get(message.requestId);
+      if(!pending) return;
+      this.pending.delete(message.requestId);
+      clearTimeout(pending.timer);
+      if(message.ok === true) pending.resolve(message.result);
+      else pending.reject(new Error(message.error?.message || 'Integration service request failed.'));
     }
-    return this.adapter.activate(catalogIds);
   }
+
+  stopWithError(message) {
+    const child=this.process;
+    this.process=null;
+    for(const pending of this.pending.values()) {
+      clearTimeout(pending.timer);
+      pending.reject(new Error(message));
+    }
+    this.pending.clear();
+    this.publish({simConnected:false,aircraftLoaded:false,aircraftTitle:null,
+      supportedAircraft:false,adapterReady:false,bridgeError:message,adapterError:null});
+    if(child && !child.killed) try { child.kill(); } catch { }
+  }
+
+  request(method,payload,timeoutMs=this.requestTimeoutMs) {
+    if(!this.process?.stdin?.writable) return Promise.reject(new Error('Integration service is unavailable.'));
+    const requestId=`${process.pid}-${Date.now()}-${++this.sequence}`;
+    return new Promise((resolve,reject)=>{
+      const timer=setTimeout(()=>{
+        this.pending.delete(requestId);
+        reject(new Error(`Integration service ${method} request timed out.`));
+      },timeoutMs);
+      this.pending.set(requestId,{resolve,reject,timer});
+      const message=JSON.stringify({protocolVersion:PROTOCOL_VERSION,type:'request',requestId,method,payload});
+      this.process.stdin.write(message+'\n',error=>{
+        if(!error) return;
+        const pending=this.pending.get(requestId);
+        if(!pending) return;
+        this.pending.delete(requestId);clearTimeout(timer);reject(error);
+      });
+    });
+  }
+
+  generate(selection) { return this.request('generate',selection,15000); }
+  activate(catalogIds) { return this.request('activate',{catalogIds},45000); }
 
   stop() {
-    if(this.timer) clearInterval(this.timer);
-    this.timer=null;
-    if(this.bridge) this.bridge.kill();
-    this.bridge=null;
+    const child=this.process;
+    this.process=null;
+    if(child && !child.killed) try { child.kill(); } catch { }
+    for(const pending of this.pending.values()) {
+      clearTimeout(pending.timer);
+      pending.reject(new Error('Integration service stopped.'));
+    }
+    this.pending.clear();
   }
 }
 
-module.exports={FenixAdapter,IntegrationController,flattenManualFailures,findSimConnectDll,
-  isSupportedFenix,requestJson,stableState,sameState,PROTOCOL_VERSION};
+module.exports={IntegrationServiceClient,findSimConnectDll,isSupportedFenix,PROTOCOL_VERSION};

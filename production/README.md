@@ -33,6 +33,12 @@ Manual Failures catalogue to confirm the result. If a multi-failure operation fa
 the application attempts to restore only failures that it activated during that
 operation; failures already active before the operation are preserved.
 
+Scenario generation and simulator integration now run in the bundled self-contained
+.NET 8 Integration Service. Electron communicates with it through a private versioned
+JSON protocol over standard pipes. The service owns the generation core, SimConnect and
+Fenix adapter; the Electron application remains the presentation and desktop-lifecycle
+shell. Users do not need to install .NET separately. See `service/README.md`.
+
 Aircraft selection changes the scenario label. The same catalogue is used for
 all three aircraft and both engine types, as agreed for this simulation project.
 MMEL conditions concerning weather, route, maintenance and equipment outside the

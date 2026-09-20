@@ -2,7 +2,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const {FenixAdapter,IntegrationController,findSimConnectDll,stableState,sameState} =
-  require('../../../production/desktop/integration.cjs');
+  require('../../legacy-integration/integration.cjs');
 const mapping = require('../../../production/integration/fenix-mapping.json');
 
 const output=path.join(__dirname,'alpha-live-integration-2026-09-19.json');
@@ -43,7 +43,7 @@ function waitReady(timeoutMs=15000) {
     adapter=new FenixAdapter({mapping});
     const states=[];
     controller=new IntegrationController({
-      bridgePath:path.resolve(__dirname,'../../../production/integration/SimConnectBridge.exe'),
+      bridgePath:path.resolve(__dirname,'../../legacy-integration/SimConnectBridge.exe'),
       simConnectDll:dll,
       adapter,
       pollMs:500,

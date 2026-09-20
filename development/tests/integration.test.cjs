@@ -1,63 +1,50 @@
 'use strict';
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const {FenixAdapter,flattenManualFailures,isSupportedFenix} = require('../../production/desktop/integration.cjs');
+const path = require('node:path');
+const {spawn} = require('node:child_process');
+const readline = require('node:readline');
+const {IntegrationServiceClient,isSupportedFenix,PROTOCOL_VERSION} = require('../../production/desktop/integration.cjs');
 
-function payload(items) {
-  return {atas:[{id:'22',groups:[{groupName:'Test',failures:items}]}]};
-}
+const root=path.resolve(__dirname,'../..');
+const service=path.join(root,'production','integration','service','MelGenerator.IntegrationService.exe');
+const data=path.join(root,'production','integration','service','data');
 
-function mockGateway(initial,{failOn}={}) {
-  const state=new Map(initial.map(item=>[item.id,{...item}]));
-  const calls=[];
-  return {
-    state,calls,
-    request:async (url,options={})=>{
-      if(url.endsWith('/failures/manual')) return payload([...state.values()]);
-      const body=options.body;
-      calls.push({...body});
-      if(body.id===failOn && body.failed) return {...state.get(body.id),failed:false};
-      const next={...state.get(body.id),failed:body.failed,
-        failureCondition:body.failed ? {id:3} : null};
-      state.set(body.id,next);
-      return {...next};
-    }
-  };
-}
-
-test('Fenix catalogue parsing and supported-title recognition are strict',()=>{
-  const records=flattenManualFailures(payload([{id:'F_ONE',title:'One',failed:false,failureCondition:null}]));
-  assert.equal(records.get('F_ONE').group,'Test');
-  assert.equal(isSupportedFenix('FenixA321 IAE WF SC'),true);
+test('integration client accepts only protocol v2 state and strict Fenix titles',()=>{
+  const states=[];
+  const client=new IntegrationServiceClient({onState:state=>states.push(state)});
+  client.handleLine(JSON.stringify({protocolVersion:PROTOCOL_VERSION,type:'state',simConnected:true,
+    aircraftLoaded:true,aircraftTitle:'FenixA321 IAE WF SC',supportedAircraft:true,adapterReady:true}));
+  assert.equal(client.publicState().adapterReady,true);
+  assert.equal(states.length,1);
+  client.handleLine(JSON.stringify({protocolVersion:1,type:'state',simConnected:true}));
+  assert.equal(client.publicState().bridgeError,'Integration service protocol is incompatible.');
   assert.equal(isSupportedFenix('FenixA319 CFM'),true);
   assert.equal(isSupportedFenix('A220-300'),false);
-  assert.throws(()=>flattenManualFailures({bad:true}));
 });
 
-test('Fenix adapter activates mapped records, verifies them and preserves an active record',async()=>{
-  const gateway=mockGateway([
-    {id:'F_ONE',title:'One',failed:false,failureCondition:null},
-    {id:'F_TWO',title:'Two',failed:true,failureCondition:{id:3}}
-  ]);
-  const adapter=new FenixAdapter({mapping:{M001:'F_ONE',M002:'F_TWO'},request:gateway.request,clearSettleMs:0});
-  assert.deepEqual(await adapter.probe(),{ready:true,records:2,mapped:2});
-  const result=await adapter.activate(['M001','M002']);
-  assert.equal(result.overall,'success');
-  assert.deepEqual(result.results.map(item=>item.status),['activated','already-active']);
-  assert.equal(gateway.state.get('F_ONE').failed,true);
-  assert.equal(gateway.state.get('F_TWO').failed,true);
-});
-
-test('Fenix adapter rolls back only records activated by the failed operation',async()=>{
-  const gateway=mockGateway([
-    {id:'F_ONE',title:'One',failed:false,failureCondition:null},
-    {id:'F_TWO',title:'Two',failed:false,failureCondition:null},
-    {id:'F_USER',title:'User',failed:true,failureCondition:null}
-  ],{failOn:'F_TWO'});
-  const adapter=new FenixAdapter({mapping:{M001:'F_ONE',M002:'F_TWO',M003:'F_USER'},request:gateway.request,clearSettleMs:0});
-  const result=await adapter.activate(['M001','M002']);
-  assert.equal(result.overall,'failed');
-  assert.equal(result.results.find(item=>item.catalogId==='M001').status,'rolled-back');
-  assert.equal(gateway.state.get('F_ONE').failed,false);
-  assert.equal(gateway.state.get('F_USER').failed,true);
+test('published integration service generates through the versioned boundary without MSFS',async()=>{
+  const child=spawn(service,['--data',data],{windowsHide:true,stdio:['pipe','pipe','pipe']});
+  const lines=readline.createInterface({input:child.stdout});
+  const response=new Promise((resolve,reject)=>{
+    const timer=setTimeout(()=>reject(new Error('Integration service smoke test timed out.')),15000);
+    lines.on('line',line=>{
+      const message=JSON.parse(line);
+      if(message.type==='response' && message.requestId==='node-smoke') {
+        clearTimeout(timer);resolve(message);
+      }
+    });
+    child.once('error',reject);
+    child.once('exit',code=>{ if(code && code!==0) reject(new Error(`Service exited with ${code}.`)); });
+  });
+  child.stdin.write(JSON.stringify({protocolVersion:2,type:'request',requestId:'node-smoke',
+    method:'generate',payload:{aircraft:'A320',count:3}})+'\n');
+  const message=await response;
+  child.stdin.end();
+  assert.equal(message.ok,true);
+  assert.equal(message.result.aircraft,'A320');
+  assert.equal(message.result.cards.length,3);
+  assert.equal(message.result.explanation.profileId,'fenix-faa-r32');
+  assert.equal(message.result.explanation.compatibleScenarioCount,19311);
+  assert.equal(message.result.explanation.validated,true);
 });
