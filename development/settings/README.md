@@ -2,7 +2,7 @@
 
 Decision date: 19 September 2026  
 Backlog items: BL-001, BL-003 and BL-005  
-Status: Implemented in the 1.1.0 alpha; packaged acceptance remains pending.
+Status: Implemented and verified in the packaged 1.1.0 alpha build.
 
 ## Design rule
 

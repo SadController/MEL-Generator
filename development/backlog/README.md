@@ -43,7 +43,7 @@ entry and uninstaller.
 | BL-018 | Synaptic A220 support | Aircraft support | — | — | Research | A220 catalog and verified mappings using the published external interface |
 | BL-019 | Fenix event-type failures | Generator / Fenix | — | — | Proposed | Separate event catalog, generation rules and verified Fenix manager mappings |
 | BL-020 | Expand the Fenix MEL failure pool | Data / Fenix | — | 2.0.0 | Proposed | BL-010, reviewed source-document coverage and verified Fenix manager mappings |
-| BL-021 | User-facing error catalogue and recovery messages | Reliability / UX | P1 | 1.1.0 | Proposed | Reviewed failures across BL-001, BL-003 and BL-005 |
+| BL-021 | User-facing error catalogue and recovery messages | Reliability / UX | P1 | 1.1.0 | Verification | Live recovery checks with MSFS/Fenix and the signed release candidate |
 
 ## Release roadmap
 
@@ -278,8 +278,13 @@ blocked from public update acceptance until SignPath or another approved free pr
 provides the certificate subject used by Windows Authenticode verification, and a signed
 older-to-newer installed update is tested through GitHub Releases.
 
-**Open decisions:** Eligibility and acceptance by the free signing program, installation
-timing and staged rollout. The startup-check default is enabled under BL-003.
+**Signing milestone, 20 September 2026:** The project owner submitted the application
+for the SignPath Foundation free code-signing program. The application is awaiting a
+decision. Public automatic-update acceptance still requires the issued certificate
+subject to be added to the release configuration and a signed installed-update test.
+
+**Open decisions:** SignPath application outcome, installation timing and staged rollout.
+The startup-check default is enabled under BL-003.
 
 ## BL-006 — PMDG 737 and 777 support
 
@@ -710,16 +715,37 @@ available`. The user is told what remains safe, what action can be retried and w
 manual failure activation is required. Technical stack traces and credentials are never
 shown in the interface; diagnostic context is written only when logging is enabled.
 
-**Open decisions:** Final message catalogue, error codes, inline versus modal placement,
-retry timing, whether transient reconnect states need delayed presentation and which
-failures warrant a persistent banner.
+**Implementation milestone, 20 September 2026:** A central catalogue now assigns stable
+codes, severity, retryability, plain-English cause text and a recovery action to startup,
+settings, generation, source-document, integration, activation and update failures.
+Every renderer IPC call uses a structured success/error envelope. Raw exceptions,
+stack traces, HRESULT values and local paths are kept out of the interface and are
+written only to the opt-in diagnostic log. Corrupt settings recover to safe defaults;
+failed update requests remain distinct from `No updates available`; and activation
+failures preserve the generated briefing with a manual recovery path. The catalogue
+and placement rules are recorded in
+[`ERROR_CATALOG.md`](../documentation/ERROR_CATALOG.md).
+
+**Approved presentation decisions:** Recoverable operation failures use the persistent
+main-screen banner or the relevant Settings/briefing status. Fatal startup or renderer
+failures use a Windows modal. The two simulator status lights remain the normal passive
+indication for disconnected states; detailed text appears in their hover descriptions
+or after an attempted operation. User-initiated retry is used instead of an automatic
+retry loop. Every displayed error includes its stable code.
+
+**Verification milestone, 20 September 2026:** The catalogue passed unit tests, .NET
+service tests and the complete Electron UI suite in both development and packaged
+builds. The packaged run explicitly verified the offline update error, actionable
+SimConnect banner, settings, all aircraft/count combinations, repeated generation and
+the bundled PDF viewer. Live MSFS/Fenix recovery scenarios and the signed release
+candidate remain release-candidate checks.
 
 ## Dependency notes
 
 - BL-004 should follow the settings foundation in BL-003.
 - BL-005 should use BL-003 for update preferences. It targets only the installed app
   and will use the public GitHub repository. Its remaining distribution dependency is
-  acceptance by the selected free open-source signing program and the resulting CI
+  approval of the submitted SignPath Foundation application and the resulting CI
   signing setup.
 - BL-006, BL-014, BL-015, BL-016, BL-017, BL-018 and BL-007 require a data
   architecture that isolates aircraft, configurations, source documents and failure

@@ -89,9 +89,12 @@ test('update manager keeps the installed version after network and verification 
     async downloadUpdate() { throw new Error('must not run'); }
   }
   const network=new UpdateManager({updater:new FakeUpdater(),isPackaged:true,signaturePolicyReady:true});
-  assert.match((await network.download()).message,/internet connection/);
+  assert.equal((await network.download()).issue.code,'UPDATE_NETWORK_UNAVAILABLE');
   assert.throws(()=>network.install(),/No verified update/);
-  assert.match(network.errorMessage(new Error('publisher signature mismatch')),/could not be verified/);
+  const verifyUpdater=new FakeUpdater();
+  const verify=new UpdateManager({updater:verifyUpdater,isPackaged:true,signaturePolicyReady:true});
+  verifyUpdater.emit('error',new Error('publisher signature mismatch'));
+  assert.equal(verify.publicState().issue.code,'UPDATE_VERIFICATION_FAILED');
 });
 
 test('update manager blocks automatic installation until a signed publisher policy exists',async()=>{
@@ -101,6 +104,6 @@ test('update manager blocks automatic installation until a signed publisher poli
   const manager=new UpdateManager({updater:new FakeUpdater(),isPackaged:true});
   const result=await manager.download();
   assert.equal(result.status,'error');
-  assert.match(result.message,/release signing/);
+  assert.equal(result.issue.code,'UPDATE_SIGNING_PENDING');
   assert.throws(()=>manager.install(),/No verified update/);
 });
