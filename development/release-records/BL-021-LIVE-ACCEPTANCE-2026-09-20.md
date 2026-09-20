@@ -1,9 +1,9 @@
 # BL-021 live MSFS/Fenix acceptance
 
-Date: 20 September 2026  
-Application: MEL Generator 1.1.0 alpha 1, packaged `win-unpacked` build  
-Simulator: Microsoft Flight Simulator 2024 1.8.16.0  
-Aircraft: FenixA321 IAE WF SC
+- Date: 20 September 2026
+- Application: MEL Generator 1.1.0 alpha 1, packaged `win-unpacked` build
+- Simulator: Microsoft Flight Simulator 2024 1.8.16.0
+- Aircraft: FenixA321 IAE WF SC
 
 ## Preconditions
 
