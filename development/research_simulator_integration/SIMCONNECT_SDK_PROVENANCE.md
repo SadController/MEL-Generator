@@ -38,3 +38,28 @@ official DLL is approved for local development only and must not be committed, u
 to GitHub Releases or included in the public installer until redistribution permission
 is established.
 
+## Installed simulator candidate
+
+The installed Steam simulator contains one Microsoft-owned candidate at:
+
+`F:/SteamLibrary/steamapps/common/MSFS2024/SimConnect_internal.dll`
+
+- size: 85,504 bytes;
+- SHA-256: `628CA0D4F7857E3162FF1D1C34B40D17283ABE9DA6664793E3EB2BFF930686BE`;
+- Authenticode status: `NotSigned`.
+
+No public `SimConnect.dll` is installed in the simulator root. Other matching files found
+under the simulator tree belong to Community add-ons and are not usable distribution
+dependencies.
+
+The root `SimConnect_internal.dll` loads successfully and exports every native function
+currently used by the Integration Service, including `SimConnect_Open`, data-definition,
+dispatch, SimObject write and Client Data functions. With MSFS stopped, it reaches
+`SimConnect_Open` and returns the same `E_FAIL` as the official SDK client DLL.
+
+Asobo describes the root file as the simulator's renamed internal library and distinguishes
+its same-process version handling from the SDK client library. It is therefore a promising
+no-redistribution fallback, but not yet an approved production dependency. Before adoption,
+test connection, aircraft-title readback and reconnect behavior with MSFS running, then
+repeat after a simulator update. Installation-path discovery must cover both Steam and
+Microsoft Store installations without scanning Community add-ons.
