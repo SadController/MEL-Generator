@@ -1,11 +1,11 @@
-# MEL Generator 1.1.0 alpha 1
+# MEL Generator 1.1.0 beta 1
 
 Windows desktop application for Fenix A319 / A320 / A321 in flight simulation.
 Uses the agreed pool of 53 failures and FAA A320 MMEL Rev. 32 (30 July 2025).
 
 # Run
 
-Install `release/MEL-Generator-Setup-1.1.0-alpha.1.exe` for the current Windows user.
+Install `release/MEL-Generator-Setup-1.1.0-beta.1.exe` for the current Windows user.
 The assisted installer offers a `Create desktop icon` checkbox and always creates the
 approved Start menu shortcut.
 Portable editions are no longer produced. No separately installed browser, Node.js or
