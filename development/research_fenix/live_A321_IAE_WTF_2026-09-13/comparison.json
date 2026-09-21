@@ -1,0 +1,3581 @@
+{
+  "metadata": {
+    "checked_date": "2026-09-13",
+    "fenix_version": "2.4.0.4720",
+    "aircraft_ui": "A321-231 IAE",
+    "wingtip_user_report": "WTF",
+    "act_count": null,
+    "act_note": "Число ACT явно не показано на просмотренных страницах; не выведено из ёмкости баков.",
+    "airframe_ui": {
+      "standby": "ISIS",
+      "brake_fans": true,
+      "dcdu": true,
+      "ddrmi": false,
+      "metric_standby_alt": false
+    },
+    "source_url": "http://localhost:8083/#/efb/manual-failures",
+    "inspection": "Live EFB rendered DOM; all 19 groups expanded; no failure switch toggles or Apply Changes",
+    "counts": {
+      "sections": 19,
+      "menu_entries": 384,
+      "enabled_buttons": 384,
+      "legacy_names_checked": 194,
+      "legacy_names_found": 192,
+      "legacy_names_not_found": [
+        "Eng 1 low oil quantity",
+        "Eng 2 low oil quantity"
+      ],
+      "baseline_assessments_with_all_names_observed": 108,
+      "baseline_K_assessments": 48,
+      "baseline_K_with_all_names_observed": 48,
+      "behavior_tests": 0,
+      "new_mmel_candidates": 2
+    }
+  },
+  "assessments": [
+    {
+      "assessment_id": "F001",
+      "mmel_id": "21-21-01",
+      "branch": "one cabin fan",
+      "document_status": "U",
+      "document_note": "MMEL допускает один из двух; старое имя во множественном числе не устанавливает, один или оба вентилятора выключает Fenix.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Recirculation fans",
+          "menu_found": true,
+          "menu_id": "M016",
+          "menu_path": "ATA 21 - Air Conditioning → Recirculation fans",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F002",
+      "mmel_id": "21-23-01",
+      "branch": "1) / 2)",
+      "document_status": "K",
+      "document_note": "Совпадает компонент; выбрать ветвь Mod.22561, проверить последствия для smoke detection.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Lavatory/Galley fan",
+          "menu_found": true,
+          "menu_id": "M223",
+          "menu_path": "ATA 36 - Pneumatic → Lavatory/Galley fan",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F003",
+      "mmel_id": "21-26-01",
+      "branch": "Blower Fan",
+      "document_status": "K",
+      "document_note": "Не объединять с Extract fan или Pack: MMEL требует их исправности.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Ventilation blower fault",
+          "menu_found": true,
+          "menu_id": "M021",
+          "menu_path": "ATA 21 - Air Conditioning → Ventilation → Blower Fault",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F004",
+      "mmel_id": "21-26-02",
+      "branch": "Extract Fan",
+      "document_status": "K",
+      "document_note": "Не объединять с Blower fan или Pack; существуют ограничения температуры и времени на земле.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Ventilation extract fault",
+          "menu_found": true,
+          "menu_id": "M022",
+          "menu_path": "ATA 21 - Air Conditioning → Ventilation → Extract Fault",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F005",
+      "mmel_id": "21-26-04",
+      "branch": "Skin Air Outlet Valve",
+      "document_status": "U",
+      "document_note": "Уточнить тождество клапана и его положение. Не путать с отказом вытяжного вентилятора.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Vent extract valve",
+          "menu_found": true,
+          "menu_id": "M024",
+          "menu_path": "ATA 21 - Air Conditioning → Ventilation valves → Vent Extract Valve",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F006",
+      "mmel_id": "21-26-05",
+      "branch": "Skin Air Inlet Valve",
+      "document_status": "U",
+      "document_note": "Нужно подтвердить положение, требуемое выбранной строкой MMEL.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Vent inlet valve",
+          "menu_found": true,
+          "menu_id": "M023",
+          "menu_path": "ATA 21 - Air Conditioning → Ventilation valves → Vent Inlet Valve",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F007",
+      "mmel_id": "21-26-10",
+      "branch": "AEVC",
+      "document_status": "K",
+      "document_note": "Совпадает компьютер; отключение компьютера не заменяет проверку вентиляторов и положений клапанов.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Ventilation AEVC",
+          "menu_found": true,
+          "menu_id": "M020",
+          "menu_path": "ATA 21 - Air Conditioning → Ventilation → Aevc",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F008",
+      "mmel_id": "21-28-02",
+      "branch": "Forward Cargo Isolation Valves",
+      "document_status": "U",
+      "document_note": "Только если передняя cargo ventilation установлена. Нужны фактические положения клапанов.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Cargo fwd isolation valve downstream",
+          "menu_found": true,
+          "menu_id": "M013",
+          "menu_path": "ATA 21 - Air Conditioning → Cargo vent → Cargo Fwd Isolation Valve Downstream",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Cargo fwd isolation valve upstream",
+          "menu_found": true,
+          "menu_id": "M012",
+          "menu_path": "ATA 21 - Air Conditioning → Cargo vent → Cargo Fwd Isolation Valve Upstream",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F009",
+      "mmel_id": "21-28-05",
+      "branch": "Aft Cargo Isolation Valves",
+      "document_status": "U",
+      "document_note": "Учитывать комплектацию cargo ventilation и положение клапана.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Cargo aft isolation valve downstream",
+          "menu_found": true,
+          "menu_id": "M015",
+          "menu_path": "ATA 21 - Air Conditioning → Cargo vent → Cargo Aft Isolation Valve Downstream",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Cargo aft isolation valve upstream",
+          "menu_found": true,
+          "menu_id": "M014",
+          "menu_path": "ATA 21 - Air Conditioning → Cargo vent → Cargo Aft Isolation Valve Upstream",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F010",
+      "mmel_id": "21-31-01",
+      "branch": "1) System 1",
+      "document_status": "K",
+      "document_note": "CPC1 и CPC2 имеют разные сроки/условия. Оба канала FCU и оставшийся CPC должны работать.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "CPC 1",
+          "menu_found": true,
+          "menu_id": "M001",
+          "menu_path": "ATA 21 - Air Conditioning → CPC → 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F011",
+      "mmel_id": "21-31-01",
+      "branch": "2) System 2",
+      "document_status": "K",
+      "document_note": "Проверить ручной режим и индикацию; CPC1 и оба канала FCU должны работать.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "CPC 2",
+          "menu_found": true,
+          "menu_id": "M002",
+          "menu_path": "ATA 21 - Air Conditioning → CPC → 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F012",
+      "mmel_id": "21-31-01",
+      "branch": "AUTO channels vs stuck outflow",
+      "document_status": "X",
+      "document_note": "Заклинивание клапана не равно отказу автоматического канала CPC: может затронуть и ручное управление.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Outflow valve stuck",
+          "menu_found": true,
+          "menu_id": "M019",
+          "menu_path": "ATA 21 - Air Conditioning → Outflow valve stuck",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F013",
+      "mmel_id": "21-51-01",
+      "branch": "without Mod.30626",
+      "document_status": "U",
+      "document_note": "Для обычной однопаковой ветви клапан должен быть закрыт; Fenix фиксирует текущее положение. Также применить 21-52-01.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Pack 1 flow control valve",
+          "menu_found": true,
+          "menu_id": "M236",
+          "menu_path": "ATA 36 - Pneumatic → Pack valves → Pack 1 Flow Control Valve",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Pack 2 flow control valve",
+          "menu_found": true,
+          "menu_id": "M237",
+          "menu_path": "ATA 36 - Pneumatic → Pack valves → Pack 2 Flow Control Valve",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F014",
+      "mmel_id": "21-52-01",
+      "branch": "single pack, exact configuration pending",
+      "document_status": "U",
+      "document_note": "Кандидат на неработающий pack, но отказ регулятора может оставлять резервное управление. Проверить реальный результат и ветвь ECS/модели.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Pack 1 regulator fault",
+          "menu_found": true,
+          "menu_id": "M005",
+          "menu_path": "ATA 21 - Air Conditioning → Regulator fault → Pack 1",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Pack 2 regulator fault",
+          "menu_found": true,
+          "menu_id": "M006",
+          "menu_path": "ATA 21 - Air Conditioning → Regulator fault → Pack 2",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F015",
+      "mmel_id": "21-52-01",
+      "branch": "pack failure vs indication sensor",
+      "document_status": "U",
+      "document_note": "В alpha описание указывает отказ датчика температуры. Нельзя автоматически считать весь pack неработающим.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Pack 1 overheat",
+          "menu_found": true,
+          "menu_id": "M003",
+          "menu_path": "ATA 21 - Air Conditioning → Overheat → Pack 1",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Pack 2 overheat",
+          "menu_found": true,
+          "menu_id": "M004",
+          "menu_path": "ATA 21 - Air Conditioning → Overheat → Pack 2",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F016",
+      "mmel_id": "21-55-01",
+      "branch": "Emergency Ram Air Inlet",
+      "document_status": "U",
+      "document_note": "Уточнить клапан и положение; не смешивать с ram-air flaps теплообменника pack.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Ram air valve",
+          "menu_found": true,
+          "menu_id": "M226",
+          "menu_path": "ATA 36 - Pneumatic → Pneumatic valves → Ram Air Valve",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F017",
+      "mmel_id": "21-63-01",
+      "branch": "1) Primary / 2) Secondary, without Mod.30626",
+      "document_status": "K",
+      "document_note": "Подпункты имеют разные последствия. Не переносить в enhanced ECS без отдельного подтверждения.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Zone controller primary",
+          "menu_found": true,
+          "menu_id": "M007",
+          "menu_path": "ATA 21 - Air Conditioning → Zone controller → Primary",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Zone controller secondary",
+          "menu_found": true,
+          "menu_id": "M008",
+          "menu_path": "ATA 21 - Air Conditioning → Zone controller → Secondary",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F018",
+      "mmel_id": "21-63-03",
+      "branch": "Hot Air Pressure Regulating Valve",
+      "document_status": "U",
+      "document_note": "Сначала установить фактическое положение клапана и работоспособность trim-air; общий Hot air fault недостаточен.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Hot air valve",
+          "menu_found": true,
+          "menu_id": "M229",
+          "menu_path": "ATA 36 - Pneumatic → Pneumatic valves → Hot Air Valve",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F019",
+      "mmel_id": "22-10-01",
+      "branch": "Autopilot Systems",
+      "document_status": "K",
+      "document_note": "Отказ AP-функции при сохранённом FD. Не заменять отказом всего FMGC; выбрать строку для одного либо двух AP.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "AP 1",
+          "menu_found": true,
+          "menu_id": "M042",
+          "menu_path": "ATA 22 - AutoFlight → AP → 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "AP 2",
+          "menu_found": true,
+          "menu_id": "M043",
+          "menu_path": "ATA 22 - AutoFlight → AP → 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F020",
+      "mmel_id": "22-30-01",
+      "branch": "Autothrust Function",
+      "document_status": "U",
+      "document_note": "Отказ A/THR-функции одного FMGC может оставлять общий autothrust работоспособным. Нужно проверить фактическую потерю функции.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "A/THR 1",
+          "menu_found": true,
+          "menu_id": "M040",
+          "menu_path": "ATA 22 - AutoFlight → A/THR → 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "A/THR 2",
+          "menu_found": true,
+          "menu_id": "M041",
+          "menu_path": "ATA 22 - AutoFlight → A/THR → 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F021",
+      "mmel_id": "22-63-01",
+      "branch": "1) System 1 / 2) System 2",
+      "document_status": "K",
+      "document_note": "Раздельные ветви; второй демпфер должен работать.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Yaw damper channel 1",
+          "menu_found": true,
+          "menu_id": "M295",
+          "menu_path": "ATA 27 - Flight controls → Yaw damper → Channel 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Yaw damper channel 2",
+          "menu_found": true,
+          "menu_id": "M296",
+          "menu_path": "ATA 27 - Flight controls → Yaw damper → Channel 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F022",
+      "mmel_id": "22-66-01",
+      "branch": "1) FAC 2, without eRudder",
+      "document_status": "K",
+      "document_note": "Разрешение относится именно к FAC2, при исправности перечисленных систем управления и навигации.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "FAC 2",
+          "menu_found": true,
+          "menu_id": "M026",
+          "menu_path": "ATA 22 - AutoFlight → Nonresettable fault → Fac 2",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F023",
+      "mmel_id": "22-66-01",
+      "branch": "FAC 1 is not the permitted FAC 2",
+      "document_status": "X",
+      "document_note": "Наличие FAC1 в Fenix не даёт допуска: подпункт FAA указан для FAC2, отдельно описано последствие потери FAC1.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "FAC 1",
+          "menu_found": true,
+          "menu_id": "M025",
+          "menu_path": "ATA 22 - AutoFlight → Nonresettable fault → Fac 1",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F024",
+      "mmel_id": "22-66-03",
+      "branch": "Reactive windshear branch",
+      "document_status": "U",
+      "document_note": "Отделить reactive от predictive windshear; проверить, какой уровень системы теряется после одного канала.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Reactive W/S det channel 1",
+          "menu_found": true,
+          "menu_id": "M033",
+          "menu_path": "ATA 22 - AutoFlight → Reactive W/S det → Channel 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Reactive W/S det channel 2",
+          "menu_found": true,
+          "menu_id": "M034",
+          "menu_path": "ATA 22 - AutoFlight → Reactive W/S det → Channel 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F025",
+      "mmel_id": "22-81-01",
+      "branch": "1) one FCU channel, without eRudder",
+      "document_status": "K",
+      "document_note": "В MMEL требуется исправность CPC, FAC, RA, LGCIU, ADIRS и всех DU; многие пары отказов исключаются.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "FCU Channel 1",
+          "menu_found": true,
+          "menu_id": "M038",
+          "menu_path": "ATA 22 - AutoFlight → FCU → Channel 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "FCU Channel 2",
+          "menu_found": true,
+          "menu_id": "M039",
+          "menu_path": "ATA 22 - AutoFlight → FCU → Channel 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F026",
+      "mmel_id": "22-82-01",
+      "branch": "MCDU",
+      "document_status": "K",
+      "document_note": "Проверить количество установленных устройств и оставшиеся способы управления; не использовать recoverable fault как постоянный дефект без проверки.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "MCDU 1",
+          "menu_found": true,
+          "menu_id": "M198",
+          "menu_path": "ATA 34 - Navigation → MCDU → 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "MCDU 2",
+          "menu_found": true,
+          "menu_id": "M199",
+          "menu_path": "ATA 34 - Navigation → MCDU → 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F027",
+      "mmel_id": "22-83-01",
+      "branch": "1) FMGC1 / 2) FMGC2",
+      "document_status": "K",
+      "document_note": "Потеря AP/FD относится к последствиям того же FMGC. Не считать их дополнительными независимыми отказами.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "FMGC 1",
+          "menu_found": true,
+          "menu_id": "M202",
+          "menu_path": "ATA 34 - Navigation → FMGC → 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "FMGC 2",
+          "menu_found": true,
+          "menu_id": "M203",
+          "menu_path": "ATA 34 - Navigation → FMGC → 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F028",
+      "mmel_id": "23-71-01",
+      "branch": "CVR system",
+      "document_status": "K",
+      "document_note": "Совпадает компонент; ограничения выбранной строки FAA сохраняются. Подтверждение записи звука в симуляторе отсутствует.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "CVR",
+          "menu_found": true,
+          "menu_id": "M323",
+          "menu_path": "ATA 31 - Indicating/Recording system → CVR",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F029",
+      "mmel_id": "24-20-01",
+      "branch": "one engine generator channel, CEO branch",
+      "document_status": "K",
+      "document_note": "Нужна ветвь CEO и проверка резервных источников. Отказ AC BUS не эквивалентен отказу генератора.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Generator 1",
+          "menu_found": true,
+          "menu_id": "M060",
+          "menu_path": "ATA 24 - Electrical power → Generator → 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Generator 2",
+          "menu_found": true,
+          "menu_id": "M061",
+          "menu_path": "ATA 24 - Electrical power → Generator → 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F030",
+      "mmel_id": "24-20-02",
+      "branch": "APU generator, CEO/configuration branch",
+      "document_status": "K",
+      "document_note": "Отдельно от общего отказа APU; сверить условия выбранной модификации.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "APU generator",
+          "menu_found": true,
+          "menu_id": "M059",
+          "menu_path": "ATA 24 - Electrical power → Generator → Apu",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F031",
+      "mmel_id": "24-30-01",
+      "branch": "TR1",
+      "document_status": "K",
+      "document_note": "Допуск касается TR1; исправность packs/extract и остальных источников остаётся условием.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "TR 1",
+          "menu_found": true,
+          "menu_id": "M067",
+          "menu_path": "ATA 24 - Electrical power → TR Failure → Tr 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F032",
+      "mmel_id": "24-30-01",
+      "branch": "TR2, without/with Mod.27620",
+      "document_status": "U",
+      "document_note": "Обнаружена ошибка заголовка в исходном PDF на 24-22: текст о TR2 стоит под 24-27-09. Не исправлять молча; ветвь с ISIS требует уточнения.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "TR 2",
+          "menu_found": true,
+          "menu_id": "M068",
+          "menu_path": "ATA 24 - Electrical power → TR Failure → Tr 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F033",
+      "mmel_id": "24-30-01",
+      "branch": "ESS TR is not TR1/TR2",
+      "document_status": "X",
+      "document_note": "Разрешения прочитанного пункта относятся к TR1/TR2; перенос на ESS TR не подтверждён.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "ESS TR failure",
+          "menu_found": true,
+          "menu_id": "M069",
+          "menu_path": "ATA 24 - Electrical power → TR Failure → Ess",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F034",
+      "mmel_id": "26-12-01",
+      "branch": "1) Loop A / 2) Loop B",
+      "document_status": "K",
+      "document_note": "Один loop на двигатель при исправном другом. Реальный пожар или отказ всего FDU — другие состояния.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Eng 1 Loop A",
+          "menu_found": true,
+          "menu_id": "M085",
+          "menu_path": "ATA 26 - Fire protection → Loop Eng 1 → Eng 1 Loop A",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Eng 1 Loop B",
+          "menu_found": true,
+          "menu_id": "M086",
+          "menu_path": "ATA 26 - Fire protection → Loop Eng 1 → Eng 1 Loop B",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Eng 2 Loop A",
+          "menu_found": true,
+          "menu_id": "M087",
+          "menu_path": "ATA 26 - Fire protection → Loop Eng 2 → Eng 2 Loop A",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Eng 2 Loop B",
+          "menu_found": true,
+          "menu_id": "M088",
+          "menu_path": "ATA 26 - Fire protection → Loop Eng 2 → Eng 2 Loop B",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F035",
+      "mmel_id": "26-13-01",
+      "branch": "1) APU loops",
+      "document_status": "K",
+      "document_note": "Loop A/B имеют разные условия наземного наблюдения. Отказ обоих относится к другим строкам с неиспользуемым APU.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "APU Loop A",
+          "menu_found": true,
+          "menu_id": "M089",
+          "menu_path": "ATA 26 - Fire protection → Loop APU → Apu Loop A",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "APU Loop B",
+          "menu_found": true,
+          "menu_id": "M090",
+          "menu_path": "ATA 26 - Fire protection → Loop APU → Apu Loop B",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F036",
+      "mmel_id": "26-17-02",
+      "branch": "SDCU, installed standard",
+      "document_status": "U",
+      "document_note": "Проверить CIDS/SDCU стандарт и охват потерянных каналов; не отождествлять с фактическим дымом.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "SDCU",
+          "menu_found": true,
+          "menu_id": "M073",
+          "menu_path": "ATA 26 - Fire protection → SDCU",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F037",
+      "mmel_id": "27-22-01",
+      "branch": "Rudder Trim Systems",
+      "document_status": "K",
+      "document_note": "Выбирать конкретный канал и проверять оставшееся управление.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Rudder trim channel 1",
+          "menu_found": true,
+          "menu_id": "M031",
+          "menu_path": "ATA 22 - AutoFlight → Rudder trim → Channel 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Rudder trim channel 2",
+          "menu_found": true,
+          "menu_id": "M032",
+          "menu_path": "ATA 22 - AutoFlight → Rudder trim → Channel 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F038",
+      "mmel_id": "27-23-01",
+      "branch": "one system, without eRudder",
+      "document_status": "K",
+      "document_note": "MMEL допускает один из двух. В руководстве Fenix 2025 есть снимок активированного канала1.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Rudder travel limiter channel 1",
+          "menu_found": true,
+          "menu_id": "M029",
+          "menu_path": "ATA 22 - AutoFlight → Rudder travel limiter → Channel 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Rudder travel limiter channel 2",
+          "menu_found": true,
+          "menu_id": "M030",
+          "menu_path": "ATA 22 - AutoFlight → Rudder travel limiter → Channel 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F039",
+      "mmel_id": "27-51-01",
+      "branch": "1)a) SFCC2 flap / 2)a) SFCC2 slat",
+      "document_status": "K",
+      "document_note": "Для CEO документ называет канал SFCC2. Не переносить на SFCC1 или целиком SFCC2; условия испытаний WTB сохраняются.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "SFCC 2 flap sys",
+          "menu_found": true,
+          "menu_id": "M282",
+          "menu_path": "ATA 27 - Flight controls → Flap → Sfcc 2  Sys",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "SFCC 2 slat sys",
+          "menu_found": true,
+          "menu_id": "M284",
+          "menu_path": "ATA 27 - Flight controls → Slat → Sfcc 2  Sys",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F040",
+      "mmel_id": "27-51-01",
+      "branch": "SFCC1/full computer vs permitted channel",
+      "document_status": "X",
+      "document_note": "Общий отказ компьютера шире отдельного разрешённого канала. Нельзя автоматически применить один подпункт.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "SFCC 1",
+          "menu_found": true,
+          "menu_id": "M279",
+          "menu_path": "ATA 27 - Flight controls → SFCC → 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "SFCC 2",
+          "menu_found": true,
+          "menu_id": "M280",
+          "menu_path": "ATA 27 - Flight controls → SFCC → 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F041",
+      "mmel_id": "27-93-01",
+      "branch": "1) / 2) ELAC1",
+      "document_status": "K",
+      "document_note": "ELAC1; ветвь зависит от модели/модификаций. ELAC2 и остальные перечисленные системы должны работать.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "ELAC 1",
+          "menu_found": true,
+          "menu_id": "M285",
+          "menu_path": "ATA 27 - Flight controls → Nonresettable fault → Elac 1",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F042",
+      "mmel_id": "27-93-01",
+      "branch": "ELAC2 vs permitted ELAC1",
+      "document_status": "X",
+      "document_note": "Прочитанные разрешения относятся к ELAC1 либо его функции; симметрия по номеру недопустима.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "ELAC 2",
+          "menu_found": true,
+          "menu_id": "M286",
+          "menu_path": "ATA 27 - Flight controls → Nonresettable fault → Elac 2",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F043",
+      "mmel_id": "27-94-01",
+      "branch": "1) SEC1 / 2) SEC2 / 3) SEC3",
+      "document_status": "K",
+      "document_note": "Нужны разные записи по SEC и комплектации. Для A320 Sharklets выделены отдельные подпункты; применяются требования к характеристикам AFM.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "SEC 1",
+          "menu_found": true,
+          "menu_id": "M287",
+          "menu_path": "ATA 27 - Flight controls → Nonresettable fault → Sec 1",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "SEC 2",
+          "menu_found": true,
+          "menu_id": "M288",
+          "menu_path": "ATA 27 - Flight controls → Nonresettable fault → Sec 2",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "SEC 3",
+          "menu_found": true,
+          "menu_id": "M289",
+          "menu_path": "ATA 27 - Flight controls → Nonresettable fault → Sec 3",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F044",
+      "mmel_id": "27-95-01",
+      "branch": "FCDC2 only",
+      "document_status": "K",
+      "document_note": "FAA разрешает FCDC2. Ветвь зависит от Mod.35542/steep approach; не смешивать с ELAC/SEC.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "FCDC 2",
+          "menu_found": true,
+          "menu_id": "M304",
+          "menu_path": "ATA 27 - Flight controls → FCDC → 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F045",
+      "mmel_id": "27-95-01",
+      "branch": "FCDC1 not covered by FCDC2 relief",
+      "document_status": "X",
+      "document_note": "Нельзя переносить разрешение FCDC2 на FCDC1.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "FCDC 1",
+          "menu_found": true,
+          "menu_id": "M303",
+          "menu_path": "ATA 27 - Flight controls → FCDC → 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F046",
+      "mmel_id": "28-15-01",
+      "branch": "1)a) LH / 1)b) RH",
+      "document_status": "U",
+      "document_note": "Только outer-to-inner transfer: состояние открыто/закрыто определяет строку; не относится к A321.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Left transfer 1",
+          "menu_found": true,
+          "menu_id": "M111",
+          "menu_path": "ATA 28 - Fuel → Fuel transfer valves → Left Transfer 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Left transfer 2",
+          "menu_found": true,
+          "menu_id": "M112",
+          "menu_path": "ATA 28 - Fuel → Fuel transfer valves → Left Transfer 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Right transfer 1",
+          "menu_found": true,
+          "menu_id": "M113",
+          "menu_path": "ATA 28 - Fuel → Fuel transfer valves → Right Transfer 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Right transfer 2",
+          "menu_found": true,
+          "menu_id": "M114",
+          "menu_path": "ATA 28 - Fuel → Fuel transfer valves → Right Transfer 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F047",
+      "mmel_id": "28-21-01",
+      "branch": "Wing Tank Pumps",
+      "document_status": "K",
+      "document_note": "Уточнить Mod.36387/SB и число исправных насосов. Не отождествлять с утечкой бака.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Fuel pump left 1",
+          "menu_found": true,
+          "menu_id": "M097",
+          "menu_path": "ATA 28 - Fuel → Fuel pump left → 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Fuel pump left 2",
+          "menu_found": true,
+          "menu_id": "M098",
+          "menu_path": "ATA 28 - Fuel → Fuel pump left → 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Fuel pump right 1",
+          "menu_found": true,
+          "menu_id": "M101",
+          "menu_path": "ATA 28 - Fuel → Fuel pump right → 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Fuel pump right 2",
+          "menu_found": true,
+          "menu_id": "M102",
+          "menu_path": "ATA 28 - Fuel → Fuel pump right → 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F048",
+      "mmel_id": "28-21-02",
+      "branch": "1)a) electric center pumps, no ACT",
+      "document_status": "U",
+      "document_note": "Только A319/A320 без Mod.154327. Для A321 требуются ветви transfer valves, а не этот отказ.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Fuel pump center 1",
+          "menu_found": true,
+          "menu_id": "M099",
+          "menu_path": "ATA 28 - Fuel → Fuel pump center → 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Fuel pump center 2",
+          "menu_found": true,
+          "menu_id": "M100",
+          "menu_path": "ATA 28 - Fuel → Fuel pump center → 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F049",
+      "mmel_id": "28-21-02",
+      "branch": "2)b) / 2)c) transfer valves",
+      "document_status": "U",
+      "document_note": "В MMEL применимо к A321 и соответствующим A319/A320, но актуальное имя отдельного отказа Fenix не получено.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F050",
+      "mmel_id": "28-23-02",
+      "branch": "pushbutton lights vs crossfeed valve",
+      "document_status": "X",
+      "document_note": "В FAA 28-23-02 относится к кнопке/лампам. Заклинивание crossfeed нельзя подменять неисправностью его индикации.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Crossfeed valve",
+          "menu_found": true,
+          "menu_id": "M117",
+          "menu_path": "ATA 28 - Fuel → Fuel valves → Crossfeed Valve",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F051",
+      "mmel_id": "28-40-02",
+      "branch": "1) one FQI channel",
+      "document_status": "K",
+      "document_note": "Сверить модификацию и ACT; отказ канала отличается от отдельной ошибки индикации количества.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "FQI Chan 1",
+          "menu_found": true,
+          "menu_id": "M095",
+          "menu_path": "ATA 28 - Fuel → FQI → Chan 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "FQI Chan 2",
+          "menu_found": true,
+          "menu_id": "M096",
+          "menu_path": "ATA 28 - Fuel → FQI → Chan 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F052",
+      "mmel_id": "29-10-01",
+      "branch": "depressurization vs failed engine pump",
+      "document_status": "X",
+      "document_note": "Разрешение относится к функции разгрузки, а не потере подачи гидронасоса.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Eng 1 pump failure",
+          "menu_found": true,
+          "menu_id": "M138",
+          "menu_path": "ATA 29 - Hydraulic power → Engine pumps → Eng 1 Pump Failure",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Eng 2 pump failure",
+          "menu_found": true,
+          "menu_id": "M139",
+          "menu_path": "ATA 29 - Hydraulic power → Engine pumps → Eng 2 Pump Failure",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F053",
+      "mmel_id": "29-10-02",
+      "branch": "1) automatic control vs total pump failure",
+      "document_status": "X",
+      "document_note": "MMEL требует сохранения ручной работы насоса. Полный отказ Blue electric pump этому не соответствует.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Elec hyd pump blue failure",
+          "menu_found": true,
+          "menu_id": "M143",
+          "menu_path": "ATA 29 - Hydraulic power → Elec pumps → Elec Hyd Pump Blue Failure",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F054",
+      "mmel_id": "29-23-01",
+      "branch": "1) automatic activation vs total PTU failure",
+      "document_status": "X",
+      "document_note": "FAA рассматривает отказ автоматики при непрерывной работе PTU; передача мощности должна сохраняться. Общий PTU Fault не эквивалентен.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "PTU Fault",
+          "menu_found": true,
+          "menu_id": "M142",
+          "menu_path": "ATA 29 - Hydraulic power → PTU Fault",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F055",
+      "mmel_id": "29-25-01",
+      "branch": "Yellow System Electric Pump",
+      "document_status": "K",
+      "document_note": "Прямой кандидат на отказ насоса; кнопка OFF, cargo doors требуют ручного обслуживания по MMEL.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Elec hyd pump yellow failure",
+          "menu_found": true,
+          "menu_id": "M144",
+          "menu_path": "ATA 29 - Hydraulic power → Elec pumps → Elec Hyd Pump Yellow Failure",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F056",
+      "mmel_id": "29-30-03",
+      "branch": "indication vs hydraulic leak",
+      "document_status": "X",
+      "document_note": "Пункт об индикации HYD не разрешает реальную потерю жидкости. Наличие утечки в Fenix подтверждено также руководством 2025.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Green hydraulic leak",
+          "menu_found": true,
+          "menu_id": "M126",
+          "menu_path": "ATA 29 - Hydraulic power → Hydraulic leak → Green",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Blue hydraulic leak",
+          "menu_found": true,
+          "menu_id": "M127",
+          "menu_path": "ATA 29 - Hydraulic power → Hydraulic leak → Blue",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Yellow hydraulic leak",
+          "menu_found": true,
+          "menu_id": "M128",
+          "menu_path": "ATA 29 - Hydraulic power → Hydraulic leak → Yellow",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F057",
+      "mmel_id": "30-11-01",
+      "branch": "wing anti-ice valve",
+      "document_status": "U",
+      "document_note": "Разрешённые позиции и условия различны; stuck in current position нужно перевести в проверенный конкретный сценарий.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Left WAI Valve",
+          "menu_found": true,
+          "menu_id": "M248",
+          "menu_path": "ATA 30 - Ice and rain protection → WAI Valves → Left Wai Valve",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Right WAI Valve",
+          "menu_found": true,
+          "menu_id": "M249",
+          "menu_path": "ATA 30 - Ice and rain protection → WAI Valves → Right Wai Valve",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F058",
+      "mmel_id": "30-21-01",
+      "branch": "CEO valve, CFM/IAE rows",
+      "document_status": "U",
+      "document_note": "Сначала определить открыто/закрыто. Ветка IAE при открытом клапане имеет дополнительное условие OAT; neo-ветви исключены.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Eng 1 EAI Valve",
+          "menu_found": true,
+          "menu_id": "M250",
+          "menu_path": "ATA 30 - Ice and rain protection → EAI Valves → Eng 1 Eai Valve",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Eng 2 EAI Valve",
+          "menu_found": true,
+          "menu_id": "M251",
+          "menu_path": "ATA 30 - Ice and rain protection → EAI Valves → Eng 2 Eai Valve",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F059",
+      "mmel_id": "30-31-01",
+      "branch": "2) F/O or STBY loss of heating",
+      "document_status": "U",
+      "document_note": "Alpha определяет PHC как потерю обогрева: не использовать строку1, где обогрев должен оставаться исправным. Для F/O/STBY читать специальные строки.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "PHC 2",
+          "menu_found": true,
+          "menu_id": "M270",
+          "menu_path": "ATA 30 - Ice and rain protection → PHC → 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "PHC 3",
+          "menu_found": true,
+          "menu_id": "M271",
+          "menu_path": "ATA 30 - Ice and rain protection → PHC → 3",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F060",
+      "mmel_id": "30-31-01",
+      "branch": "1) retained heater operation vs PHC1 loss",
+      "document_status": "X",
+      "document_note": "Alpha PHC1 выключает обогрев CAPT. Строка1 требует исправный соответствующий heater; эквивалентность не доказана.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "PHC 1",
+          "menu_found": true,
+          "menu_id": "M269",
+          "menu_path": "ATA 30 - Ice and rain protection → PHC → 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F061",
+      "mmel_id": "30-31-02",
+      "branch": "CAPT / F/O / STBY",
+      "document_status": "K",
+      "document_note": "Раздельные строки по месту установки; blockage не равно отказу обогрева.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Pitot heat Capt",
+          "menu_found": true,
+          "menu_id": "M260",
+          "menu_path": "ATA 30 - Ice and rain protection → Pitot Heat → Capt",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Pitot heat F/O",
+          "menu_found": true,
+          "menu_id": "M261",
+          "menu_path": "ATA 30 - Ice and rain protection → Pitot Heat → F/o",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Pitot heat STBY",
+          "menu_found": true,
+          "menu_id": "M262",
+          "menu_path": "ATA 30 - Ice and rain protection → Pitot Heat → Stby",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F062",
+      "mmel_id": "30-31-03",
+      "branch": "Static heaters, side and position",
+      "document_status": "K",
+      "document_note": "Не путать левый/правый порт с CAPT/F/O/STBY. В MMEL установлено шесть heaters.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Left Static heat Capt",
+          "menu_found": true,
+          "menu_id": "M263",
+          "menu_path": "ATA 30 - Ice and rain protection → Static Heat → Left  Capt",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Right Static heat Capt",
+          "menu_found": true,
+          "menu_id": "M264",
+          "menu_path": "ATA 30 - Ice and rain protection → Static Heat → Right  Capt",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Left Static heat F/O",
+          "menu_found": true,
+          "menu_id": "M265",
+          "menu_path": "ATA 30 - Ice and rain protection → Static Heat → Left  F/o",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Right Static heat F/O",
+          "menu_found": true,
+          "menu_id": "M266",
+          "menu_path": "ATA 30 - Ice and rain protection → Static Heat → Right  F/o",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Left Static heat Stby",
+          "menu_found": true,
+          "menu_id": "M267",
+          "menu_path": "ATA 30 - Ice and rain protection → Static Heat → Left  Stby",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Right Static heat Stby",
+          "menu_found": true,
+          "menu_id": "M268",
+          "menu_path": "ATA 30 - Ice and rain protection → Static Heat → Right  Stby",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F063",
+      "mmel_id": "30-31-04",
+      "branch": "AOA heaters, CEO",
+      "document_status": "K",
+      "document_note": "Выбирать отдельную позицию и её условия; отказ датчика AOA не тождественен heater.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "AOA heat Capt",
+          "menu_found": true,
+          "menu_id": "M254",
+          "menu_path": "ATA 30 - Ice and rain protection → AOA Heat → Capt",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "AOA heat F/O",
+          "menu_found": true,
+          "menu_id": "M255",
+          "menu_path": "ATA 30 - Ice and rain protection → AOA Heat → F/o",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "AOA heat STBY",
+          "menu_found": true,
+          "menu_id": "M256",
+          "menu_path": "ATA 30 - Ice and rain protection → AOA Heat → Stby",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F064",
+      "mmel_id": "30-31-05",
+      "branch": "TAT heaters, 2 installed",
+      "document_status": "K",
+      "document_note": "MMEL указывает два TAT heater; нужен актуальный список Fenix.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "TAT heat Capt",
+          "menu_found": true,
+          "menu_id": "M257",
+          "menu_path": "ATA 30 - Ice and rain protection → TAT Heat → Capt",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "TAT heat F/O",
+          "menu_found": true,
+          "menu_id": "M258",
+          "menu_path": "ATA 30 - Ice and rain protection → TAT Heat → F/o",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F065",
+      "mmel_id": "30-31-05",
+      "branch": "unsupported third TAT heater",
+      "document_status": "X",
+      "document_note": "Alpha содержит STBY, но MMEL указывает два установленных TAT heater. Не создавать третий по устаревшему перечню.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "TAT heat STBY",
+          "menu_found": true,
+          "menu_id": "M259",
+          "menu_path": "ATA 30 - Ice and rain protection → TAT Heat → Stby",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F066",
+      "mmel_id": "30-42-01",
+      "branch": "Window Heat Computers",
+      "document_status": "U",
+      "document_note": "Проверить, какие обогреватели теряются и допустимость выбранной строки; не путать компьютер с отдельным стеклом.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "WHC 1",
+          "menu_found": true,
+          "menu_id": "M252",
+          "menu_path": "ATA 30 - Ice and rain protection → WHC → 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "WHC 2",
+          "menu_found": true,
+          "menu_id": "M253",
+          "menu_path": "ATA 30 - Ice and rain protection → WHC → 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F067",
+      "mmel_id": "31-30-01",
+      "branch": "CFDS",
+      "document_status": "K",
+      "document_note": "Совпадает система диагностики; проверить, что отказ не шире CFDS.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "CFDIU",
+          "menu_found": true,
+          "menu_id": "M317",
+          "menu_path": "ATA 31 - Indicating/Recording system → CFDIU",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F068",
+      "mmel_id": "31-53-01",
+      "branch": "FWC2 only",
+      "document_status": "K",
+      "document_note": "Документ разрешает FWC2, с условиями steep approach и минимумов.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "FWC 2",
+          "menu_found": true,
+          "menu_id": "M322",
+          "menu_path": "ATA 31 - Indicating/Recording system → FWC → 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F069",
+      "mmel_id": "31-53-01",
+      "branch": "FWC1 not covered by FWC2 relief",
+      "document_status": "X",
+      "document_note": "Нельзя переносить разрешение FWC2 на FWC1.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "FWC 1",
+          "menu_found": true,
+          "menu_id": "M321",
+          "menu_path": "ATA 31 - Indicating/Recording system → FWC → 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F070",
+      "mmel_id": "31-55-01",
+      "branch": "SDAC2 only",
+      "document_status": "K",
+      "document_note": "MMEL явно называет SDAC2.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "SDAC 2",
+          "menu_found": true,
+          "menu_id": "M320",
+          "menu_path": "ATA 31 - Indicating/Recording system → SDAC → 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F071",
+      "mmel_id": "31-55-01",
+      "branch": "SDAC1 not covered by SDAC2 relief",
+      "document_status": "X",
+      "document_note": "Нельзя переносить разрешение SDAC2 на SDAC1.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "SDAC 1",
+          "menu_found": true,
+          "menu_id": "M319",
+          "menu_path": "ATA 31 - Indicating/Recording system → SDAC → 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F072",
+      "mmel_id": "31-56-01",
+      "branch": "ECAM Control Panel",
+      "document_status": "U",
+      "document_note": "Уточнить, совпадает ли полный internal failure панели с разрешёнными функциями/ветвью.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "ECP",
+          "menu_found": true,
+          "menu_id": "M318",
+          "menu_path": "ATA 31 - Indicating/Recording system → ECP",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F073",
+      "mmel_id": "31-63-01",
+      "branch": "1) PFDU2 / 2) NDU1 / 3) NDU2 / 4) SDU",
+      "document_status": "K",
+      "document_note": "FAA перечисляет конкретные дисплеи. Для SDU отдельные Mod.36414/38111; остальные дисплеи должны быть исправны.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "DU F/O PFD",
+          "menu_found": true,
+          "menu_id": "M332",
+          "menu_path": "ATA 31 - Indicating/Recording system → DU → F/o Pfd",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "DU Capt ND",
+          "menu_found": true,
+          "menu_id": "M330",
+          "menu_path": "ATA 31 - Indicating/Recording system → DU → Capt Nd",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "DU F/O ND",
+          "menu_found": true,
+          "menu_id": "M331",
+          "menu_path": "ATA 31 - Indicating/Recording system → DU → F/o Nd",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "DU ECAM Lower",
+          "menu_found": true,
+          "menu_id": "M334",
+          "menu_path": "ATA 31 - Indicating/Recording system → DU → Ecam Lower",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F074",
+      "mmel_id": "31-63-01",
+      "branch": "CAPT PFD and upper ECAM not listed",
+      "document_status": "X",
+      "document_note": "PFDU1 и E/WDU не включены в прочитанные разрешения; не добавлять по аналогии с другими DU.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "DU Capt PFD",
+          "menu_found": true,
+          "menu_id": "M329",
+          "menu_path": "ATA 31 - Indicating/Recording system → DU → Capt Pfd",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "DU ECAM Upper",
+          "menu_found": true,
+          "menu_id": "M333",
+          "menu_path": "ATA 31 - Indicating/Recording system → DU → Ecam Upper",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F075",
+      "mmel_id": "31-63-02",
+      "branch": "1) DMC1 / 2) DMC2 / 3) DMC3",
+      "document_status": "U",
+      "document_note": "Факт EIS2 не определяет S4-2/S7/S8-2 и автоматическое AC ESS switching. Требуется точная комплектация.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "DMC 1",
+          "menu_found": true,
+          "menu_id": "M324",
+          "menu_path": "ATA 31 - Indicating/Recording system → DMC → 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "DMC 2",
+          "menu_found": true,
+          "menu_id": "M325",
+          "menu_path": "ATA 31 - Indicating/Recording system → DMC → 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "DMC 3",
+          "menu_found": true,
+          "menu_id": "M326",
+          "menu_path": "ATA 31 - Indicating/Recording system → DMC → 3",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F076",
+      "mmel_id": "32-31-01",
+      "branch": "1) LGCIU2 CEO, and relevant ACT branch",
+      "document_status": "K",
+      "document_note": "В alpha опечатка LGCUI. FAA разрешает LGCIU2 с большим списком зависимостей; актуальное имя проверить.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "LGCUI 2",
+          "menu_found": true,
+          "menu_id": "M165",
+          "menu_path": "ATA 32 - Landing gear → LGCIU → 2",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F077",
+      "mmel_id": "32-31-01",
+      "branch": "LGCIU1 vs LGCIU2",
+      "document_status": "X",
+      "document_note": "MMEL пункт озаглавлен LGCIU2; разрешение на LGCIU1 не переносится.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "LGCUI 1",
+          "menu_found": true,
+          "menu_id": "M164",
+          "menu_path": "ATA 32 - Landing gear → LGCIU → 1",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F078",
+      "mmel_id": "32-31-02",
+      "branch": "retraction, gear down",
+      "document_status": "U",
+      "document_note": "Может соответствовать только после проверки истинного отказа уборки и всех условий; не равно Gear locked up.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Gear locked down",
+          "menu_found": true,
+          "menu_id": "M171",
+          "menu_path": "ATA 32 - Landing gear → Gear failure → Gear Locked Down",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F079",
+      "mmel_id": "32-42-01",
+      "branch": "one wheel brake",
+      "document_status": "K",
+      "document_note": "Разрешён один тормоз; требуется исправность antiskid, NWS и обоих reverser. AUTO/BRK считается неработающим последствием.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Wheel brake fault 1",
+          "menu_found": true,
+          "menu_id": "M153",
+          "menu_path": "ATA 32 - Landing gear → Wheel brake fault → 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Wheel brake fault 2",
+          "menu_found": true,
+          "menu_id": "M154",
+          "menu_path": "ATA 32 - Landing gear → Wheel brake fault → 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Wheel brake fault 3",
+          "menu_found": true,
+          "menu_id": "M155",
+          "menu_path": "ATA 32 - Landing gear → Wheel brake fault → 3",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Wheel brake fault 4",
+          "menu_found": true,
+          "menu_id": "M156",
+          "menu_path": "ATA 32 - Landing gear → Wheel brake fault → 4",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F080",
+      "mmel_id": "32-42-03",
+      "branch": "BSCU channels/systems",
+      "document_status": "U",
+      "document_note": "Нужны стандарт BSCU и модель самолёта. BSCU brake fault и отказ канала SYS не объединять.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "BSCU SYS 1",
+          "menu_found": true,
+          "menu_id": "M147",
+          "menu_path": "ATA 32 - Landing gear → BSCU → Sys 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "BSCU SYS 2",
+          "menu_found": true,
+          "menu_id": "M148",
+          "menu_path": "ATA 32 - Landing gear → BSCU → Sys 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F081",
+      "mmel_id": "32-42-04",
+      "branch": "main AUTO/BRK function",
+      "document_status": "K",
+      "document_note": "Обычное торможение должно сохраняться. Не выбирать подпункты ламп LO/MED/MAX вместо функции.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Autobrake failure",
+          "menu_found": true,
+          "menu_id": "M152",
+          "menu_path": "ATA 32 - Landing gear → Brake fault → Autobrake Failure",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F082",
+      "mmel_id": "32-49-01",
+      "branch": "pressure indication vs low tyre pressure",
+      "document_status": "X",
+      "document_note": "Низкое физическое давление не равно отказу индикатора давления.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Tyre pressure left 1 low",
+          "menu_found": true,
+          "menu_id": "M159",
+          "menu_path": "ATA 32 - Landing gear → Tyre pressure → Left 1 Low",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F083",
+      "mmel_id": "34-10-01",
+      "branch": "4) ADR2 / 5) ADR3",
+      "document_status": "K",
+      "document_note": "Раздельные условия; ADR2 отличается ограничениями от ADR3.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "ADR2 failure",
+          "menu_found": true,
+          "menu_id": "M179",
+          "menu_path": "ATA 34 - Navigation → ADR fault → Adr2 Failure",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "ADR3 failure",
+          "menu_found": true,
+          "menu_id": "M180",
+          "menu_path": "ATA 34 - Navigation → ADR fault → Adr3 Failure",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F084",
+      "mmel_id": "34-10-01",
+      "branch": "ADR1 not covered by ADR2/3 relief",
+      "document_status": "X",
+      "document_note": "В прочитанном пункте указаны ADR2 и ADR3; нельзя автоматически разрешать ADR1.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "ADR1 failure",
+          "menu_found": true,
+          "menu_id": "M178",
+          "menu_path": "ATA 34 - Navigation → ADR fault → Adr1 Failure",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F085",
+      "mmel_id": "34-10-01",
+      "branch": "1) IR1 NAV mode only",
+      "document_status": "U",
+      "document_note": "Требуется сохранение ATT; полный IR1 failure шире разрешения. Выбрать ветвь стандарта FMS.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "IR1 position failure",
+          "menu_found": true,
+          "menu_id": "M175",
+          "menu_path": "ATA 34 - Navigation → IRS position failure → Ir1 Position Failure",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F086",
+      "mmel_id": "34-10-01",
+      "branch": "2) IR2 / 3) IR3, NAV or total as specified",
+      "document_status": "U",
+      "document_note": "Разделить NAV-only и полный отказ. Для IR2 учитываются стандарт FMS и модификации; не заменять IR1.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "IR2 position failure",
+          "menu_found": true,
+          "menu_id": "M176",
+          "menu_path": "ATA 34 - Navigation → IRS position failure → Ir2 Position Failure",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "IR3 position failure",
+          "menu_found": true,
+          "menu_id": "M177",
+          "menu_path": "ATA 34 - Navigation → IRS position failure → Ir3 Position Failure",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "IR2 IR failure",
+          "menu_found": true,
+          "menu_id": "M173",
+          "menu_path": "ATA 34 - Navigation → IR fault → Ir2 Ir Failure",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "IR3 IR failure",
+          "menu_found": true,
+          "menu_id": "M174",
+          "menu_path": "ATA 34 - Navigation → IR fault → Ir3 Ir Failure",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F087",
+      "mmel_id": "34-36-01",
+      "branch": "ILS systems",
+      "document_status": "U",
+      "document_note": "Канальный отказ приёмника и полный ILS различны. Localizer/Glideslope transmitter в alpha — отказ наземного средства, не бортового ILS.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "ILS 1 G/S",
+          "menu_found": true,
+          "menu_id": "M210",
+          "menu_path": "ATA 34 - Navigation → ILS → 1 G/s",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "ILS 1 LOC",
+          "menu_found": true,
+          "menu_id": "M209",
+          "menu_path": "ATA 34 - Navigation → ILS → 1 Loc",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "ILS 2 G/S",
+          "menu_found": true,
+          "menu_id": "M212",
+          "menu_path": "ATA 34 - Navigation → ILS → 2 G/s",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "ILS 2 LOC",
+          "menu_found": true,
+          "menu_id": "M211",
+          "menu_path": "ATA 34 - Navigation → ILS → 2 Loc",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F088",
+      "mmel_id": "34-41-01",
+      "branch": "Weather Radar Systems",
+      "document_status": "U",
+      "document_note": "Наличие рабочего радара Fenix не доказывает возможность задать отдельный отказ; в alpha отдельного имени не найдено.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F089",
+      "mmel_id": "34-42-01",
+      "branch": "1) RA1 / RA2 without eRudder",
+      "document_status": "K",
+      "document_note": "RA1/RA2 имеют разные сроки устранения; остальные перечисленные компьютеры должны работать.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Radio altimeter 1",
+          "menu_found": true,
+          "menu_id": "M217",
+          "menu_path": "ATA 34 - Navigation → Radio altimeter → 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Radio altimeter 2",
+          "menu_found": true,
+          "menu_id": "M218",
+          "menu_path": "ATA 34 - Navigation → Radio altimeter → 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F090",
+      "mmel_id": "34-43-01",
+      "branch": "TCAS II",
+      "document_status": "K",
+      "document_note": "Совпадает функция; проверить режим отказа и ограничения выбранной строки.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "TCAS",
+          "menu_found": true,
+          "menu_id": "M220",
+          "menu_path": "ATA 34 - Navigation → TCAS",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F091",
+      "mmel_id": "34-48-01",
+      "branch": "GPWS",
+      "document_status": "U",
+      "document_note": "Полный GPWC может затронуть GPWS, TAWS и windshear; выделить все последствия.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "GPWC",
+          "menu_found": true,
+          "menu_id": "M204",
+          "menu_path": "ATA 34 - Navigation → GPWC",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F092",
+      "mmel_id": "34-52-01",
+      "branch": "ATC transponder",
+      "document_status": "K",
+      "document_note": "Учитывать оставшийся транспондер, altitude reporting и ADS-B; не считать все функции автоматически тождественными.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "ATC 1",
+          "menu_found": true,
+          "menu_id": "M221",
+          "menu_path": "ATA 34 - Navigation → ATC → 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "ATC 2",
+          "menu_found": true,
+          "menu_id": "M222",
+          "menu_path": "ATA 34 - Navigation → ATC → 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F093",
+      "mmel_id": "34-53-01",
+      "branch": "ADF",
+      "document_status": "K",
+      "document_note": "Только установленные приёмники; alpha упоминает два, комплектация конкретного Fenix ещё не проверена.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "ADF 1",
+          "menu_found": true,
+          "menu_id": "M207",
+          "menu_path": "ATA 34 - Navigation → Radios → Adf 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "ADF 2",
+          "menu_found": true,
+          "menu_id": "M208",
+          "menu_path": "ATA 34 - Navigation → Radios → Adf 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F094",
+      "mmel_id": "34-55-01",
+      "branch": "VOR",
+      "document_status": "K",
+      "document_note": "Сохранить требования к маршруту/средствам навигации из MMEL.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "VOR 1",
+          "menu_found": true,
+          "menu_id": "M205",
+          "menu_path": "ATA 34 - Navigation → Radios → Vor 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "VOR 2",
+          "menu_found": true,
+          "menu_id": "M206",
+          "menu_path": "ATA 34 - Navigation → Radios → Vor 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F095",
+      "mmel_id": "34-58-01",
+      "branch": "GPS, selected configuration",
+      "document_status": "K",
+      "document_note": "Определить стандарт GPS/MMR и оставшиеся навигационные функции; не смешивать GPS с полным ADIRS.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "GPS 1",
+          "menu_found": true,
+          "menu_id": "M215",
+          "menu_path": "ATA 34 - Navigation → GPS → 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "GPS 2",
+          "menu_found": true,
+          "menu_id": "M216",
+          "menu_path": "ATA 34 - Navigation → GPS → 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F096",
+      "mmel_id": "35-13-01",
+      "branch": "pressure indication vs oxygen depletion",
+      "document_status": "X",
+      "document_note": "Малое количество кислорода не равно отказу указателя. Эти сценарии не включать по пункту индикации.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Crew oxygen pressure < 400",
+          "menu_found": true,
+          "menu_id": "M335",
+          "menu_path": "ATA 35 - Oxygen → Crew oxygen 1 → Crew Oxygen Pressure < 400",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Crew oxygen pressure < 800",
+          "menu_found": true,
+          "menu_id": "M336",
+          "menu_path": "ATA 35 - Oxygen → Crew oxygen 1 → Crew Oxygen Pressure < 800",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F097",
+      "mmel_id": "36-11-02",
+      "branch": "PRV secured closed",
+      "document_status": "U",
+      "document_note": "Fenix фиксирует текущее положение. Требуется именно closed и последствия по 36-11-01.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Eng 1 bleed valve",
+          "menu_found": true,
+          "menu_id": "M227",
+          "menu_path": "ATA 36 - Pneumatic → Pneumatic valves → Eng 1 Bleed Valve",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Eng 2 bleed valve",
+          "menu_found": true,
+          "menu_id": "M228",
+          "menu_path": "ATA 36 - Pneumatic → Pneumatic valves → Eng 2 Bleed Valve",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F098",
+      "mmel_id": "36-11-07",
+      "branch": "HPV closed",
+      "document_status": "U",
+      "document_note": "Нужно подтвердить закрытое положение и соответствующую строку MMEL.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Eng 1 HP Valve",
+          "menu_found": true,
+          "menu_id": "M224",
+          "menu_path": "ATA 36 - Pneumatic → Pneumatic valves → Eng 1 Hp Valve",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Eng 2 HP Valve",
+          "menu_found": true,
+          "menu_id": "M225",
+          "menu_path": "ATA 36 - Pneumatic → Pneumatic valves → Eng 2 Hp Valve",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F099",
+      "mmel_id": "36-11-08",
+      "branch": "BMC, CEO standard",
+      "document_status": "U",
+      "document_note": "Ветви зависят от модификаций/систем; не считать BMC1/BMC2 симметричными без разбора строки.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "BMC 1",
+          "menu_found": true,
+          "menu_id": "M232",
+          "menu_path": "ATA 36 - Pneumatic → BMC → 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "BMC 2",
+          "menu_found": true,
+          "menu_id": "M233",
+          "menu_path": "ATA 36 - Pneumatic → BMC → 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F100",
+      "mmel_id": "36-12-02",
+      "branch": "APU bleed valve, state and ACT",
+      "document_status": "U",
+      "document_note": "Раздельно open/closed. Для ACT-конфигураций есть дополнительные условия.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "APU bleed valve",
+          "menu_found": true,
+          "menu_id": "M235",
+          "menu_path": "ATA 36 - Pneumatic → Pneumatic valve → Apu Bleed Valve",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F101",
+      "mmel_id": "36-12-04",
+      "branch": "AUTO/MAN control vs mechanically stuck valve",
+      "document_status": "X",
+      "document_note": "MMEL допускает потерю одного способа управления при сохранении другого; заклинивший клапан не эквивалентен.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Crossbleed valve",
+          "menu_found": true,
+          "menu_id": "M234",
+          "menu_path": "ATA 36 - Pneumatic → Pneumatic valve → Crossbleed Valve",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F102",
+      "mmel_id": "36-22-15",
+      "branch": "detection loops vs actual leak",
+      "document_status": "X",
+      "document_note": "Настоящая утечка не является отказом контура обнаружения утечки.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Bleed leak pylon engine 1",
+          "menu_found": true,
+          "menu_id": "M240",
+          "menu_path": "ATA 36 - Pneumatic → Bleed leak → Pylon Engine 1",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Bleed leak pylon engine 2",
+          "menu_found": true,
+          "menu_id": "M241",
+          "menu_path": "ATA 36 - Pneumatic → Bleed leak → Pylon Engine 2",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F103",
+      "mmel_id": "46-21-01",
+      "branch": "ATSU",
+      "document_status": "K",
+      "document_note": "Совпадает блок; определить связанные функции datalink, не переносить на EFB.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "ATSU",
+          "menu_found": true,
+          "menu_id": "M341",
+          "menu_path": "ATA 46 - Information systems → ATSU",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F104",
+      "mmel_id": "49-10-01",
+      "branch": "APU system via ECB failure",
+      "document_status": "U",
+      "document_note": "Проверить потерю APU и отсутствие пожара/других повреждений; выбрать ветвь ACT.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "ECB",
+          "menu_found": true,
+          "menu_id": "M243",
+          "menu_path": "ATA 49 - APU → ECB",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F105",
+      "mmel_id": "49-30-02",
+      "branch": "APU LP valve",
+      "document_status": "U",
+      "document_note": "Требуется идентификация клапана и его положения; APU fire не эквивалентен.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "APU fuel valve",
+          "menu_found": true,
+          "menu_id": "M245",
+          "menu_path": "ATA 49 - APU → APU fuel valve",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F106",
+      "mmel_id": "52-70-01",
+      "branch": "door indication by physical door type",
+      "document_status": "U",
+      "document_note": "Alpha описывает сигнал датчика. Проверить, что дверь физически закрыта; количество/расположение дверей различается у A319/320/321.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Aft cargo door",
+          "menu_found": true,
+          "menu_id": "M354",
+          "menu_path": "ATA 52 - Doors → Doors right → Aft Cargo Door",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Forward cargo door",
+          "menu_found": true,
+          "menu_id": "M351",
+          "menu_path": "ATA 52 - Doors → Doors right → Forward Cargo Door",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Forward avionics door",
+          "menu_found": true,
+          "menu_id": "M342",
+          "menu_path": "ATA 52 - Doors → Doors left → Forward Avionics Door",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F107",
+      "mmel_id": "74-31-01",
+      "branch": "ignition channel vs no ignition",
+      "document_status": "U",
+      "document_note": "Нельзя назначить допуск отдельного igniter на общий отказ запуска без проверки, какой канал остался работоспособен.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Eng 1 no ignition",
+          "menu_found": true,
+          "menu_id": "M315",
+          "menu_path": "ATA 80 - Start faults → No ignition → Eng 1",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Eng 2 no ignition",
+          "menu_found": true,
+          "menu_id": "M316",
+          "menu_path": "ATA 80 - Start faults → No ignition → Eng 2",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F108",
+      "mmel_id": "78-30-01",
+      "branch": "1) CEO, one reverser secured stowed",
+      "document_status": "K",
+      "document_note": "Подходящий вид отказа. Раздельные проверки CFM switches / IAE LVDT; оба тормозных условия и характеристики обязательны.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Left reverser inhibited by maint",
+          "menu_found": true,
+          "menu_id": "M375",
+          "menu_path": "ATA 70 - Power plant → Reverser inhibited by maintenance → Left Reverser Inhibited By Maint",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Right reverser inhibited by maint",
+          "menu_found": true,
+          "menu_id": "M376",
+          "menu_path": "ATA 70 - Power plant → Reverser inhibited by maintenance → Right Reverser Inhibited By Maint",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F109",
+      "mmel_id": "78-30-01",
+      "branch": "unlocked/pressurized is not secured stowed",
+      "document_status": "X",
+      "document_note": "Не соответствует требованию отключённого убранного реверса и отсутствия REV PRESSURIZED.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Left reverser unlocked",
+          "menu_found": true,
+          "menu_id": "M373",
+          "menu_path": "ATA 70 - Power plant → Reverser unlocked → Left",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Left reverser pressurized",
+          "menu_found": true,
+          "menu_id": "M371",
+          "menu_path": "ATA 70 - Power plant → Reverser pressurized → Left",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Right reverser unlocked",
+          "menu_found": true,
+          "menu_id": "M374",
+          "menu_path": "ATA 70 - Power plant → Reverser unlocked → Right",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Right reverser pressurized",
+          "menu_found": true,
+          "menu_id": "M372",
+          "menu_path": "ATA 70 - Power plant → Reverser pressurized → Right",
+          "match_method": "reviewed_group_label_alias",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F110",
+      "mmel_id": "79-31-01",
+      "branch": "quantity indication vs actual low oil",
+      "document_status": "X",
+      "document_note": "Физически малое количество масла не равно отказу указателя количества.",
+      "menu_check": "some_or_all_names_not_found",
+      "names": [
+        {
+          "legacy_name": "Eng 1 low oil quantity",
+          "menu_found": false,
+          "menu_id": null,
+          "menu_path": null,
+          "match_method": null,
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Eng 2 low oil quantity",
+          "menu_found": false,
+          "menu_id": null,
+          "menu_path": null,
+          "match_method": null,
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F111",
+      "mmel_id": "80-11-01",
+      "branch": "1)a) CFM/IAE start valve",
+      "document_status": "U",
+      "document_note": "Alpha: механически закрыт. FAA требует наземной ручной работы клапана; доступность такого обслуживания в Fenix не подтверждена.",
+      "menu_check": "all_names_observed",
+      "names": [
+        {
+          "legacy_name": "Start valve left",
+          "menu_found": true,
+          "menu_id": "M309",
+          "menu_path": "ATA 80 - Start faults → Start valve → Left",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        },
+        {
+          "legacy_name": "Start valve right",
+          "menu_found": true,
+          "menu_id": "M310",
+          "menu_path": "ATA 80 - Start faults → Start valve → Right",
+          "match_method": "normalized_exact_label_or_group_label",
+          "behavior_tested": false
+        }
+      ],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F112",
+      "mmel_id": "26-11-01",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "document_status": "N",
+      "document_note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F113",
+      "mmel_id": "26-11-02",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "document_status": "N",
+      "document_note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F114",
+      "mmel_id": "27-64-05",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "document_status": "N",
+      "document_note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F115",
+      "mmel_id": "27-92-07",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "document_status": "N",
+      "document_note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F116",
+      "mmel_id": "27-93-04",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "document_status": "N",
+      "document_note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F117",
+      "mmel_id": "28-21-04",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "document_status": "N",
+      "document_note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F118",
+      "mmel_id": "28-25-07",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "document_status": "N",
+      "document_note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F119",
+      "mmel_id": "28-25-08",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "document_status": "N",
+      "document_note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F120",
+      "mmel_id": "30-21-03",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "document_status": "N",
+      "document_note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F121",
+      "mmel_id": "71-10-01",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "document_status": "N",
+      "document_note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F122",
+      "mmel_id": "71-13-01",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "document_status": "N",
+      "document_note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F123",
+      "mmel_id": "73-20-11",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "document_status": "N",
+      "document_note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F124",
+      "mmel_id": "73-30-05",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "document_status": "N",
+      "document_note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F125",
+      "mmel_id": "73-30-08",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "document_status": "N",
+      "document_note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F126",
+      "mmel_id": "73-30-10",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "document_status": "N",
+      "document_note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F127",
+      "mmel_id": "73-30-11",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "document_status": "N",
+      "document_note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F128",
+      "mmel_id": "75-22-02",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "document_status": "N",
+      "document_note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F129",
+      "mmel_id": "75-25-02",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "document_status": "N",
+      "document_note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F130",
+      "mmel_id": "75-25-03",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "document_status": "N",
+      "document_note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F131",
+      "mmel_id": "78-31-02",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "document_status": "N",
+      "document_note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F132",
+      "mmel_id": "79-20-03",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "document_status": "N",
+      "document_note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    },
+    {
+      "assessment_id": "F133",
+      "mmel_id": "80-11-06",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "document_status": "N",
+      "document_note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "menu_check": "no_search_name_in_baseline",
+      "names": [],
+      "aircraft": "A321-231 IAE",
+      "wingtip": "WTF (user-reported)",
+      "actual_model_applicability": "requires_item_and_configuration_check",
+      "behavior_tested": false,
+      "approved_for_generation": false
+    }
+  ],
+  "new_candidates": [
+    {
+      "mmel_id": "46-21-02",
+      "branch": "one DCDU",
+      "paths": [
+        "ATA 31 - Indicating/Recording system → DCDU → Capt",
+        "ATA 31 - Indicating/Recording system → DCDU → Fo"
+      ],
+      "result": "menu_present_document_candidate",
+      "note": "Пункт DCDU есть в актуальном меню; Sim Settings показывает DCDU включённым. Один отказ требует проверки поведения. Не спутывать DCDU с MCDU."
+    },
+    {
+      "mmel_id": "28-25-05",
+      "branch": "valve secured closed",
+      "paths": [
+        "ATA 28 - Fuel → Fuel valves → Defuel/transfer Valve"
+      ],
+      "result": "menu_present_state_unverified",
+      "note": "Проверить, что отказ позволяет получить закрытое положение, требуемое FAA. Названия недостаточно."
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "path": "D:\\A320\\ACG_A319_320_321.pdf",
+    "bytes": 703297,
+    "sha256": "b8c8665b215917ed6aeb6fc31925db01327044246ce61456a02c2a0703d7d66a",
+    "pages": 21,
+    "text_pages": 21,
+    "metadata": {
+      "format": "PDF 1.6",
+      "title": "ACG A319-112 ",
+      "author": "Юрий Сабуров",
+      "subject": "",
+      "keywords": "",
+      "creator": "Word",
+      "producer": "Mac OS X 10.10.3 Quartz PDFContext",
+      "creationDate": "D:20150426072514Z",
+      "modDate": "D:20150819181143+05'00'",
+      "trapped": "",
+      "encryption": "Standard V4 R4 128-bit AES"
+    },
+    "inspection": "D:\\MEL generator\\sources_mel_mmel\\_inspection\\LOCAL_ACG_A319_320_321.txt",
+    "status": "valid_pdf"
+  },
+  {
+    "path": "D:\\A320\\AFM 320-232 FULL.pdf",
+    "bytes": 15649374,
+    "sha256": "06a0664ad304f37b0c4892917dce84c43842b72e6050a78f6e1fd9246885c78d",
+    "pages": 634,
+    "text_pages": 633,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "AFM",
+      "author": "Airbus (AIB)&NORDWIND AIRLINES (NWS)",
+      "subject": "",
+      "keywords": "Production Identifier 6464, Cockpit delivery No, Exchange version 9.0, Customer logo Yes, Effectivity type MSN, Revision date Fri May 16 15:13:21 MSK 2014",
+      "creator": "OPS Composer (OPSC) 2.9.2 build 7109",
+      "producer": "FO to PDF Converter (FPC) 1.5",
+      "creationDate": "D:20140611151549+04'00'",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "inspection": "D:\\MEL generator\\sources_mel_mmel\\_inspection\\LOCAL_AFM 320-232 FULL.txt",
+    "status": "valid_pdf"
+  },
+  {
+    "path": "D:\\A320\\CCOM_A320_A321 24 APR 14.pdf",
+    "bytes": 26504911,
+    "sha256": "ce9e39b27c33230fa5545d636c88a15451fd5e5c30328b0335bd4aaaf2d9b172",
+    "pages": 804,
+    "text_pages": 804,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "CCOM",
+      "author": "Airbus (AIB)&NORDWIND AIRLINES (NWS)",
+      "subject": "",
+      "keywords": "Production Identifier 5500, Cockpit delivery No, Exchange version 9.0, Customer logo Yes, Effectivity type MSN, Revision date Thu Apr 24 14:51:23 MSK 2014",
+      "creator": "OPS Composer (OPSC) 2.9.2 build 7109",
+      "producer": "FO to PDF Converter (FPC) 1.5",
+      "creationDate": "D:20140512145450+04'00'",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "inspection": "D:\\MEL generator\\sources_mel_mmel\\_inspection\\LOCAL_CCOM_A320_A321 24 APR 14.txt",
+    "status": "valid_pdf"
+  },
+  {
+    "path": "D:\\A320\\FCOM A320.A321    25MAY14.pdf",
+    "bytes": 255864578,
+    "sha256": "ae8030c0fbad958439f5d07f32522d1acbf621e5969e2c18a34af336c13b17ac",
+    "pages": 5340,
+    "text_pages": 5340,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "FCOM",
+      "author": "Airbus (AIB)&NORDWIND AIRLINES (NWS)",
+      "subject": "",
+      "keywords": "Production Identifier 10076, Cockpit delivery No, Exchange version 9.0, Customer logo Yes, Effectivity type MSN, Revision date Sun May 25 11:48:45 MSK 2014",
+      "creator": "OPS Composer (OPSC) 2.8.1.A build 6971",
+      "producer": "FO to PDF Converter (FPC) 1.5",
+      "creationDate": "D:20140701115757+04'00'",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "inspection": "D:\\MEL generator\\sources_mel_mmel\\_inspection\\LOCAL_FCOM A320.A321    25MAY14.txt",
+    "status": "valid_pdf"
+  },
+  {
+    "path": "D:\\A320\\FCTM 11 DEC 13.pdf",
+    "bytes": 9007239,
+    "sha256": "342f1fcf88ee6df8001b83977b82d7d5b1ddc1430667427bb8e09c9c2485e051",
+    "pages": 378,
+    "text_pages": 378,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "FCTM",
+      "author": "Airbus (AIB)&NORDWIND AIRLINES (NWS)",
+      "subject": "",
+      "keywords": "Production Identifier 5776, Cockpit delivery No, Exchange version 9.0, Customer logo Yes, Effectivity type MSN, Revision date Wed Dec 11 12:51:57 MSK 2013",
+      "creator": "OPS Composer (OPSC) 2.8.1.A build 6971",
+      "producer": "FO to PDF Converter (FPC) 1.5",
+      "creationDate": "D:20140124125331+04'00'",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "inspection": "D:\\MEL generator\\sources_mel_mmel\\_inspection\\LOCAL_FCTM 11 DEC 13.txt",
+    "status": "valid_pdf"
+  },
+  {
+    "path": "D:\\A320\\NEF Rev 3 10.06.14.pdf",
+    "bytes": 998296,
+    "sha256": "5c6a95109bae4fa90d5fe71c9873945caf19bf7404607d257a4152229307fc4a",
+    "pages": 33,
+    "text_pages": 32,
+    "metadata": {
+      "format": "PDF 1.6",
+      "title": "ETOPS",
+      "author": "7",
+      "subject": "",
+      "keywords": "",
+      "creator": "Acrobat PDFMaker 11 для Word",
+      "producer": "Adobe PDF Library 11.0",
+      "creationDate": "D:20140707105354+04'00'",
+      "modDate": "D:20140707105445+04'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "inspection": "D:\\MEL generator\\sources_mel_mmel\\_inspection\\LOCAL_NEF Rev 3 10.06.14.txt",
+    "status": "valid_pdf"
+  },
+  {
+    "path": "D:\\A320\\QRH (320-321) 20MAY14.pdf",
+    "bytes": 16317063,
+    "sha256": "7e833a074fbae777b854e1412b7ea9ab3df279fe7969891e578d2a14051ec610",
+    "pages": 524,
+    "text_pages": 524,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "QRH",
+      "author": "Airbus (AIB)&NORDWIND AIRLINES (NWS)",
+      "subject": "",
+      "keywords": "Production Identifier 5856, Cockpit delivery No, Exchange version 9.0, Customer logo Yes, Effectivity type MSN, Revision date Tue May 20 10:06:30 MSK 2014",
+      "creator": "OPS Composer (OPSC) 2.9.2 build 7109",
+      "producer": "FO to PDF Converter (FPC) 1.5",
+      "creationDate": "D:20140602100947+04'00'",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "inspection": "D:\\MEL generator\\sources_mel_mmel\\_inspection\\LOCAL_QRH (320-321) 20MAY14.txt",
+    "status": "valid_pdf"
+  },
+  {
+    "path": "D:\\A320\\SOP_25_NOV_2019.pdf",
+    "bytes": 6126596,
+    "sha256": "8875c37965cd6c9ab8352cd49aad259805da40ce316ec2ebc410eb9278879da7",
+    "pages": 214,
+    "text_pages": 204,
+    "metadata": {
+      "format": "PDF 1.6",
+      "title": "<4D6963726F736F667420576F7264202D20534F5020CFF0E5E4EFEEEBE5F2EDE0FF20EFEEE4E3EEF2EEE2EAE02E646F63>",
+      "author": "Alexandr",
+      "subject": "",
+      "keywords": "",
+      "creator": "PScript5.dll Version 5.2.2",
+      "producer": "Acrobat Distiller 11.0 (Windows)",
+      "creationDate": "D:20190727073715+03'00'",
+      "modDate": "D:20191203173443+05'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "inspection": "D:\\MEL generator\\sources_mel_mmel\\_inspection\\LOCAL_SOP_25_NOV_2019.txt",
+    "status": "valid_pdf"
+  },
+  {
+    "path": "D:\\A320\\WBM A320 (MSN 2649).pdf",
+    "bytes": 5882440,
+    "sha256": "ae7a9196aab6434cd37a1f70a1cd3dac6d5258c59ea6726addf870fd9fe5424f",
+    "pages": 227,
+    "text_pages": 9,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "Acrobat Distiller 5.0.5 (Windows)",
+      "creationDate": "D:20130315140307+01'00'",
+      "modDate": "D:20130315140307+01'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "inspection": "D:\\MEL generator\\sources_mel_mmel\\_inspection\\LOCAL_WBM A320 (MSN 2649).txt",
+    "status": "valid_pdf"
+  }
+]

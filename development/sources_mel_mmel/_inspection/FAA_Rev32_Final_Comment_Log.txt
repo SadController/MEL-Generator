@@ -1,0 +1,1642 @@
+
+=== PDF PAGE 1 ===
+A-320 Rev 32 
+07/30/25 
+ 
+1
+FINAL COMMENT LOG 
+Originating Office: 
+AFS-110 
+Document Title/Description: 
+MMEL A-320 Rev 32, Airbus SAS, A318, A319, A320, 
+and A321 Series, All Models 
+POC and Phone Number: 
+Mark Farrell, (207) 819-5293 
+Suspense Date: 
+09/29/2025 
+ 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+John J McDermott 
+AFS-220-3 
+Concur with 
+comment 
+4/9/25 
+23-4 
+Pdf 72 
+23-13-01-4a 
+RMP2 Keys 
+Policy Letter: PL31 #7 recommends: 
+When a relief item is deleted or moved, 
+the item name and sequence number 
+will be retained in the MMEL, with an 
+appropriate notation in the REMARKS 
+or EXCEPTIONS column. Include the 
+revision number of the deleted or 
+moved relief item. For example, 
+1) 
+Relief is deleted entirely: "Deleted, 
+Revision X." 
+Recommend removal of remarks and 
+proviso and revise to simply “Deleted, 
+Revision X”. 
+Agree. Item remains in MMEL. 
+Only dispatch case was 
+removed. Will remove 
+DELETED reference. 
+John J McDermott 
+AFS-220-3 
+Concur with 
+comment 
+4/9/25 
+23-5 
+Pdf 73 
+23-13-01-4b 
+RMP2 
+Reception 
+Knob 
+Policy Letter: PL31 #7 recommends: 
+When a relief item is deleted or moved, 
+the item name and sequence number 
+will be retained in the MMEL, with an 
+appropriate notation in the REMARKS 
+or EXCEPTIONS column. Include the 
+revision number of the deleted or 
+moved relief item. For example, 
+1) 
+Relief is deleted entirely: "Deleted, 
+Revision X." 
+Recommend removal of remarks and 
+proviso and revise to simply “Deleted, 
+Revision X”. 
+Agree. Item remains in MMEL. 
+Only dispatch case was 
+removed. Will remove 
+DELETED reference. 
+John J McDermott 
+AFS-220-3 
+Concur with 
+comment 
+4/9/25 
+23-6 
+Pdf 74 
+23-13-01-6a 
+RMP3 Keys 
+Policy Letter: PL31 #7 recommends: 
+When a relief item is deleted or moved, 
+the item name and sequence number 
+will be retained in the MMEL, with an 
+appropriate notation in the REMARKS 
+or EXCEPTIONS column. Include the 
+revision number of the deleted or 
+moved relief item. For example, 
+1) 
+Relief is deleted entirely: "Deleted, 
+Revision X." 
+Recommend removal of remarks and 
+proviso and revise to simply “Deleted, 
+Revision X”. 
+Agree. Item remains in MMEL. 
+Only dispatch case was 
+removed. Will remove 
+DELETED reference. 
+
+=== PDF PAGE 2 ===
+A-320 Rev 32 
+07/30/25 
+ 
+2
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+John J McDermott 
+AFS-220-3 
+Concur with 
+comment 
+4/9/25 
+23-6 
+Pdf 74 
+23-13-01-6b 
+RMP3 
+Reception 
+Knob 
+Policy Letter: PL31 #7 recommends: 
+When a relief item is deleted or moved, 
+the item name and sequence number 
+will be retained in the MMEL, with an 
+appropriate notation in the REMARKS 
+or EXCEPTIONS column. Include the 
+revision number of the deleted or 
+moved relief item. For example, 
+1) 
+Relief is deleted entirely: "Deleted, 
+Revision X." 
+Recommend removal of remarks and 
+proviso and revise to simply “Deleted, 
+Revision X”. 
+Agree. Item remains in MMEL. 
+Only dispatch case was 
+removed. Will remove 
+DELETED reference. 
+John J McDermott 
+AFS-220-3 
+Concur with 
+comment 
+4/10/25 
+28-28 
+Pdf 236 
+28-28-11-4 
+ACT XFR 
+Selector 
+Policy Letter: PL31 # 14 recommends: 
+When there is an "(M)" or "(O)" in the 
+REMARKS or EXCEPTIONS column, 
+remarks or proviso(s) are required for 
+clarification. 
+Remove (O) procedure or add remark or 
+proviso. 
+Disagree. Remarks align with 
+EASA MMEL. OEM (O) 
+procedure is available to 
+operators. Commenter concurs. 
+John J McDermott 
+AFS-220-3 
+Concur with 
+comment 
+4/10/25 
+31-8 
+Pdf 290 
+31-56-01-04 
+STS PB 
+Policy Letter: PL31 # 14 recommends: 
+When there is an "(M)" or "(O)" in the 
+REMARKS or EXCEPTIONS column, 
+remarks or proviso(s) are required for 
+clarification. 
+Remove (O) procedure or add remark or 
+proviso. 
+Disagree. Remarks align with 
+EASA MMEL. OEM (O) 
+procedure is available to 
+operators. Commenter concurs. 
+John J McDermott 
+AFS-220-3 
+Concur with 
+comment 
+4/10/25 
+33-5 
+Pdf 325 
+33-20-02-1 
+All Cargo, 
+Authorized 
+Persons/Cou
+rier Area 
+Lighted 
+Information 
+Sings 
+Per N8900.669 (expired) 
+“supernumeraries” are now “authorized 
+persons”. 
+ 
+FYI updated Notice is in publication. 
+Revise to “authorized persons”. 
+Agree. Change made. 
+John J McDermott 
+AFS-220-3 
+Concur with 
+comment 
+4/10/25 
+34-15 
+Pdf 346 
+34-37-01 
+FMS 
+Landing 
+System 
+Policy Letter: PL31 # 14 recommends: 
+When there is an "(M)" or "(O)" in the 
+REMARKS or EXCEPTIONS column, 
+remarks or proviso(s) are required for 
+clarification. 
+Remove (O) procedure or add remark or 
+proviso. 
+Disagree. Remarks align with 
+EASA MMEL. OEM (O) 
+procedure is available to 
+operators. Commenter concurs. 
+John J McDermott 
+AFS-220-3 
+Concur with 
+comment 
+4/10/25 
+34-16 
+Pdf 347 
+34-40-10 
+ROW/ROP 
+pb-sw OFF 
+light 
+Policy Letter: PL31 # 14 recommends: 
+When there is an "(M)" or "(O)" in the 
+REMARKS or EXCEPTIONS column, 
+remarks or proviso(s) are required for 
+clarification. 
+Remove (O) procedure or add remark or 
+proviso. 
+Disagree. Remarks align with 
+EASA MMEL. OEM (O) 
+procedure is available to 
+operators. Commenter concurs. 
+John J McDermott 
+AFS-220-3 
+Concur with 
+comment 
+4/10/25 
+34-16 
+Pdf 347 
+34-40-11-01 
+OFF Position 
+Policy Letter: PL31 # 14 recommends: 
+When there is an "(M)" or "(O)" in the 
+REMARKS or EXCEPTIONS column, 
+remarks or proviso(s) are required for 
+clarification. 
+Remove (O) procedure or add remark or 
+proviso. 
+Disagree. Remarks align with 
+EASA MMEL. OEM (O) 
+procedure is available to 
+operators. Commenter concurs. 
+
+=== PDF PAGE 3 ===
+A-320 Rev 32 
+07/30/25 
+ 
+3
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Randy Gornowicz 
+AFS-330 
+4/2/25 
+I 
+TOC & 
+Control 
+Page-ATA 
+33 
+Pages 33-1 thru 11 show a Rev No. of 
+31 dated 08/13/2024. The actual 
+pages show revision 30 with a date of 
+03/03/2023. 
+Correct TOC and Control Page to Rev 30 
+dated 03/03/2023. 
+AFB-120 corrected rev and date 
+in chapter 33. No change 
+needed in TOC. 
+Randy Gornowicz 
+AFS-330 
+4/2/25 
+II 
+Log of 
+Revisions 
+Log of revisions does not show all 
+revised pages per 8900.1 Vol 19, Chap 
+5, Sec 5, 19-5-5-9 F- Log of Revisions. 
+Note: Some MMEL’s that follow this 
+guidance are B757, B777, MD11 and 
+B737 Max. Others follow the format in 
+this MMEL. 
+Add pages to “Log of Revisions” per 
+8900.1 guidance to ensure consistency 
+across all MMEL’s.  
+Disagree. Guidance provided is 
+impractical and unnecessary in 
+a digital document format. 
+Adding affected pages is 
+redundant information and often 
+irrelevant due to resultant 
+formatting from the addition, 
+deletion, and editing of items.  
+Randy Gornowicz 
+AFS-330 
+4/2/25 
+VII 
+PL-40 
+ETOPS & 
+Polar 
+Operations 
+23-28-01 is listed as an affected item 
+but there is no reference to ETOPS in 
+that MEL item. 
+ 
+49-10-02 is listed as an affected item 
+but there is no reference to ETOPS in 
+that MEL item. 
+Either add ETOPS references to identified 
+MEL items with applicable restrictions or 
+remove affected item sequence numbers. 
+Partially agree but find no 
+changes necessary. 
+ 
+23-28-01 – A28NM TCDS 
+ETOPS limitation is up to 180 
+min.  SATCOM is an ETOPS 
+req. beyond 180 min. An 
+operator’s ETOPS manual will 
+define the equipment and 
+procedures needed to meet 
+their particular authorization 
+requirements. SATCOM could 
+be req. by that manual. There is 
+no risk created in leaving the 
+reference in place. 
+ 
+49-10-02 – Second dispatch 
+case considers APU inoperative 
+which points to 49-10-01 which 
+has an ETOPS restriction. It’s a 
+second-hand reference but 
+there isn’t any harm in it. 
+Randy Gornowicz 
+AFS-330 
+4/2/25 
+XII 
+Preamble 
+Reference PL-34 dated 4/23/2024 and 
+8900.1 Vol 4, Chap 4, Section 3, par 4-
+676 A and 4-684 E. 91K also applies in 
+addition to 121, 125, 129 and 135. 
+Add 91K to the preamble for PL-34 
+applicability. 
+Agree. Change made. 
+Randy Gornowicz 
+AFS-330 
+4/2/25 
+23-6 
+23-14-01 
+Audio Management Unit (AMU) Side 
+(With Mod 162344/ MP P20240 for 3 
+Digital RMP). 
+Remove the number “3” as in 23-13-01. 
+Corrected by AFB-120. 
+Randy Gornowicz 
+AFS-330 
+4/2/25 
+25-1 
+25-00-00 
+“DESPLAYED” spelled wrong. 
+Correct spelling to “DISPLAYED”. 
+Corrected by AFB-120. 
+
+=== PDF PAGE 4 ===
+A-320 Rev 32 
+07/30/25 
+ 
+4
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Randy Gornowicz 
+AFS-330 
+4/2/25 
+28-6 
+28-20-01 
+Restored missing sequence number is 
+missing the change bar (Ref Highlights 
+of Revision page V). 
+Add change bar. 
+Corrected by AFB-120. 
+Randy Gornowicz 
+AFS-330 
+4/2/25 
+31-1 thru 
+12 
+All Chap 31 
+pages 
+Pages show revision 32 with a date of 
+XX/XX/XXXX however page I, Table of 
+Contents & Control Page, show Rev 
+31 dated 08/13/2024. 
+Note: page 31-10 had a minor editorial 
+change in the remarks section and was 
+not identified on page V, Highlights of 
+Change. 
+Either correct the Table of Contents & 
+Control page to rev 32 or revert pages 31-
+1 thru 12 back to rev 31. 
+Agree. Changes made to ToC. 
+Editorial changes are explained 
+in the General section of the 
+HoC. 
+Randy Gornowicz 
+AFS-330 
+4/2/25 
+35-6 
+35-32-01 
+This item indicates a change bar, but I 
+was unable to identify any change to 
+text. 
+Remove change bar if no editorial 
+changes were made. 
+Corrected by AFB-120. 
+Randy Gornowicz 
+AFS-330 
+4/2/25 
+35-1 thru 
+35-6 
+All Chap 35 
+pages 
+Pages show revision 32 with a date of 
+XX/XX/XXXX but no changes were 
+identified in this chapter 
+Note: no changes were identified on 
+the Highlights of Change but the Table 
+of Contents & Control Page show 
+revision 32. 
+Correct revision dates of pages back to 
+rev 30 dated 03/03/2023 and correct 
+Table of Contents & Control Page to rev 
+30. 
+Corrected by AFB-120. Added 
+correction to Highlights of 
+Change. 
+Robert Laurion 
+AFS-330 
+4/2/25 
+22-6 
+22-73-01 
+and  
+22-73-02 
+Explanation of Change for both items 
+indicate removed with reference to 
+item moved in revision 30. Revision 32 
+does not show change bars for page 
+22-6 indicating a change to the page 
+removing the 2 items previously listed 
+in revision 31. 
+Recommend including a change bar on 
+the page between item 22-72-01 4) and 
+22-75-01 to indicate the removal change 
+made between these two items. 
+Corrected by AFB-120. 
+Robert Laurion 
+AFS-330 
+4/2/25 
+25-23 
+25-60-12 
+Explanation of Change indicates 25-
+60-12 was removed, however, page 
+25-22 does not show a change bar 
+indicating a change to the page in 
+removing 25-60-12. 
+Recommend including a change bar on 
+the page between item 25-60-11 and 25-
+60-13 to indicate the removal change 
+made between these two items. 
+Corrected by AFB-120. 
+Robert Laurion 
+AFS-330 
+4/2/25 
+32-1 
+32-31-00 
+Explanation of Change indicates 32-
+31-00 was removed, however, page 
+32-1 does not show a change bar 
+indicating a change to the page in 
+removing 32-31-00. 
+Recommend including a change bar on 
+the page between item 32-12-01 1) and 
+32-31-01 to indicate the removal change 
+made between these two items. 
+Corrected by AFB-120. 
+AFS-800 
+ 
+ 
+ 
+No comments. 
+ 
+ 
+Public Comment. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 5 ===
+A-320 Rev 32 
+07/30/25 
+ 
+5
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Greg Brixey 
+Delta 
+Greg.Brixey@delt
+a.com 
+3/31/25 
+UKN 
+UKN 
+It was discussed at the FOEB meeting 
+that Airbus will start delivering A321 
+Aircraft with a Secondary Cockpit Door 
+Barrier installed. We need relief for the 
+barrier like we currently have in the 
+A330 MMEL. 
+Add relief similar to the A330 MMEL into 
+the A320 MMEL. 
+To date, AED has not received 
+the required request and 
+substantiation for IPSB relief for 
+the A320. Also, the IPSB has 
+not yet been certified and is not 
+in its final configuration at this 
+time.  
+ 
+The A330 Secondary Barrier 
+(52-50-04) is installed via STC 
+with relief included in the MMEL 
+beginning in 2012 (R14). PL-
+138 is in work as a GC and is 
+proposed to allow for relief for 
+an IPSB.  
+
+=== PDF PAGE 6 ===
+A-320 Rev 32 
+07/30/25 
+ 
+6
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Gary Jackman 
+Alaska Airlines & 
+Hawaiian Airlines 
+Gary.Jackman@Al
+askaAir.Com 
+4/04/25 
+Add to 
+CH 52 
+ 
+Installed Physical Secondary Barrier 
+(IPSB) MMEL relief needs to be added 
+to support required installations for 
+new aircraft starting in August 25, 
+2025.  Reference § 14 CFR 121.313 
+paragraph (l). 
+ 
+As stated in Final Rule “Installation and 
+Operation of Flightdeck Installed 
+Physical Secondary Barrier on 
+Trasnposport Category Airplanes in 
+Part 121 Service” paragraph IV, I 
+Master Minimum Equipment List. This 
+final rule states the FAA does not 
+consider an IPSB” to be essential for 
+safe operations under all operating 
+conditions” and “the IPSB may be 
+included in an operators MEL.” 
+ 
+MMEL relief must be added into the 
+A320 Familiy MMEL for an operator to 
+develop approved MEL relief. 
+ 
+Airlines for America (A4A) submitted 
+MMEL PL-138 to the FAA in November 
+2024 with a requested approval by 
+March 2025. This PL has not yet been 
+approved. Without knowing if the 
+Global Change (GC) aspect of 
+proposed MMEL PL-138 wil lbe 
+approved, and not knowing when the 
+FAA will approve PL-138, MMEL relief 
+needs to be incorporated into the FAA 
+A320 Familiy MMEL so operators 
+might have a chance of having MEL 
+relief by August 25, 2025. 
+Recommend using existing FAA 
+approved language from FAA 737-MAX 
+MMEL Rev. 6 and will be used in FAA 787 
+MMEL Rev. 19 (approved during 787 
+FOEB meeting on 04/04/2025). Please 
+note, this is the same language proposed 
+to the FAA in November 2024 as FAA 
+MMEL IPSB PL-138.. 
+ 
+Four MMELs are needed as follows: 
+ 
+52-XX-XX 
+Installed Physical Secondary Barrier 
+(IPSB) 
+ 
+52-xx-xxA 
+CAT C – INS 1 – REQ 0 
+(O) May be inoperative provided: 
+a) 
+Barrier is secured in the fully 
+stowed position, and 
+b) 
+Alternate procedures are 
+established and used. 
+ 
+52-xx-xxB 
+CAT C – INS 1 – REQ 0 
+(M)(O) May be inoperative provided: 
+a) 
+Barrier is secured in the fully 
+stowed position, and 
+b) 
+Alternate procedures are 
+established and used. 
+ 
+52-xx-xxC 
+CAT D – INS 1 – REQ 0 
+(O) May be inoperative provided: 
+a) 
+Barrier is secured in the fully 
+stowed position, and 
+b) 
+Procedures do not require its 
+use. 
+ 
+52-xx-xxD 
+CAT D – INS 1 – REQ 0 
+(M)(O) May be inoperative provided: 
+a) 
+Barrier is secured in the fully 
+stowed position, and  
+Procedures do not require its use. 
+To date, AED has not received 
+the required request and 
+substantiation for IPSB relief for 
+the A320. Also, the IPSB has 
+not yet been certified and is not 
+in its final configuration at this 
+time.  
+ 
+
+=== PDF PAGE 7 ===
+A-320 Rev 32 
+07/30/25 
+ 
+7
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Gary Jackman 
+Alaska Airlines & 
+Hawaiian Airlines 
+Gary.Jackman@Al
+askaAir.Com 
+4/04/25 
+28-48 
+28-40-06-3)-
+f) 
+Rev. 31 Item 28-40-06-3)-f) “Fuel 
+Quantity Indications (All Tanks)” was 
+deleted in Rev. 32. The following sub-
+letter items were shifted after this 
+deletion. 
+ 
+This MMEL item had not been 
+previously marked as “Deleted in Rev. 
+31.” 
+Recommend reinserting this item, state 
+“Deleted, Revision 32” in the R&E area. 
+ 
+In Revision 33 remove the item and shift 
+the alpha-sequencing. 
+Agree. “Fuel Quantity Wing 
+Tank” was the item deleted. It 
+will be restored and noted as 
+DELETED as recommended. 
+Gary Jackman 
+Alaska Airlines & 
+Hawaiian Airlines 
+Gary.Jackman@Al
+askaAir.Com 
+4/04/25 
+28-48 
+28-40-06-3)-
+h) 
+Rev. 31 Item 28-40-06-3)-h) “Fuel 
+Quantity Center Tank” was deleted in 
+Rev. 32. The following sub-letter items 
+were shifted after this deletion. 
+ 
+This MMEL item had not been 
+previously marked as “Deleted in Rev. 
+31.” 
+Recommend reinserting this item, state 
+“Deleted, Revision 32” in the R&E area. 
+ 
+In Revision 33 remove the item and shift 
+the alpha-sequencing. 
+Agree. “Fuel Quantity Center 
+Tank” was the item deleted. It 
+will be restored and noted as 
+DELETED as recommended. 
+Gary Jackman 
+Alaska Airlines & 
+Hawaiian Airlines 
+Gary.Jackman@Al
+askaAir.Com 
+4/04/25 
+35-5 
+35-31-01 
+This comment is being made because 
+one downloaded copy of of MMEL 35-
+31-01 had the change bar discussed 
+below, and one downloaded copy did 
+not have this change bar. 
+ 
+35-31-01 proviso a) needs to have a 
+change bar added to show spelling of 
+“certified” was corrected in Rev.32. 
+Ensure change bar is added to MMEL 35-
+31-01 in the final publication of Rev. 32. 
+Corrected by AFB-120. 
+Gary Jackman 
+Alaska Airlines & 
+Hawaiian Airlines 
+Gary.Jackman@Al
+askaAir.Com 
+4/04/25 
+46-2 
+46-20-01-4) This comment is being made because 
+one downloaded copy of of MMEL 46-
+20-01-4) had the change bar 
+discussed below, and one downloaded 
+copy did not have this change bar 
+ 
+“(Class 2)” has been deleted from the 
+title on MMEL 46-20-01-4). There is no 
+change bar to indicate this deletion. 
+Ensure change bar is added to MMEL 46-
+20-01-4) in the final publication of Rev. 32. 
+Corrected by AFB-120. 
+Ed Baldwn 
+American Airlines 
+4/15/25 
+23-3 
+23-4 
+23-5 
+23-6 
+23-13-01 1) 
+23-13-01 2) 
+23-13-01 3) 
+23-13-01 4) 
+23-13-01 5) 
+RMP MMELs Need to consider other 
+Airbus mods. Both 162344 (2 
+RMPs)and 162367 (3 RMPs) are 
+applicable to this MEL.  
+Add other Mod status’ Rewrite MMEL so it 
+is in compliance w/121.345. 
+Agree. 23-13-01 applicability 
+edited to capture all installation 
+configurations. Compliance with 
+121.345 (and similarly 121.349) 
+is maintained with allowed relief. 
+
+=== PDF PAGE 8 ===
+A-320 Rev 32 
+07/30/25 
+ 
+8
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Ed Baldwn 
+American Airlines 
+4/15/25 
+23-6 
+23-14-01 
+Audio Management Unit (AMU) Mod is 
+not applicable. 
+Mod status is not applicable with 
+installed/required. 
+Disagree. While there is a single 
+AMU installed, the item and 
+relief are for the AMU Sides 
+(2x). 1 of 2 Sides may be 
+inoperative. 
+Ed Baldwn 
+American Airlines 
+4/15/25 
+52-7 
+52-50-05 
+Secondary Barrier Door needed. 
+Secondary Barrier Door needed. 
+To date, AED has not received 
+the required request and 
+substantiation for IPSB relief for 
+the A320. Also, the IPSB has 
+not yet been certified and is not 
+in its final configuration at this 
+time. 
+Ed Baldwn 
+American Airlines 
+4/15/25 
+52-7 
+52-50-04 
+Airbus MMEL 52-51-08A is missing. 
+FAA MMEL is missing relief for the 
+Cockpit door latch mechanism. 
+Agree. There does not seem to 
+be an FAA MMEL equivalent to 
+EASA MMEL 52-51-08A. 
+However, that is not a 
+discrepancy with this revision. 
+AED will work with Airbus for 
+inclusion of this item in a future 
+revision. No change made. 
+Ed Baldwn 
+American Airlines 
+4/15/25 
+52-6 
+52-50-02 7) Remove reference to “bolt”. 
+The bolt is the door latch mechanism on 
+the cockpit door. 
+Partially agree. Airbus uses the 
+term “bolt” in multiple contexts. 
+In 52-50-02, it is one component 
+within the strike mechanism 
+(Door Release Strikes) and is 
+the same as EASA MMEL 52-
+51-06 item name. According to 
+Airbus AMM 52-51-00-00, the 
+door mechanism contains a 
+“tenon”. For a future revision, 
+will work with Airbus to clarify 
+nomenclature. 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+23-15 
+23-51-06 2) Within the item, add a space after the 
+(2 Digital RMP), or 
+Within the item, recommend to add a 
+space after the (2 Digital RMP), or 
+Corrected by AFB-120. 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+27-1 
+27-00-00 1) 
+a) 
+Within the Remarks or Exceptions 
+section, the lead-in sentence doesn’t 
+need to be here, only the Note. This 
+would be consistent with other class II 
+maintenance message sections within 
+this MMEL. 
+Recommendation: Within the Remarks or 
+Exceptions section, the lead-in sentence 
+doesn’t need to be here, only the Note. 
+This would be consistent with other class 
+II maintenance message sections within 
+this MMEL. 
+Agree. Changes made. 
+
+=== PDF PAGE 9 ===
+A-320 Rev 32 
+07/30/25 
+ 
+9
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+27-1 
+27-00-00 1) 
+b) 
+Within the Remarks or Exceptions 
+section, the lead-in sentence doesn’t 
+need to be here, only the section 
+where it begins with: (M) “It is checked 
+before each flight,” This would be 
+consistent with other class II 
+maintenance message sections within 
+this MMEL.  
+Recommendation: Within the Remarks or 
+Exceptions section, the lead-in sentence 
+doesn’t need to be here, only the section 
+where it begins with: (M) “It is checked 
+before each flight,” This would be 
+consistent with other class II maintenance 
+message sections within this MMEL. 
+Disagree. Unlike many of the 
+other messages, this item has a 
+proviso that must be observed: 
+“may be displayed provided…” 
+For clarity, this sentence should 
+remain. After communication 
+with commenter, it will be edited 
+to replace “checked” with 
+“verified”. 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+27-1 
+27-00-00 2) Within the Remarks or Exceptions 
+section, the lead-in sentence doesn’t 
+need to be here, only the Note. This 
+would be consistent with other class II 
+maintenance message sections within 
+this MMEL. 
+Recommendation: Within the Remarks or 
+Exceptions section, the lead-in sentence 
+doesn’t need to be here, only the Note. 
+This would be consistent with other class 
+II maintenance message sections within 
+this MMEL. 
+Agree. Changes made. 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+27-1 
+27-00-00 2) Within the Item section, and the 
+Remarks or Exceptions section, the 
+acronym SFCS has been changed to 
+SFCC, this does not match the actual 
+message nomenclature, which is 
+SFCC. Recommend changing this 
+back to SFCC to match the actual 
+message for this item. 
+Within the Item section, and the Remarks 
+or Exceptions section, the acronym SFCS 
+has been changed to SFCC, this does not 
+match the actual message nomenclature, 
+which is SFCC. Recommend changing 
+this back to SFCC to match the actual 
+message for this item. 
+Agree. Recommendation 
+clarified with commenter and 
+change made. “SFCS” remains 
+in the item name. 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+27-2 
+27-00-00 3) Within the Remarks or Exceptions 
+section, the lead-in sentence doesn’t 
+need to be here, only the Note. This 
+would be consistent with other class II 
+maintenance message sections within 
+this MMEL. 
+Recommendation: Within the Remarks or 
+Exceptions section, the lead-in sentence 
+doesn’t need to be here, only the Note. 
+This would be consistent with other class 
+II maintenance message sections within 
+this MMEL. 
+Agree. Change made. 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+27-2 
+27-00-00 4) Within the Remarks or Exceptions 
+section, the lead-in sentence doesn’t 
+need to be here, only the Note. This 
+would be consistent with other class II 
+maintenance message sections within 
+this MMEL. 
+Recommendation: Within the Remarks or 
+Exceptions section, the lead-in sentence 
+doesn’t need to be here, only the Note. 
+This would be consistent with other class 
+II maintenance message sections within 
+this MMEL. 
+Agree. Change made. 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+27-36 
+27-94-02 1) 
+a) (second 
+proviso set) 
+Second proviso step is listed as a), 
+should be b) 
+Second proviso step is listed as a), should 
+be b). 
+Corrected by AFB-120. 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+28-2 
+28-12-01 2) 
+b) 
+Second proviso set is shown as a) , 
+should be shown as b) 
+Second proviso set is shown as a) , 
+should be shown as b). 
+Corrected by AFB-120. 
+
+=== PDF PAGE 10 ===
+A-320 Rev 32 
+07/30/25 
+ 
+10 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+31-3 
+31-00-00 8) Recommend Remarks or Exceptions 
+be changed to: 
+May be displayed on ECAM STATUS 
+page provided: 
+a) FDR Recording Parameters 
+Required by 14 CFR is considered 
+inoperative.   
+b) Repairs are made within 20 
+consecutive calendar-days. 
+(Following Notes would stay the 
+same). 
+Recommend Remarks or Exceptions be 
+changed to: 
+May be displayed on ECAM STATUS 
+page provided: 
+a) FDR Recording Parameters Required 
+by 14 CFR is considered inoperative.   
+b) Repairs are made within 20 
+consecutive calendar-days. 
+(Following Notes would stay the same). 
+Agree. Change made. 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+31-12 
+31-63-02 3) 
+a) and b) 
+Could confirmation of the (O) 
+placement be verified, for example, 
+should the (O) actually be on the a) 
+item, and not on the b) item? 
+Could confirmation of the (O) placement 
+be verified, for example, should the (O) 
+actually be on the a) item, and not on the 
+b) item? 
+Agree. Confirmed applicability 
+with Airbus and modified Item to 
+include updated DMC 3 
+Standard. 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+32-1 and 
+32-2 
+32-31-01 1) Add a comma after first bullet. 
+Should there be two additional bullets 
+at the end, (to match the Airbus 
+MMEL)?, example: 
+• 
+Thrust Reverser Systems on 
+ENG 2, 
+• 
+Taxi and Takeoff Light 
+Systems, and 
+Runway Turn-Off Light Systems. 
+Add a comma after first bullet. 
+Should there be two additional bullets at 
+the end, (to match the Airbus MMEL)?, 
+example: 
+• 
+Thrust Reverser Systems on 
+ENG 2, 
+• 
+Taxi and Takeoff Light Systems, 
+and 
+Runway Turn-Off Light Systems. 
+Agree. Changes made. 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+32-3 
+32-31-01 2) Add a comma after first bullet. 
+Should fifth bullet state: 
+ENG 2 Minimum Idle on ground, 
+Add a comma after twelfth bullet. 
+Should there be two additional bullets 
+at the end, (to match the Airbus 
+MMEL)?, example: 
+• 
+Thrust Reverser Systems on 
+ENG 2, 
+• 
+Taxi and Takeoff Light 
+Systems, and 
+Runway Turn-Off Light Systems. 
+Add a comma after first bullet. 
+Should fifth bullet state: 
+ENG 2 Minimum Idle on ground, 
+Add a comma after twelfth bullet. 
+Should there be two additional bullets at 
+the end, (to match the Airbus MMEL)?, 
+example: 
+• 
+Thrust Reverser Systems on 
+ENG 2, 
+• 
+Taxi and Takeoff Light Systems, 
+and 
+Runway Turn-Off Light Systems. 
+Agree. Changes made. 
+
+=== PDF PAGE 11 ===
+A-320 Rev 32 
+07/30/25 
+ 
+11 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+32-4 
+32-31-01 3) Add a comma after first bullet. 
+Should fifth bullet state: 
+ENG 2 Minimum Idle on ground, 
+Add a comma after twelfth bullet. 
+Should there be two additional bullets 
+at the end, (to match the Airbus 
+MMEL)?, example: 
+• 
+Thrust Reverser Systems on 
+ENG 2, 
+• 
+Taxi and Takeoff Light 
+Systems, and 
+Runway Turn-Off Light Systems. 
+Add a comma after first bullet. 
+Should fifth bullet state: 
+ENG 2 Minimum Idle on ground, 
+Add a comma after twelfth bullet. 
+Should there be two additional bullets at 
+the end, (to match the Airbus MMEL)?, 
+example: 
+• 
+Thrust Reverser Systems on 
+ENG 2, 
+• 
+Taxi and Takeoff Light Systems, 
+and 
+Runway Turn-Off Light Systems. 
+Agree. Changes made. 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+32-5 and 
+32-6 
+32-31-01 4) Add a comma after first bullet. 
+Should fifth bullet state: 
+ENG 2 Minimum Idle on ground, 
+Should there be two additional bullets 
+at the end, (to match the Airbus 
+MMEL)?, example: 
+• 
+Thrust Reverser Systems on 
+ENG 2, 
+• 
+Taxi and Takeoff Light 
+Systems, and 
+• 
+Runway Turn-Off Light 
+Systems. 
+(Then the and would get deleted after 
+Engine Bump,). 
+Add a comma after first bullet. 
+Should fifth bullet state: 
+ENG 2 Minimum Idle on ground, 
+Should there be two additional bullets at 
+the end, (to match the Airbus MMEL)?, 
+example: 
+• 
+Thrust Reverser Systems on 
+ENG 2, 
+• 
+Taxi and Takeoff Light Systems, 
+and 
+• 
+Runway Turn-Off Light Systems. 
+ 
+(Then the and would get deleted after 
+Engine Bump,). 
+Agree. Changes made. 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+32-6 and 
+32-7 
+32-31-01 5) Add a comma after first bullet. 
+Should fifth bullet state: 
+ENG 2 Minimum Idle on ground, 
+Add a comma after twelfth bullet. 
+Should there be two additional bullets 
+at the end, (to match the Airbus 
+MMEL)?, example: 
+• 
+Thrust Reverser Systems on 
+ENG 2, 
+• 
+Taxi and Takeoff Light 
+Systems, and 
+• 
+Runway Turn-Off Light 
+Systems. 
+(Then the and would get deleted after 
+Engine Bump,). 
+Add a comma after first bullet. 
+Should fifth bullet state: 
+ENG 2 Minimum Idle on ground, 
+Add a comma after twelfth bullet. 
+Should there be two additional bullets at 
+the end, (to match the Airbus MMEL)?, 
+example: 
+• 
+Thrust Reverser Systems on 
+ENG 2, 
+• 
+Taxi and Takeoff Light Systems, 
+and 
+• 
+Runway Turn-Off Light Systems. 
+ 
+(Then the and would get deleted after 
+Engine Bump,). 
+Agree. Changes made. 
+
+=== PDF PAGE 12 ===
+A-320 Rev 32 
+07/30/25 
+ 
+12 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+32-7 and 
+32-8 
+32-31-01 6) Add a comma after first bullet. 
+Should fifth bullet state: 
+ENG 2 Minimum Idle on ground, 
+Add a comma after twelfth bullet. 
+Should there be two additional bullets 
+at the end, (to match the Airbus 
+MMEL)?, example: 
+• 
+Thrust Reverser Systems on 
+ENG 2, 
+• 
+Taxi and Takeoff Light 
+Systems, and 
+• 
+Runway Turn-Off Light 
+Systems. 
+(Then the and would get deleted after 
+Engine Bump,). 
+Add a comma after first bullet. 
+Should fifth bullet state: 
+ENG 2 Minimum Idle on ground, 
+Add a comma after twelfth bullet. 
+Should there be two additional bullets at 
+the end, (to match the Airbus MMEL)?, 
+example: 
+• 
+Thrust Reverser Systems on 
+ENG 2, 
+• 
+Taxi and Takeoff Light Systems, 
+and 
+• 
+Runway Turn-Off Light Systems. 
+ 
+(Then the and would get deleted after 
+Engine Bump,). 
+Agree. Changes made. 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+33-1 
+through 
+33-11 
+All MMEL 
+chapter 33 
+page 
+headers 
+There was one item, 33-20-02 that was 
+revised within MMEL Rev.31, however 
+at that time, the chapter 33 pages 
+headers were not updated to show 
+Rev.31. All chapter 33 header pages 
+should be changed to show Rev.31. 
+Note that the Table of Contents and 
+Control Page already does show 
+Rev.31, however, the chapter 33 
+pages headers do not show this. 
+Recommend that all chapter 33 header 
+pages be changed to show Rev.31. 
+Note that the Table of Contents and 
+Control Page already does show Rev.31, 
+however, the chapter 33 pages headers 
+do not show this. Therefore this would be 
+corrected for consistency. 
+Corrected by AFB-120. 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+34-29 
+34-58-01 1) 
+b) (second 
+proviso set) 
+First proviso step is shown as A , 
+should be a) 
+First proviso step is shown as A , should 
+be a). 
+Corrected by AFB-120. 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+46-1 
+46-20-01 
+Item header 
+This currently states in the Item header 
+as: Electronic Flight Bag Systems 
+(EFBs). To match PL-121, this should 
+be stated as: Electronic Flight Bag 
+(EFB) Systems 
+This currently states in the Item header 
+as: Electronic Flight Bag Systems (EFBs). 
+Recommend changing this to match PL-
+121, this should be stated as: Electronic 
+Flight Bag (EFB) Systems. 
+Agree. Changes made. 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+46-2 
+46-20-01 
+Item header 
+This currently states in the Item header 
+as: Electronic Flight Bag Systems 
+(EFBs). To match PL-121, this should 
+be stated as: Electronic Flight Bag 
+(EFB) Systems 
+This currently states in the Item header 
+as: Electronic Flight Bag Systems (EFBs). 
+Recommend changing this to match PL-
+121, this should be stated as: Electronic 
+Flight Bag (EFB) Systems. 
+Agree. Changes made. 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+46-2 
+46-20-01 4) Proviso b) should be vertically aligned 
+with proviso a) 
+Recommendation: Proviso b) should be 
+vertically aligned with proviso a). 
+Corrected by AFB-120. 
+
+=== PDF PAGE 13 ===
+A-320 Rev 32 
+07/30/25 
+ 
+13 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+46-3 
+46-21-05 
+Recommend adding the Note below 
+this proviso, (the same as the items 
+that had this Note added above this 
+item, example: NOTE: Any ATC 
+Datalink function or mode that 
+operates normally may be used. 
+Recommend adding the Note below this 
+proviso, (the same as the items that had 
+this Note added above this item, example: 
+NOTE: Any ATC Datalink function or 
+mode that operates normally may be 
+used. 
+Agree. Changes made. 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+52-7 
+Example: 
+52-51-00, (or 
+other 
+chapter 52 
+item/section 
+where this 
+would nicely 
+fit) 
+Recommend adding the proposed 
+MMEL relief for the Installed Physical 
+Secondary Barrier, (such as the same 
+relief that is in the draft MMEL PL-138, 
+and also that is in the 737MAX MMEL, 
+and soon to be in the 787 MMEL).This 
+is very important and would be of high 
+benefit to operators that are taking new 
+deliveries with this IPSB installed near, 
+or after August of 2025. 
+Recommend adding the proposed MMEL 
+relief for the Installed Physical Secondary 
+Barrier, (such as the same relief that is in 
+the draft MMEL PL-138, and also that is in 
+the 737MAX MMEL, and soon to be in the 
+787 MMEL).This is very important and 
+would be of high benefit to operators that 
+are taking new deliveries with this IPSB 
+installed near, or after August of 2025. 
+To date, AED has not received 
+the required request and 
+substantiation for IPSB relief for 
+the A320. Also, the IPSB has 
+not yet been certified and is not 
+in its final configuration at this 
+time.  
+ 
+Pete Moll 
+United 
+pete.moll@united.
+com 
+4/22/25 
+73-11 
+73-30-07 4) 
+(second 
+proviso set) 
+Second proviso set sub-items are 
+shown as: b), b), c) should be a), b), c) 
+Recommend changing: Second proviso 
+set sub-items are shown as: b), b), c) 
+should be a), b), c). 
+Corrected by AFB-120. 
+ 

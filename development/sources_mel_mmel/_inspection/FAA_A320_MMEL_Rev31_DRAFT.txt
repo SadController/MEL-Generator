@@ -1,0 +1,3896 @@
+
+=== PDF PAGE 1 ===
+ 
+Master Minimum Equipment List (MMEL) 
+Revision: 31 
+Date: XX/XX/XXXX 
+Airbus SAS 
+A318, A319, A320, and A321 Series 
+All Models 
+James P. Culet, Chair 
+Flight Operations Evaluation Board (FOEB) 
+Approved by the Aircraft Evaluation Division 
+Federal Aviation Administration (FAA) 
+Air Carrier Branch 
+AFS-110 
+800 Independence Avenue, S.W. 
+Washington, DC 20591 
+AED Email: 9-AVS-AFS-100@faa.gov 
+ 
+U.S. Department of Transportation 
+Federal Aviation Administration 
+Washington, DC 
+
+=== PDF PAGE 2 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. I 
+AIRCRAFT: 
+Airbus A320 
+TABLE OF CONTENTS AND CONTROL PAGE 
+ 
+SYSTEM NO. 
+SYSTEM 
+PAGE NO. 
+REV NO. 
+DATE 
+-- 
+Cover Page 
+-- 
+31 
+XX/XX/XXXX 
+-- 
+Table of Contents and Control Page 
+I 
+31 
+XX/XX/XXXX 
+-- 
+Log of Revisions 
+II thru III 
+31 
+XX/XX/XXXX 
+-- 
+Highlights of Change 
+IV thru VII 
+31 
+XX/XX/XXXX 
+-- 
+FAA MMEL Policy Application Record 
+VIII thru XIII 
+31 
+XX/XX/XXXX 
+-- 
+Definitions and Preamble 
+XIV 
+31 
+XX/XX/XXXX 
+-- 
+List of Acronyms 
+XV thru XXVII 31 
+XX/XX/XXXX 
+21 
+Air Conditioning 
+21-1 thru 29 
+30 
+03/03/2023 
+22 
+Autoflight 
+22-1 thru 13 
+31 
+XX/XX/XXXX 
+23 
+Communications 
+23-1 thru 29 
+31 
+XX/XX/XXXX 
+24 
+Electrical Power 
+24-1 thru 25 
+31 
+XX/XX/XXXX 
+25 
+Equipment/Furnishings 
+25-1 thru 29 
+31 
+XX/XX/XXXX 
+26 
+Fire Protection 
+26-1 thru 18 
+31 
+XX/XX/XXXX 
+27 
+Flight Controls 
+27-1 thru 34 
+31 
+XX/XX/XXXX 
+28 
+Fuel 
+28-1 thru 46 
+31 
+XX/XX/XXXX 
+29 
+Hydraulic Power 
+29-1 thru 7 
+30 
+03/03/2023 
+30 
+Ice and Rain Protection 
+30-1 thru 16 
+31 
+XX/XX/XXXX 
+31 
+Indicating/Recording Systems 
+31-1 thru 12 
+31 
+XX/XX/XXXX 
+32 
+Landing Gear 
+32-1 thru 19 
+31 
+XX/XX/XXXX 
+33 
+Lights 
+33-1 thru 11 
+30 
+03/03/2023 
+34 
+Navigation 
+34-1 thru 33 
+31 
+XX/XX/XXXX 
+35 
+Oxygen 
+35-1 thru 6 
+30 
+03/03/2023 
+36 
+Pneumatic 
+36-1 thru 25 
+31 
+XX/XX/XXXX 
+38 
+Water/Waste 
+38-1 thru 2 
+30 
+03/03/2023 
+46 
+Information Systems 
+46-1 thru 3 
+31 
+XX/XX/XXXX 
+47 
+Inert Gas System 
+47-1 
+30 
+03/03/2023 
+49 
+Airborne Auxiliary Power 
+49-1 thru 3 
+30 
+03/03/2023 
+52 
+Doors 
+52-1 thru 10 
+31 
+XX/XX/XXXX 
+71 
+Powerplant 
+71-1 thru 2 
+31 
+XX/XX/XXXX 
+73 
+Engine Fuel and Control 
+73-1 thru 16 
+31 
+XX/XX/XXXX 
+74 
+Ignition 
+74-1 thru 2 
+30 
+03/03/2023 
+75 
+Bleed Air 
+75-1 thru 2 
+30 
+03/03/2023 
+76 
+Engine Control 
+76-1 
+30 
+03/03/2023 
+77 
+Engine Indicating 
+77-1 
+30 
+03/03/2023 
+78 
+Engine Exhaust 
+78-1 thru 9 
+31 
+XX/XX/XXXX 
+79 
+Engine Oil 
+79-1 thru 18 
+31 
+XX/XX/XXXX 
+80 
+Starting 
+80-1 thru 2 
+31 
+XX/XX/XXXX 
+ 
+ 
+
+=== PDF PAGE 3 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. II 
+AIRCRAFT: 
+Airbus A320 
+LOG OF REVISIONS 
+ 
+REV NO. 
+DATE 
+Original 
+06/14/1989 
+1 
+08/14/1989 
+2 
+09/14/1990 
+3 
+06/21/1991 
+3a 
+06/11/1992 
+4 
+01/28/1993 
+5 
+07/28/1993 
+6 
+08/30/1995 
+7 
+12/03/1996 
+8 
+05/05/1997 
+9 
+07/03/1997 
+9a 
+03/24/1998 
+9b 
+04/08/1998 
+10 
+12/07/1998 
+10a 
+02/08/1999 
+11 
+03/29/1999 
+11a 
+05/24/1999 
+12 
+08/06/2001 
+12a 
+10/15/2001 
+13 
+05/15/2002 
+14 
+07/30/2002 
+14a 
+02/06/2003 
+15 
+06/24/2003 
+16 
+11/17/2004 
+ 
+ 
+
+=== PDF PAGE 4 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. III 
+AIRCRAFT: 
+Airbus A320 
+LOG OF REVISIONS 
+ 
+REV NO. 
+DATE 
+17 
+02/22/2005 
+18 
+04/27/2005 
+19 
+07/11/2006 
+20 
+03/19/2008 
+21 
+06/17/2009 
+21a 
+03/23/2010 
+22 
+05/15/2012 
+22a 
+02/07/2013 
+23 
+12/20/2013 
+24 
+01/16/2014 
+25 
+06/23/2014 
+25a 
+12/12/2014 
+25b 
+05/18/2015 
+26 
+03/11/2016 
+26a 
+09/07/2016 
+26b 
+11/22/2016 
+27 
+07/18/2018 
+28 
+11/22/2019 
+29 
+05/18/2021 
+30 
+03/03/2023 
+31 
+XX/XX/XXXX 
+ 
+ 
+
+=== PDF PAGE 5 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. IV 
+AIRCRAFT: 
+Airbus A320 
+HIGHLIGHTS OF CHANGE 
+The following changes are the Highlights of Changes for Revision 31. 
+PAGE NO. 
+EXPLANATION OF CHANGE 
+General 
+Minor editorial corrections and formatting changes were made throughout the 
+document, indicated with change bars. These editorial corrections may be adopted in 
+Minimum Equipment Lists (MEL) at the operator’s discretion. 
+General 
+Updated FAA MMEL Policy Application Record. 
+ATA 22 Autoflight 
+22-66-01 
+Updated Mod applicability. 
+22-66-02 
+Updated Mod applicability. 
+22-81-01 
+Updated Mod applicability. Added sub-item. 
+22-83-01 
+Updated Mod applicability. 
+ATA 23 Communications 
+23-73-01 
+Corrected item number referenced in Note and corrected dispatch condition typos. 
+ATA 24 Communications 
+24-30-09 
+Added dispatch condition. 
+ATA 25 Equipment/Furnishings 
+25-00-00 
+New item. 
+25-61-01 
+Added subitems. Updated in accordance with FAA MMEL Policy Letter PL-120 R4. 
+ATA 26 Fire Protection 
+26-11-01 
+New item. 
+26-11-02 
+New item. 
+ATA 27 Flight Controls 
+27-00-00 
+Updated proviso. Added subitem dispatch condition statements. 
+27-14-01 
+Added subitem with model applicability. 
+27-23-01 
+Updated Mod applicability. 
+27-23-02 
+Updated Mod applicability. 
+27-51-01 
+Added subitems with Mod applicability. 
+ 
+ 
+
+=== PDF PAGE 6 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. V 
+AIRCRAFT: 
+Airbus A320 
+HIGHLIGHTS OF CHANGE 
+ 
+PAGE NO. 
+EXPLANATION OF CHANGE 
+27-64-01 
+Added subitems with Mod applicability. 
+27-84-02 
+Added subitem with Mod applicability. 
+27-92-02 
+Added subitems with Mod applicability. 
+27-93-01 
+Updated Mod applicability. 
+27-94-01 
+Updated Mod applicability. 
+27-94-02 
+Added subitems with Mod applicability. 
+27-94-03 
+Added subitems with Mod applicability. 
+ATA 28 Fuel 
+28-12-01 
+Updated provisos, corrected typo, and added subitem with model applicability. 
+28-21-02 
+Added subitem. 
+28-25-03 
+Added subitem. 
+28-28-01 
+Updated model applicability. 
+28-28-02 
+Updated model applicability. 
+28-28-03 
+Updated model applicability. 
+28-28-04 
+Updated model applicability. 
+28-28-05 
+Updated model applicability. 
+28-28-06 
+Updated model applicability. 
+28-28-07 
+Updated model applicability. 
+28-40-01 
+Updated model applicability. 
+28-40-02 
+Added subitem. 
+28-40-06 
+Added subitem. 
+28-40-09 
+Updated model applicability. 
+ATA 30 Ice and Rain Protection 
+30-11-01 
+Added subitem with model applicability and (O) Procedure designator. 
+30-31-01 
+Added subitem with model applicability. 
+ 
+ 
+
+=== PDF PAGE 7 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. VI 
+AIRCRAFT: 
+Airbus A320 
+HIGHLIGHTS OF CHANGE 
+ 
+PAGE NO. 
+EXPLANATION OF CHANGE 
+30-31-02 
+Added subitem with model applicability. 
+30-31-03 
+Added subitem with model applicability. 
+ATA 31 Indicating/Recording Systems 
+31-00-00 
+Corrected item number typos on follow-on pages. 
+31-38-01 
+Updated subitem title and added subitems. 
+ATA 32 Landing Gear 
+32-31-00 
+Moved relief to 32-31-02. 
+32-31-01 
+Deleted Item, Revision 31. 
+32-31-02 
+Relief moved from 32-31-00. Added model applicability. 
+32-33-01 
+Updated model applicability. 
+32-42-03 
+Updated Mod/Model applicability. Updated/added provisos and updated/removed 
+Notes. 
+32-44-01 
+Updated Mod/Model applicability. 
+32-44-03 
+Updated Mod/Model applicability. 
+32-60-03 
+Added sub-subitem with model applicability. 
+ATA 34 Navigation 
+34-10-01 
+Added sub-subitems with model applicability. 
+34-38-01 
+New item. 
+34-40-09 
+Updated Mod applicability. 
+34-42-01 
+Added subitem with model applicability. 
+ATA 36 Pneumatic 
+36-00-00 
+Corrected item number typos on follow-on pages. 
+36-22-18 
+Corrected typo. 
+ 
+ 
+
+=== PDF PAGE 8 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. VII 
+AIRCRAFT: 
+Airbus A320 
+HIGHLIGHTS OF CHANGE 
+ 
+PAGE NO. 
+EXPLANATION OF CHANGE 
+ATA 46 Information Systems 
+46-21-06 
+New item. 
+ATA 52 Doors 
+52-60-01 
+Corrected Typo. 
+ATA 71 Powerplant 
+71-00-00 
+Corrected typo. 
+ATA 73 Engine Fuel and Control 
+73-30-03 
+Added subitem with model applicability. 
+73-30-06 
+Added subitem with model applicability. 
+73-30-07 
+Added subitem with model applicability. 
+ATA 78 Engine Exhaust 
+78-30-01 
+Corrected typo and updated model applicability. 
+78-31-01 
+Deleted Item, Revision 31. 
+78-31-02 
+Corrected typo. 
+ATA 79 Engine Oil 
+79-35-04 
+Corrected typo. 
+ATA 80 Starting 
+80-11-01 
+Corrected typos. 
+ 
+ 
+
+=== PDF PAGE 9 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. VIII 
+AIRCRAFT: 
+Airbus A320 
+FAA MMEL POLICY APPLICATION RECORD 
+With this MMEL Revision 31, stated policy from the following list of FAA MMEL Policy Letters (PL) has 
+been applied to the appropriate items listed on this MMEL, as applicable. Any PL, either new or revised, 
+with an issue date later than 04/23/2024 (most recent listing on this record) has not been considered for 
+application in this revision. 
+PL No. 
+Subject 
+PL Revision and 
+Date 
+Affected Item 
+Sequence 
+Number(s) 
+Change 
+Bar 
+PL-001 
+Wide-Body Passenger Airplane Door/Slide Relief 
+Revision 4 
+02/27/2010 
+N/A 
+ 
+PL-002 
+Aural and Visual Speed Warning Policy 
+Revision 1 
+08/15/1997 
+N/A 
+ 
+PL-003 
+DME Systems MMEL Policy 
+Revision 1 
+08/15/1997 
+34-51-01 
+ 
+PL-005 
+Takeoff Warning Systems 
+Revision 1 
+08/15/1997 
+N/A 
+ 
+PL-009 
+Public Address System, Crewmember Interphone 
+and Alerting Systems 
+Revision 12 
+10/23/2015 
+23-31-01 
+23-42-02 
+23-41-01 
+23-43-02 
+ 
+PL-013 
+Oil Temperature and Pressure Instrument MEL 
+Policy 
+Revision 1 
+08/15/1997 
+N/A 
+ 
+PL-024 
+Lavatory Fire Protection 
+Revision 5 
+10/23/2015 
+26-25-01 
+ 
+PL-025 
+MMEL and MEL Definitions 
+Revision 23 
+06/12/2023 
+As Applicable 
+| 
+| 
+PL-026 
+Thrust Reversers on Small Turbojet Airplanes 
+Revision 1 
+08/15/1997 
+N/A 
+ 
+PL-029 
+Master Minimum Equipment List (MMEL) 
+Requirements for Cockpit Voice Recorder (CVR) 
+Revision 5 
+08/10/2010 
+23-71-01 
+ 
+PL-031 
+MMEL Format Specification 
+Revision 3 
+01/20/2011 
+As Applicable 
+ 
+PL-032 
+Traffic Alert and Collision Avoidance System 
+(TCAS) 
+Revision 7 
+07/07/2006 
+34-43-01 
+ 
+PL-034 
+MMEL and MEL Preamble 
+Revision 5 
+04/23/2024 
+As Applicable 
+| 
+| 
+ 
+ 
+
+=== PDF PAGE 10 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. IX 
+AIRCRAFT: 
+Airbus A320 
+FAA MMEL POLICY APPLICATION RECORD 
+ 
+PL No. 
+Subject 
+PL Revision and 
+Date 
+Affected Item 
+Sequence 
+Number(s) 
+Change 
+Bar 
+PL-036 
+FAR Part 91 MEL Approval & Preamble 
+Revision 3 
+06/16/2020 
+N/A 
+ 
+PL-038 
+Policy Regarding MMEL Relief for Primary Thrust 
+Setting Instruments on Two-Engine Airplanes 
+Revision 1 
+08/15/1997 
+N/A 
+ 
+PL-038 
+Policy Regarding MMEL Relief for Primary Thrust 
+Setting Instruments on Two-Engine Airplanes 
+Revision 1 
+08/15/1997 
+N/A 
+ 
+PL-039 
+Altitude Alerting Systems 
+Revision 5 
+01/29/2010 
+34-42-04 
+ 
+PL-040 
+ETOPS and Polar Operations 
+Revision 3 
+11/10/2020 
+23-28-01 
+24-20-01 
+24-20-02 
+26-12-01 
+26-13-01 
+30-11-01 
+30-11-02 
+30-31-02 
+30-31-03 
+30-31-04 
+30-31-05 
+30-42-01 
+30-42-03 
+49-10-01 
+49-10-02 
+49-30-01 
+49-70-05 
+ 
+PL-045 
+Time Limited Dispatch (TLD) Authorization for Full 
+Authority Digital Electronic Control (FADEC) 
+Engines 
+Revision 2 
+03/04/2004 
+71-00 
+ 
+PL-054 
+Terrain Awareness and Warning System (TAWS) 
+Revision 10 
+10-31-2005 
+34-48-01 
+ 
+PL-056 
+Flight Deck FWD Observer Seat 
+Revision 5 
+01/01/2012 
+25-11-06 
+ 
+PL-058 
+Flight Deck Headsets and Hand Microphones 
+Revision 4 
+03/24/2012 
+23-51-04 
+ 
+PL-063 
+Instrument and Equipment Items Required for 
+Emergency Procedures 
+Revision 4 
+07/05/2012 
+As Applicable 
+ 
+ 
+ 
+
+=== PDF PAGE 11 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. X 
+AIRCRAFT: 
+Airbus A320 
+FAA MMEL POLICY APPLICATION RECORD 
+ 
+PL No. 
+Subject 
+PL Revision and 
+Date 
+Affected Item 
+Sequence 
+Number(s) 
+Change 
+Bar 
+PL-064 
+Electrical Power MMEL Policy - Four Engine 
+Cargo Airplanes 
+Revision 1 
+08/15/1997 
+N/A 
+ 
+PL-065 
+Policy Regarding Cargo Provisions in the MMEL 
+for Cargo Operations 
+Revision 1 
+08/15/1997 
+N/A 
+ 
+PL-067 
+Windshear Warning and flight Guidance System 
+(RWS) Windshear Detection and Avoidance 
+System (PWS) 
+Revision 4 
+01/15/2012 
+22-66-03 
+ 
+PL-069 
+External Door Indication System 
+Revision 2 
+09/24/2003 
+52-70-01 
+ 
+PL-072 
+Wing Icing Detection Lights 
+Revision 4 
+03/12/2012 
+33-40-07 
+ 
+PL-076 
+ATC Transponders and Automatic Altitude 
+Reporting Systems 
+Revision 7 
+12/04/2017 
+34-52-01 
+ 
+PL-077 
+Cockpit and Instrument Lighting Systems 
+Revision 4 
+12/17/2012 
+33-10-01 
+ 
+PL-079 
+Passenger Seat Relief 
+Revision 9 
+12/05/2017 
+25-21-01 
+ 
+PL-083 
+Water and Waste Systems on Air Carrier Aircraft 
+Revision 8 
+05/11/2015 
+38-10-01 
+38-30-01 
+ 
+PL-084 
+Master Minimum Equipment List (MMEL) for 
+Reduced Separation Minimum (RVSM) 
+Operations 
+Revision 1 
+08/15/1997 
+34-42-04  
+ 
+PL-087 
+Flight Data Recorder (FDR) 
+Revision 10 
+08/10/2010 
+31-30-02 
+ 
+PL-089 
+FASTEN SEAT BELT WHILE SEATED Signs or 
+Placards 
+Revision 2 
+01/31/2009 
+25-60-07 
+ 
+PL-090 
+Pitot Heat Indicating System 
+Revision 1 
+09/20/2001 
+30-31-02 
+ 
+PL-093 
+Autopilot Disconnect MMEL Policy 
+Revision 1 
+09/11/2006 
+22-10-03 
+ 
+ 
+ 
+
+=== PDF PAGE 12 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. XI 
+AIRCRAFT: 
+Airbus A320 
+FAA MMEL POLICY APPLICATION RECORD 
+ 
+PL No. 
+Subject 
+PL Revision and 
+Date 
+Affected Item 
+Sequence 
+Number(s) 
+Change 
+Bar 
+PL-094 
+Liquid or Paste Propeller Deicer 
+Revision 1 
+10/08/2004 
+N/A 
+ 
+PL-095 
+VHF Communications MMEL Requirements 
+Revision 2 
+01/15/2012 
+23-12-01 
+ 
+PL-096 
+Galley/Cabin Waste Receptacles Access 
+Doors/Covers 
+Revision 2 
+01/29/2010 
+25-45-01 
+ 
+PL-097 
+Flight Attendant Seat(s) 
+Revision 4 
+09/06/2007 
+25-22-01 
+ 
+PL-098 
+Navigation Databases 
+Revision 1 
+06/01/2017 
+34-61-01 
+ 
+PL-099 
+Door/Slide Relief Policy 
+Revision 2 
+02/26/2010 
+N/A 
+ 
+PL-100 
+MMEL/MEL Relief for Cargo Restraint 
+Components 
+Revision 3 
+10/02/2020 
+25-50-04 
+ 
+PL-101 
+Autopilot Relief 
+Revision 2 
+12/15/2011 
+22-10-01 
+ 
+PL-102 
+Cargo Compartment Smoke Detection and Fire 
+Suppression Systems 
+Revision 2 
+12/17/2012 
+26-16-03 
+26-23-01 
+ 
+PL-104 
+Storage Bins/Cabin, Galley, and Lavatory Storage 
+Compartments/Closets 
+Revision 7 
+06/24/2020 
+25-28-01 
+ 
+PL-105 
+Automatic Dependent Surveillance-Broadcast 
+(ADS-B) System 
+Revision 4 
+02/08/2021 
+34-57-02 
+ 
+PL-106 
+High Frequency (HF) Communications 
+Revision 5 
+06/06/2014 
+23-11-01 
+ 
+PL-107 
+MMEL Relief for Inoperative APU Generator 
+Revision 1 
+05/22/2001 
+24-20-02 
+ 
+ 
+ 
+
+=== PDF PAGE 13 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. XII 
+AIRCRAFT: 
+Airbus A320 
+FAA MMEL POLICY APPLICATION RECORD 
+ 
+PL No. 
+Subject 
+PL Revision and 
+Date 
+Affected Item 
+Sequence 
+Number(s) 
+Change 
+Bar 
+PL-108 
+Carriage of Empty Cargo Handling Equipment 
+Revision 1 
+10/17/2011 
+25-50-02 
+25-50-03 
+25-50-04 
+26-16-03 
+26-16-04 
+26-17-02 
+26-23-01 
+26-23-02 
+26-23-03 
+26-23-04 
+26-23-05 
+ 
+PL-109 
+Supplemental Type Certificate (STC) MMEL/MEL 
+Relief Process 
+Revision 1 
+11/07/2019 
+As Applicable 
+ 
+PL-111 
+MMEL Policy for Inoperative Standby Attitude 
+Indicator 
+Revision 1 
+01/29/2004 
+34-22-01 
+34-22-03 
+ 
+PL-112 
+Relief for 14 CFR 25.795 Compliant Flight Deck 
+Doors 
+Revision 2 
+01/18/2012 
+N/A 
+ 
+PL-113 
+MMEL Relief for Anti-Skid Inoperative 
+Revision 0 
+12/20/2002 
+N/A 
+ 
+PL-114 
+Nose Gear Steering Systems 
+Revision 1 
+10/09/2012 
+N/A 
+ 
+PL-117 
+Selective Call System (SELCAL) 
+Revision 0 
+10/07/2005 
+23-51-01 
+ 
+PL-119 
+Two-Section MMELs 
+Revision 5 
+02/08/2024 
+N/A 
+| 
+| 
+PL-120 
+Emergency Locator Transmitters (ELT) 
+Revision 4 
+03/10/2023 
+25-61-01 
+| 
+| 
+PL-121 
+(EFB) Electronic Flight Bag 
+Revision 1 
+05/03/2021 
+46-20-01 
+ 
+PL-122 
+Flight Deck Door Surveillance Systems 
+Revision 1 
+10/09/2012 
+23-72-01 
+ 
+PL-123 
+Passenger Notice System (Lighted Information 
+Signs) 
+Revision 1 
+04/30/2010 
+33-20-02  
+ 
+ 
+ 
+
+=== PDF PAGE 14 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. XIII 
+AIRCRAFT: 
+Airbus A320 
+FAA MMEL POLICY APPLICATION RECORD 
+ 
+PL No. 
+Subject 
+PL Revision and 
+Date 
+Affected Item 
+Sequence 
+Number(s) 
+Change 
+Bar 
+PL-124 
+Damaged Window/Windshield Relief 
+Revision 0 
+01/20/2009 
+N/A 
+ 
+PL-125 
+Equipment Relief without Passengers 
+Revision 1 
+11/27/2012 
+As Applicable 
+ 
+PL-126 
+Chelton FlightLogic Electronic Flight Instrument 
+Systems (EFIS) 
+Revision 0 
+05/28/2010 
+N/A 
+ 
+PL-127 
+Night Vision Imaging Systems (NVIS) 
+Revision 0 
+06/07/2010 
+N/A 
+ 
+PL-129 
+Cockpit Smoke Vision Systems (CSVS) 
+Revision 0 
+03/12/2012 
+N/A 
+ 
+PL-130 
+Flightcrew Rest Facilities (FCRF) 
+Revision 2 
+03/12/2021 
+25-75-02 
+ 
+PL-131 
+Radar (Radio) Altimeters for Rotorcraft 
+Revision 0 
+10/23/2019 
+N/A 
+ 
+PL-132 
+Portable Emergency Equipment 
+Revision 0 
+05/03/2021 
+25-60-08 
+25-60-09 
+25-60-13 
+26-26-24 
+35-31-01 
+35-32-01 
+ 
+ 
+ 
+
+=== PDF PAGE 15 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. XIV 
+AIRCRAFT: 
+Airbus A320 
+DEFINITIONS AND PREAMBLE 
+DEFINITIONS 
+For Definitions, refer to the current FAA MMEL Policy Letter PL-25, MMEL and MEL Definitions, found 
+on the FAA Dynamic Regulatory System (DRS) website. 
+PREAMBLE 
+For the Preamble used for operations under 14 CFR Parts 121, 125, 129, and 135, refer to the current 
+FAA Policy Letter PL-34, MMEL and MEL Preamble, found on the FAA Dynamic Regulatory System 
+(DRS) website. 
+ 
+
+=== PDF PAGE 16 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. XV 
+AIRCRAFT: 
+Airbus A320 
+LIST OF ACRONYMS 
+ 
+ACRONYM 
+DEFINITION 
+Change 
+Bar 
+A 
+ 
+ 
+A/BRK 
+Autobrake 
+ 
+A/THR 
+Autothrust 
+ 
+AAP 
+Additional Attendant Panel 
+ 
+AAT 
+Aircraft Allocation Table 
+ 
+ABSELV 
+Alternate Brake Selector Valve 
+ 
+AC 
+Alternating Current 
+ 
+ACCU 
+Accumulator 
+ 
+ACFT 
+Aircraft 
+ 
+ACMS 
+Aircraft Condition Monitoring System 
+ 
+ACP 
+Audio Control Panel 
+ 
+ACS 
+Air Conditioning System 
+ 
+ACT 
+Additional Center Tank 
+| 
+ADF 
+Automatic Direction Finder 
+ 
+ADGB 
+Active Differential Gearbox 
+ 
+ADHF 
+Adaptive Dropped Hinge Flap 
+ 
+ADIRS 
+Air Data Inertial Reference System 
+ 
+ADIRU 
+Air Data Inertial Reference Unit 
+ 
+ADLU 
+Aircraft Data Loading Unit 
+| 
+ADR 
+Air Data Reference 
+ 
+ADS 
+Aircraft Documentation System 
+ 
+ADS-B 
+Automatic Dependent Surveillance 
+ 
+ADS-C 
+Automatic Dependent Surveillance Contract 
+ 
+AECM 
+Alternate Extension Control Module 
+ 
+AED 
+Automatic Emergency Descent 
+ 
+AED 
+Automatic External Defibrillator 
+ 
+AEFO 
+All Engine Flame Out 
+ 
+AESS 
+Aircraft Environment Surveillance System 
+ 
+AFDX 
+Avionics Full Duplex Switched Ethernet 
+ 
+AFM 
+Airplane Flight Manual 
+ 
+AFS 
+Automatic Flight System 
+ 
+AGL 
+Above Ground Level 
+ 
+AGS 
+Air Generation System 
+ 
+AIP 
+Attendant Indication Panel 
+ 
+ALT 
+Altitude 
+ 
+ALTN 
+Alternate 
+ 
+AMM 
+Aircraft Maintenance Manual 
+| 
+ANF 
+Airport Navigation Function 
+ 
+AOA 
+Angle of Attack 
+ 
+AOC 
+Airline Operational Control 
+ 
+AP 
+Autopilot 
+ 
+APCH 
+Approach 
+ 
+APP 
+Alternate Power Pack 
+ 
+APPR 
+Approach 
+ 
+APU 
+Auxiliary Power Unit 
+ 
+APU GEN 
+Auxiliary Power Unit Generator 
+ 
+ 
+ 
+
+=== PDF PAGE 17 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. XVI 
+AIRCRAFT: 
+Airbus A320 
+LIST OF ACRONYMS 
+ 
+ACRONYM 
+DEFINITION 
+Change 
+Bar 
+APU LP 
+APU Low Pressure valve 
+| 
+AR 
+Authorization Required 
+ 
+ARA 
+Approaching Runway Advisory 
+ 
+ARV 
+Alternate Refill Valve 
+ 
+ASCU 
+Air System Control Unit 
+ 
+ASFC 
+Avionics Server Function Cabinet 
+ 
+ASV 
+Alternate Servo Valve 
+ 
+ATA 
+Air Transport Association 
+ 
+ATC 
+Air Traffic Control 
+ 
+ATSAW 
+Airborne Traffic Situation Awareness 
+| 
+ATSU 
+Air Traffic Service Unit 
+ 
+ATT 
+Attitude 
+ 
+ATQC 
+Airbus Temporary Quick Change 
+ 
+ATU 
+Auto Transformer Unit 
+ 
+AUTO 
+Automatic 
+ 
+AUTO/BRK 
+Auto Brake 
+| 
+AVNCS 
+Avionics 
+ 
+B 
+ 
+ 
+B/UP 
+Backup 
+ 
+BAM 
+Bleed Air Monitoring 
+ 
+BAS 
+Bleed Air System 
+ 
+BAT 
+Battery 
+ 
+BBAND 
+Broadband 
+ 
+BCF 
+Brake Cooling Fan 
+ 
+BCL 
+Battery Charge Limiter 
+ 
+BCM 
+Backup Control Module 
+ 
+BCS 
+Braking Control System 
+ 
+BITE 
+Built-In Test Equipment 
+ 
+BKUP 
+Backup 
+ 
+BMD 
+Backup Motor Driver 
+ 
+BOMU 
+Bleed and Overheat Monitoring Unit 
+ 
+BPS 
+Backup Power Supply 
+ 
+BPT 
+Bogie Pitch Trimmer 
+ 
+BPTMS 
+Bogie Pitch Trimmer Monitoring System 
+ 
+BPTU 
+Brake Pedal Transmitter Unit 
+ 
+BRT 
+Bright 
+ 
+BSCU 
+Braking and Steering Control Unit 
+| 
+BSCU-LRU 
+Brake and Steering Control Unit-Line-Replacement Unit 
+| 
+BSV 
+Brake Shuttle Valve 
+ 
+BTCM 
+Brake Temperature Control Module 
+ 
+BTMS 
+Brake Temperature Monitoring System 
+ 
+BTMU 
+Brake Temperature Monitoring Unit 
+| 
+BTS 
+Brake Temperature Sensor 
+ 
+BTV 
+Brake To Vacate 
+ 
+C 
+ 
+ 
+C/B 
+Circuit Breaker 
+ 
+ 
+ 
+
+=== PDF PAGE 18 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. XVII 
+AIRCRAFT: 
+Airbus A320 
+LIST OF ACRONYMS 
+ 
+ACRONYM 
+DEFINITION 
+Change 
+Bar 
+C/L 
+Checklist 
+ 
+CAB 
+Cabin 
+ 
+CAN 
+Controller Area Network 
+ 
+CAPT 
+Captain 
+ 
+CAT 
+Category 
+ 
+CAV 
+Cold Air Valve 
+ 
+CBMU 
+Circuit Breaker Monitoring Unit 
+ 
+CCD 
+Cursor Control Device 
+ 
+CCRC 
+Cabin Crew Rest Compartment 
+ 
+CDL 
+Configuration Deviation List 
+ 
+CDLS 
+Cockpit Door Locking System 
+ 
+CDM 
+Coolant Distribution Module 
+ 
+CDS 
+Control and Display System 
+ 
+CDSS 
+Cockpit Door Surveillance System 
+ 
+CED 
+Cooling Effect Detector 
+ 
+CELLI 
+Ceiling Emergency LED Lights 
+ 
+CEV 
+Commercial Equipment Ventilation 
+ 
+CFDS 
+Centralized Fault Display System 
+| 
+CFP 
+Computerized Flight Plan 
+ 
+CG 
+Center of Gravity 
+ 
+CIDS 
+Cabin Intercommunication Data System 
+ 
+CIDS-SDF 
+Cabin Intercommunication Data System-Smoke Detection Function 
+| 
+CIU 
+Camera Interface Unit 
+ 
+CKPT 
+Cockpit 
+ 
+CLS 
+Cargo Loading System 
+ 
+CMC 
+Central Maintenance Computer 
+ 
+CMS 
+Central Maintenance System 
+ 
+CMV 
+Concentrator and Multiplexer for Video 
+ 
+COM 
+Command 
+ 
+CONF 
+Configuration 
+ 
+CP 
+Control Panel 
+ 
+CPC 
+Cabin Pressure Controller 
+ 
+CPCS 
+Cabin Pressure Control System 
+ 
+CPDLC 
+Controller-Pilot Datalink Communication 
+ 
+CPIOM 
+Core Processing Input/Output Module 
+ 
+CRC 
+Crew Rest Compartment 
+ 
+CRDC 
+Common Remote Data Concentrator 
+ 
+CRFL 
+Cruise Flight Level 
+ 
+CSAS 
+Conditioned Service Air System 
+ 
+CTL 
+Control 
+ 
+CTR 
+Center 
+| 
+CTS 
+Cabin/Compartment Zone Temperature Sensor 
+ 
+CVMS 
+Cabin Video Monitoring System 
+ 
+CVR 
+Cockpit Voice Recorder 
+ 
+D 
+ 
+ 
+D-ATIS 
+Digital Automatic Terminal Information System 
+ 
+ 
+ 
+
+=== PDF PAGE 19 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. XVIII 
+AIRCRAFT: 
+Airbus A320 
+LIST OF ACRONYMS 
+ 
+ACRONYM 
+DEFINITION 
+Change 
+Bar 
+DBPV 
+Door Bypass Valve 
+ 
+DC 
+Direct Current 
+ 
+DCL 
+Departure Clearance 
+ 
+DECEL 
+Decelerate 
+| 
+DEU 
+Decoder/Encoder Unit 
+ 
+DFDR 
+Digital Flight Data Recorder 
+ 
+DFS 
+Differential Flap Setting 
+ 
+DH 
+Decision Height 
+ 
+DLCS 
+Data Loading Configuration System 
+ 
+DLRB 
+Data Loading Routing Box 
+| 
+DLSU 
+Data Loading Selector Unit 
+| 
+DME 
+Distance Measuring Equipment 
+ 
+DMU 
+Data Management Unit 
+ 
+DOLLI 
+Dome Emergency LED Light 
+ 
+DPI 
+Differential Pressure Indicator 
+ 
+DSCS 
+Door and Slides Control System 
+ 
+DTS 
+Duct Temperature Sensor 
+ 
+DU 
+Display Unit 
+ 
+E 
+ 
+ 
+EASA 
+European Aviation Safety Agency 
+ 
+EBAS 
+Engine Bleed Air System 
+ 
+EBHA 
+Electrical Backup Hydraulic Actuator 
+ 
+EC 
+European Commission 
+ 
+ECAM 
+Electronic Centralized Aircraft Monitoring 
+ 
+ECAS 
+Emergency Cockpit Alerting System 
+ 
+ECP 
+ECAM Control Panel 
+ 
+eDLRB 
+Electronic Data Loading Routing Box 
+| 
+EDMU 
+Electrical Distribution Management Unit 
+ 
+EDP 
+Engine Driven Pump 
+ 
+EEC 
+Engine Electronic Controller 
+ 
+EENMU 
+Emergency Electrical Network Management Unit 
+ 
+EEP 
+ETOPS Entry Point 
+ 
+EFB 
+Electronic Flight Bag 
+ 
+EFCS 
+Electronic Flight Control System 
+ 
+EFIS 
+Electronic Flight Instrument System 
+ 
+EGT 
+Exhaust Gas Temperature 
+ 
+e-GDO 
+Electrical Ground Door Opening 
+ 
+EHA 
+Electro-Hydrostatic Actuator 
+ 
+EHM 
+Engine Health Monitoring 
+ 
+EIF 
+Engine Interface Function 
+ 
+ELAC 
+Elevator Aileron Computer 
+| 
+ELCO SW 
+External Lighting Controller Software 
+ 
+ELMF 
+Electrical Load Management Function 
+ 
+ELS 
+Exterior Light System 
+ 
+ELT 
+Emergency Locator Transmitter 
+ 
+EM 
+Electronic Module 
+ 
+ 
+ 
+
+=== PDF PAGE 20 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. XIX 
+AIRCRAFT: 
+Airbus A320 
+LIST OF ACRONYMS 
+ 
+ACRONYM 
+DEFINITION 
+Change 
+Bar 
+EMA 
+Electro-Mechanical Actuator 
+ 
+EMCU 
+Electrical Motor Control Unit 
+ 
+EMER 
+Emergency 
+ 
+EMIL 
+ELAC Master in Law 
+| 
+EMK 
+Emergency Medical Kit 
+ 
+EMP 
+Electric Motor Pump 
+ 
+ENG 
+Engine 
+ 
+ENG SD 
+Engine System Display 
+| 
+EPR 
+Engine Pressure Ratio 
+ 
+EPCU 
+External Power Control Unit 
+ 
+EPDC 
+Electrical Power Distribution Center 
+ 
+EPSU 
+Emergency Power Supply Unit 
+ 
+EQPT 
+Equipment 
+ 
+ERAI 
+Emergency Ram Air Inlet 
+ 
+ESBF 
+Electrical System BITE Function 
+ 
+ESS 
+Essential 
+ 
+EWD 
+Engine/Warning Display 
+| 
+ETOC 
+Enhanced TakeOff Configuration 
+| 
+ETOPS 
+Extended Operations 
+ 
+EU 
+European Union 
+ 
+EXP 
+ETOPS eXit Point 
+ 
+F 
+ 
+ 
+F/CTL 
+Flight/Control 
+| 
+F/O 
+First Officer 
+ 
+FAC 
+Flight Augmentation Computer 
+| 
+FADEC 
+Full Authority Digital Engine Control 
+ 
+FANS 
+Future Air Navigation System 
+ 
+FAP 
+Flight/Forward Attendant Panel 
+ 
+FAK 
+First Aid Kit 
+ 
+FC 
+Failure Condition 
+ 
+FCDC 
+Flight Control Data Concentrator 
+ 
+FCGS 
+Flight Control and Guidance System 
+ 
+FCOM 
+Flightcrew Operating Manual 
+ 
+FCRC 
+Flightcrew Rest Compartment 
+ 
+FCRM 
+Flight Control Remote Module 
+ 
+FCTM 
+Flightcrew Technique Manual 
+ 
+FCU 
+Flight Control Unit 
+ 
+FCV 
+Flow Control Valve 
+ 
+FD 
+Flight Director 
+ 
+FDIU 
+Flight Data Interface Unit 
+ 
+FDU 
+Fire Detection Unit 
+ 
+FDR 
+Flight Data Recorder 
+ 
+FE 
+Flight Envelope 
+ 
+FEDC 
+Fire Extinguisher Data Converter 
+ 
+FES 
+Fire Extinguishing System 
+ 
+FESRA 
+Fire, Explosion, and Smoke Risk Analysis 
+ 
+ 
+ 
+
+=== PDF PAGE 21 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. XX 
+AIRCRAFT: 
+Airbus A320 
+LIST OF ACRONYMS 
+ 
+ACRONYM 
+DEFINITION 
+Change 
+Bar 
+FG 
+Flight Guidance 
+ 
+FIDS 
+Fault Isolation and Detection System 
+| 
+FL 
+Flight Level 
+ 
+FLS 
+FMS Landing System 
+ 
+FM 
+Flight Management 
+ 
+FMA 
+Flight Mode Annunciator 
+ 
+FMB 
+Flow Metered Bottle 
+ 
+FMC 
+Flight Management Computer 
+ 
+FME 
+Flow Metering Equipment 
+ 
+FMGC 
+Flight Management and Guidance Computer 
+| 
+FMGC E 
+Flight Management and Guidance Computer for eRudder 
+| 
+FMS 
+Flight Management System 
+ 
+FO 
+First Officer 
+ 
+FOB 
+Fuel on Board 
+ 
+FOD 
+Foreign Object Damage 
+ 
+FOHE 
+Fuel/Oil Heat Exchanger 
+ 
+FOMAX 
+Flight Operations and Maintenance Exchanger 
+| 
+FPEEPMS 
+Floor-Proximity Emergency-Escape Path-Marking System 
+ 
+F-PLN 
+Flight Plan 
+ 
+FPMS 
+Floor Path Marking System 
+ 
+FQ 
+Fuel Quantity 
+ 
+FQI 
+Fuel Quantity Indication 
+ 
+FQMS 
+Fuel Quantity and Management System 
+ 
+FSN 
+Fleet Serial Number 
+ 
+FSOV 
+Fire Shutoff Valve 
+ 
+FTIS 
+Fuel Tank Inerting System 
+ 
+FWS 
+Flight Warning System 
+ 
+FWD 
+Forward 
+ 
+FWD ACT 
+Forward Additional Center Tank 
+| 
+FZFG 
+Freezing Fog 
+ 
+G 
+ 
+ 
+G/S 
+Glide Slope 
+ 
+GBAS 
+Ground Based Augmentation System 
+ 
+GBCT 
+Ground Brake Cooling Time 
+ 
+GCU 
+Generator Control Unit 
+ 
+GDO 
+Ground Door Opening 
+ 
+GDOP 
+Ground Door Opening Panel 
+ 
+GEN 
+Generator 
+ 
+GFLI 
+Ground Fuel Level Indicator 
+ 
+GLA 
+Gust Load Alleviation 
+ 
+GLS 
+Ground Based Augmentation System (GBAS) Landing System 
+ 
+GNSS 
+Global Navigation Satellite System 
+ 
+GPU 
+Ground Power Unit 
+ 
+GPS 
+Global Positioning System 
+ 
+GPWS 
+Ground Proximity Warning System 
+ 
+GW 
+Gross Weight 
+ 
+ 
+ 
+
+=== PDF PAGE 22 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. XXI 
+AIRCRAFT: 
+Airbus A320 
+LIST OF ACRONYMS 
+ 
+ACRONYM 
+DEFINITION 
+Change 
+Bar 
+GWCG 
+Gross Weight Center of Gravity 
+ 
+H 
+ 
+ 
+HCF 
+Heading Control Function 
+ 
+HCU 
+Head-Up Combiner Unit 
+ 
+HERTO 
+High Energy Rejected Takeoff 
+ 
+HF 
+High Frequency 
+ 
+HI 
+High 
+ 
+HID 
+High Intensity Discharge 
+ 
+HLS 
+High Lift System 
+ 
+HMCA 
+Hydraulic Monitoring and Control Application 
+ 
+HP 
+High Pressure 
+ 
+HPTCC 
+High Pressure Turbine Case Cooling 
+ 
+HRB 
+High Rated Bottle 
+ 
+HSMU 
+Hydraulic System Monitoring Unit 
+ 
+HUD 
+Head-Up Display 
+ 
+I 
+ 
+ 
+I/O 
+Input/Output 
+| 
+IAS 
+Indicated Airspeed 
+ 
+ICP 
+Integrated Control Panel 
+ 
+ICV 
+Isolation Control Valve 
+| 
+IFE 
+In-Flight Entertainment 
+ 
+IFEC 
+In-Flight Entertainment Center 
+ 
+IFR 
+Instrument Flight Rules 
+ 
+IGGS 
+Inert Gas Generation System 
+ 
+ILS 
+Instrument Landing System 
+ 
+IMA 
+Integrated Modular Avionics 
+ 
+INTMT 
+Intermittent 
+ 
+IP 
+Intermediate Pressure 
+ 
+IPTCC 
+Intermediate Pressure Turbine Case Cooling 
+ 
+IR 
+Inertial Reference 
+ 
+IRS 
+Inertial Reference System 
+ 
+ISA 
+International Standard Atmosphere 
+ 
+ISDU 
+Inertial Sensor Display Unit 
+ 
+ISIS 
+Integrated Standby Instrument System 
+ 
+J 
+ 
+ 
+JFGW 
+Jettison Final Gross Weight 
+ 
+K 
+ 
+ 
+KCCU 
+Keyboard and Cursor Control Unit 
+ 
+L 
+ 
+ 
+L/G 
+Landing Gear 
+ 
+LAF 
+Load Alleviation Function 
+ 
+LATC 
+Live Animal Transportation Calculation Tool 
+ 
+LDCC 
+Lower Deck Cargo Compartment 
+ 
+LED 
+Light Emitting Diode 
+ 
+LEDU 
+List of Effective Documentary Units 
+ 
+LG 
+Landing Gear 
+ 
+ 
+ 
+
+=== PDF PAGE 23 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. XXII 
+AIRCRAFT: 
+Airbus A320 
+LIST OF ACRONYMS 
+ 
+ACRONYM 
+DEFINITION 
+Change 
+Bar 
+LF-ULB 
+Low Frequency-Underwater Locator Beacon 
+| 
+LGCIS 
+Landing Gear Control Interface System 
+ 
+LGCIU 
+Landing Gear Control and Interface Unit 
+| 
+LGERS 
+Landing Gear Extension and Retraction System 
+ 
+LGMS 
+Landing Gear Monitoring System 
+ 
+LIE 
+Lightening Indirect Effect 
+ 
+LOC 
+Localizer 
+ 
+LOM 
+List of Modifications 
+ 
+LP 
+Low Pressure 
+ 
+LPGC 
+Low Pressure Ground Cart 
+| 
+LRU 
+Line Replacement Unit 
+| 
+LS 
+Landing System 
+ 
+LVDT 
+Linear Variable Differential Transducer 
+ 
+LW 
+Landing Weight 
+ 
+M 
+ 
+ 
+(M) 
+Maintenance Procedure designator 
+| 
+MAC 
+Mean Aerodynamic Chord 
+ 
+MAINT 
+Maintenance 
+ 
+MCA 
+Maintenance Central Access 
+ 
+MCCP 
+Major Change Certification Program 
+| 
+MAN 
+Manual 
+ 
+MDDU 
+Multipurpose Disk Drive Unit 
+| 
+MEA 
+Minimum Enroute Altitude 
+ 
+MECH 
+Mechanics 
+ 
+MEL 
+Minimum Equipment List 
+ 
+MES 
+Main Engine Start 
+ 
+MFD 
+Multipurpose Flight Display 
+ 
+MFP 
+Multifunction Probe 
+ 
+MLA 
+Maneuver Load Alleviation 
+ 
+MLG 
+Main Landing Gear 
+ 
+MLS 
+Microwave Landing System 
+ 
+MLW 
+Maximum Landing Weight 
+ 
+MM 
+Maintenance Message 
+ 
+MMEL 
+Master Minimum Equipment List 
+ 
+MMO 
+Maximum Operating Mach 
+ 
+MMR 
+Multi-Mode Receiver 
+ 
+MNPS 
+Minimum Navigation Performance Specification 
+ 
+Mod 
+Modification 
+ 
+MON 
+Monitoring 
+ 
+MORA 
+Minimum On-Route Altitude 
+ 
+MP 
+Modification Proposal 
+ 
+MPC 
+Maximum Passenger Capacity 
+ 
+MPZC 
+Maximum Permitted Zone Capacity 
+ 
+MSA 
+Minimum Safe Altitude 
+ 
+MTOW 
+Maximum Takeoff Weight 
+| 
+MTS 
+Mixer Temperature Sensor 
+ 
+ 
+ 
+
+=== PDF PAGE 24 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. XXIII 
+AIRCRAFT: 
+Airbus A320 
+LIST OF ACRONYMS 
+ 
+ACRONYM 
+DEFINITION 
+Change 
+Bar 
+N 
+ 
+ 
+N1 
+Engine Low Pressure Rotor Speed 
+ 
+N2 
+Engine Intermediate Pressure Rotor Speed 
+ 
+N3 
+Engine High Pressure Rotor Speed 
+ 
+N/A 
+Not Applicable 
+ 
+NAA 
+National Aviation Authority 
+ 
+NAV 
+Navigation 
+ 
+NAVAIDS 
+Navigation Aids 
+ 
+NBSELV 
+Normal Brake Selector Valve 
+ 
+NEF 
+Nonessential Equipment and Furnishings 
+ 
+ND 
+Navigation Display 
+ 
+NDU 
+Navigation Display Unit 
+ 
+NLG 
+Nose Landing Gear 
+ 
+NRV 
+Negative Relief Valve 
+ 
+NSV 
+Normal Servo Valve 
+ 
+NWS 
+Nose Wheel Steering 
+ 
+O 
+ 
+ 
+(O) 
+Operations Procedure designator 
+| 
+OAT 
+Outside Air Temperature 
+ 
+OCL 
+Oceanic Clearance 
+ 
+OCU 
+Outflow Valve Control Unit 
+ 
+ODMS 
+Oil Debris Monitoring System 
+ 
+OEI 
+One Engine Inoperative 
+ 
+OFV 
+Outflow Valve 
+ 
+OHDC 
+Over Heat Detection Card 
+ 
+OIS 
+Onboard Information System 
+ 
+OMT 
+Onboard Maintenance Terminal 
+ 
+OPS 
+Operations 
+ 
+ORV 
+Overpressure Relief Valve 
+ 
+OSFC 
+Open-World Server Function Cabinet 
+ 
+OVRD 
+Override 
+ 
+P 
+ 
+ 
+P/N 
+Part Number 
+ 
+PA 
+Passenger Address 
+ 
+PAX 
+Passenger 
+ 
+pb 
+Push Button 
+ 
+pb-sw 
+Push Button Switch 
+ 
+PBE 
+Portable Breathing Equipment 
+ 
+PBSELV 
+Park Brake Selector Valve 
+ 
+PCU 
+Power Control Unit 
+ 
+PDF 
+Portable Document Format 
+ 
+PDMMF 
+Power Distribution Monitoring and Maintenance Function 
+ 
+PDS 
+Pack Discharge Temperature Sensor 
+ 
+PED 
+Portable Electronic Device 
+ 
+PERF 
+Performance 
+ 
+PF 
+Pilot Flying 
+ 
+ 
+ 
+
+=== PDF PAGE 25 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. XXIV 
+AIRCRAFT: 
+Airbus A320 
+LIST OF ACRONYMS 
+ 
+ACRONYM 
+DEFINITION 
+Change 
+Bar 
+PFCS 
+Primary Flight Control System 
+ 
+PFD 
+Primary Flight Display 
+ 
+PFDU 
+Primary Flight Display Unit 
+ 
+PFR 
+Post-Flight Report 
+ 
+PFS 
+Pack Flow Sensor 
+ 
+PFTU 
+Pedal Feel Trim Unit 
+ 
+PHC 
+Probes Heat Computer 
+ 
+PLD 
+Partial Lift Dumping 
+ 
+PLT 
+Pre-Land Test 
+ 
+PLV 
+Pressure Limiting Valve 
+ 
+PM 
+Pilot Monitoring 
+ 
+PRA 
+Particular Risk Analysis 
+ 
+PRAM 
+Prerecorded Announcement and Music Reproducer 
+ 
+PRSOV 
+Pressure Regulation and Shutoff Valve 
+ 
+PRV 
+Pressure Regulation Valve 
+ 
+PSU 
+Power Supply Unit 
+ 
+Q 
+ 
+ 
+QNH 
+Sea Level Atmospheric Pressure 
+ 
+QRH 
+Quick Reference Handbook 
+ 
+R 
+ 
+ 
+RA 
+Radio Altitude 
+ 
+RAT 
+Ram Air Turbine 
+ 
+RBCU 
+Remote Braking Control Unit 
+ 
+RBPU 
+Rudder Braking Pedal Unit 
+| 
+RCCB 
+Remote Control Circuit Breaker 
+ 
+RCT 
+Rear Center Tank 
+| 
+RGAU 
+Rate Gyro-Accelerometer Unit 
+ 
+RH 
+Right Hand 
+ 
+RMP 
+Radio Management Panel 
+ 
+RNAV 
+Area Navigation 
+ 
+RNP 
+Required Navigation Performance 
+ 
+RNP-AR 
+Required Navigation Performance with Authorization Required 
+ 
+ROP 
+Runway Overrun Protection 
+ 
+ROW 
+Runway Overrun Warning 
+ 
+RSVR 
+Reservoir 
+ 
+RTO 
+Rejected Takeoff 
+ 
+RTOW 
+Rejected Takeoff Weight 
+ 
+RVSM 
+Reduced Vertical Separation Minimum 
+ 
+S 
+ 
+ 
+SA 
+Single Aisle 
+| 
+SAT 
+Static Air Temperature 
+ 
+SATCOM 
+Satellite Communication 
+ 
+SB 
+Service Bulletin 
+ 
+SBAS 
+Satellite-Based Augmentation Systems 
+| 
+SCI 
+Secure Communication Interface 
+ 
+SD 
+System Display 
+ 
+ 
+ 
+
+=== PDF PAGE 26 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. XXV 
+AIRCRAFT: 
+Airbus A320 
+LIST OF ACRONYMS 
+ 
+ACRONYM 
+DEFINITION 
+Change 
+Bar 
+SDF 
+Smoke Detection Function 
+| 
+SDU 
+System Display Unit 
+ 
+SEC 
+Spoiler Elevator Computer 
+| 
+SELCAL 
+Selective Call 
+ 
+SFCC 
+Slat/Flap Control Computer 
+ 
+SFCS 
+Slat/Flap Control System 
+| 
+SFD 
+Standby Flight Display 
+ 
+SID 
+Standard Instrument Departure 
+ 
+SLS 
+Satellite Landing System 
+ 
+SND 
+Standby Navigation Display 
+ 
+SOH 
+Summary of Highlights 
+ 
+SOP 
+Standard Operating Procedure 
+ 
+SPD 
+Speed 
+ 
+SPDB 
+Secondary Power Distribution Box 
+ 
+SPP 
+Software Pin Programing 
+ 
+SPU 
+Starter Power Unit 
+ 
+SSA 
+System Safety Assessment 
+ 
+SSPC 
+Solid State Power Contactor 
+ 
+STAR 
+Standard Terminal Arrival Route 
+ 
+STBY 
+Standby 
+ 
+SURV 
+Surveillance 
+ 
+SYS 
+System 
+ 
+T 
+ 
+ 
+TAC 
+Taxiing Aid Camera 
+ 
+TACKV 
+Trim Air Non-Return Check Valve 
+ 
+TACS 
+Taxiing Aid Camera System 
+ 
+TAPRV 
+Trim Air Pressure Regulating Valve 
+ 
+TAPS 
+Trim Air Pressure Sensor 
+ 
+TAS 
+True Airspeed 
+ 
+TASOV 
+Trim Air Shutoff Valve 
+ 
+TAT 
+Total Air Temperature 
+ 
+TAV 
+Trim Air Valve 
+ 
+TAWS 
+Terrain Awareness and Warning System 
+ 
+TCAS/T2CAS 
+Traffic Alert and Collision Avoidance System 
+| 
+TCV 
+Temperature Control Valve 
+ 
+THR 
+Thrust 
+ 
+THS 
+Trimmable Horizontal Stabilizer 
+ 
+TOC 
+Table of Contents 
+ 
+TOGA 
+Takeoff/Go-Around 
+ 
+TOS 
+Takeoff Securing 
+ 
+TOW 
+Takeoff Weight 
+ 
+TPIC 
+Tire Pressure Indicating Computer 
+ 
+TPIS 
+Tire Pressure Indicating System 
+ 
+TR 
+Thrust Reverser 
+| 
+TR 
+Transformer Rectifier 
+| 
+ 
+ 
+
+=== PDF PAGE 27 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. XXVI 
+AIRCRAFT: 
+Airbus A320 
+LIST OF ACRONYMS 
+ 
+ACRONYM 
+DEFINITION 
+Change 
+Bar 
+TSM 
+Trouble Shooting Manual 
+ 
+TTL 
+Taxi, Takeoff, and Landing 
+ 
+TWDC 
+Tank Wall Data Concentrator 
+ 
+U 
+ 
+ 
+UCV 
+Unpressurized Compartment Ventilation 
+ 
+UERF 
+Uncontained Engine Rotor Failure 
+ 
+ULD 
+Unit Load Device 
+ 
+UTC 
+Universal Coordinated Time 
+ 
+V 
+ 
+ 
+V1 
+Critical Engine Failure Speed 
+ 
+V2 
+Takeoff Safety Speed 
+ 
+V/S 
+Vertical Speed 
+ 
+VAC 
+Voltage Alternating Current 
+ 
+VAPP 
+Approach Speed 
+ 
+VC 
+Variable Camber 
+ 
+VCC 
+Video Control Center 
+ 
+VCRU 
+Vapor Cycle Refrigeration Unit 
+ 
+VCS 
+Ventilation Control System 
+ 
+VD 
+Vertical Display 
+ 
+VENT 
+Ventilation 
+ 
+VFE 
+Maximum Speed for each Flap Configuration 
+ 
+VFG 
+Variable Frequency Generator 
+ 
+VFR 
+Visual Flight Rules 
+ 
+VHF 
+Very High Frequency 
+ 
+VIGV 
+Variable Inlet Guide Vane 
+ 
+VLE 
+Max Landing Gear Extended Speed 
+ 
+VMC 
+Visual Meteorological Conditions 
+ 
+VMCA 
+Minimum Control Speed in Flight 
+ 
+VMCG 
+Minimum Control Speed on Ground 
+ 
+VMO 
+Maximum Operating Speed 
+ 
+VMU 
+Minimum Unstick Speed 
+ 
+VOZC 
+Volatile Organic Compound and Ozone Converter 
+ 
+VOR 
+VHF Omnidirectional Range 
+ 
+VQAR 
+Virtual Quick Access Recorder 
+ 
+VR 
+Rotation Speed 
+ 
+VS 
+Reference Stalling Speed 
+ 
+VTP 
+Vertical Tail Plane 
+ 
+W 
+ 
+ 
+W&ES 
+Wing and Engine Scan (lights) 
+ 
+W 
+Weight 
+ 
+WBBC 
+Weight and Balance Backup Computation 
+ 
+WBS 
+Weight and Balance System 
+ 
+WD 
+Warning Display 
+ 
+WDU 
+Warning Display Unit 
+ 
+WETS 
+Water Extractor Temperature Sensor 
+ 
+WIPS 
+Wing Ice Protection System 
+ 
+ 
+ 
+
+=== PDF PAGE 28 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. XXVII 
+AIRCRAFT: 
+Airbus A320 
+LIST OF ACRONYMS 
+ 
+ACRONYM 
+DEFINITION 
+Change 
+Bar 
+WRDC 
+Wheel Remote Data Concentrator 
+ 
+WTB 
+Wing Tip Brake 
+ 
+WV 
+Weight Variant 
+ 
+WX 
+Weather 
+ 
+X 
+ 
+ 
+XML 
+Extensible Markup Language 
+ 
+Z 
+ 
+| 
+ZFW 
+Zero Fuel Weight 
+| 
+ 
+ 
+
+=== PDF PAGE 29 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 30 
+DATE: 03/03/2023 
+PAGE NO. 21-1 
+AIRCRAFT: 
+Airbus A320 
+TABLE KEY 
+1. REPAIR CATEGORY 
+2. NO. INSTALLED 
+3. NO. REQUIRED FOR DISPATCH 
+4. REMARKS OR EXCEPTIONS 
+ 
+21. Air Conditioning 
+ 
+ 
+ 
+ 
+ 
+ 
+Sequence No. 
+Item 
+1 
+2 
+3 
+4 
+Change 
+Bar 
+21-00-00 
+CLASS II 
+MAINTENANCE 
+MESSAGES 
+DISPLAYED ON ECAM 
+STATUS PAGE OF 
+ECAM SYSTEM 
+DISPLAY 
+ 
+ 
+ 
+ 
+ 
+1) 
+Fault(s) Indicated by 
+PACK 1(2) 
+(Without Mod. 30626/ 
+MP K6443) 
+C 
+- 
+- 
+NOTE: Dispatch with maintenance 
+status message displayed on 
+ECAM is permitted without 
+CFDS interrogation. 
+ 
+2) 
+Fault(s) Indicated by 
+ZONE CONT 
+(Without Mod. 30626/ 
+MP K6443) 
+C 
+- 
+- 
+NOTE: Dispatch with maintenance 
+status message displayed on 
+ECAM is permitted without 
+CFDS interrogation. 
+ 
+3) 
+*** 
+Fault(s) Indicated by 
+AFT CRG HEAT 
+C 
+- 
+- 
+NOTE: Dispatch with maintenance 
+status message displayed on 
+ECAM is permitted without 
+CFDS interrogation. 
+ 
+4) 
+Fault(s) Indicated by 
+TEMP CTL 1(2) 
+(With Mod. 30626/ 
+MP K6443) 
+C 
+- 
+- 
+NOTE: Dispatch with maintenance 
+status message displayed on 
+ECAM is permitted without 
+CFDS interrogation. 
+ 
+5) 
+Fault(s) Indicated by 
+CPC 1(2)  
+(With Mod. 162159/ 
+MP P20466 and  
+Mod. 152530/ 
+MP K15280) 
+C 
+- 
+- 
+NOTE: Dispatch with maintenance 
+status message displayed on 
+ECAM is permitted without 
+CFDS interrogation. 
+ 
+ 
+ 
+
+=== PDF PAGE 30 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 30 
+DATE: 03/03/2023 
+PAGE NO. 21-2 
+AIRCRAFT: 
+Airbus A320 
+TABLE KEY 
+1. REPAIR CATEGORY 
+2. NO. INSTALLED 
+3. NO. REQUIRED FOR DISPATCH 
+4. REMARKS OR EXCEPTIONS 
+ 
+21. Air Conditioning 
+ 
+ 
+ 
+ 
+ 
+ 
+Sequence No. 
+Item 
+1 
+2 
+3 
+4 
+Change 
+Bar 
+21-21-01 
+Cabin Fans 
+C 
+2 
+1 (M) One may be inoperative provided 
+affected cabin fan is deactivated. 
+ 
+21-21-02 
+CAB FAN pb Switch 
+ 
+ 
+ 
+ 
+ 
+1) 
+OFF Light 
+C 
+1 
+0 May be inoperative. 
+ 
+21-23-01 
+Lavatory and Galley 
+Extraction Fan 
+ 
+ 
+ 
+ 
+ 
+1) 
+Aircraft without 
+Mod. 22561/MP K2335 
+C 
+1 
+0 (M)(O) May be inoperative provided: 
+a) Lavatory and galley extraction 
+fan is deactivated, 
+b) Cabin duct temperatures are 
+available on ECAM, 
+c) Restrictions for an inoperative 
+lavatory smoke detector 
+system are applied, and 
+d) GSM ON BOARD system 
+(Mod. 36790/MP K10889) is 
+deactivated. 
+ 
+2) 
+Aircraft with Mod. 22561/ 
+MP K2335 
+C 
+1 
+0 (M)(O) May be inoperative provided: 
+a) Lavatory and galley extraction 
+fan is deactivated, 
+b) Cabin duct temperatures are 
+available on ECAM, and 
+c) GSM ON BOARD system 
+(Mod. 36790/MP K10889) is 
+deactivated. 
+ 
+ 
+ 
+
+=== PDF PAGE 31 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 30 
+DATE: 03/03/2023 
+PAGE NO. 21-3 
+AIRCRAFT: 
+Airbus A320 
+TABLE KEY 
+1. REPAIR CATEGORY 
+2. NO. INSTALLED 
+3. NO. REQUIRED FOR DISPATCH 
+4. REMARKS OR EXCEPTIONS 
+ 
+21. Air Conditioning 
+ 
+ 
+ 
+ 
+ 
+ 
+Sequence No. 
+Item 
+1 
+2 
+3 
+4 
+Change 
+Bar 
+21-26-01 
+Blower Fan 
+C 
+1 
+0 (M)(O) May be inoperative provided: 
+a) Extract fan operates normally, 
+b) BLOWER pb switch is set to 
+OVRD, 
+c) Both packs are operative, 
+d) VENT AVNCS SYS FAULT 
+ECAM caution is not present, 
+and 
+e) FL 270 is not exceeded on 
+airplanes with Mod. 20056. 
+ 
+ 
+ 
+C 
+1 
+0 (M)(O) May be inoperative provided: 
+a) Extract fan operates normally, 
+b) BLOWER pb switch is set to 
+OVRD, 
+c) Both packs are operative, 
+d) Air conditioning inlet valve is 
+verified open prior to each 
+flight, and 
+e) FL 270 is not exceeded on 
+airplanes with Mod. 20056. 
+ 
+ 
+ 
+C 
+1 
+0 (M)(O) May be inoperative provided: 
+a) Extract fan operates normally, 
+b) BLOWER pb switch is set to 
+OVRD, 
+c) Both packs are operative, 
+d) Air conditioning inlet valve is 
+secured open, 
+e) FL 270 is not exceeded on 
+airplanes with Mod. 20056, 
+and 
+f) AEVC test is performed 
+before each flight. 
+ 
+ 
+ 
+
+=== PDF PAGE 32 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 30 
+DATE: 03/03/2023 
+PAGE NO. 21-4 
+AIRCRAFT: 
+Airbus A320 
+TABLE KEY 
+1. REPAIR CATEGORY 
+2. NO. INSTALLED 
+3. NO. REQUIRED FOR DISPATCH 
+4. REMARKS OR EXCEPTIONS 
+ 
+21. Air Conditioning 
+ 
+ 
+ 
+ 
+ 
+ 
+Sequence No. 
+Item 
+1 
+2 
+3 
+4 
+Change 
+Bar 
+21-26-02 
+Extract Fan 
+C 
+1 
+0 (M)(O) May be inoperative provided: 
+a) Blower fan operates normally, 
+b) EXTRACT pb-sw is set at 
+OVRD, 
+c) Both packs are operative, 
+d) VENT AVNCS SYS FAULT 
+ECAM caution is not present, 
+and 
+e) Outside air temperature 
+(OAT) and time on ground 
+with electrical power on are 
+limited as follows: 
+OAT< 38°C – No limit 
+OAT 39-45°C – 3 hours 
+OAT 46-50°C – 2 hours 
+OAT 51-54°C – 35 minutes. 
+ 
+ 
+ 
+C 
+1 
+0 (M)(O) May be inoperative provided: 
+a) Blower fan operates normally, 
+b) EXTRACT pb-sw is set at 
+OVRD, 
+c) Both packs are operative, 
+d) Air conditioning inlet valve is 
+verified open prior to each 
+flight, and 
+e) Outside air temperature 
+(OAT) and time on ground 
+with electrical power on are 
+limited as follow: 
+OAT<38°C – No limit 
+OAT 39-45°C – 3 hours 
+OAT 46-50°C – 2 hours 
+OAT 51-54°C – 35 minutes. 
+ 
+ 
+ 
+ 
+ 
+ 
+(Continued) 
+ 
+ 
+ 
+
+=== PDF PAGE 33 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 30 
+DATE: 03/03/2023 
+PAGE NO. 21-5 
+AIRCRAFT: 
+Airbus A320 
+TABLE KEY 
+1. REPAIR CATEGORY 
+2. NO. INSTALLED 
+3. NO. REQUIRED FOR DISPATCH 
+4. REMARKS OR EXCEPTIONS 
+ 
+21. Air Conditioning 
+ 
+ 
+ 
+ 
+ 
+ 
+Sequence No. 
+Item 
+1 
+2 
+3 
+4 
+Change 
+Bar 
+21-26-02 
+Extract Fan 
+(Cont’d) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+C 
+1 
+0 (M)(O) May be inoperative provided: 
+a) Blower fan operates normally, 
+b) EXTRACT pb-sw is set at 
+OVRD, 
+c) Both packs are operative, 
+d) Air conditioning inlet valve is 
+secured open, 
+e) Outside air temperature 
+(OAT) and time on ground 
+with electrical power on are 
+limited as follows: 
+OAT<38°C – No limit 
+OAT 39-45°C – 3 hours 
+OAT 46-50°C – 2 hours 
+OAT 51-54°C – 35 minutes, 
+and 
+f) AEVC test is performed 
+before each flight. 
+ 
+21-26-03 
+Skin Exchanger Inlet 
+Bypass Valve 
+C 
+1 
+0 (M)(O) May be inoperative provided: 
+a) Valve is secured closed, and 
+b) AEVC test is performed 
+before each flight. 
+ 
+21-26-04 
+Skin Air Outlet Valve 
+C 
+1 
+0 (M)(O) May be inoperative provided: 
+a) Internal flap is manually 
+secured to open position, 
+b) Extract valve (skin air outlet 
+valve) is displayed in partially 
+open position (amber or 
+green) on ECAM CAB PRESS 
+page, 
+c) Both packs are operative, 
+d) Skin exchanger isolation valve 
+is secured open, and 
+e) AEVC test is performed 
+before each flight. 
+ 
+ 
+ 
+
+=== PDF PAGE 34 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 30 
+DATE: 03/03/2023 
+PAGE NO. 21-6 
+AIRCRAFT: 
+Airbus A320 
+TABLE KEY 
+1. REPAIR CATEGORY 
+2. NO. INSTALLED 
+3. NO. REQUIRED FOR DISPATCH 
+4. REMARKS OR EXCEPTIONS 
+ 
+21. Air Conditioning 
+ 
+ 
+ 
+ 
+ 
+ 
+Sequence No. 
+Item 
+1 
+2 
+3 
+4 
+Change 
+Bar 
+21-26-05 
+Skin Air Inlet Valve 
+C 
+1 
+0 (M)(O) May be inoperative provided: 
+a) Valve is secured closed, 
+b) Air conditioning inlet valve is 
+verified open before each 
+flight, 
+c) Both packs are operative, and 
+d) AEVC test is performed 
+before each flight. 
+ 
+ 
+ 
+C 
+1 
+0 (M)(O) May be inoperative provided: 
+a) Valve is secured closed, 
+b) Air conditioning inlet valve is 
+secured open, 
+c) Both packs are operative, and  
+d) AEVC test is performed 
+before each flight. 
+ 
+21-26-06 
+Skin Exchanger Isolation 
+Valve 
+C 
+1 
+0 (M)(O) May be inoperative in open 
+position provided AEVC test is 
+performed before each flight. 
+ 
+ 
+ 
+C 
+1 
+0 (M)(O) May be inoperative provided: 
+a) Valve is secured open, and 
+b) AEVC test is performed 
+before each flight. 
+ 
+21-26-07 
+Skin Exchanger Outlet 
+Bypass Valve 
+C 
+1 
+0 May be inoperative. 
+ 
+21-26-08 
+Air Conditioning Inlet 
+Valve 
+C 
+1 
+0 (M)(O) May be inoperative provided: 
+a) Valve is secured open, 
+b) Both packs are operative, and 
+c) AEVC test is performed 
+before each flight. 
+ 
+ 
+ 
+
+=== PDF PAGE 35 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 30 
+DATE: 03/03/2023 
+PAGE NO. 21-7 
+AIRCRAFT: 
+Airbus A320 
+TABLE KEY 
+1. REPAIR CATEGORY 
+2. NO. INSTALLED 
+3. NO. REQUIRED FOR DISPATCH 
+4. REMARKS OR EXCEPTIONS 
+ 
+21. Air Conditioning 
+ 
+ 
+ 
+ 
+ 
+ 
+Sequence No. 
+Item 
+1 
+2 
+3 
+4 
+Change 
+Bar 
+21-26-09 
+Ventilation Filters 
+C 
+1 
+0 (O) May be inoperative provided: 
+a) Blower and extract fans 
+operate normally, 
+b) EXTRACT pb switch is set at 
+OVRD, 
+c) Both packs are operative, and 
+d) VENT AVNCS SYS FAULT 
+ECAM caution is not present. 
+ 
+ 
+ 
+C 
+1 
+0 (M)(O) May be inoperative provided: 
+a) Blower and extract fans 
+operate normally, 
+b) EXTRACT pb switch is set at 
+OVRD, 
+c) Both packs are operative, and 
+d) Air conditioning inlet valve is 
+verified open prior to each 
+flight. 
+ 
+ 
+ 
+C 
+1 
+0 (M)(O) May be inoperative provided: 
+a) Blower and extract fans 
+operate normally, 
+b) EXTRACT pb switch is set at 
+OVRD, 
+c) Both packs are operative, 
+d) Air conditioning inlet valve is 
+secured open, and 
+e) AEVC test is performed 
+before each flight. 
+ 
+21-26-10 
+Avionics Equipment 
+Ventilation Computer 
+(AEVC) 
+C 
+1 
+0 (M)(O) May be inoperative provided: 
+a) Extract fan is verified to 
+operate normally prior to each 
+flight, 
+b) BLOWER and EXTRACT 
+pb switches are set to OVRD, 
+c) Air conditioning inlet valve 
+and extract valve (skin air 
+outlet valve) are verified in the 
+proper position prior to each 
+flight, 
+d) Both packs are operative, and 
+e) Skin air inlet valve is secured 
+closed. 
+ 
+ 
+ 
+
+=== PDF PAGE 452 ===
+U.S. DEPARTMENT OF TRANSPORTATION 
+FEDERAL AVIATION ADMINISTRATION 
+MASTER MINIMUM EQUIPMENT LIST 
+REVISION NO. 31 
+DATE: XX/XX/XXXX 
+PAGE NO. 80-2 
+AIRCRAFT: 
+Airbus A320 
+TABLE KEY 
+1. REPAIR CATEGORY 
+2. NO. INSTALLED 
+3. NO. REQUIRED FOR DISPATCH 
+4. REMARKS OR EXCEPTIONS 
+ 
+80. Starting 
+ 
+ 
+ 
+ 
+ 
+ 
+Sequence No. 
+Item 
+1 
+2 
+3 
+4 
+Change 
+Bar 
+80-11-01 
+Start Valve System 
+(Cont’d) 
+ 
+ 
+ 
+ 
+ 
+1) 
+Valves 
+(Cont’d) 
+ 
+ 
+ 
+ 
+ 
+d) 
+PW 1100G Engines with 
+Mod. 167039/ 
+MP P21513 (iCARE) 
+C 
+2 
+1 (M)(O) One may be inoperative 
+provided: 
+a) Required shutdown time is 
+checked before starting 
+affected engine, and 
+b) Valve is manually closed 
+after engine start. 
+| 
+ 
+ 
+C 
+2 
+1 (M)(O) One may be inoperative 
+provided: 
+a) APU bleed air supply system 
+is operative, 
+b) Start Valve Manual Override 
+function is checked operative, 
+and 
+c) Valve is manually closed after 
+engine start. 
+| 
+80-11-02 
+ENG MAN START 
+Controls 
+C 
+2 
+0 One or both may be inoperative. 
+ 
+80-11-03 
+FAULT Light on ENGINE 
+MASTER Panel 
+C 
+2 
+0 One or both may be inoperative. 
+ 
+80-11-04 
+ECAM Start Valve 
+Position Indicators 
+(Lower Display) 
+C 
+2 
+0 (M) May be inoperative provided start 
+valve is verified closed after engine 
+start. 
+ 
+80-11-05 
+AUTOSTART Controls 
+C 
+2 
+0 (O) May be inoperative provided 
+manual start procedures are used. 
+ 
+80-11-06 
+DUAL COOLING Control 
+(A319neo/A320neo/ 
+A321neo with  
+PW 1100G Engines and 
+Mod. 161854/ 
+MP P15967) 
+D 
+1 
+0 May be inoperative. 
+ 
+ 

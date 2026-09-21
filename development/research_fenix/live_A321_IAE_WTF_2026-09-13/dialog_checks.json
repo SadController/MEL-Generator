@@ -1,0 +1,22 @@
+[
+  {
+    "path": "ATA 28 / Fuel pump center / 1",
+    "text": "FUEL PUMP CENTER 1 CONFIGURATION\nFAILED\nARM FAILURE CONDITION\nApply Changes\nCancel"
+  },
+  {
+    "path": "ATA 30 / TAT Heat / Stby",
+    "text": "TAT HEAT STBY CONFIGURATION\nFAILED\nARM FAILURE CONDITION\nApply Changes\nCancel"
+  },
+  {
+    "path": "ATA 29 / PTU Fault",
+    "text": "PTU FAULT CONFIGURATION\nFAILED\nARM FAILURE CONDITION\nApply Changes\nCancel"
+  },
+  {
+    "path": "ATA 29 / Elec pumps / Elec Hyd Pump Blue Failure",
+    "text": "ELEC HYD PUMP BLUE FAILURE CONFIGURATION\nFAILED\nARM FAILURE CONDITION\nApply Changes\nCancel"
+  },
+  {
+    "path": "ATA 70 / Reverser inhibited by maintenance / Left Reverser Inhibited By Maint",
+    "text": "LEFT REVERSER INHIBITED BY MAINT CONFIGURATION\nFAILED\nARM FAILURE CONDITION\nApply Changes\nCancel"
+  }
+]

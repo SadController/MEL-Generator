@@ -1,0 +1,413 @@
+- text: 13 Sep 2026 21:56L / 19:56Z
+- generic: A321-231 IAE
+- generic: 
+- generic: Operational Limits
+- generic: Take-Off Limits
+- generic: Zfw limit
+- generic: Zfw limit
+- generic: Take-Off Limits
+- generic: MZFW = 75,600KG
+- generic: MLW = 77,800KG
+- generic: MTOW = 93,500KG
+- generic: "%MAC"
+- generic: "15"
+- generic: "16"
+- generic: "17"
+- generic: "18"
+- generic: "19"
+- generic: "20"
+- generic: "21"
+- generic: "22"
+- generic: "23"
+- generic: "24"
+- generic: "25"
+- generic: "26"
+- generic: "27"
+- generic: "28"
+- generic: "29"
+- generic: "30"
+- generic: "31"
+- generic: "32"
+- generic: "33"
+- generic: "34"
+- generic: "35"
+- generic: "36"
+- generic: "37"
+- generic: "38"
+- generic: "45"
+- generic: "50"
+- generic: "55"
+- generic: "60"
+- generic: "65"
+- generic: "70"
+- generic: "75"
+- generic: "80"
+- generic: "85"
+- generic: "90"
+- generic: "95"
+- table:
+  - row "ZFW (KG) MACZFW (%) GW (KG) MACGW (%)":
+    - cell "ZFW (KG)"
+    - cell "MACZFW (%)"
+    - cell
+    - cell "GW (KG)"
+    - cell "MACGW (%)"
+  - row "49,203 23.0 52,203 22.1":
+    - cell "49,203"
+    - cell "23.0"
+    - cell
+    - cell "52,203"
+    - cell "22.1"
+  - 'row "Note: The above figures are live."':
+    - 'cell "Note: The above figures are live."'
+- text: "Passengers (Capacity: 230 Economy)"
+- separator
+- table:
+  - row "Planned  Boarded":
+    - cell "Planned ":
+      - text: Planned
+      - generic: 
+    - cell "Boarded"
+  - row "0 0":
+    - cell "0"
+    - cell "0"
+- table:
+  - row:
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+  - row:
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+  - row:
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+  - row:
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+  - row:
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+  - row:
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+  - row:
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+    - cell
+- text: "Cargo (Capacity: 5,670KG FWD, 4,381KG AFT, 1,497KG BULK)"
+- separator
+- table:
+  - row "Planned (KG)  Loaded (KG)":
+    - cell "Planned (KG) ":
+      - text: Planned (KG)
+      - generic: 
+    - cell "Loaded (KG)"
+  - row "0 0":
+    - cell "0"
+    - cell "0"
+- text: "Fuel (Capacity Usable 18,644KG - SG: 0.80)"
+- separator
+- table:
+  - row "Planned (KG)  In Tanks (KG)":
+    - cell "Planned (KG) ":
+      - text: Planned (KG)
+      - generic: 
+    - cell "In Tanks (KG)"
+  - row "0 3,000":
+    - cell "0"
+    - cell "3,000"
+- button "Reset All":
+  - text: Reset
+  - text: All
+- button "Resend Loadsheet" [disabled]:
+  - text: Resend
+  - text: Loadsheet
+- button "Load Aircraft":
+  - text: Load
+  - text: Aircraft
+- button "SEND TO MCDU":
+  - text: SEND TO
+  - text: MCDU
+- navigation:
+  - link "My Flights":
+    - /url: "#/efb/fenix/my-flight"
+  - link "Ground Services":
+    - /url: "#/efb/fenix/ground-services"
+  - link "Mass And Balance" [active]:
+    - /url: "#/efb/fenix/mass-balance"
+  - generic: Panel States
+  - link "Sim Settings":
+    - /url: "#/efb/fenix/sim-settings"
+- generic:  

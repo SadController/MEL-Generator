@@ -1,0 +1,84 @@
+{
+  "counts": {
+    "sections": 19,
+    "menu_entries": 384,
+    "enabled_buttons": 384,
+    "legacy_names_checked": 194,
+    "legacy_names_found": 192,
+    "legacy_names_not_found": [
+      "Eng 1 low oil quantity",
+      "Eng 2 low oil quantity"
+    ],
+    "baseline_assessments_with_all_names_observed": 108,
+    "baseline_K_assessments": 48,
+    "baseline_K_with_all_names_observed": 48,
+    "behavior_tests": 0,
+    "new_mmel_candidates": 2,
+    "buttons_with_evaluated_mmel_references": 195,
+    "buttons_without_established_mmel_reference": 189
+  },
+  "button_paths_unique": true,
+  "snapshot_button_count_including_3_toolbar_controls": 387,
+  "menu_button_labels_disabled_and_classes_unchanged": true,
+  "failure_toggles_clicked": 0,
+  "apply_changes_clicked": 0,
+  "configuration_values_changed": 0,
+  "files": [
+    {
+      "name": "airframe_configuration.png",
+      "sha256": "5f352cdf6ac28a7aba9c4c4b240f835061eb73cd271fc798cf2cc7aa49a4fa18"
+    },
+    {
+      "name": "center_pump_dialog.png",
+      "sha256": "ecb41d72433e3634f071c211498eb667ceb199f689527932f6e4ea34447ba4b3"
+    },
+    {
+      "name": "comparison.json",
+      "sha256": "30ce2837262dedef90f661e445f89a3f71076b30b49e47a0068f4cb2c2c70664"
+    },
+    {
+      "name": "config_mass_balance.txt",
+      "sha256": "3e6d06b68e9b6b9c11c2a061e995224c04598d0144c6aafc158b93d4f1000c10"
+    },
+    {
+      "name": "config_sim_settings.txt",
+      "sha256": "d22acaad2fb562b6b62066a2d84f2f01f807b55a55424cd91a00dcd9b095456d"
+    },
+    {
+      "name": "dialog_checks.json",
+      "sha256": "80e99877d692df35a40f3d1b96704a7e91e3b710bb877bfe87132a41c4c7baf6"
+    },
+    {
+      "name": "full_mmel_inventory_with_live_evidence.json",
+      "sha256": "29dcea17dc58690c5b60c197d0411b547d3232cfe0af6ef362a32203c60b803c"
+    },
+    {
+      "name": "legacy_names_comparison.json",
+      "sha256": "a40fbb26c98c6c12d427dba2e0f9cd5335bbf34446f14b0ff0772123ebaf9063"
+    },
+    {
+      "name": "menu_after.json",
+      "sha256": "2d24daab905286f6777c13ccd81d99a2138d4760513f113bd7495faa343f4346"
+    },
+    {
+      "name": "menu_dom_snapshot.txt",
+      "sha256": "8b3f79292d9ca3c42a93630cbbf1687013c0a640aa0507d24164b9f6b812f57b"
+    },
+    {
+      "name": "menu_groups.json",
+      "sha256": "069ef2d241fab940846bd3c451f9652a1ae76293e35551ba42e58ef61be550cf"
+    },
+    {
+      "name": "menu_inventory.json",
+      "sha256": "080dfd59ee1b870b487dbefc6ffed105cca6d7c81a0de99844ae740ed9de29b3"
+    },
+    {
+      "name": "menu_to_mmel.json",
+      "sha256": "fcd3b69447f42f3adbe48fa397c0235e2c9d223b1a81056794f4529dbb4ce307"
+    },
+    {
+      "name": "tat_stby_dialog.png",
+      "sha256": "21e596f4028a86b74e358dd6860ea6cf1bbb9779363a5c91492b8351f7a8ed65"
+    }
+  ]
+}

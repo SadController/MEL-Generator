@@ -1,0 +1,1647 @@
+
+=== PDF PAGE 1 ===
+
+=== PDF PAGE 2 ===
+
+=== PDF PAGE 3 ===
+
+=== PDF PAGE 4 ===
+
+=== PDF PAGE 5 ===
+
+=== PDF PAGE 6 ===
+
+=== PDF PAGE 7 ===
+
+=== PDF PAGE 8 ===
+
+=== PDF PAGE 9 ===
+
+=== PDF PAGE 10 ===
+
+=== PDF PAGE 11 ===
+ 
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+Содержание 
+SOP. Содержание 
+Изменение: 05 
+25.11.2019 
+C-1 
+Перед использованием проверьте актуальность документа  
+на http://corporate.uralairlines.ru «Нормативные документы» 
+СОДЕРЖАНИЕ 
+Content 
+List of Effective Pages .................................................................................................................. ПДС-1 
+List of Modifications ...................................................................................................................... ПДС-4 
+Aircraft Allocation Table ...................................................................................................................... 0-1 
+Глава 1. ПРЕДПОЛЕТНАЯ ПОДГОТОВКА 
+1.1. FLIGHT PREPARATION ........................................................................................................... 1-1 
+Technical Condition of the Aircraft ...................................................................................... 1-1 
+Weather Briefing ................................................................................................................. 1-1 
+NOTAMs ............................................................................................................................. 1-1 
+Flight Plan and Operational Requirements ......................................................................... 1-2 
+Green Operating Procedures .............................................................................................. 1-2 
+Optimum Flight Level .......................................................................................................... 1-2 
+Fuel Requirements ............................................................................................................. 1-3 
+Cabin Crew Briefing ............................................................................................................ 1-4 
+1.2. CM2 SAFETY EXTERIOR INSPECTION .................................................................................. 1-5 
+1.3. PRELIMINARY COCKPIT PREPARATION ............................................................................... 1-6 
+General ............................................................................................................................... 1-6 
+Aircraft Setup ...................................................................................................................... 1-6 
+Battery Check / Setup ......................................................................................................... 1-7 
+APU FIRE Test / APU Start ................................................................................................ 1-8 
+Air Conditioning .................................................................................................................. 1-9 
+Cargo Heat ......................................................................................................................... 1-9 
+Cockpit Lights ..................................................................................................................... 1-9 
+ECAM ............................................................................................................................... 1-10 
+Pedestal ............................................................................................................................ 1-11 
+Parking Brake ................................................................................................................... 1-11 
+Alternate Braking System ................................................................................................. 1-12 
+OEB  ................................................................................................................................. 1-12 
+Emergency Equipment  .................................................................................................... 1-13 
+Rain Repellent  ................................................................................................................. 1-13 
+Circuit Breakers Panels  ................................................................................................... 1-13 
+Staff Papers  ..................................................................................................................... 1-14 
+1.4. CM1 EXTERIOR WALKAROUND ........................................................................................... 1-15 
+General ............................................................................................................................. 1-15 
+Landing Gear Pins and Covers  ........................................................................................ 1-15 
+Exterior Walkaround  ........................................................................................................ 1-16 
+1.5. CM2 SECURITY COCKPIT PREPARATION  ......................................................................... 1-24 
+1.6. COCKPIT PREPARATION  ..................................................................................................... 1-25 
+Flow Pattern  ..................................................................................................................... 1-25 
+Overhead Panel  ............................................................................................................... 1-26 
+CTR Instrument Panel  ..................................................................................................... 1-31 
+ 
+
+=== PDF PAGE 12 ===
+ 
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+Содержание 
+C-2 
+Изменение: 05 
+25.11.2019 
+SOP. Содержание 
+Перед использованием проверьте актуальность документа  
+на http://corporate.uralairlines.ru «Нормативные документы» 
+Pedestal  .................................................................................................................... 1-32 
+RMP  .......................................................................................................................... 1-34 
+Airfield Data  .............................................................................................................. 1-34 
+Electronic Flight Bag .................................................................................................. 1-35 
+FMGS Preparation  .................................................................................................... 1-36 
+When both Pilots Seated  .......................................................................................... 1-42 
+Glareshield  ................................................................................................................ 1-43 
+Lateral Consoles  ....................................................................................................... 1-44 
+Instrument Panels  ..................................................................................................... 1-45 
+PFD / ND Crosscheck  ............................................................................................... 1-46 
+ADIRS  ....................................................................................................................... 1-46 
+Takeoff Briefing  ......................................................................................................... 1-46 
+Final FMGS Data Insertion  ....................................................................................... 1-47 
+ATC Clearance  ......................................................................................................... 1-48 
+Глава 2. ВЫПОЛНЕНИЕ ПОЛЕТА 
+2.1. BEFORE PUSHBACK OR START  .................................................................................... 2-1 
+2.2. AT START CLEARANCE  .................................................................................................. 2-2 
+2.3. AUTOMATIC ENGINE START  .......................................................................................... 2-5 
+Automatic Engine Start ................................................................................................ 2-5 
+Ground Run UP Danger Area ...................................................................................... 2-9 
+2.4. AFTER START  ................................................................................................................ 2-10 
+2.5. TAXI .................................................................................................................................. 2-15 
+Taxi Roll and Steering  .............................................................................................. 2-21 
+180 deg Turn on Runway  ......................................................................................... 2-23 
+2.6. BEFORE TAKEOFF ......................................................................................................... 2-25 
+2.7. TAKEOFF  ........................................................................................................................ 2-27 
+Noise Abatement Takeoff .......................................................................................... 2-33 
+2.8. AFTER TAKEOFF  ........................................................................................................... 2-34 
+2.9. CLIMB  .............................................................................................................................. 2-35 
+2.10. CRUISE  ........................................................................................................................... 2-39 
+2.11 DESCENT PREPARATION  ............................................................................................. 2-44 
+2.12. DESCENT  ........................................................................................................................ 2-51 
+Descent Initiation  ...................................................................................................... 2-51 
+Descent Monitoring  ................................................................................................... 2-52 
+Descent Adjustment  .................................................................................................. 2-53 
+ 
+ 
+
+=== PDF PAGE 13 ===
+ 
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+Содержание 
+SOP. Содержание 
+Изменение: 04 
+22.08.2019 
+C-3 
+Перед использованием проверьте актуальность документа  
+на http://corporate.uralairlines.ru «Нормативные документы» 
+Глава 3. ЗАХОД НА ПОСАДКУ  
+3.1. APPROACH GENERAL  ........................................................................................................... 3-1 
+Introduction  ........................................................................................................................ 3-1 
+Flying Reference  ................................................................................................................ 3-1 
+Approach Speed Technique  .............................................................................................. 3-1 
+Cross-Reference Table  ...................................................................................................... 3-2 
+Discontinued Approach  ...................................................................................................... 3-2 
+3.2. AIRCRAFT CONFIGURATION MANAGEMENT  ...................................................................... 3-4 
+Initial Approach  .................................................................................................................. 3-4 
+Intermediate / Final Approach  ............................................................................................ 3-6 
+3.3. AIRCRAFT GUIDANCE MANAGEMENT  ............................................................................... 3-11 
+Approach using LOC G/S Guidance  ................................................................................ 3-11 
+Approach using FINAL APP Guidance  ............................................................................ 3-16 
+Approach using FPA Guidance  ....................................................................................... 3-21 
+Circling Approach  ............................................................................................................ 3-25 
+RNAV Visual Approach  .................................................................................................... 3-27 
+Visual Approach  ............................................................................................................... 3-28 
+Глава 4. ПОСАДКА 
+4.1. MANUAL LANDING  .................................................................................................................. 4-1 
+Approach and Landing Techniques  ................................................................................... 4-1 
+Flare and Touchdown  ........................................................................................................ 4-2 
+4.2. AUTOLAND  .............................................................................................................................. 4-7 
+4.3. GO-AROUND  ......................................................................................................................... 4-10 
+Go-Around with FD  .......................................................................................................... 4-10 
+Go-Around with NO FD  .................................................................................................... 4-13 
+Глава 5. РУЛЕНИЕ НА СТОЯНКУ И ПОСЛЕПОЛЕТНЫЕ РАБОТЫ 
+5.1. AFTER LANDING ...................................................................................................................... 5-1 
+5.2. PARKING ................................................................................................................................... 5-6 
+5.3. SECURING THE AIRCRAFT ................................................................................................... 5-10 
+5.4. CM1 POSTFLIGHT EXTERIOR INSPECTION  ...................................................................... 5-12 
+ 
+ 
+
+=== PDF PAGE 14 ===
+ 
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+Содержание 
+C-4 
+Изменение: 04 
+22.08.2019 
+SOP. Содержание 
+Перед использованием проверьте актуальность документа  
+на http://corporate.uralairlines.ru «Нормативные документы» 
+Глава 6. ПРИЛОЖЕНИЯ 
+6.1 
+STANDARD CALLS ............................................................................................................ 6-1 
+General  ....................................................................................................................... 6-1 
+Actions Commanded by PF  ........................................................................................ 6-1 
+FMA  ............................................................................................................................ 6-3 
+Altitude  ........................................................................................................................ 6-3 
+Flaps or Gear Callouts  ................................................................................................ 6-4 
+PF / PM Duties Transfer .............................................................................................. 6-5 
+Flight Parameters  ....................................................................................................... 6-5 
+Summary for Each Phase  ........................................................................................... 6-7 
+6.2 
+NORMAL PROCEDURES. SUMMARY ............................................................................ 6-13 
+6.3 
+SUPPLEMENTARY PROCEDURES ................................................................................ 6-28 
+Green Operating Procedures. Flight Phase  .............................................................. 6-28 
+De-/ Anti-Icing, Cold Soak Securing, Water Draining Checklists  .............................. 6-33 
+
+=== PDF PAGE 15 ===
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+Перечень действующих страниц 
+SOP. Перечень действующих 
+страниц 
+Изменение: 05 
+25.11.2019 
+ПДС-1 
+Перед использованием проверьте актуальность документа  
+на http://www.corporate.uralairlines.ru «Нормативные документы» 
+ПЕРЕЧЕНЬ ДЕЙСТВУЮЩИХ СТРАНИЦ
+List of Effective Pages 
+Номер главы, страницы 
+Дата 
+утверждения / 
+введения в 
+действие 
+Номер главы, страницы 
+Дата 
+утверждения / 
+введения в 
+действие 
+Содержание  
+Стр. 1-26 
+22.08.2019 
+Стр. С-1 
+25.11.2019 
+Стр. 1-27 
+25.11.2019 
+Стр. С-2 
+25.11.2019 
+Стр. 1-28 
+25.11.2019 
+Стр. С-3 
+22.08.2019 
+Стр. 1-29 
+25.11.2019 
+Стр. С-4 
+22.08.2019 
+Стр. 1-30 
+25.11.2019 
+Перечень действующих страниц 
+Стр. 1-31 
+25.11.2019 
+ПДС 1 
+25.11.2019 
+Стр. 1-32 
+25.11.2019 
+ПДС 2 
+25.11.2019 
+Стр. 1-33 
+25.11.2019 
+ПДС 3 
+25.11.2019 
+Стр. 1-34 
+25.11.2019 
+Лист регистрации изменений 
+Стр. 1-35 
+25.11.2019 
+ПДС 4 
+25.11.2019 
+Стр. 1-36 
+25.11.2019 
+Aircraft Allocation Table 
+Стр. 1-37 
+25.11.2019 
+Стр. 0-1 
+25.11.2019 
+Стр. 1-38 
+25.11.2019 
+Стр. 0-2 
+25.11.2019 
+Стр. 1-39 
+25.11.2019 
+Глава 1. 
+Стр. 1-40 
+25.11.2019 
+Стр. 1-1 
+22.08.2019 
+Стр. 1-41 
+25.11.2019 
+Стр. 1-2 
+22.08.2019 
+Стр. 1-42 
+25.11.2019 
+Стр. 1-3 
+22.08.2019 
+Стр. 1-43 
+25.11.2019 
+Стр. 1-4 
+22.08.2019 
+Стр. 1-44 
+25.11.2019 
+Стр. 1-5 
+22.08.2019 
+Стр. 1-45 
+25.11.2019 
+Стр. 1-6 
+22.08.2019 
+Стр. 1-46 
+25.11.2019 
+Стр. 1-7 
+22.08.2019 
+Стр. 1-47 
+25.11.2019 
+Стр. 1-8 
+22.08.2019 
+Стр. 1-48 
+25.11.2019 
+Стр. 1-9 
+22.08.2019 
+Глава 2. 
+Стр. 1-10 
+25.11.2019 
+Стр. 2-1 
+22.08.2019 
+Стр. 1-11 
+22.08.2019 
+Стр. 2-2 
+22.08.2019 
+Стр. 1-12 
+25.11.2019 
+Стр. 2-3 
+25.11.2019 
+Стр. 1-13 
+22.08.2019 
+Стр. 2-4 
+25.11.2019 
+Стр. 1-14 
+22.08.2019 
+Стр. 2-5 
+25.11.2019 
+Стр. 1-15 
+22.08.2019 
+Стр. 2-6 
+22.08.2019 
+Стр. 1-16 
+22.08.2019 
+Стр. 2-7 
+22.08.2019 
+Стр. 1-17 
+22.08.2019 
+Стр. 2-8 
+22.08.2019 
+Стр. 1-18 
+25.11.2019 
+Стр. 2-9 
+25.11.2019 
+Стр. 1-19 
+25.11.2019 
+Стр. 2-10 
+25.11.2019 
+Стр. 1-20 
+25.11.2019 
+Стр. 2-11 
+25.11.2019 
+Стр. 1-21 
+22.08.2019 
+Стр. 2-12 
+25.11.2019 
+Стр. 1-22 
+25.11.2019 
+Стр. 2-13 
+25.11.2019 
+Стр. 1-23 
+25.11.2019 
+Стр. 2-14 
+25.11.2019 
+Стр. 1-24 
+22.08.2019 
+Стр. 2-15 
+22.08.2019 
+Стр. 1-25 
+22.08.2019 
+Стр. 2-16 
+25.11.2019 
+
+=== PDF PAGE 16 ===
+ 
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+Перечень действующих страниц 
+ПДС-2 
+Изменение: 05 
+25.11.2019 
+SOP. Перечень 
+действующих страниц 
+Перед использованием проверьте актуальность документа  
+на http://www.corporate.uralairlines.ru «Нормативные документы» 
+ 
+Номер главы, страницы 
+Дата 
+утверждения / 
+введения в 
+действие 
+ 
+Номер главы, страницы 
+Дата 
+утверждения / 
+введения в 
+действие 
+Стр. 2-17 
+22.08.2019 
+ 
+Стр. 3-4 
+22.08.2019 
+Стр. 2-18 
+22.08.2019 
+ 
+Стр. 3-5 
+22.08.2019 
+Стр. 2-19 
+22.08.2019 
+ 
+Стр. 3-6 
+25.11.2019 
+Стр. 2-20 
+22.08.2019 
+ 
+Стр. 3-7 
+22.08.2019 
+Стр. 2-21 
+22.08.2019 
+ 
+Стр. 3-8 
+22.08.2019 
+Стр. 2-22 
+22.08.2019 
+ 
+Стр. 3-9 
+22.08.2019 
+Стр. 2-23 
+22.08.2019 
+ 
+Стр. 3-10 
+22.08.2019 
+Стр. 2-24 
+22.08.2019 
+ 
+Стр. 3-11 
+22.08.2019 
+Стр. 2-25 
+22.08.2019 
+ 
+Стр. 3-12 
+22.08.2019 
+Стр. 2-26 
+25.11.2019 
+ 
+Стр. 3-13 
+22.08.2019 
+Стр. 2-27 
+25.11.2019 
+ 
+Стр. 3-14 
+22.08.2019 
+Стр. 2-28 
+22.08.2019 
+ 
+Стр. 3-15 
+22.08.2019 
+Стр. 2-29 
+22.08.2019 
+ 
+Стр. 3-16 
+22.08.2019 
+Стр. 2-30 
+22.08.2019 
+ 
+Стр. 3-17 
+22.08.2019 
+Стр. 2-31 
+25.11.2019 
+ 
+Стр. 3-18 
+25.11.2019 
+Стр. 2-32 
+22.08.2019 
+ 
+Стр. 3-19 
+25.11.2019 
+Стр. 2-33 
+22.08.2019 
+ 
+Стр. 3-20 
+22.08.2019 
+Стр. 2-34 
+22.08.2019 
+ 
+Стр. 3-21 
+22.08.2019 
+Стр. 2-35 
+22.08.2019 
+ 
+Стр. 3-22 
+22.08.2019 
+Стр. 2-36 
+22.08.2019 
+ 
+Стр. 3-23 
+22.08.2019 
+Стр. 2-37 
+22.08.2019 
+ 
+Стр. 3-24 
+22.08.2019 
+Стр. 2-38 
+22.08.2019 
+ 
+Стр. 3-25 
+22.08.2019 
+Стр. 2-39 
+22.08.2019 
+ 
+Стр. 3-26 
+22.08.2019 
+Стр. 2-40 
+25.11.2019 
+ 
+Стр. 3-27 
+22.08.2019 
+Стр. 2-41 
+22.08.2019 
+ 
+Стр. 3-28 
+22.08.2019 
+Стр. 2-42 
+22.08.2019 
+ 
+Стр. 3-29 
+22.08.2019 
+Стр. 2-43 
+22.08.2019 
+ 
+Стр. 3-30 
+22.08.2019 
+Стр. 2-44 
+22.08.2019 
+ 
+Глава 4. 
+Стр. 2-45 
+22.08.2019 
+ 
+Стр. 4-1 
+22.08.2019 
+Стр. 2-46 
+22.08.2019 
+ 
+Стр. 4-2 
+22.08.2019 
+Стр. 2-47 
+22.08.2019 
+ 
+Стр. 4-3 
+22.08.2019 
+Стр. 2-48 
+22.08.2019 
+ 
+Стр. 4-4 
+22.08.2019 
+Стр. 2-49 
+25.11.2019 
+ 
+Стр. 4-5 
+22.08.2019 
+Стр. 2-50 
+22.08.2019 
+ 
+Стр. 4-6 
+22.08.2019 
+Стр. 2-51 
+22.08.2019 
+ 
+Стр. 4-7 
+22.08.2019 
+Стр. 2-52 
+22.08.2019 
+ 
+Стр. 4-8 
+22.08.2019 
+Стр. 2-53 
+22.08.2019 
+ 
+Стр. 4-9 
+22.08.2019 
+Стр. 2-54 
+22.08.2019 
+ 
+Стр. 4-10 
+22.08.2019 
+Стр. 2-55 
+22.08.2019 
+ 
+Стр. 4-11 
+25.11.2019 
+Стр. 2-56 
+22.08.2019 
+ 
+Стр. 4-12 
+22.08.2019 
+Глава 3. 
+ 
+Стр. 4-13 
+22.08.2019 
+Стр. 3-1 
+22.08.2019 
+ 
+Стр. 4-14 
+22.08.2019 
+Стр. 3-2 
+22.08.2019 
+ 
+Глава 5. 
+Стр. 3-3 
+22.08.2019 
+ 
+Стр. 5-1 
+22.08.2019 
+ 
+
+=== PDF PAGE 17 ===
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+Перечень действующих страниц 
+SOP. Перечень действующих 
+страниц 
+Изменение: 05 
+25.11.2019 
+ПДС-3 
+Перед использованием проверьте актуальность документа  
+на http://www.corporate.uralairlines.ru «Нормативные документы» 
+Номер главы, страницы 
+Дата 
+утверждения / 
+введения в 
+действие 
+Номер главы, страницы 
+Дата 
+утверждения / 
+введения в 
+действие 
+Стр. 5-2 
+25.11.2019 
+Стр. 6-12 
+22.08.2019 
+Стр. 5-3 
+25.11.2019 
+Стр. 6-13 
+25.11.2019 
+Стр. 5-4 
+22.08.2019 
+Стр. 6-14 
+22.08.2019 
+Стр. 5-5 
+22.08.2019 
+Стр. 6-15 
+22.08.2019 
+Стр. 5-6 
+25.11.2019 
+Стр. 6-16 
+22.08.2019 
+Стр. 5-7 
+22.08.2019 
+Стр. 6-17 
+22.08.2019 
+Стр. 5-8 
+22.08.2019 
+Стр. 6-18 
+22.08.2019 
+Стр. 5-9 
+22.08.2019 
+Стр. 6-19 
+22.08.2019 
+Стр. 5-10 
+22.08.2019 
+Стр. 6-20 
+22.08.2019 
+Стр. 5-11 
+25.11.2019 
+Стр. 6-21 
+22.08.2019 
+Стр. 5-12 
+22.08.2019 
+Стр. 6-22 
+22.08.2019 
+Глава 6. 
+Стр. 6-23 
+22.08.2019 
+Стр. 6-1 
+22.08.2019 
+Стр. 6-24 
+22.08.2019 
+Стр. 6-2 
+22.08.2019 
+Стр. 6-25 
+22.08.2019 
+Стр. 6-3 
+22.08.2019 
+Стр. 6-26 
+22.08.2019 
+Стр. 6-4 
+22.08.2019 
+Стр. 6-27 
+22.08.2019 
+Стр. 6-5 
+22.08.2019 
+Стр. 6-28 
+22.08.2019 
+Стр. 6-6 
+22.08.2019 
+Стр. 6-29 
+22.08.2019 
+Стр. 6-7 
+22.08.2019 
+Стр. 6-30 
+22.08.2019 
+Стр. 6-8 
+22.08.2019 
+Стр. 6-31 
+22.08.2019 
+Стр. 6-9 
+22.08.2019 
+Стр. 6-32 
+22.08.2019 
+Стр. 6-10 
+22.08.2019 
+Стр. 6-33 
+22.08.2019 
+Стр. 6-11 
+22.08.2019 
+Стр. 6-34 
+22.08.2019 
+
+=== PDF PAGE 18 ===
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+Лист регистрации изменений 
+ПДС-4 
+Изменение: 05 
+25.11.2019 
+SOP. Лист регистрации 
+изменений
+Перед использованием проверьте актуальность документа  
+на http://www.corporate.uralairlines.ru «Нормативные документы» 
+ЛИСТ РЕГИСТРАЦИИ ИЗМЕНЕНИЙ 
+List of Modifications  
+№ 
+Изменения 
+Дата утверждения 
+Дата введения в 
+действие 
+Подпись 
+ответственного лица 
+1 
+05.07.2018 
+2 
+15.11.2018 
+3 
+15.02.2019 
+4 
+22.08.2019
+5 
+25.11.2019 
+
+=== PDF PAGE 19 ===
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+Aircraft Allocation Table 
+SOP. Aircraft Allocation Table 
+Изменение: 05 
+25.11.2019 
+0-1 
+Перед использованием проверьте актуальность документа  
+на http://www.corporate.uralairlines.ru «Нормативные документы» 
+AIRCRAFT ALLOCATION TABLE 
+A319 
+A320 
+MSN 
+REG 
+ENG 
+FMS 
+MSN 
+REG 
+ENG 
+FMS 
+01579 
+VP-BBG 
+CFM56-5B 
+Т 
+01063 
+VQ-BAG 
+CFM56-5B 
+T 
+01603 
+VP-BJV 
+H 
+01152 
+VQ-BFV 
+H 
+03385 
+VQ-BTY 
+Т 
+01484 
+VQ-BCY 
+03388 
+VQ-BTZ 
+01751 
+VQ-BLO 
+03834 
+VQ-BTP 
+01777 
+VQ-BCZ 
+02166 
+VP-BMW 
+T 
+A321 
+02175 
+VQ-BDM 
+H 
+MSN 
+REG 
+ENG 
+FMS
+02187 
+VQ-BDJ 
+00775 
+VQ-BOF 
+CFM56-5B 
+T 
+02278 
+VP-BBQ 
+T 
+00815 
+VQ-BKJ 
+H 
+02327 
+VQ-BFW 
+H 
+00841 
+VQ-BKH 
+02349 
+VP-BMT 
+T 
+00991 
+VQ-BKG 
+02623 
+VQ-BCI 
+H 
+01720 
+VQ-BCX 
+02947 
+VP-BQW 
+01905 
+VQ-BOB 
+02998 
+VQ-BRE 
+02707 
+VP-BVP 
+T 
+03107 
+VP-BTZ 
+T 
+04728 
+VP-BIH 
+03189 
+VP-BKB 
+H 
+01199 
+VQ-BOC 
+V2500-A5 
+Т 
+03410 
+VP-BKX 
+01941 
+VQ-BGX 
+H 
+03433 
+VQ-BQN 
+02105 
+VQ-BGY 
+03472 
+VQ-BNI 
+02590 
+VQ-BCE 
+02343 
+VP-BDL 
+V2500-A5 
+H 
+02862 
+VP-BBH 
+02376 
+VQ-BGJ 
+T 
+07206 
+VP-BSW 
+T 
+05055 
+VQ-BGI 
+07375 
+VP-BSY 
+09136 
+VP-BRX 
+LEAP-1A 
+H 
+08955 
+VP-BOP 
+LEAP-1A 
+H 
+09154 
+VP-BRY 
+09073 
+VP-BOQ 
+09169 
+VP-BRZ 
+H 
+FMS2 HONEYWELL 
+T 
+FMS2 THALES 
+
+=== PDF PAGE 20 ===
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+Aircraft Allocation Table 
+0-2 
+Изменение: 05 
+25.11.2019 
+SOP. Aircraft Allocation Table 
+Перед использованием проверьте актуальность документа  
+на http://www.corporate.uralairlines.ru «Нормативные документы» 
+Intentionaly left blank 
+
+=== PDF PAGE 21 ===
+ 
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+1. 
+Предполетная подготовка 
+SOP. Предполетная подготовка 
+Изменение: 04 
+22.08.2019 
+1-1 
+Перед использованием проверьте актуальность документа  
+на http://corporate.uralairlines.ru «Нормативные документы» 
+Глава 1. 
+ ПРЕДПОЛЕТНАЯ ПОДГОТОВКА 
+1.1. 
+FLIGHT PREPARATION 
+ 
+TECHNICAL CONDITION OF THE AIRCRAFT 
+ 
+Applicable to ALL 
+The crew will verify the technical state of the aircraft, with regard to airworthiness, 
+acceptability of malfunctions (MEL/CDL), and influence on the Flight Plan (OFP). 
+WEATHER BRIEFING 
+ 
+Applicable to ALL 
+The crew will get a Weather Briefing. The briefing should include: 
+ actual and expected weather conditions, including runway conditions for takeoff 
+and climb-out; 
+ significant weather enroute, including winds and temperatures; 
+ terminal forecasts for destination, alternate and enroute alternate airports; 
+ actual weather for destination and alternates, for short range flights and recent past 
+weather, if available; 
+ survey of the meteorological conditions at airports along the planned route. 
+Weather can affect the choice of routing (for example, influence which route is quickest) 
+and the choice of flight level. The flight crew must also consider the possibility of 
+runways being contaminated at the departure and destination airfields. The flight crew 
+must also verify ISA deviations and enroute icing conditions, and must consider the 
+possibility of holding due to weather at the destination. 
+For more information, refer to OM Part A Chapter 8 Appendix A-8.1.6. 
+NOTAMs 
+ 
+Applicable to ALL 
+The flight crew must examine NOTAMs for changes to routings, unserviceable Navaids, 
+availability of Runways and Approach Aids etc, all of which may affect the final fuel 
+requirement. 
+In order to prevent the risks of projection of debris towards the Trimmable Horizontal 
+Stabilizer and the Elevators, it is not recommended to takeoff from runways in bad 
+condition (loose surface, under repair, covered with debris…). 
+
+=== PDF PAGE 22 ===
+ 
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+1. 
+Предполетная подготовка 
+1-2 
+Изменение: 04 
+22.08.2019 
+SOP. Предполетная подготовка 
+Перед использованием проверьте актуальность документа  
+на http://corporate.uralairlines.ru «Нормативные документы» 
+ 
+FLIGHT PLAN AND OPERATIONAL REQUIREMENTS 
+ 
+Applicable to ALL 
+The crew will check the Computerized Flight Plan for routing, altitudes, and flight time. 
+The Captain will check the ATC Flight Plan and ensure that it: 
+ is filled in and filed, in accordance with the prescribed procedures (Refer to AOM 
+Part A Chapter 8 Appendix A-8.2); 
+ it agrees with the Fuel Flight Plan routing. 
+The crew will check the estimated load figures, and will calculate the maximum 
+allowable takeoff and landing weights. 
+GREEN OPERATING PROCEDURES 
+ 
+Applicable to ALL 
+Whenever operational conditions permit, the flight crew should consider using GREEN 
+OPERATING PROCUDERS in the Chapter 6.3 SUPPLEMENTARY PROCEDURES. 
+This Chapter describes the available fuel-reduction procedures during the different 
+flight phases. The information provided in this Chapter is not applicable to all flights, 
+and depends on their specific operations (geographical location, airport conditions, 
+local regulations, etc.). 
+The flight crew decides the procedures to apply, in accordance with current flight 
+conditions. Care must be taken that the safety is provided and local regulations are 
+respected. 
+OPTIMUM FLIGHT LEVEL 
+ 
+Applicable to ALL 
+The flight crew should choose a Flight Level according OFP that is as close to the 
+Optimum as possible. To determine the Optimum Flight Level, use the chart in the 
+QRH (Refer to QRH PER-M Optimum & Maximum Altitudes) or use the performance 
+application of FlySmart with Airbus. 
+As a general rule, an altitude that is 4000 feet below the optimum produces a 
+significant penalty (approximately 5 % of Fuel). Flight 8000 feet below the optimum 
+altitude produces a penalty of more than 10 % against Trip Fuel. The usual 
+contingency allowance is 5 %. 
+
+=== PDF PAGE 23 ===
+ 
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+1. 
+Предполетная подготовка 
+SOP. Предполетная подготовка 
+Изменение: 04 
+22.08.2019 
+1-3 
+Перед использованием проверьте актуальность документа  
+на http://corporate.uralairlines.ru «Нормативные документы» 
+ 
+FUEL REQUIREMENTS 
+ 
+Applicable to ALL 
+COMPUTERIZED FLIGHT PLAN CHECK 
+In most cases the flight crew uses a Computer-derived Flight Plan to obtain the correct 
+Fuel requirements. Although these computerized requirements are normally accurate, 
+the flight crew must check them for gross errors. 
+The easiest way to do this is to use the "Quick Determination of F-PLN" tables (Refer 
+to FCOM PER-FPL-FLP-QFP-40 Flight Planning M.78). Although the aircraft will fly at 
+ECON MACH that is based on the Cost Index, the M 0.78 table is accurate enough to 
+permit the crew to check for gross error.  
+To assist in fuel loading decision when extended delay is expected on the ground (for 
+any reason, e.g. weather, congested traffic and so on), the following information may 
+be helpful: 
+ 
+both Engines Idle fuel burn  
+- 
+12 kg/min (approximately); 
+ 
+APU fuel burn 
+ 
+ 
+- 
+2 kg/min (approximately). 
+For convenience the planned Fuel in Tanks, Trip Fuel and Taxi Fuel may be rounded 
+up to units of one hundred for the purpose of the Loadsheet. 
+REFUELING 
+Once the refueling is completed Captain should check and transfer from Delivery 
+Receipt Sheet to Flight Log the Amount of uplifted Fuel. If a difference between 
+calculated Arrival Fuel plus Uplifted Fuel against Actual Fuel displayed on ECAM FUEL 
+page is greater than 100 kg, Fuel Check will need to be performed by an Engineer and 
+additional Delivery Receipt Sheet or revised Refuel Sheet should be requested. But this 
+discrepancy can be explained by APU running. 
+Captain should be satisfied that fuel has been loaded correctly and all appropriate 
+entries have been made in Technical Log Book. 
+FUEL MONITORING AND RECORDING 
+For fuel monitoring in flight, refer to AOM Part A Chapter 8 Appendix A-8.2. 
+The Arrival Remaining Fuel entered in the Flight Log is read directly from the ECAM 
+FOB total in kilograms after Engines shut down at a gate. The Fuel Amount must be 
+entered rounding down to hundreds of kilograms to the lowest value (e.g. if ECAM FOB 
+displays 4540 kilograms enter 4500 kg). 
+ 
+
+=== PDF PAGE 24 ===
+ 
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+1. 
+Предполетная подготовка 
+1-4 
+Изменение: 04 
+22.08.2019 
+SOP. Предполетная подготовка 
+Перед использованием проверьте актуальность документа  
+на http://corporate.uralairlines.ru «Нормативные документы» 
+FUEL TRANSPORTATION 
+The flight crew must check the Policy covering the “Tankering” of Fuel on where there is 
+a favorable Fuel Price differential or operational requirement. 
+Remember that carrying unnecessary Extra Fuel increases the Fuel Consumption for 
+that sector and therefore reduces the economy of the operation (lower FLEX 
+Temperature, more Tire and Brake Wear, more time in climb phase, lower Optimum 
+Flight Level etc.). 
+CABIN CREW BRIEFING 
+ 
+Applicable to ALL 
+Prior to departure, during Pre-Flight Preparation Captain shall:  
+ receive the report from Purser on the Cabin crew complement and readiness for 
+flight; 
+ establish the Code Statement or Special Signals to use by a Cabin Crewmember 
+communicating with the flight deck; 
+ inform the Purser about the expected flight time and commercial loading; 
+ coordinate contents and number of Announcements with the Purser in order to 
+avoid duplication of information; 
+ carry out the briefing with the Cabin crew, e.g. inform them about specifics of 
+forthcoming flight, expected turbulence areas, give additional instructions regarding 
+the flight safety, extended water operations, operations in polar areas and over 
+mountainous areas, etc. 
+Note: 
+The briefing with the Cabin crew may be carried out in the airport 
+briefing room or on board. 
+ 
+
+=== PDF PAGE 25 ===
+ 
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+1. 
+Предполетная подготовка 
+SOP. Предполетная подготовка 
+Изменение: 04 
+22.08.2019 
+1-5 
+Перед использованием проверьте актуальность документа  
+на http://corporate.uralairlines.ru «Нормативные документы» 
+ 
+1.2. 
+CM2 SAFETY EXTERIOR INSPECTION 
+ 
+Applicable to ALL 
+Items marked by (*) are the only steps to be completed by CM1 after a Transit Stop 
+without flight crew change. Otherwise, the new flight crew performs all the items.  
+This Inspection ensures that the aircraft and its surroundings are safe for operations. On 
+arriving at the aircraft, check for obstructions in the vicinity, engineering activity, 
+refueling, etc. 
+* - WHEEL CHOCKS  ................................................................................... CHECK CM2 
+If the Wheel Chocks are not in position, the flight crew must check that the Parking 
+Brake is set with sufficient Accumulator Pressure. 
+* - LANDING GEAR DOORS  .................................................... CHECK POSITION CM2 
+* - PITOT, STATIC PROBES COVERS .................................... CHECK REMOVED CM2 
+WARNING 
+Do not pressurize the Green Hydraulic system without 
+clearance from ground personnel, if any Gear Door is open. 
+Remember that the Green Hydraulic system is pressurized if 
+the Yellow system is pressurized and the PTU is on AUTO. 
+* - APU AREA  ............................................................................................. CHECK CM2 
+Observe that the APU Inlet and Outlet are clear. 
+
+=== PDF PAGE 26 ===
+ 
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+1. 
+Предполетная подготовка 
+1-6 
+Изменение: 04 
+22.08.2019 
+SOP. Предполетная подготовка 
+Перед использованием проверьте актуальность документа  
+на http://corporate.uralairlines.ru «Нормативные документы» 
+ 
+1.3. 
+PRELIMINARY COCKPIT PREPARATION 
+ 
+GENERAL 
+ 
+Applicable to ALL 
+Items marked by asterisks (*) are the only steps to be completed during a Transit Stop 
+without Flight Crew change. Otherwise, the new Flight Crew performs all the items.  
+The following procedure, performed by the PM ensures that all required checks are 
+performed before applying Electrical Power to avoid inadvertent operation of systems 
+and danger to the aircraft and personnel.  
+Included is APU starting and the establishment of Electrical and Pneumatic Power. 
+For EFB operations, the following procedure performed by both pilots is based on the 
+use of two EFBs in order to reduce the risk of erroneous inputs. 
+AIRCRAFT SETUP 
+ 
+Applicable to ALL 
+ 
+WARNING 
+Do not pressurize the Hydraulic systems until clearance is 
+obtained from ground personnel. 
+ENG 
+- ENG MASTERS 1 and 2 ................................................................................. OFF PM 
+- ENG MODE selector ................................................................................... NORM PM 
+WEATHER RADAR 
+Applicable to: MSN 00735-07375 
+* - RADAR sw  ..................................................................................................... OFF PM 
+* - WINDSHEAR / PWS sw (if installed) .............................................................. OFF PM 
+* - GAIN knob ......................................................................................... AUTO / CAL PM 
+* - MODE selector ...................................................................................... AS RQRD PM 
+Applicable to: MSN 08955-09169 
+* - WXR/PWS sw  ................................................................................................ OFF PM 
+* - CAPT DISPLAY mode selector ..................................................................... OFF PM 
+* - F/O DISPLAY mode selector ......................................................................... OFF PM 
+
+=== PDF PAGE 27 ===
+ 
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+1. 
+Предполетная подготовка 
+SOP. Предполетная подготовка 
+Изменение: 04 
+22.08.2019 
+1-7 
+Перед использованием проверьте актуальность документа  
+на http://corporate.uralairlines.ru «Нормативные документы» 
+ 
+* - GAIN knob .................................................................................................... AUTO PM 
+* - TURB sw ...................................................................................................... AUTO PM 
+Applicable to ALL 
+L/G 
+- L/G lever ..................................................................................................... DOWN PM 
+WIPERS 
+- Both WIPER selectors ................................................................................... OFF PM 
+BATTERY CHECK / SETUP 
+ 
+Applicable to ALL 
+ELEC 
+ If the aircraft has not been electrically supplied for 6 hours or more, perform 
+the following check : 
+- BAT 1 and BAT 2 pb ................................................................... CHECK OFF PM 
+- BAT 1 and 2 VOLTAGE ............................................... CHECK above 25.5 V PM 
+Battery voltage above 25.5 V ensures a charge above 50 %. 
+ If the Battery voltage is at or below 25.5 V: 
+A charging cycle of about 20 minutes is required. 
+- BAT 1 and BAT 2 pb ........................................................................ AUTO PM 
+- EXT PWR pb-sw .................................................................................. ON PM 
+Check on ECAM ELEC SD page, that the Battery Contactor is closed and 
+the Batteries are charging. 
+• After 20 minutes: 
+- BAT 1 + 2 pb ................................................................................... OFF PM 
+- BAT 1 and 2 VOLTAGE ..................................... CHECK above 25.5 V PM 
+- BAT 1 + 2 pb ................................................................................ AUTO PM 
+ If Battery voltage is above 25.5 V: 
+- BAT 1 and BAT 2 pb ....................................................................... AUTO PM 
+If the APU is started on Batteries only, it should be started within 30 
+minutes after the selection of Batteries to AUTO (35 minutes after Battery 
+selection to AUTO, the Battery charge is less than 25 % of maximum 
+capacity). 
+
+=== PDF PAGE 28 ===
+ 
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+1. 
+Предполетная подготовка 
+1-8 
+Изменение: 04 
+22.08.2019 
+SOP. Предполетная подготовка 
+Перед использованием проверьте актуальность документа  
+на http://corporate.uralairlines.ru «Нормативные документы» 
+ 
+ If the aircraft has been electrically supplied during the last 6 hours: 
+- BAT 1 and BAT 2 pb ............................................................................. AUTO PM 
+ If the “AVAIL’’ light is ON : 
+- EXT PWR pb-sw .............................................................. ……………...ON PM 
+APU FIRE TEST / APU START 
+ 
+Applicable to ALL 
+APU FIRE  
+- APU FIRE pb-sw ........................................................ CHECK IN and GUARDED PM 
+- AGENT lights .................................................................................... CHECK OFF PM 
+- APU FIRE TEST pb .......................................................... PRESS and MAINTAIN PM 
+Check: 
+- 
+“APU FIRE” Warning on ECAM + CRC + MASTER Warning light  
+(if AC Power available); 
+- APU FIRE pb-sw lighted RED; 
+- “SQUIB” light and “DISCH” light ON. 
+APU START 
+During Transit Stop APU Start may be delayed till the moment when External Electric 
+Power is going to be removed. 
+ If the EXT PWR pb-sw “ON” light is ON: 
+- APU MASTER SW pb-sw .......................................................................... ON PM 
+- APU START pb-sw .................................................................................... ON PM 
+Note: 
+Wait at least 3 seconds before selecting APU START pb-sw. 
+For more information on the APU Start, Refer to FCOM DSC-49-20 Overhead 
+Panel – Illustration. For more information on the APU Starter Limitations and 
+APU Operations during Refueling: 
+Refer to FCOM LIM-APU APU Start; FCOM LIM-APU APU Start / Shutdown 
+during Refueling / Defueling. 
+- EXT PWR pb ................................................................................... AS RQRD PM 
+The flight crew should keep ON the External Power units to reduce the APU 
+load, particularly in hot weather conditions. 
+ 
+
+=== PDF PAGE 29 ===
+ 
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+1. 
+Предполетная подготовка 
+SOP. Предполетная подготовка 
+Изменение: 04 
+22.08.2019 
+1-9 
+Перед использованием проверьте актуальность документа  
+на http://corporate.uralairlines.ru «Нормативные документы» 
+ If the EXT PWR pb-sw “ON” light is OFF: 
+- APU MASTER SW pb-sw .......................................................................... ON PM 
+- APU START pb-sw .................................................................................... ON PM 
+Note: 
+Wait at least 3 seconds before selecting APU START pb-sw. 
+For more information on the APU Start, Refer to FCOM DSC-49-20 Overhead 
+Panel – Illustration. For more information on the APU Starter Limitations and 
+APU Operations during Refueling: Refer to FCOM LIM-APU APU Start; FCOM 
+LIM-APU APU Start / Shutdown during Refueling / Defueling. 
+AIR COND 
+ 
+Applicable to ALL 
+AIR COND 
+ 
+When the APU is AVAIL: 
+- APU BLEED pb-sw .......................................................................................... ON PM 
+Do not use APU BLEED, if ground personnel confirms that a LP or HP Ground Air 
+Unit is connected to the aircraft. 
+To determine if an HP Ground Air Unit is connected, the Flight Crew should also 
+check the ECAM BLEED SD page, if there is pressure in the Bleed Air system.  
+- All WHITE lights  ............................................................................................ OFF PM 
+- X BLEED selector ........................................................................................ AUTO PM 
+- ZONE TEMP selectors  ........................................................................ AS RQRD PM 
+Full range temperature 24 ± 6°C. 
+CARGO HEAT (if installed) 
+ 
+Applicable to ALL 
+CARGO HEAT  
+- TEMP selector ...................................................................................... AS RQRD PM 
+COCKPIT LIGHTS 
+ 
+Applicable to ALL 
+COCKPIT LIGHTS 
+* - COCKPIT lights  ......................................................................................... AS RQRD BOTH 
+Set INT LT, FLOOD LT, INTEG LT (included Glareshield and FCU). 
+
+=== PDF PAGE 30 ===
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+1.
+Предполетная подготовка
+1-10 
+Изменение: 05 
+25.11.2019 
+SOP. Предполетная подготовка 
+Перед использованием проверьте актуальность документа  
+на http://corporate.uralairlines.ru «Нормативные документы» 
+ECAM 
+Applicable to ALL 
+ECAM 
+* - RCL pb........................................................................................... PRESS (3 sec) PM
+This action recalls all the Warnings that the Flight Crew cleared or cancelled during 
+the last flight. 
+* - MEL (if required)  ....................................................................................... CHECK PM
+ On the DOOR SD page: 
+* - OXY .................................................................................. CHECK PRESSURE PM
+
+If the OXY pressure is half boxed in amber:
+MIN FLT CREW OXY chart.......................................... CHECK PRESSURE PM 
+Verify that the pressure is sufficient for the scheduled flight. Refer to FCOM 
+LIM-OXY Minimum Flight Crew Oxygen Pressure. 
+ On the HYD SD page: 
+* - RESERVOIR FLUID LEVEL ........................... CHECK with NORMAL RANGE PM
+Note: 
+The volume of the Hydraulic Fluid in the Reservoirs may change 
+with Outside Air Temperature. As a result, the Reservoir Fluid 
+level that appears on the HYD SD page may be outside of the 
+normal range with no “HYD RSVR LO AIR PR” or “HYD RSVR 
+LO LVL” Warning. If the Fluid level is outside of the normal 
+range, contact maintenance to determine if service is required. 
+ On the ENG SD page: 
+* - ENG OIL QUANTITY ............................................................ CHECK NORMAL PM
+Applicable to: MSN 00775-01152, 01484-01905, 02166-02327, 02349, 02623-2707, 02947-04728 
+(CFM56-5B)
+Check that the Oil Quantity is at or above 9.5 qt + estimated consumption, 
+(average estimated consumption is ~ 0.5 qt/h). 
+Applicable to: MSN 01199, 01941-02105, 02343, 02376-02590, 02862, 05055-07375 
+(V2500-A5) 
+Check that the Oil Quantity is at or above 11 qt + estimated consumption, 
+(average estimated consumption is ~ 0.3 qt/h).  
+Applicable to: MSN 08955-09169 
+(LEAP-1A)
+Check that the Oil Quantity is at or above 10.6 qt + estimated consumption, 
+(average estimated consumption is ~ 0.45 qt/h). 
+
+=== PDF PAGE 31 ===
+ 
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+1. 
+Предполетная подготовка 
+SOP. Предполетная подготовка 
+Изменение: 04 
+22.08.2019 
+1-11 
+Перед использованием проверьте актуальность документа  
+на http://corporate.uralairlines.ru «Нормативные документы» 
+ 
+PEDESTAL 
+ 
+Applicable to ALL 
+F/CTL 
+- FLAPS  .................................................................................... CHECK POSITION PM 
+Check the Upper ECAM display that the FLAPS position agrees with the Handle 
+position. 
+* - SPEEDBRAKE lever  .............................. CHECK RETRACTED and DISARMED PM 
+WARNING 
+If Flight Control surface positions do not agree with the Control 
+Handle positions, check with the Maintenance Crew before 
+applying Hydraulic Power. 
+ 
+PARKING BRAKE 
+ 
+Applicable to ALL 
+PARKING BRAKE 
+* - ACCU PRESS Indicator ........................................................................... CHECK PM 
+The ACCU PRESS indication must be in the Green band. If required use the Electric 
+pump on Yellow Hydraulic system to recharge the Brake Accumulator. 
+* - PARKING BRK handle .................................................................................... ON PM 
+When one Brake temperature is above 500°C, avoid applying the Parking Brake, 
+unless operationally necessary. 
+* - BRAKES PRESS Indicator ....................................................................... CHECK PM 
+Check for normal indications. 
+WARNING 
+Yellow and Green Hydraulic systems are pressurized from Yellow 
+Electric Pump. Get ground crew clearance before using the 
+Electric Pump. 
+
+=== PDF PAGE 32 ===
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+1.
+Предполетная подготовка
+1-12 
+Изменение: 05 
+25.11.2019 
+SOP. Предполетная подготовка 
+Перед использованием проверьте актуальность документа  
+на http://corporate.uralairlines.ru «Нормативные документы» 
+ALTERNATE BRAKING SYSTEM 
+Applicable to: MSN 00775-02349
+ALTERNATE BRAKING SYSTEM 
+Note: 
+The purpose of this check is to verify, before the first flight of the 
+day, the efficiency of the Alternate Braking system (absence of 
+"Spongy Pedals"). 
+- Y ELEC PUMP pb-sw ........................................................................ CHECK OFF PM 
+- CHOCKS..…………………………………………..……………….CHECK in PLACE PM 
+- PARK BRK handle  ........................................................................................ OFF PM 
+- BRAKE PEDALS  ...................................................................................... PRESS PM 
+Apply maximum pressure on both pedals. 
+- BRAKE PRESSURE (on BRAKE PRESS Indicator) .............................. CHECK PM 
+Pressure must build up without delay symmetrically on left and right sides for the 
+same application simultaneously applied on left and right pedals. With full Pedal 
+deflection, the pressure must be between 2000 and 2700 psi. 
+- BRAKE PEDALS  .................................................................................. RELEASE PM 
+- PARK BRK handle  .......................................................................................... ON PM 
+The Parking Brake must be ON during the Exterior Inspection to allow the flight crew 
+to check Brake Wear Indicators. 
+OEB 
+Applicable to ALL 
+OPERATIONS ENGINEERING BULLETINS (OEB) 
+* - OEB in QRH  ............................................................................................. CHECK PM
+Go to the OEB Section of the QRH and review all OEBs (particularly Red OEBs) that 
+are applicable to the aircraft. 
+Note: 
+If there is a transfer of duties during this flight, the flight crew must 
+remind the incoming flight crew of the applicable OEB(s) during 
+the briefing that is done when transferring the duties. 
+
+=== PDF PAGE 33 ===
+ 
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+1. 
+Предполетная подготовка 
+SOP. Предполетная подготовка 
+Изменение: 04 
+22.08.2019 
+1-13 
+Перед использованием проверьте актуальность документа  
+на http://corporate.uralairlines.ru «Нормативные документы» 
+ 
+EMERGENCY EQUIPMENT 
+ 
+Applicable to ALL 
+EMERGENCY EQUIPMENT 
+- EMER EQPT ............................................................................................ CHECK CM2 
+- 
+Check EMERGENCY EQUIPMENT LAYOUT Checklist availability; 
+- 
+Check availability of Equipment in accordance to EMERGENCY EQUIPMENT 
+LAYOUT Checklist and safety wired. 
+RAIN REPELLENT 
+ 
+Applicable to ALL 
+RAIN REPELLENT 
+- RAIN RPLNT indicators  ........................... CHECK PRESSURE and QUANTITY PM 
+CAUTION 
+Never use Rain Repellent to wash the Windshield and never 
+use it on a dry Windshield. 
+ 
+CIRCUIT BREAKERS PANELS 
+ 
+Applicable to ALL 
+CIRCUIT BREAKERS PANELS 
+- REAR and OVERHEAD CIRCUIT BREAKERS panels  .......................... CHECK PM 
+Check that all Circuit Breakers are set. Reset as necessary. 
+
+=== PDF PAGE 34 ===
+ 
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+1. 
+Предполетная подготовка 
+1-14 
+Изменение: 04 
+22.08.2019 
+SOP. Предполетная подготовка 
+Перед использованием проверьте актуальность документа  
+на http://corporate.uralairlines.ru «Нормативные документы» 
+ 
+STAFF PAPERS 
+ 
+Applicable to ALL 
+STAFF PAPERS 
+- STAFF PAPERS  ..................................................................................... CHECK CM2 
+Check following documents on board: 
+ 
+• FCOM volumes * 
+ 
+• QRH (in duplicate) 
+• Minimum Equipment List (MEL) 
+• Airplane Flight Manual (AFM) * 
+• Aircraft Damage Logbook with Dent and Buckle Chart 
+• Standard Operating Procedures * 
+• Certificates folder (Папка с сертификатами) 
+• Normal CHECKLIST (in duplicate) 
+• Ural Airlines OM (РПП ОАО «Уральские авиалинии») * 
+• Aircraft Technical Logbook (ATLB) with Deferred Defect 
+List (DDL) 
+ 
+* Subject to the approval this manual may be presented on board as electronic 
+form in OLB FlySmart application (version 5.1 or higher).  
+ 
+
+=== PDF PAGE 35 ===
+ 
+Стандартные эксплуатационные процедуры 
+Standard Operating Procedures 
+1. 
+Предполетная подготовка 
+SOP. Предполетная подготовка 
+Изменение: 04 
+22.08.2019 
+1-15 
+Перед использованием проверьте актуальность документа  
+на http://corporate.uralairlines.ru «Нормативные документы» 
+ 
+1.4. 
+CM1 EXTERIOR WALKAROUND 
+ 
+GENERAL 
+ 
+Applicable to ALL 
+The Exterior Walkaround ensures that the general condition of the aircraft is satisfactory 
+and that the visible aircraft components and equipment are safe for the flight: 
+ - There is no impact damage to the structure; 
+ - There is no evident fuel, oil, or hydraulic leak; 
+ - All ground access doors are closed. 
+Usually prior to the commencement of the Exterior Walkaround CM1 reviews the Aircraft 
+Technical Log Book at least for few previous flights and verifies that the Daily 
+Engineering Check has been completed, that any defects have been rectified and 
+signed off and the MEL reference quoted and Limitations complied with. Checks for any 
+relevant MEL / CDL requirements.  
+Whenever any Technical Documentation is not immediately available before the 
+Exterior Walkaround, the CM1 may perform the Walkaround first and refer to the 
+documentation later as convenient. 
+Having the Exterior Walkaround completed the CM1 checks Aircraft Damage Log Book, 
+Dent and Buckle Chart for correct rectification of any visible damages and repairs. 
+Complete Walkaround is performed by CM1 before each flight.  
+The Parking Brake must be set to ON during the Exterior Walkaround to allow the Flight 
+Crew to check Brake Wear Indicators. 
+WARNING 
+If any Landing Gear Door is open, do not apply Hydraulic 
+power until clearance is obtained from Ground personnel. 
+ 
+LANDING GEAR PINS AND COVERS 
+GEAR PINS and COVERS 
+ 
+Applicable to ALL 
+* - GEAR PINS and COVERS .......................... CHECK ONBOARD and STOWED CM1 
+Check that three are on board and stowed 
+ 
+
+=== PDF PAGE 214 ===
+ 
+Стандартные Эксплуатационные Процедуры 
+Standard Operating Procedures 
+6. 
+Приложения 
+6-34 
+Изменение: 04 
+22.08.2019 
+SOP. Приложения 
+Перед использованием проверьте актуальность документа  
+на http://corporate.uralairlines.ru «Нормативные документы» 
+ 
+WATER SYSTEM DRAINING 
+ 
+Applicable to ALL 
+Drain the water system, if the OAT requires it, as shown below: 
+CONFIGURATION 
+Exposure 
+time 
+Water Tank 
+drain 
+AIR COND 
+CABIN TEMP 
+Outside Air Temperature 
+ON 
+Above 10°C 
+Between 0°C and - 15°C 
+None 
+Not required 
+Below – 15°C  
+1 h 15 min 
+Required 
+OFF 
+ 
+Between 0°C and - 7°C 
+1 h 30 min 
+Between - 7°C and - 15°C 
+0 h 30 min 
+Below – 15°C  
+Any 
+Refer to FCOM PRO-NOR-SUP-ADVWXR-D For Draining Water Procedure. 

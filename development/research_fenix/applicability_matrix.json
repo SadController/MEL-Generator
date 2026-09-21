@@ -1,0 +1,4237 @@
+{
+  "metadata": {
+    "date": "2026-09-13",
+    "mmel": "FAA A320 MMEL Rev32, 2025-07-30",
+    "mmel_url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID152739505920250730144819.0001",
+    "fenix_version": "2.4.0.4720",
+    "runtime_tests": 0,
+    "approved_records": 0,
+    "top_level_item_count": 606,
+    "assessment_count": 133,
+    "status_counts": {
+      "U": 39,
+      "K": 48,
+      "X": 24,
+      "N": 22
+    },
+    "meaning": "Research triage. Not a parsed MMEL subitem catalogue or dispatch approval."
+  },
+  "assessments": [
+    {
+      "mmel_id": "21-21-01",
+      "branch": "one cabin fan",
+      "mmel_title": "Cabin Fans",
+      "printed_pages": [
+        "21-2"
+      ],
+      "pdf_pages": [
+        29
+      ],
+      "fenix_names": [
+        "Recirculation fans"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "MMEL допускает один из двух; старое имя во множественном числе не устанавливает, один или оба вентилятора выключает Fenix.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Recirculation fans": [
+          12
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F001"
+    },
+    {
+      "mmel_id": "21-23-01",
+      "branch": "1) / 2)",
+      "mmel_title": "Lavatory and Galley Extraction Fan",
+      "printed_pages": [
+        "21-2"
+      ],
+      "pdf_pages": [
+        29
+      ],
+      "fenix_names": [
+        "Lavatory/Galley fan"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Совпадает компонент; выбрать ветвь Mod.22561, проверить последствия для smoke detection.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Lavatory/Galley fan": [
+          10
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F002"
+    },
+    {
+      "mmel_id": "21-26-01",
+      "branch": "Blower Fan",
+      "mmel_title": "Blower Fan",
+      "printed_pages": [
+        "21-3"
+      ],
+      "pdf_pages": [
+        30
+      ],
+      "fenix_names": [
+        "Ventilation blower fault"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Не объединять с Extract fan или Pack: MMEL требует их исправности.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Ventilation blower fault": [
+          14
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F003"
+    },
+    {
+      "mmel_id": "21-26-02",
+      "branch": "Extract Fan",
+      "mmel_title": "Extract Fan",
+      "printed_pages": [
+        "21-4",
+        "21-5"
+      ],
+      "pdf_pages": [
+        31,
+        32
+      ],
+      "fenix_names": [
+        "Ventilation extract fault"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Не объединять с Blower fan или Pack; существуют ограничения температуры и времени на земле.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Ventilation extract fault": [
+          14
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F004"
+    },
+    {
+      "mmel_id": "21-26-04",
+      "branch": "Skin Air Outlet Valve",
+      "mmel_title": "Skin Air Outlet Valve",
+      "printed_pages": [
+        "21-5"
+      ],
+      "pdf_pages": [
+        32
+      ],
+      "fenix_names": [
+        "Vent extract valve"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Уточнить тождество клапана и его положение. Не путать с отказом вытяжного вентилятора.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Vent extract valve": [
+          14
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F005"
+    },
+    {
+      "mmel_id": "21-26-05",
+      "branch": "Skin Air Inlet Valve",
+      "mmel_title": "Skin Air Inlet Valve",
+      "printed_pages": [
+        "21-6"
+      ],
+      "pdf_pages": [
+        33
+      ],
+      "fenix_names": [
+        "Vent inlet valve"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Нужно подтвердить положение, требуемое выбранной строкой MMEL.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Vent inlet valve": [
+          14
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F006"
+    },
+    {
+      "mmel_id": "21-26-10",
+      "branch": "AEVC",
+      "mmel_title": "Avionics Equipment Ventilation Computer (AEVC)",
+      "printed_pages": [
+        "21-7"
+      ],
+      "pdf_pages": [
+        34
+      ],
+      "fenix_names": [
+        "Ventilation AEVC"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Совпадает компьютер; отключение компьютера не заменяет проверку вентиляторов и положений клапанов.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Ventilation AEVC": [
+          14
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F007"
+    },
+    {
+      "mmel_id": "21-28-02",
+      "branch": "Forward Cargo Isolation Valves",
+      "mmel_title": "Forward Cargo Isolation Valves",
+      "printed_pages": [
+        "21-9"
+      ],
+      "pdf_pages": [
+        36
+      ],
+      "fenix_names": [
+        "Cargo fwd isolation valve downstream",
+        "Cargo fwd isolation valve upstream"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Только если передняя cargo ventilation установлена. Нужны фактические положения клапанов.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Cargo fwd isolation valve downstream": [
+          4
+        ],
+        "Cargo fwd isolation valve upstream": [
+          4
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F008"
+    },
+    {
+      "mmel_id": "21-28-05",
+      "branch": "Aft Cargo Isolation Valves",
+      "mmel_title": "Aft Cargo Isolation Valves",
+      "printed_pages": [
+        "21-10"
+      ],
+      "pdf_pages": [
+        37
+      ],
+      "fenix_names": [
+        "Cargo aft isolation valve downstream",
+        "Cargo aft isolation valve upstream"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Учитывать комплектацию cargo ventilation и положение клапана.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Cargo aft isolation valve downstream": [
+          4
+        ],
+        "Cargo aft isolation valve upstream": [
+          4
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F009"
+    },
+    {
+      "mmel_id": "21-31-01",
+      "branch": "1) System 1",
+      "mmel_title": "Automatic Cabin Pressure Control Systems (CPC, Outflow Valve AUTO Channels)",
+      "printed_pages": [
+        "21-10"
+      ],
+      "pdf_pages": [
+        37
+      ],
+      "fenix_names": [
+        "CPC 1"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "CPC1 и CPC2 имеют разные сроки/условия. Оба канала FCU и оставшийся CPC должны работать.",
+      "fenix_evidence": "ALPHA_2021 + SUPPORT_2026_SCREENSHOT_DATED_2024",
+      "alpha_pdf_pages": {
+        "CPC 1": [
+          4
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F010"
+    },
+    {
+      "mmel_id": "21-31-01",
+      "branch": "2) System 2",
+      "mmel_title": "Automatic Cabin Pressure Control Systems (CPC, Outflow Valve AUTO Channels)",
+      "printed_pages": [
+        "21-10"
+      ],
+      "pdf_pages": [
+        37
+      ],
+      "fenix_names": [
+        "CPC 2"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Проверить ручной режим и индикацию; CPC1 и оба канала FCU должны работать.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "CPC 2": [
+          4
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F011"
+    },
+    {
+      "mmel_id": "21-31-01",
+      "branch": "AUTO channels vs stuck outflow",
+      "mmel_title": "Automatic Cabin Pressure Control Systems (CPC, Outflow Valve AUTO Channels)",
+      "printed_pages": [
+        "21-10"
+      ],
+      "pdf_pages": [
+        37
+      ],
+      "fenix_names": [
+        "Outflow valve stuck"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Заклинивание клапана не равно отказу автоматического канала CPC: может затронуть и ручное управление.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Outflow valve stuck": [
+          11
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F012"
+    },
+    {
+      "mmel_id": "21-51-01",
+      "branch": "without Mod.30626",
+      "mmel_title": "Pack Flow Control Valves (Without Mod. 30626/ MP K6443 (Enhanced ECS))",
+      "printed_pages": [
+        "21-13"
+      ],
+      "pdf_pages": [
+        40
+      ],
+      "fenix_names": [
+        "Pack 1 flow control valve",
+        "Pack 2 flow control valve"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Для обычной однопаковой ветви клапан должен быть закрыт; Fenix фиксирует текущее положение. Также применить 21-52-01.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Pack 1 flow control valve": [
+          11
+        ],
+        "Pack 2 flow control valve": [
+          11
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F013"
+    },
+    {
+      "mmel_id": "21-52-01",
+      "branch": "single pack, exact configuration pending",
+      "mmel_title": "Packs",
+      "printed_pages": [
+        "21-14",
+        "21-15",
+        "21-16",
+        "21-17",
+        "21-18",
+        "21-19",
+        "21-20",
+        "21-21",
+        "21-22",
+        "21-23"
+      ],
+      "pdf_pages": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "fenix_names": [
+        "Pack 1 regulator fault",
+        "Pack 2 regulator fault"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Кандидат на неработающий pack, но отказ регулятора может оставлять резервное управление. Проверить реальный результат и ветвь ECS/модели.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Pack 1 regulator fault": [
+          11
+        ],
+        "Pack 2 regulator fault": [
+          11
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F014"
+    },
+    {
+      "mmel_id": "21-52-01",
+      "branch": "pack failure vs indication sensor",
+      "mmel_title": "Packs",
+      "printed_pages": [
+        "21-14",
+        "21-15",
+        "21-16",
+        "21-17",
+        "21-18",
+        "21-19",
+        "21-20",
+        "21-21",
+        "21-22",
+        "21-23"
+      ],
+      "pdf_pages": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "fenix_names": [
+        "Pack 1 overheat",
+        "Pack 2 overheat"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "В alpha описание указывает отказ датчика температуры. Нельзя автоматически считать весь pack неработающим.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Pack 1 overheat": [
+          11
+        ],
+        "Pack 2 overheat": [
+          11
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F015"
+    },
+    {
+      "mmel_id": "21-55-01",
+      "branch": "Emergency Ram Air Inlet",
+      "mmel_title": "Emergency Ram Air Inlet",
+      "printed_pages": [
+        "21-24"
+      ],
+      "pdf_pages": [
+        51
+      ],
+      "fenix_names": [
+        "Ram air valve"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Уточнить клапан и положение; не смешивать с ram-air flaps теплообменника pack.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Ram air valve": [
+          12
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F016"
+    },
+    {
+      "mmel_id": "21-63-01",
+      "branch": "1) Primary / 2) Secondary, without Mod.30626",
+      "mmel_title": "Zone Controller System (A319, A320, A321) (Without Mod. 30626)",
+      "printed_pages": [
+        "21-25"
+      ],
+      "pdf_pages": [
+        52
+      ],
+      "fenix_names": [
+        "Zone controller primary",
+        "Zone controller secondary"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Подпункты имеют разные последствия. Не переносить в enhanced ECS без отдельного подтверждения.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Zone controller primary": [
+          15
+        ],
+        "Zone controller secondary": [
+          15
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F017"
+    },
+    {
+      "mmel_id": "21-63-03",
+      "branch": "Hot Air Pressure Regulating Valve",
+      "mmel_title": "Hot Air Pressure Regulating Valve",
+      "printed_pages": [
+        "21-27"
+      ],
+      "pdf_pages": [
+        54
+      ],
+      "fenix_names": [
+        "Hot air valve"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Сначала установить фактическое положение клапана и работоспособность trim-air; общий Hot air fault недостаточен.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Hot air valve": [
+          9
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F018"
+    },
+    {
+      "mmel_id": "22-10-01",
+      "branch": "Autopilot Systems",
+      "mmel_title": "Autopilot Systems",
+      "printed_pages": [
+        "22-1"
+      ],
+      "pdf_pages": [
+        57
+      ],
+      "fenix_names": [
+        "AP 1",
+        "AP 2"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Отказ AP-функции при сохранённом FD. Не заменять отказом всего FMGC; выбрать строку для одного либо двух AP.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "AP 1": [
+          3
+        ],
+        "AP 2": [
+          3
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F019"
+    },
+    {
+      "mmel_id": "22-30-01",
+      "branch": "Autothrust Function",
+      "mmel_title": "Autothrust Function",
+      "printed_pages": [
+        "22-3"
+      ],
+      "pdf_pages": [
+        59
+      ],
+      "fenix_names": [
+        "A/THR 1",
+        "A/THR 2"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Отказ A/THR-функции одного FMGC может оставлять общий autothrust работоспособным. Нужно проверить фактическую потерю функции.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "A/THR 1": [
+          2
+        ],
+        "A/THR 2": [
+          2
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F020"
+    },
+    {
+      "mmel_id": "22-63-01",
+      "branch": "1) System 1 / 2) System 2",
+      "mmel_title": "Yaw Dampers",
+      "printed_pages": [
+        "22-4"
+      ],
+      "pdf_pages": [
+        60
+      ],
+      "fenix_names": [
+        "Yaw damper channel 1",
+        "Yaw damper channel 2"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Раздельные ветви; второй демпфер должен работать.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Yaw damper channel 1": [
+          15
+        ],
+        "Yaw damper channel 2": [
+          15
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F021"
+    },
+    {
+      "mmel_id": "22-66-01",
+      "branch": "1) FAC 2, without eRudder",
+      "mmel_title": "Flight Augmentation Computers (FAC)",
+      "printed_pages": [
+        "22-4"
+      ],
+      "pdf_pages": [
+        60
+      ],
+      "fenix_names": [
+        "FAC 2"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Разрешение относится именно к FAC2, при исправности перечисленных систем управления и навигации.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "FAC 2": [
+          7
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F022"
+    },
+    {
+      "mmel_id": "22-66-01",
+      "branch": "FAC 1 is not the permitted FAC 2",
+      "mmel_title": "Flight Augmentation Computers (FAC)",
+      "printed_pages": [
+        "22-4"
+      ],
+      "pdf_pages": [
+        60
+      ],
+      "fenix_names": [
+        "FAC 1"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Наличие FAC1 в Fenix не даёт допуска: подпункт FAA указан для FAC2, отдельно описано последствие потери FAC1.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "FAC 1": [
+          7
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F023"
+    },
+    {
+      "mmel_id": "22-66-03",
+      "branch": "Reactive windshear branch",
+      "mmel_title": "Windshear Detection/Guidance and Avoidance Systems",
+      "printed_pages": [
+        "22-5"
+      ],
+      "pdf_pages": [
+        61
+      ],
+      "fenix_names": [
+        "Reactive W/S det channel 1",
+        "Reactive W/S det channel 2"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Отделить reactive от predictive windshear; проверить, какой уровень системы теряется после одного канала.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Reactive W/S det channel 1": [
+          12
+        ],
+        "Reactive W/S det channel 2": [
+          12
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F024"
+    },
+    {
+      "mmel_id": "22-81-01",
+      "branch": "1) one FCU channel, without eRudder",
+      "mmel_title": "FCU",
+      "printed_pages": [
+        "22-7"
+      ],
+      "pdf_pages": [
+        63
+      ],
+      "fenix_names": [
+        "FCU Channel 1",
+        "FCU Channel 2"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "В MMEL требуется исправность CPC, FAC, RA, LGCIU, ADIRS и всех DU; многие пары отказов исключаются.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "FCU Channel 1": [
+          7
+        ],
+        "FCU Channel 2": [
+          7
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F025"
+    },
+    {
+      "mmel_id": "22-82-01",
+      "branch": "MCDU",
+      "mmel_title": "Multipurpose Control Display Units (MCDU)",
+      "printed_pages": [
+        "22-12"
+      ],
+      "pdf_pages": [
+        68
+      ],
+      "fenix_names": [
+        "MCDU 1",
+        "MCDU 2"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Проверить количество установленных устройств и оставшиеся способы управления; не использовать recoverable fault как постоянный дефект без проверки.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "MCDU 1": [
+          4,
+          11
+        ],
+        "MCDU 2": [
+          4,
+          11
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F026"
+    },
+    {
+      "mmel_id": "22-83-01",
+      "branch": "1) FMGC1 / 2) FMGC2",
+      "mmel_title": "Flight Management Guidance Computer (FMGC)",
+      "printed_pages": [
+        "22-12",
+        "22-13"
+      ],
+      "pdf_pages": [
+        68,
+        69
+      ],
+      "fenix_names": [
+        "FMGC 1",
+        "FMGC 2"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Потеря AP/FD относится к последствиям того же FMGC. Не считать их дополнительными независимыми отказами.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "FMGC 1": [
+          2,
+          7
+        ],
+        "FMGC 2": [
+          2,
+          7
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F027"
+    },
+    {
+      "mmel_id": "23-71-01",
+      "branch": "CVR system",
+      "mmel_title": "Cockpit Voice Recorder System (CVR)",
+      "printed_pages": [
+        "23-17"
+      ],
+      "pdf_pages": [
+        86
+      ],
+      "fenix_names": [
+        "CVR"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Совпадает компонент; ограничения выбранной строки FAA сохраняются. Подтверждение записи звука в симуляторе отсутствует.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "CVR": [
+          4
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F028"
+    },
+    {
+      "mmel_id": "24-20-01",
+      "branch": "one engine generator channel, CEO branch",
+      "mmel_title": "Engine Driven Generator Channel (IDG, GCU, Line Contactor)",
+      "printed_pages": [
+        "24-2",
+        "24-3",
+        "24-4",
+        "24-5",
+        "24-6",
+        "24-7",
+        "24-8",
+        "24-9",
+        "24-10",
+        "24-11",
+        "24-12",
+        "24-13"
+      ],
+      "pdf_pages": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "fenix_names": [
+        "Generator 1",
+        "Generator 2"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Нужна ветвь CEO и проверка резервных источников. Отказ AC BUS не эквивалентен отказу генератора.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Generator 1": [
+          8
+        ],
+        "Generator 2": [
+          8
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F029"
+    },
+    {
+      "mmel_id": "24-20-02",
+      "branch": "APU generator, CEO/configuration branch",
+      "mmel_title": "APU Generator Channel",
+      "printed_pages": [
+        "24-14",
+        "24-15",
+        "24-16",
+        "24-17",
+        "24-18",
+        "24-19"
+      ],
+      "pdf_pages": [
+        112,
+        113,
+        114,
+        115,
+        116,
+        117
+      ],
+      "fenix_names": [
+        "APU generator"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Отдельно от общего отказа APU; сверить условия выбранной модификации.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "APU generator": [
+          3
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F030"
+    },
+    {
+      "mmel_id": "24-30-01",
+      "branch": "TR1",
+      "mmel_title": "Transformer/Rectifier Units (TR)",
+      "printed_pages": [
+        "24-21"
+      ],
+      "pdf_pages": [
+        119
+      ],
+      "fenix_names": [
+        "TR 1"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Допуск касается TR1; исправность packs/extract и остальных источников остаётся условием.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "TR 1": [
+          14
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F031"
+    },
+    {
+      "mmel_id": "24-30-01",
+      "branch": "TR2, without/with Mod.27620",
+      "mmel_title": "Transformer/Rectifier Units (TR)",
+      "printed_pages": [
+        "24-21"
+      ],
+      "pdf_pages": [
+        119
+      ],
+      "fenix_names": [
+        "TR 2"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Обнаружена ошибка заголовка в исходном PDF на 24-22: текст о TR2 стоит под 24-27-09. Не исправлять молча; ветвь с ISIS требует уточнения.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "TR 2": [
+          14
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F032"
+    },
+    {
+      "mmel_id": "24-30-01",
+      "branch": "ESS TR is not TR1/TR2",
+      "mmel_title": "Transformer/Rectifier Units (TR)",
+      "printed_pages": [
+        "24-21"
+      ],
+      "pdf_pages": [
+        119
+      ],
+      "fenix_names": [
+        "ESS TR failure"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Разрешения прочитанного пункта относятся к TR1/TR2; перенос на ESS TR не подтверждён.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "ESS TR failure": [
+          7
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F033"
+    },
+    {
+      "mmel_id": "26-12-01",
+      "branch": "1) Loop A / 2) Loop B",
+      "mmel_title": "Engine Fire Detection Systems",
+      "printed_pages": [
+        "26-2"
+      ],
+      "pdf_pages": [
+        156
+      ],
+      "fenix_names": [
+        "Eng 1 Loop A",
+        "Eng 1 Loop B",
+        "Eng 2 Loop A",
+        "Eng 2 Loop B"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Один loop на двигатель при исправном другом. Реальный пожар или отказ всего FDU — другие состояния.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Eng 1 Loop A": [
+          6
+        ],
+        "Eng 1 Loop B": [
+          6
+        ],
+        "Eng 2 Loop A": [
+          6
+        ],
+        "Eng 2 Loop B": [
+          7
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F034"
+    },
+    {
+      "mmel_id": "26-13-01",
+      "branch": "1) APU loops",
+      "mmel_title": "APU Fire Detection System",
+      "printed_pages": [
+        "26-2",
+        "26-3"
+      ],
+      "pdf_pages": [
+        156,
+        157
+      ],
+      "fenix_names": [
+        "APU Loop A",
+        "APU Loop B"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Loop A/B имеют разные условия наземного наблюдения. Отказ обоих относится к другим строкам с неиспользуемым APU.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "APU Loop A": [
+          3
+        ],
+        "APU Loop B": [
+          3
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F035"
+    },
+    {
+      "mmel_id": "26-17-02",
+      "branch": "SDCU, installed standard",
+      "mmel_title": "Smoke Detection Control Unit (SDCU) (A319/A320/A321) (Without Mod. 30354 or without Mod. 33100)",
+      "printed_pages": [
+        "26-7"
+      ],
+      "pdf_pages": [
+        161
+      ],
+      "fenix_names": [
+        "SDCU"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Проверить CIDS/SDCU стандарт и охват потерянных каналов; не отождествлять с фактическим дымом.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "SDCU": [
+          13
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F036"
+    },
+    {
+      "mmel_id": "27-22-01",
+      "branch": "Rudder Trim Systems",
+      "mmel_title": "Rudder Trim Systems",
+      "printed_pages": [
+        "27-6"
+      ],
+      "pdf_pages": [
+        178
+      ],
+      "fenix_names": [
+        "Rudder trim channel 1",
+        "Rudder trim channel 2"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Выбирать конкретный канал и проверять оставшееся управление.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Rudder trim channel 1": [
+          13
+        ],
+        "Rudder trim channel 2": [
+          13
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F037"
+    },
+    {
+      "mmel_id": "27-23-01",
+      "branch": "one system, without eRudder",
+      "mmel_title": "Rudder Travel Limiter Systems (Aircraft without Mod 163323/ MP P20703 (eRudder))",
+      "printed_pages": [
+        "27-6"
+      ],
+      "pdf_pages": [
+        178
+      ],
+      "fenix_names": [
+        "Rudder travel limiter channel 1",
+        "Rudder travel limiter channel 2"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "MMEL допускает один из двух. В руководстве Fenix 2025 есть снимок активированного канала1.",
+      "fenix_evidence": "ALPHA_2021 + LOCAL_GUIDE_2025_P21",
+      "alpha_pdf_pages": {
+        "Rudder travel limiter channel 1": [
+          13
+        ],
+        "Rudder travel limiter channel 2": [
+          13
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F038"
+    },
+    {
+      "mmel_id": "27-51-01",
+      "branch": "1)a) SFCC2 flap / 2)a) SFCC2 slat",
+      "mmel_title": "Slat/Flap Control Computer (SFCC)",
+      "printed_pages": [
+        "27-8",
+        "27-9",
+        "27-10"
+      ],
+      "pdf_pages": [
+        180,
+        181,
+        182
+      ],
+      "fenix_names": [
+        "SFCC 2 flap sys",
+        "SFCC 2 slat sys"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Для CEO документ называет канал SFCC2. Не переносить на SFCC1 или целиком SFCC2; условия испытаний WTB сохраняются.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "SFCC 2 flap sys": [
+          13
+        ],
+        "SFCC 2 slat sys": [
+          13
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F039"
+    },
+    {
+      "mmel_id": "27-51-01",
+      "branch": "SFCC1/full computer vs permitted channel",
+      "mmel_title": "Slat/Flap Control Computer (SFCC)",
+      "printed_pages": [
+        "27-8",
+        "27-9",
+        "27-10"
+      ],
+      "pdf_pages": [
+        180,
+        181,
+        182
+      ],
+      "fenix_names": [
+        "SFCC 1",
+        "SFCC 2"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Общий отказ компьютера шире отдельного разрешённого канала. Нельзя автоматически применить один подпункт.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "SFCC 1": [
+          13
+        ],
+        "SFCC 2": [
+          13
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F040"
+    },
+    {
+      "mmel_id": "27-93-01",
+      "branch": "1) / 2) ELAC1",
+      "mmel_title": "Elevator Aileron Computers (ELAC)",
+      "printed_pages": [
+        "27-22",
+        "27-23"
+      ],
+      "pdf_pages": [
+        194,
+        195
+      ],
+      "fenix_names": [
+        "ELAC 1"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "ELAC1; ветвь зависит от модели/модификаций. ELAC2 и остальные перечисленные системы должны работать.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "ELAC 1": [
+          5
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F041"
+    },
+    {
+      "mmel_id": "27-93-01",
+      "branch": "ELAC2 vs permitted ELAC1",
+      "mmel_title": "Elevator Aileron Computers (ELAC)",
+      "printed_pages": [
+        "27-22",
+        "27-23"
+      ],
+      "pdf_pages": [
+        194,
+        195
+      ],
+      "fenix_names": [
+        "ELAC 2"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Прочитанные разрешения относятся к ELAC1 либо его функции; симметрия по номеру недопустима.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "ELAC 2": [
+          5
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F042"
+    },
+    {
+      "mmel_id": "27-94-01",
+      "branch": "1) SEC1 / 2) SEC2 / 3) SEC3",
+      "mmel_title": "Spoiler Elevator Computers (SEC)",
+      "printed_pages": [
+        "27-25",
+        "27-26",
+        "27-27",
+        "27-28",
+        "27-29",
+        "27-30",
+        "27-31",
+        "27-32",
+        "27-33",
+        "27-34",
+        "27-35"
+      ],
+      "pdf_pages": [
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207
+      ],
+      "fenix_names": [
+        "SEC 1",
+        "SEC 2",
+        "SEC 3"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Нужны разные записи по SEC и комплектации. Для A320 Sharklets выделены отдельные подпункты; применяются требования к характеристикам AFM.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "SEC 1": [
+          13
+        ],
+        "SEC 2": [
+          13
+        ],
+        "SEC 3": [
+          13
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F043"
+    },
+    {
+      "mmel_id": "27-95-01",
+      "branch": "FCDC2 only",
+      "mmel_title": "Flight Control Data Concentrators",
+      "printed_pages": [
+        "27-37"
+      ],
+      "pdf_pages": [
+        209
+      ],
+      "fenix_names": [
+        "FCDC 2"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "FAA разрешает FCDC2. Ветвь зависит от Mod.35542/steep approach; не смешивать с ELAC/SEC.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "FCDC 2": [
+          7
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F044"
+    },
+    {
+      "mmel_id": "27-95-01",
+      "branch": "FCDC1 not covered by FCDC2 relief",
+      "mmel_title": "Flight Control Data Concentrators",
+      "printed_pages": [
+        "27-37"
+      ],
+      "pdf_pages": [
+        209
+      ],
+      "fenix_names": [
+        "FCDC 1"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Нельзя переносить разрешение FCDC2 на FCDC1.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "FCDC 1": [
+          7
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F045"
+    },
+    {
+      "mmel_id": "28-15-01",
+      "branch": "1)a) LH / 1)b) RH",
+      "mmel_title": "Outer to Inner TK Transfer Valves",
+      "printed_pages": [
+        "28-4",
+        "28-5"
+      ],
+      "pdf_pages": [
+        213,
+        214
+      ],
+      "fenix_names": [
+        "Left transfer 1",
+        "Left transfer 2",
+        "Right transfer 1",
+        "Right transfer 2"
+      ],
+      "status": "U",
+      "models": "A319/A320 CEO; A321 исключён",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Только outer-to-inner transfer: состояние открыто/закрыто определяет строку; не относится к A321.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Left transfer 1": [
+          11
+        ],
+        "Left transfer 2": [
+          11
+        ],
+        "Right transfer 1": [
+          13
+        ],
+        "Right transfer 2": [
+          13
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F046"
+    },
+    {
+      "mmel_id": "28-21-01",
+      "branch": "Wing Tank Pumps",
+      "mmel_title": "Wing Tank Pumps (Aircraft Fitted with Mod. 36387/MP J2487 or Aircraft Not Specified in Service Bulletin A320-28-1102)",
+      "printed_pages": [
+        "28-6",
+        "28-7"
+      ],
+      "pdf_pages": [
+        215,
+        216
+      ],
+      "fenix_names": [
+        "Fuel pump left 1",
+        "Fuel pump left 2",
+        "Fuel pump right 1",
+        "Fuel pump right 2"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Уточнить Mod.36387/SB и число исправных насосов. Не отождествлять с утечкой бака.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Fuel pump left 1": [
+          8
+        ],
+        "Fuel pump left 2": [
+          8
+        ],
+        "Fuel pump right 1": [
+          8
+        ],
+        "Fuel pump right 2": [
+          8
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F047"
+    },
+    {
+      "mmel_id": "28-21-02",
+      "branch": "1)a) electric center pumps, no ACT",
+      "mmel_title": "Center Tank Systems",
+      "printed_pages": [
+        "28-7",
+        "28-8",
+        "28-9",
+        "28-10"
+      ],
+      "pdf_pages": [
+        216,
+        217,
+        218,
+        219
+      ],
+      "fenix_names": [
+        "Fuel pump center 1",
+        "Fuel pump center 2"
+      ],
+      "status": "U",
+      "models": "A319/A320 CEO без transfer jet-pumps и без ACT",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Только A319/A320 без Mod.154327. Для A321 требуются ветви transfer valves, а не этот отказ.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Fuel pump center 1": [
+          8
+        ],
+        "Fuel pump center 2": [
+          8
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F048"
+    },
+    {
+      "mmel_id": "28-21-02",
+      "branch": "2)b) / 2)c) transfer valves",
+      "mmel_title": "Center Tank Systems",
+      "printed_pages": [
+        "28-7",
+        "28-8",
+        "28-9",
+        "28-10"
+      ],
+      "pdf_pages": [
+        216,
+        217,
+        218,
+        219
+      ],
+      "fenix_names": [],
+      "status": "U",
+      "models": "A321 CEO; A319/A320 с Mod.154327",
+      "engines": "CFM56 / IAE V2500",
+      "note": "В MMEL применимо к A321 и соответствующим A319/A320, но актуальное имя отдельного отказа Fenix не получено.",
+      "fenix_evidence": "FAA_ONLY",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F049"
+    },
+    {
+      "mmel_id": "28-23-02",
+      "branch": "pushbutton lights vs crossfeed valve",
+      "mmel_title": "CROSSFEED pb Switch",
+      "printed_pages": [
+        "28-14"
+      ],
+      "pdf_pages": [
+        223
+      ],
+      "fenix_names": [
+        "Crossfeed valve"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "В FAA 28-23-02 относится к кнопке/лампам. Заклинивание crossfeed нельзя подменять неисправностью его индикации.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Crossfeed valve": [
+          4
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F050"
+    },
+    {
+      "mmel_id": "28-40-02",
+      "branch": "1) one FQI channel",
+      "mmel_title": "Fuel Quantity Indicating Computer System",
+      "printed_pages": [
+        "28-30",
+        "28-31"
+      ],
+      "pdf_pages": [
+        239,
+        240
+      ],
+      "fenix_names": [
+        "FQI Chan 1",
+        "FQI Chan 2"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Сверить модификацию и ACT; отказ канала отличается от отдельной ошибки индикации количества.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "FQI Chan 1": [
+          8
+        ],
+        "FQI Chan 2": [
+          8
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F051"
+    },
+    {
+      "mmel_id": "29-10-01",
+      "branch": "depressurization vs failed engine pump",
+      "mmel_title": "Engine Driven Pump Depressurization Function",
+      "printed_pages": [
+        "29-1"
+      ],
+      "pdf_pages": [
+        264
+      ],
+      "fenix_names": [
+        "Eng 1 pump failure",
+        "Eng 2 pump failure"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Разрешение относится к функции разгрузки, а не потере подачи гидронасоса.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Eng 1 pump failure": [
+          6
+        ],
+        "Eng 2 pump failure": [
+          7
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F052"
+    },
+    {
+      "mmel_id": "29-10-02",
+      "branch": "1) automatic control vs total pump failure",
+      "mmel_title": "Blue System Electric Pump",
+      "printed_pages": [
+        "29-1"
+      ],
+      "pdf_pages": [
+        264
+      ],
+      "fenix_names": [
+        "Elec hyd pump blue failure"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "MMEL требует сохранения ручной работы насоса. Полный отказ Blue electric pump этому не соответствует.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Elec hyd pump blue failure": [
+          5
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F053"
+    },
+    {
+      "mmel_id": "29-23-01",
+      "branch": "1) automatic activation vs total PTU failure",
+      "mmel_title": "Power Transfer Unit",
+      "printed_pages": [
+        "29-3"
+      ],
+      "pdf_pages": [
+        266
+      ],
+      "fenix_names": [
+        "PTU Fault"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "FAA рассматривает отказ автоматики при непрерывной работе PTU; передача мощности должна сохраняться. Общий PTU Fault не эквивалентен.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "PTU Fault": [
+          12
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F054"
+    },
+    {
+      "mmel_id": "29-25-01",
+      "branch": "Yellow System Electric Pump",
+      "mmel_title": "Yellow System Electric Pump",
+      "printed_pages": [
+        "29-3"
+      ],
+      "pdf_pages": [
+        266
+      ],
+      "fenix_names": [
+        "Elec hyd pump yellow failure"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Прямой кандидат на отказ насоса; кнопка OFF, cargo doors требуют ручного обслуживания по MMEL.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Elec hyd pump yellow failure": [
+          5
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F055"
+    },
+    {
+      "mmel_id": "29-30-03",
+      "branch": "indication vs hydraulic leak",
+      "mmel_title": "ECAM HYD Page Indications",
+      "printed_pages": [
+        "29-4",
+        "29-5"
+      ],
+      "pdf_pages": [
+        267,
+        268
+      ],
+      "fenix_names": [
+        "Green hydraulic leak",
+        "Blue hydraulic leak",
+        "Yellow hydraulic leak"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Пункт об индикации HYD не разрешает реальную потерю жидкости. Наличие утечки в Fenix подтверждено также руководством 2025.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Green hydraulic leak": [
+          8
+        ],
+        "Blue hydraulic leak": [
+          3
+        ],
+        "Yellow hydraulic leak": [
+          15
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F056"
+    },
+    {
+      "mmel_id": "30-11-01",
+      "branch": "wing anti-ice valve",
+      "mmel_title": "Wing Anti-Ice Control Valves",
+      "printed_pages": [
+        "30-1",
+        "30-2",
+        "30-3"
+      ],
+      "pdf_pages": [
+        271,
+        272,
+        273
+      ],
+      "fenix_names": [
+        "Left WAI Valve",
+        "Right WAI Valve"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Разрешённые позиции и условия различны; stuck in current position нужно перевести в проверенный конкретный сценарий.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Left WAI Valve": [
+          11
+        ],
+        "Right WAI Valve": [
+          13
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F057"
+    },
+    {
+      "mmel_id": "30-21-01",
+      "branch": "CEO valve, CFM/IAE rows",
+      "mmel_title": "Engine Anti-Ice Valves (A318/A319ceo/ A320ceo/A321ceo) (A318/A319ceo/ A320ceo/A321ceo with CFM or PW6000 engines) (A319ceo/A320ceo/ A321ceo with IAE engines) (A319neo/A320neo/ A321neo) (A319neo/A320neo/ A321neo) (A319neo/A320neo/ A321neo with CFM LEAP1-A Engines)",
+      "printed_pages": [
+        "30-5"
+      ],
+      "pdf_pages": [
+        275
+      ],
+      "fenix_names": [
+        "Eng 1 EAI Valve",
+        "Eng 2 EAI Valve"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Сначала определить открыто/закрыто. Ветка IAE при открытом клапане имеет дополнительное условие OAT; neo-ветви исключены.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Eng 1 EAI Valve": [
+          5
+        ],
+        "Eng 2 EAI Valve": [
+          6
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F058"
+    },
+    {
+      "mmel_id": "30-31-01",
+      "branch": "2) F/O or STBY loss of heating",
+      "mmel_title": "Probe Heat Computers",
+      "printed_pages": [
+        "30-7"
+      ],
+      "pdf_pages": [
+        277
+      ],
+      "fenix_names": [
+        "PHC 2",
+        "PHC 3"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Alpha определяет PHC как потерю обогрева: не использовать строку1, где обогрев должен оставаться исправным. Для F/O/STBY читать специальные строки.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "PHC 2": [
+          11
+        ],
+        "PHC 3": [
+          11
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F059"
+    },
+    {
+      "mmel_id": "30-31-01",
+      "branch": "1) retained heater operation vs PHC1 loss",
+      "mmel_title": "Probe Heat Computers",
+      "printed_pages": [
+        "30-7"
+      ],
+      "pdf_pages": [
+        277
+      ],
+      "fenix_names": [
+        "PHC 1"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Alpha PHC1 выключает обогрев CAPT. Строка1 требует исправный соответствующий heater; эквивалентность не доказана.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "PHC 1": [
+          11
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F060"
+    },
+    {
+      "mmel_id": "30-31-02",
+      "branch": "CAPT / F/O / STBY",
+      "mmel_title": "Pitot Heaters",
+      "printed_pages": [
+        "30-8"
+      ],
+      "pdf_pages": [
+        278
+      ],
+      "fenix_names": [
+        "Pitot heat Capt",
+        "Pitot heat F/O",
+        "Pitot heat STBY"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Раздельные строки по месту установки; blockage не равно отказу обогрева.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Pitot heat Capt": [
+          12
+        ],
+        "Pitot heat F/O": [
+          12
+        ],
+        "Pitot heat STBY": [
+          12
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F061"
+    },
+    {
+      "mmel_id": "30-31-03",
+      "branch": "Static heaters, side and position",
+      "mmel_title": "Static Port Heaters",
+      "printed_pages": [
+        "30-9"
+      ],
+      "pdf_pages": [
+        279
+      ],
+      "fenix_names": [
+        "Left Static heat Capt",
+        "Right Static heat Capt",
+        "Left Static heat F/O",
+        "Right Static heat F/O",
+        "Left Static heat Stby",
+        "Right Static heat Stby"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Не путать левый/правый порт с CAPT/F/O/STBY. В MMEL установлено шесть heaters.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Left Static heat Capt": [
+          10
+        ],
+        "Right Static heat Capt": [
+          13
+        ],
+        "Left Static heat F/O": [
+          10
+        ],
+        "Right Static heat F/O": [
+          13
+        ],
+        "Left Static heat Stby": [
+          10
+        ],
+        "Right Static heat Stby": [
+          13
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F062"
+    },
+    {
+      "mmel_id": "30-31-04",
+      "branch": "AOA heaters, CEO",
+      "mmel_title": "Angle of Attack Probe Heaters (except A321neo XLR)",
+      "printed_pages": [
+        "30-10"
+      ],
+      "pdf_pages": [
+        280
+      ],
+      "fenix_names": [
+        "AOA heat Capt",
+        "AOA heat F/O",
+        "AOA heat STBY"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Выбирать отдельную позицию и её условия; отказ датчика AOA не тождественен heater.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "AOA heat Capt": [
+          3
+        ],
+        "AOA heat F/O": [
+          3
+        ],
+        "AOA heat STBY": [
+          3
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F063"
+    },
+    {
+      "mmel_id": "30-31-05",
+      "branch": "TAT heaters, 2 installed",
+      "mmel_title": "TAT Probe Heaters",
+      "printed_pages": [
+        "30-11"
+      ],
+      "pdf_pages": [
+        281
+      ],
+      "fenix_names": [
+        "TAT heat Capt",
+        "TAT heat F/O"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "MMEL указывает два TAT heater; нужен актуальный список Fenix.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "TAT heat Capt": [
+          14
+        ],
+        "TAT heat F/O": [
+          14
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F064"
+    },
+    {
+      "mmel_id": "30-31-05",
+      "branch": "unsupported third TAT heater",
+      "mmel_title": "TAT Probe Heaters",
+      "printed_pages": [
+        "30-11"
+      ],
+      "pdf_pages": [
+        281
+      ],
+      "fenix_names": [
+        "TAT heat STBY"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Alpha содержит STBY, но MMEL указывает два установленных TAT heater. Не создавать третий по устаревшему перечню.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "TAT heat STBY": [
+          14
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F065"
+    },
+    {
+      "mmel_id": "30-42-01",
+      "branch": "Window Heat Computers",
+      "mmel_title": "Window Heat Computers",
+      "printed_pages": [
+        "30-11"
+      ],
+      "pdf_pages": [
+        281
+      ],
+      "fenix_names": [
+        "WHC 1",
+        "WHC 2"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Проверить, какие обогреватели теряются и допустимость выбранной строки; не путать компьютер с отдельным стеклом.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "WHC 1": [
+          14
+        ],
+        "WHC 2": [
+          14
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F066"
+    },
+    {
+      "mmel_id": "31-30-01",
+      "branch": "CFDS",
+      "mmel_title": "Centralized Fault Display System (CFDS)",
+      "printed_pages": [
+        "31-4"
+      ],
+      "pdf_pages": [
+        288
+      ],
+      "fenix_names": [
+        "CFDIU"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Совпадает система диагностики; проверить, что отказ не шире CFDS.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "CFDIU": [
+          4
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F067"
+    },
+    {
+      "mmel_id": "31-53-01",
+      "branch": "FWC2 only",
+      "mmel_title": "Flight Warning Computers (FWC)",
+      "printed_pages": [
+        "31-7"
+      ],
+      "pdf_pages": [
+        291
+      ],
+      "fenix_names": [
+        "FWC 2"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Документ разрешает FWC2, с условиями steep approach и минимумов.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "FWC 2": [
+          8
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F068"
+    },
+    {
+      "mmel_id": "31-53-01",
+      "branch": "FWC1 not covered by FWC2 relief",
+      "mmel_title": "Flight Warning Computers (FWC)",
+      "printed_pages": [
+        "31-7"
+      ],
+      "pdf_pages": [
+        291
+      ],
+      "fenix_names": [
+        "FWC 1"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Нельзя переносить разрешение FWC2 на FWC1.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "FWC 1": [
+          8
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F069"
+    },
+    {
+      "mmel_id": "31-55-01",
+      "branch": "SDAC2 only",
+      "mmel_title": "System Data Acquisition Concentrator Units (SDAC)",
+      "printed_pages": [
+        "31-7"
+      ],
+      "pdf_pages": [
+        291
+      ],
+      "fenix_names": [
+        "SDAC 2"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "MMEL явно называет SDAC2.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "SDAC 2": [
+          13
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F070"
+    },
+    {
+      "mmel_id": "31-55-01",
+      "branch": "SDAC1 not covered by SDAC2 relief",
+      "mmel_title": "System Data Acquisition Concentrator Units (SDAC)",
+      "printed_pages": [
+        "31-7"
+      ],
+      "pdf_pages": [
+        291
+      ],
+      "fenix_names": [
+        "SDAC 1"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Нельзя переносить разрешение SDAC2 на SDAC1.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "SDAC 1": [
+          13
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F071"
+    },
+    {
+      "mmel_id": "31-56-01",
+      "branch": "ECAM Control Panel",
+      "mmel_title": "ECAM Control Panel",
+      "printed_pages": [
+        "31-8"
+      ],
+      "pdf_pages": [
+        292
+      ],
+      "fenix_names": [
+        "ECP"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Уточнить, совпадает ли полный internal failure панели с разрешёнными функциями/ветвью.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "ECP": [
+          5
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F072"
+    },
+    {
+      "mmel_id": "31-63-01",
+      "branch": "1) PFDU2 / 2) NDU1 / 3) NDU2 / 4) SDU",
+      "mmel_title": "Display Units (DU)",
+      "printed_pages": [
+        "31-9",
+        "31-10"
+      ],
+      "pdf_pages": [
+        293,
+        294
+      ],
+      "fenix_names": [
+        "DU F/O PFD",
+        "DU Capt ND",
+        "DU F/O ND",
+        "DU ECAM Lower"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "FAA перечисляет конкретные дисплеи. Для SDU отдельные Mod.36414/38111; остальные дисплеи должны быть исправны.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "DU F/O PFD": [
+          5
+        ],
+        "DU Capt ND": [
+          5
+        ],
+        "DU F/O ND": [
+          5
+        ],
+        "DU ECAM Lower": [
+          5
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F073"
+    },
+    {
+      "mmel_id": "31-63-01",
+      "branch": "CAPT PFD and upper ECAM not listed",
+      "mmel_title": "Display Units (DU)",
+      "printed_pages": [
+        "31-9",
+        "31-10"
+      ],
+      "pdf_pages": [
+        293,
+        294
+      ],
+      "fenix_names": [
+        "DU Capt PFD",
+        "DU ECAM Upper"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "PFDU1 и E/WDU не включены в прочитанные разрешения; не добавлять по аналогии с другими DU.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "DU Capt PFD": [
+          5
+        ],
+        "DU ECAM Upper": [
+          5
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F074"
+    },
+    {
+      "mmel_id": "31-63-02",
+      "branch": "1) DMC1 / 2) DMC2 / 3) DMC3",
+      "mmel_title": "Display Management Computers",
+      "printed_pages": [
+        "31-11",
+        "31-12"
+      ],
+      "pdf_pages": [
+        295,
+        296
+      ],
+      "fenix_names": [
+        "DMC 1",
+        "DMC 2",
+        "DMC 3"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Факт EIS2 не определяет S4-2/S7/S8-2 и автоматическое AC ESS switching. Требуется точная комплектация.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "DMC 1": [
+          4
+        ],
+        "DMC 2": [
+          5
+        ],
+        "DMC 3": [
+          5
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F075"
+    },
+    {
+      "mmel_id": "32-31-01",
+      "branch": "1) LGCIU2 CEO, and relevant ACT branch",
+      "mmel_title": "Landing Gear Control and Interface Unit No. 2 (LGCIU 2)",
+      "printed_pages": [
+        "32-1",
+        "32-2",
+        "32-3",
+        "32-4",
+        "32-5",
+        "32-6",
+        "32-7",
+        "32-8",
+        "32-9"
+      ],
+      "pdf_pages": [
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305
+      ],
+      "fenix_names": [
+        "LGCUI 2"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "В alpha опечатка LGCUI. FAA разрешает LGCIU2 с большим списком зависимостей; актуальное имя проверить.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "LGCUI 2": [
+          11
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F076"
+    },
+    {
+      "mmel_id": "32-31-01",
+      "branch": "LGCIU1 vs LGCIU2",
+      "mmel_title": "Landing Gear Control and Interface Unit No. 2 (LGCIU 2)",
+      "printed_pages": [
+        "32-1",
+        "32-2",
+        "32-3",
+        "32-4",
+        "32-5",
+        "32-6",
+        "32-7",
+        "32-8",
+        "32-9"
+      ],
+      "pdf_pages": [
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305
+      ],
+      "fenix_names": [
+        "LGCUI 1"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "MMEL пункт озаглавлен LGCIU2; разрешение на LGCIU1 не переносится.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "LGCUI 1": [
+          11
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F077"
+    },
+    {
+      "mmel_id": "32-31-02",
+      "branch": "retraction, gear down",
+      "mmel_title": "Landing Gear Retraction System (except A321neo XLR)",
+      "printed_pages": [
+        "32-9"
+      ],
+      "pdf_pages": [
+        305
+      ],
+      "fenix_names": [
+        "Gear locked down"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Может соответствовать только после проверки истинного отказа уборки и всех условий; не равно Gear locked up.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Gear locked down": [
+          8
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F078"
+    },
+    {
+      "mmel_id": "32-42-01",
+      "branch": "one wheel brake",
+      "mmel_title": "Main Wheel Braking Systems",
+      "printed_pages": [
+        "32-10"
+      ],
+      "pdf_pages": [
+        306
+      ],
+      "fenix_names": [
+        "Wheel brake fault 1",
+        "Wheel brake fault 2",
+        "Wheel brake fault 3",
+        "Wheel brake fault 4"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Разрешён один тормоз; требуется исправность antiskid, NWS и обоих reverser. AUTO/BRK считается неработающим последствием.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Wheel brake fault 1": [
+          15
+        ],
+        "Wheel brake fault 2": [
+          15
+        ],
+        "Wheel brake fault 3": [
+          15
+        ],
+        "Wheel brake fault 4": [
+          15
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F079"
+    },
+    {
+      "mmel_id": "32-42-03",
+      "branch": "BSCU channels/systems",
+      "mmel_title": "Braking/Steering Control Unit (BSCU) Channels/Systems",
+      "printed_pages": [
+        "32-12",
+        "32-13",
+        "32-14",
+        "32-15",
+        "32-16"
+      ],
+      "pdf_pages": [
+        308,
+        309,
+        310,
+        311,
+        312
+      ],
+      "fenix_names": [
+        "BSCU SYS 1",
+        "BSCU SYS 2"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Нужны стандарт BSCU и модель самолёта. BSCU brake fault и отказ канала SYS не объединять.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "BSCU SYS 1": [
+          4
+        ],
+        "BSCU SYS 2": [
+          4
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F080"
+    },
+    {
+      "mmel_id": "32-42-04",
+      "branch": "main AUTO/BRK function",
+      "mmel_title": "AUTO/BRK Function",
+      "printed_pages": [
+        "32-17"
+      ],
+      "pdf_pages": [
+        313
+      ],
+      "fenix_names": [
+        "Autobrake failure"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Обычное торможение должно сохраняться. Не выбирать подпункты ламп LO/MED/MAX вместо функции.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Autobrake failure": [
+          3
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F081"
+    },
+    {
+      "mmel_id": "32-49-01",
+      "branch": "pressure indication vs low tyre pressure",
+      "mmel_title": "ECAM Tire Pressure Indications",
+      "printed_pages": [
+        "32-22"
+      ],
+      "pdf_pages": [
+        318
+      ],
+      "fenix_names": [
+        "Tyre pressure left 1 low"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Низкое физическое давление не равно отказу индикатора давления.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Tyre pressure left 1 low": [
+          14
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F082"
+    },
+    {
+      "mmel_id": "34-10-01",
+      "branch": "4) ADR2 / 5) ADR3",
+      "mmel_title": "ADIRS",
+      "printed_pages": [
+        "34-2",
+        "34-3",
+        "34-4",
+        "34-5",
+        "34-6",
+        "34-7",
+        "34-8"
+      ],
+      "pdf_pages": [
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342
+      ],
+      "fenix_names": [
+        "ADR2 failure",
+        "ADR3 failure"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Раздельные условия; ADR2 отличается ограничениями от ADR3.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "ADR2 failure": [
+          2
+        ],
+        "ADR3 failure": [
+          2
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F083"
+    },
+    {
+      "mmel_id": "34-10-01",
+      "branch": "ADR1 not covered by ADR2/3 relief",
+      "mmel_title": "ADIRS",
+      "printed_pages": [
+        "34-2",
+        "34-3",
+        "34-4",
+        "34-5",
+        "34-6",
+        "34-7",
+        "34-8"
+      ],
+      "pdf_pages": [
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342
+      ],
+      "fenix_names": [
+        "ADR1 failure"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "В прочитанном пункте указаны ADR2 и ADR3; нельзя автоматически разрешать ADR1.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "ADR1 failure": [
+          2
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F084"
+    },
+    {
+      "mmel_id": "34-10-01",
+      "branch": "1) IR1 NAV mode only",
+      "mmel_title": "ADIRS",
+      "printed_pages": [
+        "34-2",
+        "34-3",
+        "34-4",
+        "34-5",
+        "34-6",
+        "34-7",
+        "34-8"
+      ],
+      "pdf_pages": [
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342
+      ],
+      "fenix_names": [
+        "IR1 position failure"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Требуется сохранение ATT; полный IR1 failure шире разрешения. Выбрать ветвь стандарта FMS.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "IR1 position failure": [
+          9
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F085"
+    },
+    {
+      "mmel_id": "34-10-01",
+      "branch": "2) IR2 / 3) IR3, NAV or total as specified",
+      "mmel_title": "ADIRS",
+      "printed_pages": [
+        "34-2",
+        "34-3",
+        "34-4",
+        "34-5",
+        "34-6",
+        "34-7",
+        "34-8"
+      ],
+      "pdf_pages": [
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342
+      ],
+      "fenix_names": [
+        "IR2 position failure",
+        "IR3 position failure",
+        "IR2 IR failure",
+        "IR3 IR failure"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Разделить NAV-only и полный отказ. Для IR2 учитываются стандарт FMS и модификации; не заменять IR1.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "IR2 position failure": [
+          10
+        ],
+        "IR3 position failure": [
+          10
+        ],
+        "IR2 IR failure": [
+          10
+        ],
+        "IR3 IR failure": [
+          10
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F086"
+    },
+    {
+      "mmel_id": "34-36-01",
+      "branch": "ILS systems",
+      "mmel_title": "ILS Navigation Systems",
+      "printed_pages": [
+        "34-15"
+      ],
+      "pdf_pages": [
+        349
+      ],
+      "fenix_names": [
+        "ILS 1 G/S",
+        "ILS 1 LOC",
+        "ILS 2 G/S",
+        "ILS 2 LOC"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Канальный отказ приёмника и полный ILS различны. Localizer/Glideslope transmitter в alpha — отказ наземного средства, не бортового ILS.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "ILS 1 G/S": [
+          9
+        ],
+        "ILS 1 LOC": [
+          9
+        ],
+        "ILS 2 G/S": [
+          9
+        ],
+        "ILS 2 LOC": [
+          9
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F087"
+    },
+    {
+      "mmel_id": "34-41-01",
+      "branch": "Weather Radar Systems",
+      "mmel_title": "Weather Radar Systems",
+      "printed_pages": [
+        "34-17"
+      ],
+      "pdf_pages": [
+        351
+      ],
+      "fenix_names": [],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Наличие рабочего радара Fenix не доказывает возможность задать отдельный отказ; в alpha отдельного имени не найдено.",
+      "fenix_evidence": "FAA_ONLY + FENIX_WEATHER_RADAR_SUPPORT",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F088"
+    },
+    {
+      "mmel_id": "34-42-01",
+      "branch": "1) RA1 / RA2 without eRudder",
+      "mmel_title": "Radio Altimeter (RA) Systems",
+      "printed_pages": [
+        "34-18",
+        "34-19"
+      ],
+      "pdf_pages": [
+        352,
+        353
+      ],
+      "fenix_names": [
+        "Radio altimeter 1",
+        "Radio altimeter 2"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "RA1/RA2 имеют разные сроки устранения; остальные перечисленные компьютеры должны работать.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Radio altimeter 1": [
+          12
+        ],
+        "Radio altimeter 2": [
+          12
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F089"
+    },
+    {
+      "mmel_id": "34-43-01",
+      "branch": "TCAS II",
+      "mmel_title": "Traffic Alert and Collision Avoidance System (TCAS II)",
+      "printed_pages": [
+        "34-21",
+        "34-22"
+      ],
+      "pdf_pages": [
+        355,
+        356
+      ],
+      "fenix_names": [
+        "TCAS"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Совпадает функция; проверить режим отказа и ограничения выбранной строки.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "TCAS": [
+          14
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F090"
+    },
+    {
+      "mmel_id": "34-48-01",
+      "branch": "GPWS",
+      "mmel_title": "Ground Proximity Warning System (GPWS)",
+      "printed_pages": [
+        "34-23",
+        "34-24"
+      ],
+      "pdf_pages": [
+        357,
+        358
+      ],
+      "fenix_names": [
+        "GPWC"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Полный GPWC может затронуть GPWS, TAWS и windshear; выделить все последствия.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "GPWC": [
+          8
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F091"
+    },
+    {
+      "mmel_id": "34-52-01",
+      "branch": "ATC transponder",
+      "mmel_title": "ATC Transponders and Automatic Altitude Reporting Systems",
+      "printed_pages": [
+        "34-25"
+      ],
+      "pdf_pages": [
+        359
+      ],
+      "fenix_names": [
+        "ATC 1",
+        "ATC 2"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Учитывать оставшийся транспондер, altitude reporting и ADS-B; не считать все функции автоматически тождественными.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "ATC 1": [
+          3
+        ],
+        "ATC 2": [
+          3
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F092"
+    },
+    {
+      "mmel_id": "34-53-01",
+      "branch": "ADF",
+      "mmel_title": "ADF System",
+      "printed_pages": [
+        "34-25"
+      ],
+      "pdf_pages": [
+        359
+      ],
+      "fenix_names": [
+        "ADF 1",
+        "ADF 2"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Только установленные приёмники; alpha упоминает два, комплектация конкретного Fenix ещё не проверена.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "ADF 1": [
+          2
+        ],
+        "ADF 2": [
+          2
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F093"
+    },
+    {
+      "mmel_id": "34-55-01",
+      "branch": "VOR",
+      "mmel_title": "VOR Navigation",
+      "printed_pages": [
+        "34-26"
+      ],
+      "pdf_pages": [
+        360
+      ],
+      "fenix_names": [
+        "VOR 1",
+        "VOR 2"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Сохранить требования к маршруту/средствам навигации из MMEL.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "VOR 1": [
+          14
+        ],
+        "VOR 2": [
+          14
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F094"
+    },
+    {
+      "mmel_id": "34-58-01",
+      "branch": "GPS, selected configuration",
+      "mmel_title": "Global Positioning System",
+      "printed_pages": [
+        "34-29",
+        "34-30",
+        "34-31",
+        "34-32",
+        "34-33"
+      ],
+      "pdf_pages": [
+        363,
+        364,
+        365,
+        366,
+        367
+      ],
+      "fenix_names": [
+        "GPS 1",
+        "GPS 2"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Определить стандарт GPS/MMR и оставшиеся навигационные функции; не смешивать GPS с полным ADIRS.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "GPS 1": [
+          8
+        ],
+        "GPS 2": [
+          8
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F095"
+    },
+    {
+      "mmel_id": "35-13-01",
+      "branch": "pressure indication vs oxygen depletion",
+      "mmel_title": "Indications on DOOR/OXY ECAM Page",
+      "printed_pages": [
+        "35-1",
+        "35-2"
+      ],
+      "pdf_pages": [
+        369,
+        370
+      ],
+      "fenix_names": [
+        "Crew oxygen pressure < 400",
+        "Crew oxygen pressure < 800"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Малое количество кислорода не равно отказу указателя. Эти сценарии не включать по пункту индикации.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Crew oxygen pressure < 400": [
+          4
+        ],
+        "Crew oxygen pressure < 800": [
+          4
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F096"
+    },
+    {
+      "mmel_id": "36-11-02",
+      "branch": "PRV secured closed",
+      "mmel_title": "Bleed Valves (PRV)",
+      "printed_pages": [
+        "36-5"
+      ],
+      "pdf_pages": [
+        379
+      ],
+      "fenix_names": [
+        "Eng 1 bleed valve",
+        "Eng 2 bleed valve"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Fenix фиксирует текущее положение. Требуется именно closed и последствия по 36-11-01.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Eng 1 bleed valve": [
+          5
+        ],
+        "Eng 2 bleed valve": [
+          6
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F097"
+    },
+    {
+      "mmel_id": "36-11-07",
+      "branch": "HPV closed",
+      "mmel_title": "High Pressure Valves (HPV)",
+      "printed_pages": [
+        "36-7"
+      ],
+      "pdf_pages": [
+        381
+      ],
+      "fenix_names": [
+        "Eng 1 HP Valve",
+        "Eng 2 HP Valve"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Нужно подтвердить закрытое положение и соответствующую строку MMEL.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Eng 1 HP Valve": [
+          6
+        ],
+        "Eng 2 HP Valve": [
+          6
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F098"
+    },
+    {
+      "mmel_id": "36-11-08",
+      "branch": "BMC, CEO standard",
+      "mmel_title": "Bleed Monitoring Computer (BMC)",
+      "printed_pages": [
+        "36-8",
+        "36-9",
+        "36-10",
+        "36-11",
+        "36-12",
+        "36-13"
+      ],
+      "pdf_pages": [
+        382,
+        383,
+        384,
+        385,
+        386,
+        387
+      ],
+      "fenix_names": [
+        "BMC 1",
+        "BMC 2"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Ветви зависят от модификаций/систем; не считать BMC1/BMC2 симметричными без разбора строки.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "BMC 1": [
+          3
+        ],
+        "BMC 2": [
+          3
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F099"
+    },
+    {
+      "mmel_id": "36-12-02",
+      "branch": "APU bleed valve, state and ACT",
+      "mmel_title": "APU Bleed Valve",
+      "printed_pages": [
+        "36-14",
+        "36-15"
+      ],
+      "pdf_pages": [
+        388,
+        389
+      ],
+      "fenix_names": [
+        "APU bleed valve"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Раздельно open/closed. Для ACT-конфигураций есть дополнительные условия.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "APU bleed valve": [
+          3
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F100"
+    },
+    {
+      "mmel_id": "36-12-04",
+      "branch": "AUTO/MAN control vs mechanically stuck valve",
+      "mmel_title": "Cross Bleed Valve",
+      "printed_pages": [
+        "36-16"
+      ],
+      "pdf_pages": [
+        390
+      ],
+      "fenix_names": [
+        "Crossbleed valve"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "MMEL допускает потерю одного способа управления при сохранении другого; заклинивший клапан не эквивалентен.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Crossbleed valve": [
+          4
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F101"
+    },
+    {
+      "mmel_id": "36-22-15",
+      "branch": "detection loops vs actual leak",
+      "mmel_title": "Pylon Leak Detection Loops",
+      "printed_pages": [
+        "36-17",
+        "36-18",
+        "36-19"
+      ],
+      "pdf_pages": [
+        391,
+        392,
+        393
+      ],
+      "fenix_names": [
+        "Bleed leak pylon engine 1",
+        "Bleed leak pylon engine 2"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Настоящая утечка не является отказом контура обнаружения утечки.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Bleed leak pylon engine 1": [
+          3
+        ],
+        "Bleed leak pylon engine 2": [
+          3
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F102"
+    },
+    {
+      "mmel_id": "46-21-01",
+      "branch": "ATSU",
+      "mmel_title": "Air Traffic Service Unit System (ATSU)",
+      "printed_pages": [
+        "46-2"
+      ],
+      "pdf_pages": [
+        403
+      ],
+      "fenix_names": [
+        "ATSU"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Совпадает блок; определить связанные функции datalink, не переносить на EFB.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "ATSU": [
+          3
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F103"
+    },
+    {
+      "mmel_id": "49-10-01",
+      "branch": "APU system via ECB failure",
+      "mmel_title": "APU System",
+      "printed_pages": [
+        "49-1",
+        "49-2"
+      ],
+      "pdf_pages": [
+        406,
+        407
+      ],
+      "fenix_names": [
+        "ECB"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Проверить потерю APU и отсутствие пожара/других повреждений; выбрать ветвь ACT.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "ECB": [
+          5
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F104"
+    },
+    {
+      "mmel_id": "49-30-02",
+      "branch": "APU LP valve",
+      "mmel_title": "APU LP Valve",
+      "printed_pages": [
+        "49-3"
+      ],
+      "pdf_pages": [
+        408
+      ],
+      "fenix_names": [
+        "APU fuel valve"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Требуется идентификация клапана и его положения; APU fire не эквивалентен.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "APU fuel valve": [
+          3
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F105"
+    },
+    {
+      "mmel_id": "52-70-01",
+      "branch": "door indication by physical door type",
+      "mmel_title": "ECAM DOOR Page Indications",
+      "printed_pages": [
+        "52-7",
+        "52-8",
+        "52-9"
+      ],
+      "pdf_pages": [
+        415,
+        416,
+        417
+      ],
+      "fenix_names": [
+        "Aft cargo door",
+        "Forward cargo door",
+        "Forward avionics door"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Alpha описывает сигнал датчика. Проверить, что дверь физически закрыта; количество/расположение дверей различается у A319/320/321.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Aft cargo door": [
+          2
+        ],
+        "Forward cargo door": [
+          7
+        ],
+        "Forward avionics door": [
+          7
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F106"
+    },
+    {
+      "mmel_id": "74-31-01",
+      "branch": "ignition channel vs no ignition",
+      "mmel_title": "Ignition Systems",
+      "printed_pages": [
+        "74-1"
+      ],
+      "pdf_pages": [
+        437
+      ],
+      "fenix_names": [
+        "Eng 1 no ignition",
+        "Eng 2 no ignition"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Нельзя назначить допуск отдельного igniter на общий отказ запуска без проверки, какой канал остался работоспособен.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Eng 1 no ignition": [
+          6
+        ],
+        "Eng 2 no ignition": [
+          7
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F107"
+    },
+    {
+      "mmel_id": "78-30-01",
+      "branch": "1) CEO, one reverser secured stowed",
+      "mmel_title": "Thrust Reverser Systems",
+      "printed_pages": [
+        "78-2",
+        "78-3",
+        "78-4",
+        "78-5",
+        "78-6",
+        "78-7",
+        "78-8"
+      ],
+      "pdf_pages": [
+        444,
+        445,
+        446,
+        447,
+        448,
+        449,
+        450
+      ],
+      "fenix_names": [
+        "Left reverser inhibited by maint",
+        "Right reverser inhibited by maint"
+      ],
+      "status": "K",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Подходящий вид отказа. Раздельные проверки CFM switches / IAE LVDT; оба тормозных условия и характеристики обязательны.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Left reverser inhibited by maint": [
+          10
+        ],
+        "Right reverser inhibited by maint": [
+          12
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F108"
+    },
+    {
+      "mmel_id": "78-30-01",
+      "branch": "unlocked/pressurized is not secured stowed",
+      "mmel_title": "Thrust Reverser Systems",
+      "printed_pages": [
+        "78-2",
+        "78-3",
+        "78-4",
+        "78-5",
+        "78-6",
+        "78-7",
+        "78-8"
+      ],
+      "pdf_pages": [
+        444,
+        445,
+        446,
+        447,
+        448,
+        449,
+        450
+      ],
+      "fenix_names": [
+        "Left reverser unlocked",
+        "Left reverser pressurized",
+        "Right reverser unlocked",
+        "Right reverser pressurized"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Не соответствует требованию отключённого убранного реверса и отсутствия REV PRESSURIZED.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Left reverser unlocked": [
+          10
+        ],
+        "Left reverser pressurized": [
+          10
+        ],
+        "Right reverser unlocked": [
+          12
+        ],
+        "Right reverser pressurized": [
+          12
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F109"
+    },
+    {
+      "mmel_id": "79-31-01",
+      "branch": "quantity indication vs actual low oil",
+      "mmel_title": "Oil Quantity Indications",
+      "printed_pages": [
+        "79-2"
+      ],
+      "pdf_pages": [
+        454
+      ],
+      "fenix_names": [
+        "Eng 1 low oil quantity",
+        "Eng 2 low oil quantity"
+      ],
+      "status": "X",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Физически малое количество масла не равно отказу указателя количества.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Eng 1 low oil quantity": [
+          6
+        ],
+        "Eng 2 low oil quantity": [
+          7
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F110"
+    },
+    {
+      "mmel_id": "80-11-01",
+      "branch": "1)a) CFM/IAE start valve",
+      "mmel_title": "Start Valve System",
+      "printed_pages": [
+        "80-1",
+        "80-2"
+      ],
+      "pdf_pages": [
+        471,
+        472
+      ],
+      "fenix_names": [
+        "Start valve left",
+        "Start valve right"
+      ],
+      "status": "U",
+      "models": "A319/A320/A321 CEO",
+      "engines": "CFM56 / IAE V2500",
+      "note": "Alpha: механически закрыт. FAA требует наземной ручной работы клапана; доступность такого обслуживания в Fenix не подтверждена.",
+      "fenix_evidence": "ALPHA_2021",
+      "alpha_pdf_pages": {
+        "Start valve left": [
+          14
+        ],
+        "Start valve right": [
+          14
+        ]
+      },
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F111"
+    },
+    {
+      "mmel_id": "26-11-01",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "mmel_title": "MLG Bay Fire Detection Loops (A321neo XLR)",
+      "printed_pages": [
+        "26-1"
+      ],
+      "pdf_pages": [
+        155
+      ],
+      "fenix_names": [],
+      "status": "N",
+      "models": "Вне A319/A320/A321 CEO",
+      "engines": "Вне выбранной конфигурации",
+      "note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "fenix_evidence": "FAA_SCOPE + LOCAL_GUIDE_2025",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F112"
+    },
+    {
+      "mmel_id": "26-11-02",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "mmel_title": "MLG Bay Fire Detection System (A321neo XLR)",
+      "printed_pages": [
+        "26-2"
+      ],
+      "pdf_pages": [
+        156
+      ],
+      "fenix_names": [],
+      "status": "N",
+      "models": "Вне A319/A320/A321 CEO",
+      "engines": "Вне выбранной конфигурации",
+      "note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "fenix_evidence": "FAA_SCOPE + LOCAL_GUIDE_2025",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F113"
+    },
+    {
+      "mmel_id": "27-64-05",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "mmel_title": "LAF DEGRADED Caution on ECAM EWD (A321neo XLR)",
+      "printed_pages": [
+        "27-18"
+      ],
+      "pdf_pages": [
+        190
+      ],
+      "fenix_names": [],
+      "status": "N",
+      "models": "Вне A319/A320/A321 CEO",
+      "engines": "Вне выбранной конфигурации",
+      "note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "fenix_evidence": "FAA_SCOPE + LOCAL_GUIDE_2025",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F114"
+    },
+    {
+      "mmel_id": "27-92-07",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "mmel_title": "STICK SENSOR FAULT Caution on ECAM EWD (A321neo XLR)",
+      "printed_pages": [
+        "27-21"
+      ],
+      "pdf_pages": [
+        193
+      ],
+      "fenix_names": [],
+      "status": "N",
+      "models": "Вне A319/A320/A321 CEO",
+      "engines": "Вне выбранной конфигурации",
+      "note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "fenix_evidence": "FAA_SCOPE + LOCAL_GUIDE_2025",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F115"
+    },
+    {
+      "mmel_id": "27-93-04",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "mmel_title": "LAWS REDUND LOST Caution on ECAM EWD (A321neo XLR)",
+      "printed_pages": [
+        "27-24"
+      ],
+      "pdf_pages": [
+        196
+      ],
+      "fenix_names": [],
+      "status": "N",
+      "models": "Вне A319/A320/A321 CEO",
+      "engines": "Вне выбранной конфигурации",
+      "note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "fenix_evidence": "FAA_SCOPE + LOCAL_GUIDE_2025",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F116"
+    },
+    {
+      "mmel_id": "28-21-04",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "mmel_title": "Rear Center Tank System (A321neo XLR)",
+      "printed_pages": [
+        "28-11",
+        "28-12",
+        "28-13"
+      ],
+      "pdf_pages": [
+        220,
+        221,
+        222
+      ],
+      "fenix_names": [],
+      "status": "N",
+      "models": "Вне A319/A320/A321 CEO",
+      "engines": "Вне выбранной конфигурации",
+      "note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "fenix_evidence": "FAA_SCOPE + LOCAL_GUIDE_2025",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F117"
+    },
+    {
+      "mmel_id": "28-25-07",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "mmel_title": "RCT Inlet Valve",
+      "printed_pages": [
+        "28-19"
+      ],
+      "pdf_pages": [
+        228
+      ],
+      "fenix_names": [],
+      "status": "N",
+      "models": "Вне A319/A320/A321 CEO",
+      "engines": "Вне выбранной конфигурации",
+      "note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "fenix_evidence": "FAA_SCOPE + LOCAL_GUIDE_2025",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F118"
+    },
+    {
+      "mmel_id": "28-25-08",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "mmel_title": "RCT Refuel Valve",
+      "printed_pages": [
+        "28-19"
+      ],
+      "pdf_pages": [
+        228
+      ],
+      "fenix_names": [],
+      "status": "N",
+      "models": "Вне A319/A320/A321 CEO",
+      "engines": "Вне выбранной конфигурации",
+      "note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "fenix_evidence": "FAA_SCOPE + LOCAL_GUIDE_2025",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F119"
+    },
+    {
+      "mmel_id": "30-21-03",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "mmel_title": "ANTI-ICE ENG 1(2) CTL FAULT Cautions on ECAM EWD (A319neo/A320neo/ A321neo)",
+      "printed_pages": [
+        "30-6"
+      ],
+      "pdf_pages": [
+        276
+      ],
+      "fenix_names": [],
+      "status": "N",
+      "models": "Вне A319/A320/A321 CEO",
+      "engines": "Вне выбранной конфигурации",
+      "note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "fenix_evidence": "FAA_SCOPE + LOCAL_GUIDE_2025",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F120"
+    },
+    {
+      "mmel_id": "71-10-01",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "mmel_title": "ENG 1(2) FAN COWL NOT CLSD Alert (A319neo/A320neo/ A321neo)",
+      "printed_pages": [
+        "71-2"
+      ],
+      "pdf_pages": [
+        420
+      ],
+      "fenix_names": [],
+      "status": "N",
+      "models": "Вне A319/A320/A321 CEO",
+      "engines": "Вне выбранной конфигурации",
+      "note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "fenix_evidence": "FAA_SCOPE + LOCAL_GUIDE_2025",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F121"
+    },
+    {
+      "mmel_id": "71-13-01",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "mmel_title": "Fan Cowl Loss Prevention Mechanical System (A319neo/A320neo/ A321neo with CFM LEAP-1A Engines)",
+      "printed_pages": [
+        "71-2"
+      ],
+      "pdf_pages": [
+        420
+      ],
+      "fenix_names": [],
+      "status": "N",
+      "models": "Вне A319/A320/A321 CEO",
+      "engines": "Вне выбранной конфигурации",
+      "note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "fenix_evidence": "FAA_SCOPE + LOCAL_GUIDE_2025",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F122"
+    },
+    {
+      "mmel_id": "73-20-11",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "mmel_title": "Engine Overthrust Protection System (A318 or A319neo/ A320neo/A321neo)",
+      "printed_pages": [
+        "73-2"
+      ],
+      "pdf_pages": [
+        422
+      ],
+      "fenix_names": [],
+      "status": "N",
+      "models": "Вне A319/A320/A321 CEO",
+      "engines": "Вне выбранной конфигурации",
+      "note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "fenix_evidence": "FAA_SCOPE + LOCAL_GUIDE_2025",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F123"
+    },
+    {
+      "mmel_id": "73-30-05",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "mmel_title": "MINOR FAULT Cautions on ECAM EWD (A319neo/A320neo/ A321neo)",
+      "printed_pages": [
+        "73-4"
+      ],
+      "pdf_pages": [
+        424
+      ],
+      "fenix_names": [],
+      "status": "N",
+      "models": "Вне A319/A320/A321 CEO",
+      "engines": "Вне выбранной конфигурации",
+      "note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "fenix_evidence": "FAA_SCOPE + LOCAL_GUIDE_2025",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F124"
+    },
+    {
+      "mmel_id": "73-30-08",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "mmel_title": "HEAT SYS DEGRAD Cautions on ECAM EWD (A319neo/A320neo/ A321neo with PW 1100G Engines) (A319neo/A320neo/ A321neo with PW 1100G Engines) (A319neo/A320neo/ A321neo with PW 1100G Engines)",
+      "printed_pages": [
+        "73-15"
+      ],
+      "pdf_pages": [
+        435
+      ],
+      "fenix_names": [],
+      "status": "N",
+      "models": "Вне A319/A320/A321 CEO",
+      "engines": "Вне выбранной конфигурации",
+      "note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "fenix_evidence": "FAA_SCOPE + LOCAL_GUIDE_2025",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F125"
+    },
+    {
+      "mmel_id": "73-30-10",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "mmel_title": "HP FUEL VALVE Cautions on ECAM EWD (A319neo/A320neo/ A321neo with CFM LEAP-1A Engines)",
+      "printed_pages": [
+        "73-16"
+      ],
+      "pdf_pages": [
+        436
+      ],
+      "fenix_names": [],
+      "status": "N",
+      "models": "Вне A319/A320/A321 CEO",
+      "engines": "Вне выбранной конфигурации",
+      "note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "fenix_evidence": "FAA_SCOPE + LOCAL_GUIDE_2025",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F126"
+    },
+    {
+      "mmel_id": "73-30-11",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "mmel_title": "FADEC IDENT FAULT Cautions on ECAM EWD (A319neo/A320neo/ A321neo with CFM LEAP-1A Engines)",
+      "printed_pages": [
+        "73-16"
+      ],
+      "pdf_pages": [
+        436
+      ],
+      "fenix_names": [],
+      "status": "N",
+      "models": "Вне A319/A320/A321 CEO",
+      "engines": "Вне выбранной конфигурации",
+      "note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "fenix_evidence": "FAA_SCOPE + LOCAL_GUIDE_2025",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F127"
+    },
+    {
+      "mmel_id": "75-22-02",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "mmel_title": "Buffer Air Check Valve (A319neo/A320neo/ A321neo with PW 1100G Engines)",
+      "printed_pages": [
+        "75-1"
+      ],
+      "pdf_pages": [
+        439
+      ],
+      "fenix_names": [],
+      "status": "N",
+      "models": "Вне A319/A320/A321 CEO",
+      "engines": "Вне выбранной конфигурации",
+      "note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "fenix_evidence": "FAA_SCOPE + LOCAL_GUIDE_2025",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F128"
+    },
+    {
+      "mmel_id": "75-25-02",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "mmel_title": "TCA Valve (PW 6000 Engines Only)",
+      "printed_pages": [
+        "75-2"
+      ],
+      "pdf_pages": [
+        440
+      ],
+      "fenix_names": [],
+      "status": "N",
+      "models": "Вне A319/A320/A321 CEO",
+      "engines": "Вне выбранной конфигурации",
+      "note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "fenix_evidence": "FAA_SCOPE + LOCAL_GUIDE_2025",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F129"
+    },
+    {
+      "mmel_id": "75-25-03",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "mmel_title": "FADEC Blower (A319neo/A320neo/ A321neo with CFM LEAP-1A Engines and Mod. 163105/ MP P20228)",
+      "printed_pages": [
+        "75-2"
+      ],
+      "pdf_pages": [
+        440
+      ],
+      "fenix_names": [],
+      "status": "N",
+      "models": "Вне A319/A320/A321 CEO",
+      "engines": "Вне выбранной конфигурации",
+      "note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "fenix_evidence": "FAA_SCOPE + LOCAL_GUIDE_2025",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F130"
+    },
+    {
+      "mmel_id": "78-31-02",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "mmel_title": "REV MINOR FAULT Caution on ECAM EWD (A319neo/A320neo/ A321neo)",
+      "printed_pages": [
+        "78-10"
+      ],
+      "pdf_pages": [
+        452
+      ],
+      "fenix_names": [],
+      "status": "N",
+      "models": "Вне A319/A320/A321 CEO",
+      "engines": "Вне выбранной конфигурации",
+      "note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "fenix_evidence": "FAA_SCOPE + LOCAL_GUIDE_2025",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F131"
+    },
+    {
+      "mmel_id": "79-20-03",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "mmel_title": "Air Oil Cooler Valve (PW 6000 Engines Only)",
+      "printed_pages": [
+        "79-1"
+      ],
+      "pdf_pages": [
+        453
+      ],
+      "fenix_names": [],
+      "status": "N",
+      "models": "Вне A319/A320/A321 CEO",
+      "engines": "Вне выбранной конфигурации",
+      "note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "fenix_evidence": "FAA_SCOPE + LOCAL_GUIDE_2025",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F132"
+    },
+    {
+      "mmel_id": "80-11-06",
+      "branch": "outside chosen CEO/CFM56/IAE scope",
+      "mmel_title": "DUAL COOLING Control (A319neo/A320neo/ A321neo with PW 1100G Engines and Mod. 161854/ MP P15967)",
+      "printed_pages": [
+        "80-2"
+      ],
+      "pdf_pages": [
+        472
+      ],
+      "fenix_names": [],
+      "status": "N",
+      "models": "Вне A319/A320/A321 CEO",
+      "engines": "Вне выбранной конфигурации",
+      "note": "Пункт относится к neo/XLR, A318/PW6000 либо их оборудованию; вне выбранного состава Fenix.",
+      "fenix_evidence": "FAA_SCOPE + LOCAL_GUIDE_2025",
+      "alpha_pdf_pages": {},
+      "installed_version": "2.4.0.4720",
+      "tested_in_sim": false,
+      "approved_for_generation": false,
+      "assessment_id": "F133"
+    }
+  ]
+}

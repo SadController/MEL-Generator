@@ -1,0 +1,107 @@
+{
+  "startedUtc": "2026-09-19T20:59:04.377Z",
+  "selectedCatalogId": "M198",
+  "selectedFenixId": "F_MCDU_1",
+  "complete": true,
+  "restored": true,
+  "simConnectDll": "F:\\SteamLibrary\\steamapps\\common\\MSFS2024\\Community\\Community\\p42-util-chaseplane\\Modules\\ChasePlane\\SimConnect.dll",
+  "readyState": {
+    "simConnected": true,
+    "aircraftLoaded": true,
+    "aircraftTitle": "FenixA321 IAE WF SC",
+    "supportedAircraft": true,
+    "adapterReady": true,
+    "bridgeError": null,
+    "adapterError": null
+  },
+  "firstIndicatorReady": true,
+  "secondIndicatorReady": true,
+  "stateHistory": [
+    {
+      "simConnected": true,
+      "aircraftLoaded": true,
+      "aircraftTitle": "FenixA321 IAE WF SC",
+      "supportedAircraft": true,
+      "adapterReady": false,
+      "bridgeError": null,
+      "adapterError": null,
+      "atUtc": "2026-09-19T20:59:04.558Z"
+    },
+    {
+      "simConnected": true,
+      "aircraftLoaded": true,
+      "aircraftTitle": "FenixA321 IAE WF SC",
+      "supportedAircraft": true,
+      "adapterReady": true,
+      "bridgeError": null,
+      "adapterError": null,
+      "atUtc": "2026-09-19T20:59:04.578Z"
+    }
+  ],
+  "selectedBefore": {
+    "id": "F_MCDU_1",
+    "title": "MCDU 1",
+    "failureCondition": null,
+    "failed": false,
+    "ata": 34,
+    "group": "MCDU"
+  },
+  "preexistingActive": [
+    {
+      "id": "F_OH_NAV_IR_ALIGNMENT_1",
+      "title": "IR1 alignment",
+      "failed": true,
+      "failureCondition": null
+    },
+    {
+      "id": "F_OH_NAV_IR_ALIGNMENT_2",
+      "title": "IR2 alignment",
+      "failed": true,
+      "failureCondition": null
+    },
+    {
+      "id": "F_OH_NAV_IR_ALIGNMENT_3",
+      "title": "IR3 alignment",
+      "failed": true,
+      "failureCondition": null
+    }
+  ],
+  "activation": {
+    "requested": true,
+    "overall": "success",
+    "results": [
+      {
+        "catalogId": "M198",
+        "fenixId": "F_MCDU_1",
+        "status": "activated"
+      }
+    ],
+    "rolledBack": false
+  },
+  "selectedActive": {
+    "id": "F_MCDU_1",
+    "title": "MCDU 1",
+    "failureCondition": {
+      "id": 4,
+      "ias": null,
+      "alt": null,
+      "altb": null,
+      "time": null,
+      "afterEvent": null,
+      "afterEventSeconds": null
+    },
+    "failed": true,
+    "ata": 34,
+    "group": "MCDU"
+  },
+  "selectedRestored": {
+    "id": "F_MCDU_1",
+    "title": "MCDU 1",
+    "failureCondition": null,
+    "failed": false,
+    "ata": 34,
+    "group": "MCDU"
+  },
+  "changedAfterRestoration": [],
+  "finishedUtc": "2026-09-19T20:59:06.161Z"
+}

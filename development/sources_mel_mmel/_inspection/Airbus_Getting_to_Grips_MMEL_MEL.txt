@@ -1,0 +1,1963 @@
+
+=== PDF PAGE 1 ===
+
+=== PDF PAGE 2 ===
+
+=== PDF PAGE 3 ===
+Getting to Grips with MMEL and MEL 
+ 
+Foreword 
+ 
+FOREWORD 
+ 
+ 
+The purpose of this “Getting to Grips with MMEL and MEL” Brochure is:  
+ 
+• To help Airbus Operators understand the Master Minimum Equipment List 
+(MMEL) and the Minimum Equipment List (MEL) 
+• To explain how the Airbus MMEL is created and approved/accepted 
+• To provide guidance material for the creation and the use of the MEL. 
+ 
+The MMEL is an Airbus document, developed by the Flight Operations Support and 
+Services Department. Operators use the Airbus MMEL as a reference for creating 
+their own MEL, which is provided to their flight crews, line maintenance personnel, 
+and/or flight operations personnel. It is important to note that an Operator’s MEL 
+cannot be less restrictive than the Airbus MMEL. 
+ 
+Both the MMEL and the MEL are legal documents that are either approved or 
+accepted by Airworthiness Authorities. 
+ 
+The MMEL and the MEL consist of component and system lists that are attributed 
+a “GO”, “GO IF”, or “NO GO” status, depending on their impact on the safety of a 
+flight. These attributes are defined as follows: 
+ 
+• “GO” or “GO IF” items can remain inoperative for a limited period of time. 
+• “NO GO” items prevent the dispatch of the aircraft. 
+ 
+The MMEL and the MEL are both designed to ensure that an acceptable level of 
+safety is respected, when an aircraft is dispatched with inoperative equipment. 
+The MEL enables Operators to rapidly dispatch an aircraft, and avoid unnecessary 
+delays or flight cancellations, without sacrificing safety. 
+ 
+This brochure is primarily designed to provide Operators with assistance in 
+developing and optimizing their own MEL. 
+ 
+Please submit any questions you may have concerning this brochure to: 
+ 
+AIRBUS SAS 
+ 
+Flight Operations Support and Services 
+Customer Services Directorate 
+1, Rond-Point Maurice Bellonte, BP33 
+31707 BLAGNAC Cedex - FRANCE 
+ 
+TELEX: AIRBU 530526F 
+SITA: TLSBI7X 
+Telefax: 33 5 61 93 29 68 
+ 
+
+=== PDF PAGE 4 ===
+Table of Contents 
+ 
+Getting to Grips with MMEL and MEL 
+ 
+TABLE OF CONTENTS 
+FOREWORD .....................................................................................1 
+EXECUTIVE SUMMARY .....................................................................5 
+ABBREVIATIONS ...........................................................................10 
+DEFINITIONS................................................................................13 
+1. GENERAL..................................................................................15 
+1.1. 
+INTRODUCTION ..............................................................................16 
+1.2. 
+HISTORICAL BACKGROUND ...............................................................17 
+1.3. 
+WHY AN MMEL? ............................................................................19 
+1.3.1. To Ensure a Safe Dispatch......................................................... 20 
+1.3.2. To Increase Profitability ............................................................ 21 
+1.4. 
+MMEL/MEL LEGAL REQUIREMENTS ...................................................22 
+1.4.1. JAA Policies and Regulations ...................................................... 22 
+1.4.1.1. 
+JAR-OPS 1.030 ............................................................................22 
+1.4.1.2. 
+JAR-MMEL/MEL ............................................................................23 
+1.4.1.3. 
+JAR-OPS 1 MEL Policy Document (TGL 26).......................................24 
+1.4.1.4. 
+MMEL Procedures Manual ..............................................................24 
+1.4.2. FAA Policies and Regulations...................................................... 25 
+1.4.2.1. 
+FAR 121.628 ...............................................................................25 
+1.4.2.2. 
+Policy Letters...............................................................................25 
+1.4.2.3. 
+MEL Handbook.............................................................................26 
+1.4.2.4. 
+FAR Operating Rules.....................................................................26 
+1.4.3. Airworthiness Directives (ADs) ................................................... 27 
+2. MMEL DEVELOPMENT PROCESS................................................29 
+2.1. 
+INTRODUCTION ..............................................................................30 
+2.2. 
+DEVELOPMENT PRINCIPLES TO JUSTIFY DISPATCH CONDITIONS ..............31 
+2.2.1. Qualitative Analysis: Consequences of the Failure ......................... 31 
+2.2.2. Qualitative Analysis: Consequences of the Next Critical Failure ....... 34 
+2.2.3. Quantitative Analysis: Compliance with SSA................................. 35 
+2.2.4. Summary of the Analysis Process ............................................... 36 
+2.3. 
+MMEL RECTIFICATION INTERVALS.....................................................38 
+2.3.1. Rectification Interval Definition .................................................. 38 
+2.3.2. Rectification Interval Attribution to MMEL Items ........................... 39 
+2.3.3. Rectification Interval Extension .................................................. 41 
+2.4. 
+FAILURE CLASSIFICATION ................................................................42 
+2.4.1. Class I Failures ........................................................................ 43 
+2.4.2. Class II Failures ....................................................................... 44 
+2.4.3. Class III Failures...................................................................... 46 
+2.4.4. Summary of Failure Classes and Consequences ............................ 47 
+
+=== PDF PAGE 5 ===
+Getting to Grips with MMEL and MEL 
+ 
+Table of Contents 
+ 
+3. MASTER MINIMUM EQUIPMENT LIST (MMEL) .......................... 49 
+3.1. 
+INTRODUCTION.............................................................................. 50 
+3.2. 
+ORGANIZATION OF THE MMEL.......................................................... 51 
+3.2.1. How to Classify the MMEL Items?................................................52 
+3.2.2. How is an MMEL Page Organized? ...............................................54 
+3.2.2.1. 
+A320 and A330/A340 Families ....................................................... 54 
+3.2.2.2. 
+A300/A310 Family ....................................................................... 55 
+3.2.2.3. 
+How to Cope with Aircraft Configuration?......................................... 57 
+3.2.3. Section 00 Contents..................................................................61 
+3.2.4. Section 00E Contents................................................................66 
+3.2.5. Section 01 Contents..................................................................69 
+3.2.5.1. 
+All Airbus Families Except A300 B2/B4 ............................................ 69 
+3.2.5.2. 
+A300 B2/B4 ................................................................................ 76 
+3.2.6. Section 02 Contents..................................................................78 
+3.2.6.1. 
+Periodicity of Operational Procedures .............................................. 78 
+3.2.6.2. 
+Types of Operational Procedures .................................................... 79 
+3.2.7. Section 03 Contents..................................................................80 
+3.2.7.1. 
+A320 and A300/A310 Families ....................................................... 80 
+3.2.7.2. 
+A330/A340 Family ....................................................................... 82 
+3.2.7.3. 
+Periodicity of Maintenance Procedures............................................. 83 
+3.2.7.4. 
+Types of Maintenance Procedures................................................... 84 
+3.3. 
+MMEL AMENDMENTS ...................................................................... 85 
+3.3.1. Reason for MMEL Amendments...................................................85 
+3.3.2. MMEL Amendments Substantiation..............................................86 
+3.3.3. MMEL Approval/Acceptance Process ............................................87 
+3.3.3.1. 
+DGAC/JAA Process ....................................................................... 87 
+3.3.3.2. 
+FAA Process ................................................................................ 89 
+3.3.3.3. 
+Main Differences Between FAA and DGAC/JAA Concept...................... 90 
+3.3.4. Incorporation of MMEL Amendments ...........................................91 
+3.3.4.1. 
+Normal Revisions ......................................................................... 91 
+3.3.4.2. 
+Temporary Revisions .................................................................... 95 
+3.3.4.3. 
+Intermediate Revisions ............................................................... 100 
+4. MINIMUM EQUIPMENT LIST (MEL) ........................................ 103 
+4.1. 
+INTRODUCTION............................................................................ 104 
+4.2. 
+FROM THE DGAC/JAA MMEL TO THE MEL ...................................... 105 
+4.2.1. MEL Legal Requirements.......................................................... 106 
+4.2.2. How to Create the MEL? .......................................................... 107 
+4.2.2.1. 
+Minimum Content ...................................................................... 107 
+4.2.2.2. 
+Additional Regulations ................................................................ 109 
+4.2.2.3. 
+How to Cope with “If Installed” and “Reserved” Items?.................... 110 
+4.2.2.4. 
+How to Cope with “As required by regulations” Items? .................... 112 
+4.2.2.5. 
+Special Operations (CATII/CATIII/RNP/RVSM/ETOPS…) ................... 116 
+4.2.2.6. 
+Weight and Balance Manual (WBM) Integration .............................. 123 
+4.2.3. Configuration Deviation List (CDL) Integration ............................ 126 
+4.2.3.1. 
+CDL General Presentation ........................................................... 126 
+4.2.3.2. 
+Use of the CDL .......................................................................... 126 
+
+=== PDF PAGE 6 ===
+Table of Contents 
+ 
+Getting to Grips with MMEL and MEL 
+ 
+4.3. 
+FROM THE FAA MMEL TO THE MEL..................................................128 
+4.3.1. MEL Legal Requirements ..........................................................129 
+4.3.2. How to Create the MEL?...........................................................130 
+4.3.2.1. 
+Minimum Content....................................................................... 130 
+4.3.2.2. 
+MEL Applicability ........................................................................ 131 
+4.3.2.3. 
+How to Cope with “As required by FAR” Items?............................... 133 
+4.3.2.4. 
+Special Operations (CATII/CATIII/RNP/RVSM/ETOPS…) ................... 134 
+4.3.2.5. 
+Operational and Maintenance Procedures....................................... 135 
+4.4. 
+MEL USER GUIDE .........................................................................136 
+4.4.1. General Principles on MEL Use ..................................................136 
+4.4.2. How to Use the MEL?...............................................................138 
+4.4.2.1. 
+How is a Failure Detected? .......................................................... 140 
+4.4.2.2. 
+How is a Failure Reported? .......................................................... 146 
+4.4.2.3. 
+How is a Failure Confirmed? ........................................................ 148 
+4.4.2.4. 
+How is the MEL Entered?............................................................. 154 
+4.4.3. Specific MMEL/MEL Terminology................................................163 
+4.4.4. Rectification Interval Extension .................................................166 
+4.4.5. Operations Outside the Scope of the MEL ...................................166 
+4.4.5.1. 
+JAR-MMEL/MEL.090 and JAR-OPS 1.030(B).................................... 166 
+4.4.5.2. 
+No Technical Objection (NTO) ...................................................... 167 
+4.5. 
+ORGANIZATION RECOMMENDATIONS TO OPERATORS ...........................168 
+4.5.1. Analysis of Dispatch Delays ......................................................168 
+4.5.2. Standard Operator Organization................................................169 
+4.5.3. Definition of the Roles..............................................................170 
+4.6. 
+LIMITS OF MEL APPLICABILITY.......................................................172 
+5. MMEL EVOLUTIONS................................................................177 
+5.1. 
+LESS PAPER IN THE COCKPIT (LPC) .................................................178 
+5.1.1. LPC Concept...........................................................................178 
+5.1.2. LPC e-MEL..............................................................................180 
+5.2. 
+A380 ELECTRONIC MEL ................................................................188 
+6. APPENDIX..............................................................................189 
+6.1. 
+LEGAL TEXTS AND RELATED WEB LINKS ............................................190 
+6.2. 
+MEL PREAMBLE SPECIMEN .............................................................191 
+6.3. 
+FAILURE EFFECT CLASSIFICATION ....................................................194 
+6.4. 
+GENERAL MMEL PROJECT TEMPLATE ................................................195 
+6.5. 
+REQUIRED CATII/CATIII EQUIPMENT ............................................197 
+6.6. 
+TAKEOFF WITH MULTIPLE FAILURE ..................................................200 
+ 
+
+=== PDF PAGE 7 ===
+Getting to Grips with MMEL and MEL 
+ 
+Executive Summary 
+ 
+ 
+ 
+- 5 - 
+EXECUTIVE SUMMARY 
+ 
+Chapter 1: General 
+ 
+MMEL/MEL General Presentation 
+ 
+The objective of the MMEL is to ensure: 
+• An acceptable level of safety, while operating an aircraft with inoperative 
+equipment 
+• Aircraft profitability by avoiding Aircraft On Ground (AOG) situations. 
+ 
+MMEL/MEL Legal Bases 
+ 
+The applicable documents that serve as the reference for the creation of the 
+MMEL and the MEL are provided by either Joint Aviation Authorities (JAA) or 
+Federal Aviation Administration (FAA) documents. 
+These documents are: 
+ 
+Airworthiness Directives (ADs), published as a result of an in-flight event, 
+always supersede any published MMEL/MEL dispatch requirement. 
+ 
+• JAR-OPS 1.030 
+• JAR-MMEL/MEL 
+• JAR OPS 1 MEL Policy Document (TGL 26)
+• MMEL/MEL Procedures Manual 
+• FAR 121.628 
+• Policy Letters 
+• MEL Handbook 
+• FAR Operating Rules 
+Acceptable 
+Level of Safety
+Profitability 
+
+=== PDF PAGE 8 ===
+Executive Summary 
+ 
+Getting to Grips with MMEL and MEL 
+ 
+ 
+ 
+- 6 - 
+Chapter 2: MMEL Development Process 
+ 
+ 
+Development Principles to Justify Dispatch Conditions 
+ 
+Before proposing a new MMEL item to Airworthiness Authorities, the Airbus 
+Flight Operations MMEL Department and safety specialists must substantiate the 
+ability to maintain an “acceptable level of safety” as required by an 
+applicable regulation, even if a specific system is inoperative. 
+ 
+ 
+Rectification Intervals 
+ 
+To maintain this “acceptable level of safety”, and to prevent degraded 
+maintenance, the MMEL establishes limitations on the amount of time that an 
+aircraft can be operated with inoperative items. 
+ 
+Rectification 
+Intervals 
+A 
+B 
+C 
+D 
+Consecutive 
+Calendar Days 
+(excluding the day of 
+discovery) 
+No standard 
+Rectification 
+Interval 
+(refer to 
+dispatch 
+conditions) 
+3 
+10 
+120 
+ 
+ 
+Rectification Intervals B, C, and D may be extended one time. 
+ 
+ 
+Failure Classification 
+ 
+For the A320 and the A330/A340 families, the Central Maintenance System 
+(CMS) or the Centralized Fault Display System (CFDS) centralize the failures, 
+and classify them, based on their effect on safety and in the cockpit. Only 
+Class I failures may prevent aircraft dispatch and are addressed in the MMEL. 
+ 
+
+=== PDF PAGE 9 ===
+Getting to Grips with MMEL and MEL 
+ 
+Executive Summary 
+ 
+ 
+ 
+- 7 - 
+Chapter 3: Master Minimum Equipment List (MMEL) 
+ 
+Organization of the MMEL 
+ 
+The MMEL has four, or five (depending on the aircraft family), sections: 
+• Section 00: General information about the manual (organization, 
+approval sheet, highlights…). 
+• Section 00E: List of ECAM warnings, and associated MMEL entries (if 
+applicable), classified according to the ATA breakdown. 
+• Section 01: The approved/accepted part of the MMEL: All items that may 
+be inoperative, their Rectification Intervals, their number installed, their 
+number required for dispatch, and their associated remarks or exceptions. 
+• Section 02: The operational procedures required by Section 01. Due to 
+the fact that the content of these procedures is not approved/accepted, 
+Operators may choose not to follow Airbus procedures, and may create 
+their own procedures. 
+• Section 03: Maintenance procedures extracted from the Aircraft 
+Maintenance Manual (AMM), and required by Section 01. This Section is 
+only available for the A300/A310 and A320 family. 
+ 
+MMEL Amendments (JAA Model) 
+ 
+An MMEL amendment is made via: 
+• Normal Revisions 
+• Temporary Revisions 
+ 
+The MMEL is: 
+• Approved by the DGAC for the A300 B2/B4 and A300/A310. 
+• Accepted by the JAA for the A320 family and the A330/A340. Then, the 
+JAA recommends approval of these MMELs to National Authorities. 
+ 
+MMEL Amendments (FAA model) 
+ 
+An MMEL amendment is made via: 
+• Normal Revisions 
+• Interim Revisions 
+ 
+The MMEL is written and approved by the FAA for all Airbus families. However, 
+an FAA MMEL is only created and published if the aircraft type is operated by 
+FAA Operators. 
+
+=== PDF PAGE 10 ===
+Executive Summary 
+ 
+Getting to Grips with MMEL and MEL 
+ 
+ 
+ 
+- 8 - 
+Chapter 4: Minimum Equipment List (MEL) 
+ 
+From the DGAC/JAA MMEL to the MEL 
+ 
+Based on the MMEL, Operators create their own MEL, and obtain approval from 
+their applicable National Authorities. 
+ 
+The DGAC/JAA MEL development process can include the following steps: 
+ 
+1) Definition of the MEL content 
+2) Review of “Reserved” Items 
+3) Review of “(If Installed)” Items 
+4) Review of “As required by regulations” Items 
+5) Review of Special Operations. 
+ 
+From the FAA MMEL to the MEL 
+ 
+The FAA MEL development process can include the following steps: 
+ 
+1) Definition of the MEL content 
+2) Check the applicability of each MMEL item 
+3) Review of “As required by FAR” Items 
+4) Review of Special Operations 
+5) Include the content of the (o) and (m) procedures. 
+ 
+MEL User Guide 
+ 
+The aim of the MEL is not to encourage aircraft operation with inoperative 
+equipment, because it is not desirable for an aircraft to be dispatched in these 
+conditions, and such a situation is permitted only as a result of careful 
+analysis. 
+The MEL should, therefore, be consulted on ground, and only when a failure 
+has been identified and confirmed. 
+ 
+ 
+Limits of MEL Applicability 
+ 
+According to the JAR MMEL/MEL.001, an MEL is applicable up to the 
+commencement of the flight (i.e. the point when the aircraft begins to move 
+under its own power, in preparation for takeoff). 
+ 
+In some cases, the MEL may need to be consulted in flight, in order to decide if 
+it is necessary to perform an in-flight turn back. However, any decision to 
+continue the flight must be subject to pilot judgment. 
+If there is an in-flight failure, the FCOM provides the procedures and 
+limitations that the flight crew should apply. 
+ 
+
+=== PDF PAGE 11 ===
+Getting to Grips with MMEL and MEL 
+ 
+Executive Summary 
+ 
+ 
+ 
+- 9 - 
+Chapter 5: MMEL Evolutions 
+ 
+ 
+Less Paper in the Cockpit (LPC) 
+ 
+• LPC Concept 
+In 1998, Airbus decided to implement the Less Paper in the Cockpit (LPC) 
+project. This concept is now available on all Fly-By-Wire aircraft and is based 
+on conventional laptop PCs. It aims at reducing the amount of paper in a 
+standard pilot flight bag. 
+The LPC package contains: 
+o A takeoff module 
+o A landing module 
+o A Weight and Balance (W&B) module 
+o An e-FCOM 
+o An e-MEL. 
+ 
+• LPC e-MEL 
+The LPC e-MEL tool is an electronic version of the MEL that provides quick and 
+easy access to the information that is required in order to dispatch an aircraft. 
+This version is based on the paper MMEL and has five main parts: 
+o ECAM messages, and corresponding links to dispatch conditions 
+o Item breakdown, and corresponding dispatch conditions 
+o Operational procedures 
+o AMM deactivation tasks 
+o Operator documents. 
+ 
+The LPC e-MEL enables Operators to create and to consult their own MEL, 
+according to local requirements, via two modules: 
+o The administrator module that deals with the customization of the 
+MEL 
+o The MEL consultation module. 
+ 
+ 
+
+=== PDF PAGE 12 ===
+Abbreviations 
+ 
+Getting to Grips with MMEL and MEL 
+ 
+ 
+ 
+- 10 - 
+ABBREVIATIONS 
+ 
+§ 
+Paragraph 
+-A- 
+A/C 
+Aircraft  
+ACJ 
+Advisory Circular Joint 
+ACARS 
+Aircraft Communications Addressing and Reporting System 
+AD 
+Airworthiness Directive 
+ADPM 
+Aircraft Deactivation Procedures Manual 
+AFM 
+Aircraft Flight Manual 
+AMM 
+Aircraft Maintenance Manual 
+AOG 
+Aircraft On Ground 
+ATA 
+Air Transportation Association 
+ATC 
+Air Traffic Control 
+-B- 
+BBS 
+Bulletin Board System 
+-C- 
+CAT 
+Category 
+CDL 
+Configuration Deviation List 
+CFDS 
+Centralized Fault Display System 
+CG 
+Center of Gravity 
+CMS 
+Central Maintenance System 
+CMP 
+Configuration, Maintenance and Procedures 
+CRT 
+Cross-Reference Table 
+-D- 
+DDG 
+Dispatch Deviation Guide 
+DGAC 
+Direction Générale de l’Aviation Civile (French Civil Aviation 
+Authorities) 
+DH 
+Decision Height 
+-E- 
+ECAM 
+Electronic Centralized Aircraft Monitoring 
+EIS 
+Entry Into Service 
+ER 
+Extended Range 
+ETOPS 
+Extended Twin Operations 
+-F- 
+FAA 
+Federal Aviation Administration 
+FANS 
+Future Air Navigation System 
+FAR 
+Federal Aviation Regulations 
+FCOM 
+Flight Crew Operating Manual 
+FDE 
+Flight Deck Effect 
+FL 
+Flight Level 
+FOEB 
+Federal Operations Evaluation Board (FAA) 
+FOSP 
+Flight Operations Standard Package 
+FOVE 
+Flight Operations Versatile Environment 
+FQI 
+Fuel Quantity Indicating/Indication/Indicator 
+FWC 
+Flight Warning Computer 
+
+=== PDF PAGE 13 ===
+Getting to Grips with MMEL and MEL 
+ 
+Abbreviations  
+ 
+ 
+ 
+- 11 - 
+-H- 
+HTML 
+Hyper Text Markup Language 
+-I- 
+ICAO 
+International Civil Aviation Organization 
+IR 
+Intermediate Revision 
+-J- 
+JAA 
+Joint Aviation Authorities 
+JAR 
+Joint Aviation Requirements 
+JOEB 
+Joint Operations Evaluation Board (JAA) 
+-K- 
+Kg 
+Kilogram 
+-L- 
+LEP 
+List of Effective Pages 
+LETR 
+List of Effective Temporary Revisions 
+LPC 
+Less Paper in the Cockpit 
+-M- 
+MCC 
+Maintenance Control Center 
+MCDU 
+Multipurpose Control and Display Unit 
+MEL 
+Minimum Equipment List 
+MFA 
+Memorized Fault Annunciator 
+MMEL 
+Master Minimum Equipment List 
+MOD 
+Modification 
+MP 
+Modification Proposal 
+MSN 
+Manufacturer Serial Number 
+-N- 
+NAA 
+National Aviation Authorities 
+NM 
+Nautical Mile 
+NTO 
+No Technical Objection 
+-O- 
+OCC 
+Operations Control Center 
+OEG 
+Operational Evaluation Group (DGAC) 
+-P- 
+PC 
+Personal Computer 
+PL 
+Policy Letter 
+-Q- 
+ 
+QRH 
+Quick Reference Handbook 
+-R- 
+REV 
+Revision 
+RIE 
+Rectification Interval Extension 
+RNP 
+Required Navigation Performance 
+RVR 
+Runway Visual Range 
+RVSM 
+Reduced Vertical Separation Minimum 
+
+=== PDF PAGE 14 ===
+Abbreviations 
+ 
+Getting to Grips with MMEL and MEL 
+ 
+ 
+ 
+- 12 - 
+ 
+-S- 
+SB 
+Service Bulletin 
+SEQ 
+Sequence 
+SGML 
+Standard General Markup Language 
+SOP 
+Standard Operating Procedure 
+SSA 
+System Safety Assessment 
+STD 
+Standard 
+-T- 
+TC 
+Type Certificate 
+TGL 
+Temporary Guidance Leaflet 
+TOCG 
+Take Off Center of Gravity 
+TOW 
+Take Off Weight  
+TR 
+Temporary Revision 
+-U- 
+US 
+United States 
+UTC 
+Universal Coordinated Time 
+-W- 
+W&B 
+Weight and Balance 
+WBM 
+Weight and Balance Manual 
+-X- 
+XML 
+eXtended Mark-up Language 
+-Z- 
+ZFCG 
+Zero Fuel Center of Gravity 
+ZFW 
+Zero Fuel Weight 
+ 
+
+=== PDF PAGE 15 ===
+Getting to Grips with MMEL and MEL 
+ 
+Definitions  
+ 
+ 
+ 
+- 13 - 
+DEFINITIONS 
+ 
+The following are standard definitions of some of the MMEL/MEL related terms 
+that are utilized throughout this brochure. 
+ 
+Item: 
+An item is either a piece of equipment, a function, an 
+instrument, or a system listed in the MMEL. 
+ 
+Revenue Flight: A revenue flight is any scheduled or non-scheduled air service 
+performed by aircraft for the public transport of passengers, 
+mail, or cargo, for remuneration or hire. 
+ 
+Non-revenue 
+Flight: 
+A non-revenue flight is not a revenue flight such as: 
+• Training flights 
+• Test flights 
+• Delivery flights 
+• Ferry flights (flight flown for a positioning, or other 
+purpose, such as to enable the aircraft to undergo 
+maintenance) 
+• Demonstration flights 
+• Positioning flights 
+ 
+MMEL: 
+The MMEL lists all the safety-related items for which revenue 
+flights are permitted, even if the items are inoperative at 
+departure. The MMEL specifies the dispatch conditions: The 
+conditions to be fulfilled and the procedures to be performed, in 
+order to permit the revenue flights to be flown with the 
+inoperative item for a limited period of time. 
+ 
+The MMEL serves as a basis for Operators in developing their 
+own MEL. 
+ 
+ 
+MEL: 
+The MEL is a required document, which must be created for 
+each aircraft in an Operator’s fleet. It is based on the aircraft 
+MMEL, and includes the specific requirements of each National 
+Authority. Furthermore, the MEL must be customized to take 
+into account the specificities of each aircraft: Weight variant, 
+options installed, software upgrades, hardware upgrades, 
+retrofit status… 
+ 
+It is important to note that the MEL cannot be less restrictive 
+than the MMEL. 
+ 
+Dispatch 
+Conditions: 
+The dispatch conditions are the conditions, given in Section 01 
+of the MMEL, to be fulfilled, in order to allow aircraft operation 
+with a specific item inoperative. 
+
+=== PDF PAGE 16 ===
+Definitions 
+ 
+Getting to Grips with MMEL and MEL 
+ 
+ 
+ 
+- 14 - 
+“GO”: 
+An MMEL “GO” item is a safety-related item that may be 
+inoperative at the dispatch of the aircraft without any specific 
+condition or restriction. 
+MMEL “GO” items are addressed in the MMEL and have no 
+dispatch condition. 
+However, a “GO” item always has a time limit, within with the 
+failure must be corrected. This period of time is referred to as 
+“Rectification Interval”. 
+ 
+“GO IF”: 
+An MMEL “GO IF” item is a safety-related item that may be 
+inoperative at the dispatch of the aircraft provided dispatch 
+conditions are satisfied and/or specific restrictions are applied. 
+“GO IF” items are listed in the MMEL and have dispatch 
+conditions requiring: 
+ 
+• Actions to be done, and/or 
+• Other equipment to be operative, and/or 
+• Checks to be performed, and/or 
+• Limitations to be taken into account, and/or 
+• Performance calculations to be computed, and/or 
+• Details on the conditions in which the item can be 
+inoperative, and/or 
+• … 
+ 
+“NO GO”: 
+A piece of equipment, a function, an instrument, or a system… 
+is called “NO GO” if it must be operative in order to permit the 
+dispatch of the aircraft for a revenue flight. Generally, the MMEL 
+does not list “NO GO”. 
+ 
+All equipment/functions/instruments/systems related to the 
+airworthiness of the aircraft, and not listed in the MMEL, are 
+automatically required to be operative for dispatch (e.g. 
+Wings, engines, etc). 
+(Refer to §3.2.5) 
+ 
+Inoperative: 
+An item is deemed to be “inoperative”, when it does not 
+satisfactorily fulfill its intended function, regardless of the reason. 
+ 
+Therefore, an item is deemed to be inoperative, when: 
+ 
+• It does not work at all, or 
+• It does not perform one or more of the functions for which it 
+was designed, or 
+• It does not consistently work within its designed operating 
+limits or tolerances, or 
+• It is requested to be considered inoperative by the dispatch 
+conditions, or 
+• It is not available due to a primary failure. 
+ 
+
+=== PDF PAGE 17 ===
+Getting to Grips with MMEL and MEL 
+ 
+1. General 
+ 
+ 
+ 
+- 15 - 
+ 
+1. GENERAL 
+1.1 Introduction 
+16 
+1.2 Historical Background 
+17 
+1.3 Why an MMEL? 
+19 
+ 
+1.3.1 To Ensure a Safe Dispatch 
+20 
+ 
+1.3.2 To Increase Profitability 
+21 
+1.4 MMEL/MEL Legal Requirements 
+22 
+ 
+1.4.1 JAA Policies and Regulations 
+22 
+ 
+1.4.2 FAA Policies and Regulations 
+25 
+ 
+1.4.3 Airworthiness Directives (ADs) 
+27 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 18 ===
+1. General 
+ 
+Getting to Grips with MMEL and MEL 
+ 
+ 
+ 
+- 16 - 
+1.1. 
+INTRODUCTION 
+ 
+ 
+The Master Minimum Equipment List (MMEL) and the Minimum Equipment List 
+(MEL) deal with system failures that have an impact on the safety of the aircraft. 
+ 
+ 
+Failures can have various effects on the aircraft, depending on the importance of 
+the component within the system(s). 
+ 
+ 
+Obviously, the failure of a reading light in the cabin will not affect safety and 
+should, therefore, not prevent aircraft dispatch. On the other hand, no Operator 
+would envisage dispatching an aircraft with an inoperative engine. 
+However, in the case of a failed secondary hydraulic system indicator, it is not 
+easy for an Operator to determine if it is possible to dispatch the aircraft, due to 
+the fact that the aircraft has three independent hydraulic systems. 
+ 
+ 
+The purpose of the MMEL is to provide Operators with an efficient and reliable tool 
+to rapidly determine if the aircraft can be dispatched without compromising the 
+safety of the flight. 
+ 
+ 
+This brochure will attempt to answer the following three important questions: 
+ 
+ 
+ 
+ 
+How does the 
+Operator use an 
+MEL? 
+ 
+ 
+MEL User Guide 
+(Refer to §4.4) 
+How does the 
+Operator create an 
+MEL? 
+ 
+ 
+From the MMEL to
+the MEL 
+(Refer to §4.2 
+and §4.3) 
+How does Airbus 
+create an MMEL? 
+ 
+ 
+MMEL 
+Development 
+Process 
+(Refer to §2) 
+MMEL 
+(Refer to §3) 
+
+=== PDF PAGE 19 ===
+Getting to Grips with MMEL and MEL 
+ 
+1. General 
+ 
+ 
+ 
+- 17 - 
+1.2. 
+HISTORICAL BACKGROUND 
+ 
+ 
+The International Civil Aviation Organization (ICAO), a specialized 
+United Nations agency, was created on December 7, 1944 with the 
+signing of the Convention on International Civil Aviation, in 
+Chicago (U.S.A). The convention consists of 96 articles that establish 
+the privileges and restrictions of all contracting states, and provide for 
+the adoption of International Standards And Recommended Practices 
+(SARPs) that regulate international air transportation. 
+ 
+The establishment of this convention was the first step in the creation of 
+international regulations for air transportation, and provides the following official 
+definition of the Minimum Equipment List (MEL) in “Annex 6- Chapter 6: 
+Aeroplane instruments, equipment and flight documents”: 
+ 
+Figure 1-1: Extract 1 from the ICAO Convention 
+ 
+Attachment G to ICAO Annex 6 explains the purpose of the MEL, and its 
+philosophy: 
+ 
+Figure 1-2: Extract 2 from the ICAO convention 
+6.1.2 The operator shall include in the operations manual
+a minimum equipment list (MEL), approved by the State of
+the Operator which will enable the pilot-in-command to
+determine whether a flight may be commenced or continued
+from any intermediate stop should any instrument,
+equipment or systems become inoperative. Where the State of
+the Operator is not the State of Registry, the State of the
+Operator shall ensure that the MEL does not affect the
+aeroplane’s compliance with the airworthiness requirements
+applicable in the State of Registry. 
+Note.- Attachment G contains guidance on the minimum
+equipment list. 
+If deviations from the requirements of States in the
+certification of aircraft were not permitted an aircraft could
+not be flown unless all systems and equipment were operable.
+Experience has proved that some unserviceability can be
+accepted in the short term when the remaining operative
+systems and equipment provide for continued safe operations 
+
+=== PDF PAGE 20 ===
+1. General 
+ 
+Getting to Grips with MMEL and MEL 
+ 
+ 
+ 
+- 18 - 
+In the early 70’s, and with the introduction of the A300B2, Airbus’ first MMELs 
+were already in accordance with the above-mentioned Convention and its 
+regulations. 
+ 
+At that time, Airbus’ MMELs were designed as follows: 
+ 
+ 
+Figure 1-3: Extract of the A300 B2/B4 MMEL 
+ 
+Today, Airbus’ MMELs look like this: 
+ 
+ 
+Figure 1-4: Extract of the A320 MMEL 
+ 
+
+=== PDF PAGE 21 ===
+Getting to Grips with MMEL and MEL 
+ 
+1. General 
+ 
+ 
+ 
+- 19 - 
+1.3. 
+WHY AN MMEL? 
+ 
+Aircraft are designed with high reliability equipment and with system 
+redundancies. The Type Certificate of an aircraft certifies the aircraft with all 
+equipment in operative condition. 
+ 
+ 
+ 
+Nonetheless, failures can still occur, and flight delays or cancellations lead to high 
+operating costs. 
+ 
+The primary objective of the MMEL is to, therefore, reconcile an acceptable level 
+of safety with aircraft profitability, while operating an aircraft with inoperative 
+equipment. 
+ 
+ 
+Acceptable 
+Level of Safety
+Profitability 
+
+=== PDF PAGE 22 ===
+1. General 
+ 
+Getting to Grips with MMEL and MEL 
+ 
+ 
+ 
+- 20 - 
+1.3.1. 
+TO ENSURE A SAFE DISPATCH 
+ 
+The MMEL development is a process that involves many specialists 
+within Airbus, such as MMEL specialists, system designers, safety 
+specialists, etc. 
+ 
+ 
+For each MMEL item, specialists take into account the: 
+ 
+• Impact of the item’s failure on the safety of the flight 
+• Results of flight and/or simulator tests 
+• Impact of the failure on crew workload 
+• Impact of multiple unserviceabilities 
+• Impact of the next critical failure. 
+ 
+The interaction between systems is extensively analyzed to ensure that multiple 
+failures will not result in an unsatisfactory level of safety. In addition, the analysis 
+not only considers the consequences of the item’s failure, but also analyzes the 
+consequences of the next critical failure (Refer to §2.2.2). 
+ 
+When an aircraft is dispatched by application of the MMEL/MEL, an acceptable 
+level of safety is maintained by: 
+ 
+• The transfer of a function to another piece of equipment (redundancy), or 
+• The provision of required data by another piece of equipment (standby 
+instruments), or 
+• The compliance with adequate limitations and/or procedures (flight crew 
+and/or maintenance procedures). 
+ 
+The MMEL is a legal document, required for the dispatch of an aircraft. This 
+document is also reviewed by the authorities prior to granting approval or 
+acceptance. 
+ 
+As a result, the safe operation of an aircraft, with one or more pieces of 
+inoperative equipment, is safely guaranteed by the MMEL/MEL. 
+ 
+For more information on the MMEL development process, please refer to §2.2. 
+ 
+ 
+
+=== PDF PAGE 23 ===
+Getting to Grips with MMEL and MEL 
+ 
+1. General 
+ 
+ 
+ 
+- 21 - 
+1.3.2. 
+TO INCREASE PROFITABILITY 
+ 
+The MMEL not only ensures the safe dispatch of an aircraft, but 
+also contributes to ensuring that Operators obtain the maximum 
+benefit from their Airbus fleet in their daily operations. The MMEL 
+contributes to Operator profitability. 
+ 
+The first economical aspect is related to aircraft operation. The MMEL permits the 
+operation of an aircraft with one or more pieces of equipment inoperative, when a 
+failure is detected in flight or during ground servicing. The possibility to dispatch 
+the aircraft prevents unscheduled maintenance, flight delays, or cancellations. 
+ 
+The second economical aspect of the MMEL is to optimize “initial provisioning” and, 
+in this way, reduce storage costs. 
+ 
+The “initial provisioning” is a catalog listing of all the Line Replaceable Units (LRU), 
+the corresponding number of spare parts, with their cost. This initial provisioning is 
+based on a complex mathematical model that takes into account several factors, 
+including the: 
+ 
+• Number of aircraft in the fleet 
+• Total number of flight hours per year 
+• Spare part unit price 
+• Quantity of items per aircraft… 
+ 
+This catalog enables Operators to order their spare parts several months in advance 
+of aircraft delivery, in order to anticipate AOG situations. 
+ 
+One of the factors taken into account by the model is directly linked to the MMEL. 
+This factor is referred to as the “Essentiality Code” (EC), and corresponds to the 
+MMEL item attributes: 
+ 
+• EC=1: Corresponds to a “NO GO” item 
+• EC=2: Corresponds to a “GO IF” item 
+• EC=3: Corresponds to a “GO” item. 
+ 
+Examples: 
+o For a “NO GO” item, the corresponding spare parts should be available at 
+each secondary base, in order to avoid flight delays or cancellations. 
+ 
+o For a “GO” or “GO IF” item, with its corresponding Rectification Interval, 
+the applicable spare parts should be available at the home base. This 
+organization enables Operators to plan the return of the aircraft to the 
+home base. Consequently, the aircraft is able to continue its flight 
+normally under MEL. 
+ 
+The MMEL is, therefore, a major contributor to operational reliability, and may 
+represent a way for Operators to significantly reduce operating costs. 
+
+=== PDF PAGE 24 ===
+1. General 
+ 
+Getting to Grips with MMEL and MEL 
+ 
+ 
+ 
+- 22 - 
+1.4. 
+MMEL/MEL LEGAL REQUIREMENTS 
+1.4.1. 
+JAA POLICIES AND REGULATIONS 
+ 
+The legal policies and regulations for the creation of the 
+Master Minimum Equipment List (MMEL) and the Minimum 
+Equipment List (MEL) are provided in the Joint Aviation 
+Regulations (JARs). 
+ 
+1.4.1.1. 
+JAR-OPS 1.030 
+ 
+JAR-OPS 1.030 provides the basic rules that govern the MMEL and the MEL: 
+Figure 1-5: Extract of JAR OPS 1.030 
+ 
+The MMEL is an operational document, based on the JAR OPS-1, managed by the 
+Airbus Flight Operations MMEL department, and examined by the operational 
+divisions of the French DGAC and the JOEB/MMEL Subgroup of the JAA. 
+ 
+However, as mentioned in the ICAO Convention (Annex 6), the MMEL should also 
+take into account applicable airworthiness requirements (JAR 25/FAR 25), to 
+ensure that aircraft compliance with these requirements is not affected. 
+ 
+In this respect, the MMEL approval, or acceptance, process is linked to the 
+certification process: The MMEL is an approved deviation of the aircraft 
+Type Certificate. 
+ 
+Note: The MMEL is developed in parallel to the preparation of Type Certificate. 
+However, the MMEL is not required for the issuance of the Type Certificate. 
+JAR-OPS 1.030 Minimum Equipment Lists 
+- Operator’s 
+Responsibilities 
+a) An 
+operator 
+shall 
+establish, 
+for 
+each
+aeroplane, a Minimum Equipment List (MEL)
+approved by the Authority. This shall be based
+upon, but no less restrictive than, the relevant
+Master Minimum Equipment List (MMEL) (if this
+exists) accepted by the Authority. 
+b) An Operator shall not operate an Aeroplane
+other than in accordance with the MMEL unless
+permitted by the Authority. Any such permission
+will in no circumstances permit operation outside
+the constraints of the MMEL
+
+=== PDF PAGE 25 ===
+Getting to Grips with MMEL and MEL 
+ 
+1. General 
+ 
+ 
+ 
+- 23 - 
+1.4.1.2. 
+JAR-MMEL/MEL 
+ 
+JAR-MMEL/MEL 
+provides 
+the 
+requirements 
+for 
+the 
+creation 
+and 
+approval/acceptance of the MMEL and MEL. 
+ 
+All the JAR-MMEL/MEL references within this brochure are based on the 2005 
+issue. 
+ 
+The JAR-MMEL/MEL has two sections: 
+ 
+• Section 1: Requirements 
+o Subpart A-General 
+Includes the requirements for applying the JAR-MMEL/MEL (applicable 
+regulations, airworthiness directives, limitations of MEL applicability, 
+etc.), and a glossary of terms and acronyms used in the document. 
+ 
+o Subpart B (C respectively)-MMEL (MEL respectively) 
+Includes: 
+− The definition of the MMEL (MEL respectively): 
+− The applicable types of operations 
+− The format and language to be used in the MMEL (MEL 
+respectively) 
+− All the required sections of the MMEL (reference to multiple 
+unserviceabilities, 
+Operational 
+and 
+Maintenance 
+procedures, 
+Rectification Intervals). 
+− The conditions for approval. 
+ 
+• Section 2: Advisory Circular Joint (ACJ) 
+Provides explanations and interpretations of the requirements in Section 1. 
+An Operator that adopts following requirements published in the ACJ, can 
+be confident in obtaining Authority approval. 
+ 
+Examples: 
+o ACJ MMEL/MEL.065(b) Format of MEL (See JAR MMEL/MEL.065) 
+1 The ATA 100/2200 specification numbering system is preferred 
+2 A proposed five-column format for the technical pages of all MELs is 
+shown in Appendix 1 to ACJ-MMEL/MEL.025. 
+3 Appendix 2 of ACJ-MMEL/MEL.065 can be used as a model for the 
+preamble. 
+ 
+o ACJ MMEL/MEL.030 Multiple Unserviceabilities (See JAR MMEL/MEL.025) 
+1 MMEL preamble should make it clear that not all combinations of 
+unserviceabilities are considered. 
+2 The MMEL cannot include all combinations of unserviceabilities. 
+Therefore it has to be accepted that because of the variety of 
+multiple unserviceabilities which could arise, it is likely that many of 
+them will not be incorporated in the MMEL. 
+
+=== PDF PAGE 26 ===
+1. General 
+ 
+Getting to Grips with MMEL and MEL 
+ 
+ 
+ 
+- 24 - 
+1.4.1.3. 
+JAR-OPS 1 MEL POLICY DOCUMENT (TGL 26) 
+ 
+JAR 25 provides the Airworthiness Standards for the issuance and modification 
+of Type Certificates. JAR-OPS 1, however, provides the requirements that are 
+applicable to the operation of an aircraft. 
+ 
+JAR-OPS 1 is applicable to all JAA Operators that operate an aircraft for 
+commercial air transportation. 
+ 
+Items specifically required in JAR-OPS 1, are generally not specified in the MMEL, 
+because they depend on the operational regulations of the country in which the 
+aircraft is registered. These items are listed “As required by regulations” in Airbus 
+MMELs (Refer to §4.2.2.4). 
+ 
+However, it became evident that Operators and Authorities needed guidance for 
+the development and approval of their MELs, in order to fully comply with the 
+instruments and equipment requirements provided in the JAR-OPS 1. 
+ 
+Guidelines for “As required by regulations” items can be found in the “JAR-OPS 1 
+MEL Policy document”. It is also called: Temporary Guidance Leaflet (TGL) N°26 
+(Section 4, Part 3 of the JAA Administrative & Guidance Material). 
+ 
+TGL 26 is, therefore, designed to: 
+ 
+• Help Operators create their MEL 
+• Ensure MEL standardization for various JAA Operators 
+• Help Authorities in the MEL evaluation and approval process. 
+ 
+Therefore, Operators that follow JAR-OPS rules may find most of the dispatch 
+requirements, for the “As required by regulations” items, in the TGL 26 (Refer to 
+§4.2.2.4). 
+ 
+Non-JAA Operators can also follow the TGL 26 guidelines. 
+ 
+ 
+1.4.1.4. 
+MMEL PROCEDURES MANUAL 
+ 
+The MMEL Procedures Manual, is issued by the JAA, and provides guidelines on 
+the creation and approval/acceptance of the MMEL. 
+The MMEL Procedures Manual provides a centralized source of guidance 
+information to facilitate the review of JAA MMELs and MELs. 
+ 
+ 
+Note: All the above-mentioned texts can be consulted on the following website: 
+http://www.jaa.nl 
+
+=== PDF PAGE 27 ===
+Getting to Grips with MMEL and MEL 
+ 
+1. General 
+ 
+ 
+ 
+- 25 - 
+1.4.2. 
+ FAA POLICIES AND REGULATIONS 
+ 
+In the JAA model: The aircraft manufacturer writes the MMELs. These MMELs are 
+endorsed and recommended by the JAA for approval by the National Authorities. 
+In the FAA model: The FAA writes and approves the MMELs. 
+A comparison between the JAA and FAA MMEL approval process is provided in 
+§3.3.3.3. 
+ 
+1.4.2.1. 
+FAR 121.628 
+FAR 121.628 is the legal document used by the US FAA to create and approve FAA 
+MMELs. 
+ 
+Figure 1-6: Extract of FAR 121.628 extract 
+ 
+The above-mentioned requirements are repeated in FAR 125.201, FAR 129.14, 
+and FAR 135.179, depending on the FAR under which the Operator is certificated. 
+ 
+1.4.2.2. 
+POLICY LETTERS  
+Policy Letters are guidelines for the MMEL approval process, and for the use of the 
+MEL. These Policy Letters are designed to help achieve standardized dispatch 
+conditions for all aircraft types at the FAA MMEL/MEL level. 
+ 
+Note: All 
+Policy 
+Letters 
+can 
+be 
+consulted 
+on 
+the 
+following 
+website: 
+http://www.opspecs.com 
+§ 121.628 Inoperable instruments and equipment. 
+(a) No person may take off an airplane with inoperable instruments or
+equipment installed unless the following conditions are met: 
+(1) An approved Minimum Equipment List exists for that airplane. 
+(2) The certificate-holding district office has issued the certificate
+holder operations specifications authorizing operations in accordance
+with an approved Minimum Equipment List. The flight crew shall have
+direct access at all times prior to flight to all of the information
+contained in the approved Minimum Equipment List through printed
+or other means approved by the Administrator in the certificate
+holders operations specifications. An approved Minimum Equipment
+List, as authorized by the operations specifications, constitutes an
+approved change to the type design without requiring re-certification.
+
+=== PDF PAGE 28 ===
+1. General 
+ 
+Getting to Grips with MMEL and MEL 
+ 
+ 
+ 
+- 26 - 
+1.4.2.3. 
+MEL HANDBOOK 
+ 
+The FAA “Air Transportation Operations Inspector’s Handbook 8400.10”, 
+Volume 4, Chapter 4, deals in particular with the creation of the MMEL, the MMEL 
+approved process, and the Configuration Deviation List (CDL). 
+Figure 1-7: Table of Contents of the MEL Handbook 
+ 
+ 
+1.4.2.4. 
+FAR OPERATING RULES 
+ 
+Relevant FAR operating rules may be used to specify the “As required by FAR” 
+items in the FAA MMELs. 
+ 
+FAR Operating rules extracts 
+FAR 23 
+Airworthiness Standards: Normal, utility, acrobatic, and commuter 
+category airplane 
+FAR 25 
+Airworthiness Standards: Transport Category Airplane 
+FAR 33 
+Airworthiness Standards: Aircraft Engines 
+FAR 91 
+General Operating and Flight Rules 
+FAR 121 Operating 
+Requirements: 
+Domestic, 
+Flag, 
+and 
+Supplemental 
+Operations 
+FAR 125 
+Certification and Operations: Airplanes having a seating capacity of 
+20 or more passengers, or a maximum payload capacity of 6000 
+pounds (2.7 tons), or more. 
+FAR 129 Operations: Foreign air carriers and foreign operators of US 
+registered A/C engaged in common carriage. 
+FAR 135 Operating Requirements: Commuter and On-demand Operations and 
+rules governing persons on-board such aircraft. 
+Figure 1-8: Applicable FAR Operating Rules 
+CHAPTER 4. MINIMUM EQUIPMENT LISTS (MEL) AND CONFIGURATION DEVIATION
+LISTS (CDL) 
+Section 1. General 
+4-561 
+Section 2. Master Minimum Equipment Lists (MMEL) Development and Approval Process 
+4-577 
+Section 3. MEL Approval Process 
+4-589 
+Section 4. MEL use in service 
+4-609 
+Section 5. Master Minimum Equipment List subsystem (MMEL subsystem) 
+4-623 
+Section 6. Configuration Deviation List (CDL) 
+4-637 
+ 
+
+=== PDF PAGE 29 ===
+Getting to Grips with MMEL and MEL 
+ 
+1. General 
+ 
+ 
+ 
+- 27 - 
+1.4.3. 
+AIRWORTHINESS DIRECTIVES (ADS) 
+ 
+After the occurrence of an in-service event, Airworthiness Authorities may require 
+specific actions to be taken. Such actions are published in Airworthiness Directives 
+(ADs). 
+ 
+When applicable, an AD may require that the affected MMELs/MELs be updated, as 
+indicated by the “Mandatory actions and compliance times” paragraph of the AD. 
+ 
+The rule to keep in mind in the above-mentioned case is that an AD always 
+supersedes any published MMEL/MEL dispatch requirement. As soon as an 
+AD requires an MMEL modification, Airbus usually issues an MMEL Temporary 
+Revision. 
+ 
+The reference of the MMEL Temporary Revision is provided in the REFERENCE 
+PUBLICATION section of the AD. However, this Temporary Revision may later be 
+reissued or incorporated into an MMEL general revision, even if not required by an 
+AD. 
+Therefore, the new issue of this MMEL Temporary Revision, or the MMEL general 
+revision, is still compliant with the AD. 
+ 
+As a general rule, the MMEL/MEL restrictions established in an AD remain valid 
+until the corrective actions, indicated in the AD, have been applied. 
+
+=== PDF PAGE 30 ===
+1. General 
+ 
+Getting to Grips with MMEL and MEL 
+ 
+ 
+ 
+- 28 - 
+Please, keep in mind… 
+ 
+ 
+MMEL/MEL General Presentation 
+ 
+The objective of the MMEL is to ensure: 
+• An acceptable level of safety, while operating an aircraft with inoperative 
+equipment 
+• Aircraft profitability by avoiding Aircraft On Ground (AOG) situations. 
+ 
+MMEL/MEL Legal Bases 
+ 
+The applicable documents that serve as the reference for the creation of the 
+MMEL and the MEL are provided by either Joint Aviation Authorities (JAA) or 
+Federal Aviation Administration (FAA) documents. 
+These documents are: 
+ 
+Airworthiness Directives (ADs), published as a result of an in-flight event, 
+always supersede any published MMEL/MEL dispatch requirement. 
+ 
+• JAR-OPS 1.030 
+• JAR-MMEL/MEL 
+• JAR OPS 1 MEL Policy Document (TGL 26)
+• MMEL/MEL Procedures Manual 
+• FAR 121.628 
+• Policy Letters 
+• MEL Handbook 
+• FAR Operating Rules 
+Acceptable 
+Level of Safety
+Profitability 
+
+=== PDF PAGE 31 ===
+Getting to Grips with MMEL and MEL 
+ 
+2. MMEL Development Process 
+ 
+ 
+ 
+- 29 - 
+ 
+2. MMEL DEVELOPMENT PROCESS 
+2.1 Introduction 
+30 
+2.2 Development Principles to Justify Dispatch Conditions 
+31 
+ 
+2.2.1 Qualitative Analysis: Consequences of the Failure 
+31 
+ 
+2.2.2 Qualitative Analysis: Consequences of the Next Critical 
+Failure 
+ 
+34 
+ 
+2.2.3 Quantitative Analysis: Compliance with SSA 
+35 
+ 
+2.2.4 Summary of the Analysis Process 
+36 
+2.3 MMEL Rectification Intervals 
+38 
+ 
+2.3.1 Rectification Interval Definition 
+38 
+ 
+2.3.2 Rectification Interval Attribution to MMEL Items 
+39 
+ 
+2.3.3 Rectification Interval Extension 
+41 
+2.4 Failure Classification 
+42 
+ 
+2.4.1 Class I Failures 
+43 
+ 
+2.4.2 Class II Failures 
+44 
+ 
+2.4.3 Class III Failures 
+46 
+ 
+2.4.4 Summary of Failure Classes and Consequences 
+ 
+47 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 32 ===
+2. MMEL Development Process 
+ 
+Getting to Grips with MMEL and MEL 
+ 
+ 
+ 
+- 30 - 
+2.1. 
+INTRODUCTION 
+ 
+ 
+An aircraft is type-certified with all of its required 
+equipment 
+operative. 
+If 
+deviations 
+were 
+not 
+permitted 
+either 
+from 
+this 
+type-certified 
+configuration, and/or from the equipment required 
+by the operating rules, the aircraft could not be 
+flown in revenue services unless such equipment is 
+operative. 
+ 
+Aircraft operation has proven that, in specific conditions, and for a limited period 
+of time, it is not necessary for every aircraft system or component to be 
+operative, provided that the remaining operative instruments and equipment 
+ensure an acceptable level of safety. Therefore, some conditional deviations from 
+the Type Certificate requirements are authorized, in order to permit uninterrupted 
+operation of the aircraft in revenue flight. These conditional deviations are 
+referred to as “dispatch conditions”, and are published in the MMEL. 
+ 
+When an aircraft is dispatched by application of the MMEL, operational and safety 
+integrity of the aircraft is maintained. The MMEL aims at ensuring safe and 
+normal operation of the aircraft, even if some items are inoperative. The 
+MMEL does not grant the possibility to depart with a system inoperative, if the 
+system failure impairs the aircraft operation, or the safety of the flight. 
+ 
+Due to the fact that the main purpose of the MMEL is to enable an aircraft to be 
+dispatched for a limited period of time, Rectification Intervals have also been 
+defined and incorporated in the Airbus MMEL. 
+ 
+In addition, Airbus has introduced the “failure classification” concept, in order to 
+help Operators distinguish between the different failures, and to determine the 
+appropriate flight crew or maintenance actions. 
+ 
+This section is designed to first provide insight into the justification methods, 
+adopted by Airbus in the MMEL development process. It will then address the 
+Rectification Interval and the “Failure Classification” concept. 
+ 
+
+=== PDF PAGE 33 ===
+Getting to Grips with MMEL and MEL 
+ 
+2. MMEL Development Process 
+ 
+ 
+ 
+- 31 - 
+2.2. 
+DEVELOPMENT PRINCIPLES TO JUSTIFY DISPATCH CONDITIONS 
+ 
+ 
+The MMEL is the result of comprehensive research and analysis, including the 
+review of numerous operational conditions and factors, for the purpose of ensuring 
+the safe dispatch and normal operation of an aircraft for each MMEL item. 
+ 
+Before proposing a new MMEL item to Airworthiness Authorities (Refer to §3.3.3), 
+Airbus must be able to substantiate that, even if the specific system is inoperative, 
+it is still possible for the aircraft to maintain an acceptable level of safety as 
+intended by the applicable regulation. 
+ 
+A qualitative analysis and, if necessary, a quantitative analysis is 
+systematically done, in order to achieve this objective. These analyses not only 
+take into account the consequences of the item failure, but also the 
+consequences of the next critical failure that could occur in flight. 
+ 
+ 
+2.2.1. 
+QUALITATIVE ANALYSIS: CONSEQUENCES OF THE FAILURE 
+ 
+A qualitative analysis of the consequences of a failure is performed first, and 
+takes all aspects of aircraft operation into account. This analysis focuses on: 
+ 
+• The transfer of a function to an alternate operating component 
+ 
+Example: 
+ 
+On A320 aircraft, if the Bleed Control System 1 (associated with Engine 1) 
+is inoperative, the Bleed Control System 2 completely takes over this 
+function for both engines. 
+ 
+• The reference to other systems that perform the required function, or 
+provide the required information 
+ 
+Example: 
+ 
+A system failure is monitored by the ECAM E/WD and is indicated by a 
+FAULT light. Consequently, if the fault light fails, the system monitoring is 
+still ensured by the ECAM E/WD. 
+ 
+
+=== PDF PAGE 34 ===
+2. MMEL Development Process 
+ 
+Getting to Grips with MMEL and MEL 
+ 
+ 
+ 
+- 32 - 
+• The adjustment of operational limitations 
+ 
+Example: 
+ 
+If the aircraft is dispatched with one brake inoperative, performance 
+penalties must be applied, in order to adapt the operation of the aircraft 
+to the actual aircraft braking capability. 
+ 
+• The adjustment of flight crew and/or maintenance procedures 
+ 
+Example: 
+ 
+If the pressure indicator on the slide bottle is inoperative, it is necessary 
+to check the pressure of the slide bottle before the first flight of each day. 
+ 
+• The minimal adjustment to the flight crew’s workload 
+ 
+Example: 
+ 
+On A340 aircraft, if the fuel temperature indicator on the outer tank is 
+inoperative, the flight crew is requested to monitor the Total Air 
+Temperature (TAT) during the entire flight. 
+ 
+A qualitative analysis is based on engineering judgment. This analysis may be 
+based on the experience achieved from previous MMEL relief. 
+ 
+A qualitative analysis for the same item, on another aircraft type, is not directly 
+applicable. A qualitative analyses have to take into account the differences in the 
+architecture, and operational use, of the aircraft systems. 
+ 
+Flight and simulator tests can be a useful tool to evaluate the complexity of 
+maintenance, and/or flight crew procedures, if an item is inoperative, and can 
+help to evaluate the impact that an inoperative item may have on flight crew 
+workload. The interactions between systems are fully analyzed to ensure that 
+multiple failures do not result in an unsatisfactory level of safety. 
+ 
+The purpose of the qualitative analysis is to determine that the failure of a 
+candidate* system has no more than Minor** consequences on the safety of 
+the flight. Appropriate additional dispatch conditions, such as operational 
+restrictions, flight crew procedures, or maintenance procedures, can be taken into 
+account, in order to achieve this objective. 
+ 
+ 
+                                       
+* 
+A candidate system is a system that is likely to be included into the MMEL 
+ 
+** The standard definitions of failure effects classification are provided in Appendix 6.3 of 
+this document 
+
+=== PDF PAGE 35 ===
+Getting to Grips with MMEL and MEL 
+ 
+2. MMEL Development Process 
+ 
+ 
+ 
+- 33 - 
+Example: Failure of an engine starter valve on A300-600 aircraft. 
+ 
+The air turbine starter is used to start the engine with the bleed from the APU: 
+o If the starter valve is in the open position, this will enable the APU 
+bleed to go through a turbine that will start the engine 
+o If the starter valve is in the closed position, this will prevent hot 
+bleed from the APU to enter the engine. 
+ 
+Qualitative analysis has demonstrated that it is possible to safely fly the 
+aircraft by securing the starter valve in the closed position: 
+ 
+o The failure of the starter valve in the closed position has no effect on 
+the safety of the flight. However, on ground, the flight crew should 
+start the engine manually 
+o The failure of the starter valve in the open position could lead to an 
+air turbine starter failure (because the turbine freely rotates with 
+excess speed), and this may have an effect on the safety of the 
+flight. 
+ 
+ 
+Based on the above qualitative analysis of an engine starter valve failure, the 
+MMEL addresses the starter valve item, and provides a corresponding flight 
+crew and/or maintenance procedure to be applied in the case of a failure. 
+These procedures explain how to manually start the engine on ground, and 
+how to securely close the starter valve for the flight. 
+ 
+
+=== PDF PAGE 207 ===
+Getting to Grips with MMEL and MEL 
+ 
+6. Appendix 
+ 
+ 
+ 
+- 205 - 
+A320 Family: Takeoff with Multiple Failures 
+ 
+ 
+ 
+Thrust Reversers 
+(78-30-01) 
+Main wheel Brake (32-42-01), or 
+Green Brake System (32-42-02), or 
+Tachometer (32-42-05) 
+Ground Spoilers Control System 
+(27-92-02) 
+ 
+One pair of spoilers, or 
+Two pairs of spoilers  
+(27-64-01-B,-C,-D,-E) 
+One pair of spoiler N°5 
+(27-64-01-A) 
+One pair of spoiler N°5 
+(27-64-01-A) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+* 
+* 
+* 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+One pair of spoilers, or 
+Two pairs of spoilers  
+ (27-64-01-B,-C,-D,-E) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+* 
+* 
+* 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ground Spoilers Control System 
+(27-92-02) 
+ 
+ 
+ 
+ 
+ 
+ 
+* 
+* 
+* 
+ 
+Each cell in the table is divided into three columns: 
+• 1st column: DRY runway 
+• 2nd column: WET runway 
+• 3rd column: CONTAMINATED runway 
+Main wheel Brake (32-42-01), or 
+Green Brake System (32-42-02), or
+Tachometer (32-42-05) 
+ 
+ 
+ 
+* 
+* 
+* 
+ 
+ 
+ 
+ 
+ 
+ 
+DRY 
+WET 
+CONTA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Thrust Reversers 
+(78-30-01) 
+* 
+* 
+* 
+ 
+ 
+ * 
+Diagonal of the table is used to cover dispatch with single 
+failure of each system. 
+ 
+Each color corresponds to the following dispatch condition: 
+ 
+ Dispatch is allowed as per Section 01 of the MMEL and computation 
+is possible using TLO or LPC. 
+ 
+Dispatch is allowed as per Section 01 of the MMEL and computation 
+is possible using TLO or LPC. However, dispatch is not recommended 
+by Airbus on performance limited runway.  
+ Dispatch is not allowed as per Section 01 of the MMEL and/or 
+computation is not possible. 
+ 
