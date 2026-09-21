@@ -2,8 +2,7 @@
 
 Decision date: 19 September 2026  
 Backlog items: BL-001, BL-003 and BL-005  
-Status: Approved product scope; automatic-activation setting and connection indicators
-are implemented in the 1.1.0 alpha, while the remaining settings are not yet complete.
+Status: Implemented in the 1.1.0 alpha; packaged acceptance remains pending.
 
 ## Design rule
 
@@ -50,7 +49,7 @@ When enabled:
 When disabled, the application performs no automatic update request during startup.
 The manual `Check for updates` action remains available.
 
-The initial default value has not yet been selected.
+The default value is enabled.
 
 ## Enable diagnostic log
 
@@ -75,7 +74,8 @@ deletes log files whose last-modified time is more than seven days earlier than 
 startup time. It must not delete subdirectories or unrelated files. Log maintenance runs
 even when diagnostic logging is disabled so expired files are eventually removed.
 
-The initial default value has not yet been selected.
+The default value is disabled. Logs use JSON Lines, one UTC-dated file at a time, with
+rotation at 10 MB and seven-day retention.
 
 ## Automatic connection and header status
 
@@ -180,9 +180,9 @@ need to persist after the application closes.
 
 The header button is shared by automatic and manual update checks. It is visible only
 when a newer compatible version has been found during the current application session.
-Selecting it starts the BL-005 update process. The updater must retain the approved
-integrity, compatibility and release-signing checks before replacing the installed
-version.
+In the settings implementation milestone, selecting it opens the exact matching release
+page on GitHub for manual installation. BL-005 will replace this temporary manual route
+with the approved download, integrity verification, restart and installation process.
 
 ## Persisted structure
 
@@ -192,9 +192,9 @@ The exact storage format is an implementation detail. The minimum logical struct
 {
   "schemaVersion": 3,
   "settings": {
-    "checkForUpdatesOnStartup": null,
+    "checkForUpdatesOnStartup": true,
     "activateFailuresOnBriefing": false,
-    "enableDiagnosticLog": null
+    "enableDiagnosticLog": false
   },
   "lastSelection": {
     "aircraftProfileId": "fenix-a321",
@@ -209,16 +209,10 @@ The exact storage format is an implementation detail. The minimum logical struct
 }
 ```
 
-The remaining `null` values above mean that those product defaults remain open decisions;
-they are not valid runtime values. Existing last-selection and window-state values must
-be migrated rather than discarded.
+Existing last-selection and window-state values are migrated rather than discarded.
 
 ## Remaining decisions
 
-- Default value for `Check for updates on startup`.
-- Default value for `Enable diagnostic log`.
-- Diagnostic-log file format, maximum individual file size and rotation behavior within
-  the seven-day retention window.
 - Final replacement text for `To failures`.
 - Exact download, restart and installation interaction after `Update available` is
   selected; the release must still use the approved installed-app-only update model.
