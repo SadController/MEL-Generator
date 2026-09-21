@@ -76,6 +76,9 @@ async function run({app,BrowserWindow,mainWindow,session,output,settingsFile}) {
     assert.equal(await js(`document.getElementById('update-available').textContent`),'Downloading 42%');
     await js(`renderUpdateState({status:'downloaded',latestVersion:'9.9.9'})`);
     assert.equal(await js(`document.getElementById('update-available').textContent`),'Restart to update');
+    await js(`renderUpdateState({status:'error',manual:true,issue:{code:'UPDATE_NETWORK_UNAVAILABLE',title:'Could not connect to GitHub',message:'MEL Generator could not check for updates.',action:'Check your internet connection and try again later.',severity:'warning'}})`);
+    assert.match(await js(`document.getElementById('settings-update-status').textContent`),/UPDATE_NETWORK_UNAVAILABLE/);
+    assert.equal(await js(`document.getElementById('settings-update-status').textContent.includes('No updates available')`),false);
     await js(`renderUpdateState(null)`);
     await js(`document.getElementById('diagnostic-log-setting').click()`);
     await until(`document.getElementById('diagnostic-log-setting').checked && !document.getElementById('diagnostic-log-setting').disabled`);
@@ -84,7 +87,13 @@ async function run({app,BrowserWindow,mainWindow,session,output,settingsFile}) {
     await until(`!document.getElementById('diagnostic-log-setting').checked && !document.getElementById('diagnostic-log-setting').disabled`);
     await capture('settings');
     await js(`document.getElementById('settings-close').click()`);
-    checks.push({name:'Settings toggles, versions, update action and two label-free integration indicators',passed:true});
+    await js(`message({code:'SIMCONNECT_RUNTIME_MISSING',title:'SimConnect is unavailable',message:'The Microsoft SimConnect client library could not be loaded.',action:'Reinstall MEL Generator from the official release.',severity:'error'})`);
+    assert.equal(await js(`document.getElementById('app-message').dataset.code`),'SIMCONNECT_RUNTIME_MISSING');
+    assert.match(await js(`document.getElementById('app-message').innerText`),/Reinstall MEL Generator/);
+    assert.equal(await js(`document.getElementById('app-message').innerText.includes('HRESULT')`),false);
+    await capture('error-banner');
+    await js(`message()`);
+    checks.push({name:'Settings, update errors, actionable error banner and two label-free integration indicators',passed:true});
     await session.enableNetworkEmulation({offline:true});
     checks.push({name:'All following application checks run with Electron networking offline',passed:true});
     await capture('setup');

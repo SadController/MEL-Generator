@@ -21,8 +21,13 @@ function sanitize(value) {
   };
 }
 function readSettings(file) {
-  try { return sanitize(JSON.parse(fs.readFileSync(file, 'utf8'))); }
-  catch { return {...defaults}; }
+  return readSettingsState(file).settings;
+}
+function readSettingsState(file) {
+  try { return {settings:sanitize(JSON.parse(fs.readFileSync(file,'utf8'))),recovered:false}; }
+  catch(error) {
+    return {settings:{...defaults},recovered:error?.code !== 'ENOENT',reason:error?.code || 'INVALID_JSON'};
+  }
 }
 function writeSettings(file, value) {
   fs.mkdirSync(path.dirname(file), {recursive:true});
@@ -30,4 +35,4 @@ function writeSettings(file, value) {
   fs.writeFileSync(temp, JSON.stringify(sanitize(value), null, 2));
   fs.renameSync(temp, file);
 }
-module.exports = {SCHEMA_VERSION,defaults, sanitize, readSettings, writeSettings};
+module.exports = {SCHEMA_VERSION,defaults, sanitize, readSettings, readSettingsState, writeSettings};

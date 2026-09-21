@@ -3,11 +3,12 @@ const {app, BrowserWindow, ipcMain, Menu, protocol, session, dialog, screen} = r
 const {autoUpdater} = require('electron-updater');
 const fs = require('node:fs');
 const path = require('node:path');
-const {readSettings, writeSettings} = require('./settings.cjs');
+const {readSettingsState, writeSettings} = require('./settings.cjs');
 const {IntegrationServiceClient,findSimConnectDll} = require('./integration.cjs');
 const {DiagnosticLogger} = require('./diagnostic-log.cjs');
 const {UpdateChecker} = require('./update-checker.cjs');
 const {UpdateManager} = require('./update-manager.cjs');
+const {issue,classifyError,activationIssue,resultEnvelope} = require('./user-errors.cjs');
 const catalog = require('../data/catalog.json');
 
 app.setName('MEL Generator');
@@ -31,6 +32,7 @@ let updateChecker;
 let updateManager;
 let updateCheckPromise;
 let latestUpdate;
+let initialIssue;
 const qaArg = process.argv.find(a => a.startsWith('--qa-output='));
 
 function checkSender(event) {
@@ -45,9 +47,34 @@ function checkSelection(value) {
   return {aircraft:value.aircraft, count:value.count};
 }
 function saveSelection(value) {
-  settings = {...settings, ...checkSelection(value)};
-  try { writeSettings(settingsFile, settings); return {saved:true}; }
-  catch { return {saved:false}; }
+  const next={...settings,...checkSelection(value)};
+  try { writeSettings(settingsFile,next); settings=next; return {saved:true}; }
+  catch(error) {
+    logger?.event('settings.save.failed',{operation:'selection',error:error.message});
+    return {saved:false,issue:issue('SETTINGS_SAVE_FAILED')};
+  }
+}
+
+function publicIntegrationState(value={}) {
+  let publicIssue=null;
+  if(value.bridgeError) {
+    publicIssue=/SimConnect\.dll.*not found|Unable to load SimConnect/i.test(value.bridgeError)
+      ? issue('SIMCONNECT_RUNTIME_MISSING')
+      : /Integration service.*missing/i.test(value.bridgeError)
+        ? issue('INTEGRATION_SERVICE_MISSING')
+        : /Integration service stopped/i.test(value.bridgeError)
+          ? issue('INTEGRATION_SERVICE_STOPPED') : issue('SIMULATOR_NOT_READY');
+  } else if(value.adapterError) publicIssue=classifyError('activation',value.adapterError);
+  return {simConnected:value.simConnected===true,aircraftLoaded:value.aircraftLoaded===true,
+    aircraftTitle:value.aircraftTitle || null,supportedAircraft:value.supportedAircraft===true,
+    adapterReady:value.adapterReady===true,issue:publicIssue};
+}
+
+function handle(channel,scope,operation) {
+  ipcMain.handle(channel,(event,...args)=>resultEnvelope(scope,async()=>{
+    checkSender(event);
+    return operation(...args);
+  },error=>logger?.event('operation.failed',{channel,error:error.message})));
 }
 function restrictWindow(win) {
   win.webContents.setWindowOpenHandler(() => ({action:'deny'}));
@@ -73,7 +100,8 @@ function createWindow() {
   });
   mainWindow.webContents.on('render-process-gone', () => {
     logger?.event('renderer.stopped');
-    dialog.showErrorBox('MEL Generator', 'The interface stopped unexpectedly. Please close and reopen the application.');
+    const publicIssue=issue('APP_RENDERER_STOPPED');
+    dialog.showErrorBox(publicIssue.title, `${publicIssue.message}\n\n${publicIssue.action}\n\n${publicIssue.code}`);
   });
   mainWindow.on('close', () => {
     const bounds = mainWindow.getNormalBounds();
@@ -82,25 +110,37 @@ function createWindow() {
     if (pdfWindow && !pdfWindow.isDestroyed()) pdfWindow.close();
   });
   mainWindow.on('closed', () => { mainWindow = null; });
-  mainWindow.loadURL(origin + '/index.html');
+  void mainWindow.loadURL(origin + '/index.html').catch(error=>{
+    logger?.event('renderer.load.failed',{error:error.message});
+    const publicIssue=classifyError('startup',error);
+    dialog.showErrorBox(publicIssue.title, `${publicIssue.message}\n\n${publicIssue.action}\n\n${publicIssue.code}`);
+  });
 }
 
 function publicUpdateState(value) {
   if(!value) return null;
   return {status:value.status,currentVersion:value.currentVersion,
     latestVersion:value.latestVersion || null,releaseName:value.releaseName || null,
-    message:value.message || null,manual:value.manual === true,
+    issue:value.issue || null,manual:value.manual === true,
     percent:Number.isFinite(value.percent) ? value.percent : null};
 }
 
 async function activateCurrentScenario({manual=true}={}) {
   if(!lastScenario?.cards?.length) throw new Error('No generated scenario is available.');
   const activation=await integration.activate(lastScenario.cards.map(card=>card.id));
+  const activationState=integration.publicState();
+  const publicIssue=activationIssue(activation,activationState);
   logger.event('activation.completed',{overall:activation.overall,
-    rolledBack:activation.rolledBack === true,manual,results:(activation.results || []).map(item=>({
+    rolledBack:activation.rolledBack === true,rollbackError:activation.rollbackError || null,
+    error:activation.message || null,manual,results:(activation.results || []).map(item=>({
       catalogId:item.catalogId,fenixId:item.fenixId || null,status:item.status}))});
-  lastScenario={...lastScenario,activation};
-  return activation;
+  const safeActivation={requested:activation.requested===true,overall:activation.overall,
+    rolledBack:activation.rolledBack===true,issue:publicIssue,
+    message:publicIssue?.message || null,results:(activation.results || []).map(item=>({
+      catalogId:item.catalogId,fenixId:item.fenixId || null,status:item.status,
+      message:publicIssue?.message || null}))};
+  lastScenario={...lastScenario,activation:safeActivation};
+  return safeActivation;
 }
 
 function publishUpdateState(value) {
@@ -122,8 +162,9 @@ async function runUpdateCheck({manual=false}={}) {
     publishUpdateState(result);
     return publicUpdateState(result);
   }).catch(error=>{
+    const publicIssue=classifyError('update-check',error);
     const result={status:'error',currentVersion:app.getVersion(),manual,
-      message:'Unable to check for updates. Check your internet connection and try again.'};
+      issue:publicIssue};
     logger?.event('update.check.failed',{manual,error:error.message});
     publishUpdateState(result);
     return publicUpdateState(result);
@@ -139,11 +180,14 @@ else {
   app.whenReady().then(() => {
     Menu.setApplicationMenu(null);
     settingsFile = path.join(app.getPath('userData'),'settings.json');
-    settings = readSettings(settingsFile);
+    const settingsState=readSettingsState(settingsFile);
+    settings=settingsState.settings;
+    initialIssue=settingsState.recovered ? issue('SETTINGS_RECOVERED') : null;
     logger = new DiagnosticLogger({directory:path.join(app.getPath('userData'),'logs'),
       enabled:settings.enableDiagnosticLog});
     try { logger.cleanup(); } catch { /* Log maintenance is best effort. */ }
     logger.event('application.started',{version:app.getVersion(),platform:process.platform,arch:process.arch});
+    if(settingsState.recovered) logger.event('settings.recovered',{reason:settingsState.reason});
     updateChecker = new UpdateChecker({currentVersion:app.getVersion()});
     const updateConfig=app.isPackaged ? path.join(process.resourcesPath,'app-update.yml') : null;
     const signaturePolicyReady=Boolean(updateConfig && fs.existsSync(updateConfig) &&
@@ -176,19 +220,17 @@ else {
     session.defaultSession.setPermissionRequestHandler((_contents,_permission,callback)=>callback(false));
     session.defaultSession.setPermissionCheckHandler(()=>false);
     session.defaultSession.webRequest.onBeforeRequest({urls:['http://*/*','https://*/*','ws://*/*','wss://*/*']},(_details,callback)=>callback({cancel:true}));
-    ipcMain.handle('mel:initialize', event => {
-      checkSender(event);
+    handle('mel:initialize','startup',()=>{
       return {settings:{aircraft:settings.aircraft,count:settings.count,
         checkForUpdatesOnStartup:settings.checkForUpdatesOnStartup,
         activateFailuresOnBriefing:settings.activateFailuresOnBriefing,
         enableDiagnosticLog:settings.enableDiagnosticLog},
-        integration:integration?.publicState(), version:app.getVersion(),
+        integration:publicIntegrationState(integration?.publicState()), version:app.getVersion(),
         integrationVersion:'2.0.0',catalogueCount:catalog.records.length,
-        update:publicUpdateState(latestUpdate)};
+        update:publicUpdateState(latestUpdate),issue:initialIssue};
     });
-    ipcMain.handle('mel:selection', (event,value) => { checkSender(event); return saveSelection(value); });
-    ipcMain.handle('mel:app-settings', (event,value) => {
-      checkSender(event);
+    handle('mel:selection','settings',value=>saveSelection(value));
+    handle('mel:app-settings','settings',value=>{
       const allowed=['checkForUpdatesOnStartup','activateFailuresOnBriefing','enableDiagnosticLog'];
       const keys=value && typeof value === 'object' ? Object.keys(value) : [];
       if(!keys.length || keys.some(key=>!allowed.includes(key) || typeof value[key] !== 'boolean')) {
@@ -196,8 +238,9 @@ else {
       }
       const wasLogging=settings.enableDiagnosticLog;
       if(wasLogging && value.enableDiagnosticLog === false) logger.event('diagnostic-log.disabled');
-      settings={...settings,...value};
-      writeSettings(settingsFile,settings);
+      const next={...settings,...value};
+      writeSettings(settingsFile,next);
+      settings=next;
       logger.setEnabled(settings.enableDiagnosticLog);
       if(!wasLogging && settings.enableDiagnosticLog) logger.event('diagnostic-log.enabled');
       logger.event('settings.changed',{keys});
@@ -205,30 +248,33 @@ else {
         activateFailuresOnBriefing:settings.activateFailuresOnBriefing,
         enableDiagnosticLog:settings.enableDiagnosticLog};
     });
-    ipcMain.handle('mel:check-updates', event => { checkSender(event); return runUpdateCheck({manual:true}); });
-    ipcMain.handle('mel:run-update', async event => {
-      checkSender(event);
-      if(updateManager.publicState().status === 'downloaded') return updateManager.install();
+    handle('mel:check-updates','update-check',()=>runUpdateCheck({manual:true}));
+    handle('mel:run-update','update-download',async()=>{
+      if(updateManager.publicState().status === 'downloaded') {
+        try { return updateManager.install(); }
+        catch(error) {
+          logger?.event('update.install.failed',{error:error.message});
+          return {status:'error',issue:classifyError('update-install',error)};
+        }
+      }
       if(!latestUpdate || !['available','error','downloading'].includes(latestUpdate.status)) {
         throw new Error('No compatible update is available.');
       }
       return updateManager.download();
     });
-    ipcMain.handle('mel:activate-current', async event => { checkSender(event); return activateCurrentScenario(); });
-    ipcMain.handle('mel:generate', async (event,value) => {
-      checkSender(event);
+    handle('mel:activate-current','activation',()=>activateCurrentScenario());
+    handle('mel:generate','generation',async value=>{
       const selected = checkSelection(value);
       lastScenario = await integration.generate(selected);
-      saveSelection(selected);
+      const selectionResult=saveSelection(selected);
       logger.event('scenario.generated',{aircraft:selected.aircraft,count:selected.count,
         ids:lastScenario.cards.map(card=>card.id),automaticActivation:settings.activateFailuresOnBriefing});
       const activation=settings.activateFailuresOnBriefing
         ? await activateCurrentScenario({manual:false})
         : {requested:false,overall:'disabled',results:[]};
-      return {...lastScenario,activation};
+      return {...lastScenario,activation,notice:selectionResult.issue || null};
     });
-    ipcMain.handle('mel:source', async (event, value) => {
-      checkSender(event);
+    handle('mel:source','source',async value=>{
       const card = lastScenario?.cards.find(c => c.id === value?.id && c.branch_id === value?.branchId);
       if (!card) throw new Error('Source is only available for the current scenario.');
       if (!fs.existsSync(pdf)) throw new Error('The bundled MMEL document is missing.');
@@ -253,7 +299,7 @@ else {
       dataDirectory:path.join(serviceRoot,'data'),
       onState:state=>{
         logger.event('integration.state',state);
-        if(mainWindow && !mainWindow.isDestroyed()) mainWindow.webContents.send('mel:integration-state',state);
+        if(mainWindow && !mainWindow.isDestroyed()) mainWindow.webContents.send('mel:integration-state',publicIntegrationState(state));
       }});
     integration.start();
     createWindow();
@@ -263,7 +309,8 @@ else {
     if (qaArg) require('./qa.cjs').run({app, BrowserWindow, mainWindow, session:session.defaultSession,
       output:path.resolve(qaArg.slice('--qa-output='.length)), settingsFile});
   }).catch(error => {
-    dialog.showErrorBox('MEL Generator', `Unable to start the application.\n${error.message}`);
+    const publicIssue=classifyError('startup',error);
+    dialog.showErrorBox(publicIssue.title, `${publicIssue.message}\n\n${publicIssue.action}\n\n${publicIssue.code}`);
     app.quit();
   });
   app.on('before-quit',()=>{logger?.event('application.stopped');integration?.stop();});

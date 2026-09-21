@@ -1,4 +1,5 @@
 'use strict';
+const {classifyError,issue} = require('./user-errors.cjs');
 
 class UpdateManager {
   constructor({updater,isPackaged,signaturePolicyReady=false,onState=()=>{},logger=null}={}) {
@@ -24,8 +25,10 @@ class UpdateManager {
       this.publish({status:'downloaded',latestVersion:String(info?.version || '') || null});
     });
     updater.on('error',error=>{
-      this.publish({status:'error',message:this.errorMessage(error)});
-      this.logger?.event('update.install.failed',{error:error?.message || String(error)});
+      const scope=this.downloaded?'update-install':'update-download';
+      const publicIssue=classifyError(scope,error);
+      this.publish({status:'error',issue:publicIssue});
+      this.logger?.event(`${scope.replace('-','.')}.failed`,{error:error?.message || String(error)});
     });
   }
 
@@ -37,24 +40,13 @@ class UpdateManager {
     return this.publicState();
   }
 
-  errorMessage(error) {
-    const text=String(error?.message || error || '');
-    if(/ENOTFOUND|EAI_AGAIN|network|internet|timed? ?out|ECONN/i.test(text)) {
-      return 'Unable to download the update. Check your internet connection and try again.';
-    }
-    if(/signature|publisher|certificate|checksum|sha512|integrity/i.test(text)) {
-      return 'The downloaded update could not be verified and was not installed.';
-    }
-    return 'Unable to download the update. The installed version was not changed.';
-  }
-
   async download() {
     if(!this.isPackaged) throw new Error('Updates can only be installed by the packaged application.');
     if(!this.signaturePolicyReady) return this.publish({status:'error',
-      message:'Automatic installation is unavailable until release signing is configured.'});
+      issue:issue('UPDATE_SIGNING_PENDING')});
     if(this.operation) return this.operation;
     if(this.downloaded) return this.publicState();
-    this.publish({status:'downloading',percent:0,message:null});
+    this.publish({status:'downloading',percent:0,issue:null});
     this.logger?.event('update.download.started');
     this.operation=(async()=>{
       const result=await this.updater.checkForUpdates();
@@ -64,7 +56,7 @@ class UpdateManager {
       this.logger?.event('update.download.completed',{latestVersion:this.state.latestVersion});
       return this.publicState();
     })().catch(error=>{
-      const result=this.publish({status:'error',message:this.errorMessage(error)});
+      const result=this.publish({status:'error',issue:classifyError('update-download',error)});
       this.logger?.event('update.download.failed',{error:error.message});
       return result;
     }).finally(()=>{this.operation=null;});

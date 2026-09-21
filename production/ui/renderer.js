@@ -14,10 +14,30 @@ let integrationState = null;
 const activationButton = document.getElementById('activate-failures');
 const selection = () => ({aircraft:form.elements.aircraft.value, count:Number(form.elements.count.value)});
 const pad = n => String(n).padStart(2,'0');
-function message(text = '') {
+const unexpectedIssue={code:'UNEXPECTED_ERROR',title:'The operation could not be completed',
+  message:'MEL Generator encountered an unexpected error.',
+  action:'Try again. If the problem continues, enable the diagnostic log and report the error code.',severity:'error'};
+function issueText(value) {
+  const current=value?.code ? value : unexpectedIssue;
+  return `${current.title}. ${current.message} ${current.action} (${current.code})`;
+}
+function message(value = null) {
   const el = document.getElementById('app-message');
-  el.textContent = text;
-  el.hidden = !text;
+  el.replaceChildren();
+  if(!value) { el.hidden=true; delete el.dataset.code; return; }
+  const current=value?.code ? value : unexpectedIssue;
+  el.dataset.code=current.code;
+  el.className=`app-message ${current.severity || 'error'}`;
+  el.append(element('strong','',current.title),element('span','',current.message),
+    element('small','',`${current.action} · ${current.code}`));
+  el.hidden=false;
+}
+async function callApi(promise) {
+  try {
+    const response=await promise;
+    if(response?.ok === true) return response.value;
+    throw response?.error || unexpectedIssue;
+  } catch(error) { throw error?.code ? error : unexpectedIssue; }
 }
 function updateSummary() {
   const {aircraft,count} = selection();
@@ -95,8 +115,8 @@ function renderScenario(result) {
     source.addEventListener('click', async () => {
       source.disabled = true;
       message();
-      try { await window.mel.openSource(record.id,record.branch_id); }
-      catch { message('Unable to open the bundled MMEL. Please reopen the application or reinstall it.'); }
+      try { await callApi(window.mel.openSource(record.id,record.branch_id)); }
+      catch(error) { message(error); }
       finally { source.disabled = false; }
     });
     footer.append(element('span','',`MMEL ${record.mmel_id}`),source);
@@ -117,7 +137,7 @@ function renderScenario(result) {
     summary.className=`activation-summary ${result.activation.overall}`;
     summary.textContent=result.activation.overall === 'success'
       ? 'All generated failures are active in Fenix.'
-      : `Automatic activation was not completed. ${result.activation.message || 'Activate the marked failures manually.'}`;
+      : issueText(result.activation.issue);
     document.getElementById('activation-footer').textContent=result.activation.overall === 'success'
       ? 'Automatic activation verified in Fenix.' : 'Review the activation status on each card.';
   } else {
@@ -130,9 +150,9 @@ function renderScenario(result) {
 form.addEventListener('change', async () => {
   updateSummary();
   try {
-    const result = await window.mel.saveSelection(selection());
-    if (!result.saved) message('Your selection works for this session, but could not be saved.');
-  } catch { message('Your selection could not be saved. Please try again.'); }
+    const result = await callApi(window.mel.saveSelection(selection()));
+    if (!result.saved) message(result.issue);
+  } catch(error) { message(error); }
 });
 form.addEventListener('submit', async event => {
   event.preventDefault();
@@ -143,11 +163,12 @@ form.addEventListener('submit', async event => {
   form.setAttribute('aria-busy','true');
   message();
   try {
-    const result = await window.mel.generate(selection());
+    const result = await callApi(window.mel.generate(selection()));
     scenario = result;
     renderScenario(result);
     switchView('failures',true);
-  } catch { message('Unable to generate a scenario. Please try again.'); }
+    if(result.notice) message(result.notice);
+  } catch(error) { message(error); }
   finally { busy = false; submit.disabled = false; label.textContent = 'To failures'; form.setAttribute('aria-busy','false'); }
 });
 document.getElementById('back-button').addEventListener('click',()=>switchView('setup',true));
@@ -157,10 +178,10 @@ activationButton.addEventListener('click',async()=>{
   updateActivationButton();
   message();
   try {
-    const activation=await window.mel.activateCurrent();
+    const activation=await callApi(window.mel.activateCurrent());
     scenario={...scenario,activation};
     renderScenario(scenario);
-  } catch { message('Unable to activate the failures. Confirm that Fenix is loaded and try again.'); }
+  } catch(error) { message(error); }
   finally { activationBusy=false; updateActivationButton(); }
 });
 setupTab.addEventListener('click',()=>switchView('setup'));
@@ -170,21 +191,21 @@ const settingsDialog=document.getElementById('settings-dialog');
 document.getElementById('settings-button').addEventListener('click',()=>settingsDialog.showModal());
 document.getElementById('settings-close').addEventListener('click',()=>settingsDialog.close());
 settingsDialog.addEventListener('click',event=>{ if(event.target===settingsDialog) settingsDialog.close(); });
-async function saveBooleanSetting(input,key,errorText) {
+async function saveBooleanSetting(input,key) {
   const previous=!input.checked;
   input.disabled=true;
-  try { await window.mel.saveAppSettings({[key]:input.checked}); }
-  catch { input.checked=previous; message(errorText); }
+  try { await callApi(window.mel.saveAppSettings({[key]:input.checked})); }
+  catch(error) { input.checked=previous; message(error); }
   finally { input.disabled=false; }
 }
 document.getElementById('startup-update-setting').addEventListener('change',event=>{
-  saveBooleanSetting(event.currentTarget,'checkForUpdatesOnStartup','The update setting could not be saved.');
+  saveBooleanSetting(event.currentTarget,'checkForUpdatesOnStartup');
 });
 document.getElementById('auto-activate-setting').addEventListener('change',event=>{
-  saveBooleanSetting(event.currentTarget,'activateFailuresOnBriefing','The automatic activation setting could not be saved.');
+  saveBooleanSetting(event.currentTarget,'activateFailuresOnBriefing');
 });
 document.getElementById('diagnostic-log-setting').addEventListener('change',event=>{
-  saveBooleanSetting(event.currentTarget,'enableDiagnosticLog','The diagnostic log setting could not be saved.');
+  saveBooleanSetting(event.currentTarget,'enableDiagnosticLog');
 });
 const updateButton=document.getElementById('update-available');
 const checkUpdatesButton=document.getElementById('check-updates');
@@ -205,22 +226,22 @@ function renderUpdateState(state) {
   else if(downloading) updateStatus.textContent=`Downloading version ${state.latestVersion || ''}… ${Math.round(state.percent || 0)}%`;
   else if(downloaded) updateStatus.textContent=`Version ${state.latestVersion} is ready. Restart to install it.`;
   else if(state?.status === 'current' && state.manual) updateStatus.textContent='No updates available';
-  else if(state?.status === 'error') updateStatus.textContent=state.message || 'Unable to check for updates.';
+  else if(state?.status === 'error') updateStatus.textContent=issueText(state.issue);
   else updateStatus.textContent='';
   updateStatus.hidden=!updateStatus.textContent;
 }
 checkUpdatesButton.addEventListener('click',async()=>{
   renderUpdateState({status:'checking',manual:true});
-  try { renderUpdateState(await window.mel.checkForUpdates()); }
-  catch { renderUpdateState({status:'error',manual:true,message:'Unable to check for updates.'}); }
+  try { renderUpdateState(await callApi(window.mel.checkForUpdates())); }
+  catch(error) { renderUpdateState({status:'error',manual:true,issue:error}); }
 });
 updateButton.addEventListener('click',async()=>{
   updateButton.disabled=true;
   try {
-    const result=await window.mel.runUpdate();
+    const result=await callApi(window.mel.runUpdate());
     if(result?.status) renderUpdateState(result);
   }
-  catch { renderUpdateState({status:'error',latestVersion:'unknown',message:'Unable to update the application. The installed version was not changed.'}); }
+  catch(error) { renderUpdateState({status:'error',latestVersion:'unknown',issue:error}); }
 });
 function renderIntegrationState(state) {
   integrationState=state;
@@ -230,8 +251,12 @@ function renderIntegrationState(state) {
   const adapterReady=simReady && state?.supportedAircraft && state?.adapterReady;
   sim.classList.toggle('ready',Boolean(simReady));
   adapter.classList.toggle('ready',Boolean(adapterReady));
-  const simText=simReady ? `Simulator and aircraft detected: ${state.aircraftTitle}` : 'Simulator and aircraft not detected';
-  const adapterText=adapterReady ? 'Automatic activation available' : 'Automatic activation unavailable';
+  const simText=simReady ? `Simulator and aircraft detected: ${state.aircraftTitle}`
+    : state?.issue?.code==='SIMCONNECT_RUNTIME_MISSING' ? `${state.issue.title}. ${state.issue.action}`
+      : 'Simulator and aircraft not detected';
+  const adapterText=adapterReady ? 'Automatic activation available'
+    : state?.issue && !['SIMULATOR_NOT_READY','SIMCONNECT_RUNTIME_MISSING'].includes(state.issue.code)
+      ? `${state.issue.title}. ${state.issue.action}` : 'Automatic activation unavailable';
   sim.title=simText; sim.setAttribute('aria-label',simText);
   adapter.title=adapterText; adapter.setAttribute('aria-label',adapterText);
   updateActivationButton();
@@ -248,7 +273,7 @@ document.querySelector('.tabbar').addEventListener('keydown',event=>{
 });
 (async () => {
   try {
-    const info = await window.mel.initialize();
+    const info = await callApi(window.mel.initialize());
     form.elements.aircraft.value = info.settings.aircraft;
     form.elements.count.value = String(info.settings.count);
     document.getElementById('settings-app-version').textContent = info.version;
@@ -262,8 +287,9 @@ document.querySelector('.tabbar').addEventListener('keydown',event=>{
     updateSummary();
     submit.disabled = false;
     label.textContent = 'To failures';
-  } catch {
+    if(info.issue) message(info.issue);
+  } catch(error) {
     label.textContent = 'Unavailable';
-    message('Unable to load the application. Please close and reopen MEL Generator.');
+    message(error);
   }
 })();

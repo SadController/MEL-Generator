@@ -19,7 +19,15 @@ show that a supported Fenix aircraft and its adapter are ready.
 The installed application checks the public GitHub release channel when enabled in
 Settings. **Update available** downloads the compatible NSIS release and shows progress;
 after verification it changes to **Restart to update**. Public update acceptance still
-requires the approved Authenticode certificate and a signed installed-update test.
+requires the approved Authenticode certificate and a signed installed-update test. The
+project owner submitted an application to the SignPath Foundation program on
+20 September 2026; its decision is pending.
+
+Expected failures use a stable public error code, a plain-English explanation and a
+recovery action. Update connection failures are kept distinct from `No updates
+available`, and failed automatic activation preserves the briefing for manual action.
+Raw exceptions, stack traces, HRESULT values and local paths are shown only in the
+opt-in diagnostic log, never in the normal interface.
 
 The two circles in the header have no visible labels. Hover over either circle for its
 description. The first is green when MSFS is connected and a loaded aircraft is
