@@ -10,7 +10,8 @@
   "scripts": {
     "start": "electron .",
     "test": "node --test ../development/tests/*.test.cjs",
-    "build": "electron-builder --win nsis --x64"
+    "build:service": "powershell -NoProfile -ExecutionPolicy Bypass -File ../development/scripts/build-service.ps1",
+    "build": "pnpm run build:service && electron-builder --win nsis --x64"
   },
   "devDependencies": {
     "electron": "44.3.0",
@@ -28,14 +29,14 @@
     },
     "files": [
       "desktop/**",
-      "core/**",
       "ui/**",
       "data/**",
       "integration/**",
+      "!integration/SimConnect.dll",
       "package.json"
     ],
     "asarUnpack": [
-      "integration/SimConnectBridge.exe"
+      "integration/service/**"
     ],
     "extraResources": [
       {
@@ -45,6 +46,14 @@
       {
         "from": "resources/THIRD-PARTY-NOTICES.txt",
         "to": "THIRD-PARTY-NOTICES.txt"
+      },
+      {
+        "from": "integration/SimConnect.dll",
+        "to": "integration/SimConnect.dll"
+      },
+      {
+        "from": "resources/MSFS-SDK-EULA.pdf",
+        "to": "MSFS-SDK-EULA.pdf"
       }
     ],
     "publish": [

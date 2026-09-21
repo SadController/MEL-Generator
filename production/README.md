@@ -33,6 +33,12 @@ Manual Failures catalogue to confirm the result. If a multi-failure operation fa
 the application attempts to restore only failures that it activated during that
 operation; failures already active before the operation are preserved.
 
+Scenario generation and simulator integration now run in the bundled self-contained
+.NET 8 Integration Service. Electron communicates with it through a private versioned
+JSON protocol over standard pipes. The service owns the generation core, SimConnect and
+Fenix adapter; the Electron application remains the presentation and desktop-lifecycle
+shell. Users do not need to install .NET separately. See `service/README.md`.
+
 Aircraft selection changes the scenario label. The same catalogue is used for
 all three aircraft and both engine types, as agreed for this simulation project.
 MMEL conditions concerning weather, route, maintenance and equipment outside the
@@ -105,12 +111,11 @@ download and installation remain part of BL-005. Optional diagnostic logs are st
 JSON Lines under `%APPDATA%\MEL Generator\logs`, rotate at 10 MB and are deleted after
 seven days. The build is unsigned; no signing certificate is included in this project.
 
-The integration helper looks for `SimConnect.dll` in this order: the
-`MEL_GENERATOR_SIMCONNECT_DLL` support environment variable, an integration resource
-bundled with a future approved distribution, the optional
-`%APPDATA%\MEL Generator\simconnect-path.txt` support override. The alpha installer does
-not redistribute a third-party copy of SimConnect and does not load an arbitrary DLL
-discovered inside the Community folder.
+The installer includes the unmodified native `SimConnect.dll` from Microsoft Flight
+Simulator 2024 Core SDK 1.7.3. The integration helper looks for `SimConnect.dll` in this
+order: the `MEL_GENERATOR_SIMCONNECT_DLL` support environment variable, the bundled SDK
+library, and the optional `%APPDATA%\MEL Generator\simconnect-path.txt` support override.
+It does not load an arbitrary DLL discovered inside the Community folder.
 
 This is a flight simulation application. Card text summarizes the selected source
 provision; the complete original PDF is available offline. See the bundled

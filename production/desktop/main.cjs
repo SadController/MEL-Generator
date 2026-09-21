@@ -3,15 +3,12 @@ const {app, BrowserWindow, ipcMain, Menu, protocol, session, dialog, screen} = r
 const {autoUpdater} = require('electron-updater');
 const fs = require('node:fs');
 const path = require('node:path');
-const {Generator} = require('../core/generator.cjs');
 const {readSettings, writeSettings} = require('./settings.cjs');
-const {FenixAdapter,IntegrationController,findSimConnectDll} = require('./integration.cjs');
+const {IntegrationServiceClient,findSimConnectDll} = require('./integration.cjs');
 const {DiagnosticLogger} = require('./diagnostic-log.cjs');
 const {UpdateChecker} = require('./update-checker.cjs');
 const {UpdateManager} = require('./update-manager.cjs');
 const catalog = require('../data/catalog.json');
-const rules = require('../data/rules.json');
-const fenixMapping = require('../integration/fenix-mapping.json');
 
 app.setName('MEL Generator');
 app.setPath('userData', path.join(app.getPath('appData'), 'MEL Generator'));
@@ -25,7 +22,6 @@ const origin = 'mel://app';
 const uiRoot = path.resolve(__dirname, '../ui');
 let mainWindow;
 let pdfWindow;
-let generator;
 let settings;
 let settingsFile;
 let lastScenario;
@@ -158,7 +154,6 @@ else {
         latestUpdate={...(latestUpdate || {}),...state};
         publishUpdateState(latestUpdate);
       }});
-    generator = new Generator(catalog,rules);
     const pdf = path.join(app.isPackaged ? process.resourcesPath : path.resolve(__dirname,'../resources'),'MMEL.pdf');
     const allowed = new Map([
       ['/index.html',[path.join(uiRoot,'index.html'),'text/html; charset=utf-8']],
@@ -188,7 +183,7 @@ else {
         activateFailuresOnBriefing:settings.activateFailuresOnBriefing,
         enableDiagnosticLog:settings.enableDiagnosticLog},
         integration:integration?.publicState(), version:app.getVersion(),
-        integrationVersion:'1.0.0',catalogueCount:catalog.records.length,
+        integrationVersion:'2.0.0',catalogueCount:catalog.records.length,
         update:publicUpdateState(latestUpdate)};
     });
     ipcMain.handle('mel:selection', (event,value) => { checkSender(event); return saveSelection(value); });
@@ -223,7 +218,7 @@ else {
     ipcMain.handle('mel:generate', async (event,value) => {
       checkSender(event);
       const selected = checkSelection(value);
-      lastScenario = generator.draw(selected.aircraft, selected.count);
+      lastScenario = await integration.generate(selected);
       saveSelection(selected);
       logger.event('scenario.generated',{aircraft:selected.aircraft,count:selected.count,
         ids:lastScenario.cards.map(card=>card.id),automaticActivation:settings.activateFailuresOnBriefing});
@@ -249,12 +244,13 @@ else {
       pdfWindow.focus();
       return {page:card.pdf_pages[0]};
     });
-    const bridgePath=app.isPackaged
-      ? path.join(process.resourcesPath,'app.asar.unpacked','integration','SimConnectBridge.exe')
-      : path.resolve(__dirname,'../integration/SimConnectBridge.exe');
+    const serviceRoot=app.isPackaged
+      ? path.join(process.resourcesPath,'app.asar.unpacked','integration','service')
+      : path.resolve(__dirname,'../integration/service');
+    const servicePath=path.join(serviceRoot,'MelGenerator.IntegrationService.exe');
     const simConnectDll=findSimConnectDll({resourcesPath:process.resourcesPath,userData:app.getPath('userData')});
-    integration=new IntegrationController({bridgePath,simConnectDll,
-      adapter:new FenixAdapter({mapping:fenixMapping}),
+    integration=new IntegrationServiceClient({servicePath,simConnectDll,
+      dataDirectory:path.join(serviceRoot,'data'),
       onState:state=>{
         logger.event('integration.state',state);
         if(mainWindow && !mainWindow.isDestroyed()) mainWindow.webContents.send('mel:integration-state',state);

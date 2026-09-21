@@ -415,6 +415,15 @@ failure count, severity, occurrence weighting and an optional zero-failure outco
 6. Validate the complete result independently before presenting it.
 7. Record non-sensitive diagnostic metadata for reproducible tests and support.
 
+**Architecture preparation, 20 September 2026:** A versioned .NET core and a
+self-contained Integration Service now sit behind the Electron UI. The current uniform
+algorithm was migrated without changing product behavior, and the core already carries
+profile identity, deterministic seeded testing and generation explanation contracts.
+The JavaScript implementation is retained only as a development comparison oracle.
+This is preparatory architecture, not implementation of BL-010: the service rejects
+weighted, severity-based, zero-failure and expanded-count strategies until their rules
+and data are approved. See `../architecture/CORE_AND_INTEGRATION_SERVICE.md`.
+
 **Acceptance direction:** Given a fixed profile and test seed, the engine returns a
 reproducible valid result. Across large statistical tests, observed zero-failure,
 failure-count, severity and item-selection distributions remain within agreed
