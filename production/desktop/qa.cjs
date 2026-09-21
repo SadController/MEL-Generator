@@ -45,7 +45,7 @@ async function run({app,BrowserWindow,mainWindow,session,output,settingsFile}) {
   };
   let success=false;
   try {
-    await until(`document.getElementById('generate-label')?.textContent==='To failures'`);
+    await until(`document.getElementById('generate-label')?.textContent==='Prepare briefing'`);
     const startup = await js(`({aircraft:document.getElementById('setup-form').elements.aircraft.value,count:Number(document.getElementById('setup-form').elements.count.value),disabled:document.getElementById('failures-tab').disabled})`);
     assert.equal(startup.disabled,true);
     checks.push({name:'Startup and restored preferences',result:startup});
@@ -53,6 +53,8 @@ async function run({app,BrowserWindow,mainWindow,session,output,settingsFile}) {
     assert.equal(await js(`document.getElementById('version-badge')`),null);
     assert.equal(await js(`document.body.innerText.includes('For flight simulation')`),false);
     assert.equal(await js(`document.body.innerText.includes('Fenix integration')`),false);
+    assert.equal(await js(`document.body.innerText.includes('Review the briefing before you fly.')`),false);
+    assert.equal(await js(`document.body.innerText.includes('Random scenario')`),false);
     checks.push({name:'Header slogan and simplified main-screen chrome',passed:true});
     assert.equal(await js(`typeof require`),'undefined');
     assert.equal(await js(`typeof process`),'undefined');
@@ -105,6 +107,8 @@ async function run({app,BrowserWindow,mainWindow,session,output,settingsFile}) {
       assert.equal(new Set(result.map(c=>c.id)).size,count);
       assert.equal(await js(`document.getElementById('results-title').textContent`),aircraft+' failures');
       assert.equal(await js(`document.getElementById('activate-failures').textContent`),'Activate failures');
+      assert.equal(await js(`document.body.innerText.includes('Activate these failures manually in Fenix.')`),false);
+      assert.equal(await js(`document.getElementById('activation-footer').hidden`),true);
       assert.equal(await js(`/[\u0400-\u04ff]/.test(document.body.innerText)`),false);
       assert.equal(await js(`document.documentElement.scrollWidth<=innerWidth`),true);
       await pause(300);
