@@ -132,18 +132,21 @@ function renderScenario(result) {
   badge.hidden = false;
   failuresTab.disabled = false;
   const summary=document.getElementById('activation-summary');
+  const activationFooter=document.getElementById('activation-footer');
   if(result.activation?.requested) {
     summary.hidden=false;
     summary.className=`activation-summary ${result.activation.overall}`;
     summary.textContent=result.activation.overall === 'success'
       ? 'All generated failures are active in Fenix.'
       : issueText(result.activation.issue);
-    document.getElementById('activation-footer').textContent=result.activation.overall === 'success'
+    activationFooter.hidden=false;
+    activationFooter.textContent=result.activation.overall === 'success'
       ? 'Automatic activation verified in Fenix.' : 'Review the activation status on each card.';
   } else {
     summary.hidden=true;
     summary.textContent='';
-    document.getElementById('activation-footer').textContent='Activate these failures manually in Fenix.';
+    activationFooter.hidden=true;
+    activationFooter.textContent='';
   }
   updateActivationButton();
 }
@@ -169,7 +172,7 @@ form.addEventListener('submit', async event => {
     switchView('failures',true);
     if(result.notice) message(result.notice);
   } catch(error) { message(error); }
-  finally { busy = false; submit.disabled = false; label.textContent = 'To failures'; form.setAttribute('aria-busy','false'); }
+  finally { busy = false; submit.disabled = false; label.textContent = 'Prepare briefing'; form.setAttribute('aria-busy','false'); }
 });
 document.getElementById('back-button').addEventListener('click',()=>switchView('setup',true));
 activationButton.addEventListener('click',async()=>{
@@ -286,7 +289,7 @@ document.querySelector('.tabbar').addEventListener('keydown',event=>{
     document.getElementById('catalogue-count').textContent = info.catalogueCount;
     updateSummary();
     submit.disabled = false;
-    label.textContent = 'To failures';
+    label.textContent = 'Prepare briefing';
     if(info.issue) message(info.issue);
   } catch(error) {
     label.textContent = 'Unavailable';

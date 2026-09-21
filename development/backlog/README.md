@@ -158,7 +158,7 @@ scenario and changes to `Failures active` after successful readback.
 **Open decisions:** Supported Fenix versions, availability of a supported Fenix failure
 API, first reversible vertical-slice failure, helper implementation language, whether a
 WASM package is necessary and the default value of automatic activation. The approved
-settings behavior starts activation when `To failures` is selected and
+settings behavior starts activation when `Prepare briefing` is selected and
 `Automatically activate failures when generating the briefing` is enabled. See
 `../settings/README.md`.
 
@@ -217,8 +217,8 @@ future ideas.
 validated and migrated through schema version 3. Startup and manual update checks use
 the public stable GitHub Release endpoint. Diagnostic logging is opt-in JSON Lines with
 credential-field redaction, 10 MB rotation and seven-day cleanup. The update button uses
-the approved manual release-page fallback until BL-005 supplies installation. The final
-replacement label for `To failures` remains deferred.
+the approved manual release-page fallback until BL-005 supplies installation. The main
+generation action is labelled `Prepare briefing`.
 
 ## BL-004 — Dark and light themes
 

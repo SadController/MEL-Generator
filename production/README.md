@@ -10,7 +10,7 @@ The assisted installer offers a `Create desktop icon` checkbox and always create
 approved Start menu shortcut.
 Portable editions are no longer produced. No separately installed browser, Node.js or
 Python is required.
-Choose the aircraft and 1–3 failures, then select **To failures**. **View source** opens the bundled PDF at the selected MMEL page.
+Choose the aircraft and 1–3 failures, then select **Prepare briefing**. **View source** opens the bundled PDF at the selected MMEL page.
 Failures can be activated with **Activate failures** on the briefing, manually from the
 displayed EFB path, or automatically when `Automatically activate failures` is enabled
 in Settings. The briefing button becomes available when the two integration indicators

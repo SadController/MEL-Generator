@@ -140,11 +140,11 @@ automatic.
 **Control:** Boolean toggle labelled
 `Automatically activate failures when generating the briefing`.
 
-When enabled, selecting `To failures` generates the briefing and starts automatic
+When enabled, selecting `Prepare briefing` generates the briefing and starts automatic
 activation of the generated failures in the loaded aircraft through the applicable
-aircraft adapter. The `To failures` label will be renamed in a later UI decision.
+aircraft adapter.
 
-When disabled, selecting `To failures` generates and displays the briefing without
+When disabled, selecting `Prepare briefing` generates and displays the briefing without
 sending activation commands to the simulator.
 
 Automatic activation must not report success solely because commands were sent. Each
@@ -213,6 +213,5 @@ Existing last-selection and window-state values are migrated rather than discard
 
 ## Remaining decisions
 
-- Final replacement text for `To failures`.
 - Exact download, restart and installation interaction after `Update available` is
   selected; the release must still use the approved installed-app-only update model.

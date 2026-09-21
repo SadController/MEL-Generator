@@ -22,7 +22,7 @@ Supported aircraft:
 2. Select aircraft A319, A320 or A321.
 3. See selected source - FAA A320 MMEL Rev.32 dated July 30, 2025; selection of other sources has been delayed.
 4. Select the number of failures from 1 to 3.
-5. Press **To failures**.
+5. Press **Prepare briefing**.
 6. Go to a separate tab **Failures** with cards. The button **Back to main menu** returns to the tab **Setup**, saving the settings.
 7. Self-activate the corresponding failures in Fenix.
 
@@ -90,7 +90,7 @@ After the first version, you can add alternative forms of displaying the same da
 
 Plan 1-6 points have been completed in the agreed amount. The final unified catalog of 53 entries and MMEL matching rules have been prepared: `research_fenix/efb_mmel_pool/РЕЕСТР.md`. All 53 single failures, 1,378 pairs and 23,426 triples were checked, including the preservation of the terms of alternative dispatch relief provisions. Catalog assembly and rule verification are performed by `research_fenix/finalize_catalog.py`; the former `classify_efb_pool.py` refers to the completed selection phase.
 
-Item 7 completed: prepared two screens, a single card, English signatures, selection of aircraft and 1-3 failures, transition To failures and return Back to main menu. The layout shows fixed examples, which is clearly indicated in the interface; random generation is not yet connected.
+Item 7 completed: prepared two screens, a single card, English signatures, selection of aircraft and 1-3 failures, transition to the briefing and return Back to main menu. The layout shows fixed examples; random generation was connected in the production implementation.
 
 Previous studies remain the history of the work; the old alpha directory does not determine the composition of the pool. Behavior test tasks and separate model/engine applicability checks are cancelled by new user solutions. Then there are the development of the application with the connection of the directory and rules, English texts of the full catalog, checking the application and preparing the launch.
 
