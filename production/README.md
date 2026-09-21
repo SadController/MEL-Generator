@@ -11,8 +11,15 @@ approved Start menu shortcut.
 Portable editions are no longer produced. No separately installed browser, Node.js or
 Python is required.
 Choose the aircraft and 1–3 failures, then select **To failures**. **View source** opens the bundled PDF at the selected MMEL page.
-Failures can be activated manually from the displayed EFB path or automatically when
-`Automatically activate failures` is enabled in Settings.
+Failures can be activated with **Activate failures** on the briefing, manually from the
+displayed EFB path, or automatically when `Automatically activate failures` is enabled
+in Settings. The briefing button becomes available when the two integration indicators
+show that a supported Fenix aircraft and its adapter are ready.
+
+The installed application checks the public GitHub release channel when enabled in
+Settings. **Update available** downloads the compatible NSIS release and shows progress;
+after verification it changes to **Restart to update**. Public update acceptance still
+requires the approved Authenticode certificate and a signed installed-update test.
 
 The two circles in the header have no visible labels. Hover over either circle for its
 description. The first is green when MSFS is connected and a loaded aircraft is

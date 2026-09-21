@@ -27,7 +27,7 @@ entry and uninstaller.
 | BL-002 | Technical log note presentation | Presentation | P2 | 1.2.0 | Proposed | Technical log template and content rules |
 | BL-003 | Application settings | Core UX | P1 | 1.1.0 | In Development | Packaged acceptance of implemented settings and diagnostics |
 | BL-004 | Dark and light themes | UI | P2 | 1.2.0 | Proposed | BL-003 application settings |
-| BL-005 | In-app application updates | Distribution | P1 | 1.1.0 | Proposed | Release hosting, signing and update policy |
+| BL-005 | In-app application updates | Distribution | P1 | 1.1.0 | In Development | Signed GitHub release and installed-update acceptance |
 | BL-006 | PMDG 737 and 777 support | Aircraft support | P3 | 3.0.0 | Research | Family-specific catalogs and verified PMDG SDK failure interfaces |
 | BL-007 | Source document selection | Data | P2 | 1.2.0 | Proposed | Separate reviewed catalog for every document |
 | BL-008 | Up to 10 simultaneous failures | Generator | P3 | 3.0.0 | Proposed | Generator and compatibility-engine redesign |
@@ -146,6 +146,9 @@ UI checks pass. The production controller, SimConnect helper and Fenix adapter a
 passed a live activation/readback/restoration test on `FenixA321 IAE WF SC`, while
 preserving three pre-existing unmapped Fenix states. Final installed-application
 acceptance and broader reconnection/error-path checks remain before BL-001 is complete.
+The Failures page also provides an explicit `Activate failures` action beside the
+scenario count; it retries the same verified adapter operation without generating a new
+scenario and changes to `Failures active` after successful readback.
 
 **Open decisions:** Supported Fenix versions, availability of a supported Fenix failure
 API, first reversible vertical-slice failure, helper implementation language, whether a
@@ -262,6 +265,18 @@ Foundation as the current preferred option. Do not purchase a commercial signing
 certificate at this stage. If the project is not accepted, record the reason and make
 a separate decision before public rollout; self-signed certificates are not considered
 a substitute for a publicly trusted signature.
+
+**Implementation milestone, 20 September 2026:** The application now uses the
+`electron-updater` NSIS flow against `SadController/MEL-Generator`. Selecting `Update
+available` starts an explicit download, displays progress, and changes to `Restart to
+update` only after the updater reports a completed download. Installation starts only
+from that ready state. The updater disables prereleases, downgrades, automatic download
+and silent install-on-quit; failed network or verification operations retain the
+installed version and expose a retry state. Automated service and Electron UI checks
+cover progress, completion, retry messaging and the restart action. The release remains
+blocked from public update acceptance until SignPath or another approved free program
+provides the certificate subject used by Windows Authenticode verification, and a signed
+older-to-newer installed update is tested through GitHub Releases.
 
 **Open decisions:** Eligibility and acceptance by the free signing program, installation
 timing and staged rollout. The startup-check default is enabled under BL-003.

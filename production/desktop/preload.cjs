@@ -6,7 +6,8 @@ contextBridge.exposeInMainWorld('mel', Object.freeze({
   saveSelection: selection => ipcRenderer.invoke('mel:selection', selection),
   saveAppSettings: value => ipcRenderer.invoke('mel:app-settings', value),
   checkForUpdates: () => ipcRenderer.invoke('mel:check-updates'),
-  openUpdate: () => ipcRenderer.invoke('mel:open-update'),
+  runUpdate: () => ipcRenderer.invoke('mel:run-update'),
+  activateCurrent: () => ipcRenderer.invoke('mel:activate-current'),
   openSource: (id, branchId) => ipcRenderer.invoke('mel:source', {id, branchId}),
   onIntegrationState: callback => {
     const listener = (_event,state) => callback(state);
