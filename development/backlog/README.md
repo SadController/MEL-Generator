@@ -298,6 +298,11 @@ while retaining the normal update checksum check. An installed older-to-newer up
 test is still required. The 20 September SignPath application is historical context,
 not a release dependency.
 
+**Update QA, 23 September 2026:** A packaged isolated build discovered and downloaded
+the existing GitHub beta release, with the downloaded installer matching `latest.yml`.
+The installed older-to-newer upgrade and restart remain unverified; see
+[`BL-005-UPDATE-QA-2026-09-23.md`](../release-records/BL-005-UPDATE-QA-2026-09-23.md).
+
 **Open decisions:** Installation timing and staged rollout.
 The startup-check default is enabled under BL-003.
 
