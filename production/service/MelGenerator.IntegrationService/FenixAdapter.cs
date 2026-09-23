@@ -30,17 +30,17 @@ internal sealed class FenixAdapter
     {
         var catalogue=await CatalogueAsync(cancellationToken);
         var missing=mapping.Values.Where(id=>!catalogue.ContainsKey(id)).ToArray();
-        if(missing.Length>0) throw new InvalidDataException($"Fenix adapter is missing {missing.Length} mapped failure records.");
+        if(missing.Length>0) throw new InvalidDataException($"Failure mapping is missing {missing.Length} aircraft records.");
     }
 
     public async Task<ActivationResult> ActivateAsync(IReadOnlyList<string> catalogIds,CancellationToken cancellationToken)
     {
         var unique=catalogIds.Distinct(StringComparer.Ordinal).ToArray();
         if(unique.Length!=catalogIds.Count || unique.Any(id=>!mapping.ContainsKey(id)))
-            throw new ArgumentException("Scenario contains an unsupported Fenix failure mapping.");
+            throw new ArgumentException("Scenario contains an unsupported failure mapping.");
         var baseline=await CatalogueAsync(cancellationToken);
         var missing=mapping.Values.Where(id=>!baseline.ContainsKey(id)).ToArray();
-        if(missing.Length>0) throw new InvalidDataException($"Fenix failure catalogue is missing: {string.Join(", ",missing)}.");
+        if(missing.Length>0) throw new InvalidDataException($"Aircraft failure catalogue is missing: {string.Join(", ",missing)}.");
         var before=mapping.Values.ToDictionary(id=>id,id=>Stable(baseline[id]),StringComparer.Ordinal);
         var results=new List<ActivationItem>();
         var activated=new List<(string CatalogId,string FenixId,FenixFailure Item)>();
@@ -100,7 +100,7 @@ internal sealed class FenixAdapter
         response.EnsureSuccessStatusCode();
         using var document=JsonDocument.Parse(await response.Content.ReadAsStreamAsync(cancellationToken));
         if(!document.RootElement.TryGetProperty("atas",out var atas) || atas.ValueKind!=JsonValueKind.Array)
-            throw new InvalidDataException("Unexpected Fenix failure catalogue format.");
+            throw new InvalidDataException("Unexpected aircraft failure catalogue format.");
         var result=new Dictionary<string,FenixFailure>(StringComparer.Ordinal);
         foreach(var ata in atas.EnumerateArray())
         {
@@ -132,7 +132,7 @@ internal sealed class FenixAdapter
                 new {id=item.Id,title=item.Title,failureCondition=(string?)null,failed},cancellationToken);
             response.EnsureSuccessStatusCode();
             var acknowledgement=await response.Content.ReadFromJsonAsync<SaveResponse>(cancellationToken:cancellationToken);
-            if(acknowledgement?.Failed!=failed) throw new InvalidOperationException($"Fenix did not acknowledge {item.Id}.");
+            if(acknowledgement?.Failed!=failed) throw new InvalidOperationException($"Aircraft failure system did not acknowledge {item.Id}.");
             var readback=(await CatalogueAsync(cancellationToken))[item.Id];
             if(failed && readback.Failed) return readback;
             if(!failed)
@@ -142,7 +142,7 @@ internal sealed class FenixAdapter
                 if(!readback.Failed && readback.FailureCondition is null) return readback;
             }
         }
-        throw new InvalidOperationException($"Fenix readback did not confirm {item.Id}={failed}.");
+        throw new InvalidOperationException($"Failure readback did not confirm {item.Id}={failed}.");
     }
 
     private static FailureState Stable(FenixFailure item) => new(item.Failed,item.FailureCondition);

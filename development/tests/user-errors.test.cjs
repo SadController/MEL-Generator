@@ -13,7 +13,10 @@ test('public error catalogue has stable actionable entries without technical det
     assert.ok(['warning','error'].includes(value.severity));
     assert.equal(typeof value.retryable,'boolean');
     assert.doesNotMatch(`${value.title} ${value.message} ${value.action}`,/stack|HRESULT|ECONNREFUSED|127\.0\.0\.1/i);
+    assert.doesNotMatch(`${code} ${value.title} ${value.message} ${value.action}`,/fenix/i);
   }
+  for(const code of ['SOURCE_MISSING','SOURCE_OPEN_FAILED'])
+    assert.doesNotMatch(`${CATALOG[code].title} ${CATALOG[code].message} ${CATALOG[code].action}`,/mmel/i);
 });
 
 test('expected update failures map to distinct public recovery messages',()=>{
@@ -29,7 +32,8 @@ test('activation failures distinguish readiness, support, mapping, readback and 
   assert.equal(activationIssue({overall:'failed',message:'failed'},{simConnected:true,aircraftLoaded:true,supportedAircraft:false}).code,'AIRCRAFT_UNSUPPORTED');
   const ready={simConnected:true,aircraftLoaded:true,supportedAircraft:true};
   assert.equal(classifyError('activation',new Error('Integration Service executable is missing')).code,'INTEGRATION_SERVICE_MISSING');
-  assert.equal(activationIssue({overall:'failed',message:'Fenix failure catalogue is missing: F_X'},ready).code,'FENIX_MAPPING_INCOMPLETE');
+  assert.equal(activationIssue({overall:'failed',message:'Aircraft failure catalogue is missing: F_X'},ready).code,'FAILURE_MAPPING_INCOMPLETE');
+  assert.equal(activationIssue({overall:'failed',message:'The aircraft failure adapter is unavailable.'},ready).code,'AIRCRAFT_FAILURE_INTERFACE_UNAVAILABLE');
   assert.equal(activationIssue({overall:'failed',message:'readback did not confirm'},ready).code,'ACTIVATION_NOT_CONFIRMED');
   assert.equal(activationIssue({overall:'failed',message:'failed',rollbackError:'clear failed'},ready).code,'ACTIVATION_ROLLBACK_FAILED');
 });
@@ -44,7 +48,7 @@ test('IPC result envelopes expose only catalogued errors',async()=>{
   assert.deepEqual(success,{ok:true,value:{cards:[]}});
   const failure=await resultEnvelope('activation',async()=>{throw new Error('ECONNREFUSED 127.0.0.1:8083');});
   assert.equal(failure.ok,false);
-  assert.equal(failure.error.code,'FENIX_UNAVAILABLE');
+  assert.equal(failure.error.code,'AIRCRAFT_FAILURE_INTERFACE_UNAVAILABLE');
   assert.equal(JSON.stringify(failure).includes('127.0.0.1'),false);
   assert.equal(issue('UNKNOWN').code,'UNEXPECTED_ERROR');
 });

@@ -72,7 +72,7 @@ function updateActivationButton() {
   activationButton.textContent=activationBusy ? 'Activating…' : succeeded ? 'Failures active'
     : scenario?.activation?.requested ? 'Retry activation' : 'Activate failures';
   activationButton.disabled=activationBusy || !scenario || !ready || succeeded;
-  activationButton.title=ready ? '' : 'Load a supported Fenix aircraft to activate these failures.';
+  activationButton.title=ready ? '' : 'Load a supported aircraft to activate these failures.';
 }
 function renderScenario(result) {
   const activationById = new Map((result.activation?.results || []).map(item=>[item.catalogId,item]));
@@ -137,11 +137,11 @@ function renderScenario(result) {
     summary.hidden=false;
     summary.className=`activation-summary ${result.activation.overall}`;
     summary.textContent=result.activation.overall === 'success'
-      ? 'All generated failures are active in Fenix.'
+      ? 'All generated failures are active in the aircraft.'
       : issueText(result.activation.issue);
     activationFooter.hidden=false;
     activationFooter.textContent=result.activation.overall === 'success'
-      ? 'Automatic activation verified in Fenix.' : 'Review the activation status on each card.';
+      ? 'Automatic activation verified in the aircraft.' : 'Review the activation status on each card.';
   } else {
     summary.hidden=true;
     summary.textContent='';
