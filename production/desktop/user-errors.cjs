@@ -21,6 +21,9 @@ const CATALOG=Object.freeze({
   ACTIVATION_NOT_CONFIRMED:{title:'Failure activation was not confirmed',message:'The command was sent, but the aircraft\'s failure system did not confirm the requested state.',action:'Review the per-card status and activate unconfirmed failures manually before flight.',severity:'error',retryable:true},
   ACTIVATION_ROLLBACK_FAILED:{title:'Failure rollback was incomplete',message:'Automatic activation failed and at least one newly changed failure could not be restored.',action:'Review every failure in this briefing in the aircraft\'s failure controls before continuing.',severity:'error',retryable:false},
   ACTIVATION_FAILED:{title:'Automatic activation was not completed',message:'The briefing was generated, but its failures were not fully activated.',action:'Review the per-card status, retry when the adapter is ready, or activate the failures manually.',severity:'warning',retryable:true},
+  DEACTIVATION_UNAVAILABLE:{title:'Deactivation is unavailable',message:'The current simulator session has no active failures owned by this briefing.',action:'Load the original aircraft or generate a new briefing. Review any previous failures in the aircraft manually.',severity:'warning',retryable:false},
+  DEACTIVATION_NOT_CONFIRMED:{title:'Failure deactivation was not confirmed',message:'The aircraft did not confirm that all selected failures were cleared.',action:'Review the per-card status and the aircraft failure controls, then retry the remaining failures.',severity:'warning',retryable:true},
+  DEACTIVATION_FAILED:{title:'Failure deactivation needs review',message:'At least one app-activated failure could not be cleared safely.',action:'Review the per-card status and retry only the remaining failures, or clear them manually.',severity:'warning',retryable:true},
   UPDATE_NETWORK_UNAVAILABLE:{title:'Could not connect to GitHub',message:'MEL Generator could not check or download the update.',action:'Check your internet connection and try again later.',severity:'warning',retryable:true},
   UPDATE_RATE_LIMITED:{title:'GitHub temporarily limited update checks',message:'The update service rejected the request because too many requests were made.',action:'Wait and try again later. Do not interpret this result as meaning that no update exists.',severity:'warning',retryable:true},
   UPDATE_METADATA_INVALID:{title:'Update information is invalid',message:'GitHub returned release information that MEL Generator could not verify.',action:'Keep the installed version and try again later.',severity:'error',retryable:true},
@@ -56,6 +59,11 @@ function classifyError(scope,error) {
     if(/readback|acknowledge|did not confirm/i.test(text)) return issue('ACTIVATION_NOT_CONFIRMED');
     if(/armed|incompatible state|rejected/i.test(text)) return issue('ACTIVATION_REJECTED');
     return issue('ACTIVATION_FAILED');
+  }
+  if(scope==='deactivation') {
+    if(/session|no active failures|unavailable|simulator|aircraft changed/i.test(text)) return issue('DEACTIVATION_UNAVAILABLE');
+    if(/readback|acknowledge|confirm/i.test(text)) return issue('DEACTIVATION_NOT_CONFIRMED');
+    return issue('DEACTIVATION_FAILED');
   }
   if(scope==='update-check' || scope==='update-download' || scope==='update-install') {
     if(/403|429|rate.?limit/i.test(text)) return issue('UPDATE_RATE_LIMITED');

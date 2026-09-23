@@ -32,7 +32,7 @@ class IntegrationServiceClient {
     this.sequence=0;
     this.pending=new Map();
     this.state={simConnected:false,aircraftLoaded:false,aircraftTitle:null,
-      supportedAircraft:false,adapterReady:false,bridgeError:null,adapterError:null};
+      supportedAircraft:false,adapterReady:false,sessionId:0,bridgeError:null,adapterError:null};
   }
 
   publish(patch={}) {
@@ -77,6 +77,7 @@ class IntegrationServiceClient {
       this.publish({simConnected:message.simConnected===true,
         aircraftLoaded:message.aircraftLoaded===true,aircraftTitle:message.aircraftTitle || null,
         supportedAircraft:message.supportedAircraft===true,adapterReady:message.adapterReady===true,
+        sessionId:Number.isSafeInteger(message.sessionId) ? message.sessionId : 0,
         bridgeError:message.error || null,adapterError:message.adapterError || null});
       return;
     }
@@ -124,6 +125,7 @@ class IntegrationServiceClient {
 
   generate(selection) { return this.request('generate',selection,15000); }
   activate(catalogIds) { return this.request('activate',{catalogIds},45000); }
+  deactivate() { return this.request('deactivate',{},45000); }
 
   stop() {
     const child=this.process;

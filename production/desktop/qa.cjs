@@ -58,7 +58,7 @@ async function run({app,BrowserWindow,mainWindow,session,output,settingsFile}) {
     checks.push({name:'Header slogan and simplified main-screen chrome',passed:true});
     assert.equal(await js(`typeof require`),'undefined');
     assert.equal(await js(`typeof process`),'undefined');
-    assert.deepEqual(await js(`Object.keys(window.mel).sort()`),['activateCurrent','checkForUpdates','generate','initialize',
+    assert.deepEqual(await js(`Object.keys(window.mel).sort()`),['activateCurrent','checkForUpdates','deactivateCurrent','generate','initialize',
       'onIntegrationState','onUpdateStatus','openSource','runUpdate','saveAppSettings','saveSelection']);
     checks.push({name:'Renderer isolation and narrow preload',passed:true});
     assert.equal(await js(`document.querySelectorAll('.status-light').length`),2);
@@ -125,6 +125,19 @@ async function run({app,BrowserWindow,mainWindow,session,output,settingsFile}) {
       assert.equal(await js(`document.getElementById('activation-footer').hidden`),true);
       assert.equal(await js(`/[\u0400-\u04ff]/.test(document.body.innerText)`),false);
       assert.equal(await js(`document.documentElement.scrollWidth<=innerWidth`),true);
+      if(count===1) {
+        await js(`renderIntegrationState({simConnected:true,aircraftLoaded:true,aircraftTitle:'FenixA319 Test',supportedAircraft:true,adapterReady:true,sessionId:99});scenario={...scenario,activation:{requested:true,overall:'success',ownedCount:1,sessionId:99,results:[{catalogId:scenario.cards[0].id,status:'activated'}]}};renderScenario(scenario)`);
+        assert.equal(await js(`document.getElementById('activate-failures').textContent`),'Deactivate failures');
+        assert.equal(await js(`document.getElementById('activate-failures').disabled`),false);
+        await capture('deactivation-action');
+        await js(`scenario={...scenario,deactivation:{overall:'success',remainingCount:0,preExistingCount:0,results:[{catalogId:scenario.cards[0].id,status:'deactivated'}]}};renderScenario(scenario)`);
+        assert.equal(await js(`document.getElementById('activate-failures').textContent`),'Activate failures');
+        assert.match(await js(`document.getElementById('activation-summary').textContent`),/1 failure deactivated/);
+        await capture('deactivation-result');
+        await js(`renderIntegrationState({simConnected:false,aircraftLoaded:false,sessionId:100})`);
+        await js(`scenario={...scenario,activation:{requested:false,overall:'disabled',results:[]},deactivation:null};renderScenario(scenario)`);
+        checks.push({name:'Deactivation action and verified result render without simulator',passed:true});
+      }
       await pause(300);
       await capture('failures-'+count);
       await js(`document.getElementById('setup-tab').click();document.getElementById('failures-tab').click()`);

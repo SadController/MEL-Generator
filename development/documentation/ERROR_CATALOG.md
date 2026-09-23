@@ -46,6 +46,9 @@ to the local log together with the failed operation.
 | `ACTIVATION_NOT_CONFIRMED` | Failure activation was not confirmed | Review card status and activate unconfirmed failures manually. | Error | Yes |
 | `ACTIVATION_ROLLBACK_FAILED` | Failure rollback was incomplete | Review every briefing failure in the aircraft's failure controls. | Error | No |
 | `ACTIVATION_FAILED` | Automatic activation was not completed | Review status, retry when ready, or activate manually. | Warning | Yes |
+| `DEACTIVATION_UNAVAILABLE` | Deactivation is unavailable | Load the original aircraft or generate a new briefing; review previous failures manually. | Warning | No |
+| `DEACTIVATION_NOT_CONFIRMED` | Failure deactivation was not confirmed | Review card status and aircraft controls, then retry remaining failures. | Warning | Yes |
+| `DEACTIVATION_FAILED` | Failure deactivation needs review | Review card status and retry remaining failures, or clear manually. | Warning | Yes |
 | `UPDATE_NETWORK_UNAVAILABLE` | Could not connect to GitHub | Check the internet connection and retry later. | Warning | Yes |
 | `UPDATE_RATE_LIMITED` | GitHub temporarily limited update checks | Wait and retry later. | Warning | Yes |
 | `UPDATE_METADATA_INVALID` | Update information is invalid | Keep the installed version and retry later. | Error | Yes |

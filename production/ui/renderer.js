@@ -67,15 +67,24 @@ function element(tag, className, text) {
 }
 function updateActivationButton() {
   const succeeded=scenario?.activation?.requested && scenario.activation.overall === 'success';
+  const owned=scenario?.activation?.ownedCount > 0;
+  const remaining=scenario?.deactivation?.remainingCount;
+  const canDeactivate=succeeded && owned && remaining !== 0;
   const ready=integrationState?.simConnected && integrationState?.aircraftLoaded &&
     integrationState?.supportedAircraft && integrationState?.adapterReady;
-  activationButton.textContent=activationBusy ? 'Activating…' : succeeded ? 'Failures active'
+  const sameSession=!canDeactivate || integrationState?.sessionId === scenario.activation.sessionId;
+  activationButton.textContent=activationBusy ? (canDeactivate ? 'Deactivating…' : 'Activating…')
+    : canDeactivate ? 'Deactivate failures' : succeeded && remaining !== 0 ? 'Failures active'
     : scenario?.activation?.requested ? 'Retry activation' : 'Activate failures';
-  activationButton.disabled=activationBusy || !scenario || !ready || succeeded;
-  activationButton.title=ready ? '' : 'Load a supported aircraft to activate these failures.';
+  if(succeeded && owned && remaining === 0) activationButton.textContent='Activate failures';
+  activationButton.disabled=activationBusy || !scenario || !ready || !sameSession || (succeeded && !owned);
+  activationButton.title=!sameSession ? 'The simulator or aircraft changed. Generate a new briefing to manage failures.'
+    : ready ? '' : 'Load a supported aircraft to manage these failures.';
+  activationButton.classList.toggle('deactivate',canDeactivate);
 }
 function renderScenario(result) {
   const activationById = new Map((result.activation?.results || []).map(item=>[item.catalogId,item]));
+  const deactivationById = new Map((result.deactivation?.results || []).map(item=>[item.catalogId,item]));
   const cards = document.getElementById('failure-cards');
   cards.dataset.count = result.count;
   cards.replaceChildren(...result.cards.map((record,i) => {
@@ -89,10 +98,12 @@ function renderScenario(result) {
     title.id = `title-${record.id}`;
     card.setAttribute('aria-labelledby',title.id);
     header.append(kicker,title);
-    const activation=activationById.get(record.id);
+    const activation=deactivationById.get(record.id) || activationById.get(record.id);
     if(activation) {
       const labels={activated:'Activated', 'already-active':'Already active',
-        'rolled-back':'Activation rolled back',failed:'Activation failed',unsupported:'Manual activation required'};
+        'rolled-back':'Activation rolled back',failed:deactivationById.has(record.id) ? 'Deactivation failed' : 'Activation failed',
+        unsupported:'Manual activation required',deactivated:'Deactivated',
+        'already-inactive':'Already inactive',changed:'Changed — review manually',unavailable:'Deactivation unavailable'};
       const status=element('div',`activation-badge ${activation.status}`,labels[activation.status] || 'Activation unavailable');
       if(activation.message) status.title=activation.message;
       header.append(status);
@@ -133,7 +144,20 @@ function renderScenario(result) {
   failuresTab.disabled = false;
   const summary=document.getElementById('activation-summary');
   const activationFooter=document.getElementById('activation-footer');
-  if(result.activation?.requested) {
+  if(result.deactivation) {
+    const value=result.deactivation;
+    const cleared=value.results.filter(item=>item.status==='deactivated').length;
+    const alreadyInactive=value.results.filter(item=>item.status==='already-inactive').length;
+    const suffix=value.preExistingCount ? ` ${value.preExistingCount} ${value.preExistingCount===1?'was':'were'} active before this briefing and left unchanged.` : '';
+    summary.hidden=false;
+    summary.className=`activation-summary ${value.overall}`;
+    summary.textContent=value.overall==='success'
+      ? `${cleared} ${cleared===1?'failure':'failures'} deactivated.${alreadyInactive ? ` ${alreadyInactive} already inactive.` : ''}${suffix}`
+      : `Deactivation needs review. ${cleared} deactivated; ${value.remainingCount} still pending.${suffix}`;
+    activationFooter.hidden=false;
+    activationFooter.textContent=value.remainingCount ? 'Review each card, then retry deactivation for the remaining failures.'
+      : 'Review the card status for any manually changed failure.';
+  } else if(result.activation?.requested) {
     summary.hidden=false;
     summary.className=`activation-summary ${result.activation.overall}`;
     summary.textContent=result.activation.overall === 'success'
@@ -147,6 +171,14 @@ function renderScenario(result) {
     summary.textContent='';
     activationFooter.hidden=true;
     activationFooter.textContent='';
+  }
+  if(result.activation?.ownedCount>0 && result.deactivation?.remainingCount !== 0 &&
+      integrationState?.sessionId !== result.activation.sessionId) {
+    summary.hidden=false;
+    summary.className='activation-summary unavailable';
+    summary.textContent='Deactivation is unavailable because the simulator or aircraft session changed. Review the failures in the aircraft manually.';
+    activationFooter.hidden=false;
+    activationFooter.textContent='Generate a new briefing to manage failures in this session.';
   }
   updateActivationButton();
 }
@@ -181,8 +213,15 @@ activationButton.addEventListener('click',async()=>{
   updateActivationButton();
   message();
   try {
-    const activation=await callApi(window.mel.activateCurrent());
-    scenario={...scenario,activation};
+    const deactivate=scenario.activation?.overall==='success' && scenario.activation.ownedCount>0 &&
+      scenario.deactivation?.remainingCount !== 0;
+    if(deactivate) {
+      const deactivation=await callApi(window.mel.deactivateCurrent());
+      scenario={...scenario,deactivation};
+    } else {
+      const activation=await callApi(window.mel.activateCurrent());
+      scenario={...scenario,activation,deactivation:null};
+    }
     renderScenario(scenario);
   } catch(error) { message(error); }
   finally { activationBusy=false; updateActivationButton(); }
@@ -279,7 +318,8 @@ function renderIntegrationState(state) {
       ? `${state.issue.title}. ${state.issue.action}` : 'Automatic activation unavailable';
   sim.title=simText; sim.setAttribute('aria-label',simText);
   adapter.title=adapterText; adapter.setAttribute('aria-label',adapterText);
-  updateActivationButton();
+  if(scenario?.activation?.ownedCount>0 && currentView==='failures') renderScenario(scenario);
+  else updateActivationButton();
 }
 window.mel.onIntegrationState(renderIntegrationState);
 window.mel.onUpdateStatus(renderUpdateState);
