@@ -36,7 +36,6 @@ entry and uninstaller.
 | BL-011 | Failure severity selection | Generator UX | — | 2.0.0 | Proposed | BL-010 and an approved severity rubric |
 | BL-012 | Failure occurrence weighting | Generator data | — | 2.0.0 | Proposed | BL-010 and sourced occurrence data |
 | BL-013 | Serviceable-aircraft outcome | Generator UX | — | 2.0.0 | Proposed | BL-010 and an agreed zero-failure probability policy |
-| BL-014 | Flight Sim Labs A321 support | Aircraft support | — | — | Research | Separate A321ceo/A321neo catalogs and a supported external MEL/failure interface |
 | BL-015 | Aerosoft/ToLiss A340-600 Pro support | Aircraft support | — | — | Research | A340 catalog and a supported fault-injection interface |
 | BL-016 | iniBuilds A350 support | Aircraft support | — | — | Research | A350 catalog, V1/V2 boundary and verified failure mappings |
 | BL-017 | iniBuilds A380 support | Aircraft support | — | — | Research | A380 catalog and verified MSFS 2024 failure mappings |
@@ -76,7 +75,6 @@ entry and uninstaller.
 
 ### Release not assigned — aircraft pool expansion
 
-- BL-014 — Flight Sim Labs A321 support.
 - BL-015 — Aerosoft/ToLiss A340-600 Pro support.
 - BL-016 — iniBuilds A350 support.
 - BL-017 — iniBuilds A380 support.
@@ -181,6 +179,9 @@ dates, signatures or operational approval.
 
 **Open decisions:** Whether cards and the technical log coexist, whether the user can
 switch between them, and whether export or printing is required.
+
+**Research references:** See `../research_techlog/README.md` for public A320-family
+text entries, electronic-logbook interface examples, and content boundaries.
 
 ## BL-003 — Application settings
 
@@ -544,20 +545,6 @@ a new scenario.
 the user sees or can adjust it, failure-count distribution after a nonzero draw and the
 exact wording of the serviceable result.
 
-## BL-014 — Flight Sim Labs A321 support
-
-**Goal:** Add the current Flight Sim Labs Airbus products for MSFS: A321ceo and
-A321neo, including their reviewed engine and airframe configurations.
-
-**Research direction:** Keep the FSLabs Techlog/MEL feature separate from the
-application's source-document catalog. Determine whether FSLabs offers a supported
-software interface for creating and reading an inoperative item; the published MSFS
-Hardware Interface alone does not establish that capability.
-
-**Acceptance direction:** Only applicable A321ceo/A321neo records are generated, and
-automatic activation is offered only for mappings with a supported command and
-independent readback.
-
 ## BL-015 — Aerosoft/ToLiss A340-600 Pro support
 
 **Goal:** Add the Aerosoft Aircraft A340-600 Pro developed with ToLiss for MSFS
@@ -754,7 +741,7 @@ release candidate remains the final BL-021 release-candidate check.
   and will use the public GitHub repository. Its remaining distribution dependency is
   approval of the submitted SignPath Foundation application and the resulting CI
   signing setup.
-- BL-006, BL-014, BL-015, BL-016, BL-017, BL-018 and BL-007 require a data
+- BL-006, BL-015, BL-016, BL-017, BL-018 and BL-007 require a data
   architecture that isolates aircraft, configurations, source documents and failure
   mappings.
 - BL-001 must be researched separately for each supported aircraft family; the current
