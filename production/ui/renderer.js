@@ -191,14 +191,22 @@ setupTab.addEventListener('click',()=>switchView('setup'));
 failuresTab.addEventListener('click',()=>switchView('failures'));
 document.querySelector('.brand').addEventListener('click',event=>{event.preventDefault();switchView('setup',true);});
 const settingsDialog=document.getElementById('settings-dialog');
+const settingsSaveStatus=document.getElementById('settings-save-status');
+function renderSettingsSaveIssue(value) {
+  settingsSaveStatus.textContent=value ? issueText(value) : '';
+  settingsSaveStatus.hidden=!value;
+}
 document.getElementById('settings-button').addEventListener('click',()=>settingsDialog.showModal());
 document.getElementById('settings-close').addEventListener('click',()=>settingsDialog.close());
 settingsDialog.addEventListener('click',event=>{ if(event.target===settingsDialog) settingsDialog.close(); });
 async function saveBooleanSetting(input,key) {
   const previous=!input.checked;
   input.disabled=true;
-  try { await callApi(window.mel.saveAppSettings({[key]:input.checked})); }
-  catch(error) { input.checked=previous; message(error); }
+  try {
+    await callApi(window.mel.saveAppSettings({[key]:input.checked}));
+    renderSettingsSaveIssue(null);
+  }
+  catch(error) { input.checked=previous; renderSettingsSaveIssue(error); }
   finally { input.disabled=false; }
 }
 document.getElementById('startup-update-setting').addEventListener('change',event=>{

@@ -10,7 +10,8 @@ to the local log together with the failed operation.
 
 - Fatal startup and renderer failures use a Windows error dialog because the normal
   interface may be unavailable.
-- Recoverable failures use the persistent message banner on the main screen.
+- Recoverable failures use the persistent message banner on the main screen. A failed
+  Settings change is shown inside the Settings dialog so it remains visible.
 - Update failures also appear below the update controls in Settings.
 - Activation failures remain attached to the generated briefing and its cards so the
   user can apply the failures manually.
