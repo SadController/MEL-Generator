@@ -33,18 +33,18 @@ to the local log together with the failed operation.
 | `SETTINGS_SAVE_FAILED` | Settings were not saved | Check free space and user-profile permissions, then retry. | Warning | Yes |
 | `GENERATION_UNAVAILABLE` | Scenario generation is unavailable | Reopen the app and retry. | Error | Yes |
 | `GENERATION_DATA_INVALID` | The scenario data is unavailable | Reinstall; enable diagnostics and report the code if it continues. | Error | No |
-| `SOURCE_MISSING` | The MMEL document is missing | Reinstall from the official release. | Error | No |
-| `SOURCE_OPEN_FAILED` | The MMEL document could not be opened | Close the source window and retry; reopen the app if needed. | Error | Yes |
+| `SOURCE_MISSING` | The document is missing | Reinstall from the official release. | Error | No |
+| `SOURCE_OPEN_FAILED` | The document could not be opened | Close the document window and retry; reopen the app if needed. | Error | Yes |
 | `INTEGRATION_SERVICE_MISSING` | Simulator integration is unavailable | Reinstall from the official release. | Error | No |
 | `INTEGRATION_SERVICE_STOPPED` | Simulator integration stopped | Reopen the app and retry activation. | Error | Yes |
 | `SIMCONNECT_RUNTIME_MISSING` | SimConnect is unavailable | Reinstall from the official release. | Error | No |
 | `SIMULATOR_NOT_READY` | Simulator is not ready | Start MSFS, load a flight and wait for the first light to turn green. | Warning | Yes |
-| `AIRCRAFT_UNSUPPORTED` | Automatic activation is unavailable for this aircraft | Load a supported Fenix aircraft or activate manually. | Warning | Yes |
-| `FENIX_UNAVAILABLE` | Fenix failure manager is unavailable | Confirm Fenix is loaded and retry, or activate manually. | Warning | Yes |
-| `FENIX_MAPPING_INCOMPLETE` | A generated failure is not mapped | Activate the marked failure manually and update the app. | Error | No |
-| `ACTIVATION_REJECTED` | Fenix rejected automatic activation | Clear conflicting manager entries and retry, or activate manually. | Warning | Yes |
+| `AIRCRAFT_UNSUPPORTED` | Automatic activation is unavailable for this aircraft | Load a supported aircraft or activate manually. | Warning | Yes |
+| `AIRCRAFT_FAILURE_INTERFACE_UNAVAILABLE` | Aircraft failure controls are unavailable | Confirm a supported aircraft is loaded and retry, or activate manually. | Warning | Yes |
+| `FAILURE_MAPPING_INCOMPLETE` | A generated failure is not mapped | Activate the marked failure manually and update the app. | Error | No |
+| `ACTIVATION_REJECTED` | Automatic activation was rejected | Clear conflicting failure entries and retry, or activate manually. | Warning | Yes |
 | `ACTIVATION_NOT_CONFIRMED` | Failure activation was not confirmed | Review card status and activate unconfirmed failures manually. | Error | Yes |
-| `ACTIVATION_ROLLBACK_FAILED` | Failure rollback was incomplete | Review every briefing failure in the Fenix manager. | Error | No |
+| `ACTIVATION_ROLLBACK_FAILED` | Failure rollback was incomplete | Review every briefing failure in the aircraft's failure controls. | Error | No |
 | `ACTIVATION_FAILED` | Automatic activation was not completed | Review status, retry when ready, or activate manually. | Warning | Yes |
 | `UPDATE_NETWORK_UNAVAILABLE` | Could not connect to GitHub | Check the internet connection and retry later. | Warning | Yes |
 | `UPDATE_RATE_LIMITED` | GitHub temporarily limited update checks | Wait and retry later. | Warning | Yes |

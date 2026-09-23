@@ -273,7 +273,7 @@ else {
     handle('mel:source','source',async value=>{
       const card = lastScenario?.cards.find(c => c.id === value?.id && c.branch_id === value?.branchId);
       if (!card) throw new Error('Source is only available for the current scenario.');
-      if (!fs.existsSync(pdf)) throw new Error('The bundled MMEL document is missing.');
+      if (!fs.existsSync(pdf)) throw new Error('The bundled document is missing.');
       if (!pdfWindow || pdfWindow.isDestroyed()) {
         pdfWindow = new BrowserWindow({width:1060,height:820,show:false,backgroundColor:'#202124',
           title:'FAA A320 MMEL — Rev. 32', autoHideMenuBar:true,

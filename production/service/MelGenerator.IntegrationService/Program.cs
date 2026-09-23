@@ -7,7 +7,7 @@ var arguments=ParseArguments(args);
 var dataDirectory=arguments.GetValueOrDefault("data") ?? Path.Combine(AppContext.BaseDirectory,"data");
 var (catalogue,rules)=CatalogueLoader.Load(Path.Combine(dataDirectory,"catalog.json"),Path.Combine(dataDirectory,"rules.json"));
 var mapping=JsonSerializer.Deserialize<Dictionary<string,string>>(File.ReadAllText(Path.Combine(dataDirectory,"fenix-mapping.json")))
-    ?? throw new InvalidDataException("Fenix mapping is empty.");
+    ?? throw new InvalidDataException("Failure mapping is empty.");
 var engine=new ScenarioEngine(catalogue,rules);
 var fenix=new FenixAdapter(mapping);
 var writer=new ProtocolWriter();
@@ -81,7 +81,7 @@ static async Task<ActivationResult> Activate(FenixAdapter fenix,ServiceState sta
             Message:"The loaded aircraft is not supported for automatic activation.");
     if(!state.AdapterReady)
         return new(true,"failed",ids.Select(id=>new ActivationItem(id,null,"failed")).ToArray(),
-            Message:state.AdapterError ?? "The Fenix adapter is unavailable.");
+            Message:state.AdapterError ?? "The aircraft failure adapter is unavailable.");
     return await fenix.ActivateAsync(ids,cancellationToken);
 }
 
