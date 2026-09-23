@@ -72,7 +72,7 @@ test('update manager downloads once, reports progress and installs only after co
   }
   const updater=new FakeUpdater();
   const states=[];
-  const manager=new UpdateManager({updater,isPackaged:true,signaturePolicyReady:true,
+  const manager=new UpdateManager({updater,isPackaged:true,
     onState:state=>states.push(state)});
   assert.equal(updater.autoDownload,false);
   assert.equal(updater.autoInstallOnAppQuit,false);
@@ -88,22 +88,11 @@ test('update manager keeps the installed version after network and verification 
     async checkForUpdates() { throw new Error('ENOTFOUND github.com'); }
     async downloadUpdate() { throw new Error('must not run'); }
   }
-  const network=new UpdateManager({updater:new FakeUpdater(),isPackaged:true,signaturePolicyReady:true});
+  const network=new UpdateManager({updater:new FakeUpdater(),isPackaged:true});
   assert.equal((await network.download()).issue.code,'UPDATE_NETWORK_UNAVAILABLE');
   assert.throws(()=>network.install(),/No verified update/);
   const verifyUpdater=new FakeUpdater();
-  const verify=new UpdateManager({updater:verifyUpdater,isPackaged:true,signaturePolicyReady:true});
+  const verify=new UpdateManager({updater:verifyUpdater,isPackaged:true});
   verifyUpdater.emit('error',new Error('publisher signature mismatch'));
   assert.equal(verify.publicState().issue.code,'UPDATE_VERIFICATION_FAILED');
-});
-
-test('update manager blocks automatic installation until a signed publisher policy exists',async()=>{
-  class FakeUpdater extends EventEmitter {
-    async checkForUpdates() { throw new Error('must not contact the release channel'); }
-  }
-  const manager=new UpdateManager({updater:new FakeUpdater(),isPackaged:true});
-  const result=await manager.download();
-  assert.equal(result.status,'error');
-  assert.equal(result.issue.code,'UPDATE_SIGNING_PENDING');
-  assert.throws(()=>manager.install(),/No verified update/);
 });

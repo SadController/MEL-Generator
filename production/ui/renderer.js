@@ -219,6 +219,7 @@ document.getElementById('diagnostic-log-setting').addEventListener('change',even
   saveBooleanSetting(event.currentTarget,'enableDiagnosticLog');
 });
 const updateButton=document.getElementById('update-available');
+const downloadUpdateButton=document.getElementById('download-update');
 const checkUpdatesButton=document.getElementById('check-updates');
 const updateStatus=document.getElementById('settings-update-status');
 function renderUpdateState(state) {
@@ -226,11 +227,16 @@ function renderUpdateState(state) {
   const downloading=state?.status === 'downloading';
   const downloaded=state?.status === 'downloaded';
   const retry=state?.status === 'error' && Boolean(state.latestVersion);
-  updateButton.hidden=!(available || downloading || downloaded || retry);
+  const canUpdate=available || downloading || downloaded || retry;
+  updateButton.hidden=!canUpdate;
+  downloadUpdateButton.hidden=!canUpdate;
   updateButton.disabled=downloading;
+  downloadUpdateButton.disabled=downloading;
   updateButton.textContent=downloading ? `Downloading ${Math.round(state.percent || 0)}%`
     : downloaded ? 'Restart to update' : retry ? 'Retry update' : 'Update available';
-  checkUpdatesButton.disabled=state?.status === 'checking';
+  downloadUpdateButton.textContent=downloading ? `Downloading ${Math.round(state.percent || 0)}%`
+    : downloaded ? 'Restart to update' : retry ? 'Retry download' : 'Download update';
+  checkUpdatesButton.disabled=state?.status === 'checking' || downloading;
   updateStatus.className=`settings-status ${state?.status || ''}`;
   if(state?.status === 'checking') updateStatus.textContent='Checking for updates…';
   else if(available) updateStatus.textContent=`Version ${state.latestVersion} is available.`;
@@ -246,14 +252,17 @@ checkUpdatesButton.addEventListener('click',async()=>{
   try { renderUpdateState(await callApi(window.mel.checkForUpdates())); }
   catch(error) { renderUpdateState({status:'error',manual:true,issue:error}); }
 });
-updateButton.addEventListener('click',async()=>{
+async function runUpdateFromButton() {
   updateButton.disabled=true;
+  downloadUpdateButton.disabled=true;
   try {
     const result=await callApi(window.mel.runUpdate());
     if(result?.status) renderUpdateState(result);
   }
   catch(error) { renderUpdateState({status:'error',latestVersion:'unknown',issue:error}); }
-});
+}
+updateButton.addEventListener('click',runUpdateFromButton);
+downloadUpdateButton.addEventListener('click',runUpdateFromButton);
 function renderIntegrationState(state) {
   integrationState=state;
   const sim=document.getElementById('sim-status');

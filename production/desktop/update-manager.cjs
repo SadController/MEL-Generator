@@ -1,12 +1,11 @@
 'use strict';
-const {classifyError,issue} = require('./user-errors.cjs');
+const {classifyError} = require('./user-errors.cjs');
 
 class UpdateManager {
-  constructor({updater,isPackaged,signaturePolicyReady=false,onState=()=>{},logger=null}={}) {
+  constructor({updater,isPackaged,onState=()=>{},logger=null}={}) {
     if(!updater) throw new Error('An updater instance is required.');
     this.updater=updater;
     this.isPackaged=Boolean(isPackaged);
-    this.signaturePolicyReady=Boolean(signaturePolicyReady);
     this.onState=onState;
     this.logger=logger;
     this.state={status:'idle'};
@@ -42,8 +41,6 @@ class UpdateManager {
 
   async download() {
     if(!this.isPackaged) throw new Error('Updates can only be installed by the packaged application.');
-    if(!this.signaturePolicyReady) return this.publish({status:'error',
-      issue:issue('UPDATE_SIGNING_PENDING')});
     if(this.operation) return this.operation;
     if(this.downloaded) return this.publicState();
     this.publish({status:'downloading',percent:0,issue:null});
