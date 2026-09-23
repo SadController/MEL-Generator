@@ -170,7 +170,7 @@ When selected:
    in the application header on the main screen.
 3. If the installed version is current, `No updates available` appears directly below
    the `Check for updates` button.
-4. A network, metadata, signature or server error is displayed as an update-check error
+4. A network, metadata or server error is displayed as an update-check error
    and is not presented as `No updates available`.
 
 A later successful check replaces the previous result. The result message does not
@@ -183,8 +183,8 @@ When a newer compatible stable version has been found, Settings also shows a `Do
 update` button to the right of `Check for updates`. Either update button starts the same
 in-app download. Both show progress; once the download completes, both change to
 `Restart to update`. The Settings button is hidden when no update is available.
-Release-signing configuration does not gate the update notification or download action;
-a failed download or verification is reported as an update error.
+The unsigned release policy does not gate the update notification or download action;
+a failed download or integrity check is reported as an update error.
 
 ## Persisted structure
 
@@ -215,4 +215,4 @@ Existing last-selection and window-state values are migrated rather than discard
 
 ## Remaining decisions
 
-- Public signed-release acceptance and the installed-app update test remain outstanding.
+- The installed-app unsigned update test remains outstanding.

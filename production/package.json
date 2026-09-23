@@ -70,7 +70,8 @@
       ],
       "icon": "resources/icon.ico",
       "signAndEditExecutable": true,
-      "verifyUpdateCodeSignature": true
+      "signExecutable": false,
+      "verifyUpdateCodeSignature": false
     },
     "nsis": {
       "artifactName": "MEL-Generator-Setup-${version}.exe",

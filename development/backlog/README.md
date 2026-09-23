@@ -27,7 +27,7 @@ entry and uninstaller.
 | BL-002 | Technical log note presentation | Presentation | P2 | 1.2.0 | Proposed | Technical log template and content rules |
 | BL-003 | Application settings | Core UX | P1 | 1.1.0 | In Development | Packaged acceptance of implemented settings and diagnostics |
 | BL-004 | Dark and light themes | UI | P2 | 1.2.0 | Proposed | BL-003 application settings |
-| BL-005 | In-app application updates | Distribution | P1 | 1.1.0 | In Development | Signed GitHub release and installed-update acceptance |
+| BL-005 | In-app application updates | Distribution | P1 | 1.1.0 | In Development | Unsigned GitHub release and installed-update acceptance |
 | BL-006 | PMDG 737 and 777 support | Aircraft support | P3 | 3.0.0 | Research | Family-specific catalogs and verified PMDG SDK failure interfaces |
 | BL-007 | Source document selection | Data | P2 | 1.2.0 | Proposed | Separate reviewed catalog for every document |
 | BL-008 | Up to 10 simultaneous failures | Generator | P3 | 3.0.0 | Proposed | Generator and compatibility-engine redesign |
@@ -42,7 +42,7 @@ entry and uninstaller.
 | BL-018 | Synaptic A220 support | Aircraft support | — | — | Research | A220 catalog and verified mappings using the published external interface |
 | BL-019 | Fenix event-type failures | Generator / Fenix | — | — | Proposed | Separate event catalog, generation rules and verified Fenix manager mappings |
 | BL-020 | Expand the Fenix MEL failure pool | Data / Fenix | — | 2.0.0 | Proposed | BL-010, reviewed source-document coverage and verified Fenix manager mappings |
-| BL-021 | User-facing error catalogue and recovery messages | Reliability / UX | P1 | 1.1.0 | Verification | Live recovery checks with MSFS/Fenix and the signed release candidate |
+| BL-021 | User-facing error catalogue and recovery messages | Reliability / UX | P1 | 1.1.0 | Verification | Live recovery checks with MSFS/Fenix and the final release candidate |
 
 ## Release roadmap
 
@@ -153,6 +153,10 @@ The Failures page also provides an explicit `Activate failures` action beside th
 scenario count; it retries the same verified adapter operation without generating a new
 scenario and changes to `Failures active` after successful readback.
 
+A [draft deactivation interaction](../design/FAILURE_DEACTIVATION_DRAFT.md) proposes a
+one-button way to clear only failures activated by the current briefing. Its scope and
+release target have not yet been approved.
+
 **Open decisions:** Supported Fenix versions, availability of a supported Fenix failure
 API, first reversible vertical-slice failure, helper implementation language, whether a
 WASM package is necessary and the default value of automatic activation. The approved
@@ -246,7 +250,7 @@ within the application.
 - choose a trusted release host and update metadata format;
 - use GitHub Releases as the proposed release host;
 - support the installed Windows application only;
-- introduce release signing and integrity verification;
+- verify update integrity without code signing;
 - show version, release notes, download progress and clear failure recovery;
 - make update checks configurable through BL-003;
 - retain a manual update path.
@@ -258,19 +262,19 @@ show `No updates available` below the manual button. Do not treat a connection o
 metadata error as confirmation that no update exists. Disabling startup checks does not
 disable the manual action. See `../settings/README.md`.
 
-**Acceptance direction:** The application accepts only an authentic, compatible
-release and can recover from interrupted or failed downloads without damaging the
-installed version.
+**Acceptance direction:** The application downloads only a compatible release from the
+configured public GitHub repository, verifies its update metadata and checksum, and
+can recover from interrupted or failed downloads without damaging the installed
+version. Without a publisher signature, the app cannot authenticate the publisher of
+the downloaded Windows executable independently of the GitHub release channel.
 
-**Approved direction:** Publish releases from the owner's GitHub repository and use the
-NSIS-compatible update flow. Do not embed a personal GitHub token in the application.
-A public release repository is preferred so installed copies can read update metadata
-and download release assets without user credentials. For Windows code signing, first
-apply to a free signing program for eligible open-source projects, with SignPath
-Foundation as the current preferred option. Do not purchase a commercial signing
-certificate at this stage. If the project is not accepted, record the reason and make
-a separate decision before public rollout; self-signed certificates are not considered
-a substitute for a publicly trusted signature.
+**Approved direction:** Publish releases from the owner's public GitHub repository and
+use the NSIS-compatible update flow. Do not embed a personal GitHub token in the
+application. The owner decided on 23 September 2026 to distribute this project without
+code signing; neither SignPath nor a paid certificate is part of the release plan.
+Keep the existing stable-release-only policy, checksum validation and explicit user
+action before installation. Verify this unsigned flow with two installed versions
+before public release.
 
 **Implementation milestone, 20 September 2026:** The application now uses the
 `electron-updater` NSIS flow against `SadController/MEL-Generator`. Selecting `Update
@@ -279,23 +283,22 @@ update` only after the updater reports a completed download. Installation starts
 from that ready state. The updater disables prereleases, downgrades, automatic download
 and silent install-on-quit; failed network or verification operations retain the
 installed version and expose a retry state. Automated service and Electron UI checks
-cover progress, completion, retry messaging and the restart action. The release remains
-blocked from public update acceptance until SignPath or another approved free program
-provides the certificate subject used by Windows Authenticode verification, and a signed
-older-to-newer installed update is tested through GitHub Releases.
+cover progress, completion, retry messaging and the restart action. The earlier signing
+gate was superseded by the unsigned-release decision below.
 
 **Settings update action:** When a stable update is available, Settings shows `Download
 update` next to `Check for updates`. It shares the header action's progress, retry and
-restart states. Missing signing configuration no longer blocks update discovery or
-download in the application; release signing and installed-update verification remain
-public release acceptance work.
+restart states. Missing signing configuration does not block update discovery or
+download in the application.
 
-**Signing milestone, 20 September 2026:** The project owner submitted the application
-for the SignPath Foundation free code-signing program. The application is awaiting a
-decision. Public automatic-update acceptance still requires the issued certificate
-subject to be added to the release configuration and a signed installed-update test.
+**Unsigned-release decision, 23 September 2026:** SignPath has not responded and the
+owner does not want a paid certificate. Signing is removed from the release plan. The
+Windows build explicitly disables executable signing and Authenticode update checks
+while retaining the normal update checksum check. An installed older-to-newer update
+test is still required. The 20 September SignPath application is historical context,
+not a release dependency.
 
-**Open decisions:** SignPath application outcome, installation timing and staged rollout.
+**Open decisions:** Installation timing and staged rollout.
 The startup-check default is enabled under BL-003.
 
 ## BL-006 — PMDG 737 and 777 support
@@ -693,7 +696,7 @@ out of the primary interface.
   failures;
 - update checks with no network connection, DNS/TLS failure, timeout, GitHub API
   unavailability or rate limiting, malformed metadata and no compatible release;
-- update download, signature, checksum, disk-space, permission, installation, restart
+- update download, checksum, disk-space, permission, installation, restart
   and recovery failures introduced by BL-005;
 - MSFS not running, no aircraft loaded, unsupported aircraft, unavailable SimConnect
   runtime or helper process, lost connection and reconnecting states;
@@ -737,16 +740,15 @@ builds. The packaged run explicitly verified the offline update error, actionabl
 SimConnect banner, settings, all aircraft/count combinations, repeated generation and
 the bundled PDF viewer. A live Fenix A321 run then verified both green readiness lights,
 mixed `already-active`/`activated` readback, restoration, an Integration Service failure
-without technical-detail leakage, and successful reconnection after restart. The signed
-release candidate remains the final BL-021 release-candidate check.
+without technical-detail leakage, and successful reconnection after restart. The final
+unsigned release candidate remains the BL-021 release-candidate check.
 
 ## Dependency notes
 
 - BL-004 should follow the settings foundation in BL-003.
 - BL-005 should use BL-003 for update preferences. It targets only the installed app
   and will use the public GitHub repository. Its remaining distribution dependency is
-  approval of the submitted SignPath Foundation application and the resulting CI
-  signing setup.
+  an end-to-end test of an unsigned installed update from an older version.
 - BL-006, BL-015, BL-016, BL-017, BL-018 and BL-007 require a data
   architecture that isolates aircraft, configurations, source documents and failure
   mappings.

@@ -93,6 +93,6 @@ test('update manager keeps the installed version after network and verification 
   assert.throws(()=>network.install(),/No verified update/);
   const verifyUpdater=new FakeUpdater();
   const verify=new UpdateManager({updater:verifyUpdater,isPackaged:true});
-  verifyUpdater.emit('error',new Error('publisher signature mismatch'));
+  verifyUpdater.emit('error',new Error('sha512 checksum mismatch'));
   assert.equal(verify.publicState().issue.code,'UPDATE_VERIFICATION_FAILED');
 });
