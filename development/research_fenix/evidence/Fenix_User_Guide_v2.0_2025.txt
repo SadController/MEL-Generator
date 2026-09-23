@@ -1,0 +1,541 @@
+
+=== PDF PAGE 1 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 1 of 26
+Document version v2.0 ©
+2025 FenixSim Ltd
+FENIX A320 FAMILY
+USER GUIDE
+
+
+=== PDF PAGE 2 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 2 of 26
+Contents
+1.0 Introduction........................................................................................................................................................... 4
+1.1 The Fenix Airbus A320 family.............................................................................................................................4
+2.0 Fenix A320 application...........................................................................................................................................5
+2.1 Product configuration........................................................................................................................................ 5
+2.2 ACARS service.................................................................................................................................................... 5
+2.3 Flight Deck displays............................................................................................................................................ 6
+2.4 Help & Support...................................................................................................................................................6
+3.0 Aircraft Configuration............................................................................................................................................ 7
+3.1 Controls calibration –Thrust, Sidestick & Flaps..................................................................................................7
+4.0 Electronic Flight Bag (EFB)..................................................................................................................................... 8
+4.1 The Fenix EFB..................................................................................................................................................... 8
+4.2 EFB Applications.................................................................................................................................................8
+4.3 Using the EFB on an external device or web browser........................................................................................9
+4.3.1 Access via external device...........................................................................................................................9
+4.3.2 Access via browser on your PC....................................................................................................................9
+4.4 Web MCDU........................................................................................................................................................ 9
+4.4 Removing the EFB............................................................................................................................................ 10
+4.5 Authorising Navigraph..................................................................................................................................... 10
+5.0 Fenix app.......................................................................................................................................................... 11
+5.0.1 Using Simbrief.com................................................................................................................................... 11
+5.0.2 Manually configure the aircraft load........................................................................................................ 12
+5.1 Ground Services............................................................................................................................................... 13
+5.2 Panel States......................................................................................................................................................13
+5.3 Sim Settings......................................................................................................................................................14
+6.0 Performance Calculations.................................................................................................................................... 19
+6.1 Departure performance................................................................................................................................... 19
+6.2 Arrival performance......................................................................................................................................... 19
+7.0 Charts app............................................................................................................................................................ 20
+8.0 Pilot Brief app...................................................................................................................................................... 21
+9.0 Failures app..........................................................................................................................................................22
+10.0 Settings app....................................................................................................................................................... 23
+11.0 Walkaround mode (MSFS 2024 only)................................................................................................................ 24
+12.0 Company Messages........................................................................................................................................... 25
+13.0 Fenix Installer & Livery Manager....................................................................................................................... 25
+13.1 Livery Manager.............................................................................................................................................. 26
+14.0 Frequently Asked Questions (FAQs).................................................................................................................. 27
+
+
+=== PDF PAGE 3 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 3 of 26
+1.0 Introduction
+1.1 The Fenix Airbus A320 family
+Welcome aboard the Fenix A320 family. We’ve painstakingly modelled your aircraft so it faithfully 
+replicates an Airbus A320 CEO family (Current Engine Option) with EIS2 (Electronic Instrumentation System, 
+2nd generation) equipment.
+The Airbus A320 family are narrow-body airliners developed and produced by Airbus with parts manufactured 
+across Europe. The aircraft was launched in March 1984, first flew on the 22nd February 1987 and was introduced 
+into service in April 1988 by Air France.
+With a versatile cabin, the A320 can carry up to 180 passengers and 16.6 tonnes of cargo with a range up to 
+3,300nm. The aircraft operates up to 39,000ft at up to Mach 0.82 with a maximum takeoff weight of 78 tonnes.
+The Fenix Airbus A320 family stands 38’ 7” tall, has a wingspan of 111‘ 11”, with a length between 111‘ and 146‘ 
+depending on the variant, and has a fuselage 13‘ wide.
+There are nearly 400 airline operators of the A320 family globally, each able to customise the configuration of 
+the aircraft. Fenix have provided the ability for you to customise your aircraft individually via settings in the EFB 
+or based on the livery installed.
+
+
+=== PDF PAGE 4 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 4 of 26
+2.0 Fenix A320 application
+2.1 Product configuration
+Automatic Crash reporting - Opting into automatic crashing reporting by ticking the Auto Crash Report option 
+in the Fenix app significantly helps us trace the root cause of unexpected crashes and errors. You can find more 
+about this feature and what information we receive as a part of the report in this article .
+Streamer mode - Use streamer mode to hide your personal details like your username or email address if 
+required.
+2.2 ACARS service
+You can make use of either SayIntentions, BeyondATC or the Hoppie ACARS service and we have fully integrated 
+it into the MCDU as in the real aircraft. To make use of the Hoppie service you’ll need to register an account by 
+visiting https://www.hoppie.nl/acars/system/register.html . Once created, add your ACARS Login Code to this 
+field to enable the ATC Comm menu in the MCDU. 
+In the case of using SayIntentions or BeyondATC, the API key is automatically read for you from the app.
+Note: If the sim is running when you add the code, the changes will take effect the next time you load the 
+aircraft in the simulator.
+
+
+=== PDF PAGE 5 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 5 of 26
+2.3 Flight Deck displays
+We acknowledge that there are many different sim setups in use across the sim community, with varying budgets 
+and configurations leading to different performance experienced when using MSFS. To ensure that different 
+system setups can run Fenix smoothly, we’ve included various display rendering compatibility options.
+Use Display Safe Mode
+This setting may help with serious performance degradation issues or graphical glitches.
+Note: Use this option only if you are instructed to so by the support staff.
+Force Safe Mode CPU Rendering
+This option can be used only with Display Safe Mode option enabled. Setting this to on will prefer using CPU to 
+render displays. 
+Note: Use this option only if you are instructed to so by the support staff.
+To find more about those settings see the following What do the options in the Fenix App mean? knowledge base
+article.
+2.3.1 System status
+In the case you encounter issues with the aircraft systems or displays not responding, you can try either of the 
+following RESTART ALL or RESTART DISPLAYS buttons.
+Pressing the LOG OUT button will log you out of the Fenix desktop app.
+2.4 Help & Support
+Use these options to raise a support ticket, access the log folder or our Discord server to connect with 
+the Fenix community.
+You’re likely to find answers to most questions by checking documentation included with the product, checking 
+the Knowledge base, frequently asked questions (FAQs) section of this document or asking in the Discord server.
+If you can’t find what you’re looking for our support team will be happy to assist you. To contact them, please use 
+the button ‘Contact Support’ in the FenixSim A320 application or visit fenixsim.com/support and our team will 
+respond to you as soon as possible.
+If you are encountering the following Login Failed error message when starting the Fenix application:
+Please follow the steps in the How do I reset my Fenix A32X License/Activation? article.
+
+
+=== PDF PAGE 6 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 6 of 26
+3.0 Aircraft Configuration
+3.1 Controls calibration – Thrust, Sidestick & Flaps
+Ahead of your first flight, you will need to calibrate your thrust levers if you are using one. The MCDU page is at 
+MENU > CONFIG > CONTROLS CONFIG.
+Choose the Calibrate option and the page will guide you where to set the thrust levers to set each detent.
+When you have completed all of the steps choose STORE CALIBRATION to complete the process.
+Notes:
+1.) If your thrust lever doesn’t have positions for reverse or idle reverse, leave the thrust lever in idle and   
+progress past those steps in the calibration process by choosing NEXT STEP.
+2.) If you are using the Thrustmaster Airbus TCA controller, see the FAQ section of this document for      
+mapping controls in MSFS.
+If you use an external controller for flap settings you can calibrate this in the same MCDU page by using the 
+right arrow.
+For further information and video guides, please visit following Knowledge Base Articles
+Fenix A320 Flight Control Calibration
+How to setup your Thrustmaster TCA Throttle
+Flaps are unresponsive / Flaps Calibration 
+
+
+=== PDF PAGE 7 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 7 of 26
+4.0 Electronic Flight Bag (EFB)
+4.1 The Fenix EFB
+An electronic flight bag (EFB) is an electronic information management device that helps flight crews perform 
+flight management tasks more easily and efficiently with less reliance on paper materials. The EFB consolidates 
+important information like navigational charts, performance calculators, checklists and other documents. The EFB 
+supports inputs from both physical keyboard and virtual on-screen keyboard. In MSFS 2024 the EFB is also 
+accessible as an app via the native virtual tablet.
+The Fenix A320 family ships with a comprehensive set of apps that we fully expect to mature and increase in 
+functionality in future updates.
+4.2 EFB Applications
+There are several applications installed on the Fenix EFB to help plan and carry out your flight:
+•
+Fenix App – Flight information, ground services, aircraft mass & balance, panel states and sim settings
+•
+Departure Performance – Calculate departure performance
+•
+Arrival Performance – Calculate arrival performance
+•
+Charts – Review departure, enroute and arrival charts. Supports both in-sim LIDO charts (MSFS 2024 
+ONLY) or Navigraph (requires Navigraph Charts subscription) – includes integration with simbrief.com. For 
+users without a subscription, you can use the route map feature.
+•
+Pilot Brief – Operational flight plan, weather briefing, NOTAMs, checklist, QRH and other 
+documentation
+•
+Failures – Manage aircraft system failures. Manually enable, disable or arm failures based on 
+specified conditions
+•
+Settings – Adjust EFB settings, brightness, Simbrief username, printing features or reboot the EFB.
+•
+Web MCDU – Only available if using the EFB on external device or via browser on your PC
+A handy app switcher is also available via the   
+   symbol at the top of the screen.
+
+
+=== PDF PAGE 8 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 8 of 26
+4.3 Using the EFB on an external device or web browser
+You can connect to the EFB via your internet browser or via external device like iPad provided the device is on the 
+same network as the computer running MSFS. Both options also gives you access to the Web MCDU.
+4.3.1 Access via external device
+With the simulator running and the Fenix A320 app running, navigate to http://<LOCAL IP>:8083 (example: 
+http://192.168.1.60:8083). Please ensure your firewall allows port 8083 to be used across the local network. 
+Find more information in this linking your tablet to the EFB knowledge base article.
+To find out your IP address of the computer running MSFS, search for Network Status in the Windows Search, 
+choose Properties next to your active connection then read the IP address shown as IPv4 address.
+4.3.2 Access via browser on your PC
+To run the EFB on the same machine as your sim you can connect using http://localhost:8083.
+Note, when viewing on a browser or external device, to return to the Home Screen of the EFB use the grey 
+‘home button’ shown in the bottom left-hand corner of the EFB screen. This button can be moved by dragging it 
+to your desired location.
+4.4 Web MCDU
+Accessing your EFB from external device or your internet browser using guide mentioned above gives you option 
+to use web version of the MCDU by clicking the MCDU app icon. Once opened you will be prompted to select if 
+you want to control the left or right MCDU.
+
+
+=== PDF PAGE 9 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 9 of 26
+4.4 Removing the EFB
+If you’d like to fly without the EFB displayed in the sim you can simply turn it off by using a click spot by the 
+handheld cockpit microphone which is below the EFB. While using the EFB, don’t forget to keep it charged, add
+the charging cable via the click spot near the home button.
+4.5 Authorising Navigraph
+On first use, you’ll need to give permission for the EFB to receive information from your Navigraph account. 
+Simply open the Navigraph app on your EFB in the simulator, scan the QR code or open 
+https://navigraph.com/code and enter the code shown on your EFB screen. Follow the instructions on screen to 
+grant access.
+
+
+=== PDF PAGE 10 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 10 of 26
+5.0 Fenix app
+You can use the EFB to load passengers, cargo and fuel onto the aircraft for your flight and we also offer seamless 
+integration with Simbrief and GSX to make planning and loading even easier and immersive. The MY FLIGHT tab 
+contains information about your current flight, weather information and information about your route.
+5.0.1 Using Simbrief.com
+We have integrated Simbrief to allow you to load flight plans and data directly into the EFB and MCDU when you
+have created a flight plan in their interface. In order to use this service, you will need to create an account at 
+Simbrief.com and then enter your username or pilot ID into the EFB settings app.
+When entered, you’ll be able to use the REQUEST INIT functionality on the INIT and SEC-FPLN pages in the 
+MCDU.
+   
+1. Add your Simbrief username to the settings app in EFB
+2. Plan your flight with Simbrief as usual. Profiles for each of our airframes is available via Simbrief 
+in the Variant or Airframe tab 
+3. Load MSFS and the Fenix aircraft at your chosen departure airfield
+4. Open the Fenix app and choose IMPORT FLIGHT FROM SIMBRIEF on the MY FLIGHT tab
+5. In the MASS AND BALANCE tab, select LOAD AIRCRAFT and choose how quickly you’d like
+the loading to take or if you would like to use GSX.
+6. Preliminary loadsheets are delivered 30 minutes before departure and can be accessed via the MCDU > 
+ATSU > AOC MENU > RCVD MSGS
+7. Once loading is finished, you can use the SEND TO MCDU button to send your final weight and CG value to 
+the Init B page of the MCDU.
+
+
+=== PDF PAGE 11 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 11 of 26
+5.0.2 Manually configure the aircraft load
+If you’re not using Simbrief to plan your flights you can manually enter values for passenger, cargo and fuel by 
+pressing the edit pencil symbol against any of those fields and then using the slider to make your selection. 
+When you’re ready, press the LOAD AIRCRAFT button and choose how quickly you’d like the loading to take 
+and access the loadsheets as before. Once loading is finished, you can use the SEND TO MCDU button to send 
+your weight and CG to the Init B page of MCDU. 
+
+
+=== PDF PAGE 12 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 12 of 26
+5.1 Ground Services
+You can interact with ground services through the EFB by using the toggle switches available in the GROUND 
+SERVICES tab. You can also use the pushback controls to connect and steer the tug.
+5.2 Panel States
+You can choose panel states via the FENIX app in the EFB. Choose the PANEL STATES menu item and then select
+the state you wish to activate. You can also choose which state acts as the default for each subsequent load of
+the aircraft.
+
+
+=== PDF PAGE 13 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 13 of 26
+5.3 Sim Settings
+There are numerous airline options available to Airbus A320 customers and we have replicated those available 
+in this simulation via the EFB Fenix app. Most are automatically set for each livery that you download from the 
+livery manager. To honor those applicable to the aircraft selected, choose RESTORE AIRLINE SETTINGS.
+Brief description of each tab below. You can find more information on what each option does in this EFB Sim 
+Settings Explained knowledge base article.
+Airframe
+This section allows you to customize the equipment of the aircraft, from DDRMI (Digital Distance Radio Magnetic 
+Indicator), swap between the Integrated Standby Instrument System (ISIS) or the analogue 3 pack, ACP and ADIRS 
+units, enable metric standby altimeter, brake fans, DCDU units and the style or removal of the satcom antenna.
+
+
+=== PDF PAGE 14 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 14 of 26
+Airframe Modifiable Information
+This section allows you to modify airline specific settings. Full guide explaining those settings in more detail can be
+found in this EFB Sim Settings Explained knowledge base article.
+Cabin
+This section allows you to set cabin lighting level in 0 - 25 - 50 - 100% steps as well disable the cabin visibility 
+which might help performance on low-end systems.
+
+
+=== PDF PAGE 15 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 15 of 26
+Controls
+This section allows you to modify control settings. Full guide explaining those settings in more detail can be found 
+in this EFB Sim Settings Explained knowledge base article.
+RA callouts
+This section allows you to customize various Radio Altimeter callouts. Note that some of the selected callouts 
+might not be played if higher priority callouts are being played at the time.
+
+
+=== PDF PAGE 16 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 16 of 26
+Units
+This section allows you to choose preferred units of measurement used in both EFB and MCDU.
+Note: Make sure units match units selected in your simbrief flight plan.
+GSX
+This section allows you to customize the behaviour of the included GSX integration. Full GSX Integration guide is 
+available on the Knowledge Base.
+
+
+=== PDF PAGE 17 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 17 of 26
+Cabin Announcements
+This section allows you to enable/disable the integrated cabin announcements feature. Full guide on this topic is 
+available in this Cabin Announcements Guide.
+
+
+=== PDF PAGE 18 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 18 of 26
+6.0 Performance Calculations
+The EFB has performance applications that will help you to calculate the performance of the aircraft during 
+departure and arrival. Simply populate the data required to perform the calculations. 
+6.1 Departure performance
+Input the ICAO of the airport, select the runway and its condition. Take off weight (TOW) and Take Off CG% 
+(MACTOW) can be populated from either preliminary or final loadsheet by clicking the SYNC LOADSHEET 
+button. METAR information can be obtained and populated by clicking the SYNC LIVE WX button. Calculated 
+performance can be transferred to MCDU by clicking the SEND TO MCDU button.
+6.2 Arrival performance
+Input the ICAO of the airport, select the runway, its condition and landing weight of the aircraft. METAR 
+information can be obtained and populated by clicking the REFRESH METAR and APPLY METAR buttons. If 
+prompted to perform LDG Distance Procedure you can select the type of failure in the calculator to ensure the 
+impact to performance taken into account.
+
+
+=== PDF PAGE 19 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 19 of 26
+7.0 Charts app
+Our Charts app automatically syncs with your imported Simbrief plan from the Fenix EFB app and fills the ICAO 
+code fields for your departure, arrival and alternate airports. You can press the SYNC ROUTE button to do the 
+same. If you are not using Simbrief you can enter ICAO codes manually. The app supports both JEPPESEN charts 
+provided by Navigraph (requires subscription) as well as LIDO charts provided by the sim (available in MSFS 2024 
+in-sim only). If neither are available, the app can be used to follow your route and progress on map.
+You can click the star icon next to the chart name for easier and quicker access to selected charts via the Starred 
+tab. When importing flight via Simbrief, your Approach, Arrival as well as selected ground charts will be 
+automatically starred.
+
+
+=== PDF PAGE 20 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 20 of 26
+8.0 Pilot Brief app
+The pilot brief app gives ability to check Operational flight plan, weather briefing, NOTAMs, checklist, the 
+provided Quick Reference Handbook (QRH) and other PDF documentation.
+You can add your own documentation in PDF format by placing it into the C:\Program Files\FenixSim A320\docs 
+folder
+
+
+=== PDF PAGE 21 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 21 of 26
+9.0 Failures app
+In addition to the optional random failures based on MTBF (Mean-Time-Between-Failures) this app offers way to 
+manually manage the complex failures system offered in the Fenix A320 family of aircraft. You can enable, arm 
+and clear failures. Arming failures can be done based on selected conditions and events. You can find more 
+information in the Failures Guide available on Knowledge Base.
+The intuitive UI provides an easy way to keep track of and to control active failures.
+
+
+=== PDF PAGE 22 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 22 of 26
+10.0 Settings app
+EFB Settings
+The Settings app allows you to enter your Simbrief username/ID, sign out of your navigraph connection, change 
+the source for METAR source as well as the option to disable on-screen keyboard. It also offers a way to change 
+the background picture of your EFB from your computer as well as an option for it to be changed automatically in 
+connection with the Cabin announcement feature. You can find more about those features in the following 
+Knowledge Base articles.
+How to change the EFB background image and access the WEB MCDU
+How to have specific EFB backgrounds per announcement pack 
+ACARS printer
+The aircraft supports physical printing of incoming ACARS and TELEX messages via printers installed on your 
+system as well as support for Pushover service, which allows you to have ACARS messages sent to your mobile 
+device instead of a physical printer. You can find more information about the printing options in the How to use 
+the ACARS Printer article.
+ACP volume control
+You can control volume of other processes running on your PC via the ACP knobs in the cockpit. To find the name 
+of the process you want to control, open your task manager and head to the details tab and enter the name of 
+the process into the field (without the .exe file extension).
+You can control multiple processes via single knob by entering multiple process names separated by comma as 
+seen on the example below.
+
+
+=== PDF PAGE 23 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 23 of 26
+11.0 Walkaround mode (MSFS 2024 only)
+With the introduction of the native compatibility for MSFS 2024, an extensive support of the sim walkaround 
+function has been added. 
+To enter the walkaround mode, you can either use the sim key bind, or by clicking the high visibility vest hanged 
+in the cockpit.
+To exit the walkaround mode, you can click the coat hanger where the vest was hanging or by clicking the pilot 
+seat.
+You can move freely around and inside the aircraft and interact with various components such as doors, stairs, 
+engines and various service hatches and controls like fuelling panel, cargo door controls and main gear door 
+controls with all the associated system logic.
+To operate the doors and controls, simply follow steps listed on the decals placed near the controls.
+Note: For full functionality of aircraft systems, it is recommended to exit and re-enter the walkaround mode 
+once to allow the aircraft systems to fully initialise.
+Note: When spawning at a gate, MSFS2024 will force the avatar to spawn under the aircraft. This is out of our 
+control but will only happen once, before the normal spawn point (standing in the cockpit) is used. You can 
+check other walkaround mode quirks in the FS2024 Walkaround Quirks article.
+
+
+=== PDF PAGE 24 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 24 of 26
+12.0 Company Messages
+From time to time the airline operations team will send messages to the aircraft ATSU AOC function as 
+follows:
+•
+Loadsheets– The preliminary loadsheet is sent around 30 minutes prior to the departure time. 
+The final loadsheet is available once boarding is completed.
+•
+Departure time – The on-time performance is monitored and a confirmation of the aircraft’s departure 
+time compared to schedule is commutated to the crew. If the aircraft departs late the operations team 
+will request an ADC Delay code. You can find a list of the appropriate codes on the home screen of the 
+EFB by selecting DELAY ALLOCATION CARD
+13.0 Fenix Installer & Livery Manager
+Fenix installer serves to keep the aircraft up to date. The latest version of the installer can be downloaded directly
+from here. Use your Fenix account credentials to log in. You can use it to both update and uninstall the aircraft.
+Changelog for each version is provided in the window below.
+
+
+=== PDF PAGE 25 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 25 of 26
+13.1 Livery Manager
+The livery manager allows you to download, update and manage high quality in-house liveries with assured 
+compatibility with the latest version of the aircraft. Available liveries can be filtered via aircraft type, airline, 
+country of registration, engine type, wing type, number of additional center tanks, livery creator and the state of 
+the install. 
+Quick access to installed liveries or liveries where update is available is provided by separate buttons.
+As of July 2025, the livery manager is a part of the Fenix Installer and the standalone livery manager app is no 
+longer used.
+Clicking the settings cog allows you to select the preferred livery resolution between 4K and 8K.
+
+
+=== PDF PAGE 26 ===
+Fenix A320 family User Guide
+Document version v2.0
+© 2025 Fenix Simulations
+Page 26 of 26
+14.0 Frequently Asked Questions (FAQs)
+Q: I’m encountering Login Failed – License already activated on different machine error when starting the Fenix
+application
+ A: Please follow the steps in the How do I reset my Fenix A32X License/Activation? article.
+Q: My thrust control ‘spikes’ or behaves strangely
+A: We’ve included a calibration tool to help you ensure that your thrust controls behave as expected. It’s 
+available in the MCDU Configuration menu – make sure to calibrate before you fly.
+Q: I’m using the Thrustmaster Airbus TCA controller and throttle quadrant but can’t map the controls 
+properly
+A: MSFS has multiple control binds for throttle controls. For the TCA controller you need to map your controls
+to ‘Throttle 1 Axis’ & ‘Throttle 2 Axis’.
+For further information and video guides, please visit following Knowledge Base Articles
+Fenix A320 Flight Control Calibration
+How to setup your Thrustmaster TCA Throttle
+Flaps are unresponsive / Flaps Calibration 
+Q: My autopilot randomly disconnects during a flight
+A:  Make sure you don’t have any conflicting bindings and that you have added deadzone to your flight controls
+axes. You can find more detailed information in this Uncommanded Autopilot Disconnects article.
+Q: Some key bindings are not working
+A: Not every key binding in MSFS2020 will work with the Fenix A320 due to its externalised architecture. We 
+have created a set of default bindings for certain controls that is available in the Useful default keybinds 
+article.
+Q: The Ram Air Turbine (RAT) comes out when slewing the aircraft
+A: This happens from time to time in MSFS 2020 so we recommend avoiding use of the slew function where
+possible. To avoid ‘spawning’ on occupied stands you can check whether the stand is available in a mapping tool
+i.e. Volanta.

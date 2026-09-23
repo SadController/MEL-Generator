@@ -1,0 +1,3021 @@
+
+=== PDF PAGE 1 ===
+REFERENCE: NWS A320/A321 FLEET FCOM
+ISSUE DATE: 25 MAY 14
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+The content of this document is the property of Airbus. It is supplied in confidence and commercial
+security on its contents must be maintained. It must not be used for any purpose other than that for
+which it is supplied, nor may information contained in it be disclosed to unauthorized persons. It must
+not be reproduced in whole or in part without permission in writing from the owners of the copyright.
+© AIRBUS 2005. All rights reserved.
+AIRBUS S.A.S
+CUSTOMER SERVICES DIRECTORATE
+31707 BLAGNAC CEDEX
+FRANCE
+
+=== PDF PAGE 2 ===
+Intentionally left blank
+
+=== PDF PAGE 3 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+TRANSMITTAL LETTER
+NWS A320/A321 FLEET
+TRL P 1/2
+FCOM
+25 MAY 14
+Issue date: 25 MAY 14
+This is the FLIGHT CREW OPERATING MANUAL major event publication at issue date 25 MAY
+14 for the A320/A321 and replacing last issue dated 11 APR 14
+
+=== PDF PAGE 4 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+TRANSMITTAL LETTER
+Intentionally left blank
+NWS A320/A321 FLEET
+TRL P 2/2
+FCOM
+25 MAY 14
+
+=== PDF PAGE 5 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+FILING INSTRUCTIONS
+NWS A320/A321 FLEET
+FI P 1/2
+FCOM
+25 MAY 14
+Please incorporate this major event revision as follow:
+Insert
+Localization
+Subsection Title
+Remove
+Rev. Date
+PLP-LESS
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+ALL
+25 MAY 14
+DSC-PLP-TOC
+TABLE OF CONTENTS
+ALL
+25 MAY 14
+DSC-PLP-SOH
+SUMMARY OF HIGHLIGHTS
+ALL
+25 MAY 14
+DSC-PLP-LEDU
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+ALL
+25 MAY 14
+DSC-AIL-00000699
+Controller Pilot Data Link Communication (CPDLC)
+ALL
+DSC-23-PLP-TOC
+TABLE OF CONTENTS
+ALL
+25 MAY 14
+DSC-23-PLP-SOH
+SUMMARY OF HIGHLIGHTS
+ALL
+25 MAY 14
+DSC-23-99
+Controller Pilot Data Link Communication (CPDLC)
+25 MAY 14
+PRO-PLP-LEDU
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+ALL
+25 MAY 14
+PRO-ABN-PLP-TOC
+TABLE OF CONTENTS
+ALL
+25 MAY 14
+PRO-ABN-PLP-SOH
+SUMMARY OF HIGHLIGHTS
+ALL
+25 MAY 14
+PRO-ABN-23
+Communications
+ALL
+25 MAY 14
+PRO-NOR-PLP-TOC
+TABLE OF CONTENTS
+ALL
+25 MAY 14
+PRO-NOR-PLP-SOH
+SUMMARY OF HIGHLIGHTS
+ALL
+25 MAY 14
+PRO-NOR-SRP-99
+Controller Pilot Data Link Communication (CPDLC)
+25 MAY 14
+LIM-PLP-TOC
+TABLE OF CONTENTS
+ALL
+25 MAY 14
+LIM-PLP-LEDU
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+ALL
+25 MAY 14
+LIM-23-PLP-TOC
+TABLE OF CONTENTS
+ALL
+25 MAY 14
+LIM-23-PLP-SOH
+SUMMARY OF HIGHLIGHTS
+ALL
+25 MAY 14
+Continued on the following page
+
+=== PDF PAGE 6 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+FILING INSTRUCTIONS
+NWS A320/A321 FLEET
+FI P 2/2
+FCOM
+25 MAY 14
+Continued from the previous page
+Insert
+Localization
+Subsection Title
+Remove
+Rev. Date
+LIM-23
+Communications
+ALL
+25 MAY 14
+
+=== PDF PAGE 7 ===
+ 
+PRELIMINARY PAGES
+
+=== PDF PAGE 8 ===
+Intentionally left blank
+
+=== PDF PAGE 9 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE OPERATIONS ENGINEERING BULLETIN
+NWS A320/A321 FLEET
+PLP-LEOEB P 1/2
+FCOM
+25 MAY 14
+M
+(1)
+Identification
+T
+(2) E
+(3)
+Rev. Date
+Title
+OEB38 issue 2.0
+R
+N
+11 APR 14
+Erroneous Radio Altimeter Height indication
+Criteria: SA
+Applicable to: ALL
+OEB28 issue 2.0
+W
+N
+27 MAY 13
+No Localizer or Glide Slope Capture in Approach
+Criteria: P5168
+Applicable to: MSN 2649
+OEB34 issue 2.0
+W
+Y
+28 FEB 14
+FUEL L( R ) XFR VALVE FAULT or FUEL CTR L(R) XFR FAULT
+or FUEL L( R ) WING TK OVERFLOW
+Criteria: A321
+Applicable to: MSN 1843, 2927-2933, 3120
+OEB36 issue 2.0
+W
+Y
+08 AUG 13
+No SRS Engagement During Go Around in the Case of EPR Mode
+Fault
+Criteria: 22-1203, IAE, P9126
+Applicable to: MSN 1276-3120
+OEB40 issue 1.0
+W
+Y
+18 MAR 11
+AIR ENG 1(2) BLEED ABNORMAL PR or AIR ENG 1(2) BLEED
+FAULT
+Criteria: SA
+Applicable to: ALL
+OEB41 issue 2.0
+W
+N
+08 OCT 12
+Erroneous Alternate Fuel Predictions Upon Modification of a
+Company Route in the Alternate Flight Plan
+Criteria: 22-1269, 22-1270
+Applicable to: ALL
+OEB43 issue 3.0
+W
+Y
+21 MAY 12
+F/CTL SPOILER FAULT
+Criteria: SA
+Applicable to: ALL
+OEB44 issue 2.0
+W
+Y
+21 MAY 12
+L/G GEAR NOT DOWNLOCKED
+Criteria: SA
+Applicable to: ALL
+OEB47 issue 1.0
+W
+Y
+20 DEC 13
+HYD ENG PUMP LO PR followed by HYD RSVR OVHT
+Criteria: SA
+Applicable to: ALL
+(1) Evolution code : N=New, R=Revised, E=Effectivity
+(2) Type of OEB: R=Red, W=White
+(3) Affects ECAM: Y=Yes, N=No
+
+=== PDF PAGE 10 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE OPERATIONS ENGINEERING BULLETIN
+Intentionally left blank
+NWS A320/A321 FLEET
+PLP-LEOEB P 2/2
+FCOM
+25 MAY 14
+
+=== PDF PAGE 11 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320/A321 FLEET
+PLP-LESS P 1/18
+FCOM
+25 MAY 14
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+PLP-LEOEB
+LIST OF EFFECTIVE OPERATIONS ENGINEERING BULLETIN
+25 MAY 14
+R
+PLP-LESS
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+25 MAY 14
+GEN-PLP-LETDU
+LIST OF EFFECTIVE TEMPORARY DOCUMENTARY UNITS
+25 MAY 14
+GEN
+General Information
+06 MAR 14
+DSC-PLP-LETDU
+LIST OF EFFECTIVE TEMPORARY DOCUMENTARY UNITS
+25 MAY 14
+DSC-20-10
+Introduction
+12 MAR 13
+DSC-20-20
+General Arrangement
+27 NOV 13
+DSC-21-10-10
+General
+12 MAR 13
+DSC-21-10-20
+Main Components
+12 MAR 13
+DSC-21-10-30
+Temperature and Flow Regulation
+12 MAR 13
+DSC-21-10-40
+System Operation under Failure Condition
+12 MAR 13
+DSC-21-10-50
+Controls and Indicators
+11 DEC 13
+DSC-21-10-60
+Warnings and Cautions
+27 NOV 13
+DSC-21-10-70
+Electrical Supply
+12 MAR 13
+DSC-21-20-10
+General
+12 MAR 13
+DSC-21-20-20
+Main Components
+12 MAR 13
+DSC-21-20-30
+System Operation
+11 SEP 13
+DSC-21-20-40
+Controls and Indicators
+30 MAY 13
+DSC-21-20-50
+Warnings and Cautions
+12 MAR 13
+DSC-21-20-60
+Electrical Supply
+11 APR 12
+DSC-21-30-10
+General
+12 MAR 13
+DSC-21-30-20
+Avionics Ventilation
+15 FEB 13
+DSC-21-30-40
+Battery Ventilation
+11 APR 12
+DSC-21-30-50
+Lavatory and Galley Ventilation
+14 NOV 12
+DSC-21-30-60
+Controls and Indicators
+30 MAY 13
+DSC-21-30-70
+Warnings and Cautions
+11 APR 12
+DSC-21-30-80
+Electrical Supply
+11 APR 12
+DSC-21-40-10
+General
+12 MAR 13
+DSC-21-40-20
+System Operation
+12 MAR 13
+DSC-21-40-30
+Controls and Indicators
+11 DEC 13
+DSC-21-40-35
+ECAM Cond Page
+12 MAR 13
+DSC-21-40-40
+Warnings and Cautions
+12 MAR 13
+DSC-21-40-50
+Electrical Supply
+12 MAR 13
+DSC-22_10-10
+Description
+06 MAR 14
+DSC-22_10-20
+System Interface Diagram
+02 OCT 12
+DSC-22_10-30
+FMGS Modes of Operation
+12 MAR 13
+DSC-22_10-40-05
+Management of the Displays
+11 APR 12
+DSC-22_10-40-10
+MCDU
+06 MAR 14
+DSC-22_10-40-20
+FCU
+12 MAR 13
+DSC-22_10-40-30
+Thrust Levers
+30 MAY 12
+Continued on the following page
+
+=== PDF PAGE 12 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320/A321 FLEET
+PLP-LESS P 2/18
+FCOM
+25 MAY 14
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+DSC-22_10-40-40
+Primary Flight Display
+06 MAR 14
+DSC-22_10-40-50
+Navigation Display
+06 MAR 14
+DSC-22_10-50
+Warnings and Cautions
+11 DEC 13
+DSC-22_10-60
+ELECTRICAL SUPPLY
+11 APR 12
+DSC-22_20-10
+General
+11 APR 12
+DSC-22_20-20-05
+General
+11 APR 12
+DSC-22_20-20-10
+Position Computation
+06 MAR 14
+DSC-22_20-20-20
+Evaluation of Position Accuracy
+30 MAY 13
+DSC-22_20-20-30
+Radio Navigation Tuning
+06 MAR 14
+DSC-22_20-20-40
+Alignment of Inertial Reference System
+02 OCT 12
+DSC-22_20-20-50
+Navigation Database
+15 FEB 13
+DSC-22_20-30-05
+General
+11 APR 12
+DSC-22_20-30-10-05
+General
+06 MAR 14
+DSC-22_20-30-10-15
+FMS2 HONEYWELL
+06 MAR 14
+DSC-22_20-30-20-05
+General
+06 MAR 14
+DSC-22_20-30-20-25
+FMS2 Honeywell
+06 MAR 14
+DSC-22_20-40-10
+Optimization
+06 MAR 14
+DSC-22_20-40-20
+Cost Index
+11 APR 12
+DSC-22_20-40-30
+Predictions
+12 MAR 13
+DSC-22_20-50-10-25
+FMS2 Honeywell
+06 MAR 14
+DSC-22_20-50-20-35
+FMS2 Honeywell
+06 MAR 14
+DSC-22_20-50-30
+MCDU - Data Format List
+06 MAR 14
+DSC-22_20-60-10
+Effect of Baro Reference Setting
+02 OCT 12
+DSC-22_20-60-20
+Clear Key (Clearing Function)
+11 APR 12
+DSC-22_20-60-30
+How to Execute a Diversion
+11 APR 12
+DSC-22_20-60-40
+Engine Out
+06 MAR 14
+DSC-22_20-60-50
+Secondary Flight Plan
+06 MAR 14
+DSC-22_20-60-60
+Pilots/Stored Route Function
+02 OCT 12
+DSC-22_20-60-70
+Report Page
+06 MAR 14
+DSC-22_20-60-80
+Closest Airports
+11 APR 12
+DSC-22_20-60-90
+Time Marker
+02 OCT 12
+DSC-22_20-60-100
+Step ALTS
+06 MAR 14
+DSC-22_20-60-110
+Required Time of Arrival (RTA)
+02 OCT 12
+DSC-22_20-60-120
+Equitime Point
+02 OCT 12
+DSC-22_20-70
+AOC Functions
+06 MAR 14
+DSC-22_20-80
+Print Functions
+02 OCT 12
+DSC-22_30-10
+General
+11 APR 12
+DSC-22_30-20
+Flight Director
+06 MAR 14
+DSC-22_30-30
+Autopilot (AP)
+06 MAR 14
+Continued on the following page
+
+=== PDF PAGE 13 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320/A321 FLEET
+PLP-LESS P 3/18
+FCOM
+25 MAY 14
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+DSC-22_30-40
+Speed/Mach Control
+06 MAR 14
+DSC-22_30-50
+AP/FD Modes General
+11 APR 12
+DSC-22_30-60
+AP/FD Lateral Modes
+02 OCT 12
+DSC-22_30-70-10
+Principles
+11 APR 12
+DSC-22_30-70-20
+Climb Mode
+12 MAR 13
+DSC-22_30-70-30
+Open Climb Mode
+12 MAR 13
+DSC-22_30-70-50
+Descent Mode
+12 MAR 13
+DSC-22_30-70-60
+Open Descent Mode
+12 MAR 13
+DSC-22_30-70-65
+Altitude Acquire Mode
+12 MAR 13
+DSC-22_30-70-70
+Altitude Hold Mode
+15 FEB 13
+DSC-22_30-70-80
+Vertical Speed Mode - Flight Path Angle Mode (V/S - FPA)
+15 FEB 13
+DSC-22_30-70-90
+Expedite
+12 MAR 13
+DSC-22_30-75
+Mode Reversions
+12 MAR 13
+DSC-22_30-80-10
+General
+11 APR 12
+DSC-22_30-80-20
+Takeoff
+12 MAR 13
+DSC-22_30-80-30-05
+General
+06 MAR 14
+DSC-22_30-80-30-10
+Precision Approach
+06 MAR 14
+DSC-22_30-80-30-20
+Non Precision Approach
+06 MAR 14
+DSC-22_30-80-40
+Go Around (GA)
+06 MAR 14
+DSC-22_30-90
+Autothrust
+15 FEB 13
+DSC-22_30-100
+Flight Mode Annunciator (FMA)
+06 MAR 14
+DSC-22_40-10
+General
+11 APR 12
+DSC-22_40-20
+Yaw Functions
+02 OCT 12
+DSC-22_40-30
+Flight Envelope Function
+06 MAR 14
+DSC-22_40-40
+Windshear Detection Function
+11 APR 12
+DSC-22_40-50
+Controls and Indicators
+11 APR 12
+DSC-22_45
+Auto Flight - AOC Functions
+02 OCT 12
+DSC-22_46
+Auto Flight - Print Interface
+11 APR 12
+DSC-23-10-10
+General
+11 APR 12
+DSC-23-10-20
+VHF/HF/SELCAL
+27 NOV 13
+DSC-23-10-30
+Radio Tuning
+11 SEP 13
+DSC-23-10-50
+Electrical Supply
+06 MAR 14
+DSC-23-20-10
+General
+27 NOV 13
+DSC-23-20-20
+Controls
+12 MAR 13
+DSC-23-20-30
+Interphone Systems
+11 DEC 13
+DSC-23-20-40
+Call Systems
+11 SEP 13
+DSC-23-20-50
+Passenger Address
+12 MAR 13
+DSC-23-20-60
+EMER EVAC
+12 MAR 13
+DSC-23-20-65
+Landscape Camera
+06 MAR 14
+Continued on the following page
+
+=== PDF PAGE 14 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320/A321 FLEET
+PLP-LESS P 4/18
+FCOM
+25 MAY 14
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+DSC-23-20-70
+Electrical Supply
+11 APR 12
+DSC-23-30-10
+DESCRIPTION
+06 MAR 14
+DSC-23-30-20
+CONTROLS AND INDICATORS ON OVERHEAD PANEL
+06 MAR 14
+DSC-23-30-30
+ELECTRICAL SUPPLY
+11 APR 12
+DSC-23-35-10
+Controls and Indicators
+12 MAR 13
+DSC-23-40-40
+ACARS Functions
+12 MAR 13
+DSC-23-40-50
+Electrical Supply
+11 APR 12
+DSC-23-46-30
+ELECTRICAL SUPPLY
+11 APR 12
+DSC-23-48-10
+Description
+12 MAR 13
+DSC-23-48-20
+Control
+12 MAR 13
+DSC-23-48-30
+Operational Procedure
+12 MAR 13
+DSC-23-48-40
+Abnormal Procedure
+12 MAR 13
+DSC-23-48-50
+Warnings and Cautions
+12 MAR 13
+DSC-23-50
+Warnings and Cautions
+11 APR 12
+R
+DSC-23-99
+Controller Pilot Data Link Communication (CPDLC)
+25 MAY 14
+DSC-24-10-10
+General
+30 MAY 12
+DSC-24-10-20
+Generation Of Electrical Power
+12 MAR 13
+DSC-24-10-30-10
+General
+11 APR 12
+DSC-24-10-30-20
+NORMAL CONFIGURATION
+12 MAR 13
+DSC-24-10-30-30
+Abnormal Configurations
+12 MAR 13
+DSC-24-10-30-40
+Distribution Table
+11 APR 12
+DSC-24-20
+Controls and Indicators
+12 MAR 13
+DSC-24-30
+Warnings and Cautions
+30 MAY 13
+DSC-25-10-10
+General
+11 APR 12
+DSC-25-10-20
+Cockpit Plan
+12 MAR 13
+DSC-25-10-30
+Seats
+11 APR 12
+DSC-25-10-40
+Cockpit Window
+11 APR 12
+DSC-25-10-50
+Pilot's Instrument Panels
+12 MAR 13
+DSC-25-10-60
+Pedestal
+14 NOV 12
+DSC-25-10-70
+Overhead Panel
+12 MAR 13
+DSC-25-10-80
+C/B Panels
+11 APR 12
+DSC-25-10-100
+Electrical Supply
+11 APR 12
+DSC-25-11-10
+Description
+12 MAR 13
+DSC-25-11-20
+Cockpit Door Locking System (CDLS)
+14 NOV 12
+DSC-25-11-30
+Cockpit Door Surveillance System (CDSS)
+14 NOV 12
+DSC-25-11-40
+Electrical Supply
+11 APR 12
+DSC-25-15-10
+General
+11 APR 12
+DSC-25-15-20
+Controls
+11 APR 12
+DSC-25-15-30
+Electrical Supply
+11 APR 12
+Continued on the following page
+
+=== PDF PAGE 15 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320/A321 FLEET
+PLP-LESS P 5/18
+FCOM
+25 MAY 14
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+DSC-25-40-10-10
+Description
+11 APR 12
+DSC-26-10
+GENERAL
+11 APR 12
+DSC-26-20-10
+Description
+12 MAR 13
+DSC-26-20-20
+Controls and Indicators
+17 AUG 12
+DSC-26-20-30
+Warnings and Cautions
+11 APR 12
+DSC-26-30-10
+Description
+30 MAY 12
+DSC-26-30-20
+Controls and Indicators
+11 APR 12
+DSC-26-30-30
+Warnings and Cautions
+11 APR 12
+DSC-26-40-10
+Description
+12 MAR 13
+DSC-26-40-20
+Warnings and Cautions
+12 MAR 13
+DSC-26-50-10
+Smoke Detection
+12 MAR 13
+DSC-26-50-20
+Fire Extinguishing
+12 MAR 13
+DSC-26-50-30
+Controls and Indicators
+12 MAR 13
+DSC-26-50-40
+Warnings and Cautions
+12 MAR 13
+DSC-26-60
+Electrical Supply
+12 MAR 13
+DSC-27-10-10
+GENERAL
+11 APR 12
+DSC-27-10-20
+Architecture
+06 MAR 14
+DSC-27-20-10-10
+General
+30 MAY 12
+DSC-27-20-10-20
+Pitch Control
+06 MAR 14
+DSC-27-20-10-30
+Lateral Control
+17 JUL 12
+DSC-27-20-10-50
+Sideslip Target
+17 JUL 12
+DSC-27-20-20
+Reconfiguration Control Laws
+06 MAR 14
+DSC-27-20-30
+Controls and Indicators
+12 MAR 13
+DSC-27-20-40
+Warnings and Cautions
+06 MAR 14
+DSC-27-20-50
+Electrical Supply
+11 APR 12
+DSC-27-30-10
+Description
+12 MAR 13
+DSC-27-30-20
+Controls and Indicators
+12 MAR 13
+DSC-27-30-30
+Warnings and Cautions
+12 MAR 13
+DSC-27-30-40
+Electrical Supply
+11 APR 12
+DSC-28-10-10
+General
+27 NOV 13
+DSC-28-10-20
+Tanks
+06 MAR 14
+DSC-28-10-30
+Engine Feed
+12 MAR 13
+DSC-28-10-50
+APU Feed
+11 APR 12
+DSC-28-10-60
+Fuel Recirculation System
+12 MAR 13
+DSC-28-10-70
+Refueling and Defueling
+12 MAR 13
+DSC-28-10-80
+Fuel Quantity Indication and Level Sensing
+12 MAR 13
+DSC-28-20
+Controls and Indicators
+06 MAR 14
+DSC-28-30
+Warnings and Cautions
+12 MAR 13
+DSC-28-40
+ELECTRICAL SUPPLY
+12 MAR 13
+Continued on the following page
+
+=== PDF PAGE 16 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320/A321 FLEET
+PLP-LESS P 6/18
+FCOM
+25 MAY 14
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+DSC-29-10-10
+General
+11 APR 12
+DSC-29-10-20
+Generation
+15 FEB 13
+DSC-29-10-30
+Distribution
+12 MAR 13
+DSC-29-20
+CONTROLS AND INDICATORS
+30 MAY 13
+DSC-29-30
+Warnings and Cautions
+12 MAR 13
+DSC-29-40
+ELECTRICAL SUPPLY
+11 APR 12
+DSC-30-10-10
+Description
+11 APR 12
+DSC-30-20-10
+Description
+12 MAR 13
+DSC-30-20-20
+Controls And Indicators
+11 APR 12
+DSC-30-20-30
+Warnings And Cautions
+27 NOV 13
+DSC-30-20-40
+Electrical Supply
+11 APR 12
+DSC-30-30-10
+Description
+12 MAR 13
+DSC-30-30-20
+Controls and Indicators
+12 MAR 13
+DSC-30-30-30
+Warnings and Cautions
+27 NOV 13
+DSC-30-30-40
+Electrical Supply
+11 APR 12
+DSC-30-40-10
+Description
+30 MAY 12
+DSC-30-40-20
+CONTROLS AND INDICATORS
+11 APR 12
+DSC-30-40-30
+WARNINGS AND CAUTIONS
+11 APR 12
+DSC-30-40-40
+ELECTRICAL SUPPLY
+11 APR 12
+DSC-30-50-10
+Description
+30 MAY 12
+DSC-30-50-20
+Controls and Indicators
+11 APR 12
+DSC-30-50-30
+Warnings and Cautions
+11 APR 12
+DSC-30-50-40
+Electrical Supply
+30 MAY 13
+DSC-30-60-10
+DESCRIPTION
+11 APR 12
+DSC-30-60-20
+CONTROLS AND INDICATORS
+11 APR 12
+DSC-30-60-30
+ELECTRICAL SUPPLY
+11 APR 12
+DSC-30-70-10
+DESCRIPTION
+27 NOV 13
+DSC-30-70-20
+WARNINGS AND CAUTIONS
+27 NOV 13
+DSC-30-70-30
+ELECTRICAL SUPPLY
+11 APR 12
+DSC-31-05-10
+Introduction
+11 APR 12
+DSC-31-05-20
+Cockpit Arrangement
+14 NOV 12
+DSC-31-05-30
+Architecture
+06 MAR 14
+DSC-31-05-40
+Controls and Switching
+11 APR 12
+DSC-31-05-50
+Reconfiguring the DMC
+27 NOV 13
+DSC-31-05-60
+Reconfiguring DUs
+12 MAR 13
+DSC-31-10
+Ecam Description
+06 MAR 14
+DSC-31-15
+Indications on E/WD
+12 MAR 13
+DSC-31-20
+Indications on SD
+06 MAR 14
+DSC-31-25-10
+General
+11 APR 12
+Continued on the following page
+
+=== PDF PAGE 17 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320/A321 FLEET
+PLP-LESS P 7/18
+FCOM
+25 MAY 14
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+DSC-31-25-20
+Example
+12 MAR 13
+DSC-31-27
+OEB Reminder
+12 MAR 13
+DSC-31-30
+ECAM Controls
+12 MAR 13
+DSC-31-40
+Indications on PFD
+06 MAR 14
+DSC-31-45
+Indications on ND
+06 MAR 14
+DSC-31-50
+EFIS Controls
+06 MAR 14
+DSC-31-55-10
+GENERAL
+11 APR 12
+DSC-31-55-20
+CONTROLS AND INDICATORS
+11 APR 12
+DSC-31-60-10
+Flight Data Recording System
+12 MAR 13
+DSC-31-60-20
+Controls and Indicators
+14 NOV 12
+DSC-31-60-30
+Aircraft Integrated Data System
+12 MAR 13
+DSC-31-70
+Warnings and Cautions
+12 MAR 13
+DSC-31-75
+Electrical Supply
+11 APR 12
+DSC-32-10-10
+Description
+14 NOV 12
+DSC-32-10-20
+Landing Gear System/Interface
+30 MAY 12
+DSC-32-10-30
+Interactions between Landing Gear and Aircraft Systems
+12 MAR 13
+DSC-32-10-40
+Controls and Indicators
+12 MAR 13
+DSC-32-10-50
+Warnings and Cautions
+11 APR 12
+DSC-32-10-60
+Electrical Supply
+11 APR 12
+DSC-32-20-10
+Description
+12 MAR 13
+DSC-32-20-20
+Controls and Indicators
+12 MAR 13
+DSC-32-20-30
+Warnings and Cautions
+11 APR 12
+DSC-32-20-40
+Electrical Supply
+11 APR 12
+DSC-32-30-10
+Description
+12 MAR 13
+DSC-32-30-20
+Controls and Indicators
+12 MAR 13
+DSC-32-30-30
+Warnings and Cautions
+12 MAR 13
+DSC-32-30-40
+Electrical Supply
+12 MAR 13
+DSC-32-40-40
+Electrical Supply
+11 APR 12
+DSC-33-10-10
+General
+30 MAY 13
+DSC-33-10-20
+Description
+06 MAR 14
+DSC-33-10-30
+Controls and Indicators
+06 MAR 14
+DSC-33-10-40
+Electrical Supply
+12 MAR 13
+DSC-33-20-10
+General
+11 APR 12
+DSC-33-20-20
+Controls and Indicators
+11 APR 12
+DSC-33-20-30
+Electrical Supply
+11 APR 12
+DSC-33-30-10
+Description
+12 MAR 13
+DSC-33-30-20
+Controls and Indicators
+12 MAR 13
+DSC-33-30-30
+Electrical Supply
+11 APR 12
+DSC-33-40-10
+Controls and Indicators
+11 SEP 13
+Continued on the following page
+
+=== PDF PAGE 18 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320/A321 FLEET
+PLP-LESS P 8/18
+FCOM
+25 MAY 14
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+DSC-34-10-10
+Description
+30 MAY 13
+DSC-34-10-20
+Controls and Indicators
+12 MAR 13
+DSC-34-10-30
+Warnings and Cautions
+06 MAR 14
+DSC-34-10-40
+Electrical Supply
+11 APR 12
+DSC-34-15-10
+Description
+02 OCT 12
+DSC-34-15-20
+Normal Operation
+11 APR 12
+DSC-34-15-30
+Operation in Case of Failure
+11 APR 12
+DSC-34-15-40
+Warnings and Cautions
+06 MAR 14
+DSC-34-15-50
+Electrical Supply
+11 APR 12
+DSC-34-20
+Standby Instruments
+11 SEP 13
+DSC-34-25
+ISIS
+12 MAR 13
+DSC-34-30-10
+Tuning
+30 MAY 12
+DSC-34-30-20
+Navaids
+30 MAY 13
+DSC-34-30-30
+Controls and Indicators
+27 NOV 13
+DSC-34-30-40
+Electrical Supply
+11 APR 12
+DSC-34-40-10
+Description
+06 MAR 14
+DSC-34-40-20
+Warnings and Cautions
+12 MAR 13
+DSC-34-40-30
+Electrical Supply
+11 APR 12
+DSC-34-50-10
+Description
+12 MAR 13
+DSC-34-50-20
+Controls and Indicators
+30 MAY 12
+DSC-34-50-50
+Electrical Supply
+11 APR 12
+DSC-34-60-10
+Description
+06 MAR 14
+DSC-34-60-20
+Predictive Windshear System
+06 MAR 14
+DSC-34-60-30
+Controls and Indicators
+06 MAR 14
+DSC-34-60-40
+Warnings and Cautions
+11 APR 12
+DSC-34-60-50
+ELECTRICAL SUPPLY
+11 APR 12
+DSC-34-70-10
+Description
+06 MAR 14
+DSC-34-70-20
+GPWS Basics Modes
+06 MAR 14
+DSC-34-70-30
+EGPWS Functions
+12 MAR 13
+DSC-34-70-40
+Controls and Indicators
+15 FEB 13
+DSC-34-70-50
+Warnings and Cautions
+12 MAR 13
+DSC-34-70-60
+Electrical Supply
+11 APR 12
+DSC-34-80-10
+Description
+12 MAR 13
+DSC-34-80-20
+Controls and Indicators
+12 MAR 13
+DSC-34-80-30
+Warnings and Cautions
+12 MAR 13
+DSC-34-80-40
+Electrical Supply
+11 APR 12
+DSC-35-10
+General
+11 APR 12
+DSC-35-20-10
+Description
+12 MAR 13
+DSC-35-20-20
+Controls and Indicators
+27 NOV 13
+Continued on the following page
+
+=== PDF PAGE 19 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320/A321 FLEET
+PLP-LESS P 9/18
+FCOM
+25 MAY 14
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+DSC-35-20-30
+Electrical Supply
+11 APR 12
+DSC-35-30-10
+Description
+30 MAY 12
+DSC-35-30-20
+Controls and Indicators
+11 APR 12
+DSC-35-30-40
+Electrical Supply
+11 APR 12
+DSC-35-40-10
+Description
+12 MAR 13
+DSC-36-10-10
+General
+11 APR 12
+DSC-36-10-20
+Engine Bleed System
+12 MAR 13
+DSC-36-10-30
+Apu Bleed Air Supply
+12 MAR 13
+DSC-36-10-40
+Crossbleed
+12 MAR 13
+DSC-36-10-50
+Leak Detection
+11 APR 12
+DSC-36-10-60
+Operation Following Failures
+11 APR 12
+DSC-36-20
+Controls and Indicators
+12 MAR 13
+DSC-36-30
+Warnings and Cautions
+11 APR 12
+DSC-36-40
+Electrical Supply
+11 APR 12
+DSC-38-10
+Description
+12 MAR 13
+DSC-38-20
+ELECTRICAL SUPPLY
+11 APR 12
+DSC-45-10
+Description
+12 MAR 13
+DSC-45-20
+System Operation
+15 FEB 13
+DSC-45-25
+Data Loading
+15 FEB 13
+DSC-45-30
+PRINTER
+02 OCT 12
+DSC-45-40
+ELECTRICAL SUPPLY
+11 APR 12
+DSC-46-10
+General
+12 MAR 13
+DSC-46-20
+ATSU Communications Function
+12 MAR 13
+DSC-46-30
+AOC Applications
+15 FEB 13
+DSC-46-40
+CNS/ATM
+06 MAR 14
+DSC-46-55-10
+Glareshield
+12 MAR 13
+DSC-46-55-20
+DCDU
+12 MAR 13
+DSC-46-55-30
+MCDU
+12 MAR 13
+DSC-46-60
+Warnings and Cautions
+12 MAR 13
+DSC-46-70
+Electrical Supply
+12 MAR 13
+DSC-49-10-10
+General
+12 MAR 13
+DSC-49-10-20
+Main Components
+12 MAR 13
+DSC-49-20
+Controls and Indicators
+12 MAR 13
+DSC-49-30
+Warnings and Cautions
+12 MAR 13
+DSC-49-40
+Electrical Supply
+11 APR 12
+DSC-52-10-10
+General
+12 MAR 13
+DSC-52-10-20
+Passenger Doors
+30 MAY 12
+DSC-52-10-30
+Emergency Exits
+12 MAR 13
+DSC-52-10-40
+Cargo Doors
+11 APR 12
+Continued on the following page
+
+=== PDF PAGE 20 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320/A321 FLEET
+PLP-LESS P 10/18
+FCOM
+25 MAY 14
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+DSC-52-10-50
+Avionics Compartment Access Door
+11 APR 12
+DSC-52-10-60
+Cockpit Door
+11 APR 12
+DSC-52-10-80
+Escape Slides/Rafts
+12 MAR 13
+DSC-52-20
+Controls and Indicators
+12 MAR 13
+DSC-52-30
+Warnings and Cautions
+11 APR 12
+DSC-52-50
+ELECTRICAL SUPPLY
+11 APR 12
+DSC-70-10
+Engine
+12 MAR 13
+DSC-70-20
+Fadec
+12 MAR 13
+DSC-70-30-10
+General
+30 MAY 12
+DSC-70-30-20
+Thrust Levers
+30 MAY 12
+DSC-70-30-30
+Thrust Rating Limit
+30 MAY 12
+DSC-70-30-40
+Thrust Control
+14 NOV 12
+DSC-70-35-10
+General
+12 MAR 13
+DSC-70-35-20
+Engine Power Setting
+30 MAY 13
+DSC-70-35-30
+Thrust Levers
+12 MAR 13
+DSC-70-35-40
+Thrust Rating Limit
+12 MAR 13
+DSC-70-35-50
+Thrust Control
+12 MAR 13
+DSC-70-40-10
+General
+14 NOV 12
+DSC-70-40-20
+Fuel Pump Unit
+30 MAY 12
+DSC-70-40-30
+Shut-Off Valves
+30 MAY 12
+DSC-70-40-40
+Hydromechanical Unit
+30 MAY 12
+DSC-70-40-50
+IDG Cooling System
+17 AUG 12
+DSC-70-45-10
+GENERAL
+12 MAR 13
+DSC-70-45-20
+FUEL PUMP UNIT
+12 MAR 13
+DSC-70-45-30
+FUEL OIL HEAT EXCHANGER
+12 MAR 13
+DSC-70-45-40
+FUEL METERING UNIT
+12 MAR 13
+DSC-70-45-50
+FUEL FILTER
+12 MAR 13
+DSC-70-45-60
+IDG COOLING RECIRCULATION SYSTEM
+12 MAR 13
+DSC-70-50
+OIL SYSTEM
+12 MAR 13
+DSC-70-60
+Airbleed System (CFM)
+30 MAY 12
+DSC-70-65
+Airbleed System (IAE)
+06 MAR 14
+DSC-70-70
+THRUST REVERSER SYSTEM
+12 MAR 13
+DSC-70-80-10
+General
+12 MAR 13
+DSC-70-80-20
+Architecture
+11 APR 12
+DSC-70-80-30
+Ignition System
+12 MAR 13
+DSC-70-80-40
+Engine Starting System
+06 MAR 14
+DSC-70-90
+Controls and Indicators (CFM)
+11 SEP 13
+DSC-70-95
+Controls and Indicators (IAE)
+11 SEP 13
+DSC-70-98
+ELECTRICAL SUPPLY
+11 APR 12
+Continued on the following page
+
+=== PDF PAGE 21 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320/A321 FLEET
+PLP-LESS P 11/18
+FCOM
+25 MAY 14
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+PRO-PLP-LETDU
+LIST OF EFFECTIVE TEMPORARY DOCUMENTARY UNITS
+25 MAY 14
+PRO-ABN-01
+Introduction
+06 MAR 14
+PRO-ABN-10
+Operating Techniques
+06 MAR 14
+PRO-ABN-21
+Air Conditioning / Pressurization / Ventilation
+06 MAR 14
+PRO-ABN-22
+Auto Flight
+06 MAR 14
+R
+PRO-ABN-23
+Communications
+25 MAY 14
+PRO-ABN-24
+Electrical
+06 MAR 14
+PRO-ABN-25
+Equipment
+11 APR 12
+PRO-ABN-26
+Fire Protection
+06 MAR 14
+PRO-ABN-27
+Flight Controls
+06 MAR 14
+PRO-ABN-28
+Fuel
+06 MAR 14
+PRO-ABN-29
+Hydraulic
+27 NOV 13
+PRO-ABN-30
+Ice and Rain Protection
+06 MAR 14
+PRO-ABN-31
+Indicating / Recording Systems
+06 MAR 14
+PRO-ABN-32
+Landing Gear
+06 MAR 14
+PRO-ABN-34
+Navigation
+06 MAR 14
+PRO-ABN-36
+Pneumatic
+06 MAR 14
+PRO-ABN-46
+Information Systems
+12 MAR 13
+PRO-ABN-49
+APU
+11 APR 12
+PRO-ABN-52
+Doors
+12 MAR 13
+PRO-ABN-70
+Power Plant
+06 MAR 14
+PRO-ABN-80
+Miscellaneous
+11 DEC 13
+PRO-ABN-90
+Detailed Cabin / Cockpit Evacuation Procedure
+12 MAR 13
+PRO-NOR-SOP-01
+General Information
+11 APR 12
+PRO-NOR-SOP-02
+Flight Preparation
+30 MAY 13
+PRO-NOR-SOP-03
+Safety Exterior Inspection
+06 MAR 14
+PRO-NOR-SOP-04
+Preliminary Cockpit Preparation
+06 MAR 14
+PRO-NOR-SOP-05
+Exterior Walkaround
+06 MAR 14
+PRO-NOR-SOP-06
+Cockpit Preparation
+06 MAR 14
+PRO-NOR-SOP-07
+Before Pushback or Start
+06 MAR 14
+PRO-NOR-SOP-08
+Engine Start
+06 MAR 14
+PRO-NOR-SOP-09
+After Start
+06 MAR 14
+PRO-NOR-SOP-10
+Taxi
+06 MAR 14
+PRO-NOR-SOP-11
+Before Takeoff
+06 MAR 14
+PRO-NOR-SOP-12
+Takeoff
+06 MAR 14
+PRO-NOR-SOP-13
+After Takeoff
+06 MAR 14
+PRO-NOR-SOP-14
+Climb
+06 MAR 14
+PRO-NOR-SOP-15
+Cruise
+06 MAR 14
+PRO-NOR-SOP-16
+Descent Preparation
+06 MAR 14
+Continued on the following page
+
+=== PDF PAGE 22 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320/A321 FLEET
+PLP-LESS P 12/18
+FCOM
+25 MAY 14
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+PRO-NOR-SOP-17
+Descent
+06 MAR 14
+PRO-NOR-SOP-18-A
+Approach General
+11 DEC 13
+PRO-NOR-SOP-18-B
+Aircraft Configuration Management
+06 MAR 14
+PRO-NOR-SOP-18-C
+Aircraft Guidance Management
+06 MAR 14
+PRO-NOR-SOP-19
+Landing
+06 MAR 14
+PRO-NOR-SOP-20
+Go-Around
+06 MAR 14
+PRO-NOR-SOP-21
+After Landing
+06 MAR 14
+PRO-NOR-SOP-22
+Parking
+06 MAR 14
+PRO-NOR-SOP-23
+Securing the Aircraft
+06 MAR 14
+PRO-NOR-SOP-90
+Standard Callouts
+11 DEC 13
+PRO-NOR-SRP-01-05
+Introduction
+14 NOV 12
+PRO-NOR-SRP-01-10
+Cockpit Preparation
+06 MAR 14
+PRO-NOR-SRP-01-15
+Before Pushback or Start
+30 MAY 12
+PRO-NOR-SRP-01-20
+Taxi
+14 NOV 12
+PRO-NOR-SRP-01-30
+Takeoff
+12 MAR 13
+PRO-NOR-SRP-01-40
+Climb
+06 MAR 14
+PRO-NOR-SRP-01-50
+Cruise
+06 MAR 14
+PRO-NOR-SRP-01-60
+Descent
+12 MAR 13
+PRO-NOR-SRP-01-70
+Approach
+06 MAR 14
+PRO-NOR-SRP-01-80
+Go-Around
+06 MAR 14
+N
+PRO-NOR-SRP-99
+Controller Pilot Data Link Communication (CPDLC)
+25 MAY 14
+PRO-SPO-20
+Flight Without Cabin Pressurization
+27 NOV 13
+PRO-SPO-25-10
+General
+11 APR 12
+PRO-SPO-25-20
+Limitations
+11 APR 12
+PRO-SPO-25-30
+Procedures
+12 MAR 13
+PRO-SPO-25-40
+Performance
+27 NOV 13
+PRO-SPO-30
+High Altitude Operations
+12 MAR 13
+PRO-SPO-35
+Flight Over Mountainous Area
+14 NOV 12
+PRO-SPO-40-10
+General
+11 APR 12
+PRO-SPO-40-20
+Operational Limitations
+11 APR 12
+PRO-SPO-40-30
+Dispatch Consideration
+11 DEC 13
+PRO-SPO-40-40
+Diversion During Extended Range Operations
+11 APR 12
+PRO-SPO-40-50
+Procedures
+30 MAY 13
+PRO-SPO-40-60
+Performance
+27 NOV 13
+PRO-SPO-45
+Engine Intermix Operations
+14 NOV 12
+PRO-SPO-50
+Reduced Vertical Separation Minimum (RVSM)
+12 MAR 13
+PRO-SPO-51
+Required Navigation Performance (RNP)
+30 MAY 13
+PRO-SPO-60
+Operations on Narrow Runways
+12 MAR 13
+PRO-SPO-65
+Operations at QNH Above 1050 hPa
+27 NOV 13
+Continued on the following page
+
+=== PDF PAGE 23 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320/A321 FLEET
+PLP-LESS P 13/18
+FCOM
+25 MAY 14
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+PRO-SPO-85
+ILS PRM Approach
+11 APR 12
+PRO-SUP-10
+Operating Speeds Definition
+27 NOV 13
+PRO-SUP-21
+Air Conditioning / Pressurization / Ventilation
+11 APR 12
+PRO-SUP-22-10
+FMGS Reset and Other Abnormal Procedures
+06 MAR 14
+PRO-SUP-22-20-15
+FMS2 Honeywell Specificities
+06 MAR 14
+PRO-SUP-22-20-20
+FG Specificities
+11 DEC 13
+PRO-SUP-22-30
+Navigation Database
+06 MAR 14
+PRO-SUP-23
+Communications
+12 MAR 13
+PRO-SUP-24
+Electrical
+06 MAR 14
+PRO-SUP-25
+Equipment
+11 APR 12
+PRO-SUP-27-10
+General
+11 APR 12
+PRO-SUP-27-20
+Normal Operations
+11 APR 12
+PRO-SUP-27-30
+Abnormal Operations
+11 APR 12
+PRO-SUP-27-40
+The Protection Systems
+12 MAR 13
+PRO-SUP-27-50
+Aircraft Trimming
+11 APR 12
+PRO-SUP-28
+Fuel
+12 MAR 13
+PRO-SUP-30
+Ice and Rain Protection
+06 MAR 14
+PRO-SUP-31
+Indicating / Recording Systems
+11 APR 12
+PRO-SUP-32
+Landing Gear
+27 NOV 13
+PRO-SUP-34
+Navigation
+06 MAR 14
+PRO-SUP-46
+Information Systems
+12 MAR 13
+PRO-SUP-70
+Power Plant
+06 MAR 14
+PRO-SUP-80
+Miscellaneous
+06 MAR 14
+PRO-SUP-91-10
+Severe Turbulence
+12 MAR 13
+PRO-SUP-91-20
+Operations in Windshear or Downburst
+17 JUL 12
+PRO-SUP-91-30
+Cold Weather
+11 SEP 13
+PRO-SUP-91-40
+Operations On Airports Covered With Ash, Sand or Dust
+17 JUL 12
+PRO-SUP-91-50
+Fluid Contaminated Runway
+06 MAR 14
+PRO-SUP-92-10
+Windows
+11 SEP 13
+PRO-SUP-92-20
+iPad
+11 SEP 13
+PRO-SUP-93-10
+Flight Phases
+06 MAR 14
+PRO-SUP-93-20
+One Engine Taxi
+11 DEC 13
+LIM-PLP-LETDU
+LIST OF EFFECTIVE TEMPORARY DOCUMENTARY UNITS
+25 MAY 14
+LIM-10
+General Limitations
+12 MAR 13
+LIM-11
+Weight and Center of Gravity Limits
+27 NOV 13
+LIM-12
+Environmental Envelope and Airport Operations
+06 MAR 14
+LIM-13
+Speed Limitations
+27 NOV 13
+LIM-21-21_10
+Air Conditioning
+11 APR 12
+LIM-21-21_20
+Pressurization
+11 SEP 13
+Continued on the following page
+
+=== PDF PAGE 24 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320/A321 FLEET
+PLP-LESS P 14/18
+FCOM
+25 MAY 14
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+LIM-21-21_30
+Ventilation
+11 APR 12
+LIM-22-10
+General
+06 MAR 14
+LIM-22-20
+Automatic Approach, Landing and Roll Out
+30 MAY 13
+R
+LIM-23
+Communications
+25 MAY 14
+LIM-24
+Electrical
+27 NOV 13
+LIM-27
+Flight Controls
+30 MAY 13
+LIM-28
+Fuel
+27 NOV 13
+LIM-29
+Hydraulic
+11 APR 12
+LIM-32
+Landing Gear
+11 APR 12
+LIM-34
+Navigation
+30 MAY 13
+LIM-35
+Oxygen
+12 MAR 13
+LIM-49-10
+General
+12 MAR 13
+LIM-49-20
+Envelope
+27 NOV 13
+LIM-70
+Power Plant
+27 NOV 13
+OEB-PLP-LETDU
+LIST OF EFFECTIVE TEMPORARY DOCUMENTARY UNITS
+25 MAY 14
+PER-PLP-LETDU
+LIST OF EFFECTIVE TEMPORARY DOCUMENTARY UNITS
+25 MAY 14
+PER-LOD-GEN
+GENERAL
+11 APR 12
+PER-LOD-CGO
+CARGO LOADING
+12 MAR 13
+PER-LOD-FUL
+FUEL
+06 MAR 14
+PER-LOD-WBA-LTS
+LOAD AND TRIM SHEET
+12 MAR 13
+PER-LOD-WBA-FIT-10
+FUEL INDEX TABLE
+12 MAR 13
+PER-OPD-GEN
+GENERAL
+11 APR 12
+PER-OPD-CON-AEO
+ALL ENGINES OPERATIVE
+12 MAR 13
+PER-OPD-CON-OEI
+ONE ENGINE INOPERATIVE
+12 MAR 13
+PER-THR-GEN
+GENERAL
+11 APR 12
+PER-THR-MTO
+MAXIMUM TAKEOFF
+27 NOV 13
+PER-THR-MGA
+MAXIMUM GO AROUND
+27 NOV 13
+PER-THR-FLX
+FLEXIBLE TAKEOFF
+12 MAR 13
+PER-THR-MCT
+MAXIMUM CONTINUOUS
+12 MAR 13
+PER-THR-MCL
+MAXIMUM CLIMB
+27 NOV 13
+PER-THR-MCR
+MAXIMUM CRUISE
+27 NOV 13
+PER-THR-N1
+N1 MODE THRUST CONTROL
+27 NOV 13
+PER-TOF-THR-FLX-10
+DEFINITION OF FLEXIBLE TAKEOFF
+11 APR 12
+PER-TOF-THR-FLX-20
+USE OF FLEXIBLE TAKEOFF
+11 APR 12
+PER-TOF-THR-FLX-30
+REQUIREMENTS
+27 NOV 13
+PER-TOF-THR-FLX-40
+RECOMMENDATION
+11 APR 12
+PER-TOF-TOC-05
+INTRODUCTION
+11 APR 12
+PER-TOF-TOC-10-10
+TAKEOFF PERFORMANCE
+11 APR 12
+PER-TOF-TOC-10-20
+TAKEOFF CHART DESCRIPTION
+12 MAR 13
+Continued on the following page
+
+=== PDF PAGE 25 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320/A321 FLEET
+PLP-LESS P 15/18
+FCOM
+25 MAY 14
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+PER-TOF-TOC-10-30
+ADDITIONAL INFORMATION
+12 MAR 13
+PER-TOF-TOC-12-10
+DETERMINATION OF MAXIMUM TAKEOFF WEIGHT AND
+SPEEDS
+27 NOV 13
+PER-TOF-TOC-12-30
+EXTRAPOLATION
+11 APR 12
+PER-TOF-TOC-12-40
+MAXIMUM STRUCTURAL TAKEOFF WEIGHT
+11 APR 12
+PER-TOF-TOC-12-50
+SUMMARY
+11 APR 12
+PER-TOF-TOC-14-10
+DETERMINATION OF FLEXIBLE TAKEOFF TEMPERATURE
+AND SPEEDS
+06 MAR 14
+PER-TOF-TOC-14-20
+FLEXIBLE TAKEOFF NOT POSSIBLE
+27 NOV 13
+PER-TOF-TOC-14-25
+FLEXIBLE TAKEOFF POSSIBLE BUT NOT USED
+27 NOV 13
+PER-TOF-TOC-14-30
+SUMMARY
+11 APR 12
+PER-TOF-TOC-16-10
+TAKEOFF PERFORMANCE
+11 APR 12
+PER-TOF-TOC-16-20
+TAKEOFF CHART DESCRIPTION
+27 NOV 13
+PER-TOF-TOC-16-30
+ADDITIONAL INFORMATION
+12 MAR 13
+PER-TOF-TOC-18-10
+DETERMINATION OF MAXIMUM TAKEOFF WEIGHT AND
+SPEEDS
+27 NOV 13
+PER-TOF-TOC-18-20
+EXTRAPOLATION
+11 APR 12
+PER-TOF-TOC-18-30
+MAXIMUM STRUCTURAL TAKEOFF WEIGHT
+11 APR 12
+PER-TOF-TOC-18-40
+SUMMARY
+11 APR 12
+PER-TOF-TOC-20-10
+DETERMINATION OF FLEXIBLE TAKEOFF TEMPERATURE
+AND SPEEDS
+12 MAR 13
+PER-TOF-TOC-20-20
+FLEXIBLE TAKEOFF NOT POSSIBLE
+11 APR 12
+PER-TOF-TOC-20-30
+SUMMARY
+11 APR 12
+PER-TOF-TOD-24
+QNH/BLEEDS CORRECTION
+27 NOV 13
+PER-TOF-TOD-25-10
+SPEEDS LIMITED BY VMC
+27 NOV 13
+PER-TOF-TOD-25-20
+V2 LIMITED BY VMU/VMCA
+27 NOV 13
+PER-TOF-TOD-40-10
+INTRODUCTION
+11 APR 12
+PER-TOF-TOD-40-20
+USE OF TABLES
+12 MAR 13
+PER-TOF-TOD-40-30
+HOW TO PROCEED
+27 NOV 13
+PER-TOF-TOD-40-40
+QUICK REFERENCE TABLES
+27 NOV 13
+PER-TOF-TOD-50
+NET TAKEOFF FLIGHT PATH
+27 NOV 13
+PER-TOF-CTA-10
+GENERAL
+11 APR 12
+PER-TOF-CTA-20
+DEFINITIONS
+11 SEP 13
+PER-TOF-CTA-30
+OPERATIONAL CONDITIONS
+11 APR 12
+PER-TOF-CTA-40-10
+TAKEOFF PERFORMANCE
+12 MAR 13
+PER-TOF-CTA-40-20
+TAKEOFF FROM A WET RUNWAY
+12 MAR 13
+PER-TOF-CTA-40-30
+TAKEOFF FROM A CONTAMINATED RUNWAY
+11 DEC 13
+PER-TOF-CTA-40-40
+EXAMPLE
+27 NOV 13
+PER-FPL-GEN-INT
+INTRODUCTION
+11 APR 12
+PER-FPL-GEN-MFR
+MINIMUM RECOMMENDED FUEL REQUIREMENTS
+12 MAR 13
+Continued on the following page
+
+=== PDF PAGE 26 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320/A321 FLEET
+PLP-LESS P 16/18
+FCOM
+25 MAY 14
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+PER-FPL-GEN-FPL
+FLIGHT PLAN
+11 APR 12
+PER-FPL-FLP-CAT
+CALCULATION TABLES
+27 NOV 13
+PER-FPL-FLP-ALT-10
+OPTIMUM AND MAXIMUM ALTITUDES
+02 OCT 12
+PER-FPL-FLP-ALT-20
+OPTIMUM ALTITUDE ON SHORT STAGE
+02 OCT 12
+PER-FPL-FLP-ICR-10
+GENERAL
+12 MAR 13
+PER-FPL-FLP-ICR-20
+INTEGRATED CRUISE AT A GIVEN MACH NUMBER
+27 NOV 13
+PER-FPL-FLP-ICR-30
+INTEGRATED CRUISE AT LONG RANGE CRUISE SPEED
+27 NOV 13
+PER-FPL-FLP-ICR-40
+CLIMB CORRECTION
+27 NOV 13
+PER-FPL-FLP-ICR-50
+STEP CLIMB CORRECTION
+12 MAR 13
+PER-FPL-FLP-ICR-60
+DESCENT CORRECTION
+27 NOV 13
+PER-FPL-FLP-QFP-10
+INTRODUCTION
+12 MAR 13
+PER-FPL-FLP-QFP-20
+CORRECTION FOR DEVIATION FROM REFERENCE LANDING
+WEIGHT
+11 APR 12
+PER-FPL-FLP-QFP-30
+EXAMPLE
+27 NOV 13
+PER-FPL-FLP-QFP-40
+FLIGHT PLANNING AT A GIVEN MACH NUMBER
+27 NOV 13
+PER-FPL-FLP-QFP-50
+FLIGHT PLANNING AT LONG RANGE SPEED
+27 NOV 13
+PER-FPL-FLP-ALN-20
+ALL ENGINES OPERATIVE
+06 MAR 14
+PER-FPL-FLP-FTK
+FUEL TANKERING
+12 MAR 13
+PER-CLB-GEN
+GENERAL
+11 APR 12
+PER-CLB-CLT
+CLIMB TABLES
+27 NOV 13
+PER-CRZ-ECI-10
+OPTIMUM MACH NUMBER
+27 NOV 13
+PER-CRZ-ALT-10
+OPTIMUM AND MAXIMUM ALTITUDES
+27 NOV 13
+PER-CRZ-ALT-20
+WIND ALTITUDE TRADE FOR CONSTANT SPECIFIC RANGE
+27 NOV 13
+PER-CRZ-ALT-30
+OPTIMUM ALTITUDE ON SHORT STAGE
+12 MAR 13
+PER-CRZ-CRT-10
+GENERAL
+11 APR 12
+PER-CRZ-CRT-20
+CRUISE AT M.78
+27 NOV 13
+PER-CRZ-CRT-30
+CRUISE AT LONG RANGE
+27 NOV 13
+PER-CRZ-ICQ-10
+GENERAL
+12 MAR 13
+PER-CRZ-ICQ-20
+CORRECTION FOR DEVIATION FROM REFERENCE WEIGHT
+11 APR 12
+PER-CRZ-ICQ-30
+EXAMPLE
+27 NOV 13
+PER-CRZ-ICQ-40
+IN CRUISE QUICK CHECK M.78
+27 NOV 13
+PER-CRZ-ICQ-50
+IN CRUISE QUICK CHECK LONG RANGE
+27 NOV 13
+PER-HLD-GEN
+GENERAL
+12 MAR 13
+PER-HLD-HLD
+HOLDING TABLES
+27 NOV 13
+PER-DES-GEN
+GENERAL
+11 APR 12
+PER-DES-STD
+STANDARD
+27 NOV 13
+PER-DES-EMG
+EMERGENCY
+27 NOV 13
+PER-GOA-GEN
+GENERAL
+06 MAR 14
+PER-GOA-ACG-NOR
+NORMAL
+27 NOV 13
+Continued on the following page
+
+=== PDF PAGE 27 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320/A321 FLEET
+PLP-LESS P 17/18
+FCOM
+25 MAY 14
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+PER-GOA-ACG-CAT
+CAT II
+27 NOV 13
+PER-LDG-GEN
+GENERAL
+30 MAY 12
+PER-LDG-CTA-10
+GENERAL
+11 APR 12
+PER-LDG-CTA-20
+DEFINITIONS
+30 MAY 13
+PER-LDG-DIS-MAT
+Runway Condition Assessment Matrix for Landing
+06 MAR 14
+PER-LDG-DIS-RLD
+REQUIRED LANDING DISTANCES / MANUAL LANDING
+12 MAR 13
+PER-LDG-DIS-RLA
+REQUIRED LANDING DISTANCES
+12 MAR 13
+PER-OEI-GEN-05
+GENERAL
+11 APR 12
+PER-OEI-GEN-10
+STANDARD STRATEGY
+27 NOV 13
+PER-OEI-GEN-15
+OBSTACLE STRATEGY
+12 MAR 13
+PER-OEI-GEN-20
+FIXED SPEED STRATEGIES
+27 NOV 13
+PER-OEI-ALT-10
+CEILINGS
+27 NOV 13
+PER-OEI-CRT-10
+STANDARD AND OBSTACLE STRATEGIES
+27 NOV 13
+PER-OEI-CRT-20
+FIXED SPEED STRATEGIES
+27 NOV 13
+PER-OEI-ICQ-10
+STANDARD STRATEGIES
+27 NOV 13
+PER-OEI-ICQ-20
+FIXED SPEED STRATEGIES
+27 NOV 13
+PER-OEI-HLD
+HOLDING
+27 NOV 13
+PER-OEI-DES-10
+STANDARD STRATEGY
+27 NOV 13
+PER-OEI-DES-15
+OBSTACLE STRATEGY
+27 NOV 13
+PER-OEI-DES-20
+FIXED SPEED STRATEGIES
+27 NOV 13
+PER-OEI-DES-30
+DESCENT TO LANDING
+27 NOV 13
+(1) Evolution code : N=New, R=Revised, E=Effectivity, M=Moved
+
+=== PDF PAGE 28 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+Intentionally left blank
+NWS A320/A321 FLEET
+PLP-LESS P 18/18
+FCOM
+25 MAY 14
+
+=== PDF PAGE 29 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+AIRCRAFT ALLOCATION TABLE
+NWS A320/A321 FLEET
+PLP-AAT P 1/2
+FCOM
+25 MAY 14
+This table gives, for each delivered aircraft, the cross reference between:
+-
+The Manufacturing Serial Number (MSN).
+-
+The Fleet Serial Number (FSN) of the aircraft as known by AIRBUS S.A.S.
+-
+The registration number of the aircraft as known by AIRBUS S.A.S.
+-
+The aircraft model.
+M
+(1)
+MSN
+FSN
+Registration Number
+Model
+1219
+VQ-BOE
+321-211
+1233
+VQ-BOD
+321-211
+1276
+VQ-BRM
+321-231
+1843
+VQ-BRN
+321-231
+2649
+VP-BJH
+320-232
+2927
+VQ-BRO
+321-231
+2933
+VQ-BRU
+321-232
+3034
+VP-BGH
+321-232
+3120
+VP-BRD
+321-232
+(1) Evolution code : N=New, R=Revised
+
+=== PDF PAGE 30 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+AIRCRAFT ALLOCATION TABLE
+Intentionally left blank
+NWS A320/A321 FLEET
+PLP-AAT P 2/2
+FCOM
+25 MAY 14
+
+=== PDF PAGE 31 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF MODIFICATIONS
+NWS A320/A321 FLEET
+PLP-LOM P 1/34
+FCOM
+25 MAY 14
+M
+(1)
+MODIFICATION
+Linked SB
+Incorp. Date
+Title
+K10494
+17 JUL 12
+AIRBORNE AUXILIARY POWER - GENERAL - INSTALL
+APIC APS3200 APU AS STANDARD (REPLACES
+HONEYWELL GTCP36-300)
+Applicable to: MSN 2649-3120
+P5206
+30 MAY 12
+ENGINE FUEL AND CONTROL-CONTROLLING-
+ FADEC SYSTEM-IAE V2500-A5-INTRODUCE EEC
+SOFT. SCN12
+Applicable to: MSN 1276-3120
+P6251
+11 APR 12
+ICE AND RAIN PROTECTION-WINDSHIELD RAIN
+PROTECTION-INTRODUCE MODIFIED GAGE ASSY
+WITH INPUT VALUE FUNCTION SUPPRESSED
+Applicable to: ALL
+P7635
+27-1151 01
+17 JUL 12
+FLIGHT CONTROLS - ELAC SYSTEM - INTRODUCE
+ELAC SOFTWARE L82
+Applicable to: ALL
+22-1089 10
+11 APR 12
+AUTOFLIGHT - FMGC - INSTALL HONEYWELL FMS2
+WITH CFM ENGINES
+Applicable to: MSN 1219-1233
+34-1509 09
+27 NOV 13
+NAVIGATION - STANDBY NAVIGATION - INSTALL
+STANDBY METRIC ALTIMETER
+Applicable to: MSN 1219-1233
+K5213
+11 APR 12
+AIR CONDITIONING-PACK TEMPERATURE CTRL-
+ INTRODUCE MODIFIED PACK TEMPERATURE
+CONTROLLER
+Applicable to: ALL
+P3379
+11 APR 12
+INDICATING/RECORDING SYSTEMS - GENERAL-
+ DEFINE CPIP3
+Applicable to: ALL
+P6054
+11 APR 12
+NAVIGATION - MMR - ACTIVATE GPS PRIMARY
+FUNCTION (HYBRID) IN SEXTANT MMR (WITH
+HONEYWELL OR LITTON ADIRU)
+Applicable to: MSN 1219-1843
+J0071
+11 APR 12
+WINGS-WING TIP FENCES-INTRODUCE WING TIPS
+INCLUDING FENCES-
+Applicable to: ALL
+P4354
+30 MAY 12
+ENGINE FUEL AND CONTROL-CONTROLLING
+INTRODUCE EEC SOFTWARE SCN 10B ON IAE
+V2500-A5 ENGINES
+Applicable to: MSN 1276-3120
+P5474
+30 MAY 12
+AUTOFLIGHT-FAC-INTRODUCE FAC STD P/N
+BAM0514
+Applicable to: MSN 1276
+Continued on the following page
+
+=== PDF PAGE 32 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF MODIFICATIONS
+NWS A320/A321 FLEET
+PLP-LOM P 2/34
+FCOM
+25 MAY 14
+Continued from the previous page
+M
+(1)
+MODIFICATION
+Linked SB
+Incorp. Date
+Title
+33-1057 03
+11 APR 12
+LIGHTS - INSTRUMENT AND PANEL INTEGRAL
+LIGHTING - ENSURE EMERGENCY LIGHTING FOR
+STAND-BY INSTRUMENTS.
+Applicable to: MSN 1219-1233
+P10098
+24-1120 04
+12 MAR 13
+ELECTRICAL POWER - AC ESSENTIAL GENERATION
+SWITCHING - INSTALL AUTO SWITCHING SYSTEM
+FOR AC AND DC ESS BUS
+Applicable to: MSN 1219-2649, 3120
+P0117
+30 MAY 12
+POWER PLANT - ENGINE - INSTALL IAE V2500
+ENGINE RATED AT 25.000 LBS
+Applicable to: MSN 1276-3120
+P6044
+11 APR 12
+ICE AND RAIN PROTECTION-WINSHIELD- RAIN
+PROTECTION-INTRODUCE MODIFIED GAGE ASSY 
+-P/N 4020W35-2
+Applicable to: ALL
+P5377
+11 APR 12
+INFORMATION SYSTEM-AIR TRAFFIC AND INFO
+MANAGEMENT SYS(ATIMS)-COCKPIT-INTRODUCE
+SYS PROVISIONS FOR FANS "A"(ATSU-2DCDU)
+Applicable to: ALL
+P5895
+11 APR 12
+NAVIGATION-GPWS-INTRODUCE EGPWS P/N
+206-206 AND INHIBIT AUTOMATIC DEACTIVATION
+ENHANCED FUNCTIONS
+Applicable to: ALL
+P6183
+11 APR 12
+NAVIGATION - MMR - REMOVE COLLINS MMR
+PROVIDING ILS (FM IMMUNE) AND GPS PRIMARY
+FUNCTION (PREVIOUS SPEC.)
+Applicable to: MSN 1219-1843
+P7613
+22-1173 06
+12 MAR 13
+AUTO FLIGHT - FMGC - ACTIVATE MORA DISPLAY
+ON ND
+Applicable to: MSN 1276-1843
+P6375
+32-1201 04
+17 JUL 12
+LANDING GEAR-PARKING/ULTIMATE EMERGENCY
+BRAKING-INTRODUCE A PRESSURE SWITCH
+Applicable to: ALL
+P5613
+12 MAR 13
+NAVIGATION - TCAS - INSTALL COLLINS TCAS
+TTR921 WITH COLLINS ATC TPR901
+Applicable to: MSN 1843-2649
+P6380
+17 JUL 12
+ELECTRICAL POWER-GALLEY SUPPLY- INSTALL
+A RELAY FOR GALLEY SHEEDING IN A SINGLE
+GENERATION CONFIGURATION
+Applicable to: MSN 1843, 2927-3120
+Continued on the following page
+
+=== PDF PAGE 33 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF MODIFICATIONS
+NWS A320/A321 FLEET
+PLP-LOM P 3/34
+FCOM
+25 MAY 14
+Continued from the previous page
+M
+(1)
+MODIFICATION
+Linked SB
+Incorp. Date
+Title
+K4653
+30 MAY 12
+LIGHTS-EMERGENCY LIGHTING-INSTALL- A
+FLOOR PROXIMITY EMERGENCY ESCAPE PATH
+MARKING-PHOTOLUMINESCENT SYST.LTAG
+Applicable to: MSN 1276-1843, 2927-3120
+K3898
+11 APR 12
+FUEL-TANKS- ADDITIONAL CENTER TANK (ACT) ON
+A321 GROWTH VERSION
+Applicable to: MSN 1219-1843
+P5768
+12 MAR 13
+ELEC PWR-AC EMERGENCY GENERATION-
+ ACTIVATE A319/A321 ELECTRICAL EMERGENCY
+CONFIGURATION ON A320 A/C
+Applicable to: MSN 2649
+P3790
+30 MAY 12
+NAVIGATION-ADIRS-INTRODUCE 4MCU ADIRU
+HONEYWELL P/N C06
+Applicable to: MSN 1276-3120
+P6071
+12 MAR 13
+INDICATING/RECORDING SYSTEMS - DMC -
+ DISPLAY ALTITUDE IN METRIC UNITS ON THE
+PRIMARY FLIGHT DISPLAY (PFD)
+Applicable to: MSN 2649
+P3897
+11 APR 12
+INDICATING RECORDING SYSTEMS-DMC-
+ INTRODUCE D.M.C. V31 STANDARD
+Applicable to: ALL
+P7520
+22-1090 11
+17 JUL 12
+AUTOFLIGHT-FMGC-INSTALL FMGC IAE C13042BA01
+(EQUIPPED WITH FMS2 HONEYWELL)
+Applicable to: MSN 1276-3120
+P4234
+11 APR 12
+ICE AND RAIN PROTECTION-WINDSHIELD RAIN
+PROTECTION-DESACTIVATION OF RAIN REPELLENT
+SYSTEM
+Applicable to: ALL
+P4230
+11 APR 12
+POWER PLANT-GENERAL-INTRODUCE CFM56-5B/P
+Applicable to: MSN 1219-1233
+K3118
+11 APR 12
+AUXILIARY POWER UNIT - CONTROL AND
+MONITORING - INTRODUCE A NEW ECB
+Applicable to: ALL
+K5104
+12 MAR 13
+LIGHTS - EMERGENCY LIGHTING - INSTALL A
+FLOOR PROXIMITY EMERGENCY ESCAPE PATH
+MARKING-PHOTOLUMINISCENT SYSTEM LTAG
+Applicable to: MSN 2649
+P2379
+11 APR 12
+ELECTRICAL POWER - DC GENERATION -
+ INTRODUCE IMPROVED BCL
+Applicable to: ALL
+Continued on the following page
+
+=== PDF PAGE 34 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF MODIFICATIONS
+NWS A320/A321 FLEET
+PLP-LOM P 4/34
+FCOM
+25 MAY 14
+Continued from the previous page
+M
+(1)
+MODIFICATION
+Linked SB
+Incorp. Date
+Title
+P6067
+11 APR 12
+LANDING GEAR-NOSE LANDING GEAR
+WHEELS-REMOVE RUBBING STRIPS
+Applicable to: ALL
+K7072
+12 MAR 13
+LIGHTS-EMERGENCY LIGHTING-MODIFY EPSU
+LOAD DISTRIBUTION FOR A319/A320
+Applicable to: MSN 2649
+K5109
+23-1324 01
+23-1329 00
+12 MAR 13
+COMMUNICATIONS - INSTALL LANDSCAPE CAMERA
+SYSTEM
+Applicable to: MSN 2933, 3120
+22-1244 02
+30 MAY 12
+AUTO-FLIGHT - FLIGHT MANAGEMENT AND
+GUIDANCE COMPUTER (FMGC) - INSTALL FMGC
+STD P1I11 ON IAE AND PW ENGINED A/C.
+Applicable to: MSN 1276-3120
+P5241
+30 MAY 12
+NAVIGATION - WEATHER RADAR SYSTEM - INSTALL
+COLLINS SINGLE WEATHER RADAR WITH FULL
+PROVISION FOR A SECOND SYS
+Applicable to: MSN 1276-3120
+P4287
+31-1113 31
+31-1264 04
+30 MAY 12
+INDICATING/RECORDING SYSTEMS - FWC -
+ DEFINE OEB REMINDER WITHIN FWC STD -E1 AND
+SUBSEQUENT
+Applicable to: ALL
+K2676
+11 APR 12
+LIGHTS - EMERGENCY LIGHTING - INSTALL A "LSI"
+FLOOR PATH MARKING SYSTEM FOR A321
+Applicable to: MSN 1219-1233
+P2205
+11 APR 12
+FIRE PROTECTION - DETECTION - INTRODUCE
+MODIFIED ENGINE AND APU FIRE PANEL
+Applicable to: ALL
+P5638
+34-1261 12
+17 JUL 12
+NAVIGATION-STANDBY DATA : ALTITUDE AND
+HEADING - INSTALL INTEGRATED STANDBY
+INSTRUMENT SYSTEM (ISIS)
+Applicable to: MSN 1276-3120
+31-1228 10
+12 MAR 13
+INDICATING/RECORDING SYSTEM - FWS - NEW
+LOGIC CABIN READY MEMO
+Applicable to: MSN 2649
+P6911
+17 JUL 12
+INDICATING/RECORDING SYSTEM : FROM FWC-F1
+PIN-PROGRAMMING FOR IMPROVING THE
+MONITORING ABOUT THE NORMAL BRAKING
+SYSTEM
+Applicable to: MSN 2649-3120
+P5138
+11 APR 12
+FLIGHT CONTROLS-ELAC SYSTEM-INTRODUCE
+ELAC SOFTWARE "L80"
+Applicable to: ALL
+Continued on the following page
+
+=== PDF PAGE 35 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PRELIMINARY PAGES
+LIST OF MODIFICATIONS
+NWS A320/A321 FLEET
+PLP-LOM P 5/34
+FCOM
+25 MAY 14
+Continued from the previous page
+M
+(1)
+MODIFICATION
+Linked SB
+Incorp. Date
+Title
+P8521
+73-1082 01
+17 JUL 12
+ENGINE FUEL AND CONTROL - CONTROLLING -
+ INSTALL EEC SOFTWARE "SCN18" ON IAE V2500-A5
+ENGINES
+Applicable to: MSN 1276-3120
+K3335
+11 APR 12
+HYDRAULIC POWER - INDICATING - REMOVE
+SENSOR AND ASSOCIATED WIRING FOR BLUE
+RESERVOIR INDICATION
+Applicable to: MSN 1219-1843, 2927-3120
+K10463
+17 JUL 12
+AIR CONDITIONING - PACK TEMPERATURE
+CONTROL - INSTALL AIR CONDITIONING
+CONTROLLER P/N 1803B0000-02
+Applicable to: MSN 2927-3120
+P5239
+11 APR 12
+NAVIGATION-ATC MODE"S"-INTRODUCE ATC/TCAS
+CONTROL UNIT P/N C12404AB02
+Applicable to: ALL
+K4724
+30 MAY 12
+OXYGEN-PASSENGER OXYGEN-INTRODUCE
+MODIFIED CHEMICAL OXYGEN CONTAINER
+(DRAEGER) P/N -0004
+Applicable to: MSN 1276-1843
+P2218
+11 APR 12
+NAVIGATION - TCAS II - INTRODUCE COMPLETE
+PROVISIONS
+Applicable to: ALL
+K4726
+11 APR 12
+WATER/WASTE-TOILET SYSTEM-INTRODUCE
+MODIFIED TOILET ASSY
+Applicable to: ALL
+P6142
+30 MAY 12
+NAV-STANDBY DATA: ATT AND HDG-INTRODUCE
+COMPLETE PROV FOR INTEGRATED STANDBY
+INSTRUMENT SYSTEM ELECTRICAL SUPPLY
+Applicable to: MSN 1276-3120
+P6901
+27-1152 02
+17 JUL 12
+FLIGHT CONTROLS - ELAC SYSTEM - INTRODUCE
+ELAC SOFTWARE "L90"
+Applicable to: MSN 1276-3120
+P6146
+30 MAY 12
+INDICATING/RECORDING SYSTEM - FWC -
+ INTRODUCE "F/CTL FLAP LVR NOT ZERO" RED
+WARNING
+Applicable to: MSN 1276-3120
+P4497
+11 APR 12
+OVERPRESS. WARNING SYSTEMS-MODIFY CTRL
+LOGIC OF THE OVERPRESS. WARNING SYST
+Applicable to: ALL
+Continued on the following page
+
+=== PDF PAGE 5340 ===
+A320/A321
+FLIGHT CREW
+OPERATING MANUAL
+PERFORMANCE
+ONE ENGINE INOPERATIVE
+DESCENT - DESCENT TO LANDING
+NWS A320/A321 FLEET
+PER-OEI-DES-30 P 4/4
+FCOM
+← A
+27 NOV 13
+DESCENT TO LANDING
+Ident.: PER-OEI-DES-30-00002138.0020001 / 09 DEC 09
+Applicable to: MSN 1219-1233

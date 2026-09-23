@@ -1,0 +1,8570 @@
+[
+  {
+    "mmel_id": "21-00-00",
+    "title": "CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY",
+    "pdf_pages": [
+      28
+    ],
+    "printed_pages": [
+      "21-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-21-01",
+    "title": "Cabin Fans",
+    "pdf_pages": [
+      29
+    ],
+    "printed_pages": [
+      "21-2"
+    ],
+    "assessments": [
+      "F001"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-21-02",
+    "title": "CAB FAN pb Switch",
+    "pdf_pages": [
+      29
+    ],
+    "printed_pages": [
+      "21-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-23-01",
+    "title": "Lavatory and Galley Extraction Fan",
+    "pdf_pages": [
+      29
+    ],
+    "printed_pages": [
+      "21-2"
+    ],
+    "assessments": [
+      "F002"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-26-01",
+    "title": "Blower Fan",
+    "pdf_pages": [
+      30
+    ],
+    "printed_pages": [
+      "21-3"
+    ],
+    "assessments": [
+      "F003"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-26-02",
+    "title": "Extract Fan",
+    "pdf_pages": [
+      31,
+      32
+    ],
+    "printed_pages": [
+      "21-4",
+      "21-5"
+    ],
+    "assessments": [
+      "F004"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-26-03",
+    "title": "Skin Exchanger Inlet Bypass Valve",
+    "pdf_pages": [
+      32
+    ],
+    "printed_pages": [
+      "21-5"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-26-04",
+    "title": "Skin Air Outlet Valve",
+    "pdf_pages": [
+      32
+    ],
+    "printed_pages": [
+      "21-5"
+    ],
+    "assessments": [
+      "F005"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-26-05",
+    "title": "Skin Air Inlet Valve",
+    "pdf_pages": [
+      33
+    ],
+    "printed_pages": [
+      "21-6"
+    ],
+    "assessments": [
+      "F006"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-26-06",
+    "title": "Skin Exchanger Isolation Valve",
+    "pdf_pages": [
+      33
+    ],
+    "printed_pages": [
+      "21-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-26-07",
+    "title": "Skin Exchanger Outlet Bypass Valve",
+    "pdf_pages": [
+      33
+    ],
+    "printed_pages": [
+      "21-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-26-08",
+    "title": "Air Conditioning Inlet Valve",
+    "pdf_pages": [
+      33
+    ],
+    "printed_pages": [
+      "21-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-26-09",
+    "title": "Ventilation Filters",
+    "pdf_pages": [
+      34
+    ],
+    "printed_pages": [
+      "21-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-26-10",
+    "title": "Avionics Equipment Ventilation Computer (AEVC)",
+    "pdf_pages": [
+      34
+    ],
+    "printed_pages": [
+      "21-7"
+    ],
+    "assessments": [
+      "F007"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-26-11",
+    "title": "BLOWER FAULT Caution on ECAM",
+    "pdf_pages": [
+      35
+    ],
+    "printed_pages": [
+      "21-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-26-12",
+    "title": "EXTRACT FAULT Caution on ECAM",
+    "pdf_pages": [
+      35
+    ],
+    "printed_pages": [
+      "21-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-26-13",
+    "title": "BLOWER pb Switch",
+    "pdf_pages": [
+      35
+    ],
+    "printed_pages": [
+      "21-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-26-14",
+    "title": "EXTRACT pb Switch",
+    "pdf_pages": [
+      35
+    ],
+    "printed_pages": [
+      "21-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-26-15",
+    "title": "ECAM CAB PRESS Indications",
+    "pdf_pages": [
+      35
+    ],
+    "printed_pages": [
+      "21-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-26-16",
+    "title": "Avionics Extract/Blower Vibration Monitor Unit (VMU) STC No. ST02356LA",
+    "pdf_pages": [
+      36
+    ],
+    "printed_pages": [
+      "21-9"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-27-01",
+    "title": "Avionics Equipment Ground Cooling System",
+    "pdf_pages": [
+      36
+    ],
+    "printed_pages": [
+      "21-9"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-28-01",
+    "title": "Forward Cargo Extraction Fan",
+    "pdf_pages": [
+      36
+    ],
+    "printed_pages": [
+      "21-9"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-28-02",
+    "title": "Forward Cargo Isolation Valves",
+    "pdf_pages": [
+      36
+    ],
+    "printed_pages": [
+      "21-9"
+    ],
+    "assessments": [
+      "F008"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-28-03",
+    "title": "FWD ISOL VALVE Fault Light",
+    "pdf_pages": [
+      36
+    ],
+    "printed_pages": [
+      "21-9"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-28-04",
+    "title": "Aft Cargo Extraction Fan",
+    "pdf_pages": [
+      36
+    ],
+    "printed_pages": [
+      "21-9"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-28-05",
+    "title": "Aft Cargo Isolation Valves",
+    "pdf_pages": [
+      37
+    ],
+    "printed_pages": [
+      "21-10"
+    ],
+    "assessments": [
+      "F009"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-28-06",
+    "title": "Aft Cargo AFT ISOL VALVE Fault Light",
+    "pdf_pages": [
+      37
+    ],
+    "printed_pages": [
+      "21-10"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-31-01",
+    "title": "Automatic Cabin Pressure Control Systems (CPC, Outflow Valve AUTO Channels)",
+    "pdf_pages": [
+      37
+    ],
+    "printed_pages": [
+      "21-10"
+    ],
+    "assessments": [
+      "F010",
+      "F011",
+      "F012"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-31-02",
+    "title": "Manual Cabin Pressure Control Systems (Outflow Valve MAN Channel, MAN V/S CTL Sel)",
+    "pdf_pages": [
+      38
+    ],
+    "printed_pages": [
+      "21-11"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-31-04",
+    "title": "Safety Valves",
+    "pdf_pages": [
+      38
+    ],
+    "printed_pages": [
+      "21-11"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-31-05",
+    "title": "Landing Elevation Selection System",
+    "pdf_pages": [
+      38
+    ],
+    "printed_pages": [
+      "21-11"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-31-06",
+    "title": "MODE SEL FAULT Light",
+    "pdf_pages": [
+      38
+    ],
+    "printed_pages": [
+      "21-11"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-31-07",
+    "title": "Safety Valves Position Indication on ECAM CAB PRESS Page",
+    "pdf_pages": [
+      38
+    ],
+    "printed_pages": [
+      "21-11"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-31-08",
+    "title": "SAFETY VALVE OPEN Caution on ECAM",
+    "pdf_pages": [
+      38
+    ],
+    "printed_pages": [
+      "21-11"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-43-01",
+    "title": "Fwd Cargo Compartment Heating System",
+    "pdf_pages": [
+      39
+    ],
+    "printed_pages": [
+      "21-12"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-43-02",
+    "title": "Aft Cargo Compartment Heating Systems",
+    "pdf_pages": [
+      40
+    ],
+    "printed_pages": [
+      "21-13"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-51-01",
+    "title": "Pack Flow Control Valves (Without Mod. 30626/ MP K6443 (Enhanced ECS))",
+    "pdf_pages": [
+      40
+    ],
+    "printed_pages": [
+      "21-13"
+    ],
+    "assessments": [
+      "F013"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-51-02",
+    "title": "Pack Flow Selections",
+    "pdf_pages": [
+      41
+    ],
+    "printed_pages": [
+      "21-14"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-51-03",
+    "title": "PACK pb Switch",
+    "pdf_pages": [
+      41
+    ],
+    "printed_pages": [
+      "21-14"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-51-06",
+    "title": "Pack Flow Sensor (Aircraft with Mod. 30626)",
+    "pdf_pages": [
+      41
+    ],
+    "printed_pages": [
+      "21-14"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-52-01",
+    "title": "Packs",
+    "pdf_pages": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "printed_pages": [
+      "21-14",
+      "21-15",
+      "21-16",
+      "21-17",
+      "21-18",
+      "21-19",
+      "21-20",
+      "21-21",
+      "21-22",
+      "21-23"
+    ],
+    "assessments": [
+      "F014",
+      "F015"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-52-02",
+    "title": "Air Cond Pack Ram Air Inlet Flaps",
+    "pdf_pages": [
+      50,
+      51
+    ],
+    "printed_pages": [
+      "21-23",
+      "21-24"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-52-03",
+    "title": "Air Cond Pack Ram Air Outlet Flaps (Without Mod. 26249)",
+    "pdf_pages": [
+      51
+    ],
+    "printed_pages": [
+      "21-24"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-55-01",
+    "title": "Emergency Ram Air Inlet",
+    "pdf_pages": [
+      51
+    ],
+    "printed_pages": [
+      "21-24"
+    ],
+    "assessments": [
+      "F016"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-55-02",
+    "title": "ECAM Emergency RAM Air Inlet Indication (BLEED SD Page)",
+    "pdf_pages": [
+      51
+    ],
+    "printed_pages": [
+      "21-24"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-61-01",
+    "title": "Pack Temperature Control Primary Channels (Without Mod. 30626)",
+    "pdf_pages": [
+      51
+    ],
+    "printed_pages": [
+      "21-24"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-61-02",
+    "title": "Turbine Bypass Valves",
+    "pdf_pages": [
+      52
+    ],
+    "printed_pages": [
+      "21-25"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-63-01",
+    "title": "Zone Controller System (A319, A320, A321) (Without Mod. 30626)",
+    "pdf_pages": [
+      52
+    ],
+    "printed_pages": [
+      "21-25"
+    ],
+    "assessments": [
+      "F017"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-63-02",
+    "title": "Cockpit/Cabin Trim Air Valves",
+    "pdf_pages": [
+      53
+    ],
+    "printed_pages": [
+      "21-26"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-63-03",
+    "title": "Hot Air Pressure Regulating Valve",
+    "pdf_pages": [
+      54
+    ],
+    "printed_pages": [
+      "21-27"
+    ],
+    "assessments": [
+      "F018"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-63-04",
+    "title": "HOT AIR pb Switch",
+    "pdf_pages": [
+      55
+    ],
+    "printed_pages": [
+      "21-28"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-63-05",
+    "title": "ECAM Indication",
+    "pdf_pages": [
+      55
+    ],
+    "printed_pages": [
+      "21-28"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-63-06",
+    "title": "Air Conditioning System Controller (ACSC) (With Mod. 30626)",
+    "pdf_pages": [
+      56
+    ],
+    "printed_pages": [
+      "21-29"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "21-63-07",
+    "title": "Cockpit Heater (With Mod. 35861/ MP P9801 or Mod. 38212/ MP P10187)",
+    "pdf_pages": [
+      56
+    ],
+    "printed_pages": [
+      "21-29"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-10-01",
+    "title": "Autopilot Systems",
+    "pdf_pages": [
+      57
+    ],
+    "printed_pages": [
+      "22-1"
+    ],
+    "assessments": [
+      "F019"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-10-02",
+    "title": "Flight Director Systems",
+    "pdf_pages": [
+      57
+    ],
+    "printed_pages": [
+      "22-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-10-03",
+    "title": "Take Over pb Switch",
+    "pdf_pages": [
+      57
+    ],
+    "printed_pages": [
+      "22-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-10-04",
+    "title": "Autoland Lights",
+    "pdf_pages": [
+      58
+    ],
+    "printed_pages": [
+      "22-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-10-05",
+    "title": "AP Disengagement Warning System",
+    "pdf_pages": [
+      58
+    ],
+    "printed_pages": [
+      "22-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-10-06",
+    "title": "Side Sticks and Rudder Locking Solenoids in AP Mode",
+    "pdf_pages": [
+      58
+    ],
+    "printed_pages": [
+      "22-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-10-08",
+    "title": "AP/FD TCAS mode (With Mod. 152037/ MP P11363 and without Mod. 159900/ MP P20212)",
+    "pdf_pages": [
+      58
+    ],
+    "printed_pages": [
+      "22-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-10-09",
+    "title": "Soft Go-Around Function (With Mod. 161254/ MP P13922)",
+    "pdf_pages": [
+      58
+    ],
+    "printed_pages": [
+      "22-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-30-01",
+    "title": "Autothrust Function",
+    "pdf_pages": [
+      59
+    ],
+    "printed_pages": [
+      "22-3"
+    ],
+    "assessments": [
+      "F020"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-30-02",
+    "title": "Autothrust Instinctive Disconnect Switches",
+    "pdf_pages": [
+      59
+    ],
+    "printed_pages": [
+      "22-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-30-03",
+    "title": "Autothrust Disengagement Warning System",
+    "pdf_pages": [
+      59
+    ],
+    "printed_pages": [
+      "22-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-63-01",
+    "title": "Yaw Dampers",
+    "pdf_pages": [
+      60
+    ],
+    "printed_pages": [
+      "22-4"
+    ],
+    "assessments": [
+      "F021"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-66-01",
+    "title": "Flight Augmentation Computers (FAC)",
+    "pdf_pages": [
+      60
+    ],
+    "printed_pages": [
+      "22-4"
+    ],
+    "assessments": [
+      "F022",
+      "F023"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-66-02",
+    "title": "FAC pb Switch",
+    "pdf_pages": [
+      60
+    ],
+    "printed_pages": [
+      "22-4"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-66-03",
+    "title": "Windshear Detection/Guidance and Avoidance Systems",
+    "pdf_pages": [
+      61
+    ],
+    "printed_pages": [
+      "22-5"
+    ],
+    "assessments": [
+      "F024"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-72-01",
+    "title": "Flight Management System (FMS)",
+    "pdf_pages": [
+      61,
+      62
+    ],
+    "printed_pages": [
+      "22-5",
+      "22-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-75-01",
+    "title": "RNP pb switch ON Light",
+    "pdf_pages": [
+      62
+    ],
+    "printed_pages": [
+      "22-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-75-02",
+    "title": "RNP pb switch",
+    "pdf_pages": [
+      62
+    ],
+    "printed_pages": [
+      "22-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-76-01",
+    "title": "T.O SURV pb-sw (With Mod. 162728/ MP P20485)",
+    "pdf_pages": [
+      62
+    ],
+    "printed_pages": [
+      "22-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-76-02",
+    "title": "T.O SURV pb-sw OFF Light (With Mod. 162728/ MP P20485)",
+    "pdf_pages": [
+      62
+    ],
+    "printed_pages": [
+      "22-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-81-01",
+    "title": "FCU",
+    "pdf_pages": [
+      63
+    ],
+    "printed_pages": [
+      "22-7"
+    ],
+    "assessments": [
+      "F025"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-81-02",
+    "title": "FMA Indications on PFD",
+    "pdf_pages": [
+      64
+    ],
+    "printed_pages": [
+      "22-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-81-03",
+    "title": "Autoflight Control Panel",
+    "pdf_pages": [
+      64,
+      65,
+      66
+    ],
+    "printed_pages": [
+      "22-8",
+      "22-9",
+      "22-10"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-81-04",
+    "title": "EFIS Control Panel",
+    "pdf_pages": [
+      66,
+      67
+    ],
+    "printed_pages": [
+      "22-10",
+      "22-11"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-81-06",
+    "title": "Automatic Landing System (AUTOLAND)",
+    "pdf_pages": [
+      68
+    ],
+    "printed_pages": [
+      "22-12"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-82-01",
+    "title": "Multipurpose Control Display Units (MCDU)",
+    "pdf_pages": [
+      68
+    ],
+    "printed_pages": [
+      "22-12"
+    ],
+    "assessments": [
+      "F026"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "22-83-01",
+    "title": "Flight Management Guidance Computer (FMGC)",
+    "pdf_pages": [
+      68,
+      69
+    ],
+    "printed_pages": [
+      "22-12",
+      "22-13"
+    ],
+    "assessments": [
+      "F027"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-00-00",
+    "title": "CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY",
+    "pdf_pages": [
+      70
+    ],
+    "printed_pages": [
+      "23-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-11-01",
+    "title": "High Frequency (HF) Communication System",
+    "pdf_pages": [
+      70,
+      71
+    ],
+    "printed_pages": [
+      "23-1",
+      "23-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-12-01",
+    "title": "VHF Communications System",
+    "pdf_pages": [
+      71,
+      72
+    ],
+    "printed_pages": [
+      "23-2",
+      "23-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-13-01",
+    "title": "Radio Management Panels (RMP)",
+    "pdf_pages": [
+      72,
+      73,
+      74,
+      75
+    ],
+    "printed_pages": [
+      "23-3",
+      "23-4",
+      "23-5",
+      "23-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-14-01",
+    "title": "Audio Management Unit (AMU) Side (With Mod 162344/ MP P20240 for Digital RMP)",
+    "pdf_pages": [
+      75
+    ],
+    "printed_pages": [
+      "23-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-24-01",
+    "title": "ACARS System",
+    "pdf_pages": [
+      76
+    ],
+    "printed_pages": [
+      "23-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-28-01",
+    "title": "Satellite Communication (SATCOM) System",
+    "pdf_pages": [
+      76
+    ],
+    "printed_pages": [
+      "23-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-31-01",
+    "title": "Passenger Address System",
+    "pdf_pages": [
+      77
+    ],
+    "printed_pages": [
+      "23-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-31-02",
+    "title": "PA IN USE LIGHT",
+    "pdf_pages": [
+      77
+    ],
+    "printed_pages": [
+      "23-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-42-01",
+    "title": "Ground External Horn",
+    "pdf_pages": [
+      77
+    ],
+    "printed_pages": [
+      "23-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-42-02",
+    "title": "Alerting System (Chime/Light)",
+    "pdf_pages": [
+      78
+    ],
+    "printed_pages": [
+      "23-9"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-43-01",
+    "title": "Flight Deck to Ground Interphone System",
+    "pdf_pages": [
+      79
+    ],
+    "printed_pages": [
+      "23-10"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-43-02",
+    "title": "Crewmember Interphone System",
+    "pdf_pages": [
+      79,
+      80
+    ],
+    "printed_pages": [
+      "23-10",
+      "23-11"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-43-04",
+    "title": "Handsets",
+    "pdf_pages": [
+      81
+    ],
+    "printed_pages": [
+      "23-12"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-44-01",
+    "title": "Service Interphone Jack Systems",
+    "pdf_pages": [
+      81
+    ],
+    "printed_pages": [
+      "23-12"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-51-01",
+    "title": "Selcal (AMU)",
+    "pdf_pages": [
+      81
+    ],
+    "printed_pages": [
+      "23-12"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-51-02",
+    "title": "Audio Control Panel (ACP)",
+    "pdf_pages": [
+      82
+    ],
+    "printed_pages": [
+      "23-13"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-51-03",
+    "title": "Switching Panel",
+    "pdf_pages": [
+      83
+    ],
+    "printed_pages": [
+      "23-14"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-51-04",
+    "title": "Flight Deck Headsets/ Headphones",
+    "pdf_pages": [
+      83
+    ],
+    "printed_pages": [
+      "23-14"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-51-05",
+    "title": "Hand Mic System",
+    "pdf_pages": [
+      83
+    ],
+    "printed_pages": [
+      "23-14"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-51-06",
+    "title": "Cockpit Loudspeakers",
+    "pdf_pages": [
+      83,
+      84
+    ],
+    "printed_pages": [
+      "23-14",
+      "23-15"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-51-08",
+    "title": "Side Stick Radio Selector (PTT)",
+    "pdf_pages": [
+      84,
+      85
+    ],
+    "printed_pages": [
+      "23-15",
+      "23-16"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-51-09",
+    "title": "Passenger Audio System (Observer Position)",
+    "pdf_pages": [
+      86
+    ],
+    "printed_pages": [
+      "23-17"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-71-01",
+    "title": "Cockpit Voice Recorder System (CVR)",
+    "pdf_pages": [
+      86
+    ],
+    "printed_pages": [
+      "23-17"
+    ],
+    "assessments": [
+      "F028"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-71-02",
+    "title": "RCDR Control Panel",
+    "pdf_pages": [
+      86
+    ],
+    "printed_pages": [
+      "23-17"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-72-01",
+    "title": "Flight Deck Door Visual Surveillance Systems",
+    "pdf_pages": [
+      87,
+      88
+    ],
+    "printed_pages": [
+      "23-18",
+      "23-19"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-73-01",
+    "title": "Cabin Intercommunication Data System (CIDS) CIDS Director",
+    "pdf_pages": [
+      88,
+      89
+    ],
+    "printed_pages": [
+      "23-19",
+      "23-20"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-73-02",
+    "title": "Cabin Intercommunication Data System (CIDS) CIDS DEU A",
+    "pdf_pages": [
+      90
+    ],
+    "printed_pages": [
+      "23-21"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-73-03",
+    "title": "Cabin Intercommunication Data System (CIDS)",
+    "pdf_pages": [
+      91,
+      92
+    ],
+    "printed_pages": [
+      "23-22",
+      "23-23"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-73-04",
+    "title": "Forward Attendant Panel (FAP) (Without Mod. 30354 or without Mod. 33100)",
+    "pdf_pages": [
+      93
+    ],
+    "printed_pages": [
+      "23-24"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-73-06",
+    "title": "Programmed Cabin Assignment Module (CAM)",
+    "pdf_pages": [
+      94
+    ],
+    "printed_pages": [
+      "23-25"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-73-07",
+    "title": "Programming and Test Panel (PTP) (Without Mod. 30354 or without Mod. 33100)",
+    "pdf_pages": [
+      94,
+      95
+    ],
+    "printed_pages": [
+      "23-25",
+      "23-26"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-73-08",
+    "title": "Flight Attendant Panel (FAP) (With Mod. 30354 or with Mod. 33100)",
+    "pdf_pages": [
+      95,
+      96,
+      97
+    ],
+    "printed_pages": [
+      "23-26",
+      "23-27",
+      "23-28"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-75-01",
+    "title": "E-Direct View System (With Mod. 166696/ MP K21857)",
+    "pdf_pages": [
+      97
+    ],
+    "printed_pages": [
+      "23-28"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-90-01",
+    "title": "Cabin Surveillance System (CSS) STC No.ST02483AT",
+    "pdf_pages": [
+      98
+    ],
+    "printed_pages": [
+      "23-29"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "23-90-03",
+    "title": "Wireless Aircraft Data Link System (WADL) STC No. ST01447NY",
+    "pdf_pages": [
+      98
+    ],
+    "printed_pages": [
+      "23-29"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "24-00-00",
+    "title": "CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY",
+    "pdf_pages": [
+      99
+    ],
+    "printed_pages": [
+      "24-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "24-20-01",
+    "title": "Engine Driven Generator Channel (IDG, GCU, Line Contactor)",
+    "pdf_pages": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111
+    ],
+    "printed_pages": [
+      "24-2",
+      "24-3",
+      "24-4",
+      "24-5",
+      "24-6",
+      "24-7",
+      "24-8",
+      "24-9",
+      "24-10",
+      "24-11",
+      "24-12",
+      "24-13"
+    ],
+    "assessments": [
+      "F029"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "24-20-02",
+    "title": "APU Generator Channel",
+    "pdf_pages": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117
+    ],
+    "printed_pages": [
+      "24-14",
+      "24-15",
+      "24-16",
+      "24-17",
+      "24-18",
+      "24-19"
+    ],
+    "assessments": [
+      "F030"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "24-20-07",
+    "title": "AC ESS Feed Control",
+    "pdf_pages": [
+      117
+    ],
+    "printed_pages": [
+      "24-19"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "24-27-01",
+    "title": "IDG FAULT Lights",
+    "pdf_pages": [
+      117
+    ],
+    "printed_pages": [
+      "24-19"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "24-27-02",
+    "title": "GEN pb Switch",
+    "pdf_pages": [
+      118
+    ],
+    "printed_pages": [
+      "24-20"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "24-27-03",
+    "title": "AC ESS FEED FAULT/ALTN Light",
+    "pdf_pages": [
+      118
+    ],
+    "printed_pages": [
+      "24-20"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "24-27-04",
+    "title": "GALLEY/GALY and CAB pb Switch",
+    "pdf_pages": [
+      118
+    ],
+    "printed_pages": [
+      "24-20"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "24-27-05",
+    "title": "RAT and EMER GEN FAULT Light",
+    "pdf_pages": [
+      118
+    ],
+    "printed_pages": [
+      "24-20"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "24-27-06",
+    "title": "Indications on ECAM ELEC Page",
+    "pdf_pages": [
+      118
+    ],
+    "printed_pages": [
+      "24-20"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "24-27-09",
+    "title": "COMMERCIAL pb Switch",
+    "pdf_pages": [
+      119,
+      120
+    ],
+    "printed_pages": [
+      "24-21",
+      "24-22"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "24-30-01",
+    "title": "Transformer/Rectifier Units (TR)",
+    "pdf_pages": [
+      119
+    ],
+    "printed_pages": [
+      "24-21"
+    ],
+    "assessments": [
+      "F031",
+      "F032",
+      "F033"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "24-30-04",
+    "title": "Battery Voltmeters",
+    "pdf_pages": [
+      120
+    ],
+    "printed_pages": [
+      "24-22"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "24-30-05",
+    "title": "BAT pb Switches",
+    "pdf_pages": [
+      120
+    ],
+    "printed_pages": [
+      "24-22"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "24-30-06",
+    "title": "DC BUS TIE SYSTEM",
+    "pdf_pages": [
+      120
+    ],
+    "printed_pages": [
+      "24-22"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "24-30-07",
+    "title": "BUS TIE pb Switch",
+    "pdf_pages": [
+      121
+    ],
+    "printed_pages": [
+      "24-23"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "24-30-08",
+    "title": "ECAM ELEC Page (DC)",
+    "pdf_pages": [
+      121
+    ],
+    "printed_pages": [
+      "24-23"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "24-30-09",
+    "title": "External Power Panel ADIRU/AVNCS Vent Caution Light",
+    "pdf_pages": [
+      121
+    ],
+    "printed_pages": [
+      "24-23"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "24-41-01",
+    "title": "AC External Power Control",
+    "pdf_pages": [
+      121
+    ],
+    "printed_pages": [
+      "24-23"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "24-41-02",
+    "title": "External Power NOT IN USE and AVAIL Panel Lights",
+    "pdf_pages": [
+      121
+    ],
+    "printed_pages": [
+      "24-23"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "24-41-03",
+    "title": "EXT PWR pb",
+    "pdf_pages": [
+      122
+    ],
+    "printed_pages": [
+      "24-24"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "24-50-01",
+    "title": "Warning and Caution on ECAM EWD",
+    "pdf_pages": [
+      122,
+      123
+    ],
+    "printed_pages": [
+      "24-24",
+      "24-25"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "24-56-01",
+    "title": "GALLEY/GALY and CAB and COMMERCIAL Supply Systems",
+    "pdf_pages": [
+      123
+    ],
+    "printed_pages": [
+      "24-25"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-00-00",
+    "title": "CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY",
+    "pdf_pages": [
+      124
+    ],
+    "printed_pages": [
+      "25-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-11-01",
+    "title": "Pilot Seat Adjustments",
+    "pdf_pages": [
+      125
+    ],
+    "printed_pages": [
+      "25-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-11-02",
+    "title": "Crewmember Shoulder Harness (Flight Deck)",
+    "pdf_pages": [
+      126
+    ],
+    "printed_pages": [
+      "25-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-11-03",
+    "title": "CAPT and F/O Outboard Armrest Controls",
+    "pdf_pages": [
+      126
+    ],
+    "printed_pages": [
+      "25-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-11-04",
+    "title": "CAPT and F/O Inboard Armrest Vertical Adjustment Controls",
+    "pdf_pages": [
+      126
+    ],
+    "printed_pages": [
+      "25-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-11-05",
+    "title": "Pilot Seat Headrests",
+    "pdf_pages": [
+      126
+    ],
+    "printed_pages": [
+      "25-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-11-06",
+    "title": "Primary Observer’s Sliding Seat (Including Associated Equipment)",
+    "pdf_pages": [
+      127
+    ],
+    "printed_pages": [
+      "25-4"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-11-07",
+    "title": "Additional Observer’s Fixed Seat (Including Associated Equipment)",
+    "pdf_pages": [
+      128
+    ],
+    "printed_pages": [
+      "25-5"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-13-01",
+    "title": "CAPT and F/O Sliding Tables",
+    "pdf_pages": [
+      128
+    ],
+    "printed_pages": [
+      "25-5"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-13-02",
+    "title": "CAPT and F/O Retractable Footrests",
+    "pdf_pages": [
+      128
+    ],
+    "printed_pages": [
+      "25-5"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-15-01",
+    "title": "Crew Foot Warmers",
+    "pdf_pages": [
+      128
+    ],
+    "printed_pages": [
+      "25-5"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-21-01",
+    "title": "Passenger Seat(s)",
+    "pdf_pages": [
+      129,
+      130
+    ],
+    "printed_pages": [
+      "25-6",
+      "25-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-22-01",
+    "title": "Flight Attendant Seat Assembly (Single or Dual Position)",
+    "pdf_pages": [
+      131,
+      132,
+      133
+    ],
+    "printed_pages": [
+      "25-8",
+      "25-9",
+      "25-10"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-22-03",
+    "title": "Nonessential Equipment and Furnishings (NEF)",
+    "pdf_pages": [
+      133
+    ],
+    "printed_pages": [
+      "25-10"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-22-04",
+    "title": "Exterior Lavatory Door Ashtrays",
+    "pdf_pages": [
+      133
+    ],
+    "printed_pages": [
+      "25-10"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-27-01",
+    "title": "Heating Function of Heated Floor Panels (Passenger/Crew Doors, Emergency Exits, and Galley Areas)",
+    "pdf_pages": [
+      134
+    ],
+    "printed_pages": [
+      "25-11"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-28-01",
+    "title": "Storage Bin(s)/Cabin, Galley, and Lavatory Storage Compartment/Closets",
+    "pdf_pages": [
+      134,
+      135,
+      136
+    ],
+    "printed_pages": [
+      "25-11",
+      "25-12",
+      "25-13"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-40-01",
+    "title": "Lavatory Waste Receptacle Access Doors/Covers/Flapper/ Doors",
+    "pdf_pages": [
+      137
+    ],
+    "printed_pages": [
+      "25-14"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-45-01",
+    "title": "Galley/Cabin Waste Receptacles Access Doors/Covers/Flapper Doors",
+    "pdf_pages": [
+      137
+    ],
+    "printed_pages": [
+      "25-14"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-50-01",
+    "title": "Cargo Loading System",
+    "pdf_pages": [
+      137
+    ],
+    "printed_pages": [
+      "25-14"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-50-02",
+    "title": "Blow In/Out Panels in Lower Deck Cargo Compartments",
+    "pdf_pages": [
+      138
+    ],
+    "printed_pages": [
+      "25-15"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-50-03",
+    "title": "Lining Panels in Lower Deck Cargo Compartments",
+    "pdf_pages": [
+      139,
+      140
+    ],
+    "printed_pages": [
+      "25-16",
+      "25-17"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-50-04",
+    "title": "Cargo Restraint System (Nets, Attach Points, Stanchions, etc.)",
+    "pdf_pages": [
+      140,
+      141
+    ],
+    "printed_pages": [
+      "25-17",
+      "25-18"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-50-05",
+    "title": "Protection Panel of Decompression Panels at the FWD Partition Wall of FWD Cargo Compartment",
+    "pdf_pages": [
+      142
+    ],
+    "printed_pages": [
+      "25-19"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-60-01",
+    "title": "Evacuation Alarm Signaling System (EVAC COMMAND)",
+    "pdf_pages": [
+      142
+    ],
+    "printed_pages": [
+      "25-19"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-60-03",
+    "title": "SLIDE ARMED Warning Systems",
+    "pdf_pages": [
+      142
+    ],
+    "printed_pages": [
+      "25-19"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-60-04",
+    "title": "SLIDE Indications on ECAM DOOR/OXY Page",
+    "pdf_pages": [
+      143
+    ],
+    "printed_pages": [
+      "25-20"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-60-07",
+    "title": "“Fasten Seat Belts While Seated” Signs or Placards",
+    "pdf_pages": [
+      143
+    ],
+    "printed_pages": [
+      "25-20"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-60-08",
+    "title": "Flashlight and Holders (Flight Deck or Cabin)",
+    "pdf_pages": [
+      144
+    ],
+    "printed_pages": [
+      "25-21"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-60-09",
+    "title": "Megaphones",
+    "pdf_pages": [
+      145
+    ],
+    "printed_pages": [
+      "25-22"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-60-11",
+    "title": "Slide Raft Lanyards (White and/or Yellow)",
+    "pdf_pages": [
+      146
+    ],
+    "printed_pages": [
+      "25-23"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-60-13",
+    "title": "Emergency Medical Equipment",
+    "pdf_pages": [
+      146,
+      147,
+      148
+    ],
+    "printed_pages": [
+      "25-23",
+      "25-24",
+      "25-25"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-60-14",
+    "title": "Escape Life Lines",
+    "pdf_pages": [
+      149
+    ],
+    "printed_pages": [
+      "25-26"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-60-15",
+    "title": "Emergency Vision Assurance Systems (EVAS) (A319/A320/A321) (Vision Safe STC #SA00892LA)",
+    "pdf_pages": [
+      149
+    ],
+    "printed_pages": [
+      "25-26"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-60-16",
+    "title": "Flotation Equipment (Crew and Passenger)",
+    "pdf_pages": [
+      149
+    ],
+    "printed_pages": [
+      "25-26"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-60-17",
+    "title": "Survival Kit",
+    "pdf_pages": [
+      149
+    ],
+    "printed_pages": [
+      "25-26"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-60-18",
+    "title": "Crash Axe/Crow Bar",
+    "pdf_pages": [
+      149
+    ],
+    "printed_pages": [
+      "25-26"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-61-01",
+    "title": "Emergency Locator Transmitter",
+    "pdf_pages": [
+      149,
+      150,
+      151
+    ],
+    "printed_pages": [
+      "25-26",
+      "25-27",
+      "25-28"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-61-02",
+    "title": "Passenger or Overwing Door Slide/Slide Rafts (Without Passengers)",
+    "pdf_pages": [
+      152
+    ],
+    "printed_pages": [
+      "25-29"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-65-01",
+    "title": "Security Kit and Associated Equipment",
+    "pdf_pages": [
+      152
+    ],
+    "printed_pages": [
+      "25-29"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-65-02",
+    "title": "Fireproof Gloves",
+    "pdf_pages": [
+      152
+    ],
+    "printed_pages": [
+      "25-29"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-75-01",
+    "title": "Flightcrew Rest Cabin Seat",
+    "pdf_pages": [
+      153
+    ],
+    "printed_pages": [
+      "25-30"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-75-02",
+    "title": "Flightcrew Rest Facilities and Equipment (14 CFR Part 117, § 117.3 Class 3)",
+    "pdf_pages": [
+      153
+    ],
+    "printed_pages": [
+      "25-30"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "25-90-01",
+    "title": "Printed Supplemental Safety Information",
+    "pdf_pages": [
+      154
+    ],
+    "printed_pages": [
+      "25-31"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-00-00",
+    "title": "CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY",
+    "pdf_pages": [
+      155
+    ],
+    "printed_pages": [
+      "26-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-11-01",
+    "title": "MLG Bay Fire Detection Loops (A321neo XLR)",
+    "pdf_pages": [
+      155
+    ],
+    "printed_pages": [
+      "26-1"
+    ],
+    "assessments": [
+      "F112"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-11-02",
+    "title": "MLG Bay Fire Detection System (A321neo XLR)",
+    "pdf_pages": [
+      156
+    ],
+    "printed_pages": [
+      "26-2"
+    ],
+    "assessments": [
+      "F113"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-12-01",
+    "title": "Engine Fire Detection Systems",
+    "pdf_pages": [
+      156
+    ],
+    "printed_pages": [
+      "26-2"
+    ],
+    "assessments": [
+      "F034"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-12-02",
+    "title": "FIRE Lights on ENG Control Panel",
+    "pdf_pages": [
+      156
+    ],
+    "printed_pages": [
+      "26-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-12-03",
+    "title": "ENG FIRE pb Lights",
+    "pdf_pages": [
+      156
+    ],
+    "printed_pages": [
+      "26-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-13-01",
+    "title": "APU Fire Detection System",
+    "pdf_pages": [
+      156,
+      157
+    ],
+    "printed_pages": [
+      "26-2",
+      "26-3"
+    ],
+    "assessments": [
+      "F035"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-13-02",
+    "title": "APU FIRE pb Light",
+    "pdf_pages": [
+      157
+    ],
+    "printed_pages": [
+      "26-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-15-01",
+    "title": "Avionics Smoke Detection System",
+    "pdf_pages": [
+      157
+    ],
+    "printed_pages": [
+      "26-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-16-03",
+    "title": "Smoke Detectors in FWD Cargo Compartment",
+    "pdf_pages": [
+      158
+    ],
+    "printed_pages": [
+      "26-4"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-16-04",
+    "title": "Smoke Detectors in AFT and Bulk Cargo Compartments",
+    "pdf_pages": [
+      159
+    ],
+    "printed_pages": [
+      "26-5"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-16-05",
+    "title": "FWD/AFT Detection Loops/Channels AAE, Ltd. STC No. ST01077WI",
+    "pdf_pages": [
+      160
+    ],
+    "printed_pages": [
+      "26-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-17-01",
+    "title": "Lavatory Smoke Detection System",
+    "pdf_pages": [
+      160
+    ],
+    "printed_pages": [
+      "26-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-17-02",
+    "title": "Smoke Detection Control Unit (SDCU) (A319/A320/A321) (Without Mod. 30354 or without Mod. 33100)",
+    "pdf_pages": [
+      161
+    ],
+    "printed_pages": [
+      "26-7"
+    ],
+    "assessments": [
+      "F036"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-18-01",
+    "title": "Video Control Center Standalone Smoke Detection System",
+    "pdf_pages": [
+      162
+    ],
+    "printed_pages": [
+      "26-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-21-01",
+    "title": "Engine AGENT 1 and 2 DISCH Light Systems",
+    "pdf_pages": [
+      162
+    ],
+    "printed_pages": [
+      "26-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-21-02",
+    "title": "Engine AGENT 1 and 2 SQUIB Light Systems",
+    "pdf_pages": [
+      162
+    ],
+    "printed_pages": [
+      "26-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-21-03",
+    "title": "ENG FIRE Test Systems",
+    "pdf_pages": [
+      162
+    ],
+    "printed_pages": [
+      "26-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-22-00",
+    "title": "APU Fire Extinguisher System",
+    "pdf_pages": [
+      162
+    ],
+    "printed_pages": [
+      "26-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-22-01",
+    "title": "APU Agent DISCH Light",
+    "pdf_pages": [
+      162
+    ],
+    "printed_pages": [
+      "26-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-22-02",
+    "title": "APU SQUIB Light",
+    "pdf_pages": [
+      162
+    ],
+    "printed_pages": [
+      "26-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-22-03",
+    "title": "APU Ground Automatic Fire Extinguisher System",
+    "pdf_pages": [
+      163
+    ],
+    "printed_pages": [
+      "26-9"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-22-04",
+    "title": "APU Fire Test System",
+    "pdf_pages": [
+      163
+    ],
+    "printed_pages": [
+      "26-9"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-22-05",
+    "title": "APU Fire Extinguisher Overpressure Indication (Red Disc)",
+    "pdf_pages": [
+      163
+    ],
+    "printed_pages": [
+      "26-9"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-22-06",
+    "title": "APU FIRE PUSH pb",
+    "pdf_pages": [
+      163
+    ],
+    "printed_pages": [
+      "26-9"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-22-07",
+    "title": "APU AGENT pb",
+    "pdf_pages": [
+      163
+    ],
+    "printed_pages": [
+      "26-9"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-22-08",
+    "title": "APU Fire Extinguisher Bottle",
+    "pdf_pages": [
+      163
+    ],
+    "printed_pages": [
+      "26-9"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-22-09",
+    "title": "APU Fire Bottle Squibs",
+    "pdf_pages": [
+      163
+    ],
+    "printed_pages": [
+      "26-9"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-22-10",
+    "title": "APU AUTO EXTING TEST",
+    "pdf_pages": [
+      164
+    ],
+    "printed_pages": [
+      "26-10"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-22-11",
+    "title": "APU FIRE Light on External Power Panel",
+    "pdf_pages": [
+      164
+    ],
+    "printed_pages": [
+      "26-10"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-22-12",
+    "title": "APU SHUT OFF pb on External Power Panel",
+    "pdf_pages": [
+      164
+    ],
+    "printed_pages": [
+      "26-10"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-23-01",
+    "title": "FWD/AFT Cargo and BULK Cargo Compartment Fire Extinguishing System",
+    "pdf_pages": [
+      165,
+      166,
+      167
+    ],
+    "printed_pages": [
+      "26-11",
+      "26-12",
+      "26-13"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-23-02",
+    "title": "FWD/AFT Cargo Compartment DISCH/BTL Lights",
+    "pdf_pages": [
+      168
+    ],
+    "printed_pages": [
+      "26-14"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-23-03",
+    "title": "CARGO SMOKE DISCH AGENT 2 Light",
+    "pdf_pages": [
+      168
+    ],
+    "printed_pages": [
+      "26-14"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-23-04",
+    "title": "“PUSH” DSCH Switch Lights AAE, Ltd. STC No. ST01077WI",
+    "pdf_pages": [
+      169
+    ],
+    "printed_pages": [
+      "26-15"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-23-05",
+    "title": "“AUTO/MAN” DSCH Switch Lights AAE, Ltd. STC No. ST01077WI",
+    "pdf_pages": [
+      170
+    ],
+    "printed_pages": [
+      "26-16"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-23-06",
+    "title": "DET LEDs AAE, Ltd. STC No. ST01077WI",
+    "pdf_pages": [
+      170
+    ],
+    "printed_pages": [
+      "26-16"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-23-07",
+    "title": "FAIL LEDs AAE, Ltd. STC No. ST01077WI",
+    "pdf_pages": [
+      171
+    ],
+    "printed_pages": [
+      "26-17"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-23-08",
+    "title": "Fault Panel (E and E Compartment) AAE, Ltd. STC No. ST01077WI",
+    "pdf_pages": [
+      171
+    ],
+    "printed_pages": [
+      "26-17"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-25-01",
+    "title": "Lavatory Waste Bin Fire Extinguisher System",
+    "pdf_pages": [
+      171
+    ],
+    "printed_pages": [
+      "26-17"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "26-26-24",
+    "title": "Portable Fire Extinguishers",
+    "pdf_pages": [
+      172
+    ],
+    "printed_pages": [
+      "26-18"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-00-00",
+    "title": "CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY",
+    "pdf_pages": [
+      173,
+      174
+    ],
+    "printed_pages": [
+      "27-1",
+      "27-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-14-01",
+    "title": "Aileron Servo Controls",
+    "pdf_pages": [
+      175,
+      176
+    ],
+    "printed_pages": [
+      "27-3",
+      "27-4"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-14-02",
+    "title": "Aileron Indications on ECAM Flight Control Page",
+    "pdf_pages": [
+      177
+    ],
+    "printed_pages": [
+      "27-5"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-20-01",
+    "title": "ECAM Rudder Position Indication",
+    "pdf_pages": [
+      177
+    ],
+    "printed_pages": [
+      "27-5"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-20-02",
+    "title": "Rudder Hydraulic System Pressure Indication Symbol on ECAM F/CTL Page",
+    "pdf_pages": [
+      177
+    ],
+    "printed_pages": [
+      "27-5"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-21-01",
+    "title": "Rudder Pedal Adjustment System",
+    "pdf_pages": [
+      178
+    ],
+    "printed_pages": [
+      "27-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-22-01",
+    "title": "Rudder Trim Systems",
+    "pdf_pages": [
+      178
+    ],
+    "printed_pages": [
+      "27-6"
+    ],
+    "assessments": [
+      "F037"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-22-02",
+    "title": "Rudder Manual Trim Reset Function",
+    "pdf_pages": [
+      178
+    ],
+    "printed_pages": [
+      "27-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-22-03",
+    "title": "Rudder Trim Position Indications",
+    "pdf_pages": [
+      178
+    ],
+    "printed_pages": [
+      "27-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-23-01",
+    "title": "Rudder Travel Limiter Systems (Aircraft without Mod 163323/ MP P20703 (eRudder))",
+    "pdf_pages": [
+      178
+    ],
+    "printed_pages": [
+      "27-6"
+    ],
+    "assessments": [
+      "F038"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-23-02",
+    "title": "ECAM Rudder Travel Limiter Position Indication (Aircraft with Mod. 31040 and Mod 30368 and without Mod 163323/ MP P20703 (eRudder))",
+    "pdf_pages": [
+      179
+    ],
+    "printed_pages": [
+      "27-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-30-01",
+    "title": "Elevator Indications on ECAM Flight Control Page",
+    "pdf_pages": [
+      179
+    ],
+    "printed_pages": [
+      "27-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-34-02",
+    "title": "Elevator Servo Control Position Transducers",
+    "pdf_pages": [
+      179
+    ],
+    "printed_pages": [
+      "27-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-40-01",
+    "title": "ECAM Pitch Trim Position Indication",
+    "pdf_pages": [
+      179
+    ],
+    "printed_pages": [
+      "27-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-44-01",
+    "title": "Stabilizer Actuator Electrical Motors",
+    "pdf_pages": [
+      179
+    ],
+    "printed_pages": [
+      "27-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-44-02",
+    "title": "Pitch Trim Hydraulic System Pressure Indication Symbol on ECAM F/CTL Page",
+    "pdf_pages": [
+      179
+    ],
+    "printed_pages": [
+      "27-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-51-01",
+    "title": "Slat/Flap Control Computer (SFCC)",
+    "pdf_pages": [
+      180,
+      181,
+      182
+    ],
+    "printed_pages": [
+      "27-8",
+      "27-9",
+      "27-10"
+    ],
+    "assessments": [
+      "F039",
+      "F040"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-51-02",
+    "title": "Flap Wing Tip Brake Solenoids",
+    "pdf_pages": [
+      182
+    ],
+    "printed_pages": [
+      "27-10"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-54-01",
+    "title": "Flap Hydraulic Motors",
+    "pdf_pages": [
+      182
+    ],
+    "printed_pages": [
+      "27-10"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-54-02",
+    "title": "Flap PCU Valve Blocks",
+    "pdf_pages": [
+      183
+    ],
+    "printed_pages": [
+      "27-11"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-64-01",
+    "title": "Spoiler Surfaces",
+    "pdf_pages": [
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190
+    ],
+    "printed_pages": [
+      "27-11",
+      "27-12",
+      "27-13",
+      "27-14",
+      "27-15",
+      "27-16",
+      "27-17",
+      "27-18"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-64-02",
+    "title": "Load Alleviation Function (LAF) (A320-200 without Mod. 26334 or 26335)",
+    "pdf_pages": [
+      190
+    ],
+    "printed_pages": [
+      "27-18"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-64-03",
+    "title": "LAF Accumulators (A320-200 without Mod. 26334 or 26335)",
+    "pdf_pages": [
+      190
+    ],
+    "printed_pages": [
+      "27-18"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-64-04",
+    "title": "Spoilers Hydraulic System Pressure Indication Symbol on F/CTL Page",
+    "pdf_pages": [
+      190
+    ],
+    "printed_pages": [
+      "27-18"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-64-05",
+    "title": "LAF DEGRADED Caution on ECAM EWD (A321neo XLR)",
+    "pdf_pages": [
+      190
+    ],
+    "printed_pages": [
+      "27-18"
+    ],
+    "assessments": [
+      "F114"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-81-01",
+    "title": "Slat Wing Tip Brakes Solenoids",
+    "pdf_pages": [
+      190
+    ],
+    "printed_pages": [
+      "27-18"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-84-01",
+    "title": "Slats Hydraulic Motors",
+    "pdf_pages": [
+      191
+    ],
+    "printed_pages": [
+      "27-19"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-84-02",
+    "title": "Slat PCU Valve Blocks",
+    "pdf_pages": [
+      191
+    ],
+    "printed_pages": [
+      "27-19"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-92-01",
+    "title": "Speedbrake Control System",
+    "pdf_pages": [
+      192
+    ],
+    "printed_pages": [
+      "27-20"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-92-02",
+    "title": "Ground Spoiler Control System",
+    "pdf_pages": [
+      192,
+      193
+    ],
+    "printed_pages": [
+      "27-20",
+      "27-21"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-92-05",
+    "title": "Spoiler/Speedbrake Indications on ECAM F/CTL and Wheel Page",
+    "pdf_pages": [
+      193
+    ],
+    "printed_pages": [
+      "27-21"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-92-06",
+    "title": "Side Stick Dual Input Warning System",
+    "pdf_pages": [
+      193
+    ],
+    "printed_pages": [
+      "27-21"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-92-07",
+    "title": "STICK SENSOR FAULT Caution on ECAM EWD (A321neo XLR)",
+    "pdf_pages": [
+      193
+    ],
+    "printed_pages": [
+      "27-21"
+    ],
+    "assessments": [
+      "F115"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-92-11",
+    "title": "STEEP APPR pb Switch (With Mod. 35542)",
+    "pdf_pages": [
+      193
+    ],
+    "printed_pages": [
+      "27-21"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-93-01",
+    "title": "Elevator Aileron Computers (ELAC)",
+    "pdf_pages": [
+      194,
+      195
+    ],
+    "printed_pages": [
+      "27-22",
+      "27-23"
+    ],
+    "assessments": [
+      "F041",
+      "F042"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-93-02",
+    "title": "ELAC pb Switch",
+    "pdf_pages": [
+      196
+    ],
+    "printed_pages": [
+      "27-24"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-93-03",
+    "title": "ECAM ELAC Indications",
+    "pdf_pages": [
+      196
+    ],
+    "printed_pages": [
+      "27-24"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-93-04",
+    "title": "LAWS REDUND LOST Caution on ECAM EWD (A321neo XLR)",
+    "pdf_pages": [
+      196
+    ],
+    "printed_pages": [
+      "27-24"
+    ],
+    "assessments": [
+      "F116"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-94-01",
+    "title": "Spoiler Elevator Computers (SEC)",
+    "pdf_pages": [
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207
+    ],
+    "printed_pages": [
+      "27-25",
+      "27-26",
+      "27-27",
+      "27-28",
+      "27-29",
+      "27-30",
+      "27-31",
+      "27-32",
+      "27-33",
+      "27-34",
+      "27-35"
+    ],
+    "assessments": [
+      "F043"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-94-02",
+    "title": "SEC pb Switch",
+    "pdf_pages": [
+      208
+    ],
+    "printed_pages": [
+      "27-36"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-94-03",
+    "title": "SEC Indication on ECAM F/CTL Page",
+    "pdf_pages": [
+      209
+    ],
+    "printed_pages": [
+      "27-37"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "27-95-01",
+    "title": "Flight Control Data Concentrators",
+    "pdf_pages": [
+      209
+    ],
+    "printed_pages": [
+      "27-37"
+    ],
+    "assessments": [
+      "F044",
+      "F045"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-00-00",
+    "title": "CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY",
+    "pdf_pages": [
+      210
+    ],
+    "printed_pages": [
+      "28-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-12-01",
+    "title": "Overpressure Protectors",
+    "pdf_pages": [
+      210,
+      211,
+      212
+    ],
+    "printed_pages": [
+      "28-1",
+      "28-2",
+      "28-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-15-01",
+    "title": "Outer to Inner TK Transfer Valves",
+    "pdf_pages": [
+      213,
+      214
+    ],
+    "printed_pages": [
+      "28-4",
+      "28-5"
+    ],
+    "assessments": [
+      "F046"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-20-01",
+    "title": "Automatic Fuel Feed System",
+    "pdf_pages": [
+      215
+    ],
+    "printed_pages": [
+      "28-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-21-01",
+    "title": "Wing Tank Pumps (Aircraft Fitted with Mod. 36387/MP J2487 or Aircraft Not Specified in Service Bulletin A320-28-1102)",
+    "pdf_pages": [
+      215,
+      216
+    ],
+    "printed_pages": [
+      "28-6",
+      "28-7"
+    ],
+    "assessments": [
+      "F047"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-21-02",
+    "title": "Center Tank Systems",
+    "pdf_pages": [
+      216,
+      217,
+      218,
+      219
+    ],
+    "printed_pages": [
+      "28-7",
+      "28-8",
+      "28-9",
+      "28-10"
+    ],
+    "assessments": [
+      "F048",
+      "F049"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-21-03",
+    "title": "Wing Tank Pump Sequence Valves (A318/A319/A320) without Mod. 154327/ MP J3527",
+    "pdf_pages": [
+      220
+    ],
+    "printed_pages": [
+      "28-11"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-21-04",
+    "title": "Rear Center Tank System (A321neo XLR)",
+    "pdf_pages": [
+      220,
+      221,
+      222
+    ],
+    "printed_pages": [
+      "28-11",
+      "28-12",
+      "28-13"
+    ],
+    "assessments": [
+      "F117"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-23-02",
+    "title": "CROSSFEED pb Switch",
+    "pdf_pages": [
+      223
+    ],
+    "printed_pages": [
+      "28-14"
+    ],
+    "assessments": [
+      "F050"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-24-01",
+    "title": "Engine LP Fuel Valve Electrical Motor (With Mod. 25537)",
+    "pdf_pages": [
+      223
+    ],
+    "printed_pages": [
+      "28-14"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-25-01",
+    "title": "Fuel Quantity Preselector System",
+    "pdf_pages": [
+      223
+    ],
+    "printed_pages": [
+      "28-14"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-25-02",
+    "title": "Fuel Quantity Indicator (Refueling Panel)",
+    "pdf_pages": [
+      223
+    ],
+    "printed_pages": [
+      "28-14"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-25-03",
+    "title": "High Level Fuel Detection System",
+    "pdf_pages": [
+      223,
+      224,
+      225,
+      226,
+      227
+    ],
+    "printed_pages": [
+      "28-14",
+      "28-15",
+      "28-16",
+      "28-17",
+      "28-18"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-25-04",
+    "title": "Refuel Valves",
+    "pdf_pages": [
+      227
+    ],
+    "printed_pages": [
+      "28-18"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-25-05",
+    "title": "Transfer Defuel Valve",
+    "pdf_pages": [
+      227
+    ],
+    "printed_pages": [
+      "28-18"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-25-06",
+    "title": "Refuel/Defuel Control Panel",
+    "pdf_pages": [
+      227
+    ],
+    "printed_pages": [
+      "28-18"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-25-07",
+    "title": "RCT Inlet Valve",
+    "pdf_pages": [
+      228
+    ],
+    "printed_pages": [
+      "28-19"
+    ],
+    "assessments": [
+      "F118"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-25-08",
+    "title": "RCT Refuel Valve",
+    "pdf_pages": [
+      228
+    ],
+    "printed_pages": [
+      "28-19"
+    ],
+    "assessments": [
+      "F119"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-28-01",
+    "title": "Auto Transfer System Additional Center Tank(s) (ACT)",
+    "pdf_pages": [
+      229
+    ],
+    "printed_pages": [
+      "28-20"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-28-02",
+    "title": "Transfer Valve Additional Center Tank(s)",
+    "pdf_pages": [
+      230
+    ],
+    "printed_pages": [
+      "28-21"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-28-03",
+    "title": "Transfer Pump Additional Center Tank(s)",
+    "pdf_pages": [
+      230
+    ],
+    "printed_pages": [
+      "28-21"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-28-04",
+    "title": "Air Shutoff Valve Additional Center Tank(s)",
+    "pdf_pages": [
+      231
+    ],
+    "printed_pages": [
+      "28-22"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-28-05",
+    "title": "Inward Pressure Relief Valve Additional Center Tank(s)",
+    "pdf_pages": [
+      232
+    ],
+    "printed_pages": [
+      "28-23"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-28-06",
+    "title": "Vent Valve Additional Center Tank(s)",
+    "pdf_pages": [
+      232
+    ],
+    "printed_pages": [
+      "28-23"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-28-07",
+    "title": "Refuel Valve Additional Center Tank(s)",
+    "pdf_pages": [
+      233
+    ],
+    "printed_pages": [
+      "28-24"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-28-08",
+    "title": "Inlet Valve Additional Center Tank(s)",
+    "pdf_pages": [
+      233,
+      234,
+      235
+    ],
+    "printed_pages": [
+      "28-24",
+      "28-25",
+      "28-26"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-28-09",
+    "title": "FWD ACT Ventilation Isolation Valve",
+    "pdf_pages": [
+      236
+    ],
+    "printed_pages": [
+      "28-27"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-28-10",
+    "title": "FWD ACT Isolation Valve",
+    "pdf_pages": [
+      236
+    ],
+    "printed_pages": [
+      "28-27"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-28-11",
+    "title": "Fuel ACT Overhead Panel (A321 with Mod. 163213/MP J4530)",
+    "pdf_pages": [
+      237
+    ],
+    "printed_pages": [
+      "28-28"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-40-01",
+    "title": "Low Level Detection Systems",
+    "pdf_pages": [
+      238,
+      239
+    ],
+    "printed_pages": [
+      "28-29",
+      "28-30"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-40-02",
+    "title": "Fuel Quantity Indicating Computer System",
+    "pdf_pages": [
+      239,
+      240
+    ],
+    "printed_pages": [
+      "28-30",
+      "28-31"
+    ],
+    "assessments": [
+      "F051"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-40-03",
+    "title": "TK PUMP and CTR TK XFR FAULT Lights",
+    "pdf_pages": [
+      241
+    ],
+    "printed_pages": [
+      "28-32"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-40-04",
+    "title": "TK PUMP and CTR TK XFR OFF Lights",
+    "pdf_pages": [
+      241
+    ],
+    "printed_pages": [
+      "28-32"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-40-05",
+    "title": "Fuel Transfer Control",
+    "pdf_pages": [
+      242
+    ],
+    "printed_pages": [
+      "28-33"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-40-06",
+    "title": "ECAM FUEL PAGE Indications",
+    "pdf_pages": [
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257
+    ],
+    "printed_pages": [
+      "28-34",
+      "28-35",
+      "28-36",
+      "28-37",
+      "28-38",
+      "28-39",
+      "28-40",
+      "28-41",
+      "28-42",
+      "28-43",
+      "28-44",
+      "28-45",
+      "28-46",
+      "28-47",
+      "28-48"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-40-07",
+    "title": "Manual Magnetic Indicators",
+    "pdf_pages": [
+      258
+    ],
+    "printed_pages": [
+      "28-49"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-40-08",
+    "title": "Fuel Quantity Attitude Monitor",
+    "pdf_pages": [
+      258
+    ],
+    "printed_pages": [
+      "28-49"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-40-09",
+    "title": "Cautions on ECAM",
+    "pdf_pages": [
+      258,
+      259,
+      260,
+      261,
+      262
+    ],
+    "printed_pages": [
+      "28-49",
+      "28-50",
+      "28-51",
+      "28-52",
+      "28-53"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-40-10",
+    "title": "Indication on ECAM EWD",
+    "pdf_pages": [
+      263
+    ],
+    "printed_pages": [
+      "28-54"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "28-40-11",
+    "title": "Auxiliary Fuel Management Computer System Channels (A321 with Mod. 163213/MP J4530)",
+    "pdf_pages": [
+      263
+    ],
+    "printed_pages": [
+      "28-54"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "29-00-00",
+    "title": "CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY",
+    "pdf_pages": [
+      264
+    ],
+    "printed_pages": [
+      "29-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "29-10-01",
+    "title": "Engine Driven Pump Depressurization Function",
+    "pdf_pages": [
+      264
+    ],
+    "printed_pages": [
+      "29-1"
+    ],
+    "assessments": [
+      "F052"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "29-10-02",
+    "title": "Blue System Electric Pump",
+    "pdf_pages": [
+      264
+    ],
+    "printed_pages": [
+      "29-1"
+    ],
+    "assessments": [
+      "F053"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "29-10-03",
+    "title": "Hydraulic System Accumulators",
+    "pdf_pages": [
+      265
+    ],
+    "printed_pages": [
+      "29-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "29-10-07",
+    "title": "Filters",
+    "pdf_pages": [
+      265
+    ],
+    "printed_pages": [
+      "29-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "29-10-10",
+    "title": "Hydraulic Reservoir Drain Valve",
+    "pdf_pages": [
+      265
+    ],
+    "printed_pages": [
+      "29-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "29-20-01",
+    "title": "Hydraulic Reservoir Quantity Indicator (Green Servicing Panel)",
+    "pdf_pages": [
+      265
+    ],
+    "printed_pages": [
+      "29-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "29-20-02",
+    "title": "Hydraulic Reservoir Four Way Selector Valve on Ground Service Panel",
+    "pdf_pages": [
+      265
+    ],
+    "printed_pages": [
+      "29-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "29-23-01",
+    "title": "Power Transfer Unit",
+    "pdf_pages": [
+      266
+    ],
+    "printed_pages": [
+      "29-3"
+    ],
+    "assessments": [
+      "F054"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "29-25-01",
+    "title": "Yellow System Electric Pump",
+    "pdf_pages": [
+      266
+    ],
+    "printed_pages": [
+      "29-3"
+    ],
+    "assessments": [
+      "F055"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "29-30-01",
+    "title": "Pump pb Switch",
+    "pdf_pages": [
+      266
+    ],
+    "printed_pages": [
+      "29-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "29-30-02",
+    "title": "PTU pb Switch",
+    "pdf_pages": [
+      267
+    ],
+    "printed_pages": [
+      "29-4"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "29-30-03",
+    "title": "ECAM HYD Page Indications",
+    "pdf_pages": [
+      267,
+      268
+    ],
+    "printed_pages": [
+      "29-4",
+      "29-5"
+    ],
+    "assessments": [
+      "F056"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "29-30-04",
+    "title": "ECAM Warnings and Cautions",
+    "pdf_pages": [
+      269,
+      270
+    ],
+    "printed_pages": [
+      "29-6",
+      "29-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "29-30-05",
+    "title": "LEAK MEASUREMENT VALVE pb Switches",
+    "pdf_pages": [
+      270
+    ],
+    "printed_pages": [
+      "29-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "30-00-00",
+    "title": "CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY",
+    "pdf_pages": [
+      271
+    ],
+    "printed_pages": [
+      "30-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "30-11-01",
+    "title": "Wing Anti-Ice Control Valves",
+    "pdf_pages": [
+      271,
+      272,
+      273
+    ],
+    "printed_pages": [
+      "30-1",
+      "30-2",
+      "30-3"
+    ],
+    "assessments": [
+      "F057"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "30-11-02",
+    "title": "Wing Anti-Ice",
+    "pdf_pages": [
+      274
+    ],
+    "printed_pages": [
+      "30-4"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "30-11-03",
+    "title": "ECAM BLEED Page Indications",
+    "pdf_pages": [
+      274
+    ],
+    "printed_pages": [
+      "30-4"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "30-21-01",
+    "title": "Engine Anti-Ice Valves (A318/A319ceo/ A320ceo/A321ceo) (A318/A319ceo/ A320ceo/A321ceo with CFM or PW6000 engines) (A319ceo/A320ceo/ A321ceo with IAE engines) (A319neo/A320neo/ A321neo) (A319neo/A320neo/ A321neo) (A319neo/A320neo/ A321neo with CFM LEAP1-A Engines)",
+    "pdf_pages": [
+      275
+    ],
+    "printed_pages": [
+      "30-5"
+    ],
+    "assessments": [
+      "F058"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "30-21-02",
+    "title": "Engine Anti-Ice",
+    "pdf_pages": [
+      276
+    ],
+    "printed_pages": [
+      "30-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "30-21-03",
+    "title": "ANTI-ICE ENG 1(2) CTL FAULT Cautions on ECAM EWD (A319neo/A320neo/ A321neo)",
+    "pdf_pages": [
+      276
+    ],
+    "printed_pages": [
+      "30-6"
+    ],
+    "assessments": [
+      "F120"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "30-31-01",
+    "title": "Probe Heat Computers",
+    "pdf_pages": [
+      277
+    ],
+    "printed_pages": [
+      "30-7"
+    ],
+    "assessments": [
+      "F059",
+      "F060"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "30-31-02",
+    "title": "Pitot Heaters",
+    "pdf_pages": [
+      278
+    ],
+    "printed_pages": [
+      "30-8"
+    ],
+    "assessments": [
+      "F061"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "30-31-03",
+    "title": "Static Port Heaters",
+    "pdf_pages": [
+      279
+    ],
+    "printed_pages": [
+      "30-9"
+    ],
+    "assessments": [
+      "F062"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "30-31-04",
+    "title": "Angle of Attack Probe Heaters (except A321neo XLR)",
+    "pdf_pages": [
+      280
+    ],
+    "printed_pages": [
+      "30-10"
+    ],
+    "assessments": [
+      "F063"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "30-31-05",
+    "title": "TAT Probe Heaters",
+    "pdf_pages": [
+      281
+    ],
+    "printed_pages": [
+      "30-11"
+    ],
+    "assessments": [
+      "F064",
+      "F065"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "30-42-01",
+    "title": "Window Heat Computers",
+    "pdf_pages": [
+      281
+    ],
+    "printed_pages": [
+      "30-11"
+    ],
+    "assessments": [
+      "F066"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "30-42-02",
+    "title": "Fixed Lateral Window and Sliding Window Heating Systems",
+    "pdf_pages": [
+      281
+    ],
+    "printed_pages": [
+      "30-11"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "30-42-03",
+    "title": "Windshield Heating Systems",
+    "pdf_pages": [
+      281
+    ],
+    "printed_pages": [
+      "30-11"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "30-42-04",
+    "title": "Probes/Window Heat pb-sw",
+    "pdf_pages": [
+      282
+    ],
+    "printed_pages": [
+      "30-12"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "30-45-01",
+    "title": "Windshield Wiper Systems",
+    "pdf_pages": [
+      282,
+      283
+    ],
+    "printed_pages": [
+      "30-12",
+      "30-13"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "30-45-02",
+    "title": "Rain Repellant Systems",
+    "pdf_pages": [
+      283
+    ],
+    "printed_pages": [
+      "30-13"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "30-71-01",
+    "title": "Waste Water Drain Mast Heating System",
+    "pdf_pages": [
+      283
+    ],
+    "printed_pages": [
+      "30-13"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "30-71-02",
+    "title": "Waste Water Drain Line Protection System",
+    "pdf_pages": [
+      284
+    ],
+    "printed_pages": [
+      "30-14"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "30-71-03",
+    "title": "Cargo Compartment Drain Line and Drain Mast Ice Protection System",
+    "pdf_pages": [
+      284
+    ],
+    "printed_pages": [
+      "30-14"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "30-81-02",
+    "title": "Ice Detection System",
+    "pdf_pages": [
+      284
+    ],
+    "printed_pages": [
+      "30-14"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "30-81-03",
+    "title": "External Visual Ice Indicator Lighting",
+    "pdf_pages": [
+      284
+    ],
+    "printed_pages": [
+      "30-14"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "31-00-00",
+    "title": "CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY",
+    "pdf_pages": [
+      285,
+      286,
+      287
+    ],
+    "printed_pages": [
+      "31-1",
+      "31-2",
+      "31-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "31-21-01",
+    "title": "Clock System",
+    "pdf_pages": [
+      288
+    ],
+    "printed_pages": [
+      "31-4"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "31-27-01",
+    "title": "Flight Number Reminder",
+    "pdf_pages": [
+      288
+    ],
+    "printed_pages": [
+      "31-4"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "31-30-01",
+    "title": "Centralized Fault Display System (CFDS)",
+    "pdf_pages": [
+      288
+    ],
+    "printed_pages": [
+      "31-4"
+    ],
+    "assessments": [
+      "F067"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "31-30-02",
+    "title": "Flight Data Recorder (FDR) System Includes FDR Function of Combined Voice and Flight Data Recorder (CVFDR)",
+    "pdf_pages": [
+      289
+    ],
+    "printed_pages": [
+      "31-5"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "31-30-03",
+    "title": "Flight Data Interface Unit (FDIU) or Flight Data Interface Function of the Flight Data Interface and Management Unit (FDIMU) (Including Aircraft with STC ST02668LA)",
+    "pdf_pages": [
+      290
+    ],
+    "printed_pages": [
+      "31-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "31-30-04",
+    "title": "Quick Access Recorder",
+    "pdf_pages": [
+      290
+    ],
+    "printed_pages": [
+      "31-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "31-30-05",
+    "title": "Digital AIDS Recorder System",
+    "pdf_pages": [
+      290
+    ],
+    "printed_pages": [
+      "31-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "31-30-06",
+    "title": "Data Management Unit (DMU) or Data Management Function of the FDIMU",
+    "pdf_pages": [
+      290
+    ],
+    "printed_pages": [
+      "31-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "31-30-07",
+    "title": "Printer",
+    "pdf_pages": [
+      290
+    ],
+    "printed_pages": [
+      "31-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "31-38-01",
+    "title": "Up and Down Data Loading System Acquisition/Interface",
+    "pdf_pages": [
+      291
+    ],
+    "printed_pages": [
+      "31-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "31-53-01",
+    "title": "Flight Warning Computers (FWC)",
+    "pdf_pages": [
+      291
+    ],
+    "printed_pages": [
+      "31-7"
+    ],
+    "assessments": [
+      "F068",
+      "F069"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "31-55-01",
+    "title": "System Data Acquisition Concentrator Units (SDAC)",
+    "pdf_pages": [
+      291
+    ],
+    "printed_pages": [
+      "31-7"
+    ],
+    "assessments": [
+      "F070",
+      "F071"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "31-56-01",
+    "title": "ECAM Control Panel",
+    "pdf_pages": [
+      292
+    ],
+    "printed_pages": [
+      "31-8"
+    ],
+    "assessments": [
+      "F072"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "31-58-01",
+    "title": "Master Warn System",
+    "pdf_pages": [
+      292
+    ],
+    "printed_pages": [
+      "31-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "31-58-02",
+    "title": "Master Caution System",
+    "pdf_pages": [
+      292
+    ],
+    "printed_pages": [
+      "31-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "31-61-01",
+    "title": "EIS Switching Systems",
+    "pdf_pages": [
+      292,
+      293
+    ],
+    "printed_pages": [
+      "31-8",
+      "31-9"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "31-63-01",
+    "title": "Display Units (DU)",
+    "pdf_pages": [
+      293,
+      294
+    ],
+    "printed_pages": [
+      "31-9",
+      "31-10"
+    ],
+    "assessments": [
+      "F073",
+      "F074"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "31-63-02",
+    "title": "Display Management Computers",
+    "pdf_pages": [
+      295,
+      296
+    ],
+    "printed_pages": [
+      "31-11",
+      "31-12"
+    ],
+    "assessments": [
+      "F075"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "31-63-03",
+    "title": "ECAM Memo Messages",
+    "pdf_pages": [
+      296
+    ],
+    "printed_pages": [
+      "31-12"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "31-63-04",
+    "title": "ECAM Permanent Data Display",
+    "pdf_pages": [
+      296
+    ],
+    "printed_pages": [
+      "31-12"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-00-00",
+    "title": "CLASS II MAINTENANCE MESSAGE DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY",
+    "pdf_pages": [
+      297
+    ],
+    "printed_pages": [
+      "32-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-11-01",
+    "title": "Torque Link Dampers",
+    "pdf_pages": [
+      297
+    ],
+    "printed_pages": [
+      "32-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-12-01",
+    "title": "MAIN GEAR DOORS",
+    "pdf_pages": [
+      297
+    ],
+    "printed_pages": [
+      "32-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-31-01",
+    "title": "Landing Gear Control and Interface Unit No. 2 (LGCIU 2)",
+    "pdf_pages": [
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305
+    ],
+    "printed_pages": [
+      "32-1",
+      "32-2",
+      "32-3",
+      "32-4",
+      "32-5",
+      "32-6",
+      "32-7",
+      "32-8",
+      "32-9"
+    ],
+    "assessments": [
+      "F076",
+      "F077"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-31-02",
+    "title": "Landing Gear Retraction System (except A321neo XLR)",
+    "pdf_pages": [
+      305
+    ],
+    "printed_pages": [
+      "32-9"
+    ],
+    "assessments": [
+      "F078"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-33-01",
+    "title": "Landing Gear Gravity Extension System (except A321neo XLR)",
+    "pdf_pages": [
+      305
+    ],
+    "printed_pages": [
+      "32-9"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-41-01",
+    "title": "Wheel Tie Bolts",
+    "pdf_pages": [
+      306
+    ],
+    "printed_pages": [
+      "32-10"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-42-01",
+    "title": "Main Wheel Braking Systems",
+    "pdf_pages": [
+      306
+    ],
+    "printed_pages": [
+      "32-10"
+    ],
+    "assessments": [
+      "F079"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-42-02",
+    "title": "Green Braking System",
+    "pdf_pages": [
+      307
+    ],
+    "printed_pages": [
+      "32-11"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-42-03",
+    "title": "Braking/Steering Control Unit (BSCU) Channels/Systems",
+    "pdf_pages": [
+      308,
+      309,
+      310,
+      311,
+      312
+    ],
+    "printed_pages": [
+      "32-12",
+      "32-13",
+      "32-14",
+      "32-15",
+      "32-16"
+    ],
+    "assessments": [
+      "F080"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-42-04",
+    "title": "AUTO/BRK Function",
+    "pdf_pages": [
+      313
+    ],
+    "printed_pages": [
+      "32-17"
+    ],
+    "assessments": [
+      "F081"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-42-05",
+    "title": "Tachometer (Aircraft with Mod. 157591/ MP J4030 (BSCU STD L4.10))",
+    "pdf_pages": [
+      314
+    ],
+    "printed_pages": [
+      "32-18"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-42-06",
+    "title": "Nose Wheel Brake Pads (Without Mod. 28482)",
+    "pdf_pages": [
+      314
+    ],
+    "printed_pages": [
+      "32-18"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-44-01",
+    "title": "Yellow Brake System",
+    "pdf_pages": [
+      315
+    ],
+    "printed_pages": [
+      "32-19"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-44-02",
+    "title": "ACCU PRESS Indicator",
+    "pdf_pages": [
+      316
+    ],
+    "printed_pages": [
+      "32-20"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-44-03",
+    "title": "BRAKES Pressure Indicators",
+    "pdf_pages": [
+      317
+    ],
+    "printed_pages": [
+      "32-21"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-45-02",
+    "title": "Parking Brake External Light",
+    "pdf_pages": [
+      317
+    ],
+    "printed_pages": [
+      "32-21"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-47-01",
+    "title": "Brake Temperature Monitoring Unit",
+    "pdf_pages": [
+      317
+    ],
+    "printed_pages": [
+      "32-21"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-48-01",
+    "title": "Brake Fan System",
+    "pdf_pages": [
+      317
+    ],
+    "printed_pages": [
+      "32-21"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-48-02",
+    "title": "BRAKE FAN HOT Light",
+    "pdf_pages": [
+      317
+    ],
+    "printed_pages": [
+      "32-21"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-48-03",
+    "title": "BRK FAN ON Light",
+    "pdf_pages": [
+      318
+    ],
+    "printed_pages": [
+      "32-22"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-49-01",
+    "title": "ECAM Tire Pressure Indications",
+    "pdf_pages": [
+      318
+    ],
+    "printed_pages": [
+      "32-22"
+    ],
+    "assessments": [
+      "F082"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-49-02",
+    "title": "Tire Pressure Monitoring System",
+    "pdf_pages": [
+      318
+    ],
+    "printed_pages": [
+      "32-22"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-49-03",
+    "title": "Warning and Caution on ECAM EWD",
+    "pdf_pages": [
+      318
+    ],
+    "printed_pages": [
+      "32-22"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-51-02",
+    "title": "PEDALS DISC pb",
+    "pdf_pages": [
+      318
+    ],
+    "printed_pages": [
+      "32-22"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-51-03",
+    "title": "Nose Wheel Steering Control System Deactivation Device (For A/C Towing)",
+    "pdf_pages": [
+      319
+    ],
+    "printed_pages": [
+      "32-23"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-60-01",
+    "title": "LDG Gear Indicator Panel (UNLK and/or Down and Locked Triangle Indications)",
+    "pdf_pages": [
+      319
+    ],
+    "printed_pages": [
+      "32-23"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-60-02",
+    "title": "Gear Not Down Indication",
+    "pdf_pages": [
+      319
+    ],
+    "printed_pages": [
+      "32-23"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-60-03",
+    "title": "ECAM Wheel Page Indications",
+    "pdf_pages": [
+      319,
+      320
+    ],
+    "printed_pages": [
+      "32-23",
+      "32-24"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-60-04",
+    "title": "Fault(s) Indicated by BRAKES N/WS MINOR FAULT Caution on ECAM EWD",
+    "pdf_pages": [
+      321,
+      322,
+      323
+    ],
+    "printed_pages": [
+      "32-25",
+      "32-26",
+      "32-27"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "32-60-07",
+    "title": "Integral Tire Pressure Indicators",
+    "pdf_pages": [
+      323
+    ],
+    "printed_pages": [
+      "32-27"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "33-10-01",
+    "title": "Cockpit and Instrument Panel Lighting System",
+    "pdf_pages": [
+      324,
+      325,
+      326
+    ],
+    "printed_pages": [
+      "33-1",
+      "33-2",
+      "33-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "33-10-02",
+    "title": "Annunciator Lights",
+    "pdf_pages": [
+      327
+    ],
+    "printed_pages": [
+      "33-4"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "33-20-01",
+    "title": "Cabin Light System",
+    "pdf_pages": [
+      327
+    ],
+    "printed_pages": [
+      "33-4"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "33-20-02",
+    "title": "Passenger Lighted Information Signs",
+    "pdf_pages": [
+      328
+    ],
+    "printed_pages": [
+      "33-5"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "33-20-04",
+    "title": "Passenger Lighted Information Signs AUTO Function",
+    "pdf_pages": [
+      328
+    ],
+    "printed_pages": [
+      "33-5"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "33-30-01",
+    "title": "Cargo and Service Compartment Lighting System",
+    "pdf_pages": [
+      328
+    ],
+    "printed_pages": [
+      "33-5"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "33-40-01",
+    "title": "Navigation Lights Systems",
+    "pdf_pages": [
+      329,
+      330
+    ],
+    "printed_pages": [
+      "33-6",
+      "33-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "33-40-02",
+    "title": "Landing Lighting System",
+    "pdf_pages": [
+      330
+    ],
+    "printed_pages": [
+      "33-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "33-40-03",
+    "title": "Runway Turn-Off Light Systems",
+    "pdf_pages": [
+      330
+    ],
+    "printed_pages": [
+      "33-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "33-40-04",
+    "title": "Taxi and Takeoff Light Systems",
+    "pdf_pages": [
+      330
+    ],
+    "printed_pages": [
+      "33-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "33-40-05",
+    "title": "Logo Lights",
+    "pdf_pages": [
+      330
+    ],
+    "printed_pages": [
+      "33-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "33-40-06",
+    "title": "Anticollision/ Strobe Lighting",
+    "pdf_pages": [
+      331
+    ],
+    "printed_pages": [
+      "33-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "33-40-07",
+    "title": "Wing Scan Lights",
+    "pdf_pages": [
+      331
+    ],
+    "printed_pages": [
+      "33-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "33-50-01",
+    "title": "Exit Signs",
+    "pdf_pages": [
+      331
+    ],
+    "printed_pages": [
+      "33-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "33-50-02",
+    "title": "Overhead Emergency Lights",
+    "pdf_pages": [
+      332
+    ],
+    "printed_pages": [
+      "33-9"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "33-50-03",
+    "title": "Floor Proximity Emergency Escape Path Marking System",
+    "pdf_pages": [
+      332,
+      333
+    ],
+    "printed_pages": [
+      "33-9",
+      "33-10"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "33-50-04",
+    "title": "Overwing Escape Route Lighting",
+    "pdf_pages": [
+      333
+    ],
+    "printed_pages": [
+      "33-10"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "33-50-05",
+    "title": "Escape Slide Lighting",
+    "pdf_pages": [
+      333
+    ],
+    "printed_pages": [
+      "33-10"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "33-50-06",
+    "title": "Lavatory Auxiliary Lights",
+    "pdf_pages": [
+      333
+    ],
+    "printed_pages": [
+      "33-10"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "33-50-08",
+    "title": "EMER EXIT LT OFF Light on SIGNS Overhead Panel",
+    "pdf_pages": [
+      333
+    ],
+    "printed_pages": [
+      "33-10"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "33-50-09",
+    "title": "Interior and Exterior Emergency Lighting Systems",
+    "pdf_pages": [
+      334
+    ],
+    "printed_pages": [
+      "33-11"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "33-51-12",
+    "title": "BAT TEST pb on the PTP",
+    "pdf_pages": [
+      334
+    ],
+    "printed_pages": [
+      "33-11"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-00-00",
+    "title": "CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY",
+    "pdf_pages": [
+      335
+    ],
+    "printed_pages": [
+      "34-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-00-01",
+    "title": "Autotune Systems",
+    "pdf_pages": [
+      335
+    ],
+    "printed_pages": [
+      "34-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-10-01",
+    "title": "ADIRS",
+    "pdf_pages": [
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342
+    ],
+    "printed_pages": [
+      "34-2",
+      "34-3",
+      "34-4",
+      "34-5",
+      "34-6",
+      "34-7",
+      "34-8"
+    ],
+    "assessments": [
+      "F083",
+      "F084",
+      "F085",
+      "F086"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-10-02",
+    "title": "ADIRS CDU (Aircraft Pre Mod. 36743/ MP P5253)",
+    "pdf_pages": [
+      343,
+      344
+    ],
+    "printed_pages": [
+      "34-9",
+      "34-10"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-10-03",
+    "title": "ADIRS MSU (Aircraft Post Mod. 36743/ MP P5253)",
+    "pdf_pages": [
+      344,
+      345
+    ],
+    "printed_pages": [
+      "34-10",
+      "34-11"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-12-01",
+    "title": "BKUP SPD/ALT pb-sw ON light (With Mod. 159281/ MP P15825)",
+    "pdf_pages": [
+      345
+    ],
+    "printed_pages": [
+      "34-11"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-12-02",
+    "title": "BKUP SPD/ALT pb-sw (With Mod. 159281/ MP P15825)",
+    "pdf_pages": [
+      345
+    ],
+    "printed_pages": [
+      "34-11"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-12-03",
+    "title": "Digital Backup Speed (DBUS) (With Mod. 163909/ MP P20614)",
+    "pdf_pages": [
+      345
+    ],
+    "printed_pages": [
+      "34-11"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-13-02",
+    "title": "Mach Numbers on PFD (Aircraft with Mod. 27620/ MP P5638)",
+    "pdf_pages": [
+      345
+    ],
+    "printed_pages": [
+      "34-11"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-13-05",
+    "title": "Vertical Speed Indications on PFD",
+    "pdf_pages": [
+      346
+    ],
+    "printed_pages": [
+      "34-12"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-13-07",
+    "title": "Ground Speed Indications on ND",
+    "pdf_pages": [
+      346
+    ],
+    "printed_pages": [
+      "34-12"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-13-08",
+    "title": "True Airspeed Indications on ND (IAE, CFM, PW 6000 Engines and PW 1100G engines with Mod. 165817/ MP P21469 (FCS 5.0))",
+    "pdf_pages": [
+      346
+    ],
+    "printed_pages": [
+      "34-12"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-13-09",
+    "title": "Wind Indications on ND",
+    "pdf_pages": [
+      346
+    ],
+    "printed_pages": [
+      "34-12"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-13-10",
+    "title": "Radio Navaids Indications on PFD",
+    "pdf_pages": [
+      346
+    ],
+    "printed_pages": [
+      "34-12"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-13-11",
+    "title": "Radio Navaids Indications on ND",
+    "pdf_pages": [
+      346
+    ],
+    "printed_pages": [
+      "34-12"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-14-02",
+    "title": "EIS Heading",
+    "pdf_pages": [
+      346
+    ],
+    "printed_pages": [
+      "34-12"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-14-04",
+    "title": "Navigation Station Information",
+    "pdf_pages": [
+      346
+    ],
+    "printed_pages": [
+      "34-12"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-14-05",
+    "title": "Chrono",
+    "pdf_pages": [
+      346
+    ],
+    "printed_pages": [
+      "34-12"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-15-01",
+    "title": "Angle of Attack Indicator",
+    "pdf_pages": [
+      347
+    ],
+    "printed_pages": [
+      "34-13"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-15-02",
+    "title": "NORTH REF pb-sw (With Mod. 35891/ MP P9351)",
+    "pdf_pages": [
+      347
+    ],
+    "printed_pages": [
+      "34-13"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-21-01",
+    "title": "Standby Airspeed Indicator",
+    "pdf_pages": [
+      347
+    ],
+    "printed_pages": [
+      "34-13"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-21-02",
+    "title": "Standby Altimeter",
+    "pdf_pages": [
+      347
+    ],
+    "printed_pages": [
+      "34-13"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-21-03",
+    "title": "Standby Metric Altimeter",
+    "pdf_pages": [
+      347
+    ],
+    "printed_pages": [
+      "34-13"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-22-01",
+    "title": "Standby Horizon (Attitude) (Aircraft with Honeywell ADIRUs or Aircraft with Litton ADIRUs P/N 465020-0303-0316 and Mod. 30650 or 30872)",
+    "pdf_pages": [
+      347
+    ],
+    "printed_pages": [
+      "34-13"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-22-02",
+    "title": "Non-Stabilized Magnetic Compass (Standby) (Aircraft Equipped with Honeywell ADIRUs or Aircraft Equipped with Litton ADIRUs P/N 465020-0303-316 and Mod. 30650 or 30872)",
+    "pdf_pages": [
+      348
+    ],
+    "printed_pages": [
+      "34-14"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-22-03",
+    "title": "Integrated Standby Instrument System",
+    "pdf_pages": [
+      348
+    ],
+    "printed_pages": [
+      "34-14"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-30-01",
+    "title": "Head-Up Display (HUD)",
+    "pdf_pages": [
+      349
+    ],
+    "printed_pages": [
+      "34-15"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-30-03",
+    "title": "GNSS Landing System (GLS) Function (Mod. 39327/MP P8500)",
+    "pdf_pages": [
+      349
+    ],
+    "printed_pages": [
+      "34-15"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-36-01",
+    "title": "ILS Navigation Systems",
+    "pdf_pages": [
+      349
+    ],
+    "printed_pages": [
+      "34-15"
+    ],
+    "assessments": [
+      "F087"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-37-01",
+    "title": "FMS Landing System (FLS)",
+    "pdf_pages": [
+      349
+    ],
+    "printed_pages": [
+      "34-15"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-38-01",
+    "title": "SBAS Landing System (SLS) (Mod. 165088/ MP S34829)",
+    "pdf_pages": [
+      349
+    ],
+    "printed_pages": [
+      "34-15"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-40-07",
+    "title": "GPWS – G/S pb-sw or PULL UP – GPWS pb-sw or PULL UP – G/S pb-sw",
+    "pdf_pages": [
+      349
+    ],
+    "printed_pages": [
+      "34-15"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-40-09",
+    "title": "Runway End Overrun Warning/Runway End Overrun Protection (ROW/ROP) (Mod. 155269/ MP P12511 or Mod. 161514/ MP P15323)",
+    "pdf_pages": [
+      350
+    ],
+    "printed_pages": [
+      "34-16"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-40-10",
+    "title": "ROW/ROP pb-sw OFF Light (With Mod. 163910/ MP P20767 or Mod. 163425/ MP P20473)",
+    "pdf_pages": [
+      350
+    ],
+    "printed_pages": [
+      "34-16"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-40-11",
+    "title": "ROW/ROP pb-sw (With Mod. 163910/ MP P20767 or Mod. 163425/ MP P20473)",
+    "pdf_pages": [
+      350
+    ],
+    "printed_pages": [
+      "34-16"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-40-12",
+    "title": "RWY COND Rotary Selector (With Mod. 163910/ MP P20767 or Mod. 163425/ MP P20473)",
+    "pdf_pages": [
+      350
+    ],
+    "printed_pages": [
+      "34-16"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-40-13",
+    "title": "ATSAW Function",
+    "pdf_pages": [
+      350
+    ],
+    "printed_pages": [
+      "34-16"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-41-01",
+    "title": "Weather Radar Systems",
+    "pdf_pages": [
+      351
+    ],
+    "printed_pages": [
+      "34-17"
+    ],
+    "assessments": [
+      "F088"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-42-01",
+    "title": "Radio Altimeter (RA) Systems",
+    "pdf_pages": [
+      352,
+      353
+    ],
+    "printed_pages": [
+      "34-18",
+      "34-19"
+    ],
+    "assessments": [
+      "F089"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-42-02",
+    "title": "Automatic Callout System",
+    "pdf_pages": [
+      354
+    ],
+    "printed_pages": [
+      "34-20"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-42-04",
+    "title": "Altitude Alerting System",
+    "pdf_pages": [
+      354
+    ],
+    "printed_pages": [
+      "34-20"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-43-01",
+    "title": "Traffic Alert and Collision Avoidance System (TCAS II)",
+    "pdf_pages": [
+      355,
+      356
+    ],
+    "printed_pages": [
+      "34-21",
+      "34-22"
+    ],
+    "assessments": [
+      "F090"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-48-01",
+    "title": "Ground Proximity Warning System (GPWS)",
+    "pdf_pages": [
+      357,
+      358
+    ],
+    "printed_pages": [
+      "34-23",
+      "34-24"
+    ],
+    "assessments": [
+      "F091"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-48-02",
+    "title": "GPWS SYS pb-sw FAULT Light",
+    "pdf_pages": [
+      358
+    ],
+    "printed_pages": [
+      "34-24"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-48-03",
+    "title": "GPWS SYS pb-sw OFF Light",
+    "pdf_pages": [
+      358
+    ],
+    "printed_pages": [
+      "34-24"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-48-04",
+    "title": "GPWS G/S MODE pb- sw OFF Light",
+    "pdf_pages": [
+      358
+    ],
+    "printed_pages": [
+      "34-24"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-48-05",
+    "title": "GPWS FLAP MODE pb-sw OFF Light",
+    "pdf_pages": [
+      359
+    ],
+    "printed_pages": [
+      "34-25"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-48-06",
+    "title": "GPWS LDG FLAP 3 pb-sw ON Light",
+    "pdf_pages": [
+      359
+    ],
+    "printed_pages": [
+      "34-25"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-48-07",
+    "title": "GPWS TERR pb-sw FAULT Light",
+    "pdf_pages": [
+      359
+    ],
+    "printed_pages": [
+      "34-25"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-48-08",
+    "title": "GPWS TERR pb-sw OFF Light",
+    "pdf_pages": [
+      359
+    ],
+    "printed_pages": [
+      "34-25"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-51-01",
+    "title": "DME",
+    "pdf_pages": [
+      359
+    ],
+    "printed_pages": [
+      "34-25"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-52-01",
+    "title": "ATC Transponders and Automatic Altitude Reporting Systems",
+    "pdf_pages": [
+      359
+    ],
+    "printed_pages": [
+      "34-25"
+    ],
+    "assessments": [
+      "F092"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-53-01",
+    "title": "ADF System",
+    "pdf_pages": [
+      359
+    ],
+    "printed_pages": [
+      "34-25"
+    ],
+    "assessments": [
+      "F093"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-55-01",
+    "title": "VOR Navigation",
+    "pdf_pages": [
+      360
+    ],
+    "printed_pages": [
+      "34-26"
+    ],
+    "assessments": [
+      "F094"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-55-02",
+    "title": "Marker Beacon",
+    "pdf_pages": [
+      360
+    ],
+    "printed_pages": [
+      "34-26"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-55-03",
+    "title": "Long Range Navigation Systems",
+    "pdf_pages": [
+      360
+    ],
+    "printed_pages": [
+      "34-26"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-57-01",
+    "title": "DDRMI",
+    "pdf_pages": [
+      360
+    ],
+    "printed_pages": [
+      "34-26"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-57-02",
+    "title": "Automatic Dependent Surveillance-Broadcast (ADS-B) System",
+    "pdf_pages": [
+      360,
+      361,
+      362
+    ],
+    "printed_pages": [
+      "34-26",
+      "34-27",
+      "34-28"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-58-01",
+    "title": "Global Positioning System",
+    "pdf_pages": [
+      363,
+      364,
+      365,
+      366,
+      367
+    ],
+    "printed_pages": [
+      "34-29",
+      "34-30",
+      "34-31",
+      "34-32",
+      "34-33"
+    ],
+    "assessments": [
+      "F095"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "34-61-01",
+    "title": "Navigation Databases",
+    "pdf_pages": [
+      368
+    ],
+    "printed_pages": [
+      "34-34"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "35-10-04",
+    "title": "Exterior Oxygen Overpressure Indicator Disc (Green Disc)",
+    "pdf_pages": [
+      369
+    ],
+    "printed_pages": [
+      "35-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "35-13-01",
+    "title": "Indications on DOOR/OXY ECAM Page",
+    "pdf_pages": [
+      369,
+      370
+    ],
+    "printed_pages": [
+      "35-1",
+      "35-2"
+    ],
+    "assessments": [
+      "F096"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "35-13-02",
+    "title": "Crew Supply pb Switch",
+    "pdf_pages": [
+      370
+    ],
+    "printed_pages": [
+      "35-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "35-21-01",
+    "title": "Passenger Oxygen Storage",
+    "pdf_pages": [
+      371
+    ],
+    "printed_pages": [
+      "35-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "35-21-02",
+    "title": "Lavatory Oxygen Module",
+    "pdf_pages": [
+      371
+    ],
+    "printed_pages": [
+      "35-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "35-23-01",
+    "title": "Passenger Oxygen Manual Control System",
+    "pdf_pages": [
+      371
+    ],
+    "printed_pages": [
+      "35-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "35-23-02",
+    "title": "Passenger Oxygen AUTO Control System",
+    "pdf_pages": [
+      372
+    ],
+    "printed_pages": [
+      "35-4"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "35-23-03",
+    "title": "PASSENGER SYS ON Light",
+    "pdf_pages": [
+      372
+    ],
+    "printed_pages": [
+      "35-4"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "35-23-04",
+    "title": "HI ALT LANDING pb-sw ON Light",
+    "pdf_pages": [
+      372
+    ],
+    "printed_pages": [
+      "35-4"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "35-23-05",
+    "title": "HI ALT LANDING pb-sw",
+    "pdf_pages": [
+      372
+    ],
+    "printed_pages": [
+      "35-4"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "35-31-01",
+    "title": "Portable Oxygen Bottles or Units (Including Masks and Hoses)",
+    "pdf_pages": [
+      373
+    ],
+    "printed_pages": [
+      "35-5"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "35-32-01",
+    "title": "Portable Protective Breathing Equipment (PBE)",
+    "pdf_pages": [
+      374
+    ],
+    "printed_pages": [
+      "35-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "36-00-00",
+    "title": "CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY",
+    "pdf_pages": [
+      375,
+      376,
+      377
+    ],
+    "printed_pages": [
+      "36-1",
+      "36-2",
+      "36-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "36-11-01",
+    "title": "Bleed Air Supply Systems",
+    "pdf_pages": [
+      378,
+      379
+    ],
+    "printed_pages": [
+      "36-4",
+      "36-5"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "36-11-02",
+    "title": "Bleed Valves (PRV)",
+    "pdf_pages": [
+      379
+    ],
+    "printed_pages": [
+      "36-5"
+    ],
+    "assessments": [
+      "F097"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "36-11-03",
+    "title": "Overpressure Valves",
+    "pdf_pages": [
+      380
+    ],
+    "printed_pages": [
+      "36-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "36-11-04",
+    "title": "Fan Air Valves (FAV)",
+    "pdf_pages": [
+      381
+    ],
+    "printed_pages": [
+      "36-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "36-11-05",
+    "title": "Bleed Air Precooler Exchangers",
+    "pdf_pages": [
+      381
+    ],
+    "printed_pages": [
+      "36-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "36-11-06",
+    "title": "Intermediate Pressure Check Valves (IP)",
+    "pdf_pages": [
+      381
+    ],
+    "printed_pages": [
+      "36-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "36-11-07",
+    "title": "High Pressure Valves (HPV)",
+    "pdf_pages": [
+      381
+    ],
+    "printed_pages": [
+      "36-7"
+    ],
+    "assessments": [
+      "F098"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "36-11-08",
+    "title": "Bleed Monitoring Computer (BMC)",
+    "pdf_pages": [
+      382,
+      383,
+      384,
+      385,
+      386,
+      387
+    ],
+    "printed_pages": [
+      "36-8",
+      "36-9",
+      "36-10",
+      "36-11",
+      "36-12",
+      "36-13"
+    ],
+    "assessments": [
+      "F099"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "36-12-01",
+    "title": "APU Bleed Air Supply System",
+    "pdf_pages": [
+      388
+    ],
+    "printed_pages": [
+      "36-14"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "36-12-02",
+    "title": "APU Bleed Valve",
+    "pdf_pages": [
+      388,
+      389
+    ],
+    "printed_pages": [
+      "36-14",
+      "36-15"
+    ],
+    "assessments": [
+      "F100"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "36-12-03",
+    "title": "APU Bleed Check Valve",
+    "pdf_pages": [
+      389
+    ],
+    "printed_pages": [
+      "36-15"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "36-12-04",
+    "title": "Cross Bleed Valve",
+    "pdf_pages": [
+      390
+    ],
+    "printed_pages": [
+      "36-16"
+    ],
+    "assessments": [
+      "F101"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "36-20-01",
+    "title": "ENG BLEED pb Switch",
+    "pdf_pages": [
+      390
+    ],
+    "printed_pages": [
+      "36-16"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "36-20-02",
+    "title": "APU BLEED pb Switch",
+    "pdf_pages": [
+      390
+    ],
+    "printed_pages": [
+      "36-16"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "36-20-03",
+    "title": "ECAM BLEED Page Indications",
+    "pdf_pages": [
+      390,
+      391
+    ],
+    "printed_pages": [
+      "36-16",
+      "36-17"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "36-22-15",
+    "title": "Pylon Leak Detection Loops",
+    "pdf_pages": [
+      391,
+      392,
+      393
+    ],
+    "printed_pages": [
+      "36-17",
+      "36-18",
+      "36-19"
+    ],
+    "assessments": [
+      "F102"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "36-22-17",
+    "title": "APU Leak Detection Loop",
+    "pdf_pages": [
+      394,
+      395,
+      396
+    ],
+    "printed_pages": [
+      "36-20",
+      "36-21",
+      "36-22"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "36-22-18",
+    "title": "AIR APU BLEED LEAK Caution on ECAM EWD",
+    "pdf_pages": [
+      396,
+      397,
+      398,
+      399
+    ],
+    "printed_pages": [
+      "36-22",
+      "36-23",
+      "36-24",
+      "36-25"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "38-10-01",
+    "title": "Potable Water Systems",
+    "pdf_pages": [
+      400
+    ],
+    "printed_pages": [
+      "38-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "38-30-01",
+    "title": "Lavatory Waste Systems",
+    "pdf_pages": [
+      400,
+      401
+    ],
+    "printed_pages": [
+      "38-1",
+      "38-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "46-20-01",
+    "title": "Electronic Flight Bag System (EFB)",
+    "pdf_pages": [
+      402,
+      403
+    ],
+    "printed_pages": [
+      "46-1",
+      "46-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "46-21-01",
+    "title": "Air Traffic Service Unit System (ATSU)",
+    "pdf_pages": [
+      403
+    ],
+    "printed_pages": [
+      "46-2"
+    ],
+    "assessments": [
+      "F103"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "46-21-02",
+    "title": "Data Link Control Display Units (DCDU)",
+    "pdf_pages": [
+      403
+    ],
+    "printed_pages": [
+      "46-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "46-21-03",
+    "title": "ATC Msg. pb-sw",
+    "pdf_pages": [
+      404
+    ],
+    "printed_pages": [
+      "46-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "46-21-04",
+    "title": "ATC Datalink",
+    "pdf_pages": [
+      404
+    ],
+    "printed_pages": [
+      "46-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "46-21-05",
+    "title": "COMPANY Datalink",
+    "pdf_pages": [
+      404
+    ],
+    "printed_pages": [
+      "46-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "46-21-06",
+    "title": "Flight Operations and Maintenance Exchanger (FOMAX)",
+    "pdf_pages": [
+      404
+    ],
+    "printed_pages": [
+      "46-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "47-00-00",
+    "title": "CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY",
+    "pdf_pages": [
+      405
+    ],
+    "printed_pages": [
+      "47-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "47-10-01",
+    "title": "Fuel Tank Inerting System (A318/A319/A320/A321 Aircraft Fitted with Mod. 38062/MP J2879 and Mod. 151269/ MP P11819)",
+    "pdf_pages": [
+      405
+    ],
+    "printed_pages": [
+      "47-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "49-00-00",
+    "title": "CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY",
+    "pdf_pages": [
+      406
+    ],
+    "printed_pages": [
+      "49-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "49-10-01",
+    "title": "APU System",
+    "pdf_pages": [
+      406,
+      407
+    ],
+    "printed_pages": [
+      "49-1",
+      "49-2"
+    ],
+    "assessments": [
+      "F104"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "49-10-02",
+    "title": "APU Air Intake Flap",
+    "pdf_pages": [
+      407
+    ],
+    "printed_pages": [
+      "49-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "49-30-01",
+    "title": "APU Fuel Pump",
+    "pdf_pages": [
+      407
+    ],
+    "printed_pages": [
+      "49-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "49-30-02",
+    "title": "APU LP Valve",
+    "pdf_pages": [
+      408
+    ],
+    "printed_pages": [
+      "49-3"
+    ],
+    "assessments": [
+      "F105"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "49-70-01",
+    "title": "MASTER Switch ON Light",
+    "pdf_pages": [
+      408
+    ],
+    "printed_pages": [
+      "49-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "49-70-02",
+    "title": "MASTER Switch FAULT Light",
+    "pdf_pages": [
+      408
+    ],
+    "printed_pages": [
+      "49-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "49-70-03",
+    "title": "START ON Light",
+    "pdf_pages": [
+      408
+    ],
+    "printed_pages": [
+      "49-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "49-70-04",
+    "title": "START/AVAIL Light",
+    "pdf_pages": [
+      408
+    ],
+    "printed_pages": [
+      "49-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "49-70-05",
+    "title": "ECAM APU Page Indications",
+    "pdf_pages": [
+      408
+    ],
+    "printed_pages": [
+      "49-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "52-10-03",
+    "title": "Passenger Exit Stop Fitting",
+    "pdf_pages": [
+      409
+    ],
+    "printed_pages": [
+      "52-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "52-10-04",
+    "title": "Emergency Operation Cylinder Damper Functions",
+    "pdf_pages": [
+      409
+    ],
+    "printed_pages": [
+      "52-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "52-10-06",
+    "title": "Overwing Emergency Exit Flight Lock Actuator",
+    "pdf_pages": [
+      409
+    ],
+    "printed_pages": [
+      "52-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "52-30-01",
+    "title": "Cargo Door Actuators",
+    "pdf_pages": [
+      410,
+      411
+    ],
+    "printed_pages": [
+      "52-2",
+      "52-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "52-30-02",
+    "title": "Cargo Door Locking Hooks and Spools System",
+    "pdf_pages": [
+      411
+    ],
+    "printed_pages": [
+      "52-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "52-30-03",
+    "title": "Hand Pump",
+    "pdf_pages": [
+      412
+    ],
+    "printed_pages": [
+      "52-4"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "52-30-04",
+    "title": "Cargo Doors Electrical Control",
+    "pdf_pages": [
+      412
+    ],
+    "printed_pages": [
+      "52-4"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "52-30-05",
+    "title": "Cargo Door Drift Pin",
+    "pdf_pages": [
+      412
+    ],
+    "printed_pages": [
+      "52-4"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "52-33-01",
+    "title": "Bulk Cargo Door Balance mechanism",
+    "pdf_pages": [
+      413
+    ],
+    "printed_pages": [
+      "52-5"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "52-50-01",
+    "title": "Flight Deck Door Lock Solenoid",
+    "pdf_pages": [
+      413
+    ],
+    "printed_pages": [
+      "52-5"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "52-50-02",
+    "title": "Cockpit Door Locking System (Automatic System) (Mod. 32088 and 32090) 14 CFR Part 25, § 25.795 Compliant",
+    "pdf_pages": [
+      413,
+      414
+    ],
+    "printed_pages": [
+      "52-5",
+      "52-6"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "52-50-03",
+    "title": "Cockpit Door Secondary Locking System (Deadbolt) (Mod. 33777) 14 CFR Part 25, § 25.795 Compliant",
+    "pdf_pages": [
+      415
+    ],
+    "printed_pages": [
+      "52-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "52-60-01",
+    "title": "Entrance Stairs (With Mod. 23398/ MP P3053)",
+    "pdf_pages": [
+      415
+    ],
+    "printed_pages": [
+      "52-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "52-70-01",
+    "title": "ECAM DOOR Page Indications",
+    "pdf_pages": [
+      415,
+      416,
+      417
+    ],
+    "printed_pages": [
+      "52-7",
+      "52-8",
+      "52-9"
+    ],
+    "assessments": [
+      "F106"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "52-70-02",
+    "title": "CABIN PRESSURE Light (On Doors)",
+    "pdf_pages": [
+      418
+    ],
+    "printed_pages": [
+      "52-10"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "52-70-03",
+    "title": "Door Residual Differential Pressure Detection",
+    "pdf_pages": [
+      418
+    ],
+    "printed_pages": [
+      "52-10"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "71-00-00",
+    "title": "CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY",
+    "pdf_pages": [
+      419,
+      420
+    ],
+    "printed_pages": [
+      "71-1",
+      "71-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "71-10-01",
+    "title": "ENG 1(2) FAN COWL NOT CLSD Alert (A319neo/A320neo/ A321neo)",
+    "pdf_pages": [
+      420
+    ],
+    "printed_pages": [
+      "71-2"
+    ],
+    "assessments": [
+      "F121"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "71-13-01",
+    "title": "Fan Cowl Loss Prevention Mechanical System (A319neo/A320neo/ A321neo with CFM LEAP-1A Engines)",
+    "pdf_pages": [
+      420
+    ],
+    "printed_pages": [
+      "71-2"
+    ],
+    "assessments": [
+      "F122"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "73-10-02",
+    "title": "Fuel Return-to-Tank Valves (V2500 Engines and PW1100G Engines)",
+    "pdf_pages": [
+      421
+    ],
+    "printed_pages": [
+      "73-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "73-11-01",
+    "title": "Fuel Recirculation System (CFM 56-5B Engines and CFM LEAP-1A Engines)",
+    "pdf_pages": [
+      421
+    ],
+    "printed_pages": [
+      "73-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "73-11-02",
+    "title": "Burner Staging Valve System (CFM Engines Only)",
+    "pdf_pages": [
+      421
+    ],
+    "printed_pages": [
+      "73-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "73-20-03",
+    "title": "Minimum Idle on Ground",
+    "pdf_pages": [
+      422
+    ],
+    "printed_pages": [
+      "73-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "73-20-04",
+    "title": "EPR Control Modes (IAE Engines Only)",
+    "pdf_pages": [
+      422
+    ],
+    "printed_pages": [
+      "73-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "73-20-05",
+    "title": "Flex Temp Function",
+    "pdf_pages": [
+      422
+    ],
+    "printed_pages": [
+      "73-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "73-20-06",
+    "title": "De-Rated Takeoff Mode",
+    "pdf_pages": [
+      422
+    ],
+    "printed_pages": [
+      "73-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "73-20-09",
+    "title": "Aircraft 28V Power Supply (IAE Engines Only)",
+    "pdf_pages": [
+      422
+    ],
+    "printed_pages": [
+      "73-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "73-20-10",
+    "title": "Engine Bump",
+    "pdf_pages": [
+      422
+    ],
+    "printed_pages": [
+      "73-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "73-20-11",
+    "title": "Engine Overthrust Protection System (A318 or A319neo/ A320neo/A321neo)",
+    "pdf_pages": [
+      422
+    ],
+    "printed_pages": [
+      "73-2"
+    ],
+    "assessments": [
+      "F123"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "73-30-02",
+    "title": "Fuel Used Indications",
+    "pdf_pages": [
+      423
+    ],
+    "printed_pages": [
+      "73-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "73-30-03",
+    "title": "Fuel Filter Clog Cautions on ECAM EWD",
+    "pdf_pages": [
+      423,
+      424
+    ],
+    "printed_pages": [
+      "73-3",
+      "73-4"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "73-30-04",
+    "title": "Fuel Filter Clog Indication on ECAM System Display",
+    "pdf_pages": [
+      424
+    ],
+    "printed_pages": [
+      "73-4"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "73-30-05",
+    "title": "MINOR FAULT Cautions on ECAM EWD (A319neo/A320neo/ A321neo)",
+    "pdf_pages": [
+      424
+    ],
+    "printed_pages": [
+      "73-4"
+    ],
+    "assessments": [
+      "F124"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "73-30-06",
+    "title": "FUEL FILTER DEGRAD or FUEL FILTER PARTLY CLOGGED Cautions on ECAM EWD",
+    "pdf_pages": [
+      425,
+      426,
+      427
+    ],
+    "printed_pages": [
+      "73-5",
+      "73-6",
+      "73-7"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "73-30-07",
+    "title": "FUEL SENSOR FAULT Cautions on ECAM EWD",
+    "pdf_pages": [
+      428,
+      429,
+      430,
+      431,
+      432,
+      433,
+      434
+    ],
+    "printed_pages": [
+      "73-8",
+      "73-9",
+      "73-10",
+      "73-11",
+      "73-12",
+      "73-13",
+      "73-14"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "73-30-08",
+    "title": "HEAT SYS DEGRAD Cautions on ECAM EWD (A319neo/A320neo/ A321neo with PW 1100G Engines) (A319neo/A320neo/ A321neo with PW 1100G Engines) (A319neo/A320neo/ A321neo with PW 1100G Engines)",
+    "pdf_pages": [
+      435
+    ],
+    "printed_pages": [
+      "73-15"
+    ],
+    "assessments": [
+      "F125"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "73-30-09",
+    "title": "FUEL STRAINER CLOG Cautions on ECAM EWD",
+    "pdf_pages": [
+      435
+    ],
+    "printed_pages": [
+      "73-15"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "73-30-10",
+    "title": "HP FUEL VALVE Cautions on ECAM EWD (A319neo/A320neo/ A321neo with CFM LEAP-1A Engines)",
+    "pdf_pages": [
+      436
+    ],
+    "printed_pages": [
+      "73-16"
+    ],
+    "assessments": [
+      "F126"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "73-30-11",
+    "title": "FADEC IDENT FAULT Cautions on ECAM EWD (A319neo/A320neo/ A321neo with CFM LEAP-1A Engines)",
+    "pdf_pages": [
+      436
+    ],
+    "printed_pages": [
+      "73-16"
+    ],
+    "assessments": [
+      "F127"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "74-31-01",
+    "title": "Ignition Systems",
+    "pdf_pages": [
+      437
+    ],
+    "printed_pages": [
+      "74-1"
+    ],
+    "assessments": [
+      "F107"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "74-31-02",
+    "title": "ECAM Indications (Lower Display)",
+    "pdf_pages": [
+      438
+    ],
+    "printed_pages": [
+      "74-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "74-31-03",
+    "title": "IGN FAULT Caution on ECAM",
+    "pdf_pages": [
+      438
+    ],
+    "printed_pages": [
+      "74-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "75-21-01",
+    "title": "HP Turbine Active Clearance Control System",
+    "pdf_pages": [
+      439
+    ],
+    "printed_pages": [
+      "75-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "75-22-01",
+    "title": "LP Turbine Active Clearance Control",
+    "pdf_pages": [
+      439
+    ],
+    "printed_pages": [
+      "75-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "75-22-02",
+    "title": "Buffer Air Check Valve (A319neo/A320neo/ A321neo with PW 1100G Engines)",
+    "pdf_pages": [
+      439
+    ],
+    "printed_pages": [
+      "75-1"
+    ],
+    "assessments": [
+      "F128"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "75-25-01",
+    "title": "TCC/TACC Valve",
+    "pdf_pages": [
+      439
+    ],
+    "printed_pages": [
+      "75-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "75-25-02",
+    "title": "TCA Valve (PW 6000 Engines Only)",
+    "pdf_pages": [
+      440
+    ],
+    "printed_pages": [
+      "75-2"
+    ],
+    "assessments": [
+      "F129"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "75-25-03",
+    "title": "FADEC Blower (A319neo/A320neo/ A321neo with CFM LEAP-1A Engines and Mod. 163105/ MP P20228)",
+    "pdf_pages": [
+      440
+    ],
+    "printed_pages": [
+      "75-2"
+    ],
+    "assessments": [
+      "F130"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "76-11-01",
+    "title": "Thrust Lever Position Sensor (IAE Engines or CFM Engines or PW 6000 Engines only)",
+    "pdf_pages": [
+      441
+    ],
+    "printed_pages": [
+      "76-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "77-00-01",
+    "title": "ECAM Indications",
+    "pdf_pages": [
+      442
+    ],
+    "printed_pages": [
+      "77-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "77-00-02",
+    "title": "ECAM Indications (Lower Display)",
+    "pdf_pages": [
+      442
+    ],
+    "printed_pages": [
+      "77-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "78-11-09",
+    "title": "T/R Door Tertiary Lock",
+    "pdf_pages": [
+      443
+    ],
+    "printed_pages": [
+      "78-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "78-11-10",
+    "title": "T/R Tertiary Lock Valve",
+    "pdf_pages": [
+      443
+    ],
+    "printed_pages": [
+      "78-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "78-30-01",
+    "title": "Thrust Reverser Systems",
+    "pdf_pages": [
+      444,
+      445,
+      446,
+      447,
+      448,
+      449,
+      450
+    ],
+    "printed_pages": [
+      "78-2",
+      "78-3",
+      "78-4",
+      "78-5",
+      "78-6",
+      "78-7",
+      "78-8"
+    ],
+    "assessments": [
+      "F108",
+      "F109"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "78-30-02",
+    "title": "Thrust Reverser Inhibition Relay Contacts (CFM) (Thrust Reverser Permission Switches (V2500))",
+    "pdf_pages": [
+      450
+    ],
+    "printed_pages": [
+      "78-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "78-30-07",
+    "title": "T/R INDICATIONS (IAE, CFM, and PW Engines)",
+    "pdf_pages": [
+      450
+    ],
+    "printed_pages": [
+      "78-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "78-31-01",
+    "title": "REVERSER CTL FAULT Caution on ECAM EWD",
+    "pdf_pages": [
+      451,
+      452
+    ],
+    "printed_pages": [
+      "78-9",
+      "78-10"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "78-31-02",
+    "title": "REV MINOR FAULT Caution on ECAM EWD (A319neo/A320neo/ A321neo)",
+    "pdf_pages": [
+      452
+    ],
+    "printed_pages": [
+      "78-10"
+    ],
+    "assessments": [
+      "F131"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "79-20-01",
+    "title": "Air Exchanger Air Valves (V2500 Engines Only)",
+    "pdf_pages": [
+      453
+    ],
+    "printed_pages": [
+      "79-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "79-20-02",
+    "title": "EMCD Visual Pop-Out Indicator (CFM-5B)",
+    "pdf_pages": [
+      453
+    ],
+    "printed_pages": [
+      "79-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "79-20-03",
+    "title": "Air Oil Cooler Valve (PW 6000 Engines Only)",
+    "pdf_pages": [
+      453
+    ],
+    "printed_pages": [
+      "79-1"
+    ],
+    "assessments": [
+      "F132"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "79-23-01",
+    "title": "ENG 1(2) BEARING 4 OIL SYS Alert (IAE Engines with Mod. 24871/ MP P3704)",
+    "pdf_pages": [
+      453
+    ],
+    "printed_pages": [
+      "79-1"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "79-31-01",
+    "title": "Oil Quantity Indications",
+    "pdf_pages": [
+      454
+    ],
+    "printed_pages": [
+      "79-2"
+    ],
+    "assessments": [
+      "F110"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "79-33-02",
+    "title": "OIL LO PR Warning on ECAM EWD (IAE or CFM 56 Engines Only)",
+    "pdf_pages": [
+      454
+    ],
+    "printed_pages": [
+      "79-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "79-35-01",
+    "title": "OIL FILTER CLOG Indications on ECAM Engine System Page",
+    "pdf_pages": [
+      454,
+      455
+    ],
+    "printed_pages": [
+      "79-2",
+      "79-3"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "79-35-02",
+    "title": "OIL FILTER CLOG Caution on ECAM EWD",
+    "pdf_pages": [
+      455,
+      456,
+      457,
+      458,
+      459,
+      460
+    ],
+    "printed_pages": [
+      "79-3",
+      "79-4",
+      "79-5",
+      "79-6",
+      "79-7",
+      "79-8"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "79-35-03",
+    "title": "OIL FILTER DEGRAD or OIL FILTER PARTLY CLOGGED Caution on ECAM EWD",
+    "pdf_pages": [
+      461
+    ],
+    "printed_pages": [
+      "79-9"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "79-35-04",
+    "title": "OIL SENSOR FAULT Caution on ECAM EWD",
+    "pdf_pages": [
+      462,
+      463,
+      464,
+      465,
+      466,
+      467,
+      468
+    ],
+    "printed_pages": [
+      "79-10",
+      "79-11",
+      "79-12",
+      "79-13",
+      "79-14",
+      "79-15",
+      "79-16"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "79-35-05",
+    "title": "OIL CHIP DETECTED Caution on ECAM EWD",
+    "pdf_pages": [
+      469,
+      470
+    ],
+    "printed_pages": [
+      "79-17",
+      "79-18"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "80-11-01",
+    "title": "Start Valve System",
+    "pdf_pages": [
+      471,
+      472
+    ],
+    "printed_pages": [
+      "80-1",
+      "80-2"
+    ],
+    "assessments": [
+      "F111"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "80-11-02",
+    "title": "ENG MAN START Controls",
+    "pdf_pages": [
+      472
+    ],
+    "printed_pages": [
+      "80-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "80-11-03",
+    "title": "FAULT Light on ENGINE MASTER Panel",
+    "pdf_pages": [
+      472
+    ],
+    "printed_pages": [
+      "80-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "80-11-04",
+    "title": "ECAM Start Valve Position Indicators (Lower Display)",
+    "pdf_pages": [
+      472
+    ],
+    "printed_pages": [
+      "80-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "80-11-05",
+    "title": "AUTOSTART Controls",
+    "pdf_pages": [
+      472
+    ],
+    "printed_pages": [
+      "80-2"
+    ],
+    "assessments": [],
+    "screening_status": "сопоставление с Fenix не установлено",
+    "approved_for_generation": false
+  },
+  {
+    "mmel_id": "80-11-06",
+    "title": "DUAL COOLING Control (A319neo/A320neo/ A321neo with PW 1100G Engines and Mod. 161854/ MP P15967)",
+    "pdf_pages": [
+      472
+    ],
+    "printed_pages": [
+      "80-2"
+    ],
+    "assessments": [
+      "F133"
+    ],
+    "screening_status": "есть отдельная оценка — см. матрицу",
+    "approved_for_generation": false
+  }
+]

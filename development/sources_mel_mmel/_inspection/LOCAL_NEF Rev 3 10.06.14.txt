@@ -1,0 +1,2364 @@
+
+=== PDF PAGE 1 ===
+ 
+ 
+ 
+ 
+ 
+ 
+NORDWIND AIRLINES 
+ 
+ 
+ 
+ 
+ 
+ 
+Airbus A320Family 
+ 
+ 
+Non-Essential Equipment & 
+Furnishings 
+Procedures Manual 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Moscow – Russia 
+ 
+ 
+
+=== PDF PAGE 2 ===
+
+=== PDF PAGE 3 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+ 
+DISTRIBUTION LIST 
+ 
+ 
+ 
+ITEM 
+HOLDERS/LOCATIONS 
+1 
+CONTINUING AIRWORTHINESS DEPARTMENT 
+2 
+QUALITY ASSURANCE 
+3 
+MAINTROL 
+4 
+MAINTENANCE SHOPE 
+5 
+LINE STATIONS 
+6 
+DIRECTOR OF FLIGHT OPERATIONS 
+7 
+AIRCRAFT 
+8 
+NORDWIND AIRLINES LOCAL NETWORK 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 3 
+ 
+
+=== PDF PAGE 4 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+ 
+LIST OF EFFECTIVE PAGES 
+ 
+(*): I = Initial     A = Added      R = Revised 
+ 
+DESCRIPTION 
+PAGE 
+(*) 
+REV 
+DATE 
+Cover Page 
+1 
+R 
+00 
+01-Nov-2013 
+Approval Page 
+2 
+R 
+03 
+10-Jun-2014 
+Distribution List 
+3 
+R 
+03 
+01-Nov-2013 
+List of Effective Pages 
+4 
+R 
+03 
+10-Jun-2014 
+Table of Contents 
+5 
+R 
+03 
+01-Nov-2013 
+Introduction 
+6 
+R 
+03 
+01-Nov-2013 
+NEF Program 
+7 
+R 
+03 
+13-Dec-2013 
+ 
+8 
+R 
+03 
+01-Nov-2013 
+ 
+9 
+R 
+03 
+10-Jun-2014 
+ 
+10 
+R 
+03 
+10-Jun-2014 
+NEF Item Process 
+11 
+R 
+03 
+17.Jan-2014 
+NEF Item Process Flowchart 
+12 
+R 
+03 
+01-Nov-2013 
+ 
+13 
+R 
+03 
+01-Nov-2013 
+ 
+14 
+R 
+03 
+01-Nov-2013 
+ 
+15 
+R 
+03 
+01-Nov-2013 
+NEF List 
+16 
+R 
+03 
+01-Nov-2013 
+ 
+17 
+R 
+03 
+01-Nov-2013 
+ 
+18 
+R 
+03 
+01-Nov-2013 
+ 
+19 
+R 
+03 
+01-Nov-2013 
+ 
+20 
+R 
+03 
+13-Dec-2013 
+ 
+21 
+R 
+03 
+17.Jan-2014 
+ 
+22 
+R 
+03 
+01-Nov-2013 
+ 
+23 
+R 
+03 
+10-Jun-2014 
+ 
+24 
+R 
+03 
+01-Nov-2013 
+ 
+25 
+R 
+03 
+10-Jun-2014 
+ 
+26 
+R 
+03 
+01-Nov-2013 
+ 
+27 
+R 
+03 
+01-Nov-2013 
+ 
+28 
+R 
+03 
+13-Dec-2013 
+ 
+29 
+R 
+03 
+17.Jan-2014 
+ 
+30 
+R 
+03 
+01-Nov-2013 
+ 
+31 
+R 
+03 
+01-Nov-2013 
+ 
+32 
+R 
+03 
+13-Dec-2013 
+ 
+33 
+R 
+03 
+13-Dec-2013 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 4 
+ 
+
+=== PDF PAGE 5 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+ 
+TABLE OF CONTENT 
+ 
+COVER PAGE…………………………………………………………………….. 1 
+APPROVAL PAGE……………………………………………………………….. 2 
+DISTRIBUTION LIST……………………………………………………………. 3 
+LIST OF EFFECTIVE PAGES………………………………………………….. 
+4 
+TABLE OF CONTENTS…………………………………………………………. 
+5 
+INTRODUCTION……………………………………………………………….... 
+6 
+NEF PROGRAM………………………………………………………………….. 
+7 
+NEF ITEM PROCESS……………………………………………………………. 
+11 
+NEF ITEM PROCESS FLOWCHART…………………………………………. 
+12 
+NEF ITEM LIST………………………………………………………………….. 
+16 
+1. Cockpit……………………………………………………………………… 16 
+2. Galley……………………………………………………………………….. 
+18 
+3. Cabin………………………………………………………………………... 20 
+4. In-Flight Entertainment…………………………………………………… 22 
+5. Passenger Seats…………………………………………………………….. 
+23 
+6. Lavatories…………………………………………………………………... 24 
+7. Closets and Vestibules……………………………………………………... 26 
+8. Service Bays………………………………………………………………… 27 
+8.1 External Power Connections………………………………………… 27 
+8.2 Potable Water Service Bay…………………………………………... 28 
+8.3 Toilet Service………………………………………………………... 
+28 
+8.4 Hydraulic Service Bay………………………………………………. 
+28 
+8.5 Ground Air Service Bay……………………………………………... 29 
+8.6 Aft Fuselage/Tail Access……………………………………………. 
+29 
+8.7 Oxygen Service Bay…………………………………………………. 29 
+9. Cargo/Baggage Compartment…………………………………………….. 29 
+10. Miscellaneous……………………………………………………………... 
+30 
+10.1 Placards/Decals…………………………………………………….. 
+30 
+10.2 Surface Appearance………………………………………………... 
+31 
+10.3 Seals/Sealant……………………………………………………….. 
+32 
+ 
+ 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 5 
+ 
+
+=== PDF PAGE 6 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+ 
+INTRODUCTION 
+ 
+NordWind Airlines has used the deferral authority granted in the MMEL as basis for 
+developing Nonessential Equipment and Furnishings Program, approved through the 
+MEL, that provides relief for inoperative, damaged, or missing nonessential equipment 
+and furnishings located throughout aircraft. NordWind Airlines is responsible for 
+designing, implementing, maintaining and revising the NEF program. 
+ 
+NordWind Airlines has developed a Nonessential Equipment and Furnishings program, 
+policy and procedures based in part through the use of the following documentation: 
+• 
+A GUIDE TO WRITING AN OTAR COMPLIANT MEL 
+• 
+OTAR 125.615 ITEM 12. 
+The NordWind Airlines NEF Program is approved by the NordWind Airlines General 
+Director via an entry in the NordWind Airlines MEL A320Famaly.  
+ 
+ 
+NONESSENTIAL EQUIPMENT AND FURNISHINGS (NEF) 
+ 
+NEF are those items installed on the aircraft as part of the original type certification, 
+supplemental type certificate, or other forms of alteration that have no effect on the safe 
+operation of flight and would not be required by the applicable certification rules or 
+operational rules. They are those items that, if damaged, inoperative, or missing, have 
+no effect on the aircraft’s ability to be operated safely under all operational conditions. 
+These nonessential items may be installed in areas including, but not limited to, the 
+passenger compartment, flight deck area, service areas, cargo areas, crew rest areas, 
+lavatories, and galley areas. NEF items are not items already identified in the MEL or 
+CDL of the applicable aircraft. They do not include items that are functionally required to 
+meet the certification rule or for compliance with any operational rule. 
+The NordWind Airlines` NEF program shall not provide for deferral of items within 
+serviceable limits identified in the manufacturer’s maintenance manual or NordWind 
+Airlines` approved maintenance program such as wear limits, fuel/hydraulic leak rates, 
+oil consumption, etc. 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 6 
+ 
+
+=== PDF PAGE 7 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+ 
+NEF PROGRAM 
+ 
+NORDWIND AIRLINES NEF POLICY: 
+- 
+USE THIS PROGRAM FOR DEFERING DEFECTS IN ACCORDANCE 
+WITH AIRBUS MEL. 
+ 
+- 
+THE NUMBER OF NEF DEFERRED DEFECTS MUST BE RESTRICTED 
+IN SOME AREAS OF AIRCRAFT IN ACCORDANCE WITH THE 
+FOLLOWING TABLE. 
+AREA OF AIRCRAFT 
+MAX NUMBER OF 
+DEFERRED DEFECTS 
+Cockpit Area 
+3 
+Each Galleys Area 
+5 
+Passenger Cabin 
+10 
+In-Flight Entertainment 
+10 
+Passenger Seats 
+20 
+Lavatories 
+4 
+Closets and Vestibule 
+4 
+Service Bay Areas 
+3 
+Cargo/Baggage Compartment 
+4 
+ 
+TOTAL NUMBER OF DEFERRED DEFECTS MAY NOT BE MORE THAN 40 
+ 
+ALL NEF DEFERRED DEFECTS MUST BE INSERTED IN COMPUTERIZED 
+SYSTEM “WINGS” UNDER TASK CODE “NF” 
+ 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 7 
+ 
+
+=== PDF PAGE 8 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+ 
+NORDWIND AIRLINES` NEF Program is as follows: 
+A. The NEF Item List has been developed, and NEF Items are tracked through the 
+use of the Aircraft’s Technical Log/Cabin Technical Log and Ground Technical 
+Sheet. 
+B. The NEF List includes the following information for each NEF item: 
+• 
+Repair Interval (in accordance with MEL Repair intervals) 
+• 
+Maintenance (M) Procedure (If required) 
+• 
+Operations (O) Procedure (If required) 
+• 
+Statement either prohibiting or permitting operation with items inoperative, 
+provisos (Conditions and limitations) for such operation 
+C. The NEF Item evaluation process will include the following items: 
+• 
+Is the item required for the operational rules in which the aircraft is operated? 
+• 
+Does it create the potential for fire/smoke or other hazardous conditions? 
+• 
+Could it have an adverse effect on other required systems or components? 
+• 
+Does its condition potentially affect the safety of crew, passengers, or service 
+personal? 
+• 
+Could it have a negative impact on emergency or abnormal procedures? 
+• 
+Does it create additional workload for the crew at critical times of flight or flight 
+preparation? 
+• 
+Crewmembers may need to evaluate the deferred NEF on a flight-by-flight 
+basis. 
+NOTE: The above evaluation process must be accomplished for the damaged, inoperative, 
+or missing items at each face value, and also for the underlying cause of the 
+discrepancy. 
+D. Placarding Procedure: 
+Each inoperative Item when they are accessible to the crew or flight attendants in 
+flight, the control(s) and/or inoperative unit(s) or component(s) must be clearly 
+placarded. Display an Inoperative Placard on or near of inoperative unit(s) or 
+component(s) and note it in the Aircraft Technical Log (Cabin Technical Log). 
+NOTE: To the extent practical, placards should be located adjacent to the control or 
+indicator for the item affected; however, unless otherwise specified, placard 
+wording and location will be determined by the qualified maintenance personal. 
+E. NordWind Airlines` NEF Program & Procedures Manual will be kept in the 
+aircraft specific Minimum Equipment List (MEL) Binder. 
+F. NordWind Airlines` aircraft’s MEL has incorporated the requirements of Master 
+Minimum Equipment List (MMEL) Global Change GC-138 (PL116) in Chapter 
+25. 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 8 
+ 
+
+=== PDF PAGE 9 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+G. If a discrepancy is discovered that is not covered by the aircraft’s Configuration 
+Deviation List (CDL), MEL or NEF Item List. The Flight Crew, with the assistance 
+of the Technical Department and/or personnel of Maintenance Control Center; 
+may perform the NEF Item Process to determine if the discrepancy can be 
+classified as the NEF Item and subsequently deferred. The discrepancy must 
+meet the intent of the NEF Item Process or it will require the issue to be resolved 
+before further flight. NordWind Airlines will continually add items to the NEF list 
+as they see fit. Upon conclusion of the procedures and it is determined that the 
+discrepancy can be added to the NEF list , revision of the NEF List shall be 
+completed with next intended revision of NordWind Airlines` NEF Program and 
+Procedures Manual. 
+H. If a discrepancy is discovered during Before Departure Check, upon conclusion 
+of the NEF Item Process, and it is determined that the inoperative equipment 
+can be classified as NEF Item, defect can be deferred up to 10 days. In this 
+case, use the following digits and letters to create new NEF item number, to 
+enter an information system and to make records: the first digit - the number of 
+the fault zone, then the abbreviation NNI – New NEF Item. For example, new 
+NEF item in the Galley zone - 2.NNI. Then within 24 hours, the ERR with the full 
+description of a new item and information on the execution of the NEF Item 
+Process should be submitted to the Engineering Department. Engineering 
+Department analyzes ERR, determines repair Interval for new item and assigns 
+a number with the index “t” which means “temporary” to the new item. All this 
+information should be contained in the response to the ERR. Response to the 
+ERR must be made within 10 working days. Further records of the fault should 
+be remade with a new number. Temporary number is changed, in the process of 
+next intended revision to permanent, by removing the index “t”. During 
+weekends and official holidays the request similar to mentioned above should be 
+sent to Maintrol instead of issuing the ERR”. 
+I. Because the NEF program is a standard of NordWind Airlines, increasing the 
+maximal number of deferred defects and extension of the NEF Item Repair 
+Interval does not require approval of the Aviation Authorities. 
+J. 
+In case of exceeding the allowable number of deferred defects, technical staff asap  should: 
+1) Perform TBS of new deferred defects and create RQ 
+2)  Issue request to the Engineering Department via ERR. ERR should consist next 
+information: 1.  All DT references, discription , actions taken, created RQ   related with  
+current NEF exceeding item; 2.TBS result , photos and RQ  for new opened  deferred defects; 
+3. If TBS not performed or RQ are not created responsible  Maintenance or Maintrol 
+engineer should provide the reasons or inform about planned actions; 4. Maintenance or 
+Maintrol engineer should request supply department to update information about estimated 
+delivery of  ordered parts under each RQ, related with these defects. Also request them to 
+expedite lead time process and include these  detailed  info in ERR; 5. All information that 
+can be helpful for developing solution. 
+ 
+Continuing Airworthiness Department within 10 working days makes an analysis, 
+determines repair Interval  and develops appropriate solutions approved by the 
+Head of Technical Department or its Deputy. During weekends and official holidays 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 9 
+ 
+
+=== PDF PAGE 10 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+the request similar to mentioned above should be sent to and approved by Maintrol 
+Manager or its Deputy instead of issuing the ERR.  
+ 
+K. 
+If the deferred defect cannot be eliminated within the prescribed period due 
+to delayed delivery of spare parts or the impossibility of carrying out works in line 
+maintenance, extension of the NEF Item Repair Interval can be issued by using the 
+following procedure. Technical department should request supply. Department about lead 
+time ordered parts under each RQ related with these defects .Issue request to the 
+Engineering Department via ERR for extension of the NEF Item Repair Interval. ERR 
+should  consist : 
+1. The reasons of impossibility of carrying out works in line maintenance or  delayed 
+delivery of spare parts, 
+2. RQ lead time or expected delivery of spare parts (if the reason of extension request is 
+lack of spare parts). 
+. After NEF Item is extended, the maximum allowable threshold for rectification 
+of NEF Item must be prior to the completion of the next heavy maintenance visit. 
+During weekends and official holidays the request similar to mentioned above 
+should be sent to Maintrol instead of issuing the ERR 
+. 
+L. In some cases, repair of the affected equipment or components may be 
+postponed until the next heavy maintenance visit. 
+M. In case of exceeding the maximum allowable number of deferred defects, 
+recognizing during the current (on-going) maintenance just before depature,one-
+time permission for flight (or series flights) can be issued by Production Manager 
+or its Duty via E-mail or Telex. Such E-mail or Telex should be send to the 
+following addresses: Flight Dispatch; Line Station Shift Managers; Line Station 
+Managers; Maintenance Control Center; Production Department Manager.  
+N. Allowed that the decorative elements (such as linings, trims, arm caps, 
+moldings, etc.) can carry the scars of operational wear and tear. Such traces are 
+not considered a defect in the following conditions:  
+• 
+remains a decorative element complete working capacity, 
+• 
+item has no cracks, breaks, chips, burrs and other damage can cause injury to 
+passengers, crew members and service personal, 
+• 
+worn with complete loss of the original color does not exceed 30% of the entire 
+area of a decorative element. 
+If the worn with complete loss of the original color exceeds 30% of the entire area of 
+a decorative element and such defects cannot be eliminated by simple repairs, the 
+repair or replacement of decorative elements may be deferred until the next heavy 
+maintenance visit. 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 10 
+ 
+
+=== PDF PAGE 11 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+O. Section 10 “Miscellaneous” of the NEF Item List covers defects which may be 
+located throughout the aircraft such as: Placards/Decals; Surface Appearance 
+(paint, coating, contamination surfaces); Seals/Sealant, Small plastic or 
+decorative element. . 
+P. Placards / Decals: all marking, which installation is regulated by Airworthiness 
+Directives or noted by an asterisk in Airplane Maintenance Manual (AMM) is 
+REQUIRED. If excessive wear of such decal doesn’t allow reading information 
+correctly it will be necessary to repair or replace by the new one before next 
+flight. If REQUIRED marking has edge delamination, but the decal information is 
+legible, perform edge sealing before next flight. 
+If marking has no specified requirements, it is considered as NON-REQUIRED. 
+Such marking if damaged or missing has no effect on the aircraft ability to be 
+operated safety under operational conditions. It is allowed to be postponed this 
+marking installation or recovering in accordance with NEF Program (Refer to NEF 
+Item List, Section 10). If NON-REQUIRED marking has edge delamination but the 
+decal information is legible, perform edge sealing within 10 days. 
+Q. Paint: decorative paint peeling has no effect on the aircraft ability to be operated 
+safely under operational conditions, therefore is not considered a defect, and so 
+if any findings are not revealed, the touch-up painting is recommended to 
+postpone until the earliest convenient maintenance opportunity.  
+The NEF Program is used for damages to Decorative aircraft painting that are 
+considered as appearance items and are cosmetic in nature. Decorative means the 
+upper layers of paint not including primer. The type of these damages to paint 
+(interior and exterior) include items that are soiled, worn, cracked, scratched, 
+marred, or blemished (Refer to NEF Item List, Section 10). Damages that are not 
+decorative and not cosmetic in nature may be evaluated for deferral using the 
+MEL/CDL, SRM or AMM requirements. 
+R. Seals: the Dacron cloth common to the seals can be frayed provided there is no 
+damage to the silicon rubber portion of the seal. If the silicon rubber portion has 
+damages as light wear marks, minor tears, flaking and cracking, but the seals 
+still perform their intended function, repair or replacement of this seal can be 
+deferred in accordance with NEF Program (Refer to NEF Item List, Section 10).  
+The intended function means that the seal still keeps the aerodynamic elasticity and 
+flexibility, seal has no loss of material portions, contact to matched part is obeyed 
+per the AMM clearance requirements, the cabin leakage rate is within AMM data.  
+Seals that are found to be excessively worn or damaged so that they do not perform 
+their intended function should be replaced before any more flight. 
+S. Sealant: NordWind Airlines NEF Program allows to postpone restoration of 
+sealant if the following restrictions provided: 
+• 
+Bad sealant condition is not associated with corrosion. 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 11 
+ 
+
+=== PDF PAGE 12 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+NOTE: For this reason the requirements from Structural Repair Manual (SRM) must be 
+taken into account and the visual inspection of affected area for cracks, scratches, 
+corrosion or other damage evidence has to be done. Also sealant bad condition 
+can trap moisture which could lead to corrosion. If any findings are found the 
+appropriate repairing must be performed before next flight. 
+• 
+Daily detail visual inspection of structure at affected area of damaged sealant 
+for cracks, scratches, corrosion or other damage evidence is done. 
+NEF ITEM PROCESS 
+ 
+The following flow chart will be used for decision making in determining if a discrepancy 
+meets the intent of a NEF Item. If a discrepancy is discovered that is not covered by the 
+aircraft’s Configuration Deviation List (CDL), MEL or NEF List, the Flight Crew, with the 
+assistance of the Technical Department, and/or personnel of Maintenance Control Center 
+should collaborate together to ensure that additional NEF Items can be added to the NEF 
+List are based on the logic requirements of the following flow chart, and subsequently 
+deferred. 
+Upon conclusion of the procedures of the flow chart and it is determined that the 
+discrepancy can be added to the NEF list, item can be deferred before flight. 
+After completed of NEF Item Process you should inform about it Engineering Department 
+using Engineering Recommendation Request (ERR) within 24 hours. 
+Revision of the NEF List shall be completed with next intended revision of NordWind 
+Airlines NEF Program and Procedures Manual. 
+ 
+ 
+ 
+NEF ITEM PROCESS FLOWCHART 
+ 
+1.0 Discrepancy noted in aircraft logbook. 
+The inoperative, damaged or missing item must be identified and documented in the 
+aircraft technical logbook (or other approved location) by: 
+ 
+1. Flight Crew; or 
+2. Company maintenance personnel; or 
+3. Personnel authorized and approved to perform such functions. 
+ 
+2.0 Can the item be deferred in accordance with (IAW) the MMEL, CDL, or the MEL? 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 12 
+ 
+
+=== PDF PAGE 13 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+ 
+1. If the inoperative, damaged, or missing item is listed in the MMEL, 
+CDL, or the MEL, then the deferral procedures for that item must be 
+followed. If the item is a subcomponent of a primary system identified in 
+the MMEL/MEL/CDL, where no previous relief was authorized, the 
+subcomponent may not be deferred in accordance with the NEF 
+procedures outlined in Chapter 25 of the MMEL or MEL. 
+ 
+2.1 Follow MEL/CDL procedures. 
+ 
+1. If the item is identified in another part of the MEL/CDL, then the 
+procedures approved for the deferral of such item must be followed. 
+ 
+3.0 Is item on the NEF deferral list? 
+ 
+1. Is the item on the NEF list? If yes, then follow the NEF deferral 
+procedures in step 3.1. (Items that are not previously on the NEF list 
+should proceed to step 4.0) 
+ 
+3.1 Defer item IAW the NEF deferral program 
+ 
+4.0 Does the item affect the safety of flight? 
+ 
+1. Is it obvious from a maintenance or operational perspective that the 
+item, in and of itself, could have an adverse effect on the safe conduct 
+of flight? If there is an obvious safety-of-flight issue, then the 
+inoperative, damaged, or missing item may not be deferred and step 
+4.1 shall be followed. 
+ 
+4.1 Repair item prior to flight. 
+ 
+1. If the item is identified in the NEF deferral list, then the procedures 
+approved for the deferral of such item shall be followed. 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 13 
+ 
+
+=== PDF PAGE 14 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+ 
+1. The item may not be deferred and must be repaired prior to flight. 
+ 
+5.0 Can source (underlying cause) of the discrepancy be identified? (If applicable) 
+ 
+ 
+1. Can the source of the discrepancy be identified? This step may or 
+may not apply to the item under consideration. If the source can be 
+identified, then proceed to step 6.0, otherwise proceed to step 4.1. 
+ 
+6.0 Can source (underlying cause) of discrepancy affect equivalent levels of safety? 
+ 
+1. If the source (underlying cause) of the discrepancy affect equivalent 
+levels of safety, then it must be determined if it can be isolated from all 
+other systems so as to alleviate any safety concern. 
+Note: In making this determination, very close coordination between the 
+Flight Crew, maintenance and operations personnel may be required. 
+2. If, after review, the source of the discrepancy could be considered a 
+safety-of-flight concern, the item must be repaired prior to flight (step 
+4.1). If the source of the discrepancy is not a safety-of-flight concern 
+then defer the item in accordance with the approved NEF procedures in 
+step 8.0. If it cannot be determined, or is uncertain, that the source of 
+the discrepancy is a safety-offlight concern then proceed to 7.0. 
+ 
+ 
+7.0 Can source (underlying cause) of discrepancy be isolated from the system with 
+applicable maintenance procedures? 
+ 
+1. If applicable, the source (underlying cause) of the discrepancy must 
+be isolated from all other systems so as to alleviate the safety-of-flight 
+concern. 
+2. If the item cannot be safely isolated then the item must be repaired 
+prior to flight (step 4.1). 
+3. If isolated, the isolation of the source must pass the entire test 
+identified in the evaluative process (steps 4.0-7.0) for the item. 
+4. If source can be isolated then proceed to step 8.0. 
+ 
+8.0 Defer Item IAW the existing NEF program. 
+1. Defer the item if, after completing the previous 8 steps, the item can 
+be deferred IAW the NEF program. 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 14 
+ 
+
+=== PDF PAGE 15 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+Note: Before an item can be deferred as an NEF item, the NEF 
+program evaluation process for determining shall be followed if an item 
+can be considered a NEF. Although NEF items are not safety-of-flight 
+items, they have not been evaluated through the normal AEG review 
+process and therefore require the concurrence of the Flight Crew, 
+Maintenance, and Operational personnel, if applicable. NEF items are 
+not deferred under the authority of an airframe and powerplant 
+certificate but rather the item is deferred under the NEF program. 
+ 
+The evaluation process should determine items such as: 
+a. Is the item required for the operational rules in which the aircraft is operated? 
+b. Does it create the potential for fire/smoke or other hazardous conditions? 
+c. Could it have an adverse effect on other required systems or components? 
+d. Does its condition potentially affect the safety of passengers, crew, or service 
+personnel? 
+e. Could it have a negative impact on emergency or abnormal procedures? 
+f. Does it create additional workload for the crew at critical times of flight or 
+flight preparation? 
+g. Crewmembers may need to evaluate the deferred NEF on a flightby-flight 
+basis. 
+ 
+9.0 Update NEF deferral list as required. 
+ 
+1. NordWind Airlines will continually add items to the NEF list as they 
+see fit. 
+2. Upon conclusion of the procedures and it is determined that the 
+discrepancy can be added to the NEF list, necessary inform about it 
+Engineering Department using Engineering Recommendation Request 
+(ERR) within 24 hours. Revision of the NEF List shall be completed with 
+next intended revision of NordWind Airlines NEF Program and 
+Procedures Manual. 
+ 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 15 
+ 
+
+=== PDF PAGE 16 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+ 
+EQUIPMENT and FURNISHING NONESSENTIAL EQUIPMENT and 
+FURNISHING (NEF) 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 16 
+ 
+
+=== PDF PAGE 17 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+ 
+NEF ITEM LIST 
+The following items may be deferred in accordance with the NEF program. 
+## 
+NEF ITEM 
+REPAIR 
+INTERVAL 
+REMARKS,EXCEPTIONS & 
+PROCEDURES 
+1. COCKPIT (Max number of defects - 3) 
+1.1 
+Sunshades 
+A 
+May be inoperative, damaged or missing provided: 
+a. Defect is acceptable for Flight Crew, and 
+b. Repair or replacement must be made within 40 days. 
+1.2 
+Cup Holders 
+D 
+May be damaged, inoperative or missing. 
+1.3 
+Curtains 
+D 
+May be worn, damaged, inoperative or missing. 
+1.4 
+Cushions 
+D 
+May be worn, torn, frayed or stained as long as the 
+item is serviceable as determined by the Flight Crew. 
+1.5 
+Vent knobs 
+D 
+May be inoperative, damaged or missing as long as the 
+air flow through the vent is acceptable to the Flight 
+Crew. 
+1.6 
+Gaspers 
+D 
+May be inoperative, damaged or missing as long as the 
+air flow through the vent is acceptable to the Flight 
+Crew. 
+1.7 
+Upholstery 
+D 
+May be worn, soiled, frayed or stained. 
+1.8 
+Trim: overhead, 
+sidewall, seat etc. 
+D 
+May be worn, damaged, or missing provided it does 
+not present hazard to crew or ground personal. 
+1.9 
+Smoke Goggle 
+Stowage Bags 
+D 
+May be inoperative or missing as long as the crew has 
+an alternate location for Smoke Goggle storage. 
+1.10 Side Panel Map 
+Cases 
+D 
+May be inoperative, damaged or missing as long as the 
+crew has an alternate location for map storage. 
+ 
+ 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 17 
+ 
+
+=== PDF PAGE 18 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+ 
+ 
+## 
+NEF ITEM 
+REPAIR 
+INTERVAL 
+REMARKS,EXCEPTIONS & 
+PROCEDURES 
+1.11 Side View Mirrors 
+D 
+May be damaged, inoperative or missing. 
+1.12 Hand Microphone 
+/Headset Holders 
+D 
+May be damaged, inoperative or missing. 
+1.13 
+Access 
+Compartment 
+Latches 
+D 
+May be damaged, inoperative or missing provided 
+compartment is not used. 
+1.14 Ashtrays 
+D 
+May be damaged, inoperative or missing. 
+1.15 Coat and/or Hat 
+Hooks 
+D 
+May be damaged, inoperative or missing. 
+1.16 Document 
+Holders 
+D 
+May be damaged, inoperative or missing. 
+1.17 Spring Clips 
+D 
+May be damaged, inoperative or missing. 
+1.18 Carpets 
+D 
+May be worn, soiled, or stained as long as the item is 
+serviceable as determined by the Flight Crew. 
+1.19 Logbook Holder 
+D 
+May be damaged, inoperative or missing. 
+1.20 
+Observer’s 
+Storage 
+Compartment 
+D 
+May be inoperative or missing. 
+(M) Maintenance will secure the door closed. Flight 
+Crew may perform task if Maintenance is not 
+available. 
+1.21 Note Pads 
+Holders 
+D 
+May be damaged, inoperative or missing. 
+1.22 Pens / Pencils 
+Holders 
+D 
+May be damaged, inoperative or missing. 
+1.23 
+Wall Coverings 
+(including sidewall 
+panels) 
+D 
+May be worn, soiled, frayed or have minor damage 
+as long as the item is serviceable as determined by 
+the Flight Crew. 
+ 
+ 
+ 
+ 
+ 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 18 
+ 
+
+=== PDF PAGE 19 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+## 
+NEF ITEM 
+REPAIR 
+INTERVAL 
+REMARKS,EXCEPTIONS & 
+PROCEDURES 
+1.24 Electrical Outlets 
+and Covers 
+D 
+The outlets may be inoperative. The covers may be 
+damaged or missing. 
+(M) If required, Maintenance will electrically isolate 
+the affected outlet by pulling and collaring the 
+appropriate circuit breaker. Flight Crew may perform 
+task if Maintenance is not available. If the cover is 
+damaged or missing, no maintenance action is 
+required. 
+1.25 
+Various Forms of 
+Small Interior Parts 
+(bumpers; linings; 
+stoppers; moldings; 
+decorative items 
+etc.) 
+D 
+May be inoperative, damaged or missing provided It 
+has not effect on performance of other equipment, It 
+does not present hazard to pax/crew or impede 
+emergency egress, and it does not prevent the 
+implementation of the necessary procedures. 
+2. GALLEYS (Max number of defects – 5 for each galley) 
+2.1 
+Coffee Makers 
+D 
+May be inoperative. 
+(M) Unserviceable unit placarded inoperative, 
+removed from aircraft, appropriate circuit breaker 
+opened and sealed in open position. Flight Crew may 
+perform task if Maintenance is not available. 
+2.2 
+Convection Oven 
+and Controls 
+D 
+May be inoperative. 
+(M) Unserviceable unit placarded inoperative, 
+removed from aircraft, appropriate circuit breaker 
+opened and sealed in open position. Flight Crew may 
+perform task if Maintenance is not available. 
+2.3 
+Hot Cup and 
+Controls 
+D 
+May be inoperative. 
+(M) Unserviceable unit placarded inoperative, 
+removed from aircraft, appropriate circuit breaker 
+opened and sealed in open position. Flight Crew may 
+perform task if Maintenance is not available. 
+2.4 
+Trash Compactor 
+D 
+May be inoperative. 
+(M) Unserviceable unit placarded inoperative, 
+removed from aircraft, appropriate circuit breaker 
+opened and sealed in open position. Flight Crew may 
+perform task if Maintenance is not available. 
+2.5 
+Ice Container(s) 
+D 
+May be inoperative provided unserviceable unit 
+removed from aircraft. 
+2.6 
+Water Boilers/ 
+Heaters 
+D 
+May be inoperative. 
+(M) Unserviceable unit placarded inoperative, 
+switched off or removed from aircraft, appropriate 
+circuit breaker opened and sealed in open position. 
+Flight Crew may perform task if Maintenance is not 
+available. 
+ 
+ 
+ 
+ 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 19 
+ 
+
+=== PDF PAGE 20 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+## 
+NEF ITEM 
+REPAIR 
+INTERVAL 
+REMARKS,EXCEPTIONS & 
+PROCEDURES 
+2.7 
+Waste Containers 
+C 
+(M) May be inoperative provided unserviceable unit 
+removed from aircraft and container access is secured 
+to prevent waste introduction into compartment. 
+2.8 
+Work Lights and 
+Controls 
+D 
+May be inoperative provided remaining lighting is 
+sufficient for cabin attendants to perform their duties. 
+2.9 
+Sink Drains and 
+Water Spigots 
+D 
+May be inoperative provided associated components 
+are deactivated and secured, and it does not prevent 
+the implementation of the necessary procedures. 
+2.10 Work table/ 
+container retrievers 
+D 
+May be inoperative or missing provided that it does 
+not prevent for cabin attendants to perform their 
+duties safely. 
+2.11 Chilers 
+D 
+May be inoperative. 
+2.12 Gaspers 
+D 
+May be inoperative, damaged or missing. 
+2.13 Electrical Outlets 
+and Covers 
+D 
+The outlets may be inoperative. The covers may be 
+damaged or missing. 
+(M) If required, Maintenance will electrically isolate 
+the affected outlet by pulling and collaring the 
+appropriate circuit breaker. Flight Crew may perform 
+task if Maintenance is not available. If the cover is 
+damaged or missing, no maintenance action is 
+required. 
+2.14 Coating of 
+working surfaces 
+D 
+May be damaged provided it does not prevent cabin 
+attendants of performing their duties.. 
+2.15 Galley Speaker 
+Grill 
+D 
+May be damaged provided speaker operates 
+normally. 
+2.16 Floor Mat 
+D 
+May be worn, frayed, or soiled provided that it does 
+not prevent for cabin attendants to perform their 
+duties safely. 
+2.17 
+Various Forms of 
+Small Interior Parts 
+(bumpers; 
+stoppers;moldings; 
+linings; decorative 
+items etc.) 
+D 
+May be worn, inoperative, damaged or missing 
+provided It has not effect on performance of other 
+equipment, It does not present hazard to pax/crew or 
+impede emergency egress, and it does not prevent the 
+implementation of the necessary procedures. 
+3.1 
+Miscellaneous 
+Cabin Forms 
+D 
+May be missing, damaged, needs painting or 
+replenishing. 
+ 
+ 
+ 
+ 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 20 
+ 
+
+=== PDF PAGE 21 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+## 
+NEF ITEM 
+REPAIR 
+INTERVAL 
+REMARKS,EXCEPTIONS & 
+PROCEDURES 
+3.PASSENGER CABIN (Max number of defects - 10) 
+3.2 
+Appearance Items: 
+ 
+a. 
+Cabin Interior Trim 
+D 
+May be worn, damaged or missing provided it does 
+not present hazard to pax/crew or impede emergency 
+egress as long as the item is serviceable as 
+determined by the Flight Crew. 
+b. 
+Carpet/Floor 
+Coverings 
+D 
+May be worn, frayed, or soiled provided it does not 
+present hazard to pax/crew or impede emergency 
+egress as long as the item is serviceable as 
+determined by the Flight Crew. 
+c. 
+Curtains / Tiebacks 
+D 
+May be worn, soiled, frayed, damaged or missing 
+provided does not present hazard to pax/crew or 
+impede emergency egress. 
+d. 
+Wall Coverings 
+(including sidewall 
+panels) 
+D 
+May be worn, frayed, discoloration or have minor 
+damage as long as the item is serviceable as 
+determined by the Flight Crew. 
+3.3 
+Cabin 
+Lighting/Signs: 
+May be inoperative or missing if items not covered by MEL ATA 33 
+a. 
+Reading Lights 
+D 
+May be inoperative or missing provided repair or 
+replacement must be made within 120 days. 
+b. 
+Light Lens / Covers 
+D 
+May be damaged or missing but light functions 
+properly. 
+c. 
+Lavatory 
+Occupied Lights 
+D 
+May be inoperative or missing provided repair or 
+replacement must be made within 120 days. 
+3.4 
+Safety Demo 
+Equipment: Demo 
+Tape / CD 
+D 
+May be inoperative, damaged or missing. 
+(M) Notify flight attendant, physical demo may be 
+required. 
+(O) May be inoperative provided  flight attendant is 
+notified and a physical demonstration of safety 
+procedures is performed. 
+ 
+3.5 
+Safety Demo 
+Equipment: Safety 
+Belt, Life Vest, and 
+O2 Mask 
+C 
+May be inoperative, damaged or missing provided 
+safety video is available. 
+3.6 
+Magazine Rack / 
+Restraint 
+D 
+May be damaged, inoperative or missing. 
+3.7 
+Gaspers 
+D 
+May be inoperative as long as the air flow through 
+the gasper is acceptable for passenger comfort. 
+ 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 21 
+ 
+
+=== PDF PAGE 22 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+ 
+ ## 
+NEF ITEM 
+REPAIR 
+INTERVAL 
+REMARKS,EXCEPTIONS & 
+PROCEDURES 
+3.8 
+Ash Trays 
+D 
+May be damaged, inoperative or missing provided it 
+does not present hazard to pax/crew. 
+Lavatory internal/external ashtrays are covered by 
+MEL 25-40-02, 25-40-3) 
+3.9 
+Decorative Trim / 
+Trim Strips 
+D 
+May be worn, missing or have minor damages 
+provided it does not present hazard to pax/crew or 
+impede emergency egress. 
+3.10 
+Cushions / 
+Upholstery 
+(including F/A 
+seats) 
+D 
+May be worn, frayed or soiled provided it does not 
+present hazard to pax/crew or impede emergency 
+egress as long as the item is serviceable as 
+determined by the Flight Crew. 
+3.11 Electrical Outlets 
+and Covers 
+D 
+The outlets may be inoperative. The covers may be 
+damaged or missing. 
+(M) If required, Maintenance will electrically isolate 
+the affected outlet by pulling and collaring the 
+appropriate circuit breaker. Flight Crew may perform 
+task if Maintenance is not available. If the cover is 
+damaged or missing, no maintenance action is 
+required. 
+3.12 Cabin Mirrors 
+D 
+May be damaged or missing provided it does not 
+present hazard to pax/crew or impede emergency 
+egress. 
+3.13 Cabin Windows 
+D 
+May be needs cleaning, moisture between panes. 
+a. 
+Interior Panel: 
+D 
+May be damaged, needs cleaning. 
+b. 
+Shades 
+D 
+May be damaged, inoperative or missing provided it 
+does not present hazard to pax/crew or impede 
+emergency egress. 
+c. 
+Window Trim 
+D 
+May be inoperative or missing provided it not present 
+hazard to pax/crew or impede emergency egress. 
+3.14 Seat Track Covers 
+D 
+May be damaged or missing. 
+3.15 Attendant Storage 
+Box 
+D 
+May be inoperative or damaged, provided affected 
+compartment is not used for storage of any item. 
+3.16 Seatback/Sidewall 
+Literature Pockets 
+D 
+May be damaged or missing. 
+3.17 Aircraft Removable 
+Equipment 
+D 
+May be damaged, inoperative or missing. 
+ 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 22 
+ 
+
+=== PDF PAGE 23 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+ 
+ 
+## 
+NEF ITEM 
+REPAIR 
+INTERVAL 
+REMARKS,EXCEPTIONS & 
+PROCEDURES 
+3.18 Bassinet or its 
+attachment point 
+D 
+May be inoperative or missing. 
+3.19 Air Grill Covers 
+D 
+May be damaged, inoperative or missing provided it 
+does not present hazard to pax/crew or impede 
+emergency egress. 
+3.20 
+Paint or Coating 
+inside Luggage 
+Racks/Overhead 
+Storage Bins/ Cabin 
+Storage 
+Compartments etc 
+D 
+May be damaged or needs cleaning provided: 
+a. Appropriate Luggage Racks/ Overhead Storage 
+Bins/ Cabin Storage Compartments operates 
+normally, 
+b. It does not present hazard to pax/crew. 
+3.21 Cabin Handset 
+Cradle 
+D 
+May be damaged provided handset operates normally 
+and can be secured during flight. 
+3.22 Cabin Handset 
+Directory Placard 
+D 
+May be damaged or missing provided handset 
+operates normally and it does not prevent for cabin 
+attendants to perform their duties. 
+3.23 Various Forms of 
+Small Interior Parts 
+(bumpers; 
+stoppers;moldings; 
+linings; decorative 
+items etc.) 
+D 
+May be inoperative, damaged or missing provided It 
+has not effect on performance of other equipment, It 
+does not present hazard to pax/crew or impede 
+emergency egress, and it does not prevent the 
+implementation of the necessary procedures. 
+3.24 Seat Belts (Spare 
+,Extension, Infant) 
+D 
+May be inoperative and missing. 
+3.25 Seat Number 
+Placards 
+D 
+May be damaged or missing. 
+ 
+ 
+3.26 
+Luggage rack/ 
+stowage 
+compartment/ bin 
+latch 
+D 
+DO NOT USE  Placard will be placed in prominent 
+position on or near the affected compartment to be 
+seen by the Flight Crew. 
+Not covered by NEF item 3.27 
+3.27 
+Luggage rack/ 
+stowage with 
+emergency 
+equipment 
+C 
+DO NOT USE  Placard will be placed in prominent 
+position on or near the affected compartment to be 
+seen by the Flight Crew. Emergency equipment 
+located in affected comp. is considered inoperative. 
+4. IN-FLIGHT ENTERTAIMENT(Max number of defects - 10) 
+4.1 
+Individual Video 
+Screens 
+D 
+May be inoperative provided it does not present 
+hazard to pax/crew or impede emergency egress. 
+4.2 
+Entertainment 
+Controllers 
+D 
+One controller per passenger compartment may be 
+inoperative provided it acceptable for passenger 
+comfort. 
+4.3 
+Airshow System 
+D 
+May be inoperative as long as it acceptable for 
+passenger comfort. 
+4.4 
+PSE Preview 
+Screen Function 
+D 
+May be inoperative. 
+ 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 23 
+ 
+
+=== PDF PAGE 24 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+ 
+ 
+ 
+## 
+NEF ITEM 
+REPAIR 
+INTERVAL 
+REMARKS,EXCEPTIONS & 
+PROCEDURES 
+4.5 
+Movie Projectors 
+(includes VCR’s, 
+DVD players) 
+D 
+May be inoperative or missing. 
+4.6 
+Boarding Music 
+D 
+May be inoperative. 
+4.7 
+Video Monitor(s) 
+(wall‐ or overhead 
+mounted units) 
+D 
+May be inoperative or damaged. 
+4.8 
+IFE Video Monitor 
+Shroud(s) 
+D 
+May be damaged or missing. 
+4.9 
+In‐Seat Video 
+Player(s)/Personal 
+Video Players 
+D 
+May be inoperative or missing. 
+4.10 Audio Entertaiment 
+System(s) 
+D 
+May be inoperative. 
+4.11 
+Information Storage 
+Devices (CD; Video 
+Tape; Hard Disc etc) 
+D 
+May be inoperative or missing. 
+4.12 Video/Projector 
+Screen 
+D 
+May be damaged or missing. 
+5. PASSENGER SEATS (Max number of defects – 20) 
+5.1 
+Passenger Seat 
+Tray Table 
+Assembly 
+D 
+(M)May be inoperative or missing as long as it 
+acceptable for passenger comfort provided that all 
+required actions are performed to prevent injury to 
+passengers and crew. 
+5.2 
+Passenger Seat 
+Call Light(s) 
+D 
+May be inoperative or missing. 
+5.3 
+Passenger Seat 
+Call Button(s) 
+D 
+May be inoperative or missing provided Passenger 
+Seat Call Button on the nearest seat operates 
+normally. 
+5.4 
+IFE system Jack(s) 
+D 
+May be damaged, inoperative or missing provided it 
+does not present hazard to pax/crew or impede 
+emergency egress. 
+5.5 
+Reading Light(s) 
+D 
+May be inoperative or missing. 
+ 
+ 
+ 
+ 
+ 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 24 
+ 
+
+=== PDF PAGE 25 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+## 
+NEF ITEM 
+REPAIR 
+INTERVAL 
+REMARKS,EXCEPTIONS & 
+PROCEDURES 
+5.6 
+Passenger Seat 
+Headrest 
+D 
+May be damaged, missing or needs cleaning 
+provided: 
+a. Appropriate Passenger Seat operates normally, 
+b. It acceptable for passenger comfort, 
+c. It does not present hazard to pax/crew or impede 
+emergency egress, and 
+d. Repair or replacement must be made within 30 
+days. 
+5.7 
+Passenger Seat 
+Foot Rest(s) 
+D 
+May be inoperative or missing provided it does 
+present hazard to pax/crew or impede emergency 
+egress. 
+5.8 
+Passenger Seat Trim 
+/Molding/Fairing 
+D 
+May be worn, damaged or missing provided it does 
+not present hazard to pax/crew or impede emergency 
+egress. 
+5.9 
+In-Seat Power 
+Supply System 
+D 
+May be inoperative provided it does not present 
+hazard to pax/crew and that acceptable for passenger 
+comfort. 
+5.10 Passenger Seat 
+Cushion(s) 
+D 
+May be worn, torn, frayed or stained as long as the 
+item is otherwise serviceable as determined by the 
+Flight Crew. 
+5.11 Passenger Seat 
+Armcap 
+D 
+May be damaged or missing as long as the item is 
+serviceable as determined by the Flight Crew and 
+provided it not present hazard to pax/crew or impede 
+emergency egress. 
+5.12 
+Digital Passenger 
+Control Unit/ 
+Handset 
+D 
+May be inoperative provided that acceptable for 
+passenger comfort. 
+5.13 
+Passenger Seats 
+Life Vest Container 
+Cover 
+D 
+May be damaged, missing or needs cleaning 
+provided: 
+a. Appropriate Passenger Seat operates normally, 
+b. It acceptable for passenger comfort, 
+c. It does not present hazard to pax/crew or impede 
+emergency egress, and 
+d. Repair or replacement must be made within 30 
+days. 
+5.14 
+ 
+Various forms of 
+small interior parts 
+(bumpers, stoppers, 
+moldings, linings, 
+decorative items, 
+cap, etc.) 
+ 
+D 
+May be inoperative, damaged or missing provided it 
+has not effect on performance of other equipment, it 
+does not present hazard to pax/crew or impede 
+emergency egress, and it does not prevent the 
+implementation of the necessary procedures. 
+ 
+5.15 Spare Life Vests 
+(Adult/Child/Infant/ 
+Infant life raft) 
+D 
+Any of excess of those that required by MEL Item 
+25-18-01 may be inoperative or missing provided is 
+placarded inoperative, removed from the installed 
+location, and placed out of sight  
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 25 
+ 
+
+=== PDF PAGE 26 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+. LAVATORIES (Max number of defects – 4) 
+6.1 
+Door Spring 
+D 
+May be inoperative or missing. 
+6.2 
+Sanitizer 
+Dispenser 
+D 
+May be inoperative or missing. 
+6.3 
+Seal Strips on 
+Lavatory Door 
+D 
+May be damaged or missing. 
+ 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 26 
+ 
+
+=== PDF PAGE 27 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+## 
+NEF ITEM 
+REPAIR 
+INTERVAL 
+REMARKS,EXCEPTIONS & 
+PROCEDURES 
+6.4 
+Privacy Stop on 
+Lavatory Door 
+D 
+May be damaged, inoperative or missing provided 
+Lavatory Occupied Lights operate normally. 
+6.5 
+Vanity Mirror 
+D 
+May be damaged or missing provided it does not 
+present hazard to pax/crew or impede emergency 
+egress. 
+6.6 
+Lavatory Seat 
+Cover Holder 
+D 
+May be damaged, inoperative or missing. 
+6.7 
+Toilet Paper / 
+Roller 
+D 
+May be damaged, inoperative or missing. 
+6.8 
+Assist Handles 
+D 
+May be missing. 
+6.9 
+Soap Dispenser 
+D 
+May be inoperative or missing. 
+6.10 
+Cup Holder 
+D 
+May be damaged or missing. 
+6.11 
+Coat Hook 
+D 
+May be damaged or missing. 
+6.12 
+Deodorizer 
+Holder 
+D 
+May be damaged or missing. 
+6.13 
+Sink Drain 
+Valves 
+D 
+May be damaged or missing. 
+6.14 
+Electrical Outlets 
+and Covers 
+D 
+The outlets may be inoperative. The covers may be 
+damaged or missing. 
+(M) If required, Maintenance will electrically isolate 
+the affected outlet by pulling and collaring the 
+appropriate circuit breaker. Flight Crew may perform 
+task if Maintenance is not available. If the cover is 
+damaged or missing, no maintenance action is 
+required. 
+6.15 
+Paper Towels 
+Holder/Towel 
+Rod 
+D 
+May be inoperative or missing provided it does not 
+present hazard to pax/crew. 
+6.16 
+Interior Wall 
+Coverings/ Trim 
+D 
+May be worn, frayed, discoloration or have minor 
+damage provided it does not present hazard to 
+pax/crew or impede emergency egress. 
+ 
+ 
+ 
+ 
+ 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 27 
+ 
+
+=== PDF PAGE 28 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+ 
+## 
+NEF ITEM 
+REPAIR 
+INTERVAL 
+REMARKS,EXCEPTIONS & 
+PROCEDURES 
+6.17 Tissue Dispenser 
+D 
+May be inoperative or missing provided it does not 
+present hazard to pax/crew. 
+6.18 Floor Mat 
+D 
+May be worn, frayed, or soiled provided that it does 
+not prevent for cabin attendants to perform their 
+duties safely. 
+6.19 Gaspers 
+D 
+May be inoperative or missing provided it does not 
+present hazard to pax/crew. 
+6.20 
+Toilet door latch 
+sign “occupied/ 
+vacant” 
+D 
+May be inoperative provided toilet door latch 
+operates normally and the repair or replacing must be 
+made as part will be available. 
+6.21 
+Passenger to 
+Attendant call 
+system 
+D 
+May be inoperative provided PA system and alternate 
+Lavatory smoke detector alert (visual or aural) 
+operates normally, passenger lighted information sign 
+in affected lavatory is readily legible. 
+6.22 
+Various Forms of 
+Small Interior Parts 
+(bumpers; stoppers; 
+moldings; linings; 
+decorative items etc) 
+D 
+May be inoperative, damaged or missing provided It 
+has not effect on performance of other equipment, It 
+does not present hazard to pax/crew or impede 
+emergency egress, and it does not prevent the 
+implementation of the necessary procedures. 
+7. CLOSETS AND VESTIBULE (Max number of defects – 4) 
+7.1 
+Closet Doors/ 
+Curtains 
+D 
+May be damaged, inoperative or missing. 
+7.2 
+Manual Storage 
+Compartments 
+D 
+May be damaged provided compartment is not used. 
+7.3 
+Coat Rods 
+D 
+May be damaged or missing. 
+7.4 
+Coat Hangers 
+D 
+May be damaged or missing. 
+7.5 
+Interior Wall 
+Coverings/Trim 
+D 
+May be worn, frayed, discoloration or have minor 
+damage provided it does not present hazard to 
+pax/crew. 
+7.6 
+Closet Lights 
+C 
+May be inoperative or missing. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 28 
+ 
+
+=== PDF PAGE 29 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+## 
+NEF ITEM 
+REPAIR 
+INTERVAL 
+REMARKS,EXCEPTIONS & 
+PROCEDURES 
+7.7 
+Carpets 
+D 
+May be worn, frayed or oiled provided it does not 
+present 
+hazard to pax/crew or impede emergency egress as 
+long 
+as the item is serviceable as determined by the Flight 
+Crew. 
+7.8 
+Gaspers 
+D 
+May be inoperative or missing provided it does not 
+present hazard to pax/crew. 
+7.9 
+Entry/Service 
+Door/Slide Cover 
+D 
+May be dirty, have minor/insignificant damages 
+(cracks, scratches, chips, dents, etc.) provided: 
+a. There are no door’s structure damages, 
+b. It does not affect the performance of other 
+equipment , 
+c. It does not present hazard to pax/crew or impede 
+emergency egress 
+7.10 
+Door Slide Cover 
+Inspection Window 
+Decorative Glass 
+A 
+May be missing, or have minor/insignificant damages 
+provided: 
+a. It does not prevent pressure check in the Slide Air 
+Bottle, 
+b. All required actions are performed to prevent 
+foreign objects entering the inner section of the Slide 
+Cover, and 
+c. Repair or replacement must be made within 30 
+days. 
+7.11 
+Various Forms of 
+Small Interior Parts 
+(bumpers; stoppers; 
+moldings; linings; 
+decorative items etc) 
+D 
+May be inoperative, damaged or missing provided It 
+has not effect on performance of other equipment, It 
+does not present hazard to pax/crew or impede 
+emergency egress, and it does not prevent the 
+implementation of the necessary procedures. 
+7.12 Electrical Outlets 
+and Covers 
+D 
+The outlets may be inoperative. The covers may be 
+damaged or missing.  
+(M) If required, Maintenance will electrically isolate 
+the affected outlet by pulling and collaring the 
+appropriate circuit breaker. Flight Crew may perform 
+task if Maintenance is not available. If the cover is 
+damaged or missing, no maintenance action is 
+required. 
+8. SERVICE BAYS (Max number of defects - 3) 
+8.1 
+External Power 
+Connections 
+ 
+ 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 29 
+ 
+
+=== PDF PAGE 30 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+## 
+NEF ITEM 
+REPAIR 
+INTERVAL 
+REMARKS,EXCEPTIONS & 
+PROCEDURES 
+a. 
+Hold open rods or 
+lanyards 
+D 
+May be damaged or missing. 
+b. 
+Compartment 
+lighting switches 
+D 
+May be inoperative or missing. 
+8.2 
+Potable Water 
+Service Bay 
+ 
+a. 
+Hold open rods 
+or lanyards 
+D 
+May be damaged or missing. 
+b. 
+Compartment 
+lighting lenses 
+D 
+May be damaged or missing. 
+c. 
+Compartment 
+lighting switches 
+D 
+May be inoperative or missing. 
+d. 
+Water quantity 
+indication system 
+D 
+May be inoperative. 
+e. 
+Dust cover cap 
+chains or lanyards 
+D 
+May be damaged or missing. 
+f. 
+Dust cover cup for 
+service ports. 
+N/A 
+Must be installed 
+8.3 
+Toilet Service 
+ 
+a. 
+Hold open rods 
+or lanyards 
+D 
+May be damaged or missing. 
+b. 
+Compartment 
+lighting/ lenses 
+D 
+May be damaged or missing. 
+c. 
+Compartment 
+lighting switches 
+D 
+May be inoperative or missing. 
+d. 
+Dust cover cap 
+chains or lanyards 
+D 
+May be damaged or missing. 
+e. 
+Dust cover cup for 
+service ports. 
+N/A 
+Must be installed 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 30 
+ 
+
+=== PDF PAGE 31 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+8.4 
+Hydraulic Service 
+Bay 
+ 
+a. 
+Compartment 
+lighting lenses 
+D 
+May be damaged or missing. 
+b. 
+Compartment 
+lighting switches 
+D 
+May be inoperative or missing. 
+## 
+NEF ITEM 
+REPAIR 
+INTERVAL 
+REMARKS,EXCEPTIONS & 
+PROCEDURES 
+c. 
+Dust cover cap 
+chains or lanyards 
+D 
+May be damaged or missing. 
+8.5 
+Ground Air Service 
+Bay 
+ 
+a. 
+Hold open rods or 
+lanyards 
+D 
+May be damaged or missing. 
+b. 
+Compartment 
+lighting lenses 
+D 
+May be damaged or missing. 
+c. 
+Compartment 
+lighting switches 
+D 
+May be inoperative or missing. 
+8.6 
+AFT Fuselage/Tail 
+Access 
+ 
+a. 
+Compartment 
+lighting lenses 
+D 
+May be damaged or missing. 
+b. 
+Compartment 
+lighting switches 
+D 
+May be inoperative or missing. 
+c. 
+Hold open rods 
+D 
+May be damaged or missing. 
+8.7 
+Oxygen Service Bay  
+a. 
+Hold open rods or 
+lanyards 
+D 
+May be inoperative or missing. 
+b. 
+Compartment 
+lighting lenses 
+D 
+May be inoperative or missing. 
+c. 
+Compartment 
+lighting switches 
+D 
+May be inoperative or missing. 
+9. CARGO/BAGGAGE COMPARTMENT (Max number of defects - 4) 
+9.1 
+Air Outlet(s): 
+ 
+ 
+ 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 31 
+ 
+
+=== PDF PAGE 32 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+ 
+## 
+NEF ITEM 
+REPAIR 
+INTERVAL 
+REMARKS,EXCEPTIONS & 
+PROCEDURES 
+a. 
+Trim piece 
+D 
+May be missing. 
+b. 
+Vent grill 
+D 
+May be damaged. 
+9.2 
+Anti-skid paint 
+D 
+May be worn or missing. 
+9.3 
+Non-slip tape 
+D 
+May be worn or missing. 
+9.4 
+Fwd/ Aft Cargo 
+Compartment` Side 
+Wall/ Selling Panels 
+& Covering; 
+Dividers 
+A 
+May have cuts or breaks length up to 2 inches 
+provided: 
+a. They are sealed by adhesive tape, 
+b. There are no airframe structure damages, 
+c. It has no effect on the performance of other 
+equipment, 
+d. It does not present hazard to crew members and 
+ground personnel, and 
+e. Repair or replacement must be made within 30 
+days. 
+9.5 
+Trim/ Rubstrips/ 
+Trimstrips 
+D 
+May be damaged or missing provided that the 
+airframe structure is not damaged. 
+10. MISCELLANEOUS 
+10.1 
+Placards/Decals 
+ 
+a. 
+Placards/Decals, 
+Exterior, Required 
+A 
+May have wear with damages such tears, scuff 
+marks, losing color etc., but the decal information is 
+still legible provided: 
+a. Daily inspection for condition should be done until 
+marking replacement, and 
+b. Marking replacement must be made within 10 days 
+b. 
+Placards/Decals, 
+Exterior, 
+Non-Required 
+A 
+May be degraded, missing or information is non-
+legible provided installation or replacement must be 
+made on next A - Check. 
+c. 
+Placards/Decals, 
+Interior, Required 
+A 
+May have wear with damages such tears, scuff 
+marks, losing color etc., but the decal information is 
+still legible provided: 
+a. Daily inspection for condition should be done until 
+marking replacement, and 
+b. Marking replacement must be made within 10 days 
+ 
+ 
+ 
+ 
+ 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 32 
+ 
+
+=== PDF PAGE 33 ===
+NORDWIND AIRLINES 
+AIRBUS A320F NEF PROGRAM & PROCEDURES MANUAL 
+ 
+## 
+NEF ITEM 
+REPAIR 
+INTERVAL 
+REMARKS,EXCEPTIONS & 
+PROCEDURES 
+d. 
+Placards/Decals, 
+Interior, 
+Non-Required 
+A 
+May be degraded, missing or information is non-
+legible provided installation or replacement must be 
+made on next A – Check. 
+10.2 
+Surface Appearance 
+ 
+a. 
+Paint, 
+Interior, 
+Decorative 
+D 
+May have damages such as soiled, worn, cracked, 
+scratched, marred, or blemished. 
+b. 
+Coating, 
+Interior, 
+Decorative 
+D 
+May have damages such as soiled, worn, cracked, 
+scratched, marred, or blemished. 
+c. 
+Contamination of 
+External Surfaces 
+A 
+External Surfaces (including landing gear and wheel 
+wells) may be dirty provided that any visual 
+inspection in this area required by current 
+maintenance visit can be performed properly. 
+Cleaning must be performed within 30 days. 
+10.3 
+Seals/Sealant 
+ 
+a. 
+Seals Silicon 
+Rubber Portion 
+D 
+May have light wear marks, minor tears, flaking and 
+cracking provided: 
+a. Seal still perform their intended function, 
+b. Daily detailed visual inspection of affected area 
+should be done until seals replacement. 
+b. 
+Sealant, 
+Aerodynamics 
+D 
+May have peeling, delamination, partially missing 
+provided 
+a. Bad sealant condition is not associated with 
+corrosion, 
+b. Daily detailed visual inspection of affected area 
+should be done until sealant recovery. 
+ 
+ 
+Revision: 03 
+Date: 10.06.2014 
+NWS-A320F-NEF 
+Page: 33 
+ 

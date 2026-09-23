@@ -1,0 +1,95 @@
+{
+  "name": "mel-generator",
+  "productName": "MEL Generator",
+  "version": "1.1.0",
+  "description": "MMEL scenario generator with optional Fenix failure activation for MSFS 2024",
+  "author": "MEL Generator Project",
+  "private": true,
+  "packageManager": "pnpm@11.19.0",
+  "main": "desktop/main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test ../development/tests/*.test.cjs",
+    "build:service": "powershell -NoProfile -ExecutionPolicy Bypass -File ../development/scripts/build-service.ps1",
+    "build": "pnpm run build:service && electron-builder --win nsis --x64"
+  },
+  "devDependencies": {
+    "electron": "44.3.0",
+    "electron-builder": "26.15.3"
+  },
+  "build": {
+    "appId": "local.melgenerator.desktop",
+    "asar": true,
+    "electronLanguages": [
+      "en-US"
+    ],
+    "directories": {
+      "output": "release",
+      "buildResources": "resources"
+    },
+    "files": [
+      "desktop/**",
+      "ui/**",
+      "data/**",
+      "integration/**",
+      "!integration/SimConnect.dll",
+      "package.json"
+    ],
+    "asarUnpack": [
+      "integration/service/**"
+    ],
+    "extraResources": [
+      {
+        "from": "resources/MMEL.pdf",
+        "to": "MMEL.pdf"
+      },
+      {
+        "from": "resources/THIRD-PARTY-NOTICES.txt",
+        "to": "THIRD-PARTY-NOTICES.txt"
+      },
+      {
+        "from": "integration/SimConnect.dll",
+        "to": "integration/SimConnect.dll"
+      },
+      {
+        "from": "resources/MSFS-SDK-EULA.pdf",
+        "to": "MSFS-SDK-EULA.pdf"
+      }
+    ],
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "SadController",
+        "repo": "MEL-Generator",
+        "releaseType": "release"
+      }
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "resources/icon.ico",
+      "signAndEditExecutable": true,
+      "signExecutable": false,
+      "verifyUpdateCodeSignature": false
+    },
+    "nsis": {
+      "artifactName": "MEL-Generator-Setup-${version}.exe",
+      "oneClick": false,
+      "perMachine": false,
+      "allowElevation": false,
+      "allowToChangeInstallationDirectory": true,
+      "include": "resources/installer.nsh",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "runAfterFinish": false,
+      "deleteAppDataOnUninstall": false,
+      "installerLanguages": [
+        "en_US"
+      ]
+    }
+  },
+  "dependencies": {
+    "electron-updater": "6.8.9"
+  }
+}

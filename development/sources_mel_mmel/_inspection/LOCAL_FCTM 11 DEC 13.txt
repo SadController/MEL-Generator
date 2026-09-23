@@ -1,0 +1,1039 @@
+
+=== PDF PAGE 1 ===
+REFERENCE: NWS A320/A321 FLEET FCTM
+ISSUE DATE: 11 DEC 13
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+The content of this document is the property of Airbus. It is supplied in confidence and commercial
+security on its contents must be maintained. It must not be used for any purpose other than that for
+which it is supplied, nor may information contained in it be disclosed to unauthorized persons. It must
+not be reproduced in whole or in part without permission in writing from the owners of the copyright.
+© AIRBUS 2005. All rights reserved.
+AIRBUS S.A.S
+CUSTOMER SERVICES DIRECTORATE
+31707 BLAGNAC CEDEX
+FRANCE
+
+=== PDF PAGE 2 ===
+Intentionally left blank
+
+=== PDF PAGE 3 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+TRANSMITTAL LETTER
+NWS A320/A321 FLEET
+TRL P 1/2
+FCTM
+11 DEC 13
+Issue date: 11 DEC 13
+This is the FLIGHT CREW TRAINING MANUAL at issue date 11 DEC 13 for the A320/A321 and
+replacing last issue dated 27 NOV 13
+
+=== PDF PAGE 4 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+TRANSMITTAL LETTER
+Intentionally left blank
+NWS A320/A321 FLEET
+TRL P 2/2
+FCTM
+11 DEC 13
+
+=== PDF PAGE 5 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+FILING INSTRUCTIONS
+NWS A320/A321 FLEET
+FI P 1/4
+FCTM
+11 DEC 13
+Please incorporate this revision as follow:
+Insert
+Localization
+Subsection Title
+Remove
+Rev. Date
+PLP-TOC
+TABLE OF CONTENTS
+ALL
+11 DEC 13
+PLP-LESS
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+ALL
+11 DEC 13
+PLP-LEDU
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+ALL
+11 DEC 13
+OP-PLP-TOC
+TABLE OF CONTENTS
+ALL
+11 DEC 13
+OP-PLP-SOH
+SUMMARY OF HIGHLIGHTS
+ALL
+11 DEC 13
+OP-020
+FLIGHT CONTROLS
+ALL
+OP-020
+Flight Controls
+11 DEC 13
+OP-030
+AP / FD / ATHR
+ALL
+OP-030
+AP / FD / A/THR
+11 DEC 13
+NO-PLP-TOC
+TABLE OF CONTENTS
+ALL
+11 DEC 13
+NO-PLP-SOH
+SUMMARY OF HIGHLIGHTS
+ALL
+11 DEC 13
+NO-020
+PRE START
+ALL
+NO-020
+Pre Start
+11 DEC 13
+NO-040
+TAXI
+ALL
+NO-040
+Taxi
+11 DEC 13
+NO-050
+TAKEOFF
+ALL
+NO-050
+Takeoff
+11 DEC 13
+NO-070
+CRUISE
+ALL
+NO-070
+Cruise
+11 DEC 13
+Continued on the following page
+
+=== PDF PAGE 6 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+FILING INSTRUCTIONS
+NWS A320/A321 FLEET
+FI P 2/4
+FCTM
+11 DEC 13
+Continued from the previous page
+Insert
+Localization
+Subsection Title
+Remove
+Rev. Date
+NO-090
+DESCENT
+ALL
+NO-090
+Descent
+11 DEC 13
+NO-110
+APPROACH GENERAL
+ALL
+NO-110
+Approach General
+11 DEC 13
+NO-120
+ILS APPROACH
+ALL
+NO-120
+ILS Approach
+11 DEC 13
+NO-130
+NON PRECISION APPROACH
+ALL
+NO-130
+Non Precision Approach
+11 DEC 13
+NO-170
+LANDING
+ALL
+NO-170
+Landing
+11 DEC 13
+NO-180
+GO AROUND
+ALL
+NO-180
+Go Around
+11 DEC 13
+NO-190
+TAXI IN
+ALL
+NO-190
+Taxi In
+11 DEC 13
+AO-PLP-TOC
+TABLE OF CONTENTS
+ALL
+11 DEC 13
+AO-PLP-SOH
+SUMMARY OF HIGHLIGHTS
+ALL
+11 DEC 13
+AO-026
+FIRE PROTECTION
+ALL
+AO-026
+Fire Protection
+11 DEC 13
+AO-029
+HYDRAULIC
+ALL
+AO-029
+Hydraulic
+11 DEC 13
+Continued on the following page
+
+=== PDF PAGE 7 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+FILING INSTRUCTIONS
+NWS A320/A321 FLEET
+FI P 3/4
+FCTM
+11 DEC 13
+Continued from the previous page
+Insert
+Localization
+Subsection Title
+Remove
+Rev. Date
+AO-090
+MISCELLANEOUS
+ALL
+AO-090
+Miscellaneous
+11 DEC 13
+SI-PLP-TOC
+TABLE OF CONTENTS
+ALL
+11 DEC 13
+SI-PLP-SOH
+SUMMARY OF HIGHLIGHTS
+ALL
+11 DEC 13
+SI-010
+ADVERSE WEATHER
+ALL
+SI-010
+Adverse Weather
+11 DEC 13
+SI-020
+FLYING REFERENCE
+ALL
+SI-020
+Flying Reference
+11 DEC 13
+SI-030
+NAVIGATION ACCURACY
+ALL
+SI-030
+Navigation Accuracy
+11 DEC 13
+SI-040
+ZFW - ZFCG ENTRY ERRORSZFW - ZFCG ENTRY ERRORS
+ALL
+SI-040
+ZFW - ZFCG Entry Errors
+11 DEC 13
+SI-070
+USE OF RADAR
+ALL
+SI-070
+Use of Radar
+11 DEC 13
+SI-100
+Green Operating Procedures
+11 DEC 13
+
+=== PDF PAGE 8 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+FILING INSTRUCTIONS
+Intentionally left blank
+NWS A320/A321 FLEET
+FI P 4/4
+FCTM
+11 DEC 13
+
+=== PDF PAGE 9 ===
+ 
+PRELIMINARY PAGES
+
+=== PDF PAGE 10 ===
+Intentionally left blank
+
+=== PDF PAGE 11 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+PRELIMINARY PAGES
+TABLE OF CONTENTS
+NWS A320/A321 FLEET
+PLP-TOC P 1/2
+FCTM
+11 DEC 13
+IN General Information
+OP Operational Philosophy
+NO Normal Operations
+AO Abnormal Operations
+SI Supplementary Information
+PIR Preventing Identified Risks
+
+=== PDF PAGE 12 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+PRELIMINARY PAGES
+TABLE OF CONTENTS
+Intentionally left blank
+NWS A320/A321 FLEET
+PLP-TOC P 2/2
+FCTM
+11 DEC 13
+
+=== PDF PAGE 13 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320/A321 FLEET
+PLP-LESS P 1/2
+FCTM
+11 DEC 13
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+R
+PLP-LESS
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+11 DEC 13
+PLP-LETDU
+LIST OF EFFECTIVE TEMPORARY DOCUMENTARY UNITS
+11 DEC 13
+IN
+General Information
+27 NOV 13
+OP-010
+INTRODUCTION
+15 FEB 13
+R
+OP-020
+Flight Controls
+11 DEC 13
+R
+OP-030
+AP / FD / A/THR
+11 DEC 13
+OP-040
+ECAM
+30 MAY 13
+NO-010
+GENERAL
+11 SEP 13
+R
+NO-020
+Pre Start
+11 DEC 13
+NO-030
+START
+12 MAR 13
+R
+NO-040
+Taxi
+11 DEC 13
+R
+NO-050
+Takeoff
+11 DEC 13
+NO-060
+CLIMB
+12 MAR 13
+R
+NO-070
+Cruise
+11 DEC 13
+NO-080
+DESCENT PREPARATION
+30 MAY 13
+R
+NO-090
+Descent
+11 DEC 13
+NO-100
+HOLDING
+31 MAY 12
+R
+NO-110
+Approach General
+11 DEC 13
+R
+NO-120
+ILS Approach
+11 DEC 13
+R
+NO-130
+Non Precision Approach
+11 DEC 13
+NO-140
+CIRCLING APPROACH
+31 MAY 12
+NO-150
+VISUAL APPROACH
+30 MAY 13
+NO-160
+PRECISION APPROACH
+15 FEB 13
+R
+NO-170
+Landing
+11 DEC 13
+R
+NO-180
+Go Around
+11 DEC 13
+R
+NO-190
+Taxi In
+11 DEC 13
+AO-010
+GENERAL
+31 MAY 12
+AO-020
+OPERATING TECHNIQUES
+30 MAY 13
+AO-022
+AUTOFLIGHT
+11 APR 12
+AO-024
+ELECTRICAL
+11 APR 12
+R
+AO-026
+Fire Protection
+11 DEC 13
+AO-027
+FLIGHT CONTROLS
+31 MAY 12
+AO-028
+FUEL
+11 APR 12
+R
+AO-029
+Hydraulic
+11 DEC 13
+AO-032
+LANDING GEAR
+15 FEB 13
+AO-034
+NAVIGATION
+27 NOV 13
+AO-070-A
+All Engine Flameout
+27 NOV 13
+R
+AO-090
+Miscellaneous
+11 DEC 13
+R
+SI-010
+Adverse Weather
+11 DEC 13
+R
+SI-020
+Flying Reference
+11 DEC 13
+Continued on the following page
+
+=== PDF PAGE 14 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320/A321 FLEET
+PLP-LESS P 2/2
+FCTM
+11 DEC 13
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+R
+SI-030
+Navigation Accuracy
+11 DEC 13
+R
+SI-040
+ZFW - ZFCG Entry Errors
+11 DEC 13
+SI-060
+TCAS
+27 NOV 13
+R
+SI-070
+Use of Radar
+11 DEC 13
+SI-090
+LANDING PERFORMANCE
+15 FEB 13
+N
+SI-100
+Green Operating Procedures
+11 DEC 13
+PIR-010
+PREVENTING IDENTIFIED RISKS
+11 SEP 13
+(1) Evolution code : N=New, R=Revised, E=Effectivity, M=Moved
+
+=== PDF PAGE 15 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE TEMPORARY DOCUMENTARY UNITS
+NWS A320/A321 FLEET
+PLP-LETDU P 1/2
+FCTM
+11 DEC 13
+M
+Localization
+DU Title
+DU identification
+DU date
+No Temporary Documentary Unit
+
+=== PDF PAGE 16 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE TEMPORARY DOCUMENTARY UNITS
+Intentionally left blank
+NWS A320/A321 FLEET
+PLP-LETDU P 2/2
+FCTM
+11 DEC 13
+
+=== PDF PAGE 17 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+PRELIMINARY PAGES
+AIRCRAFT ALLOCATION TABLE
+NWS A320/A321 FLEET
+PLP-AAT P 1/2
+FCTM
+11 DEC 13
+This table gives, for each delivered aircraft, the cross reference between:
+-
+The Manufacturing Serial Number (MSN).
+-
+The Fleet Serial Number (FSN) of the aircraft as known by AIRBUS S.A.S.
+-
+The registration number of the aircraft as known by AIRBUS S.A.S.
+-
+The aircraft model.
+M
+(1)
+MSN
+FSN
+Registration Number
+Model
+1219
+VQ-BOE
+321-211
+1233
+VQ-BOD
+321-211
+1276
+VQ-BRM
+321-231
+1843
+VQ-BRN
+321-231
+2649
+VP-BJH
+320-232
+2927
+VQ-BRO
+321-231
+2933
+VQ-BRU
+321-232
+3034
+VP-BGH
+321-232
+3120
+VP-BRD
+321-232
+(1) Evolution code : N=New, R=Revised
+
+=== PDF PAGE 18 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+PRELIMINARY PAGES
+AIRCRAFT ALLOCATION TABLE
+Intentionally left blank
+NWS A320/A321 FLEET
+PLP-AAT P 2/2
+FCTM
+11 DEC 13
+
+=== PDF PAGE 19 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+PRELIMINARY PAGES
+LIST OF MODIFICATIONS
+NWS A320/A321 FLEET
+PLP-LOM P 1/2
+FCTM
+11 DEC 13
+M
+(1)
+MODIFICATION
+Linked SB
+Incorp. Date
+Title
+P7790
+17 JUL 12
+AUTO FLIGHT - FLIGHT MANAGEMENT
+AND GUIDANCE SYSTEM - ACTIVATE FMA
+ENHANCEMENT FUNCTION
+Applicable to: MSN 2649-3120
+P5768
+12 MAR 13
+ELEC PWR-AC EMERGENCY GENERATION-
+ ACTIVATE A319/A321 ELECTRICAL EMERGENCY
+CONFIGURATION ON A320 A/C
+Applicable to: MSN 2649
+J0071
+11 APR 12
+WINGS-WING TIP FENCES-INTRODUCE WING TIPS
+INCLUDING FENCES-
+Applicable to: ALL
+P4576
+17 JUL 12
+LANDING GEAR-ALTERNATE BRAKING- INTRODUCE
+MODIFIED ALTERNATE BRAKING SYSTEM
+Applicable to: MSN 2649-3120
+P7929
+12 MAR 13
+NAVIGATION-WEATHER RADAR SYSTEM-INSTALL
+COLLINS DUAL CONTROL PANEL TO ACTIVATE
+MULTISCAN FUNCTION
+Applicable to: MSN 2649
+K2113
+11 APR 12
+FUSELAGE - REAR FUSELAGE SECTION 16A -
+ DEFINE A321 BASIC STRUCTURE
+Applicable to: MSN 1219-1843, 2927-3120
+P7520
+22-1090 11
+17 JUL 12
+AUTOFLIGHT-FMGC-INSTALL FMGC IAE C13042BA01
+(EQUIPPED WITH FMS2 HONEYWELL)
+Applicable to: MSN 1276-3120
+P6183
+11 APR 12
+NAVIGATION - MMR - REMOVE COLLINS MMR
+PROVIDING ILS (FM IMMUNE) AND GPS PRIMARY
+FUNCTION (PREVIOUS SPEC.)
+Applicable to: MSN 1219-1843
+P3341
+11 APR 12
+LANDING GEAR - WHEELS AND BRAKES - INSTALL
+MESSIER GOODRICH WHEELS AND BRAKES ON
+A321
+Applicable to: MSN 1219-1843, 2927-3120
+P6375
+32-1201 04
+17 JUL 12
+LANDING GEAR-PARKING/ULTIMATE EMERGENCY
+BRAKING-INTRODUCE A PRESSURE SWITCH
+Applicable to: ALL
+P3686
+11 APR 12
+AUTO FLIGHT-FAC-INTRODUCE FAC P/N BAM 510
+Applicable to: ALL
+P7876
+73-1075 01
+17 JUL 12
+ENGINE FUEL AND CONTROL - CONTROLLING -
+ INTRODUCE EEC SOFTWARE STANDARD "SCN17"
+ON V2500-A5 ENGINES
+Applicable to: MSN 1276-3120
+Continued on the following page
+
+=== PDF PAGE 20 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+PRELIMINARY PAGES
+LIST OF MODIFICATIONS
+NWS A320/A321 FLEET
+PLP-LOM P 2/2
+FCTM
+11 DEC 13
+Continued from the previous page
+M
+(1)
+MODIFICATION
+Linked SB
+Incorp. Date
+Title
+P5518
+32-1232 01
+32-1336 01
+17 JUL 12
+LANDING GEAR-NORMAL BRAKING- INTRODUCE
+STD 8 BSCU (TWIN VERSION)
+Applicable to: ALL
+22-1089 10
+11 APR 12
+AUTOFLIGHT - FMGC - INSTALL HONEYWELL FMS2
+WITH CFM ENGINES
+Applicable to: MSN 1219-1233
+P4319
+11 APR 12
+AUTO FLIGHT - FCU - DEFINE FLIGHT DIRECTOR
+ENGAGEMENT IN CROSSED BARS AT GO AROUND
+Applicable to: ALL
+P4808
+12 MAR 13
+LANDING GEAR-WHEELS AND BRAKES- INTRODUCE
+BSCU COMMON STD
+Applicable to: MSN 2649
+P3924
+12 MAR 13
+LANDING GEAR - MLG - MESSIER - INTRODUCE
+BRAKES P/N C202253
+Applicable to: MSN 2649
+P3560
+11 APR 12
+AUTO FLIGHT - FMGC - PROVIDE TIME CONSTRAINT
+AND TEN CHARACTERS RTE IDENT FUNCTIONS
+Applicable to: ALL
+P5168
+11 APR 12
+NAVIGATION - MMR - INSTALL COLLINS MMR
+PROVIDING ILS AND GPS FUNCTION
+Applicable to: ALL
+31-1334 04
+31 MAY 12
+INDICATING/RECORDING SYSTEMS - FLIGHT
+WARNING COMPUTER (FWC) - INSTALL FWC
+STANDARD H2-F5
+Applicable to: MSN 1276-1843
+P3511
+11 APR 12
+AUTO FLIGHT - FAC - INSTALL TWO FACS P/N BAM
+0509
+Applicable to: ALL
+P6054
+11 APR 12
+NAVIGATION - MMR - ACTIVATE GPS PRIMARY
+FUNCTION (HYBRID) IN SEXTANT MMR (WITH
+HONEYWELL OR LITTON ADIRU)
+Applicable to: MSN 1219-1843
+P3379
+11 APR 12
+INDICATING/RECORDING SYSTEMS - GENERAL-
+ DEFINE CPIP3
+Applicable to: ALL
+P4320
+11 APR 12
+AUTO FLIGHT-GENERAL-ACTIVATE GLOBAL SPEED
+PROTECTION AND F/D DISENGAGEMENT UPON
+SPEED CONSTRAINTS
+Applicable to: ALL
+(1) Evolution code : N=New, R=Revised, E=Effectivity
+
+=== PDF PAGE 21 ===
+ 
+GENERAL INFORMATION
+
+=== PDF PAGE 22 ===
+Intentionally left blank
+
+=== PDF PAGE 23 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+GENERAL INFORMATION
+PRELIMINARY PAGES
+TABLE OF CONTENTS
+NWS A320/A321 FLEET
+IN-PLP-TOC P 1/2
+FCTM
+27 NOV 13
+FCTM Purpose.........................................................................................................................................................A
+
+=== PDF PAGE 24 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+GENERAL INFORMATION
+PRELIMINARY PAGES
+TABLE OF CONTENTS
+Intentionally left blank
+NWS A320/A321 FLEET
+IN-PLP-TOC P 2/2
+FCTM
+27 NOV 13
+
+=== PDF PAGE 25 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+GENERAL INFORMATION
+NWS A320/A321 FLEET
+IN P 1/2
+FCTM
+A
+27 NOV 13
+FCTM PURPOSE
+Applicable to: ALL
+Ident.: IN-010-00005422.0001001 / 12 MAR 08
+The Flight Crew Training Manual (FCTM) is published as a supplement to the Flight Crew Operating
+Manual (FCOM) and is designed to provide pilots with practical information on how to operate the
+Airbus aircraft. It should be read in conjunction with the FCOM. In the case of any conflict, the FCOM
+is the over-riding authority.
+Airline training policy may differ in certain areas. Should this be the case, the airline training policy is
+the over-riding authority.
+Ident.: IN-010-00005423.0001001 / 18 NOV 13
+COMMENT - QUESTIONS - SUGGESTIONS
+For any questions or comments related to this manual, the Operator’s Flight Operations
+Management may contact the Airbus Flight Operations & Training support department.
+
+=== PDF PAGE 26 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+GENERAL INFORMATION
+Intentionally left blank
+NWS A320/A321 FLEET
+IN P 2/2
+FCTM
+27 NOV 13
+
+=== PDF PAGE 27 ===
+ 
+OPERATIONAL PHILOSOPHY
+
+=== PDF PAGE 28 ===
+Intentionally left blank
+
+=== PDF PAGE 29 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+OPERATIONAL PHILOSOPHY
+PRELIMINARY PAGES
+TABLE OF CONTENTS
+NWS A320/A321 FLEET
+OP-PLP-TOC P 1/2
+FCTM
+11 DEC 13
+OP-010 INTRODUCTION
+INTRODUCTION......................................................................................................................................................A
+Golden Rules for Pilots........................................................................................................................................... B
+1OP-020 Flight Controls
+INTRODUCTION......................................................................................................................................................A
+NORMAL LAW.........................................................................................................................................................B
+ALTERNATE LAW...................................................................................................................................................C
+DIRECT LAW...........................................................................................................................................................D
+INDICATIONS.......................................................................................................................................................... E
+PROTECTIONS........................................................................................................................................................F
+MECHANICAL BACKUP ........................................................................................................................................G
+ABNORMAL ATTITUDES........................................................................................................................................H
+SIDESTICK AND TAKEOVER P/B...........................................................................................................................I
+2OP-030 AP / FD / A/THR
+AUTOPILOT/FLIGHT DIRECTOR...........................................................................................................................A
+AUTOTHRUST (A/THR).......................................................................................................................................... B
+AP, FD, A/THR MODE CHANGES AND REVERSIONS........................................................................................C
+TRIPLE CLICK.........................................................................................................................................................D
+OP-040 ECAM
+PURPOSE OF THE ECAM.....................................................................................................................................A
+MAIN principles........................................................................................................................................................B
+ECAM HANDLING...................................................................................................................................................C
+Use of Summaries...................................................................................................................................................D
+
+=== PDF PAGE 30 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+OPERATIONAL PHILOSOPHY
+PRELIMINARY PAGES
+TABLE OF CONTENTS
+Intentionally left blank
+NWS A320/A321 FLEET
+OP-PLP-TOC P 2/2
+FCTM
+11 DEC 13
+
+=== PDF PAGE 31 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+OPERATIONAL PHILOSOPHY
+PRELIMINARY PAGES
+SUMMARY OF HIGHLIGHTS
+NWS A320/A321 FLEET
+OP-PLP-SOH P 1/2
+FCTM
+11 DEC 13
+Localization
+Title
+Toc
+Index
+ID
+Reason
+OP-PLP-TOC
+Flight Controls
+1
+Documentation update: The "FLIGHT CONTROLS" table of
+content entry renamed in "Flight Controls"
+OP-PLP-TOC
+AP / FD / A/THR
+2
+Documentation update: The "AP / FD / ATHR" table of content
+entry renamed in "AP / FD / A/THR"
+
+=== PDF PAGE 32 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+OPERATIONAL PHILOSOPHY
+PRELIMINARY PAGES
+SUMMARY OF HIGHLIGHTS
+Intentionally left blank
+NWS A320/A321 FLEET
+OP-PLP-SOH P 2/2
+FCTM
+11 DEC 13
+
+=== PDF PAGE 33 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+OPERATIONAL PHILOSOPHY
+INTRODUCTION
+NWS A320/A321 FLEET
+OP-010 P 1/6
+FCTM
+A to B →
+15 FEB 13
+INTRODUCTION
+Ident.: OP-010-00005425.0001001 / 26 MAR 08
+Applicable to: ALL
+The Airbus cockpit is designed to achieve pilot operational needs throughout the aircraft operating
+environment, while ensuring maximum commonality within the Fly by Wire family.
+The cockpit design objectives are driven by three criteria:
+• Reinforce the safety of flight
+• Improve efficiency of flight
+• Answer pilot requirements in a continuously changing environment
+Airbus operational rules result from the design concept, more particularly from the following systems:
+• The Fly by wire system with its control laws and protections, commanded through the side stick,
+• An integrated Auto Flight System (AFS) comprising:
+‐ The FMS interfaced through the MCDU,
+‐ The AP/FD interfaced through the FCU,
+‐ The A/THR interfaced through the non back driven thrust levers,
+‐ The FMA, providing Guidance targets and Information, to monitor the AFS
+• A set of Display units (DU) providing information and parameters required by the crew
+‐ To operate and to navigate the aircraft (the EFIS)
+‐ To communicate (the DCDU)
+‐ To manage the aircraft systems (the ECAM)
+‐ FMA interface to provide Guidance targets and information to monitor the AFS/FD
+• A Forward Facing Cockpit Layout with "Lights out" or "Dark Cockpit" concept assisting the crew
+to properly control the various aircraft systems.
+The operational rules applicable to these specific features are given in the other sections of this
+chapter.
+GOLDEN RULES FOR PILOTS
+Ident.: OP-010-00005426.0001001 / 23 NOV 12
+Applicable to: ALL
+INTRODUCTION
+The Airbus “Golden Rules for Pilots” are operational guidelines, based on all of the following:
+• Basic flying principles
+• The adaptation of these basic flying principles to modern-technology aircraft
+• The provision of information about required crew coordination for the operation of Airbus
+aircraft.
+
+=== PDF PAGE 34 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+OPERATIONAL PHILOSOPHY
+INTRODUCTION
+NWS A320/A321 FLEET
+OP-010 P 2/6
+FCTM
+← B →
+15 FEB 13
+The objective of these Golden Rules is to also take into account the principles of flight crew
+interaction with automated systems, and the principles of Crew Resource Management (CRM), in
+order to help prevent the causes of many accidents or incidents and to ensure flight efficiency.
+GENERAL GOLDEN RULES
+The following four Golden Rules for Pilots are applicable to all normal operations, and to all
+unexpected or abnormal/emergency situations:
+1. Fly. Navigate. Communicate: In this order and with appropriate tasksharing.
+Fly! Navigate! Communicate! The flight crew must perform these three actions in sequence and
+must use appropriate tasksharing in normal and abnormal operations, in manual flight or in flight
+with the AP engaged.
+
+=== PDF PAGE 35 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+OPERATIONAL PHILOSOPHY
+INTRODUCTION
+NWS A320/A321 FLEET
+OP-010 P 3/6
+FCTM
+← B →
+15 FEB 13
+The following explains each of the three actions, and the steps associated with the performance
+of these actions:
+• Fly
+"Fly" indicates that:
+‐ The Pilot Flying  (PF) must concentrate on "flying the aircraft" to monitor and control the
+pitch attitude, bank angle, airspeed, thrust, sideslip, heading, etc., in order to achieve and
+maintain the desired targets, vertical flight path, and lateral flight path.
+‐ The Pilot Not Flying (PNF) must assist the PF and must actively monitor flight
+parameters, and call out any excessive deviation. The PNF’s role of “actively monitoring” is
+very important.
+Therefore, both flight crewmembers must:
+• Focus and concentrate on their tasks to ensure appropriate tasksharing
+• Maintain situational awareness and immediately resolve any uncertainty as a crew.
+• Navigate
+"Navigate" refers to and includes the following four "Know where ..." statements, in order to
+ensure situational awareness:
+• Know where you are…
+• Know where you should be…
+• Know where you should go…
+• Know where the weather, terrain, and obstacles are.
+• Communicate
+“Communicate” involves effective and appropriate crew communication between the:
+• PF and the PNF
+• Flight crew and Air Traffic Control (ATC)
+• Flight crew and the cabin crew
+• Flight crew and the ground crew.
+Communication enables the flight crew to safely and appropriately perform the flight, and
+enhance situational awareness. To ensure good communication, the flight crew should use
+standard phraseology and the applicable callouts.
+In abnormal and emergency situations, the PF must recover a steady flight path, and the flight
+crew must identify the flight situation. The PF must then inform ATC and the cabin crew of:
+▪The flight situation
+▪The flight crew’s intentions.
+The flight crew must therefore always keep in mind the key message:
+Fly the Aircraft, Fly the Aircraft, Fly the Aircraft...
+
+=== PDF PAGE 378 ===
+A320/A321
+FLIGHT CREW TRAINING MANUAL
+PREVENTING IDENTIFIED RISKS
+PREVENTING IDENTIFIED RISKS
+Intentionally left blank
+NWS A320/A321 FLEET
+PIR-010 P 6/6
+FCTM
+11 SEP 13

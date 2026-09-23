@@ -1,0 +1,844 @@
+
+=== PDF PAGE 1 ===
+FAILURE LIST
+v0.2 Alpha - 12/07/2021
+
+
+=== PDF PAGE 2 ===
+Please note - this document contains information from a current Alpha version of the Fenix
+Simulations A320, and is liable to change without notice.
+Name
+Short Description
+A/THR 1
+A/THR functionality of FMGC 1 fails.
+A/THR 2
+A/THR functionality of FMGC 2 fails.
+ABCU
+ABCU fails.
+AC bus 1
+AC bus 1 fails.
+AC bus 1 26v
+The AC bus 1 26V bus has failed
+AC bus 2
+AC bus 2 fails.
+AC bus 2 26v
+The AC bus 2 26v bus has failed
+AC ESS bus 26v
+The AC ESS bus 26v bus has failed
+AC ESS bus ALTN
+AC ESS bus alternate fails.
+AC ESS feed from AC bus 1
+AC ESS feed from AC bus 1.
+AC ESS feed from AC bus 2
+AC ESS feed from AC bus 2.
+AC essential bus
+AC essential bus fails.
+AC essential shed bus
+AC essential shed bus fails.
+AC static inverter bus
+The AC static inverter bus has failed
+ADF 1
+ADF 1 receiver fails.
+ADF 2
+ADF 2 receiver fails.
+ADR1 failure
+ADR1 fails.
+ADR2 failure
+ADR2 fails.
+ADR3 failure
+ADR3 fails.
+Aft avionics door
+Door sensor indicates door is not locked.
+Aft cargo door
+Door sensor indicates door is not locked.
+Aft cargo smoke detected
+Aft cargo smoke detected.
+Aft entry left door
+Door sensor indicates door is not locked.
+Aft entry right door
+Door sensor indicates door is not locked.
+Alignment fault
+SFCC senses difference between right and left flap
+extension.
+Alternate law with protection
+Demonstration of alternate law with protections.
+
+
+=== PDF PAGE 3 ===
+Alternate law without protection
+Demonstration of alternate law without
+protections.
+AOA heat Capt
+AOA heat captain power supply fails.
+AOA heat F/O
+AOA heat F/O power supply fails.
+AOA heat STBY
+AOA heat standby power supply fails.
+AP 1
+Failure of FMGC AP 1 function. FD not affected.
+AP 2
+Failure of FMGC AP 2 function. FD not affected.
+APU bleed valve
+APU bleed valve stuck in current position.
+APU fire extinguished with 1 bottle
+APU fire extinguished with 1 bottle.
+APU fuel valve
+APU fuel valve is stuck in current position.
+APU generator
+APU generator fails.
+APU Loop A
+APU fire detection loop A is depressurized.
+APU Loop B
+APU fire detection loop B is depressurized.
+APU low oil level
+APU oil level is below lower limit.
+APU inextinguishable fire
+APU inextinguishable fire.
+ATC 1
+Transponder channel 1 fails.
+ATC 2
+Transponder channel 2 fails.
+ATSU
+ATSU fails.
+Autobrake failure
+Autobrake fails.
+Avionics smoke detected
+Avionics smoke detected.
+Bleed leak APU
+APU bleed leaks.
+Bleed leak pylon engine 1
+Pylon duct leak engine 1.
+Bleed leak pylon engine 2
+Pylon duct leak engine 2.
+Bleed leak wing engine 1
+Wing duct leak engine 1.
+Bleed leak wing engine 2
+Wing duct leak engine 2.
+Blue hydraulic leak
+Blue hydraulic line leaks.
+Blue low reservoir air pressure
+Blue low reservoir air pressure.
+Blue reservoir overheat
+Temperature of blue reservoir exceeds high limit.
+BMC 1
+BMC 1 fails.
+BMC 2
+BMC 2 fails.
+BSCU 1 brake fault
+BSCU 1 brake system fails.
+
+
+=== PDF PAGE 4 ===
+BSCU 2 brake fault
+BSCU 2 brake system fails.
+BSCU SYS 1
+BSCU SYS 1 fails.
+BSCU SYS 2
+BSCU SYS 2 fails.
+Bulk door
+Door sensor indicates door is not locked.
+Capt stuck mic
+Captain microphone stuck.
+Cargo aft isolation valve downstream
+The valve has failed and will be stuck in its current
+position. Difficult to detect.
+Cargo aft isolation valve upstream
+The valve has failed and will be stuck in its current
+position. Difficult to detect.
+Cargo fwd isolation valve downstream
+The valve has failed and will be stuck in its current
+position. Difficult to detect.
+Cargo fwd isolation valve upstream
+The valve has failed and will be stuck in its current
+position. Difficult to detect.
+Cargo ventilation controller
+Cargo ventilation controller fails.
+CDU 1 recoverable fault
+MCDU 1 fails
+CDU 2 recoverable fault
+MCDU 2 fails
+CFDIU
+CFDIU fails.
+CPC 1
+Cabin pressure controller 1 fails.
+CPC 2
+Cabin pressure controller 2 fails.
+Crew oxygen pressure < 400
+Crew oxygen pressure reduced to 30 PSI.
+Crew oxygen pressure < 800
+Crew oxygen pressure reduced to 600 PSI.
+Crossbleed valve
+Cross bleed valve is stuck in current position.
+Crossfeed valve
+Crossfeed valve stuck.
+CVR
+CVR fails.
+DC Bat bus
+DC Battery bus fails.
+DC bus 1
+DC bus 1 fails.
+DC bus 2
+DC bus 2 fails.
+DC essential bus
+DC essential bus fails.
+DC essential shed bus
+DC essential shed bus fails.
+Direct law
+Demonstration of direct law.
+DMC 1
+DMC 1 fails.
+
+
+=== PDF PAGE 5 ===
+DMC 2
+DMC 2 fails.
+DMC 3
+DMC 3 fails.
+DU Capt ND
+Captain ND fails.
+DU Capt PFD
+Captain PFD fails.
+DU ECAM Lower
+Lower ECAM display fails.
+DU ECAM Upper
+Upper ECAM display fails.
+DU F/O ND
+F/O ND fails.
+DU F/O PFD
+F/O PFD fails.
+ECB
+APU ECB has internal fault.
+ECP
+ECAM control panel internal failure.
+EIU 1
+EIU 1 fails.
+EIU 2
+EIU 2 fails.
+ELAC 1
+ELAC 1 fails.
+ELAC 1 resettable fault
+ELAC 1 fails
+ELAC 2
+ELAC 2 fails.
+ELAC 2 resettable fault
+ELAC 2 fails
+Elec blue pump overheat
+Blue elec pump overheat.
+Elec hyd pump blue failure
+Blue elec hydraulic pump fails.
+Elec hyd pump yellow failure
+Yellow elec hydraulic pump fails.
+Elec yellow pump overheat
+Yellow elec pump overheat.
+Elev L+R failure
+Jamming of both elevator panels.
+Eng 1 bleed low temp
+Engine 1 bleed air low temperature.
+Eng 1 bleed valve
+Engine 1 bleed valve stuck.
+Eng 1 EAI Valve
+Engine 1 anti ice valve fails.
+Eng 1 failure
+Left engine fails.
+Eng 1 failure with damage
+Engine 1 fails with damage.
+Eng 1 fire extinguished with 1 bottle
+Engine 1 fire extinguished with 1 bottle.
+Eng 1 fire extinguished with 2 bottles
+Engine 1 fire extinguished with 2 bottles.
+Eng 1 fire valve
+Engine 1 fire valve fails.
+Eng 1 fuel valve stuck
+Engine 1 fuel valve stuck.
+Eng 1 high vibration N1
+Engine 1 high vibration N1.
+
+
+=== PDF PAGE 6 ===
+Eng 1 high vibration N2
+Engine 1 high vibration N2.
+Eng 1 hot start
+Engine 1 hot start.
+Eng 1 hp fuel valve
+Engine 1 hp fuel valve stuck.
+Eng 1 HP Valve
+Bleed HP valve of engine 1 is stuck in current
+position.
+Eng 1 hung start
+Engine 1 hung start.
+Eng 1 Loop A
+Engine 1 fire detection loop A is depressurized.
+Eng 1 Loop B
+Engine 1 fire detection loop B is depressurized.
+Eng 1 low oil quantity
+Engine 1 low oil quantity.
+Eng 1 no ignition
+Engine 1 no ignition.
+Eng 1 oil temperature high
+Engine 1 high oil temperature.
+Eng 1 oil temperature high advisory
+Engine 1 oil temperature above advisory limit.
+Eng 1 pump failure
+Engine 1 pump fails.
+Eng 1 inextinguishable fire
+Engine 1 inextinguishable fire.
+Eng 2 bleed low temp
+Engine 2 bleed air low temperature.
+Eng 2 bleed valve
+Engine 2 bleed valve stuck.
+Eng 2 EAI Valve
+Engine 2 anti ice valve fails.
+Eng 2 failure
+Right engine fails.
+Eng 2 failure with damage
+Engine 2 fails with damage.
+Eng 2 fire extinguished with 1 bottle
+Engine 2 fire extinguished with 1 bottle.
+Eng 2 fire extinguished with 2 bottles
+Engine 2 fire extinguished with 2 bottles.
+Eng 2 fire valve
+Engine 2 fire valve fails.
+Eng 2 fuel valve stuck
+Engine 2 fuel valve stuck.
+Eng 2 high vibration N1
+Engine 2 high vibration N1.
+Eng 2 high vibration N2
+Engine 2 high vibration N2.
+Eng 2 hot start
+Engine 2 hot start.
+Eng 2 hp fuel valve
+Engine 1 hp fuel valve stuck.
+Eng 2 HP Valve
+Bleed HP valve of engine 2 is stuck in current
+position.
+Eng 2 hung start
+Engine 2 hung start.
+Eng 2 Loop A
+Engine 2 fire detection loop A is depressurized.
+
+
+=== PDF PAGE 7 ===
+Eng 2 Loop B
+Engine 2 fire detection loop B is depressurized.
+Eng 2 low oil quantity
+Engine 2 low oil quantity.
+Eng 2 no ignition
+Engine 2 no ignition.
+Eng 2 oil temperature high
+Engine 2 high oil temperature.
+Eng 2 oil temperature high advisory
+Engine 2 oil temperature above advisory limit.
+Eng 2 pump failure
+Engine 2 pump fails.
+Eng 2 inextinguishable fire
+Engine 2 inextinguishable fire.
+ESS TR failure
+Transformer/Rectifier unit fails and will not provide
+DC power.
+F/O stuck mic
+F/O microphone stuck.
+FAC 1
+FAC 1 fails.
+FAC 1 resettable fault
+FAC 1 fails
+FAC 2
+FAC 2 fails.
+FAC 2 resettable fault
+FAC 2 fails
+FADEC Left Channel A
+FADEC Eng 1 Channel A fails.
+FADEC Left Channel B
+FADEC Eng 1 Channel B fails.
+FADEC Right Channel A
+FADEC Eng 2 Channel A fails.
+FADEC Right Channel B
+FADEC Eng 2 Channel B fails.
+FCDC 1
+FCDC 1 fails.
+FCDC 2
+FCDC 2 fails.
+FCU Channel 1
+FCU channel 1 fails.
+FCU Channel 2
+FCU channel 2 fails.
+FDU 1
+Engine 1 FDU fails.
+FDU 2
+Engine 2 FDU fails.
+FDU 3
+APU FDU fails.
+Flap locked
+Flaps are locked in position by wing tip brakes
+FMGC 1
+FMGC 1 fails.
+FMGC 2
+FMGC 2 fails.
+Forward avionics door
+Door sensor indicates door is not locked.
+Forward cargo door
+Door sensor indicates door is not locked.
+Forward entry left door
+Door sensor indicates door is not locked.
+
+
+=== PDF PAGE 8 ===
+Forward entry right door
+Door sensor indicates door is not locked.
+FQI Chan 1
+FQI channel 1 fails.
+FQI Chan 2
+FQI channel 2 fails.
+Fuel leak Center
+Fuel leak from center tank.
+Fuel leak Left inner
+Fuel leak from left inner tank.
+Fuel leak Left outer
+Fuel leak from left outer tank.
+Fuel leak Right inner
+Fuel leak from right inner tank.
+Fuel leak Right outer
+Fuel leak from right outer tank.
+Fuel pump center 1
+Center tank left pump fails.
+Fuel pump center 2
+Center tank right pump fails.
+Fuel pump left 1
+Left tank pump 1 fails.
+Fuel pump left 2
+Left tank pump 2 fails.
+Fuel pump right 1
+Right tank pump 1 fails.
+Fuel pump right 2
+Right tank pump 2 fails.
+FWC 1
+FWC 1 fails.
+FWC 2
+FWC 2 fails.
+Fwd cargo smoke detected
+Fwd cargo smoke detected.
+Gear locked down
+Gear does not retract when gear lever moved up.
+Gear locked up
+Gear does not extend when gear lever moved
+down.
+Gear safety valve
+Gear safety valve fails.
+Generator 1
+Engine 1 generator fails.
+Generator 2
+Engine 2 generator fails.
+Glideslope
+Glideslope transmitter fails.
+GPS 1
+GPS 1 receiver fails.
+GPS 2
+GPS 2 receiver fails.
+GPWC
+GPWC fails.
+Green hydraulic leak
+Green hydraulic line leaks.
+Green low reservoir air pressure
+Green low reservoir air pressure.
+Green reservoir overheat
+Temperature of green reservoir exceeds high limit.
+Hot air fault
+Hot air fails.
+
+
+=== PDF PAGE 9 ===
+Hot air valve
+Hot air valve stuck in current position.
+Hot air valve aft cargo
+Cargo hot air valve fails.
+Hot bus 1
+The Hot bus 1 bus has failed
+Hot bus 2
+The Hot bus 2 bus has failed
+Icing eng 1
+Engine 1 icing.
+Icing eng 2
+Engine 2 icing.
+IDG 1 oil low pressure
+IDG 1 low oil pressure.
+IDG 1 oil overheat
+IDG 1 oil overheat.
+IDG 2 oil low pressure
+IDG 2 low oil pressure.
+IDG 2 oil overheat
+IDG 2 oil overheat.
+ILS 1 G/S
+ILS 1 G/S channel receiver fails.
+ILS 1 LOC
+ILS 1 LOC channel receiver fails.
+ILS 2 G/S
+ILS 2 G/S channel receiver fails.
+ILS 2 LOC
+ILS 2 LOC channel receiver fails.
+Inner tank high fuel temp advisory
+Inner tank temperatures above advisory limit.
+Inner tank high fuel temp ECAM
+Inner tank temperatures above limit.
+Inner tank low fuel temp advisory
+Inner tank temperatures below advisory limit.
+Inner tank low fuel temp ECAM
+Inner tank temperatures below limit.
+IPPU1
+IPPU1 fails.
+IPPU2
+IPPU2 fails.
+IR1 alignment
+IR1 alignment is lost. Unit should be realigned on
+the ground.
+IR1 bank discrepancy
+IR1 bank discrepancy.
+IR1 heading discrepancy
+IR1 heading discrepancy.
+IR1 IR disagree
+IR1 IR disagree.
+IR1 IR failure
+IR1 total failure.
+IR1 pitch discrepancy
+IR1 pitch discrepancy.
+IR1 position failure
+The IR1 unit has failed. Only attitude data is
+available from this device.
+IR2 alignment
+IR2 alignment is lost. Unit should be realigned on
+the ground.
+
+
+=== PDF PAGE 10 ===
+IR2 bank discrepancy
+IR2 bank discrepancy.
+IR2 heading discrepancy
+IR2 heading discrepancy.
+IR2 IR Disagree
+IR2 IR disagree.
+IR2 IR failure
+IR2 total failure.
+IR2 pitch discrepancy
+IR2 pitch discrepancy.
+IR2 position failure
+The IR2 unit has failed. Only attitude data is
+available from this device.
+IR3 alignment
+IR3 alignment is lost. Unit should be realigned on
+the ground.
+IR3 bank discrepancy
+IR3 bank discrepancy.
+IR3 heading discrepancy
+IR3 heading discrepancy.
+IR3 IR failure
+IR3 total failure.
+IR3 pitch discrepancy
+IR3 pitch discrepancy.
+IR3 position failure
+The IR3 unit has failed. Only attitude data is
+available from this device.
+L Elev failure
+Jamming of left elevator panel.
+Lavatory/Galley fan
+Lavatory/Galley fan fails.
+Left avionics door
+Door sensor indicates door is not locked.
+Left high EGT
+Engine 1 EGT exceeds limit.
+Left high N1
+Engine 1 high N1.
+Left main gear does not lock
+Left gear does not lock.
+Left nacelle temperature high
+Left nacelle temperature high.
+Left oil pressure below advisory limit
+Engine 1 oil pressure below advisory limit.
+Left oil pressure high
+Engine 1 oil pressure above limit.
+Left oil pressure low
+Engine 1 oil pressure below limit.
+Left reverser inhibited by maint
+Left reverser inhibited by maintenance.
+Left reverser pressurized
+Left reverser pressurized.
+Left reverser unlocked
+Left reverser unlocked.
+Left Static heat Capt
+Left static port heat captain power supply fails.
+Left Static heat F/O
+Left static port heat F/O power supply fails.
+Left Static heat Stby
+Left static port heat standby power supply fails.
+
+
+=== PDF PAGE 11 ===
+Left transfer 1
+Left transfer valve 1 stuck in current position.
+Left transfer 2
+Left transfer valve 2 stuck in current position.
+Left WAI Valve
+Left wing anti ice valve locked in current position.
+Left wing 1 door
+Door sensor indicates door is not locked.
+Left wing 2 door
+Door sensor indicates door is not locked.
+LGCUI 1
+LGCIU 1 fails.
+LGCUI 2
+LGCIU 2 fails.
+Localizer
+Localizer transmitter fails.
+MCDU 1
+MCDU 1 fails.
+MCDU 2
+MCDU 2 fails.
+Nose gear does not lock
+Nose gear does not lock.
+Nose wheel steering
+Nose wheel steering fails.
+Outer tank high fuel temp advisory
+Outer tank temperatures above advisory limit.
+Outer tank high fuel temp ECAM
+Outer tank temperatures above limit.
+Outer tank low fuel temp advisory
+Outer tank temperatures below advisory limit.
+Outer tank low fuel temp ECAM
+Outer tank temperatures below limit.
+Outflow valve stuck
+Outflow valve is mechanically stuck in current
+position.
+Oxygen supply valve
+The valve has failed and will be stuck in its current
+position. Detection of this failure is hard
+Pack 1 flow control valve
+The valve has failed and will be stuck in its current
+position. Detection of this failure is difficult.
+Pack 1 overheat
+Pack 1 outlet temperature sensor fails.
+Pack 1 regulator fault
+Pack 1 regulator fails.
+Pack 2 flow control valve
+The valve has failed and will be stuck in its current
+position. Detection of this failure is difficult.
+Pack 2 overheat
+Pack 2 outlet temperature sensor fails.
+Pack 2 regulator fault
+Pack 2 regulator fails.
+PHC 1
+Loss of Captain probe heating.
+PHC 2
+Loss of F/O probe heating.
+PHC 3
+Loss of standby probe heating.
+
+
+=== PDF PAGE 12 ===
+Pitot blocked Capt
+Captain pitot blocked.
+Pitot blocked F/O
+F/O pitot blocked.
+Pitot blocked Stdby
+Standby pitot blocked.
+Pitot heat Capt
+Pitot heat captain power supply fails.
+Pitot heat F/O
+Pitot heat F/O power supply fails.
+Pitot heat STBY
+Pitot heat standby power supply fails.
+PTU Fault
+PTU fails.
+R Elev failure
+Jamming of right elevator panel.
+Radio altimeter 1
+Radio altimeter 1 fails.
+Radio altimeter 2
+Radio altimeter 2 fails.
+Ram air valve
+The valve has failed and will be stuck in its current
+position. Detection of this failure is difficult.
+Rapid decompression
+Rapid decompression.
+Reactive W/S det channel 1
+Reactive W/S det channel 1 fails.
+Reactive W/S det channel 2
+Reactive W/S det channel 2 fails.
+Recirculation fans
+Recirculation fan fails.
+Reverser shutoff valve left
+The valve has failed and will be stuck in its current
+position. Detection of this failure is difficult.
+Reverser shutoff valve right
+The valve has failed and will be stuck in its current
+position. Detection of this failure is difficult.
+Right avionics door
+Door sensor indicates door is not locked.
+Right high EGT
+Engine 2 EGT exceeds limit.
+Right high N1
+Engine 2 high N1.
+Right main gear does not lock
+Right gear does not lock.
+Right nacelle temperature high
+Right nacelle temperature high.
+Right oil pressure below advisory limit
+Engine 2 oil pressure below advisory limit.
+Right oil pressure high
+Engine 2 oil pressure above limit.
+Right oil pressure low
+Engine 2 oil pressure below limit.
+Right reverser inhibited by maint
+Right reverser inhibited by maintenance.
+Right reverser pressurized
+Right reverser pressurized.
+Right reverser unlocked
+Right reverser unlocked.
+
+
+=== PDF PAGE 13 ===
+Right Static heat Capt
+Right static port heat captain power supply fails.
+Right Static heat F/O
+Right static port heat F/O power supply fails.
+Right Static heat Stby
+Right static port heat standby power supply fails.
+Right transfer 1
+Right transfer valve 1 stuck in current position.
+Right transfer 2
+Right transfer valve 2 stuck in current position.
+Right WAI Valve
+Right wing anti ice valve locked in current position.
+Right wing 1 door
+Door sensor indicates door is not locked.
+Right wing 2 door
+Door sensor indicates door is not locked.
+Rudder travel limiter channel 1
+Rudder travel limiter 1 fails.
+Rudder travel limiter channel 2
+Rudder travel limiter 2 fails.
+Rudder trim channel 1
+Rudder trim channel 1 fails.
+Rudder trim channel 2
+Rudder trim channel 2 fails.
+SDAC 1
+SDAC 1 fails.
+SDAC 2
+SDAC 2 fails.
+SDCU
+SDCU fails.
+SEC 1
+SEC 1 fails
+SEC 1 resettable fault
+SEC 1 fails
+SEC 2
+SEC 2 fails.
+SEC 2 resettable fault
+SEC 2 fails
+SEC 3
+SEC 3 fails.
+SEC 3 resettable fault
+SEC 3 fails
+SFCC 1
+SFCC channel 1 fails.
+SFCC 1 flap sys
+SFCC flap 1 system fails.
+SFCC 1 slat sys
+SFCC slat 1 system fails.
+SFCC 2
+SFCC channel 2 fails.
+SFCC 2 flap sys
+SFCC flap 2 system fails.
+SFCC 2 slat sys
+SFCC slat 2 system fails.
+Sidestick fault Capt
+Sidestick captain fails.
+Sidestick fault F/O
+Sidestick F/O fails.
+Sidestick reversal Capt
+Sidestick captain controls are reversed in pitch/roll
+axes.
+
+
+=== PDF PAGE 14 ===
+Sidestick reversal F/O
+Sidestick F/O controls are reversed in pitch/roll
+axes.
+Slat locked
+Slats are locked through wing tip brakes.
+Slow decompression
+Slow decompression.
+Stabilizer jam
+Stabilizer trim actuator fails.
+Start valve left
+Engine 1 start valve locked in closed position.
+Start valve right
+Engine 2 start valve locked in closed position.
+Static inverter
+Static inverter fails.
+TAT heat Capt
+TAT heat captain power supply fails.
+TAT heat F/O
+TAT heat F/O power supply fails.
+TAT heat STBY
+TAT heat standby power supply fails.
+TCAS
+TCAS fails.
+TR 1
+TR 1 fails.
+TR 2
+TR 2 fails.
+Tyre pressure left 1 low
+Left tyre 1 pressure low.
+Tyre pressure left 2 low
+Left tyre 2 pressure low.
+Tyre pressure main 1 low
+Main tyre 1 pressure low.
+Tyre pressure main 2 low
+Main tyre 2 pressure low.
+Tyre pressure right 1 low
+Right tyre 1 pressure low.
+Tyre pressure right 2 low
+Right tyre 2 pressure low.
+Vent extract valve
+The valve has failed and will be stuck in its current
+position. Detection of this failure is difficult
+Vent inlet valve
+The valve has failed and will be stuck in its current
+position. Detection of this failure is difficult
+Ventilation AEVC
+Ventilation AEVC fails.
+Ventilation blower fault
+Blower fan fails.
+Ventilation extract fault
+Extract fan fails.
+VOR 1
+VOR 1 receiver fails.
+VOR 2
+VOR 2 receiver fails.
+WHC 1
+WHC 1 fails.
+WHC 2
+WHC 2 fails.
+
+
+=== PDF PAGE 15 ===
+Wheel brake fault 1
+Wheel 1 brake fails.
+Wheel brake fault 2
+Wheel 2 brake fails.
+Wheel brake fault 3
+Wheel 3 brake fails.
+Wheel brake fault 4
+Wheel 4 brake fails.
+Yaw damper channel 1
+Yaw damper actuator 1 fails.
+Yaw damper channel 2
+Yaw damper actuator 2 fails.
+Yellow hydraulic leak
+Yellow hydraulic line leaks.
+Yellow low reservoir air pressure
+Yellow low reservoir air pressure.
+Yellow reservoir overheat
+Temperature of yellow reservoir exceeds high
+limit.
+Zone controller primary
+Zone primary controller fails.
+Zone controller secondary
+Zone secondary controller fails.

@@ -1,0 +1,24 @@
+{
+  "utc": "2026-09-19T08:59:46.523182+00:00",
+  "dll": "F:\\SteamLibrary\\steamapps\\common\\MSFS2024\\Community\\Community\\p42-util-chaseplane\\Modules\\ChasePlane\\SimConnect.dll",
+  "mode": "read-only",
+  "state": {
+    "TITLE": "A220-300",
+    "SIM ON GROUND": 1.0,
+    "GROUND VELOCITY": 3.8629642957712854e-05,
+    "GENERAL ENG COMBUSTION:1": 0.0,
+    "GENERAL ENG COMBUSTION:2": 0.0,
+    "L:A22X Parking Brake": 1.0,
+    "L:A22X L MKP Powered": 1.0,
+    "L:A22X R MKP Powered": 1.0,
+    "L:A22X DU1 Backlight": 0.75,
+    "L:A22X DU2 Backlight": 0.75,
+    "L:A22X DU3 Backlight": 0.75,
+    "L:A22X Circuit Breaker R C1": 0.0,
+    "L:A22X Circuit Breaker R B4": 0.0,
+    "L:A22X Dome Lights": 0.0,
+    "L:A22X Dome Lights Annunciator": 0.0,
+    "L:A22X Caution PBA": 0.0,
+    "L:A22X Warning PBA": 0.0
+  }
+}

@@ -1,0 +1,2073 @@
+
+=== PDF PAGE 1 ===
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+QUICK REFERENCE HANDBOOK
+The content of this document is the property of Airbus. It is supplied in confidence and commercial
+security on its contents must be maintained. It must not be used for any purpose other than that for
+which it is supplied, nor may information contained in it be disclosed to unauthorized persons. It must
+not be reproduced in whole or in part without permission in writing from the owners of the copyright.
+© AIRBUS 2005. All rights reserved.
+AIRBUS S.A.S
+CUSTOMER SERVICES DIRECTORATE
+31707 BLAGNAC CEDEX
+FRANCE
+
+=== PDF PAGE 2 ===
+Intentionally left blank
+
+=== PDF PAGE 3 ===
+1/2
+A320/A321
+QUICK REFERENCE HANDBOOK
+TRANSMITTAL LETTER
+20 MAY 14
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+Issue date: 20 MAY 14
+This is the QUICK REFERENCE HANDBOOK major event publication at issue date 20 MAY 14 for the
+A320/A321 and replacing last issue dated 11 APR 14
+QRH PAGE GEN.02A PROVIDES ADDITIONAL GUIDANCE TO MANAGE THE QRH UPDATES.
+
+=== PDF PAGE 4 ===
+2/2
+A320/A321
+QUICK REFERENCE HANDBOOK
+TRANSMITTAL LETTER
+20 MAY 14
+Intentionally left blank
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+
+=== PDF PAGE 5 ===
+1/2
+A320/A321
+QUICK REFERENCE HANDBOOK
+FILING INSTRUCTIONS
+20 MAY 14
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+Please incorporate this major event revision as follow:
+Insert
+Localization
+Subsection Title
+Remove
+Rev. Date
+PLP-LESS
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+ALL
+20 MAY 14
+* PLP-LEDU
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+ALL
+20 MAY 14
+OEBPROC-PLP-LEOEB
+LIST OF EFFECTIVE OPERATIONS ENGINEERING BULLETIN
+ALL
+20 MAY 14
+* OEBPROC-PLP-SOH
+SUMMARY OF HIGHLIGHTS
+ALL
+20 MAY 14
+OEBPROC-47
+HYD ENG PUMP LO PR followed by a HYD RSVR OVHT
+ALL
+20 MAY 14
+* Preliminary pages that may be removed from the QRH binder
+
+=== PDF PAGE 6 ===
+2/2
+A320/A321
+QUICK REFERENCE HANDBOOK
+FILING INSTRUCTIONS
+20 MAY 14
+Intentionally left blank
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+
+=== PDF PAGE 7 ===
+1/2
+A320/A321
+QUICK REFERENCE HANDBOOK
+PRELIMINARY PAGES
+LIST OF EFFECTIVE
+SECTIONS/SUBSECTIONS
+20 MAY 14
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+R
+PLP-LESS
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+20 MAY 14
+PLP-LETDU
+LIST OF EFFECTIVE TEMPORARY DOCUMENTARY UNITS
+27 NOV 13
+GEN
+General
+06 MAR 14
+ABN-21
+Air Conditioning/Ventilation/Pressurization
+15 FEB 13
+ABN-22
+Auto Flight
+27 NOV 13
+ABN-24
+Electrical
+06 MAR 14
+ABN-25
+Equipment
+15 FEB 13
+ABN-26
+Fire Protection
+27 NOV 13
+ABN-27
+Flight Controls
+06 MAR 14
+ABN-28
+Fuel
+06 MAR 14
+ABN-29
+Hydraulic
+06 MAR 14
+ABN-30
+Ice and Rain Protection
+15 FEB 13
+ABN-31
+Indicating / Recording Systems
+12 MAR 13
+ABN-32
+Landing Gear
+12 MAR 13
+ABN-34
+Navigation
+06 MAR 14
+ABN-36
+Pneumatic
+11 DEC 13
+ABN-70
+Engines
+27 NOV 13
+ABN-80
+Miscellaneous
+06 MAR 14
+NP-NP
+Normal Procedures
+06 MAR 14
+NP-NCL
+Normal Checklist
+12 MAR 13
+PER-A
+Speeds
+06 MAR 14
+PER-B
+Fuel Penalty Factors
+06 MAR 14
+PER-C
+Landing Performance Assessment
+06 MAR 14
+PER-D
+Landing Distance without Failure
+06 MAR 14
+PER-24
+Landing Distance with Electrical System Failure
+06 MAR 14
+PER-27
+Landing Distance with Flight Controls System Failure
+06 MAR 14
+PER-27A
+Landing Distance with Slats Flaps System Failure
+06 MAR 14
+PER-29
+Landing Distance with Hydraulic System Failure
+06 MAR 14
+PER-30
+Landing Distance with Anti Ice System Failure
+06 MAR 14
+PER-32
+Landing Distance with Brake System Failure
+06 MAR 14
+PER-34
+Landing Distance with Navigation System Failure
+06 MAR 14
+PER-36
+Landing Distance with Bleed System Failure
+06 MAR 14
+PER-70
+Landing Distance with Engine System Failure
+06 MAR 14
+PER-E
+One Engine Inoperative
+06 MAR 14
+PER-G
+All Engines Operative
+06 MAR 14
+PER-H
+Flight Without Cabin Pressurization
+06 MAR 14
+PER-I
+Miscellaneous
+06 MAR 14
+OPS
+Operational Data
+12 MAR 13
+R
+OEBPROC-PLP-LEOEB
+LIST OF EFFECTIVE OPERATIONS ENGINEERING BULLETIN
+20 MAY 14
+(1) Evolution code : N=New, R=Revised, E=Effectivity, M=Moved
+
+=== PDF PAGE 8 ===
+2/2
+A320/A321
+QUICK REFERENCE HANDBOOK
+PRELIMINARY PAGES
+LIST OF EFFECTIVE
+SECTIONS/SUBSECTIONS
+20 MAY 14
+Intentionally left blank
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+
+=== PDF PAGE 9 ===
+1/2
+A320/A321
+QUICK REFERENCE HANDBOOK
+PRELIMINARY PAGES
+LIST OF EFFECTIVE TEMPORARY
+DOCUMENTARY UNITS
+27 NOV 13
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+M
+ (1)
+Localization
+DU Title
+DU identification
+DU date
+ABN-31
+Multiple Undue ECAM Alerts
+00013755.0001001
+08 FEB 13
+Criteria: 31-1276, P8671, P9824
+Applicable to: MSN 2649-3120
+Impacted DU: NONE
+Reason for issue:
+This Temporary Revision is issued to give a procedure to the crew in the case of multiple suspected undue ECAM alerts.
+ABN-80
+Computer Reset Table
+NG00824
+ABN-80
+Computer Reset Table - 21 - Air
+Conditioning/Ventilation/Pressurization
+00013737.0001001
+21 AUG 13
+Criteria: K6443, K9458
+Applicable to: MSN 2649
+Impacted DU: 00010908 Computer Reset Table - 21 - Air Conditioning/Ventilation/Pressurization
+ABN-80
+Computer Reset Table - 21 - Air
+Conditioning/Ventilation/Pressurization
+00013737.0002001
+21 AUG 13
+Criteria: K10463, K6443, K9458
+Applicable to: MSN 2927-3120
+Impacted DU: 00010908 Computer Reset Table - 21 - Air Conditioning/Ventilation/Pressurization
+Reason for issue:
+This Temporary DU is issued for aircraft with the Air Conditioning System Controller 1803B0000-02, in order to provide
+Operators with the ACSC C/B reset procedure to apply in the case of a ″PACK REGUL FAULT″ triggered on ground.
+ABN-80
+Computer Reset Table - 32 - Landing Gear
+00014916.0001001
+23 AUG 13
+Criteria: SA
+Applicable to: ALL
+Impacted DU: 00014915 Computer Reset Table - 32 - Landing Gear
+Reason for issue:
+The BSCU reset procedure for WHEEL N/W STRG FAULT is amended with a temporary procedure, in order to better
+address the spurious alerts that are currently encountered in-service.
+‐ Under the very specific conditions defined in the procedure, the flight crews can continue the flight without
+troubleshooting after a successful BSCU reset.
+‐ For aircraft with BSCU standard 10: The root cause of the spurious alerts that were triggered during taxiing with BSCU
+standard 10 has been cancelled. Therefore, the associated reset procedure has been removed.
+‐ The BSCU reset procedure for BRAKES SYS FAULT or BRAKES BSCU CH FAULT is amended in order to improve the
+wording to comply with Aircraft behavior.
+(1) Evolution code : N=New, R=Revised, E=Effectivity
+
+=== PDF PAGE 10 ===
+2/2
+A320/A321
+QUICK REFERENCE HANDBOOK
+PRELIMINARY PAGES
+LIST OF EFFECTIVE TEMPORARY
+DOCUMENTARY UNITS
+27 NOV 13
+Intentionally left blank
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+
+=== PDF PAGE 11 ===
+1/2
+A320/A321
+QUICK REFERENCE HANDBOOK
+PRELIMINARY PAGES
+AIRCRAFT ALLOCATION TABLE
+27 NOV 13
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+This table gives, for each delivered aircraft, the cross reference between:
+-
+The Manufacturing Serial Number (MSN).
+-
+The Fleet Serial Number (FSN) of the aircraft as known by AIRBUS S.A.S.
+-
+The registration number of the aircraft as known by AIRBUS S.A.S.
+-
+The aircraft model.
+M
+(1)
+MSN
+FSN
+Registration Number
+Model
+1219
+VQ-BOE
+321-211
+1233
+VQ-BOD
+321-211
+1276
+VQ-BRM
+321-231
+1843
+VQ-BRN
+321-231
+2649
+VP-BJH
+320-232
+2927
+VQ-BRO
+321-231
+2933
+VQ-BRU
+321-232
+3034
+VP-BGH
+321-232
+3120
+VP-BRD
+321-232
+(1) Evolution code : N=New, R=Revised
+
+=== PDF PAGE 12 ===
+2/2
+A320/A321
+QUICK REFERENCE HANDBOOK
+PRELIMINARY PAGES
+AIRCRAFT ALLOCATION TABLE
+27 NOV 13
+Intentionally left blank
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+
+=== PDF PAGE 13 ===
+1/6
+A320/A321
+QUICK REFERENCE HANDBOOK
+PRELIMINARY PAGES
+LIST OF MODIFICATIONS
+06 MAR 14
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+M
+(1)
+MODIFICATION
+Linked SB
+Incorp. Date
+Title
+P2590
+11 APR 12
+NAVIGATION - INSTALL A BENDIX TCAS II COLLISION
+AVOIDANCE SYSTEM
+Applicable to: MSN 1219-1233, 2927-3120
+K10494
+17 JUL 12
+AIRBORNE AUXILIARY POWER - GENERAL - INSTALL APIC
+APS3200 APU AS STANDARD (REPLACES HONEYWELL
+GTCP36-300)
+Applicable to: MSN 2649-3120
+K2113
+11 APR 12
+FUSELAGE - REAR FUSELAGE SECTION 16A - DEFINE A321
+BASIC STRUCTURE
+Applicable to: MSN 1219-1843, 2927-3120
+P6251
+11 APR 12
+ICE AND RAIN PROTECTION-WINDSHIELD RAIN
+PROTECTION-INTRODUCE MODIFIED GAGE ASSY WITH
+INPUT VALUE FUNCTION SUPPRESSED
+Applicable to: ALL
+22-1269 04
+26 JUL 13
+AUTO FLIGHT - FMGC - INSTALL FMGC HWL H2C12
+(RELEASE 1A) ON CFM A/C.
+Applicable to: MSN 1219-1233
+P4801
+17 JUL 12
+ELECTRICAL POWER-GENERAL-DEFINE NEW ELECTRICAL
+GENERATION CONCEPT FOR SINGLE AISLE A/C
+Applicable to: MSN 2649-3120
+K6054
+11 APR 12
+EQUIPMENT/FURNISHINGS - MISCELLANEOUS EMERGENCY
+EQUIPMENT - INSTALL A SEXTANT ELT WITH CONTROL
+PANEL IN COCKPIT
+Applicable to: MSN 1219-1233
+K1806
+11 APR 12
+ELECTRICAL POWER-AC/DC ESSENTIAL POWER
+DISTRIBUTION-PROVIDE PROVISIONS FOR ETOPS-
+Applicable to: ALL
+P7175
+17 JUL 12
+ELECTRICAL POWER - GENERAL - INSTALL A COMMERCIAL
+SHEDDING PUSH-BUTTON SWITCH IN COCKPIT
+Applicable to: MSN 1843-3120
+J1334
+11 APR 12
+LANDING GEAR-MLG-LGCIU-INTRODUCTION OF STANDARD
+UNIT P/N A4C
+Applicable to: ALL
+22-1089 10
+11 APR 12
+AUTOFLIGHT - FMGC - INSTALL HONEYWELL FMS2 WITH
+CFM ENGINES
+Applicable to: MSN 1219-1233
+P9355
+17 JUL 12
+NAVIGATION - WEATHER RADAR SYSTEM - REMOVE
+WXR TRANSCEIVER COLLINS -623 AND DEACTIVATE PWS
+(ANTI-MOD 32740/26560)
+Applicable to: MSN 2927-3120
+27-1182 04
+15 FEB 13
+FLIGHT CONTROL - ELAC SYSTEM - INTRODUCE ELAC L93
+SOFTWARE STANDARD.
+Applicable to: MSN 1276-1843
+P1573
+11 APR 12
+ENGINE CONTROLS-MODIFY POWER SUPPLY FOR HP FUEL
+SOLENOID
+Applicable to: ALL
+K5213
+11 APR 12
+AIR CONDITIONING-PACK TEMPERATURE CTRL-
+ INTRODUCE MODIFIED PACK TEMPERATURE CONTROLLER
+Applicable to: ALL
+P5071
+11 APR 12
+ICE AND RAIN PROTECTION-WINSHIELD RAIN
+PROTECTION-ACTIVATION OF RAIN REPELLENT SYS.(FLUID
+COMPATIBLE WITH OZONE RULES)
+Applicable to: ALL
+P6054
+11 APR 12
+NAVIGATION - MMR - ACTIVATE GPS PRIMARY FUNCTION
+(HYBRID) IN SEXTANT MMR (WITH HONEYWELL OR LITTON
+ADIRU)
+Applicable to: MSN 1219-1843
+J0071
+11 APR 12
+WINGS-WING TIP FENCES-INTRODUCE WING TIPS
+INCLUDING FENCES-
+Applicable to: ALL
+K9458
+12 MAR 13
+AIR CONDITIONING - PACK TEMPERATURE CONTROL -
+ INSTALL IMPROVED AIR COND. SYSTEM CONTROLLER PN
+1803B0000-01
+Applicable to: MSN 2649-3120
+
+=== PDF PAGE 14 ===
+2/6
+A320/A321
+QUICK REFERENCE HANDBOOK
+PRELIMINARY PAGES
+LIST OF MODIFICATIONS
+06 MAR 14
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+Continued from the previous page
+M
+(1)
+MODIFICATION
+Linked SB
+Incorp. Date
+Title
+K2450
+49-1072 05
+30 MAY 12
+AIRBORNE AUXILIARY POWER UNIT - INTRODUCE APIC
+APS-3200
+Applicable to: ALL
+P7188
+34-1345 02
+17 JUL 12
+NAVIGATION - EGPWS - ACTIVATE OBSTACLE OPTION ON
+THE EGPWS
+Applicable to: ALL
+P5474
+30 MAY 12
+AUTOFLIGHT-FAC-INTRODUCE FAC STD P/N BAM0514
+Applicable to: MSN 1276
+P7382
+17 JUL 12
+CERTIFICATION DOCUMENTS - GENERAL - MANAGE
+A321-232 TYPE DESIGN
+Applicable to: MSN 2927-3034
+P4766
+30 MAY 12
+NAVIGATION - SINGLE PWS - COLLINS SINGLE PWS
+ACTIVATION
+Applicable to: MSN 1276-1843
+27-1183 02
+30 MAY 12
+FLIGHT CONTROL - ELAC - ACTIVATE HIGH ALTITUDE
+UPSETS VMO/MMO OVERSHOOT PROTECTION FUNCTION
+ON ELAC.
+Applicable to: MSN 1276-1843
+P3112
+30 MAY 12
+NAVIGATION - INSTALL A TCAS II COLLINS SYSTEM
+Applicable to: MSN 1276-2649
+P6044
+11 APR 12
+ICE AND RAIN PROTECTION-WINSHIELD- RAIN
+PROTECTION-INTRODUCE MODIFIED GAGE ASSY -P/N
+4020W35-2
+Applicable to: ALL
+P0091
+17 JUL 12
+OXYGEN - FLIGHT CREW SYSTEM - INSTALL A 77.1 CU/FT
+BOTTLE IN COMPOSITE MATERIAL -
+Applicable to: MSN 2649-3120
+K7755
+25-1305 06
+17 JUL 12
+EQUIPMENT FURNISHINGS-CURTAINS AND
+PARTITIONS-MODIFIED INTRUSION AND PENETRATION
+RESISTANT COCKPIT DOOR
+Applicable to: ALL
+P5895
+11 APR 12
+NAVIGATION-GPWS-INTRODUCE EGPWS P/N 206-206 AND
+INHIBIT AUTOMATIC DEACTIVATION ENHANCED FUNCTIONS
+Applicable to: ALL
+P2316
+11 APR 12
+AUTO FLIGHT - ACTIVATE WINDSHEAR FUNCTION
+Applicable to: ALL
+P6183
+11 APR 12
+NAVIGATION - MMR - REMOVE COLLINS MMR PROVIDING
+ILS (FM IMMUNE) AND GPS PRIMARY FUNCTION (PREVIOUS
+SPEC.)
+Applicable to: MSN 1219-1843
+P5613
+12 MAR 13
+NAVIGATION - TCAS - INSTALL COLLINS TCAS TTR921 WITH
+COLLINS ATC TPR901
+Applicable to: MSN 1843-2649
+49-1071 12
+30 MAY 13
+AIRBORNE AUXILIARY POWER - POWER PLANT - REPLACE
+THE HONEYWELL APU 131-9(A) WITH AN HONEYWELL APU
+GTCP36-300
+Applicable to: MSN 1219-1233
+K4457
+11 APR 12
+A.P.U.-POWER PLANT-INTRODUCE ALLIED SIGNAL APU
+131-9(A)
+Applicable to: MSN 1219-1233, 2649-3120
+J0513
+30 MAY 12
+ICE AND RAIN PROTECTION - WING ICE PROTECTION -
+ ETOPS CIRCUIT BREAKERS 1DL AND 2DL - TRANSFER
+POWER SUPPLY.
+Applicable to: ALL
+P4576
+17 JUL 12
+LANDING GEAR-ALTERNATE BRAKING- INTRODUCE
+MODIFIED ALTERNATE BRAKING SYSTEM
+Applicable to: MSN 2649-3120
+P5768
+12 MAR 13
+ELEC PWR-AC EMERGENCY GENERATION- ACTIVATE
+A319/A321 ELECTRICAL EMERGENCY CONFIGURATION ON
+A320 A/C
+Applicable to: MSN 2649
+P1044
+11 APR 12
+GENERAL - COMPLEMENT OF BASIC DEFINITION
+FOLLOWING ESSENTIAL MAP DEVELOPMENT -
+Applicable to: ALL
+
+=== PDF PAGE 15 ===
+3/6
+A320/A321
+QUICK REFERENCE HANDBOOK
+PRELIMINARY PAGES
+LIST OF MODIFICATIONS
+06 MAR 14
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+Continued from the previous page
+M
+(1)
+MODIFICATION
+Linked SB
+Incorp. Date
+Title
+J0006
+11 APR 12
+FUEL- INSTALL A CENTRE TANK SYSTEM-
+Applicable to: ALL
+46-1018 20
+12 MAR 13
+INFORMATION SYSTEMS - ATIMS - FANS B INSTALLATION
+AND ACTIVATION
+Applicable to: MSN 2649
+00-1066 06
+30 MAY 12
+GENERAL - DESIGN WEIGHTS - OPERATE WITH DUAL
+OPERATIONAL WEIGHTS (MTOW 89T/93T - MLW 77.8T -
+ MZFW 73.8T)
+Applicable to: MSN 1276-1843
+P4234
+11 APR 12
+ICE AND RAIN PROTECTION-WINDSHIELD RAIN
+PROTECTION-DESACTIVATION OF RAIN REPELLENT
+SYSTEM
+Applicable to: ALL
+P6952
+34-1245 03
+17 JUL 12
+NAVIGATION-ADIRS-INSTALL LITTON ADIRU 4 MCU
+STANDARD 0314 (A318 COEFF CFM ADDED)
+Applicable to: MSN 1219-1233, 2927-3120
+P7520
+22-1090 11
+17 JUL 12
+AUTOFLIGHT-FMGC-INSTALL FMGC IAE C13042BA01
+(EQUIPPED WITH FMS2 HONEYWELL)
+Applicable to: MSN 1276-3120
+P8256
+17 JUL 12
+AUTO FLIGHT - FLIGHT AUGMENTATION COMPUTER -
+ INSTALL FAC STANDARD BAM0617 FOR A318
+Applicable to: MSN 1276-3120
+P6954
+17 JUL 12
+AUTO-FLIGHT - FLIGHT AUGMENTATION COMPUTER (FAC) -
+ INTRODUCE FAC SOFTWARE "BAM0616"
+Applicable to: MSN 1276-3120
+P4230
+11 APR 12
+POWER PLANT-GENERAL-INTRODUCE CFM56-5B/P
+Applicable to: MSN 1219-1233
+22-1270 04
+15 FEB 13
+AUTO FLIGHT - FMGC - INSTALL FMGC HWL H2I11 (RELEASE
+1A) ON IAE AND PW A/C.
+Applicable to: MSN 1276-3120
+P4642
+11 APR 12
+NAVIGATION - WEATHER RADAR SYSTEM - ACTIVATE DUAL
+PREDICTIVE WINDSHEAR FUNCTION
+Applicable to: MSN 1219-1233, 2927-3120
+P9107
+31-1267 03
+31-1300 02
+17 JUL 12
+INDICATING/RECORDING SYSTEMS - FLIGHT WARNING
+COMPUTER (FWC) - INSTALL FWC STANDARD H2F3
+Applicable to: ALL
+P4647
+17 JUL 12
+NAVIGATION - WEATHER RADAR SYSTEM - ACTIVATE
+COLLINS DUAL PREDICTIVE WINDSHEAR SYSTEM
+Applicable to: MSN 2649-3120
+P5168
+11 APR 12
+NAVIGATION - MMR - INSTALL COLLINS MMR PROVIDING ILS
+AND GPS FUNCTION
+Applicable to: ALL
+P5971
+30 MAY 12
+NAVIGATION - TCAS - INSTALL COLLINS TCAS COMPUTER
+TTR-920 P/N 622-8971-322 (WITH CHANGE 7)
+Applicable to: MSN 1276
+31-1334 04
+30 MAY 12
+INDICATING/RECORDING SYSTEMS - FLIGHT WARNING
+COMPUTER (FWC) - INSTALL FWC STANDARD H2-F5
+Applicable to: MSN 1276-1843
+K6537
+30 MAY 12
+GENERAL - DESIGN WEIGHT - INCREASE A321-200 DESIGN
+WEIGHT TO 93,0T MTOW 77,8T MLW AND 73,8T MZFW (W.V.
+001)
+Applicable to: MSN 1276-1843
+P1875
+11 APR 12
+AIR CONDITIONING - PROVIDE EMERGENCY POWER
+SUPPLY FOR AFT CARGO COMPT HEATING CONTROLLER
+FOR EROPS -
+Applicable to: MSN 1219-1233, 2649
+P9824
+31-1276 01
+17 JUL 12
+INDICATING/RECORDING SYSTEMS-ELECTRONIC
+INSTRUMENT SYSTEM(EIS)-INSTALL DISPLAY
+MANAGEMENT COMPUTER SOFTWARE EIS2 S7
+Applicable to: MSN 2649-3120
+P1872
+11 APR 12
+AIR CONDITIONING - INSTALL CIRCUIT BREAKER FOR REAR
+CARGO COMPT VALVE SUPPLY FOR EROPS -
+Applicable to: MSN 1219-2649
+
+=== PDF PAGE 16 ===
+4/6
+A320/A321
+QUICK REFERENCE HANDBOOK
+PRELIMINARY PAGES
+LIST OF MODIFICATIONS
+06 MAR 14
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+Continued from the previous page
+M
+(1)
+MODIFICATION
+Linked SB
+Incorp. Date
+Title
+K10009
+17 JUL 12
+EQUIPMENT/FURNISHINGS - CURTAINS AND PARTITIONS -
+ INSTALL IMPROVED STRIKES FOR COCKPIT DOOR
+Applicable to: MSN 2649-3120
+P7125
+17 JUL 12
+INDICATING RECORDING SYSTEM-FWC- INTRODUCE FWC
+STANDARD H2 F1
+Applicable to: ALL
+P8671
+17 JUL 12
+INDICATING/RECORDING SYSTEMS-ELECTRONIC
+INSTRUMENT SYSTEM(EIS)- INSTALL DISPLAY
+MANAGEMENT COMPUTER SOFTWARE EIS2 S4-2
+Applicable to: MSN 2649-3120
+J2527
+12 MAR 13
+FUEL - QUANTITY INDICATING - INSTALL FUEL QUANTITY
+INDICATING COMPUTER STANDARD 13.10
+Applicable to: MSN 2649
+P4089
+12 MAR 13
+AUTO FLIGHT-FMGC-REDUCE VAPP FOR A320 CFM/IAE
+Applicable to: MSN 2649
+P4502
+11 APR 12
+INFORMATION SYSTEM - AIR TRAFFIC AND INFORMATION
+SYSTEM (ATIMS) - INSTALL ATSU COMPUTER FOR ACARS
+Applicable to: ALL
+P6777
+17 JUL 12
+INFORMATION SYSTEM-ATIMS- UPGRADE ATSU HARDWARE
+FOR NEW ARINC 429 I/O BOARD
+Applicable to: MSN 1843-3120
+J2360
+12 MAR 13
+FUEL - QUANTITY INDICATION - INTRODUCE FUEL LEAK
+DETECTION
+Applicable to: MSN 2649
+P6578
+17 JUL 12
+INDICATING RECORDING SYSTEMS- EIS-INSTALL DMC, DU
+AND DISKETTES FOR EIS2
+Applicable to: MSN 2649-3120
+73-1100 02
+06 MAR 14
+ENGINE FUEL AND CONTROL- FADEC SYSTEM- INSTALL
+ECU SOFTWARE STANDARD 5BS2 ON CFM56-5B ENGINES.
+Applicable to: MSN 1219-1233
+25-1444 02
+11 APR 12
+EQUIPMENT/FURNISHINGS - CURTAINS AND PARTITIONS 
+- INTRODUCE PPTC FOR COCKPIT DOOR STRIKE
+PROTECTION
+Applicable to: MSN 1219-1843
+P5638
+34-1261 12
+17 JUL 12
+NAVIGATION-STANDBY DATA : ALTITUDE AND HEADING 
+- INSTALL INTEGRATED STANDBY INSTRUMENT SYSTEM
+(ISIS)
+Applicable to: MSN 1276-3120
+P7278
+17 JUL 12
+INDICATING/RECORDING SYSTEM-EIS2- INSTALL MODIFIED
+EIS2 SOFTWARE
+Applicable to: MSN 2649-3120
+K10143
+23-1293 02
+17 JUL 12
+EQUIPMENT/FURNISHINGS - MISC. EMERGENCY
+EQUIPMENT-INSTALL ELT(406AF) WITH PROG. DONGLE AND
+RCP IN COCKPIT - THALES
+Applicable to: MSN 2649-3120
+P0160
+12 MAR 13
+OXYGEN - FLIGHT CREW OXYGEN - INSTALL A 115 CU/FT
+STEEL OXYGEN CYLINDER -
+Applicable to: MSN 2649
+P3341
+11 APR 12
+LANDING GEAR - WHEELS AND BRAKES - INSTALL MESSIER
+GOODRICH WHEELS AND BRAKES ON A321
+Applicable to: MSN 1219-1843, 2927-3120
+J2153
+30 MAY 12
+FUEL-CERTIFICATION OF FUEL SYSTEM- (LOW PRESSURE
+SYSTEM) FOR THE OPERATION 0 TO 2 ACTS
+Applicable to: MSN 1276-1843, 2927-3120
+K10463
+30 MAY 13
+AIR CONDITIONING - PACK TEMPERATURE CONTROL 
+- INSTALL AIR CONDITIONING CONTROLLER P/N
+1803B0000-02
+Applicable to: MSN 2927-3120
+P9126
+22-1203 02
+17 JUL 12
+AUTOFLIGHT - FMGC - INSTALL FMGC IAE/PW STD P1I10
+(WITH FMS2 HONEYWELL) ON A/C FITTED WITH IAE OR PW
+POWERPLANTS
+Applicable to: MSN 1276-3120
+P4319
+11 APR 12
+AUTO FLIGHT - FCU - DEFINE FLIGHT DIRECTOR
+ENGAGEMENT IN CROSSED BARS AT GO AROUND
+Applicable to: ALL
+
+=== PDF PAGE 17 ===
+5/6
+A320/A321
+QUICK REFERENCE HANDBOOK
+PRELIMINARY PAGES
+LIST OF MODIFICATIONS
+06 MAR 14
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+Continued from the previous page
+M
+(1)
+MODIFICATION
+Linked SB
+Incorp. Date
+Title
+P2217
+11 APR 12
+INDICATING/RECORDING SYSTEMS - FWS - INTRODUCE C3
+STD
+Applicable to: ALL
+46-1032 03
+12 MAR 13
+INFORMATION SYSTEMS - ATIMS - INSTALL ATSU CSB5
+WITH H/W -A10
+Applicable to: MSN 2649
+22-1102 02
+27 NOV 13
+AUTO FLIGHT - FLIGHT AUGMENTATION COMPUTER -
+ INSTALL FAC STANDARD BAM0617.
+Applicable to: MSN 1276-1843
+K10516
+17 JUL 12
+AIRBORNE AUXILIARY POWER - CONTROL AND
+MONITORING - INTRODUCE HONEWELL VECB WITH
+SOFTWARE -04
+Applicable to: MSN 2927-3120
+K8400
+17 JUL 12
+COMMUNICATIONS-CIDS-INTRODUCE ENHANCED CIDS
+(A318 VERSION) AND RELATED SYSTEMS ON SINGLE AISLE
+FAMILY
+Applicable to: MSN 2649-3120
+P6985
+17 JUL 12
+NAVIGATION - ADIRS - INSTALL HONEYWELL ADIRU 4MCU
+P/N HG2030AE21 (A318 COEFF CFM ADDED)
+Applicable to: MSN 2649-3120
+P8799
+34-1352 01
+17 JUL 12
+NAVIGATION- GPWS - USE LATERAL GPS POSITION WITH
+AUTOMATIC DESELECTION
+Applicable to: MSN 1219, 1276-3120
+P7062
+17 JUL 12
+OXYGEN - CREW OXYGEN - INSTALL ALTERNATIVE 115CU
+FT FLIGHT CREW OXYGEN CYLINDER COMPOSITE SCOTT
+P/N 897940-15
+Applicable to: MSN 2927-3120
+K7790
+17 JUL 12
+DOORS-PASSENGER COMPARTMENT FIXED INTERIOR
+DOORS-INSTALL ELECTRICAL COCKPIT DOOR RELEASE
+SYSTEM
+Applicable to: ALL
+P5591
+11 APR 12
+NAVIGATION - MMR - INSTALL SEXTANT MMR PROVIDING
+ILS (FM IMMUNE)
+Applicable to: MSN 1219-1843
+K0070
+11 APR 12
+AIR CONDITIONING - CARGO COMPARTMENT -
+ VENTILATION - INSTALL SYSTEM IN AFT COMPARTMENT -
+Applicable to: MSN 1219-2649
+K0064
+11 APR 12
+LIGHTS - EXTERIOR LIGHTS - INSTALL SYNCHRONIZED
+STROBE LIGHTS
+Applicable to: ALL
+P3878
+11 APR 12
+FLIGHT CONTROLS-INTRODUCE ELAC STD L69J
+Applicable to: ALL
+J1617
+12 MAR 13
+FLIGHT CONTROLS-GENERAL- DELETION OF L.A.F.
+FEATURE FROM A320 A/C (SERIAL SOLUTION)
+Applicable to: MSN 2649
+P5706
+31-1257 01
+30 MAY 12
+INDICATING RECORDING SYSTEM-FWC- INTRODUCE FWC
+STANDARD H2/E3P
+Applicable to: ALL
+K6345
+17 JUL 12
+GENERAL - DESIGN WEIGHTS - INCREASE A321-200 DESIGN
+WEIGHTS TO 77.8 T MLW AND 73.8 T MZFW (WEIGHT
+VARIANT 002)
+Applicable to: MSN 2927-3120
+P4885
+11 APR 12
+NAVIGATION - GPWS - ACTIVATE ENHANCED FUNCTIONS
+OF THE EGPWS
+Applicable to: ALL
+P7455
+17 JUL 12
+ELECTRICAL POWER-GENERAL-CHANGE IFE POWER
+SUPPLY BUSBARS INTO SHEDDABLE BUSBARS 220XP AND
+212PP
+Applicable to: MSN 1843-3120
+K6156
+11 APR 12
+AIR CONDITIONING-PACK TEMP.CTRL INTRODUCE
+MODIFIED PACK TEMP. CTRL P/N 759D0000-02
+Applicable to: ALL
+P1970
+23-1024 48
+23-1049 24
+11 APR 12
+COMMUNICATIONS - INSTALL HF1 FOR EROPS
+Applicable to: MSN 1219-1233, 1843-3120
+
+=== PDF PAGE 18 ===
+6/6
+A320/A321
+QUICK REFERENCE HANDBOOK
+PRELIMINARY PAGES
+LIST OF MODIFICATIONS
+06 MAR 14
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+Continued from the previous page
+M
+(1)
+MODIFICATION
+Linked SB
+Incorp. Date
+Title
+K6443
+12 MAR 13
+AIR CONDITIONING-AIR COOLING- INSTALL A NEW ECS
+Applicable to: MSN 2649-3120
+P4983
+11 APR 12
+AUTO-FLIGHT-FAC INTRODUCE FAC STD BAM 0513
+Applicable to: ALL
+P4539
+11 APR 12
+AUTOFLIGHT-FLIGHT CONTROL UNIT- (FCU) INTRODUCE
+SEXTANT MODULAR FCU
+Applicable to: ALL
+P4121
+11 APR 12
+EXHAUST-THRUST REVERSER CONTROL AND
+INDICATING-ACTIVATE ADDITIONAL THRUST REVERSER
+LOCK CONTROL
+Applicable to: ALL
+K3901
+12 MAR 13
+COMMUNICATIONS-CIDS-INTRODUCE MODIFIED DIRECTOR
+POWER SUPPLY PRINCIPLE
+Applicable to: MSN 2649
+K5638
+30 MAY 12
+EQUIPMENT/FURNISHINGS-MISCELLANEOUS EMERGENCY
+EQUIPMENT-INSTALL ELT CEIS A06V2 WITH CONTROL
+PANEL IN COCKPIT
+Applicable to: MSN 1276-1843
+P5451
+11 APR 12
+ELECTRICAL POWER - GENERAL - AC-DC MAIN
+DISTRIBUTION - INSTALL AC-DC SHEDDABLE BUSBARS
+Applicable to: ALL
+P5669
+11 APR 12
+NAVIGATION - TCAS - INSTALL ALLIED SIGNAL TCAS
+COMPUTER P/N 066-50000-2220 (WITH CHANGE 7.0)
+Applicable to: MSN 1219-1233, 2927-3120
+P8710
+12 MAR 13
+NAVIGATION - WEATHER RADAR SYSTEM - INSTALL
+COLLINS TRANSCEIVER FULLY COMPLIANT WITH
+MULTI-SCAN FUNCTION
+Applicable to: MSN 2649
+P6703
+22-1102 02
+22-1226 03
+30 MAY 12
+AUTO-FLIGHT-FLIGHT AUGMENTATION
+COMPUTER-INTRODUCE FAC SOFTWARE STANDARD P/N
+B397BAM0515
+Applicable to: MSN 1276-3120
+(1) Evolution code : N=New, R=Revised, E=Effectivity
+
+=== PDF PAGE 19 ===
+GEN
+1/2
+A320/A321
+QUICK REFERENCE HANDBOOK
+GENERAL
+TABLE OF CONTENTS
+06 MAR 14
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+Important.........................................................................................GEN.01A
+General Information........................................................................GEN.02A
+
+=== PDF PAGE 20 ===
+GEN
+2/2
+A320/A321
+QUICK REFERENCE HANDBOOK
+GENERAL
+TABLE OF CONTENTS
+06 MAR 14
+Intentionally left blank
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+
+=== PDF PAGE 21 ===
+GEN.01A
+A320/A321
+QUICK REFERENCE HANDBOOK
+GENERAL
+06 MAR 14
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+IMPORTANT
+Ident.: GEN-A-00010781.0001001 / 03 JAN 11
+Applicable to: ALL
+SCOPE
+The QRH contains some specific procedures which are not displayed on the ECAM.
+As a general rule, the procedures displayed on the ECAM are not provided in the QRH (refer to FCOM
+PRO/ABN).
+Ident.: GEN-A-00010782.0001001 / 08 FEB 13
+Applicable to: ALL
+TASKSHARING FOR ABN/EMER PROC
+For all abnormal/emergency procedures, the tasksharing is as follows :
+‐ PF - Pilot flying - Responsible for the :
+• Thrust levers
+• Flight path and airspeed control
+• Aircraft configuration (request configuration change)
+• Navigation
+• Communications
+‐ PNF - Pilot non flying - Responsible for the :
+• Monitoring and reading aloud the ECAM and checklists
+• Performing required actions or actions requested by the PF, if applicable
+• Using engine master switches, cockpit C/Bs, IR and guarded switches with PF's confirmation (except
+on ground).
+Ident.: GEN-A-00010783.0001001 / 16 AUG 10
+Applicable to: ALL
+ECAM CLEAR
+DO NOT CLEAR ECAM WITHOUT CROSS-CONFIRMATION OF BOTH PILOTS.
+Ident.: GEN-A-00010784.0001001 / 16 AUG 10
+Applicable to: ALL
+ABN/EMER PROC INITIATION
+Procedures are initiated on pilot flying command.
+No action will be taken (apart from audio warning cancel through MASTER WARN light) until :
+‐ The appropriate flight path is established, and
+‐ The aircraft is at least 400 ft above the runway, if a failure occurs during takeoff, approach, or
+go-around. (In some emergency cases, provided the appropriate flight path is established, the pilot
+flying may initiate actions before this height).
+Ident.: GEN-A-00010786.0001001 / 16 AUG 10
+Applicable to: ALL
+NORMAL CHECKLIST
+Normal C/L are initiated by the PF and read by the PNF.
+The PF shall respond after having checked the existing configuration. When both pilots have to respond,
+"BOTH" is indicated.
+Ident.: GEN-A-00014868.0001001 / 08 FEB 13
+Applicable to: ALL
+DEFINITIONS OF WARNINGS, CAUTIONS AND NOTES
+The following are the official definitions of warnings, cautions and notes taken directly from the
+JAR25/CS-25 and applicable to Airbus flight operation documentation:
+WARNING
+An operating procedure, technique, etc. that may result in personal injury or loss of life
+if not followed.
+CAUTION
+An operating procedure, technique, etc. that may result in damage to equipment if not
+followed.
+NOTE
+An operating procedure, technique, etc. considered essential to emphasize.
+Information contained in notes may also be safety related.
+
+=== PDF PAGE 22 ===
+GEN.02A
+A320/A321
+QUICK REFERENCE HANDBOOK
+GENERAL
+06 MAR 14
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+GENERAL INFORMATION
+Ident.: GEN-B-00015488.0001001 / 24 FEB 14
+Applicable to: ALL
+QRH REVISION DATE
+The update of the FCOM does not necessarily result in the update of the QRH. Therefore, the revision
+dates of the QRH and of the FCOM may differ.
+Ident.: GEN-B-00013808.0001001 / 23 MAR 11
+Applicable to: ALL
+EFFECTIVITY
+As QRH is published at aircraft level, each paper page has only one effectivity.
+Ident.: GEN-B-00013795.0001001 / 28 FEB 14
+Applicable to: ALL
+PAGE NUMBERING
+The page numbering follows the following rules:
+01A, 02A, 02B,..
+:
+Numbering and Index (A, B, ...) for GEN, ABN, OPS, OEB PROC sections
+Note:
+For these sections, the procedures start with the index A and for long procedures (more than
+one page), the index continues with B, C...
+1/10, 3/5, ...
+:
+Numbering for NP-NP, PER
+C1, C2
+:
+Back cover page interior
+C3
+:
+Back cover page exterior
+"BLANK"
+:
+Index of an intentionally left blank paper page created to ensure the correct
+format of the next chapter (begins on recto page)
+Ident.: GEN-B-00013809.0001001 / 08 FEB 13
+Applicable to: ALL
+PRELIMINARY PAGES WITHIN THE QRH BINDER
+It is essential for Airlines to correctly manage the updates of the QRH. For this purpose, Airbus publishes
+Preliminary Pages (PLP) with each QRH revision. These PLP are used as reference documents for
+Airlines to manage the QRH updates, e.g. easily insert the revisions, identify the modifications that
+impact the QRH, get a synthesis of changes introduced with each revision. However, when the QRH
+revisions have been incorporated in accordance with the information given in the PLP, these pages do not
+bring operational added value and therefore are no longer useful in the QRH binder for any operational
+purposes. Therefore, to minimize the size of the QRH binder on board the aircraft and to optimize the
+operational use of the QRH, Airbus has no objection that the Airlines remove the PLP from the QRH
+after the revisions have been incorporated in the QRH and all checks performed to confirm the revisions
+have been correctly incorporated. You will find below the list of PLP that may be removed from the QRH
+binder :
+‐ The Filing Instructions (FI)
+‐ The List of Effective Documentary Units (the LESS is the reference)
+‐ The List Of Modifications (LOM)
+‐ The Summary Of Highlights (SOH)
+‐ The front pages of all QRH sections
+‐ The Table Of Contents (TOC) of the General section
+
+=== PDF PAGE 23 ===
+ABN
+1/4
+A320/A321
+QUICK REFERENCE HANDBOOK
+ABNORMAL AND
+EMERGENCY PROCEDURES
+TABLE OF CONTENTS
+06 MAR 14
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+Air Conditioning/Ventilation/Pressurization
+ABN-21
+Cabin Overpressure........................................................................... 21.01A
+Auto Flight
+ABN-22
+Loss of FMS Data In Descent / Approach (Severe Reset).................22.01A
+Electrical
+ABN-24
+ELEC EMER CONFIG Sys Remaining..............................................24.01A
+ELEC EMER CONFIG Summary..................................................... 24.02A
+Equipment
+ABN-25
+Cockpit Door Fault............................................................................. 25.01A
+Fire Protection
+ABN-26
+SMOKE/FUMES/AVNCS SMOKE.....................................................26.01A
+REMOVAL OF SMOKE/FUMES ......................................................26.02A
+Flight Controls
+ABN-27
+Landing with Slats or Flaps Jammed.................................................27.01A
+Sidestick / Rudder Pedals Stiff.......................................................... 27.03A
+Rudder Jam........................................................................................27.04A
+Stabilizer Jam.....................................................................................27.05A
+Fuel
+ABN-28
+FUEL IMBALANCE............................................................................ 28.01A
+FUEL LEAK........................................................................................28.02A
+GRVTY Fuel Feeding.........................................................................28.03A
+ACT UNUSABLE PROC....................................................................28.06A
+Hydraulic
+ABN-29
+HYD B + Y SYS LO PR Summary...................................................29.01A
+HYD G + B SYS LO PR Summary.................................................. 29.02A
+HYD G + Y SYS LO PR Summary...................................................29.03A
+Ice and Rain Protection
+ABN-30
+Double AOA Heat Failure.................................................................. 30.01A
+Indicating / Recording Systems
+ABN-31
+Display Unit Failure............................................................................31.01A
+ECAM Single Display.........................................................................31.02A
+Multiple Undue ECAM Alerts............................................................. 31.03A
+
+=== PDF PAGE 24 ===
+ABN
+2/4
+A320/A321
+QUICK REFERENCE HANDBOOK
+ABNORMAL AND
+EMERGENCY PROCEDURES
+TABLE OF CONTENTS
+06 MAR 14
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+Continued from the previous page
+Landing Gear
+ABN-32
+Loss of Braking................................................................................32.01A
+Residual Braking................................................................................ 32.02A
+L/G Gravity Extension........................................................................32.03A
+Landing with Abnormal L/G................................................................32.04A
+Asymmetric Braking........................................................................... 32.05A
+Navigation
+ABN-34
+ADR CHECK PROC.......................................................................... 34.01A
+UNRELIABLE SPEED INDICATION / ADR CHECK PROC ............. 34.01A
+ADR 1 + 2 + 3 FAULT.......................................................................34.03A
+NAV FM / GPS POS DISAGREE...................................................... 34.04A
+EGPWS Alerts...................................................................................34.05A
+IR Alignment in ATT Mode................................................................ 34.06A
+TCAS Warnings................................................................................34.07A
+Pneumatic
+ABN-36
+AIR ENG 1+2 BLEED FAULT............................................................36.01A
+Engines
+ABN-70
+ENG DUAL FAILURE - FUEL REMAINING..................................... 70.01A
+ENG DUAL FAILURE - NO FUEL REMAINING...............................70.02A
+ENG RELIGHT  (in flight).................................................................. 70.03A
+ENG 1(2) STALL ...............................................................................70.04A
+ENG Tailpipe Fire.............................................................................. 70.05A
+High Engine Vibration........................................................................ 70.06A
+Miscellaneous
+ABN-80
+Circling Approach with One Engine Inoperative................................ 80.01A
+Straight-in-Approach with One Engine Inoperative............................80.01D
+Bomb on Board..................................................................................80.02A
+Ditching.............................................................................................80.03A
+Forced Landing................................................................................80.04A
+EMER DESCENT...............................................................................80.05A
+Overspeed Recovery..........................................................................80.06A
+Overweight Landing........................................................................... 80.07A
+Stall Recovery.................................................................................. 80.08A
+Stall Warning at Liftoff.................................................................... 80.08A
+Tailstrike............................................................................................. 80.09A
+Volcanic Ash Encounter.....................................................................80.10A
+
+=== PDF PAGE 25 ===
+ABN
+3/4
+A320/A321
+QUICK REFERENCE HANDBOOK
+ABNORMAL AND
+EMERGENCY PROCEDURES
+TABLE OF CONTENTS
+06 MAR 14
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+Continued from the previous page
+Windshear.........................................................................................80.11A
+Windshear Ahead.............................................................................80.12A
+Windshield / Window Arcing.............................................................. 80.13A
+Windshield / Window Cracked........................................................... 80.14A
+ECAM Advisory Conditions................................................................80.15A
+Tripped C/B Re-Engagement.............................................................80.16A
+Computer Reset................................................................................. 80.17A
+Computer Reset Table.......................................................................80.18A
+Emergency Evacuation...........................................................................C2
+
+=== PDF PAGE 26 ===
+ABN
+4/4
+A320/A321
+QUICK REFERENCE HANDBOOK
+ABNORMAL AND
+EMERGENCY PROCEDURES
+TABLE OF CONTENTS
+06 MAR 14
+Intentionally left blank
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+
+=== PDF PAGE 27 ===
+21.01A
+A320/A321
+QUICK REFERENCE HANDBOOK
+ABNORMAL AND
+EMERGENCY PROCEDURES
+15 FEB 13
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+CABIN OVERPRESSURE
+Ident.: ABN-21-00010788.0001001 / 08 FEB 13
+Applicable to: ALL
+Apply the following procedure (not displayed on ECAM) in case of total loss of the cabin pressure control
+leading to overpressure
+PACK 1 or 2..........................................................................................................OFF
+BLOWER + EXTRACT.......................................................................................OVRD
+Cabin air is extracted overboard.
+ΔP....................................................................................... FREQUENTLY MONITOR
+If ΔP >9 PSI:
+PACK 1+2.........................................................................................................OFF
+LAND ASAP
+Before 10 min from landing:
+PACK 1+2..............................................................................................................OFF
+BLOWER + EXTRACT....................................................................................... AUTO
+CAUTION
+Check that ΔP is zero before opening the doors.
+
+=== PDF PAGE 28 ===
+BLANK
+A320/A321
+QUICK REFERENCE HANDBOOK
+ABNORMAL AND
+EMERGENCY PROCEDURES
+15 FEB 13
+Intentionally left blank
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+
+=== PDF PAGE 29 ===
+22.01A
+A320/A321
+QUICK REFERENCE HANDBOOK
+ABNORMAL AND
+EMERGENCY PROCEDURES
+27 NOV 13
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+LOSS OF FMS DATA IN DESCENT 
+/ APPROACH (SEVERE RESET)
+Ident.: ABN-22-00010790.0001001 / 08 FEB 13
+Applicable to: ALL
+AP/FD lateral and vertical selected modes, and A/THR, are available immediately after the reset. If
+necessary, the pilot may perform the FCU selections for short-term navigation.
+When the FMS has automatically recovered:
+‐ The database cycle may have changed
+‐ The FMGS does not autotune the ILS and ADF
+‐ The FMS position bias is lost
+‐ Lateral and vertical managed modes cannot re-engage
+‐ The “CAB PR LDG ELEV FAULT ” message is displayed on the ECAM
+‐ A “MAP NOT AVAIL” message may be displayed on one ND.
+Depending on the flight phase, apply the following procedure(s) as appropriate:
+INITIAL APPROACH OR CLOSE TO ILS INTERCEPTION:
+When the system has recovered:
+Access the RAD NAV Page, and manually tune the ILS (preferably using
+IDENT). Enter the ILS course, if a frequency has been entered.
+Fly in selected speed.
+Note:
+‐ LOC and G/S guidance modes are available
+‐ VLS speed is still available and displayed on the PFD
+‐ Missed approach trajectory is not available.
+DESCENT (IF TIME PERMITS) :
+When the system has recovered:
+Select the initial database
+Perform DIR TO a downpath waypoint. Select heading, if required.
+Perform a LAT REV at the downpath waypoint and redefine the
+DESTINATION in the NEW DEST field.
+Redefine the arrival and/or the approach procedure.
+Select the FUEL PRED Page, and enter the GW.
+Activate the APPROACH phase.
+Enter destination data on the PERF APPR Page, as required. Managed speed
+is available.
+
+=== PDF PAGE 30 ===
+BLANK
+A320/A321
+QUICK REFERENCE HANDBOOK
+ABNORMAL AND
+EMERGENCY PROCEDURES
+27 NOV 13
+Intentionally left blank
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+
+=== PDF PAGE 31 ===
+24.01A
+A320/A321
+QUICK REFERENCE HANDBOOK
+ABNORMAL AND
+EMERGENCY PROCEDURES
+06 MAR 14
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+ELEC EMER CONFIG SYS REMAINING
+BAT ONLY
+ELEC EMER CONFIG SYS REMAINING
+EMER GEN RUNNING
+IN FLIGHT
+ON THE GROUND
+Ident.: ABN-24-SYN-00010792.0002001 / 08 FEB 13
+Applicable to: MSN 2927-3120
+PRESS AUTO SYS 1
+Norm
+Norm
+Norm
+MAN PRESS CTL
+Inop
+Inop
+Inop (a)
+RAM AIR
+Norm
+Norm
+Norm
+PACK VALVE 1
+Norm
+Closure Inop
+Closure Inop
+PACK VALVE 2
+Closure Inop
+Closure Inop
+Closure Inop (a)
+AIR COND
+PRESS
+AVIONIC VENT
+Norm
+Norm
+Partial
+Ident.: ABN-24-SYN-00010792.0004001 / 08 FEB 13
+Applicable to: MSN 1276-1843
+PRESS AUTO SYS 1
+Norm
+Norm
+Norm
+MAN PRESS CTL
+Inop
+Inop
+Inop (a)
+RAM AIR
+Norm
+Norm
+Norm
+PACK VALVE 1
+Norm
+Closure Inop
+Closure Inop
+PACK VALVE 2
+Closure Inop
+Closure Inop
+Closure Inop (a)
+AVIONIC VENT
+Norm
+Norm
+Partial
+AIR COND
+PRESS
+AFT CRG ISOL VALVE
+Norm
+Inop
+Inop
+Ident.: ABN-24-SYN-00010792.0006001 / 08 FEB 13
+Applicable to: MSN 1219-1233, 2649
+PRESS AUTO SYS 1
+Norm
+Norm
+Norm
+MAN PRESS CTL
+Inop
+Inop
+Inop (a)
+RAM AIR
+Norm
+Norm
+Norm
+PACK VALVE 1
+Norm
+Closure Inop
+Closure Inop
+PACK VALVE 2
+Closure Inop
+Closure Inop
+Closure Inop (a)
+AVIONIC VENT
+Norm
+Norm
+Partial
+AFT CRG ISOL VALVE
+Norm
+Inop
+Inop
+AIR COND
+PRESS
+AFT CRG HEAT
+Norm
+Inop
+Inop
+Ident.: ABN-24-SYN-00010793.0001001 / 08 FEB 13
+Applicable to: ALL
+FMGC (NAV FUNCTION)
+N° 1 only
+Inop
+Inop
+MCDU
+N° 1 only
+Inop
+Inop
+FAC
+N° 1 only
+Inop
+Inop
+FMGS
+FCU
+ch 1 only
+ch 1 only
+ch 1 only
+Ident.: ABN-24-SYN-00010794.0001001 / 08 FEB 13
+Applicable to: MSN 1276
+VHF 1
+Norm
+Norm
+Norm
+RMP 1
+Norm
+Norm
+Norm
+ACP (Capt, F/O)
+Norm
+Norm
+Norm
+CIDS
+Norm
+Norm
+Norm
+INTERPHONE
+Norm
+Norm
+Norm
+CVR
+Norm
+Inop
+Inop
+COM
+LOUDSPEAKER 1
+Norm
+Norm
+Norm
+
+=== PDF PAGE 32 ===
+24.01B
+A320/A321
+QUICK REFERENCE HANDBOOK
+ABNORMAL AND
+EMERGENCY PROCEDURES
+06 MAR 14
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+Continued from the previous page
+BAT ONLY
+ELEC EMER CONFIG SYS REMAINING
+EMER GEN RUNNING
+IN FLIGHT
+ON THE GROUND
+Ident.: ABN-24-SYN-00010794.0002001 / 08 FEB 13
+Applicable to: MSN 1219-1233, 1843-3120
+VHF 1
+Norm
+Norm
+Norm
+HF1
+Norm
+Inop
+Inop
+RMP 1
+Norm
+Norm
+Norm
+ACP (Capt, F/O)
+Norm
+Norm
+Norm
+CIDS
+Norm
+Norm
+Norm
+INTERPHONE
+Norm
+Norm
+Norm
+CVR
+Norm
+Inop
+Inop
+COM
+LOUDSPEAKER 1
+Norm
+Norm
+Norm
+Ident.: ABN-24-SYN-00010795.0001001 / 08 FEB 13
+Applicable to: ALL
+CREW OXY
+Norm
+Norm (b)
+Norm (b)
+PAX OXY mask release (auto +
+man)
+Norm
+Inop
+Inop
+EMER EQPT
+SLIDES ARM/WARN
+Norm
+Norm
+Norm
+Ident.: ABN-24-SYN-00010796.0002001 / 08 FEB 13
+Applicable to: ALL
+ENG 1 LOOP
+A only
+A only
+A only
+ENG 2 LOOP
+B only
+B only
+B only
+APU LOOP
+Inop
+Inop
+Inop (a)
+CARGO SMOKE DET
+Channel 1
+Inop
+Inop
+ENG FIRE EXT.
+Bottle 1 only
+Bottle 1 only
+Bottle 1 only
+APU FIRE EXT.
+Squib A only
+Squib A only
+Squib A only
+CARGO FIRE EXT.
+Inop
+Inop
+Inop (a)
+FIRE
+APU AUTO EXT.
+Inop
+Inop
+Inop (a)
+Ident.: ABN-24-SYN-00010797.0002001 / 08 FEB 13
+Applicable to: ALL
+ELAC
+N° 1 only
+N° 1+ N° 2
+N°1+ N°2 (d)
+SEC
+N° 1 only
+N° 1
+N° 1 (d)
+FCDC
+N° 1 only
+Inop
+Inop
+SFCC
+N° 1 only
+N° 1 only
+N° 1 only
+FLT CTL
+Flaps POS ind
+Norm
+Norm
+Norm (c)
+Ident.: ABN-24-SYN-00010798.0001001 / 07 MAY 13
+Applicable to: MSN 2649
+LP VALVE
+Norm
+Norm
+Norm
+FQI channel 1
+Norm
+Inop
+Inop
+X FEED VALVE
+Norm
+Inop
+Inop
+FUEL
+INTERTANK TRANSFER VALVE
+Norm
+Inop
+Inop
+Ident.: ABN-24-SYN-00010798.0002001 / 07 MAY 13
+Applicable to: MSN 1219-1843, 2927-3120
+LP VALVE
+Norm
+Norm
+Norm
+FQI channel 1
+Norm
+Inop
+Inop
+FUEL
+X FEED VALVE
+Norm
+Inop
+Inop
+
+=== PDF PAGE 33 ===
+24.01C
+A320/A321
+QUICK REFERENCE HANDBOOK
+ABNORMAL AND
+EMERGENCY PROCEDURES
+06 MAR 14
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+Continued from the previous page
+BAT ONLY
+ELEC EMER CONFIG SYS REMAINING
+EMER GEN RUNNING
+IN FLIGHT
+ON THE GROUND
+Ident.: ABN-24-SYN-00010799.0001001 / 08 FEB 13
+Applicable to: ALL
+HYD
+FIRE VALVES
+Norm
+Norm
+Norm
+Ident.: ABN-24-SYN-00010800.0002001 / 08 FEB 13
+Applicable to: ALL
+WING A.ICE
+Norm
+Inop
+Inop
+ENG A. ICE VALVE
+Open
+Open
+Open
+CAPT PITOT
+Norm
+Norm
+Norm (c)
+CAPT AOA
+Norm
+Inop
+Inop
+ICE - RAIN
+RAIN REPELLENT (CAPT)
+Norm
+Norm
+Norm
+Ident.: ABN-24-SYN-00010801.0002001 / 08 FEB 13
+Applicable to: ALL
+PFD 1
+Norm
+Norm
+Norm(c)
+ND 1
+Norm
+Inop
+Inop
+ECAM upper disp.
+Norm
+Norm
+Norm (c)
+DMC 1 or 3
+Norm
+Norm
+Norm (c)
+SDAC 1, FWC 1
+Norm
+Norm
+Norm (c)
+EIS
+ECAM CONT. panel
+Norm
+Norm
+Norm
+FLT INS
+CLOCKS
+Norm
+Norm
+Norm
+Ident.: ABN-24-SYN-00011060.0001001 / 08 FEB 13
+Applicable to: MSN 1219-1843
+LGCIU SYS 1
+Norm
+Norm
+Norm
+BRK PRESS IND
+Norm
+Norm
+Norm
+L/G
+PARK BRK
+Norm
+Norm
+Norm
+Ident.: ABN-24-SYN-00011060.0002001 / 08 FEB 13
+Applicable to: MSN 2649-3120
+LGCIU SYS 1
+Norm
+Norm
+Norm
+ABCU
+Norm
+Norm
+Norm
+BRK PRESS IND
+Norm
+Norm
+Norm
+L/G
+PARK BRK
+Norm
+Norm
+Norm
+Ident.: ABN-24-SYN-00010802.0001001 / 08 FEB 13
+Applicable to: ALL
+EMER CKPT
+Norm
+Norm
+Norm
+LIGHTS
+EMER CAB
+Norm
+Norm
+Norm
+
+=== PDF PAGE 34 ===
+24.01D
+A320/A321
+QUICK REFERENCE HANDBOOK
+ABNORMAL AND
+EMERGENCY PROCEDURES
+06 MAR 14
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+Continued from the previous page
+BAT ONLY
+ELEC EMER CONFIG SYS REMAINING
+EMER GEN RUNNING
+IN FLIGHT
+ON THE GROUND
+Ident.: ABN-24-SYN-00010803.0006001 / 20 DEC 13
+Applicable to: MSN 1219-1233
+IR
+N° 1 only (e)
+N° 1 only (e)
+N° 1 only (e)
+ADR
+N° 1 only
+N° 1 only
+N° 1 only
+ADF
+N° 1 only
+Inop
+Inop
+VOR
+N° 1 only
+N° 1 only
+N° 1 only (c)
+MMR
+N° 1 only
+N° 1 only
+N° 1 only (c)
+DME
+N° 1 only
+Inop
+Inop
+DDRMI
+Norm
+Norm
+Norm (c)
+ATC
+N° 1 only
+Inop
+Inop
+STBY HORIZON
+Norm
+Norm
+Norm
+STBY COMP (LT)
+Norm
+Norm
+Norm
+NAV
+STBY ALTI (VIB)
+Norm
+Inop
+Inop
+Ident.: ABN-24-SYN-00010803.0012001 / 20 DEC 13
+Applicable to: MSN 1276-3120
+IR
+N° 1 only (e)
+N° 1 only (e)
+N° 1 only (e)
+ADR
+N° 1 only
+N° 1 only
+N° 1 only
+ADF
+N° 1 only
+Inop
+Inop
+VOR
+N° 1 only
+N° 1 only
+N° 1 only (c)
+MMR
+N° 1 only
+N° 1 only
+N° 1 only (c)
+DME
+N° 1 only
+Inop
+Inop
+DDRMI
+Norm
+Norm
+Norm (c)
+ATC
+N° 1 only
+Inop
+Inop
+NAV
+ISIS
+Norm
+Norm
+Norm
+Ident.: ABN-24-SYN-00010804.0002001 / 08 FEB 13
+Applicable to: ALL
+ENG 1 BLEED
+Norm
+BMC 1 inop
+BMC 1 inop
+ENG 2 BLEED
+BMC 2 inop
+BMC 2 inop
+BMC 2 inop
+APU BLEED
+Inop
+Inop
+Inop (a)
+PNEU
+X BLEED (MAN CTL)
+Norm
+Inop
+Inop
+Ident.: ABN-24-SYN-00010805.0001001 / 08 FEB 13
+Applicable to: ALL
+ECB - STARTER
+Norm (f)
+Inop
+Inop (a)
+FUEL LP VALVE
+Norm
+Norm
+Norm
+APU
+FUEL PUMP
+Norm
+Norm
+Norm
+Ident.: ABN-24-SYN-00010806.0003001 / 08 FEB 13
+Applicable to: MSN 1219-1233
+FADEC
+A + B (g)
+A + B (g)
+A + B (g)
+IGNITION
+A only
+A only
+A only
+PWR PLT
+HP FUEL VALVE closure
+Norm
+Norm
+Norm
+
+=== PDF PAGE 35 ===
+24.01E
+A320/A321
+QUICK REFERENCE HANDBOOK
+ABNORMAL AND
+EMERGENCY PROCEDURES
+06 MAR 14
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+Continued from the previous page
+BAT ONLY
+ELEC EMER CONFIG SYS REMAINING
+EMER GEN RUNNING
+IN FLIGHT
+ON THE GROUND
+Ident.: ABN-24-SYN-00010806.0004001 / 08 FEB 13
+Applicable to: MSN 1276-3120
+FADEC
+A + B (h)
+A + B (h)
+A + B (h)
+IGNITION
+A only
+A only
+A only
+PWR PLT
+HP FUEL VALVE closure
+Norm
+Norm
+Norm
+Ident.: ABN-24-SYN-00010808.0001001 / 08 FEB 13
+Applicable to: ALL
+MISC
+MECH HORN
+Norm
+Norm
+Norm
+(a) Restored, when speed is below 100 kt.
+(b) Crew oxygen valve inoperative.
+(c) Lost, when speed is below 50 kt.
+(d) Lost 30 s after last engine shutdown.
+(e) IR2 and IR3 are lost 5 min after failure of the main generators. But, if IR3 replaces IR1 (ATT-HDG selector
+at CAPT3), IR3 remains supplied
+(f) For APU start only.
+(g) Channels A and B are self-powered above 12 % N2. If N2 is below 12 % , only Channel A is powered.
+(h) Channels A and B are self-powered above 10 % N2. If N2 is below 10 % , only Channel A is powered.
+
+=== PDF PAGE 524 ===
+C3
+A320/A321
+QUICK REFERENCE HANDBOOK
+NORMAL PROCEDURES
+27 NOV 13
+NWS A320/A321 FLEET AS PER AIRCRAFT ALLOCATION TABLE
+TAKEOFF CG/TRIM POS
+Ident.: 00010994.0002001 / 30 AUG 12
+Applicable to: MSN 1219-1843, 2927-3120
+TAKEOFF CG/TRIM POS
+Ident.: 00010994.0007001 / 30 AUG 12
+Applicable to: MSN 2649

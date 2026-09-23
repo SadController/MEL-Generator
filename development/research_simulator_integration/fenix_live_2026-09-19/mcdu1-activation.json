@@ -1,0 +1,32 @@
+{
+  "utc": "2026-09-19T19:24:45.1323449Z",
+  "aircraft": "FenixA321 IAE WF SC",
+  "catalogId": "M198",
+  "fenixId": "F_MCDU_1",
+  "request": {
+    "id": "F_MCDU_1",
+    "title": "MCDU 1",
+    "failureCondition": null,
+    "failed": true
+  },
+  "response": {
+    "id": "F_MCDU_1",
+    "title": "MCDU 1",
+    "failureCondition": null,
+    "failed": true
+  },
+  "readback": {
+    "id": "F_MCDU_1",
+    "title": "MCDU 1",
+    "failureCondition": {
+      "id": 3,
+      "ias": null,
+      "alt": null,
+      "altb": null,
+      "time": null,
+      "afterEvent": null,
+      "afterEventSeconds": null
+    },
+    "failed": true
+  }
+}

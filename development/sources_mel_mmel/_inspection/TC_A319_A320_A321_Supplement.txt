@@ -1,0 +1,4024 @@
+
+=== PDF PAGE 1 ===
+
+=== PDF PAGE 2 ===
+ 
+ 
+INTENTIONALLY LEFT BLANK 
+ 
+
+=== PDF PAGE 3 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+Airbus Industrie A319/A320/A321 
+ 
+Page:  I 
+Revision: 52 
+MAY 06, 2026 
+ 
+ 
+List of Effective Pages 
+ 
+ 
+ 
+ 
+Title Page 
+ 
+ 
+ 
+List of Effective Pages 
+I 
+Revision 52 
+May 06, 2026 
+ 
+II 
+Revision 52 
+May 06, 2026 
+ 
+III 
+Revision 52 
+May 06, 2026 
+ 
+IV 
+Revision 52 
+May 06, 2026 
+Log of Revisions 
+V 
+Revision 52 
+May 06, 2026 
+ 
+VI 
+Revision 52 
+May 06, 2026 
+ 
+VII 
+Revision 52 
+May 06, 2026 
+ 
+VIII 
+Revision 52 
+May 06, 2026 
+Reasons for Changes 
+IX 
+Revision 52 
+May 06, 2026 
+Introduction 
+X 
+Revision 52 
+May 06, 2026 
+Pages 
+21-1 
+Revision 45 
+Jul. 09, 2021 
+ 
+21-2 
+Revision 45 
+Jul. 09, 2021 
+ 
+21-3 
+Revision 51 
+Sep. 15, 2025 
+ 
+21-4 
+Revision 51 
+Sep. 15, 2025 
+ 
+21-5 
+Revision 51 
+Sep. 15, 2025 
+ 
+21-6 
+Revision 45 
+Jul. 09, 2021 
+ 
+21-7 
+Revision 45 
+Jul. 09, 2021 
+ 
+21-8 
+Revision 45 
+Jul. 09, 2021 
+ 
+22-1 
+Revision 52 
+May 06, 2026 
+ 
+22-2 
+Revision 52 
+May 06, 2026 
+ 
+23-1 
+Revision 22 
+Mar. 20, 2014 
+ 
+23-2 
+Revision 45 
+Jul. 09, 2021 
+ 
+23-3 
+Revision 45 
+Jul. 09, 2021 
+ 
+23-4 
+Revision 35 
+Feb. 13, 2018 
+ 
+23-5 
+Revision 35 
+Feb. 13, 2018 
+ 
+23-6 
+Revision 35 
+Feb. 13, 2018 
+ 
+23-7 
+Revision 35 
+Feb. 13, 2018 
+ 
+23-8 
+Revision 35 
+Feb. 13, 2018 
+ 
+23-9 
+Revision 35 
+Feb. 13, 2018 
+ 
+ 
+
+=== PDF PAGE 4 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+Airbus Industrie A319/A320/A321 
+ 
+Page:  II 
+Revision: 52 
+MAY 06, 2026 
+ 
+ 
+List of Effective Pages (cont’d) 
+ 
+ 
+ 
+ 
+Pages 
+23-10 
+Revision 49 
+Nov. 27, 2023 
+ 
+23-11 
+Revision 45 
+Jul. 09, 2021 
+ 
+23-12 
+Revision 35 
+Feb. 13, 2018 
+ 
+23-13 
+Revision 45 
+Jul. 09, 2021 
+ 
+24-1 
+Revision 23 
+Jul. 07, 2014 
+ 
+25-1 
+Revision 40 
+Apr. 12, 2019 
+ 
+25-2 
+Revision 40 
+Apr. 12, 2019 
+ 
+25-3 
+Revision 52 
+May 06, 2026 
+ 
+25-4 
+Revision 52 
+May 06, 2026 
+ 
+25-5 
+Revision 45 
+Jul. 09, 2021 
+ 
+25-6 
+Revision 52 
+May 06, 2026 
+ 
+25-7 
+Revision 52 
+May 06, 2026 
+ 
+25-8 
+Revision 45 
+Jul. 09, 2021 
+ 
+25-9 
+Revision 45 
+Jul. 09, 2021 
+ 
+25-10 
+Revision 45 
+Jul. 09, 2021 
+ 
+25-11 
+Revision 45 
+Jul. 09, 2021 
+ 
+25-12 
+Revision 52 
+May 06, 2026 
+ 
+25-13 
+Revision 48 
+Aug. 16, 2023 
+ 
+25-14 
+Revision 48 
+Aug. 16, 2023 
+ 
+25-15 
+Revision 48 
+Aug. 16, 2023 
+ 
+25-16 
+Revision 48 
+Aug. 16, 2023 
+ 
+25-17 
+Revision 48 
+Aug. 16, 2023 
+ 
+25-18 
+Revision 50 
+Feb. 28, 2025 
+ 
+25-19 
+Revision 50 
+Feb. 28, 2025 
+ 
+25-20 
+Revision 52 
+May 06, 2026 
+ 
+25-21 
+Revision 51 
+Sep. 15, 2025 
+ 
+25-22 
+Revision 51 
+Sep. 15, 2025 
+ 
+26-1 
+Revision 52 
+May 06, 2026 
+ 
+26-2 
+Revision 52 
+May 06, 2026 
+ 
+26-3 
+Revision 52 
+May 06, 2026 
+ 
+ 
+
+=== PDF PAGE 5 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+Airbus Industrie A319/A320/A321 
+ 
+Page:  III 
+Revision: 52 
+MAY 06, 2026 
+ 
+ 
+List of Effective Pages (cont’d) 
+ 
+ 
+ 
+ 
+Pages 
+26-4 
+Revision 46 
+Aug. 05, 2022 
+ 
+26-5 
+Revision 45 
+Jul. 09, 2021 
+ 
+26-6 
+Revision 51 
+Sep. 15, 2025 
+ 
+26-7 
+Revision 45 
+Jul. 09, 2021 
+ 
+26-8 
+Revision 45 
+Jul. 09, 2021 
+ 
+26-9 
+Revision 43 
+Mar. 17, 2020 
+ 
+26-10 
+Revision 45 
+Jul. 09, 2021 
+ 
+27-1 
+Revision 45 
+Jul. 09, 2021 
+ 
+27-2 
+Revision 52 
+May 06, 2026 
+ 
+27-3 
+Revision 52 
+May 06, 2026 
+ 
+27-4 
+Revision 52 
+May 06, 2026 
+ 
+27-5 
+Revision 52 
+May 06, 2026 
+ 
+27-6 
+Revision 52 
+May 06, 2026 
+ 
+28-1 
+Revision 20 
+Jan. 22, 2014 
+ 
+28-2 
+Revision 52 
+May 06, 2026 
+ 
+28-3 
+Revision 52 
+May 06, 2026 
+ 
+30-1 
+Revision 52 
+May 06, 2026 
+ 
+30-2 
+Revision 47 
+June 09, 2023 
+ 
+31-1 
+Revision 35 
+Feb. 13, 2018 
+ 
+31-2 
+Revision 46 
+Aug. 05, 2022 
+ 
+32-1 
+Revision 51 
+Sep. 15, 2025 
+ 
+33-1 
+Revision 49 
+Nov. 27, 2023 
+ 
+33-2 
+Revision 45 
+Jul. 09, 2021 
+ 
+33-3 
+Revision 49 
+Nov. 27, 2023 
+ 
+33-4 
+Revision 40 
+Apr. 12, 2019 
+ 
+33-5 
+Revision 45 
+Jul. 09, 2021 
+ 
+33-6 
+Revision 40 
+Apr. 12, 2019 
+ 
+34-1 
+Revision 23 
+Jul. 07, 2014 
+ 
+34-2 
+Revision 45 
+Jul. 09, 2021 
+ 
+ 
+
+=== PDF PAGE 6 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+Airbus Industrie A319/A320/A321 
+ 
+Page:  IV 
+Revision: 52 
+MAY 06, 2026 
+ 
+ 
+List of Effective Pages (cont’d) 
+ 
+ 
+ 
+ 
+Pages 
+34-3 
+Revision 45 
+Jul. 09, 2021 
+ 
+34-4 
+Revision 44 
+June 01, 2020 
+ 
+34-5 
+Revision 52 
+May 06, 2026 
+ 
+34-6 
+Revision 46 
+Aug. 05, 2022 
+ 
+34-7 
+Revision 35 
+Feb. 13, 2018 
+ 
+34-8 
+Revision 35 
+Feb. 13, 2018 
+ 
+35-1 
+Revision 45 
+Jul. 09, 2021 
+ 
+35-2 
+Revision 45 
+Jul. 09, 2021 
+ 
+35-3 
+Revision 46 
+Aug. 05, 2022 
+ 
+35-4 
+Revision 44 
+June 01, 2020 
+ 
+35-5 
+Revision 35 
+Feb. 13, 2018 
+ 
+35-6 
+Revision 35 
+Feb. 13, 2018 
+ 
+38-1 
+Revision 45 
+Jul. 09, 2021 
+ 
+38-2 
+Revision 45 
+Jul. 09, 2021 
+ 
+46-1 
+Revision 35 
+Feb. 13, 2018 
+ 
+52-1 
+Revision 35 
+Feb. 13, 2018 
+ 
+52-2 
+Revision 40 
+Apr. 12, 2019 
+ 
+52-3 
+Revision 40 
+Apr. 12, 2019 
+ 
+52-4 
+Revision 40 
+Apr. 12, 2019 
+ 
+52-5 
+Revision 40 
+Apr. 12, 2019 
+ 
+52-6 
+Revision 52 
+May 06, 2026 
+ 
+52-7 
+Revision 43 
+Mar. 17, 2020 
+ 
+52-8 
+Revision 47 
+June 09, 2023 
+ 
+52-9 
+Revision 47 
+June 09, 2023 
+ 
+52-10 
+Revision 47 
+June 09, 2023 
+ 
+56-1 
+Revision 35 
+Feb. 13, 2018 
+ 
+73-1 
+Revision 52 
+May 06, 2026 
+ 
+75-1 
+Revision 40 
+Apr. 12, 2019 
+ 
+77-1 
+Revision 20 
+Jan. 22, 2014 
+ 
+78-1 
+Revision 52 
+May 06, 2026 
+ 
+ 
+
+=== PDF PAGE 7 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+Airbus Industrie A319/A320/A321 
+ 
+Page:  V 
+Revision: 52 
+MAY 06, 2026 
+ 
+ 
+Log of Revisions 
+ 
+Revision No. 
+Date 
+Page Number 
+Initials 
+Original 
+Jan. 02, 1990 
+All 
+N/A 
+01 
+Jan. 19, 1990 
+L-1, L-3, L-4, 23-1, 23-2, 25-1, 33-1, 73-1, 
+77-1  
+ 
+02 
+Apr. 12, 1991 
+All  
+ 
+03 
+Jun. 21, 1991 
+L-1, 23-3, 23-4, 23-5  
+ 
+04 
+Jun. 27, 1991 
+L-1, L-5 34-2  
+ 
+05 
+Dec. 12, 1991 
+L-1, L-5 52-1  
+ 
+06 
+May 14, 1992 
+L-1, L-2, L-3 L-4, L-5, L-6 52-1, 52-2  
+ 
+07 
+Jan. 12, 1993 
+All  
+ 
+08 
+Sep. 24, 1993 
+All 
+ 
+09 
+Feb. 02, 1995 
+I, II, III, IV, V, VI, VII, VIII, IX, X, 21-1, 22-1, 
+23-1, 23-2, 23-3, 23-4, 23-5, 23-6, 23-7, 23-
+8, 24-1, 25-1, 25-2, 25-3, 25-4, 25-5, 25-6, 
+26-1, 28-1, 28-2, 28-3, 28-4, 31-1, 34-1, 34-
+2, 34-3, 35-1, 35-2, 35-3, 49-1, 52-1, 52-2, 
+52-3, 52-4, 52-5, 52-6, 52-7, 52-8, 52-9, 52-
+10, 75-1, 77-1 
+ 
+10 
+Feb. 01, 2001 
+All 
+ 
+11 
+Dec. 07, 2001 
+I, II, III, IV, V, VI, VII, 21-1, 22-1, 22-2, 23-2, 
+23-5, 23-6, 25-2, 25-3, 25-4, 26-2, 31-1, 31-
+2, 33-4, 34-5, 35-5  
+ 
+12 
+Sep. 20, 2002 
+I, II, III, IV, V, VI, VII, VIII, IX, X, 22-1, 23-1, 
+23-2, 23-3, 23-7, 23-9, 25-1, 25-2, 25-3, 25-
+4, 25-5, 25-6, 25-7, 25-8, 25-9, 25-10, 25-11, 
+26-1, 26-2, 26-3, 26-4, 26-5, 26-6, 26-7, 26-
+8, 26-9, 26-10, 26-11, 27-2, 28-1, 28-2, 28-3, 
+28-4, 30-1, 31-2, 32-1, 33-4, 34-1, 34-2, 34-
+3, 34-4, 34-5, 34-6, 34-7, 35-1, 35-2, 35-3, 
+35-4, 35-5, 38-1, 52-1, 52-2, 52-3, 52-4, 52-
+5, 52-6, 52-7, 52-8, 52-9, 52-10, 52-11, 52-
+12, 52-13 
+ 
+ 
+ 
+
+=== PDF PAGE 8 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+Airbus Industrie A319/A320/A321 
+ 
+Page:  VI 
+Revision: 52 
+MAY 06, 2026 
+ 
+ 
+Log of Revisions (cont’d) 
+ 
+Revision No. 
+Date 
+Page Number 
+Initials 
+13 
+Jan. 29, 2003 
+I, II, III, IV, V, VI, VII, VIII, 22-1, 22-2, 23-1, 
+23-2, 23-3, 23-4, 23-5, 23-6, 23-7, 23-8, 23-9, 
+23-10, 24-1, 25-11, 28-1, 34-1, 34-2, 34-3, 
+34-4, 34-5, 34-6, 34-7, 34-8, 75-1 
+ 
+14 
+Jan. 19, 2004 
+I, II, III, IV, V, VI, VII, VIII, 21-1, 22-1, 22-2, 
+22-3, 23-1, 23-2, 23-3, 23-4, 23-5, 23-6, 23-7, 
+23-8, 23-9, 23-10, 23-11,24-1, 25-1, 25-2, 25-
+3, 25-4, 25-5, 25-6, 35-7, 25-8, 25-9, 25-10, 
+25-11, 25-12, 26-1, 26-3, 26-4, 26-7, 26-8, 
+27-2, 27-3, 28-4, 30-1, 32-1, 33-3, 34-1, 34-2, 
+34-3, 34-7, 35-1, 35-4, 38-1, 49-1, 52-1, 52-2, 
+52-3, 52-4, 52-5, 52-6, 52-7, 52-8, 52-9, 52-
+10, 52-11, 52-12 
+ 
+15 
+Aug. 04, 2004 
+I, II, III, IV, V, VI, VII, VIII, 21-1, 23-1, 23-9, 
+25-8, 25-9, 26-3, 26-4, 26-7, 26-8, 35-1, 35-1, 
+35-2, 35-3, 35-4, 35-5, 35-6  
+ 
+16 
+Nov. 15, 2004 
+I, II, III, IV, V, VI, VII, VIII, 25-8, 25-9, 26-1, 
+77-1 
+ 
+17 
+Dec. 15, 2006 
+I, II, III, IV, V, VI, VII, VIII, IX, X, 22-1, 22-2, 
+23-1, 23-2, 23-3, 23-4, 23-5, 23-6, 23-7, 23-8, 
+23-9, 23-10, 23-11, 23-12, 25-1, 25-2, 25-3, 
+25-4, 25-5,   25-6, 25-7, 25-8,  25-9, 25-10, 
+25-11, 25-12,  26-2, 26-3, 26-4, 26-5, 26-6, 
+26-7, 26-8, 26-9, 26-10, 26-11, 26-12, 27-1, 
+27-2, 28-1, 28-2, 28-3, 30-1, 31-1, 32-1, 33-1, 
+33-2, 33-3, 33-4, 33-5, 34-1, 34-2, 34-3, 34-4, 
+34-5, 34-6 34-7, 34-8, 34-9, 35-1, 35-2, 35-3, 
+35-4, 35-5, 35-6, 35-7, 35-8, 38-1, 49-1, 52-5, 
+52-7, 52-11,   52-12, 78-1 
+ 
+18 
+Nov. 13, 2009 
+I, II, III, IV, V, VI, VII, VIII, 23-6 
+ 
+19 
+Jan. 22, 2010 
+I, II, III, IV, V, VI, VII, VIII, IX, X, XI, XII, XIII, 
+21-1, 22-1, 22-2, 22-3, 23-1 thru 23-15, 24-1, 
+25-1 thru 25-14, 26-5, 26-6, 26-7, 26-11, 
+26-12, 28-4, 30-1, 31-1, 32-1, 33-1 thru 33-5, 
+34-1, 34-2, 34-3, 34-5, 34-6, 34-7, 34-8, 34-9, 
+35-1 thru 35-7, 38-1, 38-2, 46-1, 46-2, 49-1, 
+52-1 thru 52-12, 77-1, 78-1 
+ 
+ 
+ 
+
+=== PDF PAGE 9 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+Airbus Industrie A319/A320/A321 
+ 
+Page:  VII 
+Revision: 52 
+MAY 06, 2026 
+ 
+ 
+Log of Revisions (cont’d) 
+ 
+Revision No. 
+Date 
+Page Number 
+Initials 
+20 
+Jan. 22, 2014 
+All 
+ 
+21 
+Feb. 06, 2014 
+I, II, III, IV, V, VI, VII, VIII, IX, X, 21-1 
+ 
+22 
+Mar. 20, 2014 
+I, II, III, IV, V, VI, VII, VIII, IX, X, 21-1, 21-2, 
+21-3, 21-4, 21-5, 23-1, 23-10, 25-3, 25-8, 30-
+1, 34-5 
+ 
+23 
+Jul. 07, 2014 
+I, II, III, IV, V, VI, VII, VIII, IX, X, XI, 21-1 thru 
+21-5, 22-2, 23-5, 23-6, 24-1, 25-4 thru 25-21, 
+26-2, 30-1, 31-1, 33-3, 34-1, 34-3, 34-7 
+ 
+24 
+Jul. 25, 2014 
+I, II, III, IV, V, VI, VII, VIII, IX, X, 34-6, 52-34 
+ 
+25 
+Apr. 08, 2015 
+I, II, III, IV, V, VI, VII, VIII, IX, X, XI, XII, 21-2 
+thru 6, 23-2, 23-8, 23-10, 23-11, 23-12, 25-
+11, 25-12, 25-15, 25-20, 26-1, 26-2, 26-5, 26-
+7, 26-8, 26-9, 28-2, 30-1, 31-2, 33-1, 33-3, 
+33-4, 34-2, 34-5, 52-2, 52-34, 73-1 
+ 
+26 
+Apr. 20, 2015 
+I, II, III, IV, V, VI, VII, VIII, IX, X 
+ 
+27 
+May 05, 2015 
+I, II, III, IV, V, VI, VII, VIII, IX, X 
+ 
+28 
+May 27, 2015 
+I, II, III, IV, V, VI, VII, VIII, IX, X, 52-3 
+ 
+29 
+Jun. 18, 2015 
+I, II, III, IV, V, VI, VII, VIII, IX, X, 31-2 
+ 
+30 
+Aug. 11, 2015 
+I, II, III, IV, V, VI, VII, VIII, IX, X 
+ 
+31 
+Sep. 10, 2015 
+I, II, III, IV, V, VI, VII, VIII, IX, X, 23-4, 23-6 to 
+23-13, 25-1, 25-15 to 25-18, 33-4 to 33-6, 52-
+2 to 52-12 
+ 
+32 
+Oct. 26, 2015 
+I, II, III, IV, V, VI, VII, VIII, IX, X, 52-10 
+ 
+33 
+Dec. 17, 2015 
+I, II, III, IV, V, VI, VII, VIII, IX, 25-1, 25-2, 34-3, 
+34-7 
+ 
+34 
+May 18, 2017 
+I, II, III, IV, V, VI, VII, VIII, IX, 30-1 
+ 
+35 
+Feb. 13, 2018 
+I to XI, 22-2, 22-3, 23-2 to 23-14, 25-3, 25-7 
+to 25-10, 25-17 to 25-22, 26-8, 31-1, 34-3 to 
+34-8, 35-1 to 35-6, 38-1, 38-2, 46-1, 52-1, 52-
+6 to 52-11, 56-1 
+ 
+36 
+Mar. 27, 2018 
+I to XI, 21-6, 22-2, 25-20 to 25-22 
+ 
+ 
+ 
+
+=== PDF PAGE 10 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+Airbus Industrie A319/A320/A321 
+ 
+Page:  VIII 
+Revision: 52 
+MAY 06, 2026 
+ 
+ 
+Log of Revisions (cont’d) 
+ 
+Revision No. 
+Date 
+Page Number 
+Initials 
+37 
+Aug. 16, 2018 
+I to X, 25-1, 25-2, 25-15 to 25-23, 26-3, 26-4, 
+26-7, 33-4, 33-6, 52-2 to 52-5, 52-10, 52-11 
+ 
+38 
+Nov. 21, 2018 
+I to X, 23-13, 23-14 
+ 
+39 
+Feb. 04, 2019 
+I to X 
+ 
+40 
+Apr. 12, 2019 
+I to XI, 25-1 to 25-22, 26-1, 27-2 to 27-5, 33-
+1, 33-4 to 33-6, 34-5, 34-6, 52-2 to 52-8, 73-
+1, 75-1, 78-1 
+ 
+41 
+Aug. 19, 2019 
+I to X, 25-8, 25-9, 25-10, 25-17, 25-18, 52-8 
+ 
+42 
+Jan. 14, 2020 
+I to X, 25-8, 25-17, 34-5, 52-6 
+ 
+43 
+Mar. 17, 2020 
+I to X, 21-2 to 21-7, 23-14, 25-15, 26-3 to 26-
+10, 52-7, 52-8 
+ 
+44 
+June 01, 2020 
+I to X, 21-1 to 21-8, 27-5, 34-4, 35-4 
+ 
+45 
+Jul. 09, 2021 
+I to X, 21-1 to 21-8, 22-3, 23-2, 23-3, 23-10, 
+23-11, 23-13, 23-14, 25-3 to 25-20, 26-3 to 
+26-8, 26-10, 27-1, 30-1, 30-2, 33-1 to 33-3, 
+33-5, 34-2, 34-3, 34-5, 34-6, 35-1 to 35-3, 38-
+1, 38-2 
+ 
+46 
+Aug 05, 2022 
+I to X, 25-12, 26-4, 31-2, 34-6, 35-3, 73-1, 78-
+1 
+ 
+47 
+June 09, 2023 
+I to X, 30-2, 52-8, 52-9, 52-10 
+ 
+48 
+Aug. 16, 2023 
+I to X, 22-3, 25-12 to 25-20, 26-3, 33-3, 34-5   
+49 
+Nov. 27, 2023 
+I to X, 22-1, 23-10, 25-20, 33-1, 33-3 
+ 
+50 
+Feb. 28, 2025 
+I to X, 22-1, 22-2, 25-18 to 25-20, 26-6 
+ 
+51 
+Sep. 15, 2025 
+I to IX, 21-3, 21-4, 21-5, 22-1, 25-12, 25-21, 
+25-22, 26-6, 32-1 
+ 
+52 
+May 06, 2026 
+I to X, 22-1, 22-2, 25-3, 25-4, 25-6, 25-7, 25-
+12, 25-20, 26-1 to 26-3, 27-2 to 27-6, 28-2, 
+28-3, 30-1, 34-5, 52-6, 73-1, 78-1 
+ 
+ 
+ 
+
+=== PDF PAGE 11 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+Airbus Industrie A319/A320/A321 
+ 
+Page:  IX 
+Revision: 52 
+MAY 06, 2026 
+ 
+ 
+Reasons for Changes 
+ 
+General 
+Validation of A321XLR. 
+Including MMEL revisions from Feb 25, 2025 to Feb 23, 2026. 
+22-10-06 
+Added ‘(O)’ to match EASA MMEL. 
+22-83-02 
+Added item based on GB Rev 8. 
+25-20-05 
+Deleted item.  Refer to EASA MMEL. 
+25-20-07 
+Added sub-items to align with EASA MMEL. 
+25-65-09 
+Revised # installed from ‘-‘ to ‘0’    x2 
+26-11-01 
+Added item based on GB Rev 8. 
+26-11-02 
+Added item based on GB Rev 8. 
+27-64-02 
+Added XLR to title. 
+27-64-05 
+Added relief for XLR. 
+27-64-08 
+Added relief for XLR. 
+27-64-09 
+Added relief for XLR. 
+27-64-10 
+Added relief for XLR. 
+27-92-01 
+Added XLR to title. 
+27-94-01 
+Added relief for XLR. 
+Revised proviso #’ing for A321NEO. 
+28-26-01 
+Added relief for XLR. 
+30-31-01 
+Specified relief that is not applicable to A321 XLR. 
+34-40-04 
+Change to title and # installed. 
+52-10-06 
+Added relief for A321 CEO & NEO only. 
+52-10-09 
+Added relief for XLR. 
+73-08-01 
+Revised relief for all models into one. 
+78-08-01 
+Added relief for XLR. 
+ 
+ 
+
+=== PDF PAGE 12 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+Airbus Industrie A319/A320/A321 
+ 
+Page:  X 
+Revision: 52 
+MAY 06, 2026 
+ 
+ 
+Introduction 
+ 
+This Transport Canada MMEL Supplement constitutes a mandatory change to the EASA 
+Approved MMEL for the Airbus Industrie 319/320/321. 
+This MMEL Supplement must be used in conjunction with the applicable EASA Approved MMEL 
+for the operator: 
+ 
+EASA Approved MMEL (ACA) dated Feb. 23, 2026 
+ 
+EASA Approved MMEL (TSC) dated Nov. 19, 2025 
+The information contained herein supersedes the existing EASA Approved MMEL only for those 
+items listed herein.  For items not contained in this supplement, consult the EASA Approved 
+MMEL. 
+Operating and/or maintenance procedures referred to in this supplement are the same as those 
+supporting the EASA Approved MMEL unless otherwise indicated.  Where there are no 
+procedures provided by the manufacturer, it will be the responsibility of the operator to develop 
+adequate procedures. 
+The EASA MMEL has entries where the “Remarks or Exceptions” column states “as required by 
+regulations”.  Unless such an entry is superseded by an item in this Supplement, all references 
+should be made to the applicable Canadian regulation.   
+This MMEL Supplement uses the four-column format as referenced in the Transport Canada 
+MMEL/MEL Policy and Procedures Manual (TP 9155).  The same definitions and symbols as 
+are used in the EASA Approved MMEL are applicable.  Items which have no MMEL relief (i.e. 
+relief withdrawn) are not categorized. 
+The Rectification Interval Extension Process established by the operator in conjunction with its 
+approving authority supersedes that process on MMEL Page MI-00-06 
+Comments and inquiries should be directed to: 
+Transport Canada  
+Chief, Flight Test - AARDC  
+National Aircraft Certification  
+ 
+
+=== PDF PAGE 13 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 45 
+ 
+ 
+ 
+Page: 
+Date: Jul. 09, 2021 
+ 
+ 
+ 
+21-1 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+ 
+  
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+21 AIR CONDITIONING 
+ 
+ 
+ 
+ 
+ 
+31 Pressure Control and 
+Monitoring 
+ 
+ 
+ 
+ 
+ 
+ 
+01 Automatic Cabin 
+Pressure Control 
+System (CPC, Outflow 
+Valve AUTO Channel) 
+C 
+2 
+1 
+(O) 
+No change from EASA MMEL. 
+ 
+C 
+2 
+1 
+(O) 
+No change from EASA MMEL. 
+ 
+C 
+2 
+0 
+ 
+Both may be inoperative provided that: 
+1) The manual cabin pressure control 
+system is operative, 
+2) Flight is conducted in an 
+unpressurized configuration at or 
+below 10,000 ft MSL, and 
+3) Cargo compartments are empty or do 
+not contain combustible materials. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 14 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 45 
+ 
+ 
+ 
+Page: 
+Date: Jul. 09, 2021 
+ 
+ 
+ 
+21-2 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+ 
+  
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+21 AIR CONDITIONING 
+ 
+ 
+ 
+ 
+ 
+51 Pack Flow Control 
+ 
+ 
+ 
+ 
+ 
+ 
+01 Pack Flow Control 
+Valve (Aircraft without 
+Mod 30626) 
+C 
+2 
+1 
+(M) 
+No change from EASA MMEL. 
+ 
+C 
+2 
+0 
+ 
+Both may be inoperative provided that: 
+1) The manual cabin pressure control 
+system is operative, 
+2) Flight is conducted in an 
+unpressurized configuration at or 
+below 10,000 ft MSL, and 
+3) Cargo compartments are empty or do 
+not contain combustible materials. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 15 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 51 
+ 
+ 
+ 
+Page: 
+Date: Sep. 15, 2025  
+ 
+ 
+21-3 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+ 
+  
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+21 AIR CONDITIONING 
+ 
+ 
+ 
+ 
+ 
+52 Air Cooling System 
+ 
+ 
+ 
+ 
+ 
+ 
+01 Air Conditioning Pack 
+ 
+ 
+ 
+(A320 / A321 without 
+Mod 30626) 
+C 
+2 
+1 
+(O) 
+No change from EASA MMEL. 
+C 
+2 
+1 
+(O) 
+No change from EASA MMEL. 
+C 
+2 
+1 
+(O) 
+No change from EASA MMEL. 
+ 
+C 
+2 
+0 
+ 
+Both may be inoperative provided: 
+1) Flight is conducted in an 
+unpressurized configuration at or 
+below 10,000 ft MSL, 
+2) Both cabin fans operate normally, 
+and 
+3) Cargo compartments are empty or do 
+not contain combustible materials. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 16 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 51 
+ 
+ 
+ 
+Page: 
+Date: Sep. 15, 2025  
+ 
+ 
+21-4 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+ 
+  
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+21 AIR CONDITIONING 
+ 
+ 
+ 
+ 
+ 
+52 Air Cooling System (cont’d) 
+ 
+ 
+ 
+ 
+ 
+ 
+01 Air Conditioning Pack 
+ 
+ 
+ 
+(A320 / A321 with Mod 
+30626) 
+C 
+2 
+1 
+(O)(M) No change from EASA MMEL. 
+C 
+2 
+1 
+(O)(M) No change from EASA MMEL. 
+C 
+2 
+1 
+(O) 
+No change from EASA MMEL. 
+ 
+C 
+2 
+0 
+ 
+Both may be inoperative provided: 
+1) Flight is conducted in an 
+unpressurized configuration at or 
+below 10,000 ft MSL, 
+2) Both cabin fans operate normally, 
+and 
+3) Cargo compartments are empty or do 
+not contain combustible materials. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 17 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 51 
+ 
+ 
+ 
+Page: 
+Date: Sep. 15, 2025  
+ 
+ 
+21-5 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+ 
+  
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+21 AIR CONDITIONING 
+ 
+ 
+ 
+ 
+ 
+52 Air Cooling System (cont’d) 
+ 
+ 
+ 
+ 
+ 
+ 
+01 Air Conditioning Pack 
+ 
+ 
+ 
+(A319 without Mod 
+30626) 
+C 
+2 
+1 
+(O) 
+No change from EASA MMEL. 
+C 
+2 
+1 
+(O) 
+No change from EASA MMEL. 
+ 
+B 
+2 
+1 
+(O) 
+No change from EASA MMEL. 
+ 
+C 
+2 
+1 
+(O) 
+No change from EASA MMEL. 
+ 
+C 
+2 
+0 
+ 
+Both may be inoperative provided: 
+1) Flight is conducted in an 
+unpressurized configuration at or 
+below 10,000 ft MSL, 
+2) Both cabin fans operate normally, 
+and 
+3) Cargo compartments are empty or do 
+not contain combustible materials. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 18 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 45 
+ 
+ 
+ 
+Page: 
+Date: Jul. 09, 2021 
+ 
+ 
+ 
+21-6 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+ 
+  
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+21 AIR CONDITIONING 
+ 
+ 
+ 
+ 
+ 
+52 Air Cooling System (cont’d) 
+ 
+ 
+ 
+ 
+ 
+ 
+02 Air Conditioning Pack 
+Ram Air Inlet Flap 
+C 
+2 
+0 
+(M) 
+No change from EASA MMEL. 
+C 
+2 
+1 
+ 
+No change from EASA MMEL. 
+ 
+C 
+2 
+0 
+ 
+Both may be inoperative in the closed 
+position provided: 
+1) Flight is conducted in an 
+unpressurized configuration at or 
+below 10,000 ft MSL, 
+2) Both cabin fans operate normally, 
+and 
+3) Cargo compartments are empty or do 
+not contain combustible materials. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 19 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 45 
+ 
+ 
+ 
+Page: 
+Date: Jul. 09, 2021 
+ 
+ 
+ 
+21-7 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+ 
+  
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+21 AIR CONDITIONING 
+ 
+ 
+ 
+ 
+ 
+52 Air Cooling System (cont’d) 
+ 
+ 
+ 
+ 
+ 
+ 
+03 Air Conditioning Pack 
+Ram Air Outlet Flap 
+(A320-211 and A319-
+114 only) 
+C 
+2 
+0 
+(M) 
+No change from EASA MMEL. 
+C 
+2 
+1 
+ 
+No change from EASA MMEL. 
+ 
+C 
+2 
+0 
+ 
+Both may be inoperative in the closed 
+position provided: 
+1) Flight is conducted in an 
+unpressurized configuration at or 
+below 10,000 ft MSL, 
+2) Both cabin fans operate normally, 
+and 
+3) Cargo compartments are empty or do 
+not contain combustible materials. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 20 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 45 
+ 
+ 
+ 
+Page: 
+Date: Jul. 09, 2021 
+ 
+ 
+ 
+21-8 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+ 
+  
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+21 AIR CONDITIONING 
+ 
+ 
+ 
+ 
+ 
+55 Emergency Ram Air Inlet 
+ 
+ 
+ 
+ 
+ 
+ 
+01 Emergency Ram Air 
+Inlet 
+C 
+1 
+0 
+(M) 
+No change from EASA MMEL. 
+ 
+C 
+1 
+0 
+ 
+May be inoperative in the open position 
+provided: 
+1) ETOPS and flights over water more 
+than 400 nm from a suitable 
+emergency landing site are not 
+conducted, 
+2) Flight is conducted in an 
+unpressurized configuration at or 
+below 10,000 ft MSL, 
+3) Both cabin fans operate normally, 
+and 
+4) Cargo compartments are empty or do 
+not contain combustible materials. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 21 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 52 
+ 
+ 
+ 
+Page: 
+Date: May 06, 2026  
+ 
+ 
+22-1 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+ 
+ 
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+22 AUTO FLIGHT 
+ 
+ 
+ 
+ 
+ 
+10 Autopilot/Flight Director 
+(AP/FD) 
+ 
+ 
+ 
+ 
+ 
+ 
+04 Take-over pb AP 
+ 
+Disconnection Function 
+C 
+2 
+1 
+(O) 
+One may be inoperative provided:  
+1) The autopilot is not used below 1,500 
+ft AGL, 
+2) Approach minimums do not require 
+the use of the autopilot, and 
+3) The pilot flying has the operative 
+disconnect.  
+ 
+B 
+2 
+0 
+(O) 
+Except for ER operations, both may be 
+inoperative provided autopilot is not used.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+06 AP Disengagement 
+ 
+Warning 
+B 
+1 
+0 
+(O) 
+No change from EASA MMEL. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 22 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 52 
+ 
+ 
+ 
+Page: 
+Date: May 06, 2026  
+ 
+ 
+22-2 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+    
+ 
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+22 AUTO FLIGHT 
+ 
+ 
+ 
+ 
+ 
+60 Flight Augmentation (FAC) 
+ 
+ 
+ 
+ 
+ 
+ 
+03 Reactive Windshear 
+Detection Function 
+C 
+1 
+0 
+(O) 
+May be inoperative provided: 
+1) Alternate procedures are established 
+and used, and 
+2) Windshear Detection and Avoidance 
+System (Predictive) operates normally. 
+ 
+B 
+1 
+0 
+(O) 
+May be inoperative provided: 
+1) Alternate procedures are established 
+and used, and 
+2) Takeoffs and landings are not 
+conducted in known or forecast 
+windshear conditions. 
+ 
+ 
+ 
+ 
+ 
+ 
+83 Flight Management and 
+Guidance Computer 
+(FMGC) 
+ 
+ 
+ 
+ 
+ 
+02 Reactive Windshear 
+Detection Function 
+C 
+1 
+0 
+(O) 
+May be inoperative provided: 
+1) Alternate procedures are established 
+and used, and 
+2) Windshear Detection and Avoidance 
+System (Predictive) operates normally. 
+ 
+B 
+1 
+0 
+(O) 
+May be inoperative provided: 
+1) Alternate procedures are established 
+and used, and 
+2) Takeoffs and landings are not 
+conducted in known or forecast 
+windshear conditions. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 23 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 22 
+ 
+ 
+ 
+Page: 
+Date: Mar. 20, 2014  
+ 
+ 
+23-1 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+    
+ 
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+23 COMMUNICATIONS 
+ 
+ 
+ 
+ 
+ 
+01 Overhead Panels 
+ 
+ 
+ 
+ 
+ 
+ 
+02 CALLS Overhead 
+Panel 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+32 CALLS EMER pb, 
+CALLS FWD pb, 
+CALLS MID (if 
+installed) pb, 
+CALLS EXIT (if 
+installed) pb, 
+CALLS PURS (if 
+installed) pb, 
+CALLS AFT pb 
+B 
+- 
+1 
+(O) 
+May be inoperative provided: 
+1) An operative flight deck/cabin 
+interphone system (two way) is at an 
+operative cabin attendant seat, 
+2) The public address system is verified 
+operative prior to each flight, and 
+3) Alternate communications procedures 
+are established and used. 
+ 
+A 
+- 
+0 
+(O) 
+May be inoperative for non-passenger 
+carrying operations for one flight day 
+provided: 
+1) Crew members are the only occupants 
+of the aircraft, and 
+2) Alternate procedures are established 
+and used. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 24 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 45 
+ 
+ 
+ 
+Page: 
+Date: Jul. 09, 2021 
+ 
+ 
+ 
+23-2 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+    
+ 
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+23 COMMUNICATIONS 
+ 
+ 
+ 
+ 
+ 
+10 Speech Communication 
+ 
+ 
+ 
+ 
+ 
+ 
+01 HF Voice 
+D 
+- 
+0 
+ 
+Any in excess of those required by 
+regulations may be inoperative. 
+NOTE: 
+For ETOPS, if HF is required, HF 1 voice 
+mode must be operative. 
+ 
+C 
+2 
+1 
+(O) 
+May be inoperative while conducting 
+operations that require two Long Range 
+Communication Systems (LRCS) provided: 
+1) SATVOICE or Data Link operates 
+normally, 
+2) SATVOICE or Data Link services are 
+available over the intended route of 
+flight, and 
+3) Alternate procedures are established 
+and used. 
+NOTE: 
+For ETOPS, if HF is required, HF 1 voice 
+mode must be operative. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 25 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 45 
+ 
+ 
+ 
+Page: 
+Date: Jul. 09, 2021 
+ 
+ 
+ 
+23-3 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+    
+ 
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+23 COMMUNICATIONS 
+ 
+ 
+ 
+ 
+ 
+10 Speech Communication 
+(cont’d) 
+ 
+ 
+ 
+ 
+ 
+ 
+02 VHF Voice 
+- 
+2 
+2 
+ 
+Both must be operative. 
+ 
+D 
+3 
+2 
+(O) 
+Any in excess of those required by 
+regulations may be inoperative provided: 
+1) It is not powered by a standby or 
+emergency bus, and 
+2) It is not required for emergency 
+purposes. 
+NOTES: 
+1. For ETOPS, VHF 1 must be operative. 
+2.  If ACARS is installed, VHF 3 may be 
+used as one of the VHFs required by 
+regulations, provided that the ACARS 
+is deactivated. 
+3. If VHF Datalink is installed, VHF 3 may 
+be used as one of the VHFs required 
+by regulations, provided that the VHF 
+Datalink is considered inoperative. 
+ 
+ 
+ 
+ 
+ 
+ 
+20 Data Transmission and 
+Automatic Calling 
+ 
+ 
+ 
+ 
+ 
+ 
+01 ACARS 
+ 
+ 
+ 
+(if installed) 
+C 
+1 
+0 
+(O) 
+May be inoperative provided alternate 
+procedures are established and used. 
+NOTE: 
+Any portion of the system that operates 
+normally may be used. 
+ 
+D 
+1 
+0 
+ 
+May be inoperative provided procedures do 
+not require its use.  
+NOTE: 
+Any portion of the system that operates 
+normally may be used. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 26 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 35 
+ 
+ 
+ 
+Page: 
+Date: Feb. 13, 2018  
+ 
+ 
+23-4 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+    
+ 
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+23 COMMUNICATIONS 
+ 
+ 
+ 
+ 
+ 
+26 Automated Flight 
+Information Reporting 
+System (AFIRS)  
+ 
+ 
+(LSTC C-LSA-06-353/D1) 
+ 
+ 
+ 
+ 
+ 
+ 
+01 AFIRS 
+C 
+1 
+0 
+(O)  
+May be inoperative provided alternate 
+procedures are established and used. 
+ 
+ 
+ 
+ 
+D 
+1 
+0 
+May be inoperative provided procedures do 
+not require its use.  
+NOTE: 
+Any portion of the system that operates 
+normally may be used. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 27 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 35 
+ 
+ 
+ 
+Page: 
+Date: Feb. 13, 2018  
+ 
+ 
+23-5 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+    
+ 
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+23 COMMUNICATIONS 
+ 
+ 
+ 
+ 
+ 
+31 Passenger Address System 
+ 
+ 
+ 
+ 
+ 
+ 
+01 Passenger Address 
+System 
+- 
+1 
+1 
+Must be operative. 
+NOTES: 
+1. In the case of partial failure of the 
+passenger address system, refer to the 
+item(s) of the affected system(s). 
+2. Total failure of the passenger address 
+system (indicated by the COM CIDS 
+1+2 FAULT alert displayed on the 
+EWD) is not permitted. 
+ 
+A 
+1 
+0 
+(O) 
+May be inoperative for non-passenger 
+carrying operations for one flight day 
+provided: 
+1) Crew members are the only occupants 
+of the aircraft, and 
+2) Alternate procedures are established 
+and used. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 28 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 35 
+ 
+ 
+ 
+Page: 
+Date: Feb. 13, 2018  
+ 
+ 
+23-6 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+    
+ 
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+23 COMMUNICATIONS 
+ 
+ 
+ 
+ 
+ 
+36 Video System (if installed) 
+ 
+ 
+ 
+ 
+ 
+ 
+51 LCD Screen 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+01 Retractable 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+01 Monitor stuck 
+in down 
+position 
+ 
+- 
+- 
+If video monitor is within two seat rows fore 
+or aft of an overwing exit, then the video 
+monitor must be repaired or removed 
+before the flight. 
+ 
+C 
+- 
+- 
+If video monitor is not within two seat rows 
+fore or aft of an overwing exit, then the 
+center and outboard seats immediately fore 
+and aft of the video monitor must be 
+blocked off. 
+ 
+ 
+ 
+ 
+02 Monitor stuck 
+in up position 
+C 
+- 
+- 
+(M)(O) May be inoperative provided:  
+1) Alternate procedures are established 
+and used,  
+2) Latch Mechanism operates normally, 
+and  
+3) Affected screen(s) is manually latched 
+up and electrically deactivated.  
+ 
+ 
+ 
+02 Bulkhead  
+C 
+- 
+- 
+(O) 
+May be inoperative provided alternate 
+procedures are established and used.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+52 Retractable LCD 
+Screen Latch 
+Mechanism  
+C 
+- 
+- 
+One or two may be inoperative provided 
+the spring retract mechanism operates 
+normally.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+53 Retractable LCD 
+Screen Electrical 
+Retract System  
+C 
+- 
+- 
+Up to four may be inoperative provided: 
+1) Screen(s) with inoperative electrical 
+retract system are stowed manually 
+immediately after use, and  
+2) Spring retract mechanism operates 
+normally. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 29 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 35 
+ 
+ 
+ 
+Page: 
+Date: Feb. 13, 2018  
+ 
+ 
+23-7 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+    
+ 
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+23 COMMUNICATIONS 
+ 
+ 
+ 
+ 
+ 
+36 Video System (if installed) 
+(cont’d) 
+ 
+ 
+ 
+ 
+ 
+ 
+54 Retractable LCD Spring 
+Retract Mechanism 
+(System Power Off)  
+C 
+- 
+- 
+(M) 
+One or more may be inoperative provided 
+affected screen(s) is manually latched up 
+and electrically deactivated.  
+ 
+C 
+- 
+- 
+(O) 
+One or more may be inoperative provided 
+the video system is not used.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+55 System Control Unit 
+(SCU) 
+C 
+1 
+- 
+(O) 
+May be inoperative provided alternate 
+procedures are established and used.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+56 Video Tape 
+Reproducer (VTR)  
+C 
+2 
+1 
+ 
+One may be inoperative. 
+ 
+C 
+2 
+0 
+(O) 
+Both may be inoperative provided 
+alternate procedures are established and 
+used.  
+ 
+ 
+ 
+ 
+ 
+ 
+38 Aircell Broadband System 
+(if installed) 
+ 
+ 
+ 
+ 
+ 
+ 
+51 ABS WiFi Connectivity 
+System 
+ 
+ 
+ 
+(STC SA14-38) 
+C 
+1 
+0 
+(M) 
+May be inoperative. 
+ 
+ 
+ 
+-01 ABS Control 
+Processor Unit 
+(ACPU or ACPU-2) 
+C 
+1 
+0 
+ 
+May be inoperative. 
+ 
+ 
+ 
+-02 ABS Air-To-
+Ground 
+Communications 
+Unit (AACU) 
+C 
+1 
+0 
+ 
+May be inoperative. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 30 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 35 
+ 
+ 
+ 
+Page: 
+Date: Feb. 13, 2018  
+ 
+ 
+23-8 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+    
+ 
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+23 COMMUNICATIONS 
+ 
+ 
+ 
+ 
+ 
+38 Aircell Broadband System 
+(if installed) (cont’d) 
+ 
+ 
+ 
+ 
+ 
+ 
+51 ABS WiFi Connectivity 
+System 
+ 
+ 
+ 
+(STC SA14-38) (cont’d) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+-03 ATG4000 Unit 
+C 
+- 
+0 
+ 
+May be inoperative. 
+ 
+ 
+ 
+-04 Cabin Wireless 
+Access Points 
+(CWAP / NWAP) 
+C 
+3 
+0 
+ 
+May be inoperative. 
+ 
+ 
+ 
+-05 Cabin Discrete 
+Antennas 
+C 
+9 
+0 
+ 
+May be inoperative. 
+ 
+ 
+ 
+-06 Air-To-Ground 
+Antenna (ATG) 
+C 
+2 
+0 
+ 
+May be inoperative. 
+ 
+ 
+ 
+-07 Fractal Antenna 
+(Sidemount) 
+C 
+2 
+0 
+ 
+May be inoperative. 
+ 
+ 
+ 
+-08 Gogo Cabin 
+Handset 
+C 
+- 
+0 
+ 
+May be inoperative. 
+ 
+ 
+ 
+-09 Gogo Flight Deck 
+Handset 
+C 
+1 
+0 
+ 
+May be inoperative. 
+ 
+ 
+ 
+-10 PCS / Timing 
+Antenna 
+C 
+- 
+0 
+ 
+May be inoperative. 
+ 
+ 
+ 
+-11 WiFi Antenna (4G) 
+C 
+- 
+0 
+ 
+May be inoperative. 
+ 
+ 
+ 
+-12 Content Loader 
+C 
+1 
+0 
+ 
+May be inoperative. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 31 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 35 
+ 
+ 
+ 
+Page: 
+Date: Feb. 13, 2018  
+ 
+ 
+23-9 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+    
+ 
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+23 COMMUNICATIONS 
+ 
+ 
+ 
+ 
+ 
+40 Interphone 
+ 
+ 
+ 
+ 
+ 
+ 
+01 Ground External Horn 
+C 
+1 
+0 
+(O) 
+May be inoperative provided alternate 
+procedures are established and use. 
+ 
+D 
+1 
+0 
+May be inoperative provided procedures 
+are not dependent on its use. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+03 Flight Crew to Ground 
+Communication System 
+C 
+1 
+0 
+(O) 
+May be inoperative provided alternate 
+procedures are established and use. 
+ 
+D 
+1 
+0 
+May be inoperative provided procedures 
+are not dependent on its use. 
+ 
+ 
+ 
+ 
+ 
+ 
+51 Audio Management 
+ 
+ 
+ 
+ 
+ 
+ 
+01 SELCAL Function 
+C 
+1 
+0 
+(O) 
+May be inoperative provided alternate 
+procedures are established and use. 
+ 
+D 
+1 
+0 
+May be inoperative provided procedures 
+are not dependent on its use. 
+ 
+ 
+ 
+Channels 
+C 
+- 
+0 
+(O) 
+May be inoperative provided alternate 
+procedures are established and use. 
+ 
+D 
+- 
+0 
+May be inoperative provided procedures 
+are not dependent on its use. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 32 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 49 
+ 
+ 
+ 
+Page: 
+Date: Nov. 27, 2023  
+ 
+ 
+23-10 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+ 
+ 
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+23 COMMUNICATIONS 
+ 
+ 
+ 
+ 
+ 
+51 Audio Management 
+ 
+ 
+ 
+ 
+ 
+ 
+02 Headset / Boomset 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Headset Function 
+C 
+- 
+0 
+ 
+Headset function may be inoperative on 
+any boomset provided alternate headset is 
+installed, operative and used. 
+ 
+ 
+ 
+Mike Function 
+A 
+- 
+0 
+May be inoperative for three flight days 
+provided hand microphone operates 
+normally. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+03 Hand Microphone 
+C 
+- 
+0 
+(O) 
+May be inoperative provided: 
+1) Flight deck to cabin communication 
+operates normally, and 
+2) Alternate procedures are established 
+and used. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+04 Cockpit Loudspeaker 
+C 
+2 
+0 
+ 
+May be inoperative provided: 
+1) Procedures are not dependent on their 
+use, 
+2) Headsets are installed and used by 
+each person on flight deck duty, and 
+3) A spare headset must be readily 
+available for crew use. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 33 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 45 
+ 
+ 
+ 
+Page: 
+Date: Jul. 09, 2021 
+ 
+ 
+ 
+23-11 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+    
+ 
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+23 COMMUNICATIONS 
+ 
+ 
+ 
+ 
+ 
+52 Audio Control Panel (ACP) 
+ 
+ 
+ 
+ 
+ 
+ 
+01 CAPT and F/O ACP  
+ 
+B 
+2 
+1 
+(O) 
+One may be inoperative provided: 
+1) ACP 3 and AUDIO SWITCHING 
+selector operates normally, and 
+2)  Forward observer seat is not occupied 
+by any person in an official capacity.  
+ 
+ 
+ 
+01 ATT Call Lights 
+B 
+2 
+0 
+May be inoperative provided the flight deck 
+aural alert (buzzer) is operative. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+02 ACP 3 
+D 
+1 
+0 
+May be inoperative provided procedures 
+do not require its use. 
+ 
+ 
+ 
+ 
+ 
+ 
+71 Cockpit Voice Recorder 
+(CVR) 
+ 
+ 
+ 
+ 
+ 
+ 
+01 Cockpit Voice Recorder 
+(CVR) 
+A 
+1 
+0 
+ 
+May be inoperative provided:  
+1) DFDR operates normally, and  
+2) Repairs are made within three flight 
+days.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 34 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 35 
+ 
+ 
+ 
+Page: 
+Date: Feb. 13, 2018  
+ 
+ 
+23-12 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+    
+ 
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+23 COMMUNICATIONS 
+ 
+ 
+ 
+ 
+ 
+72 Cockpit Door Surveillance 
+System (CDSS) 
+ 
+ 
+ 
+ 
+ 
+ 
+01 Cockpit Door 
+Surveillance System 
+(CDSS) 
+A 
+1 
+0 
+(O) 
+May be inoperative provided:  
+1) Alternate procedures are established 
+and used, and  
+2) Repairs are made within three flight 
+days.  
+ 
+C 
+1 
+0 
+(O) 
+May be inoperative provided:  
+1) A flight deck door viewing port is 
+installed and operates normally, and  
+2) Alternate procedures are established 
+and used. 
+ 
+D 
+1 
+0 
+May be inoperative provided procedures do 
+not require its use. 
+ 
+ 
+ 
+ 
+ 
+ 
+73 Cabin Intercommunication 
+Data System 
+ 
+ 
+ 
+ 
+ 
+ 
+03 Cabin DEU B 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 01 Cabin DEU B 
+C 
+- 
+- 
+(O) 
+One or more may be inoperative provided 
+that: 
+1) No change from EASA MMEL, 
+2) No change from EASA MMEL, and 
+3) If inoperative DEU B is linked to the 
+lavatory smoke detector, then the 
+associated lavatory is considered 
+inoperative. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 35 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 45 
+ 
+ 
+ 
+Page: 
+Date: Jul. 09, 2021 
+ 
+ 
+ 
+23-13 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+    
+ 
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+23 COMMUNICATIONS 
+ 
+ 
+ 
+ 
+ 
+73 Cabin Intercommunication 
+Data System (cont’d) 
+ 
+ 
+ 
+ 
+ 
+ 
+06 Handset 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+01 Cockpit Handset 
+C 
+1 
+0 
+(O) 
+May be inoperative provided: 
+1) Flight deck to cabin communication 
+operates normally, and 
+2) Alternate procedures are established 
+and used. 
+ 
+D 
+1 
+0 
+May be inoperative provided procedures do 
+not require its use. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+02 Cabin Handset 
+B 
+- 
+- 
+(O) 
+May be inoperative provided: 
+1) Fifty percent of cabin handsets operate 
+normally, 
+2) Operative handset(s) is/are located at 
+an operative cabin attendant seat, and 
+3) Alternate communications procedures 
+are established and used. 
+NOTES: 
+1. An operative handset at an inoperative 
+cabin attendant seat shall not be 
+counted to satisfy the fifty percent 
+requirement. 
+2. Any handset(s) function that operates 
+normally may be used. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+07 Prerecorded 
+Announcement and 
+Music Reproducer 
+(PRAM) (if installed) 
+C 
+1 
+0 
+(O) 
+May be inoperative provided alternate 
+procedures are established and used. 
+NOTE: 
+No change from EASA MMEL 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 120 ===
+TRANSPORT CANADA 
+Master Minimum Equipment List 
+Supplement 
+ 
+ 
+ 
+Aircraft: 
+AIRBUS INDUSTRIE A319/A320/A321 
+Revision No. 52 
+ 
+ 
+ 
+Page: 
+Date: May 06, 2026  
+ 
+ 
+78-1 
+System & 
+1. 
+2. 
+Number Installed 
+Sequence 
+  
+ 
+3. 
+Number Required for Dispatch 
+Numbers 
+ 
+ 
+ 
+4. 
+Remarks or Exceptions 
+ 
+ 
+ 
+ 
+ 
+78 EXHAUST 
+ 
+ 
+ 
+ 
+ 
+08 Indications on the EWD 
+ 
+ 
+ 
+ 
+ 
+ 
+01 REV Indication on the 
+EWD 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(CEO) 
+- 
+2 
+2 
+ 
+Both must be operative. 
+ 
+ 
+ 
+(NEO & XLR) 
+C 
+2 
+1 
+ 
+One may be inoperative provided that the 
+associated thrust reverser is considered 
+inoperative. 
+ 
+ 
+ 
+ 
+ 
+ 
+30 Thrust Reverser 
+ 
+ 
+ 
+ 
+ 
+ 
+01 Thrust Reverser 
+ 
+ 
+ 
+ 
+BSCU P/N E21327307 
+installed 
+- 
+2 
+2 
+ 
+BSCU P/N E21327307 
+not installed 
+C 
+2 
+1 
+(O)(M) One may be inoperative provided that: 
+1) No change from EASA MMEL, 
+2) No change from EASA MMEL, 
+3) No change from EASA MMEL, and 
+4) No change from EASA MMEL. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+02 Thrust Reverser 
+Inhibition Relay sw 
+C 
+4 
+2 
+One or two on the same thrust reverser 
+may be inoperative provided that the 
+associated thrust reverser is considered 
+inoperative. 
+Refer to item 78-30-01. 
+ 
+ 
+04 Thrust Reverser Door 
+Tertiary Lock 
+C 
+4 
+2 
+One or two on the same thrust reverser 
+may be inoperative provided that the 
+associated thrust reverser is considered 
+inoperative. 
+Refer to item 78-30-01. 
+ 
+C 
+4 
+0 
+(O)(M) No change from EASA MMEL. 
+ 

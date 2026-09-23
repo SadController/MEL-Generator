@@ -1,10 +1,32 @@
-node_modules/
-release/
-test-output/
+# Dependencies and build output
+**/node_modules/
+**/bin/
+**/obj/
+production/release/
+development/test-output/
+development/tools/
+dist/
+out/
 *.log
+*.pdb
+**/__pycache__/
+*.py[cod]
+development/release-records/*.zip
 
-# Local staging and editor files
-/commit/
+# Local research references. Keep these files on the workstation; they are not
+# required to build the application and some exceed GitHub's file-size limit.
+development/sources_mel_mmel/06_local_reference/*.pdf
+
+# Temporary repository copy retained during the workspace migration
+development/repository-snapshot/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Operating-system and editor files
 .DS_Store
 Thumbs.db
-
+.idea/
+.vscode/

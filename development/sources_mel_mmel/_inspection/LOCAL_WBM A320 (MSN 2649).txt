@@ -1,0 +1,397 @@
+
+=== PDF PAGE 1 ===
+
+=== PDF PAGE 2 ===
+
+=== PDF PAGE 3 ===
+
+=== PDF PAGE 4 ===
+
+=== PDF PAGE 5 ===
+
+=== PDF PAGE 6 ===
+                                                                                         003
+           2649                    VP-BJH                            A320-232
+                           NWS                            0.00.15
+                                                           Page 1
+                                                      14 MAR 2013
+
+=== PDF PAGE 7 ===
+                                                                                        003
+    F.MATTER             MAR 1988                                     ALL
+    0.00.00   001  001   JAN 2010                                     ALL
+    0.00.10   001  110   MAY 2012  21103                              ALL
+    0.00.10   002  405   APR 1994  20059 +20109 +21103 +28335         ALL
+    0.00.10   003  001   MAY 2011                                     ALL
+    0.00.15   CRT  001   REV 003                                      ALL
+    0.00.20   LEP  001   REV 003                                      ALL
+    0.00.30   001  215   MAR 2010  20024 +20802                       ALL
+    0.00.30   002  204   MAR 2010  20029 +21103                       ALL
+    0.00.30   003  400   OCT 2002  20029 +28330 +28335 +28507         ALL
+    0.00.40   001  006   OCT 1997  20802                              ALL
+    0.00.50   001  001   MAR 1988                                     ALL
+    0.00.60   001  001   JAN 1991                                     ALL
+    0.00.70   LOM  001   REV 003                                      ALL
+    1.00.00   001  021A  MAR 2013                                     ALL
+    1.00.02   001  001   JUL 1997                                     ALL
+    1.00.03   001  001   JUN 2006                                     ALL
+    1.00.03   002  001   MAY 1990                                     ALL
+    1.00.04   001  110   JAN 2008  20268                              ALL
+    1.00.05   001  001   JAN 2008                                     ALL
+    1.00.05   002  110   MAR 2010  20268                              ALL
+    1.00.05   003  200   JAN 2008  20165 +20268                       ALL
+    1.00.06   001  001   MAR 1988                                     ALL
+    1.00.06   002  001   MAR 1988                                     ALL
+    1.00.06   003  001   MAR 1988                                     ALL
+    1.00.06   004  001   AUG 1988                                     ALL
+    1.00.07   001  001   MAR 1988                                     ALL
+    1.00.07   002  001   MAR 1988                                     ALL
+    1.00.08   001  001   AUG 1988                                     ALL
+    1.00.08   002  110   MAR 1992  20268                              ALL
+    1.00.08   003  001   FEB 1996                                     ALL
+    1.00.08   004  001   MAR 1988                                     ALL
+    1.00.08   005  110   MAR 1992  20029                              ALL
+    1.00.08   006  001   MAR 1988                                     ALL
+    1.00.09   001  210   AUG 1991  20653 +22548                       ALL
+    1.00.10   001  001   MAR 1988                                     ALL
+    1.10.00   001  231   FEB 2001  20802 +30479                       ALL
+    1.10.02   001  450   JUN 2010  20165 +20802 +23008 +30479         ALL
+    1.10.02   002  456   MAY 2004  20165 +20802 +23008 +23900         ALL
+                                   +30479
+    1.10.03   001  200   DEC 2002  28330 +28335                       ALL
+    1.10.03   002  211   FEB 2001  20802 +30479                       ALL
+    1.10.04   001  209   AUG 2004  28330 +28507                       ALL
+    1.10.04   002  210   AUG 2004  28335 +28507                       ALL
+                            NWS                            0.00.20
+    14 MAR 2013                                             Page 1
+
+=== PDF PAGE 8 ===
+                                                                                        003
+    1.10.05   001  205   FEB 2009  23172 +28330 +28507                ALL
+    1.10.05   002  117   FEB 2013  28330 +28507                       ALL
+    1.10.05   003  117   FEB 2009  28330 +28507                       ALL
+    1.10.05   004  115   APR 1993  28330 +28507                       ALL
+    1.10.05   005  117   FEB 2009  28330 +28507                       ALL
+    1.10.05   006  117   DEC 2002  28330 +28507                       ALL
+    1.10.05   007  117   FEB 2009  28330 +28507                       ALL
+    1.10.05   008  117   OCT 2012  28330 +28507                       ALL
+    1.10.05   009  205   FEB 2009  28330 +28507                       ALL
+    1.10.05   010  205   OCT 2012  28330 +28507                       ALL
+    1.10.05   011  205   MAY 1991  28330 +28507                       ALL
+    1.10.05   012  205   MAY 1991  28330 +28507                       ALL
+    1.10.05   013  205   MAY 1991  28330 +28507                       ALL
+    1.10.05   014  205   MAY 1991  28330 +28507                       ALL
+    1.10.05   015  205   AUG 1988  28330 +28507                       ALL
+    1.10.06   001  310   AUG 1989  21103 +23172 +28335 +28507         ALL
+    1.10.06   002  117   FEB 2013  28335 +28507                       ALL
+    1.10.06   003  117   APR 2009  28335 +28507                       ALL
+    1.10.06   004  212   APR 1991  21103 +28335 +28507                ALL
+    1.10.06   005  217   APR 2009  21103 +28335 +28507                ALL
+    1.10.06   006  203   DEC 2002  21103 +28335 +28507                ALL
+    1.10.06   007  217   APR 2005  21103 +28335 +28507                ALL
+    1.10.06   008  217   DEC 2005  21103 +28335 +28507                ALL
+    1.10.06   009  414   APR 2009  21103 +23172 +28335 +28507         ALL
+    1.10.06   010  310   APR 2009  21103 +28335 +28507                ALL
+    1.10.06   011  310   MAY 1990  21103 +28335 +28507                ALL
+    1.10.06   012  310   AUG 1989  21103 +28335 +28507                ALL
+    1.10.06   013  310   AUG 1989  21103 +28335 +28507                ALL
+    1.10.06   014  310   AUG 1989  21103 +28335 +28507                ALL
+    1.10.06   015  310   AUG 1989  21103 +28335 +28507                ALL
+    1.10.06   016  310   AUG 1989  21103 +28335 +28507                ALL
+    1.10.06   017  310   AUG 1989  21103 +28335 +28507                ALL
+    1.10.06   018  310   AUG 1989  21103 +28335 +28507                ALL
+    1.10.07   001  214   SEP 2005  23172 +25802                       ALL
+    1.10.07   002  110   APR 2005  25802                              ALL
+    1.10.07   003  105   JAN 1989  25802                              ALL
+    1.10.07   004  110   MAR 1988  25802                              ALL
+    1.10.07   005  110   AUG 1988  25802                              ALL
+    1.10.07   006  110   MAR 1988  25802                              ALL
+    1.10.07   007  110   MAY 1990  25802                              ALL
+    1.10.08   001  110   JAN 2008  20802                              ALL
+    1.10.09   001  001   JAN 2008                                     ALL
+    1.10.09   002  110   MAR 2008  20802                              ALL
+    1.10.10   001  001   DEC 2010                                     ALL
+                            NWS                            0.00.20
+    14 MAR 2013                                             Page 2
+
+=== PDF PAGE 9 ===
+                                                                                        003
+    1.20.00   001  205   NOV 1988  20024 +20324                       ALL
+    1.20.01   001  001   JUN 2004                                     ALL
+    1.20.02   001  100   AUG 1995  20024                              ALL
+    1.20.02   002  210   JUL 2009  20024 +20802                       ALL
+    1.20.02   003  210   JUL 2009  20024 +20802                       ALL
+    1.20.03   001  100   SEP 1995  20024                              ALL
+    1.20.04   001  210   JAN 2010  20024 +20802                       ALL
+    1.20.04   002  210   JUL 2009  20024 +20802                       ALL
+    1.20.04   003  210   JUL 2009  20024 +20802                       ALL
+    1.20.04   004  210   JUL 2009  20024 +20802                       ALL
+    1.20.04   005  210   JUL 2009  20024 +20802                       ALL
+    1.20.04   006  210   JUL 2009  20024 +20802                       ALL
+    1.20.05   001  100   MAR 1992  20024                              ALL
+    1.20.06   001  100   MAR 2009  20024                              ALL
+    1.20.07   001  210   MAY 2008  20024 +20324                       ALL
+    1.20.07   002  100   JAN 2009  20024                              ALL
+    1.30.00   001  213   MAR 1992  20109 +20165                       ALL
+    1.30.02   001  105   MAR 1992  20165                              ALL
+    1.30.03   001  001   MAR 1988                                     ALL
+    1.30.05   001  120   MAR 1992  21003                              ALL
+    1.30.06   001  130   MAR 1992  20109                              ALL
+    1.40.00   001  110   SEP 2001  20047                              ALL
+    1.40.02   001  110   AUG 1995  20047                              ALL
+    1.40.03   001  110A  NOV 2005  35577                              ALL
+    1.40.03   002  128B  JAN 2006  35577 +35600                       ALL
+    1.40.04   001  114A  NOV 2005  35577                              ALL
+    1.40.05   001  001   NOV 1994                                     ALL
+    1.50.00   001  001   NOV 1994                                     ALL
+    1.50.03   001  110A  NOV 2005  35577                              ALL
+    1.50.04   001  114A  SEP 2011  35600                              ALL
+    1.50.05   001  075   JUL 2004  35577                              ALL
+    1.50.06   001  110A  SEP 2011  35577                              ALL
+    1.50.06   002  110A  SEP 2011  35577                              ALL
+    1.60.00   001  315   JAN 2002  20029 +20071 +21103                ALL
+    1.60.02   001  216   JUN 2006  28330 +28507                       ALL
+    1.60.02   002  100   MAR 1991  28335 +28507                       ALL
+    1.60.02   003  110   FEB 2009  25802                              ALL
+    1.60.02   004  110   OCT 2008  25802                              ALL
+    1.60.02   005  210   MAR 1988  25802 +28335 +28507                ALL
+    1.60.03   001  210   AUG 1988  28330 +28507                       ALL
+    1.60.03   002  115   APR 1993  28330 +28507                       ALL
+    1.60.03   003  108   NOV 2002  28330 +28507                       ALL
+    1.60.03   004  210   AUG 1988  28330 +28507                       ALL
+    1.60.03   005  310   FEB 2003  23172 +28330 +28507                ALL
+                            NWS                            0.00.20
+    14 MAR 2013                                             Page 3
+
+=== PDF PAGE 10 ===
+                                                                                        003
+    1.60.03   006  210   MAY 1991  28330 +28507                       ALL
+    1.60.03   007  117   MAR 1991  28330 +28507                       ALL
+    1.60.03   008  210   MAY 1991  28330 +28507                       ALL
+    1.60.03   009  210   OCT 1992  28330 +28507                       ALL
+    1.60.03   010  210   MAY 1991  28330 +28507                       ALL
+    1.60.03   011  117   MAR 1991  28330 +28507                       ALL
+    1.60.04   001  310   AUG 1989  21103 +28335 +28507                ALL
+    1.60.04   002  225   APR 1991  21103 +28335 +28507                ALL
+    1.60.04   003  225   JUL 2010  21103 +28335 +28507                ALL
+    1.60.04   004  310   OCT 1992  21103 +28335 +28507                ALL
+    1.60.04   005  310   DEC 1990  21103 +28335 +28507                ALL
+    1.60.04   006  400   DEC 2002  21103 +23172 +28335 +28507         ALL
+    1.60.04   007  310   AUG 1989  21103 +28335 +28507                ALL
+    1.60.04   008  117   MAR 1991  28335 +28507                       ALL
+    1.60.04   009  210   AUG 1988  28335 +28507                       ALL
+    1.60.04   010  210   OCT 1992  28335 +28507                       ALL
+    1.60.04   011  210   AUG 1988  28335 +28507                       ALL
+    1.60.04   012  105   OCT 1991  21103 +28335 +28507                ALL
+    1.60.05   001  110   JAN 2013  25802                              ALL
+    1.60.05   002  001   MAR 1988                                     ALL
+    1.60.05   003  210   AUG 1993  23172 +25802                       ALL
+    1.60.05   004  110   MAR 1992  25802                              ALL
+    1.60.05   005  110   OCT 1992  25802                              ALL
+    1.60.05   006  110   MAR 1992  25802                              ALL
+    1.60.05   007  325   DEC 2002  21103 +25802 +28335                ALL
+    1.60.05   008  110   MAR 2010  25802                              ALL
+    1.60.05   009  110   DEC 1995  25802                              ALL
+    1.60.05   010  110   JUN 1996  25802                              ALL
+    1.60.06   001  403   MAY 1990  21103 +28330 +28335 +28507         ALL
+    1.60.06   002  001   FEB 2003                                     ALL
+    1.60.06   003  403   FEB 2003  21103 +28330 +28335 +28507         ALL
+    1.60.06   004  001   FEB 2003                                     ALL
+    1.60.06   005  001   FEB 2003                                     ALL
+    1.60.06   006  001   FEB 2003                                     ALL
+    1.60.07   001  510   DEC 1990  20059 +20084 +21103 +28335         ALL
+                                   +28507
+    1.60.08   001  303   AUG 1988  28330 +28335 +28507                ALL
+    1.60.09   001  303   AUG 1988  28330 +28335 +28507                ALL
+    1.80.00   001  001   JUN 2007                                     ALL
+    1.80.02   001  100   JUN 2007  20268                              ALL
+    1.80.02   002  103   JUN 2007  20268                              ALL
+    1.80.03   001  001   JUN 2007                                     ALL
+    1.80.04   001  001   OCT 2000                                     ALL
+    1.80.04   002  001   OCT 2000                                     ALL
+                            NWS                            0.00.20
+    14 MAR 2013                                             Page 4
+
+=== PDF PAGE 11 ===
+                                                                                        003
+    1.80.05   001  001   MAY 2000                                     ALL
+    1.80.05   002  220   MAR 1992  20802 +22150                       ALL
+    1.80.06   001  110   APR 2006  20029                              ALL
+    1.80.06   002  120   APR 1992  20268                              ALL
+    1.80.06   003  001   OCT 1992                                     ALL
+    1.80.06   004  001   MAR 1988                                     ALL
+    1.80.06   005  200   JUL 1995  20165 +23008                       ALL
+    1.80.07   001  001   OCT 2006                                     ALL
+    1.80.07   002  001   MAR 2011                                     ALL
+    1.80.07   003  001   SEP 1992                                     ALL
+    1.80.07   004  001   MAR 2011                                     ALL
+    1.80.07   005  001   OCT 2005                                     ALL
+    1.90.00   001  002   SEP 2006  20802                              ALL
+    1.90.03   001  432   SEP 2002  21103 +28330 +28335 +28507         ALL
+    1.90.03   002  105A  NOV 2005  35577                              ALL
+    1.90.03   003  420   OCT 2002  21103 +28330 +28335 +28507         ALL
+    1.90.03   003A 315   OCT 2002  21103 +28330 +28335 +28507         ALL
+    1.90.03   004  210   JUL 2009  20024 +20802                       ALL
+    1.90.04   001  001   MAR 1988                                     ALL
+    1.90.04   002  105A  SEP 2011  35577                              ALL
+    2.00.00   001  2649  JAN 2006                                     ALL
+                            NWS                            0.00.20
+    14 MAR 2013                                             Page 5
+
+=== PDF PAGE 12 ===
+
+=== PDF PAGE 13 ===
+
+=== PDF PAGE 14 ===
+
+=== PDF PAGE 15 ===
+
+=== PDF PAGE 16 ===
+
+=== PDF PAGE 17 ===
+
+=== PDF PAGE 18 ===
+                                                                                        003
+    20000   STRUCTURE- FORWARD FUSELAGE- DEFINE               ALL
+            SECTIONS 11,12,13,14 OF THE BASIC
+            AIRCRAFT-
+    20024   FUEL- INSTALL A CENTRE TANK SYSTEM-               ALL
+    20029   DOORS- BULK CARGO COMPARTMENT- INSTALL            ALL
+            AN ADDITIONAL DOOR AT FR 60/62-
+    20033   EQUIPMENT/FURNISHINGS- INSTALL CARGO              ALL
+            COMPARTMENT FURNISHING-
+    20047   EQUIPMENT/FURNISHINGS - FLIGHT                    ALL
+            COMPARTMENT - INSTALL A 4TH OCCUPANT
+            SEAT -
+    20049   EQUIPMENT/FURNISHINGS - FLIGHT                    ALL
+            COMPARTMENT - INSTALL SLIDING TABLES AT
+            PILOTS STATION -
+    20059   AIR CONDITIONING - CARGO COMPARTMENT -            ALL
+            VENTILATION - INSTALL SYSTEM IN AFT
+            COMPARTMENT -
+    20071   FIRE PROTECTION - CARGO COMPARTMENT               ALL
+            FIRE EXTINGUISHING - INSTALL A SINGLE
+            SHOT SYSTEM -
+    20084   AIR CONDITIONING - AFT CARGO COMPARTMENT -        ALL
+            INSTALL HEATING SYSTEM
+    20109   WATER/WASTE- INSTALL VACUUM TOILET                ALL
+            SYSTEM -
+    20165   POWER PLANT - ENGINE - INSTALL                    ALL
+            IAE V2500 ENGINE RATED AT 25.000 LBS
+    20221   INDICATING/RECORDING SYSTEMS - INSTALL            ALL
+            ADDITIONAL SENSORS FOR IAE ENGINES
+            HEALTH MONITORING -
+    20268   WINGS-WING TIP FENCES-INTRODUCE WING              ALL
+            TIPS INCLUDING FENCES-
+    20324   FUEL - COUPLING REFUEL/DEFUEL -                   ALL
+            ADD COUPLING ON LH WING (72T MTOW A/C)
+    20365   MINOR IMPROVEMENTS INTRODUCED FROM                ALL
+            A/C 028 - DA ZONE -
+    20653   GENERAL - COMPLEMENT OF BASIC                     ALL
+            DEFINITION FOLLOWING ESSENTIAL MAP
+            DEVELOPMENT -
+    20802   GENERAL - REINFORCE STRUCTURE FOR                 ALL
+            MTOW 73,5 T / MLW 64,5 T AND
+            MZFW 60,5 T -
+    21003   WATER/WASTE - RELOCATE POTABLE WATER              ALL
+            TANK -
+                           NWS                            0.00.70
+                                                           Page 1
+                                                      14 MAR 2013
+
+=== PDF PAGE 19 ===
+                                                                                        003
+    21033   LANDING GEAR - NLG - IMPROVE NOSE WHEEL           ALL
+            STEERING -
+    21061   MINOR IMPROVEMENTS INTRODUCED FROM                ALL
+            A/C 60 - CASA ZONE -
+    21103   EQUIPMENT/FURNISHINGS - CARGO                     ALL
+            COMPARTMENT - REARRANGE COMPARTMENT 4
+            INTO TWO ZONES -
+    21146   FUEL - INTRODUCE NEW VALUES OF USABLE             ALL
+            FUEL QUANTITIES ON A320-200 -
+    22150   LANDING GEAR - MLG TWIN WHEEL -                   ALL
+            INTRODUCE A TWO STAGE SHOCK ABSORBER
+    22548   INDICATING/RECORDING SYSTEMS - FWS -              ALL
+            INTRODUCE C3 STD
+    23008   POWER PLANT - IAE - INSTALL DERATED               ALL
+            V2500-A5 ON A320 A/C
+    23172   EQUIPMENT/FURNISHINGS - CARGO                     ALL
+            COMPARTMENT - REMOVE SMOKE CHANNELS
+    23624   WINGS - WING TIP GLAZING - ADD                    ALL
+            VENTILATION AND DRAINAGE HOLES
+    23900   GENERAL - INCREASE DESIGN WEIGHT TO               ALL
+            61T MZFW
+    25802   E/F-INSTALL SET 4G FOR CARGO COMPT                ALL
+            COMPONENTS IN REAR CARGO HOLD IN
+            BULK VERSION WITH BULK CARGO DOOR
+    26068   WINGS-MAIN STRUCTURE-MODIFY EDGE                  ALL
+            LANDING OF STRS 8 AND 11 FWD AND AFT
+            JOINTS AT ROOT JOINT
+    27276   FLIGHT CONTROLS-ELAC SYSTEM-INTRODUCE             ALL
+            ELAC SOFTWARE L80
+    27564   HYDRAULIC POWER-GENERAL SECTION                   ALL
+            15-19-INTRODUCE MODIFIED IN-LINE
+            CHECK VALVE ZCV63-6-1
+    28330   EQUIPMENT/FURNISHINGS-FWD CARGO COMPT-            ALL
+            INSTALL CARGO COMPONENTS FOR CLS
+            CONFIGURATION (SET 4.1B) FOR A320
+    28335   EQUIPMENT/FURNISHINGS-AFT CARGO COMPT-            ALL
+            INSTALL CARGO COMPONENTS FOR CLS
+            CONFIGURATION (SET 4.1D) FOR A320
+    28507   PLCRD AND MARKINGS-FWD/AFT CARGO COMPT-           ALL
+            INSTL SET 7.1C FOR CLS WITH OCCASIONAL
+            BULK CAPABILITY WITH AND WITHOUT ACT
+    30479   GENERAL - DESIGN WEIGHT - INCREASE A320           ALL
+            DESIGN WEIGHTS TO 77.0 MTOW, 66.0T MLW
+            AND 62.5T MZFW (WV 012)
+                           NWS                            0.00.70
+                                                           Page 2
+                                                      14 MAR 2013
+
+=== PDF PAGE 20 ===
+                                                                                        003
+    30749   ELEC AND ELEK COMMON INSTL-REPLACE                ALL
+            CF,DK TYPE OF WIRES BY WIRES DM TYPE
+            ON VUS AND NON PRESSURIZED AREAS
+    35577   EQUIPMENT/FURNISHINGS-PAX COMPARTMENT-            ALL
+            INSTALL TWO CLASS CABIN LAYOUT FOR
+            RJA02 VERSION
+    35600   EQUIPMENT/FURNISHINGS- BUFFET AND                 ALL
+            GALLEY- INSTALL GALLEYS FROM VENDOR
+            MUEHLENBERG FOR RJA02 VERSION
+                           NWS                            0.00.70
+                                                           Page 3
+                                                      14 MAR 2013
+
+=== PDF PAGE 21 ===
+
+=== PDF PAGE 22 ===
+
+=== PDF PAGE 23 ===
+
+=== PDF PAGE 24 ===
+
+=== PDF PAGE 25 ===
+
+=== PDF PAGE 26 ===
+
+=== PDF PAGE 27 ===
+
+=== PDF PAGE 28 ===
+
+=== PDF PAGE 29 ===
+
+=== PDF PAGE 30 ===
+
+=== PDF PAGE 31 ===
+
+=== PDF PAGE 32 ===
+
+=== PDF PAGE 33 ===
+
+=== PDF PAGE 34 ===
+
+=== PDF PAGE 35 ===
+
+=== PDF PAGE 227 ===

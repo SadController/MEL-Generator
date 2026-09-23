@@ -1,0 +1,3021 @@
+
+=== PDF PAGE 1 ===
+A-320 Rev 31 
+08/13/24 
+ 
+1
+FINAL COMMENT LOG 
+Originating Office: 
+AFS-110 
+Document Title/Description: 
+MMEL A-320 Rev 31, Airbus SAS, A318, A319, A320, 
+and A321 Series, All Models 
+POC and Phone Number: 
+Mark Farrell, 206-231-3990 
+Suspense Date: 
+10/14/2024 
+ 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+AED 
+06/25/24 
+IV 
+HoC 
+Updates to 23-42-01 omitted from 
+HoC. 
+Add 23-42-01 to HoC for updated proviso. Added 23-42-01 to HoC. 
+AED 
+06/05/24 
+32-1 
+32-31-01 
+Issues with item resolved. 
+Reinstate item relief into draft to include 
+recommended changes as well as listing 
+all items into provisos that are considered 
+inoperative. 
+Reinstated item relief into draft 
+with changes. 
+AED 
+06/05/24 
+78-9 
+78-31-01 
+Issues with item resolved. 
+Reinstate item relief into draft. Update 
+item by moving Note 2 to a proviso and 
+add a considered inoperative proviso. 
+Reinstated item relief into draft. 
+Updated item by moving Note 2 
+to a proviso and adding a 
+considered inoperative proviso. 
+John J McDermott 
+AFS-220-3 
+Concur with 
+Comment 
+ 
+5/28/24 
+23-23 
+Pdf 93 
+23-73-03-04 
+Lavatory 
+Smoke 
+Detection 
+System 
+(Indication 
+on 
+PTP/FAP) 
+Policy Letter (PL31): 
+Item remark missing information per 
+PL 31 Policy section #7 
+Revise to  include “Relief moved to 
+XXXXX Revision XX” per PL 31. 
+Partually concur. Deleted 
+reference subitems with “Relief 
+moved” statement IAW PL-31 
+Policy item 7. 
+John J McDermott 
+AFS-220-3 
+Concur with 
+Comment 
+5/28/24 
+23-23 
+Pdf 93 
+23-73-03-05 
+Drain Masts 
+(Indication 
+on 
+PTP/FAP)  
+Policy Letter (PL31): 
+Item remark missing information per 
+PL 31 Policy section #7 
+Revise to  include “Relief moved to 
+XXXXX Revision XX” per PL 31. 
+Partually concur. Deleted 
+reference subitems with “Relief 
+moved” statement IAW PL-31 
+Policy item 7. 
+John J McDermott 
+AFS-220-3 
+Concur with 
+Comment 
+5/28/24 
+23-25 
+Pdf 93 
+23-73-05 
+Prerecorded 
+Announcem
+ent and 
+Music 
+Reproducer 
+Policy Letter (PL31): 
+Item remark missing information per 
+PL 31 Policy section #7 
+Revise to  include “Relief moved to 
+XXXXX Revision XX” per PL 31. 
+Partually concur. Deleted 
+reference item with “Relief 
+moved” statement IAW PL-31 
+Policy item 7. 
+John J McDermott 
+AFS-220-3 
+Concur with 
+Comment 
+5/28/24 
+22-2 
+Pdf 59 
+22-10-07 
+Autopilot 
+FMA 
+Indications 
+on PFD 
+Policy Letter (PL31): 
+Item remark missing information per 
+PL 31 Policy section #7 
+Revise to include “Relief combined with 
+XXXXX (Relief Title) Revision X” per PL 
+31. 
+Partually concur. Deleted 
+reference item with “Relief 
+combined” statement IAW PL-
+31 Policy item 7. 
+
+=== PDF PAGE 2 ===
+A-320 Rev 31 
+08/13/24 
+ 
+2
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+John J McDermott 
+AFS-220-3 
+Concur with 
+Comment 
+5/28/24 
+25-21 
+Pdf 145 
+25-60-12 
+Overwater 
+Survival Kits 
+Policy Letter (PL31): 
+Item remark missing information per 
+PL 31 Policy section #7 
+Revise to include “Relief combined with 
+XXXXX (Relief Title) Revision X” per PL 
+31. 
+Partually concur. Deleted 
+reference item with “Relief 
+combined” statement IAW PL-
+31 Policy item 7. 
+John J McDermott 
+AFS-220-3 
+Concur with 
+Comment 
+5/29/24 
+33-5 
+Pdf 310 
+33-20-02-01 
+All Cargo, 
+Supernumer
+ary/Courier 
+Area Lighted 
+Information 
+Signs 
+Notice:  “Supernumerary” now 
+considered “authorized persons” on all 
+cargo aircraft per Notice N8900.669 
+Revise to include “authorized persons” 
+where appropriate 
+Concur. Updated subitem title 
+IAW N8900.669. 
+Robert Laurion 
+AFS-330 
+6/3/24 
+22-7 
+22-81-01 
+item 1) 
+Mod applicability was added and not 
+indicated with change bars. 
+Recommend adding the change bars. 
+Concur. Added change bars as 
+appropriate. 
+Robert Laurion 
+AFS-330 
+6/3/24 
+23-8 
+23-42-01 
+Proviso was changed as reflected by 
+change bars; however, the Highlights 
+of Change, Page IV does not contain 
+an Explanation of Change for 23-42-
+01. 
+Recommend adding 23-42-01 to the 
+Highlights of Change, Page IV, 
+Explanation of Change.  
+Concur. Updated HoC. 
+Robert Laurion 
+AFS-330 
+6/3/24 
+28-45 
+28-40-09 
+item 5) 
+Question whether the dispatch 
+condition and proviso for 5) since it is 
+covered in 5)a). 
+If the condition and proviso for 5) is not 
+needed, recommend removal. 
+Concur. Corrected typo. 
+Dispatch condition only applies 
+to subitem with model 
+applicability. 
+Robert Laurion 
+AFS-330 
+6/3/24 
+28-46 
+28-40-09 
+item 6) 
+Question whether the dispatch 
+condition and proviso for 6) is need 
+since it is covered in 6)a). 
+If the condition and proviso for 6) is not 
+needed, recommend removal. 
+Concur. Corrected typo. 
+Dispatch condition only applies 
+to subitem with model 
+applicability. 
+Robert Laurion 
+AFS-330 
+6/3/24 
+34-16 
+34-40-13 
+This item was added to the MMEL; 
+however, the Highlights of Change, 
+Page VI, does not contain an 
+Explanation of Change for 34-40-13. 
+Recommend adding 34-40-13 to the 
+Highlights of Change, Page VI, 
+Explanation of Change as new item. 
+Concur. Updated HoC. 
+AFS-800 
+ 
+ 
+ 
+No comments. 
+ 
+ 
+Clement Chaurat 
+Airbus 
+05/29/24 
+22-4 
+22-66-01 
+Should it be “a/c without eRudder 
+Mod” or “all aircraft except A321neo 
+XLR”? 
+ 
+For manual consistency, for this 
+item, will retain use of Mod/MP 
+applicability as opposed to 
+model applicability. 
+Clement Chaurat 
+Airbus 
+05/29/24 
+25-1 
+25-00-00 
+FYI this fault message is enabled by 
+the installation of ELT DT (Mod 
+166219 / MP K32599), in case you 
+would like to replace the if installed 
+symbol by the Mod number. 
+ 
+Concur. Removed asterisks and 
+added Mod applicability. 
+However, removed 25-00-00 
+from MMEL. Will review again 
+for R32. See subsequent 
+comment for 25-00-00 1). 
+
+=== PDF PAGE 3 ===
+A-320 Rev 31 
+08/13/24 
+ 
+3
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Clement Chaurat 
+Airbus 
+05/29/24 
+27-11 
+27-64-01 
+All A320-200 with sharklets (installed 
+either via Mod 160500 or Mod 160080) 
+have Mod 26334 or Mod 26335. So 
+you can either delete Mod 26334 and 
+Mod 26335 or replace by “With Mod 
+26334 or Mod 26335”. 
+ 
+Concur. Corrected Mod 
+applicability as recommended 
+for without Mods 26334 and 
+26335.  
+Clement Chaurat 
+Airbus 
+05/29/24 
+27-21 
+27-93-01 2) “Except A321neo XLR” should be 
+added since ELAC 2 is NO GO for 
+XLR/eRudder. 
+ 
+Concur. Made correction to Mod 
+applicabiity. 
+Clement Chaurat 
+Airbus 
+05/29/24 
+27-24 
+27-94-01 
+1)b) 
+Add “A321 without eRudder”. The 
+MMEL project mentions “all without 
+Mod. 163323 (eRudder)”. 
+ 
+Concur. Made correction to Mod 
+applicabiity. 
+Clement Chaurat 
+Airbus 
+05/29/24 
+27-29 
+27-94-01 
+2)b) 
+It should be “A321 except A321neo 
+XLR” 
+ 
+Concur. Made correction to Mod 
+applicabiity. 
+Clement Chaurat 
+Airbus 
+05/29/24 
+27-32 
+27-94-01 3) As per SA00FM2300633, it should 
+mention “SEC 3 (Aircraft without Mod. 
+163323 (eRudder)) since SEC 3 is 
+removed on A/C with eRudder. 
+ 
+Concur. Added Mod 
+applicabiity. 
+Clement Chaurat 
+Airbus 
+05/29/24 
+27-33 
+27-94-02 
+1)a) 
+It should be “Aircraft without Mod 
+163323/ MP P20703 (eRudder)” 
+because this update is related to 
+eRudder and not XLR specifically 
+ 
+Removed model and added 
+Mod applicability. 
+Clement Chaurat 
+Airbus 
+05/29/24 
+27-33 
+27-94-02 
+1)b) 
+Should be “Aircraft with Mod 163323/ 
+MP P20703 (eRudder. 
+ 
+Removed model and added 
+Mod applicability. 
+Clement Chaurat 
+Airbus 
+05/29/24 
+27-33 
+27-94-02 
+2)a) 
+Should be “Aircraft with Mod 163323/ 
+MP P20703 (eRudder. 
+ 
+Removed model and added 
+Mod applicability. 
+Clement Chaurat 
+Airbus 
+05/29/24 
+27-33 
+27-94-02 
+2)b) 
+Should be “Aircraft with Mod 163323/ 
+MP P20703 (eRudder. 
+ 
+Removed model and added 
+Mod applicability. 
+Clement Chaurat 
+Airbus 
+05/29/24 
+28-8 
+28-21-02 
+2)a) 
+Provisos updated to add “or is not 
+installed” for FWD ACT 
+ 
+Revised provisos as 
+recommended. 
+Clement Chaurat 
+Airbus 
+05/29/24 
+28-13 
+28-25-03 
+3)b) 
+Provisos updated to add “or is not 
+installed” for FWD ACT 
+ 
+Revised provisos as 
+recommended. 
+Clement Chaurat 
+Airbus 
+05/29/24 
+28-25 
+28-40-02 
+1)d) 
+Provisos updated to add “or is not 
+installed” for FWD ACT 
+ 
+Revised provisos as 
+recommended. 
+Clement Chaurat 
+Airbus 
+05/29/24 
+28-41 
+28-40-06 
+3)h) 
+Provisos updated to add “or is not 
+installed” for FWD ACT 
+ 
+Revised provisos as 
+recommended. 
+
+=== PDF PAGE 4 ===
+A-320 Rev 31 
+08/13/24 
+ 
+4
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Clement Chaurat 
+Airbus 
+05/29/24 
+30-1 and 
+30-3 
+30-11-01 1) 
+and 3) 
+The only difference between sub item 
+1) and sub-item 3) is the content of the 
+(o) procedure: as mentioned on the 
+MMEL Change project, the (o) 
+procedure for 321neo XLR provides 
+information to the flight crew regarding 
+the applicable limitations in case of 
+inadvertent icing conditions and 
+severe ice accretion. This is additional 
+information compared to the existing 
+(o) procedure from sub-item 1). 
+I just realized that the provisos are 
+actually the same between sub-item 1) 
+and sub-item 3). 
+Therefore, there is may be no need to 
+have two separate sub-items and both 
+could be merged. 
+ 
+Updated model applicability for 
+subitem 1) and removed 
+subitem 3) as recommended. 
+Clement Chaurat 
+Airbus 
+06/12/24 
+30-6 and 
+30-7 
+30-31-01 
+As a result of updated safety 
+methodology, reconfigure item and 
+update previously proposed relief to 
+ensure there is no relief for the F/O 
+and STBY Probe Heat Computers on 
+the A321neo XLR. 
+ 
+Updated item relief to reflect 
+that for the F/O and STBY 
+Probe Heat Computers on the 
+A321neo XLR. 
+Clement Chaurat 
+Airbus 
+06/24/24 30-8 thru 
+30-11 
+30-31-02 
+30-31-03 
+What is the reason for duplicating 
+items 30-31-02 Pitot Heaters and 30-
+31-03 Static Port Heaters for XLR and 
+non-XLR?  
+These items are unchanged for XLR. 
+ 
+Partially concur. The only 
+difference between the two 
+subitems for each item is that 
+for the XLR takeoff with flaps in 
+CONF 1A+F is prohibited where 
+for all other models not having 
+ETOC the restriction is for 
+CONF 1+F. Reconfigured items 
+to add model applicability within 
+provisos, i.e. “Takeoff in CONF 
+1+F (CONF 1A+F for A321neo 
+XLR) is prohibited…”. 
+Clement Chaurat 
+Airbus 
+06/12/24 
+30-12 
+30-31-04 
+As a result of updated safety 
+methodology, update model 
+applicability to ensure item relief is NO 
+GO for A321neo XLR. 
+ 
+Added model applicability for all 
+models except A321neo XLR.. 
+
+=== PDF PAGE 5 ===
+A-320 Rev 31 
+08/13/24 
+ 
+5
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Clement Chaurat 
+Airbus 
+06/24/24 
+32-1 
+32-31-01 2) Typo in the applicability of sub-item 2): 
+ 
+"A319neo/A320neo/A321neo with Mod 
+165148/MP J4604 and without Mod 
+171984/MP P22484" 
+Replace  
+"A319neo/A320neo/A321neo with Mod 
+165148/MP J4604 and without Mod 
+171984/MP P22484" 
+ 
+By 
+ 
+"A319neo/A320neo/A321neo with Mod 
+165148/MP J4604 and without Mod 
+171984/MP P22484" 
+Concur. Adjusted Mod 
+applicability as recommended. 
+Clement Chaurat 
+Airbus 
+05/29/24 
+32-4 
+32-42-03 
+1)a) 
+It should be “Aircraft without. 
+ 
+Corrected Mod applicability. 
+Clement Chaurat 
+Airbus 
+05/29/24 
+32-5 
+32-42-03 
+1)b) 
+highlight that the condition “with Mod 
+171984/ MP P22484” must apply to 
+both: 
+- A319neo/A320neo/A321neo with 
+Mod 165148/ MP J4604  
+and  
+- A319neo/A320neo/A321neo with 
+Mod 170252/ MP J7041 (BSCU L4.11) 
+ 
+Is it clear the way it is currently 
+written?  
+Or should it state “all with Mod 
+171984/ MP P22484” ? 
+ 
+Updated Mod applicability for 
+clarity. 
+Clement Chaurat 
+Airbus 
+05/29/24 
+32-6 
+32-42-03 
+1)c) 
+Typo. 
+ 
+Corrected typo. 
+Clement Chaurat 
+Airbus 
+05/29/24 
+32-7 
+32-42-03 
+2)b) 
+Same comment as with 32-42-03 1)b).  
+Updated Mod applicability for 
+clarity. 
+Clement Chaurat 
+Airbus 
+05/29/24 
+32-8 
+32-42-03 
+2)c) 
+Typo. 
+ 
+Corrected typo. 
+Clement Chaurat 
+Airbus 
+06/12/24 
+34-8 
+34-10-01 4) Remove proposed ADR 2 relief for 
+A321neo XLR as a result of updated 
+safety methodology conclusions. 
+ 
+Updated item relief to reflect 
+that for A321neo XLR, item is 
+NO GO. 
+Clement Chaurat 
+Airbus 
+06/12/24 
+34-8 
+34-10-01 5) Remove proposed ADR 3 relief for 
+A321neo XLR as a result of updated 
+safety methodology conclusions. 
+ 
+Updated item relief to reflect 
+that for A321neo XLR, item is 
+NO GO. 
+Clement Chaurat 
+Airbus 
+05/29/24 
+34-16 
+34-40-09 
+“P” is missing in front of MP number : 
+P15323. 
+ 
+Corrected 
+
+=== PDF PAGE 6 ===
+A-320 Rev 31 
+08/13/24 
+ 
+6
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Clement Chaurat 
+Airbus 
+06/12/24 
+34-18 
+34-42-01 1) 
+and 2) 
+Update Notes with additioanal Mod 
+applicability.  
+Note is applicable to all aircraft except: 
+- aircraft with EGPWS -006 (Mod. 
+155145 / P13063) 
+or 
+- aircraft with T3CAS (Mod 39146 / 
+P10960 or  Mod 152353 / P18041) 
+or 
+- aircraft with T2CAS Std3 (152920 / 
+P12603) 
+ 
+ 
+Updated Notes with Mod 
+applicability as recommended. 
+Clement Chaurat 
+Airbus 
+05/29/24 
+78-9 
+78-31-01 1) Typo. 
+ 
+Corrected typo. 
+Clement Chaurat 
+Airbus 
+06/24/24 
+78-9 
+78-31-01 2) Typo in the applicability of sub-item 2): 
+ 
+"A319neo/A320neo/A321neo without 
+Mod. 165148/MP J4604 or 
+A319neo/A320neo/ A321neo with Mod 
+165148/MP J4604 and with Mod 
+171984/MP P22484” 
+Replace 
+ 
+"A319neo/A320neo/A321neo with Mod. 
+165148/MP J4604 or A319neo/A320neo/ 
+A321neo with Mod 165148/MP J4604 and 
+with Mod 171984/MP P2248” 
+ 
+By 
+ 
+"A319neo/A320neo/A321neo without 
+Mod. 165148/MP J4604 or 
+A319neo/A320neo/ A321neo with Mod 
+165148/MP J4604 and with Mod 
+171984/MP P22484” 
+Concur. Adjusted Mod 
+applicability as recommended. 
+Pete Moll 
+United 
+6-21-24 
+22-6 
+22-76-01 
+In the “Item” title, the T.O. SURV pb-
+sw has a period after the “O”, and 
+should not based on the Airbus MMEL 
+and guidance. This should be listed 
+without this period, such as: 
+T.O SURV pb-sw (With Mod. 162728/ 
+MP P20485) 
+Recommend removing the extra period 
+after the “O” in Item for T.O 
+Example: 
+T.O SURV pb-sw (With Mod. 162728/ MP 
+P20485) 
+Concur. Corrected typo to align 
+item title with Airbus MMEL. 
+Pete Moll 
+United 
+6-21-24 
+22-6 
+22-76-02 
+In the “Item” title, the T.O. SURV pb-
+sw has a period after the “O”, and 
+should not based on the Airbus MMEL 
+and guidance. This should be listed 
+without this period, such as: 
+T.O. SURV pb-sw OFF Light (With 
+Mod. 162728/ MP P20485) 
+Recommend removing the extra period 
+after the “O” in Item for T.O 
+Example: 
+T.O SURV pb-sw OFF Light (With Mod. 
+162728/ MP P20485) 
+Concur. Corrected typo to align 
+item title with Airbus MMEL. 
+
+=== PDF PAGE 7 ===
+A-320 Rev 31 
+08/13/24 
+ 
+7
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Pete Moll 
+United 
+6-21-24 
+25-1 
+25-00-00 1) For this Class II Mx message item, 
+Fault(s) indicated by ELT, this has 
+been given a category D repair 
+interval. All other Class II Mx messege 
+items in the MMEL are either Cat C, or 
+Cat A 10-days. Recommend that this 
+be changed to a Cat C repair interval. 
+For this Class II Mx message item, 
+Fault(s) indicated by ELT, this has been 
+given a category D repair interval. All 
+other Class II Mx messege items in the 
+MMEL are either Cat C, or Cat A 10-days. 
+Recommend that this be changed to a Cat 
+C repair interval. 
+Partially concur. The relief is for 
+aircraft with the Mod that installs 
+ELT-DT. Further research into 
+the item shows that item should 
+have proviso along with 
+associated (M) Procedure for 
+aircraft with Mod. Will remove 
+relief from R31 for now until 
+additional justification can be 
+obtained, then reintroduce for 
+subsequent R32. 
+Pete Moll 
+United 
+6-21-24 
+25-20 
+25-60-08 
+Within MMEL Rev.29, there was an 
+item of relief for Flashlights that 
+aligned with PL-125 (No Passengers 
+are carried proviso set), then, with 
+MMEL Rev.30, this relief was 
+removed, and not certain why? 
+Recommend adding a third proviso set 
+for this Flashlight item that would pick 
+up the relief that was previously 
+deleted in MMEL Rev.29, and then 
+would align with PL-125 as well. If this 
+is not possible to add this in this 
+revision, then could this be considered 
+for the next MMEL revision? 
+Within MMEL Rev.29, there was an item 
+of relief for Flashlights that aligned with 
+PL-125 (No Passengers are carried 
+proviso set), then, with MMEL Rev.30, this 
+relief was removed, and not certain why? 
+Recommend adding a third proviso set for 
+this Flashlight item that would pick up the 
+relief that was previously deleted in MMEL 
+Rev.29, and then would align with PL-125 
+as well. If this is not possible to add this in 
+this revision, then could this be considered 
+for the next MMEL revision? 
+Concur. Exceptions for flight 
+without passengers (PL-125) 
+were inadvertently omitted with 
+R30 as a result of making 
+changes to relief per the PL-
+132. 
+Pete Moll 
+United 
+6-21-24 
+25-20 
+25-60-09 
+Proviso step b), there appears to be 
+an extra space before the word 
+‘Location’. Recommend removing the 
+extra space here. 
+Proviso step b), there appears to be an 
+extra space before the word ‘Location’. 
+Recommend removing the extra space 
+here. 
+Concur. Corrected typo. 
+Pete Moll 
+United 
+6-21-24 
+25-20 
+25-60-09 
+Within MMEL Rev.29, there was an 
+item of relief for Megaphones that 
+aligned with PL-125 (No Passengers 
+are carried proviso set), then, with 
+MMEL Rev.30, this relief was 
+removed, and not certain why? 
+Recommend adding a second proviso 
+set for this Megaphone item that would 
+pick up the relief that was previously 
+deleted in MMEL Rev.29, and then 
+would align with PL-125 as well. If this 
+is not possible to add this in this 
+revision, then could this be considered 
+for the next MMEL revision? 
+Within MMEL Rev.29, there was an item 
+of relief for Flashlights that aligned with 
+PL-125 (No Passengers are carried 
+proviso set), then, with MMEL Rev.30, this 
+relief was removed, and not certain why? 
+Recommend adding a third proviso set for 
+this Flashlight item that would pick up the 
+relief that was previously deleted in MMEL 
+Rev.29, and then would align with PL-125 
+as well. If this is not possible to add this in 
+this revision, then could this be considered 
+for the next MMEL revision? 
+Concur. Exceptions for flight 
+without passengers (PL-125) 
+were inadvertently omitted with 
+R30 as a result of making 
+changes to relief per the PL-
+132. 
+
+=== PDF PAGE 8 ===
+A-320 Rev 31 
+08/13/24 
+ 
+8
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Pete Moll 
+United 
+6-21-24 
+32-1 
+32-31-01 
+This item for the Landing Gear Control 
+and Interface Unit No. 2 (LGCIU 2) is 
+now showing as “Deleted”. This was 
+not discussed as such in the FOEB 
+meeting. Recommend adding this item 
+back in here, and then also make all of 
+the systems that are aftected when 
+this is on MEL, as “Considered 
+Inoperative” items. 
+This item for the Landing Gear Control 
+and Interface Unit No. 2 (LGCIU 2) is now 
+showing as “Deleted”. This was not 
+discussed as such in the FOEB meeting. 
+Recommend adding this item back in 
+here, and then also make all of the 
+systems that are aftected when this is on 
+MEL, as “Considered Inoperative” items. 
+Concur. Reinstated relief as 
+recommended. 
+Pete Moll 
+United 
+6-21-24 
+32-6 
+32-42-03 1) 
+c) 
+In the MMEL Item, There is a question 
+mark ? after the mod number 171984. 
+Replace the question mark with a 
+slash, example: 
+A319neo/A320neo/ A321neo with Mod 
+165148/ MP J4604 or Mod 170252/ 
+MP J7041 (BSCU L4.11) and without 
+Mod 171984/ MP P22484 
+In the MMEL Item, There is a question 
+mark ? after the mod number 171984. 
+Replace the question mark with a slash, 
+example: 
+A319neo/A320neo/ A321neo with Mod 
+165148/ MP J4604 or Mod 170252/ MP 
+J7041 (BSCU L4.11) and without Mod 
+171984/ MP P22484 
+Concur. Corrected typo. 
+Pete Moll 
+United 
+6-21-24 
+32-8 
+32-42-03 2) 
+c) 
+In the MMEL Item, There is a question 
+mark ? after the mod number 171984. 
+Replace the question mark with a 
+slash, example: 
+A319neo/A320neo/ A321neo with Mod 
+165148/ MP J4604 or Mod 170252/ 
+MP J7041 (BSCU L4.11) and without 
+Mod 171984/ MP P22484 
+In the MMEL Item, There is a question 
+mark ? after the mod number 171984. 
+Replace the question mark with a slash, 
+example: 
+A319neo/A320neo/ A321neo with Mod 
+165148/ MP J4604 or Mod 170252/ MP 
+J7041 (BSCU L4.11) and without Mod 
+171984/ MP P22484 
+Concur. Corrected typo. 
+Pete Moll 
+United 
+6-21-24 
+46-1 
+46-20-01 1), 
+2), 3), 4) 
+This section and items are not in 
+alignment with PL-121. Would there be 
+an opportunity of changing all of this 
+section and items, to align with PL-
+121? If this is an option to do, then the 
+PL table at the beginning of this MMEL 
+needs to also be updated. If not, then 
+could this be considered in the next 
+revision? 
+This section and items are not in 
+alignment with PL-121. Would there be an 
+opportunity of changing all of this section 
+and items, to align with PL-121? If this is 
+an option to do, then the PL table at the 
+beginning of this MMEL needs to also be 
+updated. If not, then could this be 
+considered in the next revision? 
+Concur. However, will consider 
+recommendation for R32. 
+
+=== PDF PAGE 9 ===
+A-320 Rev 31 
+08/13/24 
+ 
+9
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Pete Moll 
+United 
+6-21-24 
+52-7 
+Proposed 
+possible new 
+item 52-50-
+04 
+Would there be a opportunity to add 
+new MMEL relief for the “Installed 
+Physical Secondary Barrier (IPSB)”? 
+This would be the same/similar to what 
+is being proposed by Boeing for the 
+737MAX draft MMEL Rev.6. The 
+example would be like, or similar to 
+this: 
+Cat C relief: 
+ 
+(O) May be inoperative provided: 
+a) Barrier is secured in the fully stowed 
+position, and 
+b) Alternate procedures are 
+established and used. 
+ 
+(M)(O) May be inoperative provided: 
+a) Barrier is removed, and 
+b) Alternate procedures are 
+established and used. 
+ 
+Cat D relief: 
+ 
+(O) May be inoperative provided: 
+a) Operations do not require its use, 
+and 
+b) Barrier is secured in the fully stowed 
+position. 
+ 
+(M) May be inoperative provided: 
+a) Operations do not require its use, 
+and 
+b) Barrier is removed. 
+ 
+If this is not an option for this revision, 
+could this be considered for the next 
+MMEL revision? 
+Would there be a opportunity to add new 
+MMEL relief for the “Installed Physical 
+Secondary Barrier (IPSB)”? This would be 
+the same/similar to what is being 
+proposed by Boeing for the 737MAX draft 
+MMEL Rev.6. The example would be like, 
+or similar to this: 
+Cat C relief: 
+ 
+(O) May be inoperative provided: 
+a) Barrier is secured in the fully stowed 
+position, and 
+b) Alternate procedures are established 
+and used. 
+ 
+(M)(O) May be inoperative provided: 
+a) Barrier is removed, and 
+b) Alternate procedures are established 
+and used. 
+ 
+Cat D relief: 
+ 
+(O) May be inoperative provided: 
+a) Operations do not require its use, and 
+b) Barrier is secured in the fully stowed 
+position. 
+ 
+(M) May be inoperative provided: 
+a) Operations do not require its use, and 
+b) Barrier is removed. 
+ 
+If this is not an option for this revision, 
+could this be considered for the next 
+MMEL revision? 
+Concur. However, will consider 
+recommendations for R32. 
+Pete Moll 
+United 
+6-21-24 
+71-2 
+71-00-00 2) Within the Remarks or Exceptions and 
+the Note for this item, it appears there 
+are numbers in this Note, (possibly 
+inadvertently added) that should not 
+be in here? Example: 
+NOTE: Dispatch with maintenance 
+status messages displayed on ECAM 
+is79-35-04 permitted without CFDS 
+interrogation. 
+Recommend correcting this Note to 
+remove the numbers that should not be in 
+here, example: 
+NOTE: Dispatch with maintenance status 
+messages displayed on ECAM is 
+permitted without CFDS interrogation. 
+Concur. Typo made in draft 
+document. No change from R30 
+for this subitem. 
+
+=== PDF PAGE 10 ===
+A-320 Rev 31 
+08/13/24 
+ 
+10 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Pete Moll 
+United 
+6-21-24 
+78-9 
+78-31-01 1), 
+2) 
+This item for the REVERSER CTL 
+FAULT Caution on ECAM EWD is now 
+showing as “Deleted”. This was not 
+discussed as such in the FOEB 
+meeting. Recommend adding this item 
+back in here, and then also 
+recommend that the associated Thrust 
+Reverser is “Considered Inoperative”, 
+such as was recommended in the 
+FOEB meeting as well. 
+This item for the REVERSER CTL FAULT 
+Caution on ECAM EWD is now showing 
+as “Deleted”. This was not discussed as 
+such in the FOEB meeting. Recommend 
+adding this item back in here, and then 
+also recommend that the associated 
+Thrust Reverser is “Considered 
+Inoperative”, such as was recommended 
+in the FOEB meeting as well. 
+Concur. Reinstated relief as 
+recommended. 
+Delta  
+6-4-2024 
+34-16 
+34-40-13 
+New item is being added to MMEL but 
+not listed on Highlights of Change 
+section. 
+Recommend adding item to Highlights of 
+Change section 
+Concur. Corrected with new 
+item added to HoC. 
+Gary Jackman 
+Alaska Airlines 
+06/24/2024 
+23-8 
+23-42-01 
+ 
+ 
+Intent of this Ground External Horn 
+relief item is to ensure avionics 
+ventilation is monitored only when both 
+conditions (1) aircraft is on ground and 
+(2) aircraft electrical network is 
+supplied, are met.  Reference Airbus 
+A320 MMEL 23-40-01 DU Ops. Proc. 
+ID 00008960.0001001.  Remarks and 
+Exceptions should state when 
+monitoring is required. 
+ 
+Use of word “the” should be removed 
+from Remarks and Exceptions 
+language.  
+Recommend updating MMEL Remarks 
+and Exceptions language as follows: 
+ 
+“(O) May be inoperative provided avionics 
+equipment ventilation is monitored in 
+cockpit while aircraft is on ground and 
+aircraft electrical network is supplied.” 
+Concur. Modified proviso to 
+include provisos listed in OEM 
+recommended (O) Procedure. 
+Gary Jackman 
+Alaska Airlines 
+06/24/2024 
+24-23 
+24-30-09 
+Item 2 
+Remove word “the” from Remarks and 
+Exceptions 
+Delete word “the” so that Remarks and 
+Exceptions for item 24-30-0 item 2) reads 
+as follows: 
+ 
+“May be inoperative provided ground 
+external horn is considered inoperative.”  
+ 
+Concur. Modified proviso as 
+recommended. 
+
+=== PDF PAGE 11 ===
+A-320 Rev 31 
+08/13/24 
+ 
+11 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Gary Jackman 
+Alaska Airlines 
+06/24/2024 
+25-1 
+25-00-00-1) New FAA MMEL Rev. 31 item 25-00-
+00-1) appears to be based on Airbus 
+MMEL guidance item 25-00-1 DU 
+dispatch item ID 00026331.0001001. 
+ 
+There are a few items for 
+MAINTENANCE messages displayed 
+on the STATUS SD page that have  
+proviso condition(s) in both FAA 
+MMEL and Airbus MMEL guidance as 
+a condition of deferral relief (see CH 
+71 items).   
+ 
+Airbus MMEL guidance indicates this 
+ELT fault indicates may have a 
+condition of deferral as listed in a 
+NOTE prior to the start of the deferral 
+guidance. 
+ 
+This Airbus MMEL guidance NOTE 
+states a spurious (false and not 
+actually valid) fault should be 
+disregarded provided it was confirmed 
+false by troubleshooting within the 
+previous 28 days.  This Airbus 
+guidance lists a Trouble Shooting 
+Manual (TSM) reference which 
+indicates an (M) procedure for FAA 
+MEML deferral relief may be 
+warranted. 
+ 
+While this commentor fully 
+understands this is embedded in 
+Airbus guidance a NOTE, the listing of 
+this guidance is presented as a 
+condition of deferral allowance.  This 
+NOTE presentation may warrant 
+further review to determine if this 
+needs to be included in FAA MMEL 
+item relief as a condition of deferral. 
+Consideration may be needed to change 
+Remarks and Exceptions language to 
+something similar to: 
+ 
+“(M) May displayed provided fault is 
+confirmed false by troubleshooting with 
+previous 28 days.” 
+Concur. However, as the 
+commenter has described, this 
+proposed new item on the FAA 
+MMEL should be researched 
+further to ensure accuracy and 
+that it properly complies with 
+FAA policy. Further justification 
+should be obtained. Thus, since 
+R31 is a revision primarily being 
+worked to list MMEL relief for 
+new and revised items related 
+to the A321neo XLR, 25-00-00 
+is being removed from R31 and 
+may be reintroduced for the 
+subsequent R32, which is also 
+currently being developed. 
+
+=== PDF PAGE 12 ===
+A-320 Rev 31 
+08/13/24 
+ 
+12 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Gary Jackman 
+Alaska Airlines 
+06/24/2024 
+25-26 
+25-61-01-6) (1)  FAA A320 Family MMEL Rev. 30 
+lists this  LF-ULB item 25-61-01-3)  for 
+Category D relief and contains an “or 
+missing” allowance. 
+ 
+While it is understood that FAA MMEL 
+PL-120 Rev. 4 did not contain an “or 
+missing” provision in the Remarks and 
+Exception language for Category D 
+relief, there is no United States CFR 
+that requires a Low-Frequency 
+Underwater Locator Beacon/Device 
+(LF-ULB / LF-ULD) to be installed. 
+ 
+Therefore, an “or missing” statement 
+should be added to the Category D 
+relief item Remarks and Exception just 
+like is already included in the Category 
+C relief item. 
+ 
+(2)  For LF-ULB Category C MMEL 
+relief, preference is to use PL-125 
+language and delete the drafted “One 
+or more” portion and simply state “May 
+be inoperative or missing. 
+Add “or missing” to CAT D item and delete 
+“one or more” from CAT C item as follows: 
+ 
+25-61-01-6) 
+Low Frequency Underwater Locator 
+Beacon (LF-ULB) 
+ 
+CAT D  - INS “-“  -  REQ “-“ 
+ 
+May be inoperative or missing provided 
+operations do not require its use.” 
+ 
+ 
+ 
+CAT C - INS “-“  - REQ 0 
+ 
+May be inoperative or missing. 
+ 
+ 
+Concur. Modified provisos as 
+recommended. 
+
+=== PDF PAGE 13 ===
+A-320 Rev 31 
+08/13/24 
+ 
+13 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Gary Jackman 
+Alaska Airlines 
+06/24/2024 
+Intro page 
+XIII as 
+Compared 
+Throughout 
+Individual 
+Chapter 
+Listing 
+Pages 
+Throughout 
+Items associated with FAA MMEL PL-125 
+have either been inadvertently deleted or not 
+added in previous FAA A320 MMEL 
+Revisions. 
+ 
+This creates a disparity between the FAA 
+A320 Family MMEL “FAA MMEL Policy 
+Application Record” (at the beginning of the 
+MMEL in Pages VIII to XIII) vs. what has 
+actually been incorporated into the FAA A320 
+Family MMEL.  Items listed in FAA MMEL PL-
+125 need to be added into the FAA A320 
+MMEL to provide a balance between what the 
+FAA MMEL Policy Applications Record states 
+as being accomplished “as applicable,” and 
+what is listed in the chapter listings for item 
+relief. 
+ 
+The following PL-items are already listed in 
+FAA A320 Family MMEL Rev. 31 for PL-125 
+equipment relief without passengers: 
+- Door Slides – 25-61-02 
+- Interior Emergency Lighting – 35-50-09 
+- Interiors Emergency Lighting – 35-50-09 
+- Escape Path Markings – 35-50-03 
+- Flight Attendant Seats – 25-22-01 
+- Printed Supp. Safety Ino. – 25-90-01 
+ 
+The following items need to be added into 
+FAA A320 Family MMEL Rev. 31 to provide 
+PL-125 equipment relief without passengers: 
+- Megaphones, 
+- Exit Marking, and  
+- Flashlights & Holders (cabin) 
+ 
+While it is fully understood that it is not 
+reasonable to list all affected sequence items 
+numbers of the associated PL in the MMEL 
+Policy Application Record, there may be 
+benefit to listing the main “Affected Item 
+Sequence Numbers” associated with PL-125 
+in the Application Record.  This could be 
+accomplished in manner similar to item listed 
+for PL-132 on same page number XIII. 
+(1) Add affected Item numbers to PL-125 
+Application Record, and 
+ 
+(2) Add the following items to Rev. 31 to fully align 
+FAA A320 Family MMEL “FAA MMEL Policy 
+Application Record” and FAA MMEL PL-125, and 
+ 
+25-60-09 
+Item 2 (under main 25-60-09 item listing) 
+Megaphones 
+CAT C --  INS “-“  --  REQ 0 
+ 
+(O) May be missing or inoperative provided: 
+a) No passengers are carried, 
+b) A maximum of 19 persons are carried as 
+authorized by 14 CFR for non-passenger-carrying 
+operations, 
+and 
+c) Alternate procedures are established and used. 
+ 
+35-50-10 
+Exit Markings 
+CAT C --  INS “-“  --  REQ 0 
+ 
+(O) May be missing or inoperative provided: 
+a) No passengers are carried, 
+b) A maximum of 19 persons are carried as 
+authorized by 14 CFR for non-passenger-carrying 
+operations, 
+and 
+c) Alternate procedures are established and used. 
+ 
+25-60-08 
+Item 3 (under main 25-60-08 item listings) 
+Flashlights and Holders (Cabin) 
+CAT C  --  INS “-“   -- REQ  0 
+ 
+(O) May be missing or inoperative provided: 
+a) No passengers are carried, 
+b) A maximum of 19 persons are carried as 
+authorized by 14 CFR for non-passenger-carrying 
+operations, 
+and 
+c) Alternate procedures are established and used. 
+ 
+(Please note, due to assumed potential 
+requirements for pilots to possess a flashlight 
+during flight, title of this item specifically only 
+contains a “(cabin)” identification.)  
+Concur. Listed all items affected 
+by PL-125 on PL application 
+record as recommended. 
+
+=== PDF PAGE 14 ===
+A-320 Rev 31 
+08/13/24 
+ 
+14 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Gary Jackman 
+Alaska Airlines 
+06/24/2024 
+27-8 
+27-51-01-1)-a) 
+ 
+and 
+ 
+27-51-01-1)-b) 
+(1) In opening statement of each Flap Channel 
+MMEL27-51-01-1) item a) and b), the acronym 
+“SFCS” is not used in Airbus MMEL 27-51-01A 
+guidance DU dispatch item ID 00008340.0001001 
+and 00008340.0001002.   
+ 
+Airbus guidance uses acronym “SFCC” for these 
+MMEL items and states “SFCC 2 flap channel 
+may be inoperative provided….(list of provisos).” 
+ 
+(2) Airbus guidance for these items only 
+recommends SFCC 1 “flap” WTB to be tested at 
+MEL application time and then once each flight 
+day.  FAA MMEL relief needs to be updated show 
+only “flap” WTB testing is required, and an every 
+flight inspection is not recommended by Airbus.  
+Suggest using existing FAA MMEL “before next 
+flight and then once each flight day” language to 
+align to Airbus recommendation. 
+ 
+(3) Proviso containing “minimum idle on ground” 
+does not have the word “function” in the Airbus 
+MMEL guidance or in FAA MMEL item 73-20-03.  
+Word “function” should be removed from FAA 
+MMEL proviso. 
+ 
+(4) Proviso “Spoiler surfaces 2 and 4 operate 
+normally” is not a requirement of Airbus MMEL 
+guidance.  If this is an added mandate based on 
+CFR 14 requirements, then it is recommended to 
+add this to the end of any required Airbus 
+guidance provisos. 
+ 
+(5) Airbus MMEL guidance for these items drive 
+to DU ops proc ID 00009044.0001001 which 
+states “For aircraft with RNP AR capability, RNP 
+AR operations are not permitted.” When Airbus 
+publishes this MMEL ops. proc. limitation, FAA 
+MMEL provisos typically contain a proviso 
+“Approach minimums do not require its use.” 
+Consideration to add this proviso to this FAA 
+MMEL is suggested. 
+ 
+(6) There is a wide variance of proviso language 
+and proviso listing sequence between the FAA 
+MMEL and the Airbus MMEL guidance 
+ 
+This wide variance between FAA MMEL and 
+Airbus MMEL creates significant difficulties for 
+both operators and local FAA (CMO) 
+administrators during the MEL update and 
+approval process.  Stronger alignment between 
+FAA MMEL and Airbus MMEL guidance for 
+proviso both language and listing sequence is 
+greatly needed. 
+Recommend re-word, re-sequence, and 
+add new proviso (for approach minimums) 
+into Remarks and Exceptions for each 
+MMEL item as listed below: 
+ 
+27-51-01-1)-a) 
+(M)(O) SFCC 2 may be inoperative 
+provided: 
+a) SFCC 2 Flap Channel is deactivated, 
+b) Slats and flaps operate normally on 
+SFCC 1, 
+c) SFCC 1 flap WTB is verified to operate 
+normally before next flight and then once 
+each flight day, 
+d) All ELACs, SECs, LGCIUs, RAs, FACs, 
+and ADIRSs are operate normally, 
+e) Minimum idle on ground is considered 
+inoperative, and 
+f) Approach minimums do not require its 
+use. 
+ 
+ 
+ 
+27-51-01-1)-b) 
+(M)(O) SFCC 2 may be inoperative 
+provided: 
+a) SFCC 2 Flap Channel is deactivated, 
+b) OAT is below ISA+35 °C 
+c) Slats and flaps operate normally on 
+SFCC 1, 
+d) SFCC 1 flap WTB is verified to operate 
+normally before next flight and then once 
+each flight day, 
+e) All ELACs, SECs, LGCIUs, RAs, FACs, 
+and ADIRSs are operate normally,  
+f) Minimum idle on ground is considered 
+inoperative, and 
+f) Approach minimums do not require its 
+use. 
+ 
+Concur. However, will consider 
+these recommendations for 
+R32. 
+ 
+Note: The FAA A320 MMEL 
+and the EASA/Airbus MMEL 
+have evolved separately for 
+several years now and has 
+resulted in the MMELs being on 
+somewhat divergent paths with 
+development of format and item 
+relief language. One of the 
+causes for the differences is 
+Airbus has evolved to an 
+electronic format whereas the 
+FAA MMEL has maintained 
+through the years it’s current flat 
+document format, i.e. MS Word 
+Tables with an alphanumeric 
+outline format. 
+ 
+There are plans to renumber the 
+A320 and A330 FAA MMELs to 
+better align them with the 
+EASA/Airbus versions. Though 
+the FAA is still bound by the 
+current MS Word Table format, 
+the Airbus item numbering 
+format can be adopted to these 
+FAA MMELs (refer to A350 
+MMEL). The problem, of course, 
+is that we will need to do a 
+complete rewrite of the A320 
+and A330 FAA MMELs. 
+Additionally, along with the 
+format change, the relief for 
+many/most items will need to be 
+reevaluated to some extent in 
+order to bring the relief remarks 
+and exceptions into a better 
+alignment for each of the items. 
+
+=== PDF PAGE 15 ===
+A-320 Rev 31 
+08/13/24 
+ 
+15 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Gary Jackman 
+Alaska Airlines 
+06/24/2024 
+27-9 
+27-51-01-1)-c) Item 27-51-01-1)-c) is a new item with 
+many similarities to item 27-51-01-1)-
+b) listed above. 
+ 
+This new “-c)” item does not have 
+Airbus MMEL guidance that is readily 
+viewable to this commenter, but 
+appears to be very similar in nature to 
+“-b).” 
+ 
+Because of this very similar nature 
+between “-b)” and “-c)” items, it is 
+recommended to review Airbus MMEL 
+guidance to ensure stronger alignment 
+between FAA MMEL and Airbus 
+MMEL guidance. 
+See recommendation for 27-51-01-1)-b) 
+above and apply same provisos re-
+wording and proviso re-sequencing into 
+Remarks and Exceptions as needed. 
+Concur. However, will consider 
+recommendations for R32. 
+ 
+27-51-01 1) c) applies to aircraft 
+with eRudder. The only 
+difference with this subitem and 
+27-51-01 1) b) is that with 
+eRudder, the FACs are 
+replaced with FMGCs. But with 
+this, the item is still affected 
+similarly as per the previous 
+comments for this item. 
+
+=== PDF PAGE 16 ===
+A-320 Rev 31 
+08/13/24 
+ 
+16 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Gary Jackman 
+Alaska Airlines 
+6/24/24 
+27-9 
+27-51-01-2)-a) (1) In opening statement of Slat Channel MMEL 
+27-51-01-2) item a), acronym “SFCS” is not used 
+in Airbus MMEL 27-81-01A guidance DU dispatch 
+item ID 00008341.0001001Airbus guidance uses 
+acronym “SFCC” for these MMEL items and 
+states “SFCC 2 slat channel may be inoperative 
+provided….(list of provisos).” 
+ 
+(2) Airbus guidance for these items only 
+recommends SFCC 1 “slat” WTB to be tested at 
+MEL application time and then once each flight 
+day.  FAA MMEL relief needs to be updated show 
+only “slat” WTB testing is required, and an every 
+flight inspection is not recommended by Airbus.  
+Suggest using existing FAA MMEL language 
+“before next flight and then once each flight day” 
+to align to Airbus recommendation. 
+ 
+(3) Relief for this item is listed as item number 27-
+51-01-2) in FAA MMEL and is listed as item 
+number 27-81-01 in Airbus MMEL guidance. 
+ 
+This variance in numbering between FAA and 
+Airbus publications creates confusion for 
+operators while developing and maintaining MEL 
+relief and for local FAA CMO administrators when 
+approving an operator’s MEL.  
+ 
+Renumbering of this Slat Channel item will also 
+better align to existing relief item 27-81-01 for Slat 
+WTB Solenoid, which will need to move to item 
+listing number 27-81”-02” when Slat Channel 
+relief is moved, and will align to FAA MMEL 
+guidance. 
+ 
+(4) Airbus MMEL guidance for this item (DU ops 
+proc ID 00009045.0001001) states “For aircraft 
+with RNP AR capability, RNP AR operations are 
+not permitted.” When Airbus publishes this MMEL 
+ops. proc. limitation, FAA MMEL provisos typically 
+contain a proviso “Approach minimums do not 
+require its use.” Consideration to add this proviso 
+to this FAA MMEL is suggested. 
+ 
+(5) This wide variance between FAA MMEL and 
+Airbus MMEL creates significant difficulties for 
+both operators and local FAA (CMO) 
+administrators during the MEL update and 
+approval process.  Stronger alignment between 
+FAA MMEL and Airbus MMEL guidance for 
+proviso both language and listing sequence is 
+greatly needed. 
+Renumber, re-word, re-sequence, and 
+add new proviso (for approach minimums) 
+for SFFC Slat Channel FAA MMEL relief 
+as follows: 
+ 
+27-81-01-a) 
+SFFC Slat Channel 
+CAT C – INS 2 – REQ 1 
+ 
+(M)(O) SFCC 2 Slat Channel may be 
+inoperative provided: 
+a) SFCC 2 Slat Channel is deactivated, 
+b) Slats and flaps operate normally on 
+SFCC 1, 
+c) SFCC 1 slat WTB is verified to operate 
+normally before next flight and then once 
+each flight day, 
+d) All ELACs, SECs, LGCIUs, RAs, FACs, 
+and ADIRSs are operate normally, and  
+e) Takeoff is not performed in 1+F. and 
+f) Approach minimums do not require its 
+use. 
+Concur. However, will consider 
+these recommendations for 
+R32. 
+ 
+Note: The FAA A320 MMEL 
+and the EASA/Airbus MMEL 
+have evolved separately for 
+several years now and has 
+resulted in the MMELs being on 
+somewhat divergent paths with 
+development of format and item 
+relief language. One of the 
+causes for the differences is 
+Airbus has evolved to an 
+electronic format whereas the 
+FAA MMEL has maintained 
+through the years it’s current flat 
+document format, i.e. MS Word 
+Tables with an alphanumeric 
+outline format. 
+ 
+There are plans to renumber the 
+A320 and A330 FAA MMELs to 
+better align them with the 
+EASA/Airbus versions. Though 
+the FAA is still bound by the 
+current MS Word Table format, 
+the Airbus item numbering 
+format can be adopted to these 
+FAA MMELs (refer to A350 
+MMEL). The problem, of course, 
+is that we will need to do a 
+complete rewrite of the A320 
+and A330 FAA MMELs. 
+Additionally, along with the 
+format change, the relief for 
+many/most items will need to be 
+reevaluated to some extent in 
+order to bring the relief remarks 
+and exceptions into a better 
+alignment for each of the items. 
+
+=== PDF PAGE 17 ===
+A-320 Rev 31 
+08/13/24 
+ 
+17 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Gary Jackman 
+Alaska Airlines 
+6/24/24 
+27-10 
+27-51-01-2)-b) Item 27-51-01-2)-b) is a new item with 
+many similarities to item 27-51-01-2)-
+a) listed above. 
+ 
+This new “-b)” item does not have 
+Airbus MMEL guidance that is readily 
+viewable to this commenter, but 
+appears to be very similar in nature to 
+“-a).” 
+ 
+Because of this very similar nature 
+between “-a)” and “-b)” items, it is 
+recommended to review Airbus MMEL 
+guidance to ensure stronger alignment 
+between FAA MMEL and Airbus 
+MMEL guidance. 
+ 
+It is also recommended to align 
+numbering of FAA MMEL and Airbus 
+MMEL guidance. 
+See recommendation for 27-51-01-2)-a) 
+above and apply same item re-numbering, 
+proviso re-wording, proviso re-
+sequencing, and additional proviso (for 
+approach minimums) into Remarks and 
+Exceptions as needed. 
+Concur. However, will consider 
+these recommendations for 
+R32. 
+
+=== PDF PAGE 18 ===
+A-320 Rev 31 
+08/13/24 
+ 
+18 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+ 
+6/24/24 
+27-10 
+27-51-02 
+(1) Airbus MMEL guidance for this 
+item only recommends SFCC 1 “flap” 
+WTB to be tested at MEL application 
+time and then once each flight day.  
+FAA MMEL relief needs to be updated 
+show only “flap” WTB testing is 
+required, and an every flight 
+inspection is not recommended by 
+Airbus.  Suggest using existing FAA 
+MMEL language “before next flight and 
+then once each flight day” to align to 
+Airbus recommendation. 
+ 
+(2) Airbus MMEL guidance for item 27-
+51-02 (DU ops proc ID 
+00020759.0001001) states “For 
+aircraft with RNP AR capability, RNP 
+AR operations are not permitted.” 
+When Airbus publishes this MMEL 
+ops. proc. limitation, FAA MMEL 
+provisos typically contain a proviso 
+“Approach minimums do not require its 
+use.” Consideration to add this proviso 
+to this FAA MMEL is suggested.  
+Addition of this proviso provides 
+reasoning for the existing “(O)” in this 
+item. 
+ 
+(3) Opening statement in Remarks and 
+Exception should be re-worded for 
+better alignment to Airbus MMEL 
+guidance.  This alignment will greatly 
+help both operators during MEL 
+development and maintenance, and 
+for local FAA (CMO) administrators 
+during the MEL update and approval 
+process. 
+Recommending updating item 27-51-02 
+Remarks and Exceptions as follows: 
+ 
+(M)(O) One or two solenoids associated 
+with SFCC 2 may be inoperative provided: 
+a) SFCC 1 flap WTB is verified to operate 
+normally before next flight and then once 
+each flight day, and 
+b) Approach minimums do not require its 
+use. 
+ 
+Concur. However, will consider 
+these recommendations for 
+R32. 
+ 
+Note: The FAA A320 MMEL 
+and the EASA/Airbus MMEL 
+have evolved separately for 
+several years now and has 
+resulted in the MMELs being on 
+somewhat divergent paths with 
+development of format and item 
+relief language. One of the 
+causes for the differences is 
+Airbus has evolved to an 
+electronic format whereas the 
+FAA MMEL has maintained 
+through the years it’s current flat 
+document format, i.e. MS Word 
+Tables with an alphanumeric 
+outline format. 
+ 
+There are plans to renumber the 
+A320 and A330 FAA MMELs to 
+better align them with the 
+EASA/Airbus versions. Though 
+the FAA is still bound by the 
+current MS Word Table format, 
+the Airbus item numbering 
+format can be adopted to these 
+FAA MMELs (refer to A350 
+MMEL). The problem, of course, 
+is that we will need to do a 
+complete rewrite of the A320 
+and A330 FAA MMELs. 
+Additionally, along with the 
+format change, the relief for 
+many/most items will need to be 
+reevaluated to some extent in 
+order to bring the relief remarks 
+and exceptions into a better 
+alignment for each of the items. 
+
+=== PDF PAGE 19 ===
+A-320 Rev 31 
+08/13/24 
+ 
+19 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Gary Jackman 
+Alaska Airlines 
+6/24/24 
+27-16 
+27-81-01 
+(1) See above comment on item 27-
+51-01-2)-b) to renumber this item as 
+item 27-81-02. 
+ 
+This renumbering is needed to prevent 
+variance in numbering between FAA 
+and Airbus publications which creates 
+confusion for operators while 
+developing and maintaining MEL relief 
+and for local FAA CMO administrators 
+when approving an operator’s MEL.  
+ 
+(2) Airbus guidance for these items 
+only recommends SFCC 1 “slat” WTB 
+to be tested at MEL application time 
+and then once each flight day.  FAA 
+MMEL relief needs to be updated 
+show only “slat” WTB testing is 
+required, and an every flight 
+inspection is not recommended by 
+Airbus.  Suggest using existing FAA 
+MMEL language “before next flight and 
+then once each flight day” to align to 
+Airbus recommendation 
+ 
+ 
+ 
+Re-number, reword, and re-sequence Slat 
+Wing Tip Brakes Solenoid as 
+recommended below: 
+ 
+ 
+27-81-01 
+Slat Wing Tip Brakes Solenoid 
+CAT C – INS 4 – REQ 0 
+ 
+(M)(O) One or two solenoids associated 
+with SFCC 2 may be inoperative provided: 
+a) SFCC 1 slat WTB is verified to operate 
+normally before next flight and then once 
+each flight day, and 
+b) Approach minimums do not require its 
+use. 
+ 
+Concur. However, will consider 
+these recommendations for 
+R32. 
+ 
+Gary Jackman 
+Alaska Airlines 
+6/24/24 
+32-1 
+32-31-01 
+Relief associated with Landing Gear 
+Control and Interface Unit No. 2 
+(LGCIU 2) has been deleted from FAA 
+MMEL Rev. 31 without a clear 
+understanding why. 
+ 
+This LGCIU 2 deferral relief remains 
+the Airbus MMEL Guidance. 
+ 
+There were five versions of this FAA 
+MMEL relief in Rev. 30. 
+ 
+MMEL relief for LGCIU 2 needs to be 
+reinstated in Rev. 31 or reasoning 
+provided why this relief is being 
+deleted from the FAA MMEL while 
+relief remains in Airbus MMEL 
+guidance. 
+ 
+Reinsert FAA MMEL relief for LGCIU 2 in 
+Rev. 31 for all five mod. variants. 
+Concur. Reinstated item relief 
+into draft with changes. 
+
+=== PDF PAGE 20 ===
+A-320 Rev 31 
+08/13/24 
+ 
+20 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Gary Jackman 
+Alaska Airlines 
+6/24/24 
+32-4 
+to 
+32-8 
+32-42-03 
+ 
+All mod-
+variants for 
+Channel 1, 
+System 1, 
+Channel 2, 
+and 
+System 2 
+Updated FAA MMEL relief contains 
+language that is not used in Airbus 
+MMEL guidance for BSCU relief items. 
+ 
+FAA MMEL item relief uses phrasing 
+“Channel / System” in both item titles 
+and item provisos.  In Airbus MMEL 
+guidance, BSCU item relief  only 
+states “Channel” or “System” 
+depending on mod-variant.  There is 
+never a usage of both “Channel” and 
+“System” within the same Airbus 
+MMEL BSCU guidance. 
+ 
+Airbus MMEL BSCU guidance for DU 
+items 00007739.0001001, .0002001, 
+.0003001, and .0004.0001 do not 
+contain a proviso to have landing gear 
+remain extended for 1 minute after 
+takeoff.  Airbus MMEL guidance for 
+these above listed DU’s do not contain 
+a listing for an (O) that would drive an 
+Ops. Proc. for a process to keep the 
+gear extended or what needs to be 
+accomplished if an emergency 
+procedure needs to be accomplished 
+during this critical flight time.  
+ 
+There is a significant variance 
+between FAA MMEL relief item 
+language and Airbus MMEL guidance 
+language for BSCU deferral relief.  
+This variance creates significant 
+confusion for both operator and local 
+FAA CMO administrators while 
+developing and approving operator 
+MEL relief.   
+ 
+Better alignment between FAA MMEL 
+and Airbus MMEL guidance language 
+is needed before further changes to 
+BSCU deferral relief is accomplished. 
+Recommend no changes to BSCU relief in 
+Rev. 31 until all commentors have 
+applicable time to submit proposals to 
+ensure proper alignment between FAA 
+MMEL relief and Airbus MMEL guidance 
+relief. 
+The primary porpose for 
+revision to this itrem is to ensure 
+correct Mod/model applicability 
+for aircraft having certain BSCU 
+Standards and to relieve some 
+of the restrictions for aircraft 
+with newer BSCU standards 
+installed. Further revision to this 
+item will be considered for R32. 
+ 
+Note: The FAA A320 MMEL 
+and the EASA/Airbus MMEL 
+have evolved separately for 
+several years now and has 
+resulted in the MMELs being on 
+somewhat divergent paths with 
+development of format and item 
+relief language. One of the 
+causes for the differences is 
+Airbus has evolved to an 
+electronic format whereas the 
+FAA MMEL has maintained 
+through the years it’s current flat 
+document format, i.e. MS Word 
+Tables with an alphanumeric 
+outline format. 
+ 
+There are plans to renumber the 
+A320 and A330 FAA MMELs to 
+better align them with the 
+EASA/Airbus versions. Though 
+the FAA is still bound by the 
+current MS Word Table format, 
+the Airbus item numbering 
+format can be adopted to these 
+FAA MMELs (refer to A350 
+MMEL). The problem, of course, 
+is that we will need to do a 
+complete rewrite of the A320 
+and A330 FAA MMELs. 
+Additionally, along with the 
+format change, the relief for 
+many/most items will need to be 
+reevaluated to some extent in 
+order to bring the relief remarks 
+and exceptions into a better 
+alignment for each of the items. 
+
+=== PDF PAGE 21 ===
+A-320 Rev 31 
+08/13/24 
+ 
+21 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Gary Jackman 
+Alaska Airlines 
+6/24/24 
+34-15 
+34-38-01 
+Relief for SBAS Landing System (SLS) 
+is listed as item number 34-38-01 in 
+FAA MMEL and is listed as item 
+number 34-30-07 in Airbus MMEL 
+guidance. 
+ 
+This variance in numbering between 
+FAA and Airbus publications creates 
+confusion for operators while 
+developing and maintaining MEL relief 
+and for local FAA CMO administrators 
+when approving an operator’s MEL. 
+ 
+Both FAA and Airbus numbering for 
+this relief item need to align in order to 
+prevent confusion. 
+ 
+Delete word “the” from Remarks and 
+Exception language in listing of the 
+Category D relief.  
+ 
+ 
+Recommend changing FAA MMEL item 
+number and Remarks and Exception 
+language as follows: 
+ 
+ 
+“34-30-07 
+ 
+CAT C – INS 2 – REQ 0 
+One May be inoperative 
+ 
+ 
+CAT D – INS 2 – REQ 0 
+(O) One or both may be inoperative 
+provided approach procedures are not 
+based on SLS.” 
+ 
+ 
+ 
+Please note: CAT C relief was included in 
+the above recommended change simply 
+due to associated main item number 
+change.  There are no recommendations 
+to change Remarks and Exception 
+language for the CAT C item. 
+Concur. Removed the “the’s” 
+from proviso. 
+ 
+Note: The FAA A320 MMEL 
+and the EASA/Airbus MMEL 
+have evolved separately for 
+several years now and has 
+resulted in the MMELs being on 
+somewhat divergent paths with 
+development of format and item 
+relief language. One of the 
+causes for the differences is 
+Airbus has evolved to an 
+electronic format whereas the 
+FAA MMEL has maintained 
+through the years it’s current flat 
+document format, i.e. MS Word 
+Tables with an alphanumeric 
+outline format. 
+ 
+There are plans to renumber the 
+A320 and A330 FAA MMELs to 
+better align them with the 
+EASA/Airbus versions. Though 
+the FAA is still bound by the 
+current MS Word Table format, 
+the Airbus item numbering 
+format can be adopted to these 
+FAA MMELs (refer to A350 
+MMEL). The problem, of course, 
+is that we will need to do a 
+complete rewrite of the A320 
+and A330 FAA MMELs. 
+Additionally, along with the 
+format change, the relief for 
+many/most items will need to be 
+reevaluated to some extent in 
+order to bring the relief remarks 
+and exceptions into a better 
+alignment for each of the items. 
+
+=== PDF PAGE 22 ===
+A-320 Rev 31 
+08/13/24 
+ 
+22 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Gary Jackman 
+Alaska Airlines 
+6/24/24 
+34-16 
+34-40-13 
+FAA MMEL item 34-40-13 is a new item for 
+ATSAW Function. 
+ 
+In Airbus MMEL guidance this item is listed 
+as number 34-40-09. 
+ 
+Variance in numbering between FAA and 
+Airbus publications creates confusion for 
+operators while developing and maintaining 
+MEL relief and for local FAA CMO 
+administrators when approving an 
+operator’s MEL. 
+ 
+Both FAA and Airbus numbering for these 
+relief items need to align in order to prevent 
+confusion. 
+ 
+Item number 34-40-09 is already in use in 
+the FAA MMEL for ROW/ROP relief.  Since 
+Airbus MMEL guidance lists this item as 34-
+40-10, FAA MMEL numbering for 
+ROW/ROP should change to 34-40-10. 
+ 
+Item number 34-40-10 is already in use in 
+the FAA MMEL for ROW/ROP pb-sw OFF 
+Light.  Since Airbus MMEL guidance lists 
+this item as 34-01-03-01, FAA MMEL 
+numbering for ROW/ROP pb-sw OFF light 
+should change to 34-01-03-01 (or 34-01-03 
+item a) if forth ATA code number sequence 
+“-01” is not used in FAA MMEL 
+publications). 
+ 
+Since current FAA MMEL 34-40-11-1), 34-
+40-11-2) items on this page are associated 
+with the above ROW/ROP and since Airbus 
+MMEL guidance for these items is listed as 
+34-01-03-02A and 34-01-03-02B, then FAA 
+MMEL numbering should change for these 
+items to 34-01-03-02A and 34-01-03-02B 
+(or 34-01-03-b) and 34-01-03-c) if forth ATA 
+code number sequence“-01” is not used in 
+FAA MMEL publications). 
+ 
+Since current FAA MMEL 34-40-12 for  
+RWY COND Rotary Selector is listed in 
+Airbus MMEL guidance as number 34-40-
+11, then FAA MMEL numbering should 
+change for this item to 34-40-11. 
+Renumber all items listed in Rev. 31 draft page 
+34-16 to ensure FAA MMEL and Airbus MMEL 
+guidance aligns as follows: 
+ 
+34-01-03-a) 
+*** 
+ROW/ROP pb-sw OFF Light 
+CAT D – INS 1 – REQ 0 
+(O) May be inoperative 
+ 
+34-01-03-b) 
+*** 
+ROW/ROP pb-sw OFF Position 
+CAT C – INS 1 – REQ 0 
+(O) May be inoperative 
+ 
+34-01-03-c) 
+*** 
+ROW/ROP pb-sw ON Position 
+CAT D – INS 1 – REQ 0 
+May be inoperative provided ROW/ROP is 
+considered inoperative. 
+ 
+ 
+34-40-09 
+*** 
+ATSAW 
+CAT D – INS 1 – REQ 0 
+May be inoperative 
+ 
+34-40-10 
+*** 
+Runway End Overrun Warning/Runway End 
+Overrun Protection (ROW/ROP) 
+CAT D – INS 1 – REQ 0 
+May be inoperative 
+ 
+34-40-11 
+*** 
+RWY COND Rotary Selector 
+CAT D – INS 1 – REQ 0 
+May be inoperative provided ROW/ROP is 
+considered inoperative. 
+ 
+Concur. However, will consider 
+these recommendations for 
+R32. 
+ 
+Note: The FAA A320 MMEL 
+and the EASA/Airbus MMEL 
+have evolved separately for 
+several years now and has 
+resulted in the MMELs being on 
+somewhat divergent paths with 
+development of format and item 
+relief language. One of the 
+causes for the differences is 
+Airbus has evolved to an 
+electronic format whereas the 
+FAA MMEL has maintained 
+through the years it’s current flat 
+document format, i.e. MS Word 
+Tables with an alphanumeric 
+outline format. 
+ 
+There are plans to renumber the 
+A320 and A330 FAA MMELs to 
+better align them with the 
+EASA/Airbus versions. Though 
+the FAA is still bound by the 
+current MS Word Table format, 
+the Airbus item numbering 
+format can be adopted to these 
+FAA MMELs (refer to A350 
+MMEL). The problem, of course, 
+is that we will need to do a 
+complete rewrite of the A320 
+and A330 FAA MMELs. 
+Additionally, along with the 
+format change, the relief for 
+many/most items will need to be 
+reevaluated to some extent in 
+order to bring the relief remarks 
+and exceptions into a better 
+alignment for each of the items. 
+
+=== PDF PAGE 23 ===
+A-320 Rev 31 
+08/13/24 
+ 
+23 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Gary Jackman 
+Alaska Airlines 
+6/24/24 
+36-25 
+36-22-18-3) On previous page 36-24 for FAA 
+MMEL item 36-22-18-2), an “(“ was 
+added because it was missing in Rev. 
+30 on the “(M)” listing. 
+ 
+Item 36-22-18-3) on page 36-25 is 
+also missing the “(“ on the “(M)” listing. 
+Add “(“ in Remarks and Exception for item 
+36-22-18-3) on page 36-25 to fully show 
+“(M)”. 
+Concur. Corrected typos. 
+Gary Jackman 
+Alaska Airlines 
+6/24/24 
+78-9 
+78-31-01 
+Relief associated with REVERSER 
+CTL FAULT Caution on ECAM EWD 
+has been deleted from FAA MMEL 
+Rev. 31 without a clear understanding 
+why. 
+ 
+This deferral relief is still listed in 
+Airbus MMEL guidance 78-09-01 as 
+DU dispatch item ID items 
+00016199.0001001, .0002001, and 
+.0005001. 
+ 
+REVERSER CTL FAULT deferral relief 
+needs to be reinstated in the FAA 
+MMEL. 
+ 
+Variance in numbering between FAA 
+and Airbus publications creates 
+confusion for operators while 
+developing and maintaining MEL relief 
+and for local FAA CMO administrators 
+when approving an operator’s MEL. 
+ 
+ECAM Alert REVERSER CTL FAULT 
+deferral relief needs to be re-listed as 
+main item number 78-09-01 for 
+alignment between FAA MMEL and 
+Airbus MMEL guidance. 
+ 
+MMEL relief for REVERSER CTL 
+FAULT Caution on ECAM EWD needs 
+to be reinstated in Rev. 31 or 
+reasoning provided why this relief is 
+being deleted from the FAA MMEL 
+while relief remains in Airbus MMEL 
+guidance. 
+ 
+ 
+Reinsert REVERSE REVERSER CTL 
+FAULT Caution on ECAM EWD MMEL 
+relief as item number 78-09-01. 
+ 
+ 
+Concur. Reinstated item relief 
+into draft with changes. 
+ 
+Note: The FAA A320 MMEL 
+and the EASA/Airbus MMEL 
+have evolved separately for 
+several years now and has 
+resulted in the MMELs being on 
+somewhat divergent paths with 
+development of format and item 
+relief language. One of the 
+causes for the differences is 
+Airbus has evolved to an 
+electronic format whereas the 
+FAA MMEL has maintained 
+through the years it’s current flat 
+document format, i.e. MS Word 
+Tables with an alphanumeric 
+outline format. 
+ 
+There are plans to renumber the 
+A320 and A330 FAA MMELs to 
+better align them with the 
+EASA/Airbus versions. Though 
+the FAA is still bound by the 
+current MS Word Table format, 
+the Airbus item numbering 
+format can be adopted to these 
+FAA MMELs (refer to A350 
+MMEL). The problem, of course, 
+is that we will need to do a 
+complete rewrite of the A320 
+and A330 FAA MMELs. 
+Additionally, along with the 
+format change, the relief for 
+many/most items will need to be 
+reevaluated to some extent in 
+order to bring the relief remarks 
+and exceptions into a better 
+alignment for each of the items. 
+
+=== PDF PAGE 24 ===
+A-320 Rev 31 
+08/13/24 
+ 
+24 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Tim.Kane 
+JetBlue 
+7/11/22  
+25-20  
+25-60-09  
+This item was deleted in error from 
+R30. 
+ 
+C / - / 0 (O) May be inoperative or 
+missing provided:  
+a) No passengers are carried,  
+b) A maximum of 19 persons 
+authorized by 14 CFR for non-
+passenger-carrying operations are 
+carried, and  
+c) Alternate procedures are 
+established and used.  
+ 
+Megaphones: PL-132 combines PLs 
+43, 47, 73, and 75 regarding 
+emergency equipment. It does not 
+eliminate the remarks or exceptions 
+provided by PL-125 Equipment Relief 
+without Passengers.  
+ 
+In this case Pl-132 would add a new 
+set of exceptions not eliminate the 
+existing from PL-125.  
+It is imperitive that PL-125 remarks or 
+exceptions are retained. Providing 
+MMEL relief for these items allows 
+operators the ability to position aircraft 
+to another location and still carry 
+cargo, crew members and other 
+authorized persons I.A.W. 14CFR as 
+referenced in PL-125  
+ 
+In addition, R29 correctly indicated the 
+number required for dispatch in 
+column 3 per 14CFR121.309 (f) 
+Megaphones. Each passenger-
+carrying airplane must have a portable 
+battery-powered megaphone or 
+megaphones readily accessible to the 
+crewmembers assigned to direct 
+emergency evacuation, installed as 
+follows:  
+(1) One megaphone on each airplane 
+with a seating capacity of more than 
+60 and less than 100 passengers, at 
+the most rearward location in the 
+passenger cabin where it would be 
+C / - / 0 (O) May be inoperative or missing 
+provided:  
+a) No passengers are carried,  
+b) A maximum of 19 persons authorized 
+by 14 CFR for non-passenger-carrying 
+operations are carried, and  
+c) Alternate procedures are established 
+and used.  
+ 
+1) Passenger Configuration  
+D / - / 2  
+Any in excess of those required by 14 
+CFR may be inoperative or missing 
+provided:  
+a) Inoperative megaphone is removed 
+from the passenger cabin,  
+b) Associated placard is removed or 
+obscured, and  
+c) Required distribution is maintained.  
+ 
+2) Cargo Configuration  
+D / - / 0  
+May be inoperative or missing.  
+Concur. Reinstated 
+inadvertently removed relief for 
+non-passenger carrying 
+operations and cargo 
+configuration. 
+
+=== PDF PAGE 25 ===
+A-320 Rev 31 
+08/13/24 
+ 
+25 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+readily accessible to a normal flight 
+attendant seat. However, the 
+Administrator may grant a deviation 
+from the requirements of this 
+subparagraph if he finds that a 
+different location would be more useful 
+for evacuation of persons during an 
+emergency.  
+ 
+(2) Two megaphones in the passenger 
+cabin on each airplane with a seating 
+capacity of more than 99 passengers, 
+one installed at the forward end and 
+the other at the most rearward location 
+where it would be readily accessible to 
+a normal flight attendant seat.  
+ 
+Prior response from FCL_MMEL_A-
+320_Rev-30 Non Concur. Will consider 
+for Rev 31 when proposal is sent 
+Tim.Kane 
+JetBlue 
+06/13/24 
+32-1 
+32-31-01 
+LGCIU 2- Deleted in error. 
+Restore MMEL item(s) 32-31-01 1), 2), 3), 
+4), 5)   
+Partially concur. Reinstated item 
+relief into draft with changes. 
+Tim.Kane 
+JetBlue 
+06/13/24 
+32-1 
+32-31-02 
+Landing Gear Retraction System 
+(Except A321neo XLR) no relief for 
+XLR 
+Some explanation for this “(Except 
+A321neo XLR)” is needed because at 
+some point an XLR aircraft will need to be 
+repositioned with gear dowm. 
+Concur. However, the A321neo 
+XLR Revenue Flight with 
+Landing Gear Down (RFLGD) 
+program with AFM Suppliment 
+will not be certified until after 
+type certification. With type 
+certification and approval of the 
+RFLGD program, this restriction 
+for A321neo XLR may be 
+removed with R32. 
+Tim.Kane 
+JetBlue 
+06/13/24 
+32-1 
+32-33-01 
+Landing Gear Gravity Extension 
+System (Except A321neo XLR)- no 
+relief for XLR 
+Some explanation for this “(Except 
+A321neo XLR)” is needed because at 
+some point an XLR aircraft will need this 
+relief 
+Concur. However, the A321neo 
+XLR Revenue Flight with 
+Landing Gear Down (RFLGD) 
+program with AFM Suppliment 
+will not be certified until after 
+type certification. With type 
+certification and approval of the 
+RFLGD program, this restriction 
+for A321neo XLR may be 
+removed with R32. 
+Tim.Kane 
+JetBlue 
+06/13/24 
+78-9 
+78-31-01 
+REVERSER CTL FAULTCaution on 
+ECAM EWD- Deleted 
+Restore MMEL item(s) 78-31-01 1), 2) 
+Concur. Reinstated item relief 
+into draft with changes. 
+
+=== PDF PAGE 26 ===
+A-320 Rev 31 
+08/13/24 
+ 
+26 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Benjamin Woods 
+Hawaiian Airlines 
+06/24/2024 ALL page 
+impacted 
+with this 
+revision 
+ 
+ 
+ 
+For each MMEL item revised in the 
+FAA MMEL Rev 31, the FAA should 
+align the MMEL numbers & sequence 
+numbers with the EASA (Airbus OEM) 
+MMEL. 
+ 
+Aligning the numbering scheme would 
+significantly reduce confusion when 
+managing an operator’s MEL for both 
+the operator and the related FAA 
+CMO. 
+ 
+Additionally, since each operator is 
+permitted to deviate from the FAA 
+MMEL numbering, this alignment 
+between the FAA MMEL and 
+EASA/Airbus MMEL will not 
+trigger/require significant revisions of 
+an operator’s MEL. However, it will 
+solve a major problem and source of 
+confusion in the industry.  
+ 
+Ultimately, the entire FAA MMEL 
+needs to be rewritten for better 
+alignment in both numbering and 
+content with the EASA/Airbus MMEL. 
+Correcting the variance in MMEL 
+numbering is a good first step.  
+For each item revised in the FAA MMEL 
+Rev 31, the FAA should align the MMEL 
+numbers & sequence numbers with the 
+EASA/Airbus (OEM) MMEL. 
+ 
+This would begin to correct this known 
+problem before a larger rewrite/alignment 
+project can be accomplished.  
+ 
+Concur. The FAA A320 MMEL 
+and the EASA/Airbus MMEL 
+have evolved separately for 
+several years now and has 
+resulted in the MMELs being on 
+somewhat divergent paths with 
+development of format and item 
+relief language. One of the 
+causes for the differences is 
+Airbus has evolved to an 
+electronic format whereas the 
+FAA MMEL has maintained 
+through the years it’s current flat 
+document format, i.e. MS Word 
+Tables with an alphanumeric 
+outline format. 
+ 
+There are plans to renumber the 
+A320 and A330 FAA MMELs to 
+better align them with the 
+EASA/Airbus versions. Though 
+the FAA is still bound by the 
+current MS Word Table format, 
+the Airbus item numbering 
+format can be adopted to these 
+FAA MMELs (refer to A350 
+MMEL). The problem, of course, 
+is that we will need to do a 
+complete rewrite of the A320 
+and A330 FAA MMELs. 
+Additionally, along with the 
+format change, the relief for 
+many/most items will need to be 
+reevaluated to some extent in 
+order to bring the relief remarks 
+and exceptions into a better 
+alignment for each of the items.  
+
+=== PDF PAGE 27 ===
+A-320 Rev 31 
+08/13/24 
+ 
+27 
+Commenter 
+Name and 
+Organization 
+Date 
+Page # 
+Line, 
+Para, or 
+Item # 
+Comment 
+Recommendation 
+Response 
+Benjamin Woods 
+Hawaiian Airlines 
+06/24/2024 
+24-23 
+32-42-03 
+Item 1 a) 
+The MMEL deferral options for BSCU 
+Channel 1/System 1 [items 1) “a)”, 
+“b)”, “c”] are only applicable for 
+“Aircraft with Mod. 165148/ MP J4604” 
+installed.  
+ 
+Therefore, there is not a deferral 
+option available for aircraft WITHOUT 
+Aircraft with Mod. 165148/ MP J4604. 
+However, the EASA/Airbus MMEL has 
+deferral options for aircraft without 
+Mod. 165148/ MP J4604. 
+Resolve this discrepancy between the 
+FAA MMEL and EASA/Airbus MMEL. It 
+seems item 1) a) should apply to aircraft 
+with Mod. 165148/ MP J4604 installed.  
+ 
+Concur. The relief listed in 32-
+42-03 1) a) is for aircraft 
+“without” Mod 165148/MP 
+J4604. Corrected typo. 
+ 

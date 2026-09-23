@@ -1,0 +1,607 @@
+﻿mmel_id,title,pdf_pages,printed_pages,assessments,screening_status,approved_for_generation
+21-00-00,CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY,28,21-1,,сопоставление с Fenix не установлено,False
+21-21-01,Cabin Fans,29,21-2,F001,есть отдельная оценка — см. матрицу,False
+21-21-02,CAB FAN pb Switch,29,21-2,,сопоставление с Fenix не установлено,False
+21-23-01,Lavatory and Galley Extraction Fan,29,21-2,F002,есть отдельная оценка — см. матрицу,False
+21-26-01,Blower Fan,30,21-3,F003,есть отдельная оценка — см. матрицу,False
+21-26-02,Extract Fan,31; 32,21-4; 21-5,F004,есть отдельная оценка — см. матрицу,False
+21-26-03,Skin Exchanger Inlet Bypass Valve,32,21-5,,сопоставление с Fenix не установлено,False
+21-26-04,Skin Air Outlet Valve,32,21-5,F005,есть отдельная оценка — см. матрицу,False
+21-26-05,Skin Air Inlet Valve,33,21-6,F006,есть отдельная оценка — см. матрицу,False
+21-26-06,Skin Exchanger Isolation Valve,33,21-6,,сопоставление с Fenix не установлено,False
+21-26-07,Skin Exchanger Outlet Bypass Valve,33,21-6,,сопоставление с Fenix не установлено,False
+21-26-08,Air Conditioning Inlet Valve,33,21-6,,сопоставление с Fenix не установлено,False
+21-26-09,Ventilation Filters,34,21-7,,сопоставление с Fenix не установлено,False
+21-26-10,Avionics Equipment Ventilation Computer (AEVC),34,21-7,F007,есть отдельная оценка — см. матрицу,False
+21-26-11,BLOWER FAULT Caution on ECAM,35,21-8,,сопоставление с Fenix не установлено,False
+21-26-12,EXTRACT FAULT Caution on ECAM,35,21-8,,сопоставление с Fenix не установлено,False
+21-26-13,BLOWER pb Switch,35,21-8,,сопоставление с Fenix не установлено,False
+21-26-14,EXTRACT pb Switch,35,21-8,,сопоставление с Fenix не установлено,False
+21-26-15,ECAM CAB PRESS Indications,35,21-8,,сопоставление с Fenix не установлено,False
+21-26-16,Avionics Extract/Blower Vibration Monitor Unit (VMU) STC No. ST02356LA,36,21-9,,сопоставление с Fenix не установлено,False
+21-27-01,Avionics Equipment Ground Cooling System,36,21-9,,сопоставление с Fenix не установлено,False
+21-28-01,Forward Cargo Extraction Fan,36,21-9,,сопоставление с Fenix не установлено,False
+21-28-02,Forward Cargo Isolation Valves,36,21-9,F008,есть отдельная оценка — см. матрицу,False
+21-28-03,FWD ISOL VALVE Fault Light,36,21-9,,сопоставление с Fenix не установлено,False
+21-28-04,Aft Cargo Extraction Fan,36,21-9,,сопоставление с Fenix не установлено,False
+21-28-05,Aft Cargo Isolation Valves,37,21-10,F009,есть отдельная оценка — см. матрицу,False
+21-28-06,Aft Cargo AFT ISOL VALVE Fault Light,37,21-10,,сопоставление с Fenix не установлено,False
+21-31-01,"Automatic Cabin Pressure Control Systems (CPC, Outflow Valve AUTO Channels)",37,21-10,F010; F011; F012,есть отдельная оценка — см. матрицу,False
+21-31-02,"Manual Cabin Pressure Control Systems (Outflow Valve MAN Channel, MAN V/S CTL Sel)",38,21-11,,сопоставление с Fenix не установлено,False
+21-31-04,Safety Valves,38,21-11,,сопоставление с Fenix не установлено,False
+21-31-05,Landing Elevation Selection System,38,21-11,,сопоставление с Fenix не установлено,False
+21-31-06,MODE SEL FAULT Light,38,21-11,,сопоставление с Fenix не установлено,False
+21-31-07,Safety Valves Position Indication on ECAM CAB PRESS Page,38,21-11,,сопоставление с Fenix не установлено,False
+21-31-08,SAFETY VALVE OPEN Caution on ECAM,38,21-11,,сопоставление с Fenix не установлено,False
+21-43-01,Fwd Cargo Compartment Heating System,39,21-12,,сопоставление с Fenix не установлено,False
+21-43-02,Aft Cargo Compartment Heating Systems,40,21-13,,сопоставление с Fenix не установлено,False
+21-51-01,Pack Flow Control Valves (Without Mod. 30626/ MP K6443 (Enhanced ECS)),40,21-13,F013,есть отдельная оценка — см. матрицу,False
+21-51-02,Pack Flow Selections,41,21-14,,сопоставление с Fenix не установлено,False
+21-51-03,PACK pb Switch,41,21-14,,сопоставление с Fenix не установлено,False
+21-51-06,Pack Flow Sensor (Aircraft with Mod. 30626),41,21-14,,сопоставление с Fenix не установлено,False
+21-52-01,Packs,41; 42; 43; 44; 45; 46; 47; 48; 49; 50,21-14; 21-15; 21-16; 21-17; 21-18; 21-19; 21-20; 21-21; 21-22; 21-23,F014; F015,есть отдельная оценка — см. матрицу,False
+21-52-02,Air Cond Pack Ram Air Inlet Flaps,50; 51,21-23; 21-24,,сопоставление с Fenix не установлено,False
+21-52-03,Air Cond Pack Ram Air Outlet Flaps (Without Mod. 26249),51,21-24,,сопоставление с Fenix не установлено,False
+21-55-01,Emergency Ram Air Inlet,51,21-24,F016,есть отдельная оценка — см. матрицу,False
+21-55-02,ECAM Emergency RAM Air Inlet Indication (BLEED SD Page),51,21-24,,сопоставление с Fenix не установлено,False
+21-61-01,Pack Temperature Control Primary Channels (Without Mod. 30626),51,21-24,,сопоставление с Fenix не установлено,False
+21-61-02,Turbine Bypass Valves,52,21-25,,сопоставление с Fenix не установлено,False
+21-63-01,"Zone Controller System (A319, A320, A321) (Without Mod. 30626)",52,21-25,F017,есть отдельная оценка — см. матрицу,False
+21-63-02,Cockpit/Cabin Trim Air Valves,53,21-26,,сопоставление с Fenix не установлено,False
+21-63-03,Hot Air Pressure Regulating Valve,54,21-27,F018,есть отдельная оценка — см. матрицу,False
+21-63-04,HOT AIR pb Switch,55,21-28,,сопоставление с Fenix не установлено,False
+21-63-05,ECAM Indication,55,21-28,,сопоставление с Fenix не установлено,False
+21-63-06,Air Conditioning System Controller (ACSC) (With Mod. 30626),56,21-29,,сопоставление с Fenix не установлено,False
+21-63-07,Cockpit Heater (With Mod. 35861/ MP P9801 or Mod. 38212/ MP P10187),56,21-29,,сопоставление с Fenix не установлено,False
+22-10-01,Autopilot Systems,57,22-1,F019,есть отдельная оценка — см. матрицу,False
+22-10-02,Flight Director Systems,57,22-1,,сопоставление с Fenix не установлено,False
+22-10-03,Take Over pb Switch,57,22-1,,сопоставление с Fenix не установлено,False
+22-10-04,Autoland Lights,58,22-2,,сопоставление с Fenix не установлено,False
+22-10-05,AP Disengagement Warning System,58,22-2,,сопоставление с Fenix не установлено,False
+22-10-06,Side Sticks and Rudder Locking Solenoids in AP Mode,58,22-2,,сопоставление с Fenix не установлено,False
+22-10-08,AP/FD TCAS mode (With Mod. 152037/ MP P11363 and without Mod. 159900/ MP P20212),58,22-2,,сопоставление с Fenix не установлено,False
+22-10-09,Soft Go-Around Function (With Mod. 161254/ MP P13922),58,22-2,,сопоставление с Fenix не установлено,False
+22-30-01,Autothrust Function,59,22-3,F020,есть отдельная оценка — см. матрицу,False
+22-30-02,Autothrust Instinctive Disconnect Switches,59,22-3,,сопоставление с Fenix не установлено,False
+22-30-03,Autothrust Disengagement Warning System,59,22-3,,сопоставление с Fenix не установлено,False
+22-63-01,Yaw Dampers,60,22-4,F021,есть отдельная оценка — см. матрицу,False
+22-66-01,Flight Augmentation Computers (FAC),60,22-4,F022; F023,есть отдельная оценка — см. матрицу,False
+22-66-02,FAC pb Switch,60,22-4,,сопоставление с Fenix не установлено,False
+22-66-03,Windshear Detection/Guidance and Avoidance Systems,61,22-5,F024,есть отдельная оценка — см. матрицу,False
+22-72-01,Flight Management System (FMS),61; 62,22-5; 22-6,,сопоставление с Fenix не установлено,False
+22-75-01,RNP pb switch ON Light,62,22-6,,сопоставление с Fenix не установлено,False
+22-75-02,RNP pb switch,62,22-6,,сопоставление с Fenix не установлено,False
+22-76-01,T.O SURV pb-sw (With Mod. 162728/ MP P20485),62,22-6,,сопоставление с Fenix не установлено,False
+22-76-02,T.O SURV pb-sw OFF Light (With Mod. 162728/ MP P20485),62,22-6,,сопоставление с Fenix не установлено,False
+22-81-01,FCU,63,22-7,F025,есть отдельная оценка — см. матрицу,False
+22-81-02,FMA Indications on PFD,64,22-8,,сопоставление с Fenix не установлено,False
+22-81-03,Autoflight Control Panel,64; 65; 66,22-8; 22-9; 22-10,,сопоставление с Fenix не установлено,False
+22-81-04,EFIS Control Panel,66; 67,22-10; 22-11,,сопоставление с Fenix не установлено,False
+22-81-06,Automatic Landing System (AUTOLAND),68,22-12,,сопоставление с Fenix не установлено,False
+22-82-01,Multipurpose Control Display Units (MCDU),68,22-12,F026,есть отдельная оценка — см. матрицу,False
+22-83-01,Flight Management Guidance Computer (FMGC),68; 69,22-12; 22-13,F027,есть отдельная оценка — см. матрицу,False
+23-00-00,CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY,70,23-1,,сопоставление с Fenix не установлено,False
+23-11-01,High Frequency (HF) Communication System,70; 71,23-1; 23-2,,сопоставление с Fenix не установлено,False
+23-12-01,VHF Communications System,71; 72,23-2; 23-3,,сопоставление с Fenix не установлено,False
+23-13-01,Radio Management Panels (RMP),72; 73; 74; 75,23-3; 23-4; 23-5; 23-6,,сопоставление с Fenix не установлено,False
+23-14-01,Audio Management Unit (AMU) Side (With Mod 162344/ MP P20240 for Digital RMP),75,23-6,,сопоставление с Fenix не установлено,False
+23-24-01,ACARS System,76,23-7,,сопоставление с Fenix не установлено,False
+23-28-01,Satellite Communication (SATCOM) System,76,23-7,,сопоставление с Fenix не установлено,False
+23-31-01,Passenger Address System,77,23-8,,сопоставление с Fenix не установлено,False
+23-31-02,PA IN USE LIGHT,77,23-8,,сопоставление с Fenix не установлено,False
+23-42-01,Ground External Horn,77,23-8,,сопоставление с Fenix не установлено,False
+23-42-02,Alerting System (Chime/Light),78,23-9,,сопоставление с Fenix не установлено,False
+23-43-01,Flight Deck to Ground Interphone System,79,23-10,,сопоставление с Fenix не установлено,False
+23-43-02,Crewmember Interphone System,79; 80,23-10; 23-11,,сопоставление с Fenix не установлено,False
+23-43-04,Handsets,81,23-12,,сопоставление с Fenix не установлено,False
+23-44-01,Service Interphone Jack Systems,81,23-12,,сопоставление с Fenix не установлено,False
+23-51-01,Selcal (AMU),81,23-12,,сопоставление с Fenix не установлено,False
+23-51-02,Audio Control Panel (ACP),82,23-13,,сопоставление с Fenix не установлено,False
+23-51-03,Switching Panel,83,23-14,,сопоставление с Fenix не установлено,False
+23-51-04,Flight Deck Headsets/ Headphones,83,23-14,,сопоставление с Fenix не установлено,False
+23-51-05,Hand Mic System,83,23-14,,сопоставление с Fenix не установлено,False
+23-51-06,Cockpit Loudspeakers,83; 84,23-14; 23-15,,сопоставление с Fenix не установлено,False
+23-51-08,Side Stick Radio Selector (PTT),84; 85,23-15; 23-16,,сопоставление с Fenix не установлено,False
+23-51-09,Passenger Audio System (Observer Position),86,23-17,,сопоставление с Fenix не установлено,False
+23-71-01,Cockpit Voice Recorder System (CVR),86,23-17,F028,есть отдельная оценка — см. матрицу,False
+23-71-02,RCDR Control Panel,86,23-17,,сопоставление с Fenix не установлено,False
+23-72-01,Flight Deck Door Visual Surveillance Systems,87; 88,23-18; 23-19,,сопоставление с Fenix не установлено,False
+23-73-01,Cabin Intercommunication Data System (CIDS) CIDS Director,88; 89,23-19; 23-20,,сопоставление с Fenix не установлено,False
+23-73-02,Cabin Intercommunication Data System (CIDS) CIDS DEU A,90,23-21,,сопоставление с Fenix не установлено,False
+23-73-03,Cabin Intercommunication Data System (CIDS),91; 92,23-22; 23-23,,сопоставление с Fenix не установлено,False
+23-73-04,Forward Attendant Panel (FAP) (Without Mod. 30354 or without Mod. 33100),93,23-24,,сопоставление с Fenix не установлено,False
+23-73-06,Programmed Cabin Assignment Module (CAM),94,23-25,,сопоставление с Fenix не установлено,False
+23-73-07,Programming and Test Panel (PTP) (Without Mod. 30354 or without Mod. 33100),94; 95,23-25; 23-26,,сопоставление с Fenix не установлено,False
+23-73-08,Flight Attendant Panel (FAP) (With Mod. 30354 or with Mod. 33100),95; 96; 97,23-26; 23-27; 23-28,,сопоставление с Fenix не установлено,False
+23-75-01,E-Direct View System (With Mod. 166696/ MP K21857),97,23-28,,сопоставление с Fenix не установлено,False
+23-90-01,Cabin Surveillance System (CSS) STC No.ST02483AT,98,23-29,,сопоставление с Fenix не установлено,False
+23-90-03,Wireless Aircraft Data Link System (WADL) STC No. ST01447NY,98,23-29,,сопоставление с Fenix не установлено,False
+24-00-00,CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY,99,24-1,,сопоставление с Fenix не установлено,False
+24-20-01,"Engine Driven Generator Channel (IDG, GCU, Line Contactor)",100; 101; 102; 103; 104; 105; 106; 107; 108; 109; 110; 111,24-2; 24-3; 24-4; 24-5; 24-6; 24-7; 24-8; 24-9; 24-10; 24-11; 24-12; 24-13,F029,есть отдельная оценка — см. матрицу,False
+24-20-02,APU Generator Channel,112; 113; 114; 115; 116; 117,24-14; 24-15; 24-16; 24-17; 24-18; 24-19,F030,есть отдельная оценка — см. матрицу,False
+24-20-07,AC ESS Feed Control,117,24-19,,сопоставление с Fenix не установлено,False
+24-27-01,IDG FAULT Lights,117,24-19,,сопоставление с Fenix не установлено,False
+24-27-02,GEN pb Switch,118,24-20,,сопоставление с Fenix не установлено,False
+24-27-03,AC ESS FEED FAULT/ALTN Light,118,24-20,,сопоставление с Fenix не установлено,False
+24-27-04,GALLEY/GALY and CAB pb Switch,118,24-20,,сопоставление с Fenix не установлено,False
+24-27-05,RAT and EMER GEN FAULT Light,118,24-20,,сопоставление с Fenix не установлено,False
+24-27-06,Indications on ECAM ELEC Page,118,24-20,,сопоставление с Fenix не установлено,False
+24-27-09,COMMERCIAL pb Switch,119; 120,24-21; 24-22,,сопоставление с Fenix не установлено,False
+24-30-01,Transformer/Rectifier Units (TR),119,24-21,F031; F032; F033,есть отдельная оценка — см. матрицу,False
+24-30-04,Battery Voltmeters,120,24-22,,сопоставление с Fenix не установлено,False
+24-30-05,BAT pb Switches,120,24-22,,сопоставление с Fenix не установлено,False
+24-30-06,DC BUS TIE SYSTEM,120,24-22,,сопоставление с Fenix не установлено,False
+24-30-07,BUS TIE pb Switch,121,24-23,,сопоставление с Fenix не установлено,False
+24-30-08,ECAM ELEC Page (DC),121,24-23,,сопоставление с Fenix не установлено,False
+24-30-09,External Power Panel ADIRU/AVNCS Vent Caution Light,121,24-23,,сопоставление с Fenix не установлено,False
+24-41-01,AC External Power Control,121,24-23,,сопоставление с Fenix не установлено,False
+24-41-02,External Power NOT IN USE and AVAIL Panel Lights,121,24-23,,сопоставление с Fenix не установлено,False
+24-41-03,EXT PWR pb,122,24-24,,сопоставление с Fenix не установлено,False
+24-50-01,Warning and Caution on ECAM EWD,122; 123,24-24; 24-25,,сопоставление с Fenix не установлено,False
+24-56-01,GALLEY/GALY and CAB and COMMERCIAL Supply Systems,123,24-25,,сопоставление с Fenix не установлено,False
+25-00-00,CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY,124,25-1,,сопоставление с Fenix не установлено,False
+25-11-01,Pilot Seat Adjustments,125,25-2,,сопоставление с Fenix не установлено,False
+25-11-02,Crewmember Shoulder Harness (Flight Deck),126,25-3,,сопоставление с Fenix не установлено,False
+25-11-03,CAPT and F/O Outboard Armrest Controls,126,25-3,,сопоставление с Fenix не установлено,False
+25-11-04,CAPT and F/O Inboard Armrest Vertical Adjustment Controls,126,25-3,,сопоставление с Fenix не установлено,False
+25-11-05,Pilot Seat Headrests,126,25-3,,сопоставление с Fenix не установлено,False
+25-11-06,Primary Observer’s Sliding Seat (Including Associated Equipment),127,25-4,,сопоставление с Fenix не установлено,False
+25-11-07,Additional Observer’s Fixed Seat (Including Associated Equipment),128,25-5,,сопоставление с Fenix не установлено,False
+25-13-01,CAPT and F/O Sliding Tables,128,25-5,,сопоставление с Fenix не установлено,False
+25-13-02,CAPT and F/O Retractable Footrests,128,25-5,,сопоставление с Fenix не установлено,False
+25-15-01,Crew Foot Warmers,128,25-5,,сопоставление с Fenix не установлено,False
+25-21-01,Passenger Seat(s),129; 130,25-6; 25-7,,сопоставление с Fenix не установлено,False
+25-22-01,Flight Attendant Seat Assembly (Single or Dual Position),131; 132; 133,25-8; 25-9; 25-10,,сопоставление с Fenix не установлено,False
+25-22-03,Nonessential Equipment and Furnishings (NEF),133,25-10,,сопоставление с Fenix не установлено,False
+25-22-04,Exterior Lavatory Door Ashtrays,133,25-10,,сопоставление с Fenix не установлено,False
+25-27-01,"Heating Function of Heated Floor Panels (Passenger/Crew Doors, Emergency Exits, and Galley Areas)",134,25-11,,сопоставление с Fenix не установлено,False
+25-28-01,"Storage Bin(s)/Cabin, Galley, and Lavatory Storage Compartment/Closets",134; 135; 136,25-11; 25-12; 25-13,,сопоставление с Fenix не установлено,False
+25-40-01,Lavatory Waste Receptacle Access Doors/Covers/Flapper/ Doors,137,25-14,,сопоставление с Fenix не установлено,False
+25-45-01,Galley/Cabin Waste Receptacles Access Doors/Covers/Flapper Doors,137,25-14,,сопоставление с Fenix не установлено,False
+25-50-01,Cargo Loading System,137,25-14,,сопоставление с Fenix не установлено,False
+25-50-02,Blow In/Out Panels in Lower Deck Cargo Compartments,138,25-15,,сопоставление с Fenix не установлено,False
+25-50-03,Lining Panels in Lower Deck Cargo Compartments,139; 140,25-16; 25-17,,сопоставление с Fenix не установлено,False
+25-50-04,"Cargo Restraint System (Nets, Attach Points, Stanchions, etc.)",140; 141,25-17; 25-18,,сопоставление с Fenix не установлено,False
+25-50-05,Protection Panel of Decompression Panels at the FWD Partition Wall of FWD Cargo Compartment,142,25-19,,сопоставление с Fenix не установлено,False
+25-60-01,Evacuation Alarm Signaling System (EVAC COMMAND),142,25-19,,сопоставление с Fenix не установлено,False
+25-60-03,SLIDE ARMED Warning Systems,142,25-19,,сопоставление с Fenix не установлено,False
+25-60-04,SLIDE Indications on ECAM DOOR/OXY Page,143,25-20,,сопоставление с Fenix не установлено,False
+25-60-07,“Fasten Seat Belts While Seated” Signs or Placards,143,25-20,,сопоставление с Fenix не установлено,False
+25-60-08,Flashlight and Holders (Flight Deck or Cabin),144,25-21,,сопоставление с Fenix не установлено,False
+25-60-09,Megaphones,145,25-22,,сопоставление с Fenix не установлено,False
+25-60-11,Slide Raft Lanyards (White and/or Yellow),146,25-23,,сопоставление с Fenix не установлено,False
+25-60-13,Emergency Medical Equipment,146; 147; 148,25-23; 25-24; 25-25,,сопоставление с Fenix не установлено,False
+25-60-14,Escape Life Lines,149,25-26,,сопоставление с Fenix не установлено,False
+25-60-15,Emergency Vision Assurance Systems (EVAS) (A319/A320/A321) (Vision Safe STC #SA00892LA),149,25-26,,сопоставление с Fenix не установлено,False
+25-60-16,Flotation Equipment (Crew and Passenger),149,25-26,,сопоставление с Fenix не установлено,False
+25-60-17,Survival Kit,149,25-26,,сопоставление с Fenix не установлено,False
+25-60-18,Crash Axe/Crow Bar,149,25-26,,сопоставление с Fenix не установлено,False
+25-61-01,Emergency Locator Transmitter,149; 150; 151,25-26; 25-27; 25-28,,сопоставление с Fenix не установлено,False
+25-61-02,Passenger or Overwing Door Slide/Slide Rafts (Without Passengers),152,25-29,,сопоставление с Fenix не установлено,False
+25-65-01,Security Kit and Associated Equipment,152,25-29,,сопоставление с Fenix не установлено,False
+25-65-02,Fireproof Gloves,152,25-29,,сопоставление с Fenix не установлено,False
+25-75-01,Flightcrew Rest Cabin Seat,153,25-30,,сопоставление с Fenix не установлено,False
+25-75-02,"Flightcrew Rest Facilities and Equipment (14 CFR Part 117, § 117.3 Class 3)",153,25-30,,сопоставление с Fenix не установлено,False
+25-90-01,Printed Supplemental Safety Information,154,25-31,,сопоставление с Fenix не установлено,False
+26-00-00,CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY,155,26-1,,сопоставление с Fenix не установлено,False
+26-11-01,MLG Bay Fire Detection Loops (A321neo XLR),155,26-1,F112,есть отдельная оценка — см. матрицу,False
+26-11-02,MLG Bay Fire Detection System (A321neo XLR),156,26-2,F113,есть отдельная оценка — см. матрицу,False
+26-12-01,Engine Fire Detection Systems,156,26-2,F034,есть отдельная оценка — см. матрицу,False
+26-12-02,FIRE Lights on ENG Control Panel,156,26-2,,сопоставление с Fenix не установлено,False
+26-12-03,ENG FIRE pb Lights,156,26-2,,сопоставление с Fenix не установлено,False
+26-13-01,APU Fire Detection System,156; 157,26-2; 26-3,F035,есть отдельная оценка — см. матрицу,False
+26-13-02,APU FIRE pb Light,157,26-3,,сопоставление с Fenix не установлено,False
+26-15-01,Avionics Smoke Detection System,157,26-3,,сопоставление с Fenix не установлено,False
+26-16-03,Smoke Detectors in FWD Cargo Compartment,158,26-4,,сопоставление с Fenix не установлено,False
+26-16-04,Smoke Detectors in AFT and Bulk Cargo Compartments,159,26-5,,сопоставление с Fenix не установлено,False
+26-16-05,"FWD/AFT Detection Loops/Channels AAE, Ltd. STC No. ST01077WI",160,26-6,,сопоставление с Fenix не установлено,False
+26-17-01,Lavatory Smoke Detection System,160,26-6,,сопоставление с Fenix не установлено,False
+26-17-02,Smoke Detection Control Unit (SDCU) (A319/A320/A321) (Without Mod. 30354 or without Mod. 33100),161,26-7,F036,есть отдельная оценка — см. матрицу,False
+26-18-01,Video Control Center Standalone Smoke Detection System,162,26-8,,сопоставление с Fenix не установлено,False
+26-21-01,Engine AGENT 1 and 2 DISCH Light Systems,162,26-8,,сопоставление с Fenix не установлено,False
+26-21-02,Engine AGENT 1 and 2 SQUIB Light Systems,162,26-8,,сопоставление с Fenix не установлено,False
+26-21-03,ENG FIRE Test Systems,162,26-8,,сопоставление с Fenix не установлено,False
+26-22-00,APU Fire Extinguisher System,162,26-8,,сопоставление с Fenix не установлено,False
+26-22-01,APU Agent DISCH Light,162,26-8,,сопоставление с Fenix не установлено,False
+26-22-02,APU SQUIB Light,162,26-8,,сопоставление с Fenix не установлено,False
+26-22-03,APU Ground Automatic Fire Extinguisher System,163,26-9,,сопоставление с Fenix не установлено,False
+26-22-04,APU Fire Test System,163,26-9,,сопоставление с Fenix не установлено,False
+26-22-05,APU Fire Extinguisher Overpressure Indication (Red Disc),163,26-9,,сопоставление с Fenix не установлено,False
+26-22-06,APU FIRE PUSH pb,163,26-9,,сопоставление с Fenix не установлено,False
+26-22-07,APU AGENT pb,163,26-9,,сопоставление с Fenix не установлено,False
+26-22-08,APU Fire Extinguisher Bottle,163,26-9,,сопоставление с Fenix не установлено,False
+26-22-09,APU Fire Bottle Squibs,163,26-9,,сопоставление с Fenix не установлено,False
+26-22-10,APU AUTO EXTING TEST,164,26-10,,сопоставление с Fenix не установлено,False
+26-22-11,APU FIRE Light on External Power Panel,164,26-10,,сопоставление с Fenix не установлено,False
+26-22-12,APU SHUT OFF pb on External Power Panel,164,26-10,,сопоставление с Fenix не установлено,False
+26-23-01,FWD/AFT Cargo and BULK Cargo Compartment Fire Extinguishing System,165; 166; 167,26-11; 26-12; 26-13,,сопоставление с Fenix не установлено,False
+26-23-02,FWD/AFT Cargo Compartment DISCH/BTL Lights,168,26-14,,сопоставление с Fenix не установлено,False
+26-23-03,CARGO SMOKE DISCH AGENT 2 Light,168,26-14,,сопоставление с Fenix не установлено,False
+26-23-04,"“PUSH” DSCH Switch Lights AAE, Ltd. STC No. ST01077WI",169,26-15,,сопоставление с Fenix не установлено,False
+26-23-05,"“AUTO/MAN” DSCH Switch Lights AAE, Ltd. STC No. ST01077WI",170,26-16,,сопоставление с Fenix не установлено,False
+26-23-06,"DET LEDs AAE, Ltd. STC No. ST01077WI",170,26-16,,сопоставление с Fenix не установлено,False
+26-23-07,"FAIL LEDs AAE, Ltd. STC No. ST01077WI",171,26-17,,сопоставление с Fenix не установлено,False
+26-23-08,"Fault Panel (E and E Compartment) AAE, Ltd. STC No. ST01077WI",171,26-17,,сопоставление с Fenix не установлено,False
+26-25-01,Lavatory Waste Bin Fire Extinguisher System,171,26-17,,сопоставление с Fenix не установлено,False
+26-26-24,Portable Fire Extinguishers,172,26-18,,сопоставление с Fenix не установлено,False
+27-00-00,CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY,173; 174,27-1; 27-2,,сопоставление с Fenix не установлено,False
+27-14-01,Aileron Servo Controls,175; 176,27-3; 27-4,,сопоставление с Fenix не установлено,False
+27-14-02,Aileron Indications on ECAM Flight Control Page,177,27-5,,сопоставление с Fenix не установлено,False
+27-20-01,ECAM Rudder Position Indication,177,27-5,,сопоставление с Fenix не установлено,False
+27-20-02,Rudder Hydraulic System Pressure Indication Symbol on ECAM F/CTL Page,177,27-5,,сопоставление с Fenix не установлено,False
+27-21-01,Rudder Pedal Adjustment System,178,27-6,,сопоставление с Fenix не установлено,False
+27-22-01,Rudder Trim Systems,178,27-6,F037,есть отдельная оценка — см. матрицу,False
+27-22-02,Rudder Manual Trim Reset Function,178,27-6,,сопоставление с Fenix не установлено,False
+27-22-03,Rudder Trim Position Indications,178,27-6,,сопоставление с Fenix не установлено,False
+27-23-01,Rudder Travel Limiter Systems (Aircraft without Mod 163323/ MP P20703 (eRudder)),178,27-6,F038,есть отдельная оценка — см. матрицу,False
+27-23-02,ECAM Rudder Travel Limiter Position Indication (Aircraft with Mod. 31040 and Mod 30368 and without Mod 163323/ MP P20703 (eRudder)),179,27-7,,сопоставление с Fenix не установлено,False
+27-30-01,Elevator Indications on ECAM Flight Control Page,179,27-7,,сопоставление с Fenix не установлено,False
+27-34-02,Elevator Servo Control Position Transducers,179,27-7,,сопоставление с Fenix не установлено,False
+27-40-01,ECAM Pitch Trim Position Indication,179,27-7,,сопоставление с Fenix не установлено,False
+27-44-01,Stabilizer Actuator Electrical Motors,179,27-7,,сопоставление с Fenix не установлено,False
+27-44-02,Pitch Trim Hydraulic System Pressure Indication Symbol on ECAM F/CTL Page,179,27-7,,сопоставление с Fenix не установлено,False
+27-51-01,Slat/Flap Control Computer (SFCC),180; 181; 182,27-8; 27-9; 27-10,F039; F040,есть отдельная оценка — см. матрицу,False
+27-51-02,Flap Wing Tip Brake Solenoids,182,27-10,,сопоставление с Fenix не установлено,False
+27-54-01,Flap Hydraulic Motors,182,27-10,,сопоставление с Fenix не установлено,False
+27-54-02,Flap PCU Valve Blocks,183,27-11,,сопоставление с Fenix не установлено,False
+27-64-01,Spoiler Surfaces,183; 184; 185; 186; 187; 188; 189; 190,27-11; 27-12; 27-13; 27-14; 27-15; 27-16; 27-17; 27-18,,сопоставление с Fenix не установлено,False
+27-64-02,Load Alleviation Function (LAF) (A320-200 without Mod. 26334 or 26335),190,27-18,,сопоставление с Fenix не установлено,False
+27-64-03,LAF Accumulators (A320-200 without Mod. 26334 or 26335),190,27-18,,сопоставление с Fenix не установлено,False
+27-64-04,Spoilers Hydraulic System Pressure Indication Symbol on F/CTL Page,190,27-18,,сопоставление с Fenix не установлено,False
+27-64-05,LAF DEGRADED Caution on ECAM EWD (A321neo XLR),190,27-18,F114,есть отдельная оценка — см. матрицу,False
+27-81-01,Slat Wing Tip Brakes Solenoids,190,27-18,,сопоставление с Fenix не установлено,False
+27-84-01,Slats Hydraulic Motors,191,27-19,,сопоставление с Fenix не установлено,False
+27-84-02,Slat PCU Valve Blocks,191,27-19,,сопоставление с Fenix не установлено,False
+27-92-01,Speedbrake Control System,192,27-20,,сопоставление с Fenix не установлено,False
+27-92-02,Ground Spoiler Control System,192; 193,27-20; 27-21,,сопоставление с Fenix не установлено,False
+27-92-05,Spoiler/Speedbrake Indications on ECAM F/CTL and Wheel Page,193,27-21,,сопоставление с Fenix не установлено,False
+27-92-06,Side Stick Dual Input Warning System,193,27-21,,сопоставление с Fenix не установлено,False
+27-92-07,STICK SENSOR FAULT Caution on ECAM EWD (A321neo XLR),193,27-21,F115,есть отдельная оценка — см. матрицу,False
+27-92-11,STEEP APPR pb Switch (With Mod. 35542),193,27-21,,сопоставление с Fenix не установлено,False
+27-93-01,Elevator Aileron Computers (ELAC),194; 195,27-22; 27-23,F041; F042,есть отдельная оценка — см. матрицу,False
+27-93-02,ELAC pb Switch,196,27-24,,сопоставление с Fenix не установлено,False
+27-93-03,ECAM ELAC Indications,196,27-24,,сопоставление с Fenix не установлено,False
+27-93-04,LAWS REDUND LOST Caution on ECAM EWD (A321neo XLR),196,27-24,F116,есть отдельная оценка — см. матрицу,False
+27-94-01,Spoiler Elevator Computers (SEC),197; 198; 199; 200; 201; 202; 203; 204; 205; 206; 207,27-25; 27-26; 27-27; 27-28; 27-29; 27-30; 27-31; 27-32; 27-33; 27-34; 27-35,F043,есть отдельная оценка — см. матрицу,False
+27-94-02,SEC pb Switch,208,27-36,,сопоставление с Fenix не установлено,False
+27-94-03,SEC Indication on ECAM F/CTL Page,209,27-37,,сопоставление с Fenix не установлено,False
+27-95-01,Flight Control Data Concentrators,209,27-37,F044; F045,есть отдельная оценка — см. матрицу,False
+28-00-00,CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY,210,28-1,,сопоставление с Fenix не установлено,False
+28-12-01,Overpressure Protectors,210; 211; 212,28-1; 28-2; 28-3,,сопоставление с Fenix не установлено,False
+28-15-01,Outer to Inner TK Transfer Valves,213; 214,28-4; 28-5,F046,есть отдельная оценка — см. матрицу,False
+28-20-01,Automatic Fuel Feed System,215,28-6,,сопоставление с Fenix не установлено,False
+28-21-01,Wing Tank Pumps (Aircraft Fitted with Mod. 36387/MP J2487 or Aircraft Not Specified in Service Bulletin A320-28-1102),215; 216,28-6; 28-7,F047,есть отдельная оценка — см. матрицу,False
+28-21-02,Center Tank Systems,216; 217; 218; 219,28-7; 28-8; 28-9; 28-10,F048; F049,есть отдельная оценка — см. матрицу,False
+28-21-03,Wing Tank Pump Sequence Valves (A318/A319/A320) without Mod. 154327/ MP J3527,220,28-11,,сопоставление с Fenix не установлено,False
+28-21-04,Rear Center Tank System (A321neo XLR),220; 221; 222,28-11; 28-12; 28-13,F117,есть отдельная оценка — см. матрицу,False
+28-23-02,CROSSFEED pb Switch,223,28-14,F050,есть отдельная оценка — см. матрицу,False
+28-24-01,Engine LP Fuel Valve Electrical Motor (With Mod. 25537),223,28-14,,сопоставление с Fenix не установлено,False
+28-25-01,Fuel Quantity Preselector System,223,28-14,,сопоставление с Fenix не установлено,False
+28-25-02,Fuel Quantity Indicator (Refueling Panel),223,28-14,,сопоставление с Fenix не установлено,False
+28-25-03,High Level Fuel Detection System,223; 224; 225; 226; 227,28-14; 28-15; 28-16; 28-17; 28-18,,сопоставление с Fenix не установлено,False
+28-25-04,Refuel Valves,227,28-18,,сопоставление с Fenix не установлено,False
+28-25-05,Transfer Defuel Valve,227,28-18,,сопоставление с Fenix не установлено,False
+28-25-06,Refuel/Defuel Control Panel,227,28-18,,сопоставление с Fenix не установлено,False
+28-25-07,RCT Inlet Valve,228,28-19,F118,есть отдельная оценка — см. матрицу,False
+28-25-08,RCT Refuel Valve,228,28-19,F119,есть отдельная оценка — см. матрицу,False
+28-28-01,Auto Transfer System Additional Center Tank(s) (ACT),229,28-20,,сопоставление с Fenix не установлено,False
+28-28-02,Transfer Valve Additional Center Tank(s),230,28-21,,сопоставление с Fenix не установлено,False
+28-28-03,Transfer Pump Additional Center Tank(s),230,28-21,,сопоставление с Fenix не установлено,False
+28-28-04,Air Shutoff Valve Additional Center Tank(s),231,28-22,,сопоставление с Fenix не установлено,False
+28-28-05,Inward Pressure Relief Valve Additional Center Tank(s),232,28-23,,сопоставление с Fenix не установлено,False
+28-28-06,Vent Valve Additional Center Tank(s),232,28-23,,сопоставление с Fenix не установлено,False
+28-28-07,Refuel Valve Additional Center Tank(s),233,28-24,,сопоставление с Fenix не установлено,False
+28-28-08,Inlet Valve Additional Center Tank(s),233; 234; 235,28-24; 28-25; 28-26,,сопоставление с Fenix не установлено,False
+28-28-09,FWD ACT Ventilation Isolation Valve,236,28-27,,сопоставление с Fenix не установлено,False
+28-28-10,FWD ACT Isolation Valve,236,28-27,,сопоставление с Fenix не установлено,False
+28-28-11,Fuel ACT Overhead Panel (A321 with Mod. 163213/MP J4530),237,28-28,,сопоставление с Fenix не установлено,False
+28-40-01,Low Level Detection Systems,238; 239,28-29; 28-30,,сопоставление с Fenix не установлено,False
+28-40-02,Fuel Quantity Indicating Computer System,239; 240,28-30; 28-31,F051,есть отдельная оценка — см. матрицу,False
+28-40-03,TK PUMP and CTR TK XFR FAULT Lights,241,28-32,,сопоставление с Fenix не установлено,False
+28-40-04,TK PUMP and CTR TK XFR OFF Lights,241,28-32,,сопоставление с Fenix не установлено,False
+28-40-05,Fuel Transfer Control,242,28-33,,сопоставление с Fenix не установлено,False
+28-40-06,ECAM FUEL PAGE Indications,243; 244; 245; 246; 247; 248; 249; 250; 251; 252; 253; 254; 255; 256; 257,28-34; 28-35; 28-36; 28-37; 28-38; 28-39; 28-40; 28-41; 28-42; 28-43; 28-44; 28-45; 28-46; 28-47; 28-48,,сопоставление с Fenix не установлено,False
+28-40-07,Manual Magnetic Indicators,258,28-49,,сопоставление с Fenix не установлено,False
+28-40-08,Fuel Quantity Attitude Monitor,258,28-49,,сопоставление с Fenix не установлено,False
+28-40-09,Cautions on ECAM,258; 259; 260; 261; 262,28-49; 28-50; 28-51; 28-52; 28-53,,сопоставление с Fenix не установлено,False
+28-40-10,Indication on ECAM EWD,263,28-54,,сопоставление с Fenix не установлено,False
+28-40-11,Auxiliary Fuel Management Computer System Channels (A321 with Mod. 163213/MP J4530),263,28-54,,сопоставление с Fenix не установлено,False
+29-00-00,CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY,264,29-1,,сопоставление с Fenix не установлено,False
+29-10-01,Engine Driven Pump Depressurization Function,264,29-1,F052,есть отдельная оценка — см. матрицу,False
+29-10-02,Blue System Electric Pump,264,29-1,F053,есть отдельная оценка — см. матрицу,False
+29-10-03,Hydraulic System Accumulators,265,29-2,,сопоставление с Fenix не установлено,False
+29-10-07,Filters,265,29-2,,сопоставление с Fenix не установлено,False
+29-10-10,Hydraulic Reservoir Drain Valve,265,29-2,,сопоставление с Fenix не установлено,False
+29-20-01,Hydraulic Reservoir Quantity Indicator (Green Servicing Panel),265,29-2,,сопоставление с Fenix не установлено,False
+29-20-02,Hydraulic Reservoir Four Way Selector Valve on Ground Service Panel,265,29-2,,сопоставление с Fenix не установлено,False
+29-23-01,Power Transfer Unit,266,29-3,F054,есть отдельная оценка — см. матрицу,False
+29-25-01,Yellow System Electric Pump,266,29-3,F055,есть отдельная оценка — см. матрицу,False
+29-30-01,Pump pb Switch,266,29-3,,сопоставление с Fenix не установлено,False
+29-30-02,PTU pb Switch,267,29-4,,сопоставление с Fenix не установлено,False
+29-30-03,ECAM HYD Page Indications,267; 268,29-4; 29-5,F056,есть отдельная оценка — см. матрицу,False
+29-30-04,ECAM Warnings and Cautions,269; 270,29-6; 29-7,,сопоставление с Fenix не установлено,False
+29-30-05,LEAK MEASUREMENT VALVE pb Switches,270,29-7,,сопоставление с Fenix не установлено,False
+30-00-00,CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY,271,30-1,,сопоставление с Fenix не установлено,False
+30-11-01,Wing Anti-Ice Control Valves,271; 272; 273,30-1; 30-2; 30-3,F057,есть отдельная оценка — см. матрицу,False
+30-11-02,Wing Anti-Ice,274,30-4,,сопоставление с Fenix не установлено,False
+30-11-03,ECAM BLEED Page Indications,274,30-4,,сопоставление с Fenix не установлено,False
+30-21-01,Engine Anti-Ice Valves (A318/A319ceo/ A320ceo/A321ceo) (A318/A319ceo/ A320ceo/A321ceo with CFM or PW6000 engines) (A319ceo/A320ceo/ A321ceo with IAE engines) (A319neo/A320neo/ A321neo) (A319neo/A320neo/ A321neo) (A319neo/A320neo/ A321neo with CFM LEAP1-A Engines),275,30-5,F058,есть отдельная оценка — см. матрицу,False
+30-21-02,Engine Anti-Ice,276,30-6,,сопоставление с Fenix не установлено,False
+30-21-03,ANTI-ICE ENG 1(2) CTL FAULT Cautions on ECAM EWD (A319neo/A320neo/ A321neo),276,30-6,F120,есть отдельная оценка — см. матрицу,False
+30-31-01,Probe Heat Computers,277,30-7,F059; F060,есть отдельная оценка — см. матрицу,False
+30-31-02,Pitot Heaters,278,30-8,F061,есть отдельная оценка — см. матрицу,False
+30-31-03,Static Port Heaters,279,30-9,F062,есть отдельная оценка — см. матрицу,False
+30-31-04,Angle of Attack Probe Heaters (except A321neo XLR),280,30-10,F063,есть отдельная оценка — см. матрицу,False
+30-31-05,TAT Probe Heaters,281,30-11,F064; F065,есть отдельная оценка — см. матрицу,False
+30-42-01,Window Heat Computers,281,30-11,F066,есть отдельная оценка — см. матрицу,False
+30-42-02,Fixed Lateral Window and Sliding Window Heating Systems,281,30-11,,сопоставление с Fenix не установлено,False
+30-42-03,Windshield Heating Systems,281,30-11,,сопоставление с Fenix не установлено,False
+30-42-04,Probes/Window Heat pb-sw,282,30-12,,сопоставление с Fenix не установлено,False
+30-45-01,Windshield Wiper Systems,282; 283,30-12; 30-13,,сопоставление с Fenix не установлено,False
+30-45-02,Rain Repellant Systems,283,30-13,,сопоставление с Fenix не установлено,False
+30-71-01,Waste Water Drain Mast Heating System,283,30-13,,сопоставление с Fenix не установлено,False
+30-71-02,Waste Water Drain Line Protection System,284,30-14,,сопоставление с Fenix не установлено,False
+30-71-03,Cargo Compartment Drain Line and Drain Mast Ice Protection System,284,30-14,,сопоставление с Fenix не установлено,False
+30-81-02,Ice Detection System,284,30-14,,сопоставление с Fenix не установлено,False
+30-81-03,External Visual Ice Indicator Lighting,284,30-14,,сопоставление с Fenix не установлено,False
+31-00-00,CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY,285; 286; 287,31-1; 31-2; 31-3,,сопоставление с Fenix не установлено,False
+31-21-01,Clock System,288,31-4,,сопоставление с Fenix не установлено,False
+31-27-01,Flight Number Reminder,288,31-4,,сопоставление с Fenix не установлено,False
+31-30-01,Centralized Fault Display System (CFDS),288,31-4,F067,есть отдельная оценка — см. матрицу,False
+31-30-02,Flight Data Recorder (FDR) System Includes FDR Function of Combined Voice and Flight Data Recorder (CVFDR),289,31-5,,сопоставление с Fenix не установлено,False
+31-30-03,Flight Data Interface Unit (FDIU) or Flight Data Interface Function of the Flight Data Interface and Management Unit (FDIMU) (Including Aircraft with STC ST02668LA),290,31-6,,сопоставление с Fenix не установлено,False
+31-30-04,Quick Access Recorder,290,31-6,,сопоставление с Fenix не установлено,False
+31-30-05,Digital AIDS Recorder System,290,31-6,,сопоставление с Fenix не установлено,False
+31-30-06,Data Management Unit (DMU) or Data Management Function of the FDIMU,290,31-6,,сопоставление с Fenix не установлено,False
+31-30-07,Printer,290,31-6,,сопоставление с Fenix не установлено,False
+31-38-01,Up and Down Data Loading System Acquisition/Interface,291,31-7,,сопоставление с Fenix не установлено,False
+31-53-01,Flight Warning Computers (FWC),291,31-7,F068; F069,есть отдельная оценка — см. матрицу,False
+31-55-01,System Data Acquisition Concentrator Units (SDAC),291,31-7,F070; F071,есть отдельная оценка — см. матрицу,False
+31-56-01,ECAM Control Panel,292,31-8,F072,есть отдельная оценка — см. матрицу,False
+31-58-01,Master Warn System,292,31-8,,сопоставление с Fenix не установлено,False
+31-58-02,Master Caution System,292,31-8,,сопоставление с Fenix не установлено,False
+31-61-01,EIS Switching Systems,292; 293,31-8; 31-9,,сопоставление с Fenix не установлено,False
+31-63-01,Display Units (DU),293; 294,31-9; 31-10,F073; F074,есть отдельная оценка — см. матрицу,False
+31-63-02,Display Management Computers,295; 296,31-11; 31-12,F075,есть отдельная оценка — см. матрицу,False
+31-63-03,ECAM Memo Messages,296,31-12,,сопоставление с Fenix не установлено,False
+31-63-04,ECAM Permanent Data Display,296,31-12,,сопоставление с Fenix не установлено,False
+32-00-00,CLASS II MAINTENANCE MESSAGE DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY,297,32-1,,сопоставление с Fenix не установлено,False
+32-11-01,Torque Link Dampers,297,32-1,,сопоставление с Fenix не установлено,False
+32-12-01,MAIN GEAR DOORS,297,32-1,,сопоставление с Fenix не установлено,False
+32-31-01,Landing Gear Control and Interface Unit No. 2 (LGCIU 2),297; 298; 299; 300; 301; 302; 303; 304; 305,32-1; 32-2; 32-3; 32-4; 32-5; 32-6; 32-7; 32-8; 32-9,F076; F077,есть отдельная оценка — см. матрицу,False
+32-31-02,Landing Gear Retraction System (except A321neo XLR),305,32-9,F078,есть отдельная оценка — см. матрицу,False
+32-33-01,Landing Gear Gravity Extension System (except A321neo XLR),305,32-9,,сопоставление с Fenix не установлено,False
+32-41-01,Wheel Tie Bolts,306,32-10,,сопоставление с Fenix не установлено,False
+32-42-01,Main Wheel Braking Systems,306,32-10,F079,есть отдельная оценка — см. матрицу,False
+32-42-02,Green Braking System,307,32-11,,сопоставление с Fenix не установлено,False
+32-42-03,Braking/Steering Control Unit (BSCU) Channels/Systems,308; 309; 310; 311; 312,32-12; 32-13; 32-14; 32-15; 32-16,F080,есть отдельная оценка — см. матрицу,False
+32-42-04,AUTO/BRK Function,313,32-17,F081,есть отдельная оценка — см. матрицу,False
+32-42-05,Tachometer (Aircraft with Mod. 157591/ MP J4030 (BSCU STD L4.10)),314,32-18,,сопоставление с Fenix не установлено,False
+32-42-06,Nose Wheel Brake Pads (Without Mod. 28482),314,32-18,,сопоставление с Fenix не установлено,False
+32-44-01,Yellow Brake System,315,32-19,,сопоставление с Fenix не установлено,False
+32-44-02,ACCU PRESS Indicator,316,32-20,,сопоставление с Fenix не установлено,False
+32-44-03,BRAKES Pressure Indicators,317,32-21,,сопоставление с Fenix не установлено,False
+32-45-02,Parking Brake External Light,317,32-21,,сопоставление с Fenix не установлено,False
+32-47-01,Brake Temperature Monitoring Unit,317,32-21,,сопоставление с Fenix не установлено,False
+32-48-01,Brake Fan System,317,32-21,,сопоставление с Fenix не установлено,False
+32-48-02,BRAKE FAN HOT Light,317,32-21,,сопоставление с Fenix не установлено,False
+32-48-03,BRK FAN ON Light,318,32-22,,сопоставление с Fenix не установлено,False
+32-49-01,ECAM Tire Pressure Indications,318,32-22,F082,есть отдельная оценка — см. матрицу,False
+32-49-02,Tire Pressure Monitoring System,318,32-22,,сопоставление с Fenix не установлено,False
+32-49-03,Warning and Caution on ECAM EWD,318,32-22,,сопоставление с Fenix не установлено,False
+32-51-02,PEDALS DISC pb,318,32-22,,сопоставление с Fenix не установлено,False
+32-51-03,Nose Wheel Steering Control System Deactivation Device (For A/C Towing),319,32-23,,сопоставление с Fenix не установлено,False
+32-60-01,LDG Gear Indicator Panel (UNLK and/or Down and Locked Triangle Indications),319,32-23,,сопоставление с Fenix не установлено,False
+32-60-02,Gear Not Down Indication,319,32-23,,сопоставление с Fenix не установлено,False
+32-60-03,ECAM Wheel Page Indications,319; 320,32-23; 32-24,,сопоставление с Fenix не установлено,False
+32-60-04,Fault(s) Indicated by BRAKES N/WS MINOR FAULT Caution on ECAM EWD,321; 322; 323,32-25; 32-26; 32-27,,сопоставление с Fenix не установлено,False
+32-60-07,Integral Tire Pressure Indicators,323,32-27,,сопоставление с Fenix не установлено,False
+33-10-01,Cockpit and Instrument Panel Lighting System,324; 325; 326,33-1; 33-2; 33-3,,сопоставление с Fenix не установлено,False
+33-10-02,Annunciator Lights,327,33-4,,сопоставление с Fenix не установлено,False
+33-20-01,Cabin Light System,327,33-4,,сопоставление с Fenix не установлено,False
+33-20-02,Passenger Lighted Information Signs,328,33-5,,сопоставление с Fenix не установлено,False
+33-20-04,Passenger Lighted Information Signs AUTO Function,328,33-5,,сопоставление с Fenix не установлено,False
+33-30-01,Cargo and Service Compartment Lighting System,328,33-5,,сопоставление с Fenix не установлено,False
+33-40-01,Navigation Lights Systems,329; 330,33-6; 33-7,,сопоставление с Fenix не установлено,False
+33-40-02,Landing Lighting System,330,33-7,,сопоставление с Fenix не установлено,False
+33-40-03,Runway Turn-Off Light Systems,330,33-7,,сопоставление с Fenix не установлено,False
+33-40-04,Taxi and Takeoff Light Systems,330,33-7,,сопоставление с Fenix не установлено,False
+33-40-05,Logo Lights,330,33-7,,сопоставление с Fenix не установлено,False
+33-40-06,Anticollision/ Strobe Lighting,331,33-8,,сопоставление с Fenix не установлено,False
+33-40-07,Wing Scan Lights,331,33-8,,сопоставление с Fenix не установлено,False
+33-50-01,Exit Signs,331,33-8,,сопоставление с Fenix не установлено,False
+33-50-02,Overhead Emergency Lights,332,33-9,,сопоставление с Fenix не установлено,False
+33-50-03,Floor Proximity Emergency Escape Path Marking System,332; 333,33-9; 33-10,,сопоставление с Fenix не установлено,False
+33-50-04,Overwing Escape Route Lighting,333,33-10,,сопоставление с Fenix не установлено,False
+33-50-05,Escape Slide Lighting,333,33-10,,сопоставление с Fenix не установлено,False
+33-50-06,Lavatory Auxiliary Lights,333,33-10,,сопоставление с Fenix не установлено,False
+33-50-08,EMER EXIT LT OFF Light on SIGNS Overhead Panel,333,33-10,,сопоставление с Fenix не установлено,False
+33-50-09,Interior and Exterior Emergency Lighting Systems,334,33-11,,сопоставление с Fenix не установлено,False
+33-51-12,BAT TEST pb on the PTP,334,33-11,,сопоставление с Fenix не установлено,False
+34-00-00,CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY,335,34-1,,сопоставление с Fenix не установлено,False
+34-00-01,Autotune Systems,335,34-1,,сопоставление с Fenix не установлено,False
+34-10-01,ADIRS,336; 337; 338; 339; 340; 341; 342,34-2; 34-3; 34-4; 34-5; 34-6; 34-7; 34-8,F083; F084; F085; F086,есть отдельная оценка — см. матрицу,False
+34-10-02,ADIRS CDU (Aircraft Pre Mod. 36743/ MP P5253),343; 344,34-9; 34-10,,сопоставление с Fenix не установлено,False
+34-10-03,ADIRS MSU (Aircraft Post Mod. 36743/ MP P5253),344; 345,34-10; 34-11,,сопоставление с Fenix не установлено,False
+34-12-01,BKUP SPD/ALT pb-sw ON light (With Mod. 159281/ MP P15825),345,34-11,,сопоставление с Fenix не установлено,False
+34-12-02,BKUP SPD/ALT pb-sw (With Mod. 159281/ MP P15825),345,34-11,,сопоставление с Fenix не установлено,False
+34-12-03,Digital Backup Speed (DBUS) (With Mod. 163909/ MP P20614),345,34-11,,сопоставление с Fenix не установлено,False
+34-13-02,Mach Numbers on PFD (Aircraft with Mod. 27620/ MP P5638),345,34-11,,сопоставление с Fenix не установлено,False
+34-13-05,Vertical Speed Indications on PFD,346,34-12,,сопоставление с Fenix не установлено,False
+34-13-07,Ground Speed Indications on ND,346,34-12,,сопоставление с Fenix не установлено,False
+34-13-08,"True Airspeed Indications on ND (IAE, CFM, PW 6000 Engines and PW 1100G engines with Mod. 165817/ MP P21469 (FCS 5.0))",346,34-12,,сопоставление с Fenix не установлено,False
+34-13-09,Wind Indications on ND,346,34-12,,сопоставление с Fenix не установлено,False
+34-13-10,Radio Navaids Indications on PFD,346,34-12,,сопоставление с Fenix не установлено,False
+34-13-11,Radio Navaids Indications on ND,346,34-12,,сопоставление с Fenix не установлено,False
+34-14-02,EIS Heading,346,34-12,,сопоставление с Fenix не установлено,False
+34-14-04,Navigation Station Information,346,34-12,,сопоставление с Fenix не установлено,False
+34-14-05,Chrono,346,34-12,,сопоставление с Fenix не установлено,False
+34-15-01,Angle of Attack Indicator,347,34-13,,сопоставление с Fenix не установлено,False
+34-15-02,NORTH REF pb-sw (With Mod. 35891/ MP P9351),347,34-13,,сопоставление с Fenix не установлено,False
+34-21-01,Standby Airspeed Indicator,347,34-13,,сопоставление с Fenix не установлено,False
+34-21-02,Standby Altimeter,347,34-13,,сопоставление с Fenix не установлено,False
+34-21-03,Standby Metric Altimeter,347,34-13,,сопоставление с Fenix не установлено,False
+34-22-01,Standby Horizon (Attitude) (Aircraft with Honeywell ADIRUs or Aircraft with Litton ADIRUs P/N 465020-0303-0316 and Mod. 30650 or 30872),347,34-13,,сопоставление с Fenix не установлено,False
+34-22-02,Non-Stabilized Magnetic Compass (Standby) (Aircraft Equipped with Honeywell ADIRUs or Aircraft Equipped with Litton ADIRUs P/N 465020-0303-316 and Mod. 30650 or 30872),348,34-14,,сопоставление с Fenix не установлено,False
+34-22-03,Integrated Standby Instrument System,348,34-14,,сопоставление с Fenix не установлено,False
+34-30-01,Head-Up Display (HUD),349,34-15,,сопоставление с Fenix не установлено,False
+34-30-03,GNSS Landing System (GLS) Function (Mod. 39327/MP P8500),349,34-15,,сопоставление с Fenix не установлено,False
+34-36-01,ILS Navigation Systems,349,34-15,F087,есть отдельная оценка — см. матрицу,False
+34-37-01,FMS Landing System (FLS),349,34-15,,сопоставление с Fenix не установлено,False
+34-38-01,SBAS Landing System (SLS) (Mod. 165088/ MP S34829),349,34-15,,сопоставление с Fenix не установлено,False
+34-40-07,GPWS – G/S pb-sw or PULL UP – GPWS pb-sw or PULL UP – G/S pb-sw,349,34-15,,сопоставление с Fenix не установлено,False
+34-40-09,Runway End Overrun Warning/Runway End Overrun Protection (ROW/ROP) (Mod. 155269/ MP P12511 or Mod. 161514/ MP P15323),350,34-16,,сопоставление с Fenix не установлено,False
+34-40-10,ROW/ROP pb-sw OFF Light (With Mod. 163910/ MP P20767 or Mod. 163425/ MP P20473),350,34-16,,сопоставление с Fenix не установлено,False
+34-40-11,ROW/ROP pb-sw (With Mod. 163910/ MP P20767 or Mod. 163425/ MP P20473),350,34-16,,сопоставление с Fenix не установлено,False
+34-40-12,RWY COND Rotary Selector (With Mod. 163910/ MP P20767 or Mod. 163425/ MP P20473),350,34-16,,сопоставление с Fenix не установлено,False
+34-40-13,ATSAW Function,350,34-16,,сопоставление с Fenix не установлено,False
+34-41-01,Weather Radar Systems,351,34-17,F088,есть отдельная оценка — см. матрицу,False
+34-42-01,Radio Altimeter (RA) Systems,352; 353,34-18; 34-19,F089,есть отдельная оценка — см. матрицу,False
+34-42-02,Automatic Callout System,354,34-20,,сопоставление с Fenix не установлено,False
+34-42-04,Altitude Alerting System,354,34-20,,сопоставление с Fenix не установлено,False
+34-43-01,Traffic Alert and Collision Avoidance System (TCAS II),355; 356,34-21; 34-22,F090,есть отдельная оценка — см. матрицу,False
+34-48-01,Ground Proximity Warning System (GPWS),357; 358,34-23; 34-24,F091,есть отдельная оценка — см. матрицу,False
+34-48-02,GPWS SYS pb-sw FAULT Light,358,34-24,,сопоставление с Fenix не установлено,False
+34-48-03,GPWS SYS pb-sw OFF Light,358,34-24,,сопоставление с Fenix не установлено,False
+34-48-04,GPWS G/S MODE pb- sw OFF Light,358,34-24,,сопоставление с Fenix не установлено,False
+34-48-05,GPWS FLAP MODE pb-sw OFF Light,359,34-25,,сопоставление с Fenix не установлено,False
+34-48-06,GPWS LDG FLAP 3 pb-sw ON Light,359,34-25,,сопоставление с Fenix не установлено,False
+34-48-07,GPWS TERR pb-sw FAULT Light,359,34-25,,сопоставление с Fenix не установлено,False
+34-48-08,GPWS TERR pb-sw OFF Light,359,34-25,,сопоставление с Fenix не установлено,False
+34-51-01,DME,359,34-25,,сопоставление с Fenix не установлено,False
+34-52-01,ATC Transponders and Automatic Altitude Reporting Systems,359,34-25,F092,есть отдельная оценка — см. матрицу,False
+34-53-01,ADF System,359,34-25,F093,есть отдельная оценка — см. матрицу,False
+34-55-01,VOR Navigation,360,34-26,F094,есть отдельная оценка — см. матрицу,False
+34-55-02,Marker Beacon,360,34-26,,сопоставление с Fenix не установлено,False
+34-55-03,Long Range Navigation Systems,360,34-26,,сопоставление с Fenix не установлено,False
+34-57-01,DDRMI,360,34-26,,сопоставление с Fenix не установлено,False
+34-57-02,Automatic Dependent Surveillance-Broadcast (ADS-B) System,360; 361; 362,34-26; 34-27; 34-28,,сопоставление с Fenix не установлено,False
+34-58-01,Global Positioning System,363; 364; 365; 366; 367,34-29; 34-30; 34-31; 34-32; 34-33,F095,есть отдельная оценка — см. матрицу,False
+34-61-01,Navigation Databases,368,34-34,,сопоставление с Fenix не установлено,False
+35-10-04,Exterior Oxygen Overpressure Indicator Disc (Green Disc),369,35-1,,сопоставление с Fenix не установлено,False
+35-13-01,Indications on DOOR/OXY ECAM Page,369; 370,35-1; 35-2,F096,есть отдельная оценка — см. матрицу,False
+35-13-02,Crew Supply pb Switch,370,35-2,,сопоставление с Fenix не установлено,False
+35-21-01,Passenger Oxygen Storage,371,35-3,,сопоставление с Fenix не установлено,False
+35-21-02,Lavatory Oxygen Module,371,35-3,,сопоставление с Fenix не установлено,False
+35-23-01,Passenger Oxygen Manual Control System,371,35-3,,сопоставление с Fenix не установлено,False
+35-23-02,Passenger Oxygen AUTO Control System,372,35-4,,сопоставление с Fenix не установлено,False
+35-23-03,PASSENGER SYS ON Light,372,35-4,,сопоставление с Fenix не установлено,False
+35-23-04,HI ALT LANDING pb-sw ON Light,372,35-4,,сопоставление с Fenix не установлено,False
+35-23-05,HI ALT LANDING pb-sw,372,35-4,,сопоставление с Fenix не установлено,False
+35-31-01,Portable Oxygen Bottles or Units (Including Masks and Hoses),373,35-5,,сопоставление с Fenix не установлено,False
+35-32-01,Portable Protective Breathing Equipment (PBE),374,35-6,,сопоставление с Fenix не установлено,False
+36-00-00,CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY,375; 376; 377,36-1; 36-2; 36-3,,сопоставление с Fenix не установлено,False
+36-11-01,Bleed Air Supply Systems,378; 379,36-4; 36-5,,сопоставление с Fenix не установлено,False
+36-11-02,Bleed Valves (PRV),379,36-5,F097,есть отдельная оценка — см. матрицу,False
+36-11-03,Overpressure Valves,380,36-6,,сопоставление с Fenix не установлено,False
+36-11-04,Fan Air Valves (FAV),381,36-7,,сопоставление с Fenix не установлено,False
+36-11-05,Bleed Air Precooler Exchangers,381,36-7,,сопоставление с Fenix не установлено,False
+36-11-06,Intermediate Pressure Check Valves (IP),381,36-7,,сопоставление с Fenix не установлено,False
+36-11-07,High Pressure Valves (HPV),381,36-7,F098,есть отдельная оценка — см. матрицу,False
+36-11-08,Bleed Monitoring Computer (BMC),382; 383; 384; 385; 386; 387,36-8; 36-9; 36-10; 36-11; 36-12; 36-13,F099,есть отдельная оценка — см. матрицу,False
+36-12-01,APU Bleed Air Supply System,388,36-14,,сопоставление с Fenix не установлено,False
+36-12-02,APU Bleed Valve,388; 389,36-14; 36-15,F100,есть отдельная оценка — см. матрицу,False
+36-12-03,APU Bleed Check Valve,389,36-15,,сопоставление с Fenix не установлено,False
+36-12-04,Cross Bleed Valve,390,36-16,F101,есть отдельная оценка — см. матрицу,False
+36-20-01,ENG BLEED pb Switch,390,36-16,,сопоставление с Fenix не установлено,False
+36-20-02,APU BLEED pb Switch,390,36-16,,сопоставление с Fenix не установлено,False
+36-20-03,ECAM BLEED Page Indications,390; 391,36-16; 36-17,,сопоставление с Fenix не установлено,False
+36-22-15,Pylon Leak Detection Loops,391; 392; 393,36-17; 36-18; 36-19,F102,есть отдельная оценка — см. матрицу,False
+36-22-17,APU Leak Detection Loop,394; 395; 396,36-20; 36-21; 36-22,,сопоставление с Fenix не установлено,False
+36-22-18,AIR APU BLEED LEAK Caution on ECAM EWD,396; 397; 398; 399,36-22; 36-23; 36-24; 36-25,,сопоставление с Fenix не установлено,False
+38-10-01,Potable Water Systems,400,38-1,,сопоставление с Fenix не установлено,False
+38-30-01,Lavatory Waste Systems,400; 401,38-1; 38-2,,сопоставление с Fenix не установлено,False
+46-20-01,Electronic Flight Bag System (EFB),402; 403,46-1; 46-2,,сопоставление с Fenix не установлено,False
+46-21-01,Air Traffic Service Unit System (ATSU),403,46-2,F103,есть отдельная оценка — см. матрицу,False
+46-21-02,Data Link Control Display Units (DCDU),403,46-2,,сопоставление с Fenix не установлено,False
+46-21-03,ATC Msg. pb-sw,404,46-3,,сопоставление с Fenix не установлено,False
+46-21-04,ATC Datalink,404,46-3,,сопоставление с Fenix не установлено,False
+46-21-05,COMPANY Datalink,404,46-3,,сопоставление с Fenix не установлено,False
+46-21-06,Flight Operations and Maintenance Exchanger (FOMAX),404,46-3,,сопоставление с Fenix не установлено,False
+47-00-00,CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY,405,47-1,,сопоставление с Fenix не установлено,False
+47-10-01,Fuel Tank Inerting System (A318/A319/A320/A321 Aircraft Fitted with Mod. 38062/MP J2879 and Mod. 151269/ MP P11819),405,47-1,,сопоставление с Fenix не установлено,False
+49-00-00,CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY,406,49-1,,сопоставление с Fenix не установлено,False
+49-10-01,APU System,406; 407,49-1; 49-2,F104,есть отдельная оценка — см. матрицу,False
+49-10-02,APU Air Intake Flap,407,49-2,,сопоставление с Fenix не установлено,False
+49-30-01,APU Fuel Pump,407,49-2,,сопоставление с Fenix не установлено,False
+49-30-02,APU LP Valve,408,49-3,F105,есть отдельная оценка — см. матрицу,False
+49-70-01,MASTER Switch ON Light,408,49-3,,сопоставление с Fenix не установлено,False
+49-70-02,MASTER Switch FAULT Light,408,49-3,,сопоставление с Fenix не установлено,False
+49-70-03,START ON Light,408,49-3,,сопоставление с Fenix не установлено,False
+49-70-04,START/AVAIL Light,408,49-3,,сопоставление с Fenix не установлено,False
+49-70-05,ECAM APU Page Indications,408,49-3,,сопоставление с Fenix не установлено,False
+52-10-03,Passenger Exit Stop Fitting,409,52-1,,сопоставление с Fenix не установлено,False
+52-10-04,Emergency Operation Cylinder Damper Functions,409,52-1,,сопоставление с Fenix не установлено,False
+52-10-06,Overwing Emergency Exit Flight Lock Actuator,409,52-1,,сопоставление с Fenix не установлено,False
+52-30-01,Cargo Door Actuators,410; 411,52-2; 52-3,,сопоставление с Fenix не установлено,False
+52-30-02,Cargo Door Locking Hooks and Spools System,411,52-3,,сопоставление с Fenix не установлено,False
+52-30-03,Hand Pump,412,52-4,,сопоставление с Fenix не установлено,False
+52-30-04,Cargo Doors Electrical Control,412,52-4,,сопоставление с Fenix не установлено,False
+52-30-05,Cargo Door Drift Pin,412,52-4,,сопоставление с Fenix не установлено,False
+52-33-01,Bulk Cargo Door Balance mechanism,413,52-5,,сопоставление с Fenix не установлено,False
+52-50-01,Flight Deck Door Lock Solenoid,413,52-5,,сопоставление с Fenix не установлено,False
+52-50-02,"Cockpit Door Locking System (Automatic System) (Mod. 32088 and 32090) 14 CFR Part 25, § 25.795 Compliant",413; 414,52-5; 52-6,,сопоставление с Fenix не установлено,False
+52-50-03,"Cockpit Door Secondary Locking System (Deadbolt) (Mod. 33777) 14 CFR Part 25, § 25.795 Compliant",415,52-7,,сопоставление с Fenix не установлено,False
+52-60-01,Entrance Stairs (With Mod. 23398/ MP P3053),415,52-7,,сопоставление с Fenix не установлено,False
+52-70-01,ECAM DOOR Page Indications,415; 416; 417,52-7; 52-8; 52-9,F106,есть отдельная оценка — см. матрицу,False
+52-70-02,CABIN PRESSURE Light (On Doors),418,52-10,,сопоставление с Fenix не установлено,False
+52-70-03,Door Residual Differential Pressure Detection,418,52-10,,сопоставление с Fenix не установлено,False
+71-00-00,CLASS II MAINTENANCE MESSAGES DISPLAYED ON ECAM STATUS PAGE OF ECAM SYSTEM DISPLAY,419; 420,71-1; 71-2,,сопоставление с Fenix не установлено,False
+71-10-01,ENG 1(2) FAN COWL NOT CLSD Alert (A319neo/A320neo/ A321neo),420,71-2,F121,есть отдельная оценка — см. матрицу,False
+71-13-01,Fan Cowl Loss Prevention Mechanical System (A319neo/A320neo/ A321neo with CFM LEAP-1A Engines),420,71-2,F122,есть отдельная оценка — см. матрицу,False
+73-10-02,Fuel Return-to-Tank Valves (V2500 Engines and PW1100G Engines),421,73-1,,сопоставление с Fenix не установлено,False
+73-11-01,Fuel Recirculation System (CFM 56-5B Engines and CFM LEAP-1A Engines),421,73-1,,сопоставление с Fenix не установлено,False
+73-11-02,Burner Staging Valve System (CFM Engines Only),421,73-1,,сопоставление с Fenix не установлено,False
+73-20-03,Minimum Idle on Ground,422,73-2,,сопоставление с Fenix не установлено,False
+73-20-04,EPR Control Modes (IAE Engines Only),422,73-2,,сопоставление с Fenix не установлено,False
+73-20-05,Flex Temp Function,422,73-2,,сопоставление с Fenix не установлено,False
+73-20-06,De-Rated Takeoff Mode,422,73-2,,сопоставление с Fenix не установлено,False
+73-20-09,Aircraft 28V Power Supply (IAE Engines Only),422,73-2,,сопоставление с Fenix не установлено,False
+73-20-10,Engine Bump,422,73-2,,сопоставление с Fenix не установлено,False
+73-20-11,Engine Overthrust Protection System (A318 or A319neo/ A320neo/A321neo),422,73-2,F123,есть отдельная оценка — см. матрицу,False
+73-30-02,Fuel Used Indications,423,73-3,,сопоставление с Fenix не установлено,False
+73-30-03,Fuel Filter Clog Cautions on ECAM EWD,423; 424,73-3; 73-4,,сопоставление с Fenix не установлено,False
+73-30-04,Fuel Filter Clog Indication on ECAM System Display,424,73-4,,сопоставление с Fenix не установлено,False
+73-30-05,MINOR FAULT Cautions on ECAM EWD (A319neo/A320neo/ A321neo),424,73-4,F124,есть отдельная оценка — см. матрицу,False
+73-30-06,FUEL FILTER DEGRAD or FUEL FILTER PARTLY CLOGGED Cautions on ECAM EWD,425; 426; 427,73-5; 73-6; 73-7,,сопоставление с Fenix не установлено,False
+73-30-07,FUEL SENSOR FAULT Cautions on ECAM EWD,428; 429; 430; 431; 432; 433; 434,73-8; 73-9; 73-10; 73-11; 73-12; 73-13; 73-14,,сопоставление с Fenix не установлено,False
+73-30-08,HEAT SYS DEGRAD Cautions on ECAM EWD (A319neo/A320neo/ A321neo with PW 1100G Engines) (A319neo/A320neo/ A321neo with PW 1100G Engines) (A319neo/A320neo/ A321neo with PW 1100G Engines),435,73-15,F125,есть отдельная оценка — см. матрицу,False
+73-30-09,FUEL STRAINER CLOG Cautions on ECAM EWD,435,73-15,,сопоставление с Fenix не установлено,False
+73-30-10,HP FUEL VALVE Cautions on ECAM EWD (A319neo/A320neo/ A321neo with CFM LEAP-1A Engines),436,73-16,F126,есть отдельная оценка — см. матрицу,False
+73-30-11,FADEC IDENT FAULT Cautions on ECAM EWD (A319neo/A320neo/ A321neo with CFM LEAP-1A Engines),436,73-16,F127,есть отдельная оценка — см. матрицу,False
+74-31-01,Ignition Systems,437,74-1,F107,есть отдельная оценка — см. матрицу,False
+74-31-02,ECAM Indications (Lower Display),438,74-2,,сопоставление с Fenix не установлено,False
+74-31-03,IGN FAULT Caution on ECAM,438,74-2,,сопоставление с Fenix не установлено,False
+75-21-01,HP Turbine Active Clearance Control System,439,75-1,,сопоставление с Fenix не установлено,False
+75-22-01,LP Turbine Active Clearance Control,439,75-1,,сопоставление с Fenix не установлено,False
+75-22-02,Buffer Air Check Valve (A319neo/A320neo/ A321neo with PW 1100G Engines),439,75-1,F128,есть отдельная оценка — см. матрицу,False
+75-25-01,TCC/TACC Valve,439,75-1,,сопоставление с Fenix не установлено,False
+75-25-02,TCA Valve (PW 6000 Engines Only),440,75-2,F129,есть отдельная оценка — см. матрицу,False
+75-25-03,FADEC Blower (A319neo/A320neo/ A321neo with CFM LEAP-1A Engines and Mod. 163105/ MP P20228),440,75-2,F130,есть отдельная оценка — см. матрицу,False
+76-11-01,Thrust Lever Position Sensor (IAE Engines or CFM Engines or PW 6000 Engines only),441,76-1,,сопоставление с Fenix не установлено,False
+77-00-01,ECAM Indications,442,77-1,,сопоставление с Fenix не установлено,False
+77-00-02,ECAM Indications (Lower Display),442,77-1,,сопоставление с Fenix не установлено,False
+78-11-09,T/R Door Tertiary Lock,443,78-1,,сопоставление с Fenix не установлено,False
+78-11-10,T/R Tertiary Lock Valve,443,78-1,,сопоставление с Fenix не установлено,False
+78-30-01,Thrust Reverser Systems,444; 445; 446; 447; 448; 449; 450,78-2; 78-3; 78-4; 78-5; 78-6; 78-7; 78-8,F108; F109,есть отдельная оценка — см. матрицу,False
+78-30-02,Thrust Reverser Inhibition Relay Contacts (CFM) (Thrust Reverser Permission Switches (V2500)),450,78-8,,сопоставление с Fenix не установлено,False
+78-30-07,"T/R INDICATIONS (IAE, CFM, and PW Engines)",450,78-8,,сопоставление с Fenix не установлено,False
+78-31-01,REVERSER CTL FAULT Caution on ECAM EWD,451; 452,78-9; 78-10,,сопоставление с Fenix не установлено,False
+78-31-02,REV MINOR FAULT Caution on ECAM EWD (A319neo/A320neo/ A321neo),452,78-10,F131,есть отдельная оценка — см. матрицу,False
+79-20-01,Air Exchanger Air Valves (V2500 Engines Only),453,79-1,,сопоставление с Fenix не установлено,False
+79-20-02,EMCD Visual Pop-Out Indicator (CFM-5B),453,79-1,,сопоставление с Fenix не установлено,False
+79-20-03,Air Oil Cooler Valve (PW 6000 Engines Only),453,79-1,F132,есть отдельная оценка — см. матрицу,False
+79-23-01,ENG 1(2) BEARING 4 OIL SYS Alert (IAE Engines with Mod. 24871/ MP P3704),453,79-1,,сопоставление с Fenix не установлено,False
+79-31-01,Oil Quantity Indications,454,79-2,F110,есть отдельная оценка — см. матрицу,False
+79-33-02,OIL LO PR Warning on ECAM EWD (IAE or CFM 56 Engines Only),454,79-2,,сопоставление с Fenix не установлено,False
+79-35-01,OIL FILTER CLOG Indications on ECAM Engine System Page,454; 455,79-2; 79-3,,сопоставление с Fenix не установлено,False
+79-35-02,OIL FILTER CLOG Caution on ECAM EWD,455; 456; 457; 458; 459; 460,79-3; 79-4; 79-5; 79-6; 79-7; 79-8,,сопоставление с Fenix не установлено,False
+79-35-03,OIL FILTER DEGRAD or OIL FILTER PARTLY CLOGGED Caution on ECAM EWD,461,79-9,,сопоставление с Fenix не установлено,False
+79-35-04,OIL SENSOR FAULT Caution on ECAM EWD,462; 463; 464; 465; 466; 467; 468,79-10; 79-11; 79-12; 79-13; 79-14; 79-15; 79-16,,сопоставление с Fenix не установлено,False
+79-35-05,OIL CHIP DETECTED Caution on ECAM EWD,469; 470,79-17; 79-18,,сопоставление с Fenix не установлено,False
+80-11-01,Start Valve System,471; 472,80-1; 80-2,F111,есть отдельная оценка — см. матрицу,False
+80-11-02,ENG MAN START Controls,472,80-2,,сопоставление с Fenix не установлено,False
+80-11-03,FAULT Light on ENGINE MASTER Panel,472,80-2,,сопоставление с Fenix не установлено,False
+80-11-04,ECAM Start Valve Position Indicators (Lower Display),472,80-2,,сопоставление с Fenix не установлено,False
+80-11-05,AUTOSTART Controls,472,80-2,,сопоставление с Fenix не установлено,False
+80-11-06,DUAL COOLING Control (A319neo/A320neo/ A321neo with PW 1100G Engines and Mod. 161854/ MP P15967),472,80-2,F133,есть отдельная оценка — см. матрицу,False

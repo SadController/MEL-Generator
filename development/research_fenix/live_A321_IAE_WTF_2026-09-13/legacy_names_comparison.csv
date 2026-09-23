@@ -1,0 +1,195 @@
+﻿legacy_name,menu_found,menu_id,menu_path,match_method,behavior_tested
+A/THR 1,True,M040,ATA 22 - AutoFlight → A/THR → 1,normalized_exact_label_or_group_label,False
+A/THR 2,True,M041,ATA 22 - AutoFlight → A/THR → 2,normalized_exact_label_or_group_label,False
+ADF 1,True,M207,ATA 34 - Navigation → Radios → Adf 1,normalized_exact_label_or_group_label,False
+ADF 2,True,M208,ATA 34 - Navigation → Radios → Adf 2,normalized_exact_label_or_group_label,False
+ADR1 failure,True,M178,ATA 34 - Navigation → ADR fault → Adr1 Failure,normalized_exact_label_or_group_label,False
+ADR2 failure,True,M179,ATA 34 - Navigation → ADR fault → Adr2 Failure,normalized_exact_label_or_group_label,False
+ADR3 failure,True,M180,ATA 34 - Navigation → ADR fault → Adr3 Failure,normalized_exact_label_or_group_label,False
+AOA heat Capt,True,M254,ATA 30 - Ice and rain protection → AOA Heat → Capt,normalized_exact_label_or_group_label,False
+AOA heat F/O,True,M255,ATA 30 - Ice and rain protection → AOA Heat → F/o,normalized_exact_label_or_group_label,False
+AOA heat STBY,True,M256,ATA 30 - Ice and rain protection → AOA Heat → Stby,normalized_exact_label_or_group_label,False
+AP 1,True,M042,ATA 22 - AutoFlight → AP → 1,normalized_exact_label_or_group_label,False
+AP 2,True,M043,ATA 22 - AutoFlight → AP → 2,normalized_exact_label_or_group_label,False
+APU Loop A,True,M089,ATA 26 - Fire protection → Loop APU → Apu Loop A,normalized_exact_label_or_group_label,False
+APU Loop B,True,M090,ATA 26 - Fire protection → Loop APU → Apu Loop B,normalized_exact_label_or_group_label,False
+APU bleed valve,True,M235,ATA 36 - Pneumatic → Pneumatic valve → Apu Bleed Valve,normalized_exact_label_or_group_label,False
+APU fuel valve,True,M245,ATA 49 - APU → APU fuel valve,normalized_exact_label_or_group_label,False
+APU generator,True,M059,ATA 24 - Electrical power → Generator → Apu,reviewed_group_label_alias,False
+ATC 1,True,M221,ATA 34 - Navigation → ATC → 1,normalized_exact_label_or_group_label,False
+ATC 2,True,M222,ATA 34 - Navigation → ATC → 2,normalized_exact_label_or_group_label,False
+ATSU,True,M341,ATA 46 - Information systems → ATSU,normalized_exact_label_or_group_label,False
+Aft cargo door,True,M354,ATA 52 - Doors → Doors right → Aft Cargo Door,normalized_exact_label_or_group_label,False
+Autobrake failure,True,M152,ATA 32 - Landing gear → Brake fault → Autobrake Failure,normalized_exact_label_or_group_label,False
+BMC 1,True,M232,ATA 36 - Pneumatic → BMC → 1,normalized_exact_label_or_group_label,False
+BMC 2,True,M233,ATA 36 - Pneumatic → BMC → 2,normalized_exact_label_or_group_label,False
+BSCU SYS 1,True,M147,ATA 32 - Landing gear → BSCU → Sys 1,normalized_exact_label_or_group_label,False
+BSCU SYS 2,True,M148,ATA 32 - Landing gear → BSCU → Sys 2,normalized_exact_label_or_group_label,False
+Bleed leak pylon engine 1,True,M240,ATA 36 - Pneumatic → Bleed leak → Pylon Engine 1,normalized_exact_label_or_group_label,False
+Bleed leak pylon engine 2,True,M241,ATA 36 - Pneumatic → Bleed leak → Pylon Engine 2,normalized_exact_label_or_group_label,False
+Blue hydraulic leak,True,M127,ATA 29 - Hydraulic power → Hydraulic leak → Blue,reviewed_group_label_alias,False
+CFDIU,True,M317,ATA 31 - Indicating/Recording system → CFDIU,normalized_exact_label_or_group_label,False
+CPC 1,True,M001,ATA 21 - Air Conditioning → CPC → 1,normalized_exact_label_or_group_label,False
+CPC 2,True,M002,ATA 21 - Air Conditioning → CPC → 2,normalized_exact_label_or_group_label,False
+CVR,True,M323,ATA 31 - Indicating/Recording system → CVR,normalized_exact_label_or_group_label,False
+Cargo aft isolation valve downstream,True,M015,ATA 21 - Air Conditioning → Cargo vent → Cargo Aft Isolation Valve Downstream,normalized_exact_label_or_group_label,False
+Cargo aft isolation valve upstream,True,M014,ATA 21 - Air Conditioning → Cargo vent → Cargo Aft Isolation Valve Upstream,normalized_exact_label_or_group_label,False
+Cargo fwd isolation valve downstream,True,M013,ATA 21 - Air Conditioning → Cargo vent → Cargo Fwd Isolation Valve Downstream,normalized_exact_label_or_group_label,False
+Cargo fwd isolation valve upstream,True,M012,ATA 21 - Air Conditioning → Cargo vent → Cargo Fwd Isolation Valve Upstream,normalized_exact_label_or_group_label,False
+Crew oxygen pressure < 400,True,M335,ATA 35 - Oxygen → Crew oxygen 1 → Crew Oxygen Pressure < 400,normalized_exact_label_or_group_label,False
+Crew oxygen pressure < 800,True,M336,ATA 35 - Oxygen → Crew oxygen 1 → Crew Oxygen Pressure < 800,normalized_exact_label_or_group_label,False
+Crossbleed valve,True,M234,ATA 36 - Pneumatic → Pneumatic valve → Crossbleed Valve,normalized_exact_label_or_group_label,False
+Crossfeed valve,True,M117,ATA 28 - Fuel → Fuel valves → Crossfeed Valve,normalized_exact_label_or_group_label,False
+DMC 1,True,M324,ATA 31 - Indicating/Recording system → DMC → 1,normalized_exact_label_or_group_label,False
+DMC 2,True,M325,ATA 31 - Indicating/Recording system → DMC → 2,normalized_exact_label_or_group_label,False
+DMC 3,True,M326,ATA 31 - Indicating/Recording system → DMC → 3,normalized_exact_label_or_group_label,False
+DU Capt ND,True,M330,ATA 31 - Indicating/Recording system → DU → Capt Nd,normalized_exact_label_or_group_label,False
+DU Capt PFD,True,M329,ATA 31 - Indicating/Recording system → DU → Capt Pfd,normalized_exact_label_or_group_label,False
+DU ECAM Lower,True,M334,ATA 31 - Indicating/Recording system → DU → Ecam Lower,normalized_exact_label_or_group_label,False
+DU ECAM Upper,True,M333,ATA 31 - Indicating/Recording system → DU → Ecam Upper,normalized_exact_label_or_group_label,False
+DU F/O ND,True,M331,ATA 31 - Indicating/Recording system → DU → F/o Nd,normalized_exact_label_or_group_label,False
+DU F/O PFD,True,M332,ATA 31 - Indicating/Recording system → DU → F/o Pfd,normalized_exact_label_or_group_label,False
+ECB,True,M243,ATA 49 - APU → ECB,normalized_exact_label_or_group_label,False
+ECP,True,M318,ATA 31 - Indicating/Recording system → ECP,normalized_exact_label_or_group_label,False
+ELAC 1,True,M285,ATA 27 - Flight controls → Nonresettable fault → Elac 1,reviewed_group_label_alias,False
+ELAC 2,True,M286,ATA 27 - Flight controls → Nonresettable fault → Elac 2,reviewed_group_label_alias,False
+ESS TR failure,True,M069,ATA 24 - Electrical power → TR Failure → Ess,reviewed_group_label_alias,False
+Elec hyd pump blue failure,True,M143,ATA 29 - Hydraulic power → Elec pumps → Elec Hyd Pump Blue Failure,normalized_exact_label_or_group_label,False
+Elec hyd pump yellow failure,True,M144,ATA 29 - Hydraulic power → Elec pumps → Elec Hyd Pump Yellow Failure,normalized_exact_label_or_group_label,False
+Eng 1 EAI Valve,True,M250,ATA 30 - Ice and rain protection → EAI Valves → Eng 1 Eai Valve,normalized_exact_label_or_group_label,False
+Eng 1 HP Valve,True,M224,ATA 36 - Pneumatic → Pneumatic valves → Eng 1 Hp Valve,normalized_exact_label_or_group_label,False
+Eng 1 Loop A,True,M085,ATA 26 - Fire protection → Loop Eng 1 → Eng 1 Loop A,normalized_exact_label_or_group_label,False
+Eng 1 Loop B,True,M086,ATA 26 - Fire protection → Loop Eng 1 → Eng 1 Loop B,normalized_exact_label_or_group_label,False
+Eng 1 bleed valve,True,M227,ATA 36 - Pneumatic → Pneumatic valves → Eng 1 Bleed Valve,normalized_exact_label_or_group_label,False
+Eng 1 low oil quantity,False,,,,False
+Eng 1 no ignition,True,M315,ATA 80 - Start faults → No ignition → Eng 1,reviewed_group_label_alias,False
+Eng 1 pump failure,True,M138,ATA 29 - Hydraulic power → Engine pumps → Eng 1 Pump Failure,normalized_exact_label_or_group_label,False
+Eng 2 EAI Valve,True,M251,ATA 30 - Ice and rain protection → EAI Valves → Eng 2 Eai Valve,normalized_exact_label_or_group_label,False
+Eng 2 HP Valve,True,M225,ATA 36 - Pneumatic → Pneumatic valves → Eng 2 Hp Valve,normalized_exact_label_or_group_label,False
+Eng 2 Loop A,True,M087,ATA 26 - Fire protection → Loop Eng 2 → Eng 2 Loop A,normalized_exact_label_or_group_label,False
+Eng 2 Loop B,True,M088,ATA 26 - Fire protection → Loop Eng 2 → Eng 2 Loop B,normalized_exact_label_or_group_label,False
+Eng 2 bleed valve,True,M228,ATA 36 - Pneumatic → Pneumatic valves → Eng 2 Bleed Valve,normalized_exact_label_or_group_label,False
+Eng 2 low oil quantity,False,,,,False
+Eng 2 no ignition,True,M316,ATA 80 - Start faults → No ignition → Eng 2,reviewed_group_label_alias,False
+Eng 2 pump failure,True,M139,ATA 29 - Hydraulic power → Engine pumps → Eng 2 Pump Failure,normalized_exact_label_or_group_label,False
+FAC 1,True,M025,ATA 22 - AutoFlight → Nonresettable fault → Fac 1,reviewed_group_label_alias,False
+FAC 2,True,M026,ATA 22 - AutoFlight → Nonresettable fault → Fac 2,reviewed_group_label_alias,False
+FCDC 1,True,M303,ATA 27 - Flight controls → FCDC → 1,normalized_exact_label_or_group_label,False
+FCDC 2,True,M304,ATA 27 - Flight controls → FCDC → 2,normalized_exact_label_or_group_label,False
+FCU Channel 1,True,M038,ATA 22 - AutoFlight → FCU → Channel 1,normalized_exact_label_or_group_label,False
+FCU Channel 2,True,M039,ATA 22 - AutoFlight → FCU → Channel 2,normalized_exact_label_or_group_label,False
+FMGC 1,True,M202,ATA 34 - Navigation → FMGC → 1,normalized_exact_label_or_group_label,False
+FMGC 2,True,M203,ATA 34 - Navigation → FMGC → 2,normalized_exact_label_or_group_label,False
+FQI Chan 1,True,M095,ATA 28 - Fuel → FQI → Chan 1,normalized_exact_label_or_group_label,False
+FQI Chan 2,True,M096,ATA 28 - Fuel → FQI → Chan 2,normalized_exact_label_or_group_label,False
+FWC 1,True,M321,ATA 31 - Indicating/Recording system → FWC → 1,normalized_exact_label_or_group_label,False
+FWC 2,True,M322,ATA 31 - Indicating/Recording system → FWC → 2,normalized_exact_label_or_group_label,False
+Forward avionics door,True,M342,ATA 52 - Doors → Doors left → Forward Avionics Door,normalized_exact_label_or_group_label,False
+Forward cargo door,True,M351,ATA 52 - Doors → Doors right → Forward Cargo Door,normalized_exact_label_or_group_label,False
+Fuel pump center 1,True,M099,ATA 28 - Fuel → Fuel pump center → 1,normalized_exact_label_or_group_label,False
+Fuel pump center 2,True,M100,ATA 28 - Fuel → Fuel pump center → 2,normalized_exact_label_or_group_label,False
+Fuel pump left 1,True,M097,ATA 28 - Fuel → Fuel pump left → 1,normalized_exact_label_or_group_label,False
+Fuel pump left 2,True,M098,ATA 28 - Fuel → Fuel pump left → 2,normalized_exact_label_or_group_label,False
+Fuel pump right 1,True,M101,ATA 28 - Fuel → Fuel pump right → 1,normalized_exact_label_or_group_label,False
+Fuel pump right 2,True,M102,ATA 28 - Fuel → Fuel pump right → 2,normalized_exact_label_or_group_label,False
+GPS 1,True,M215,ATA 34 - Navigation → GPS → 1,normalized_exact_label_or_group_label,False
+GPS 2,True,M216,ATA 34 - Navigation → GPS → 2,normalized_exact_label_or_group_label,False
+GPWC,True,M204,ATA 34 - Navigation → GPWC,normalized_exact_label_or_group_label,False
+Gear locked down,True,M171,ATA 32 - Landing gear → Gear failure → Gear Locked Down,normalized_exact_label_or_group_label,False
+Generator 1,True,M060,ATA 24 - Electrical power → Generator → 1,normalized_exact_label_or_group_label,False
+Generator 2,True,M061,ATA 24 - Electrical power → Generator → 2,normalized_exact_label_or_group_label,False
+Green hydraulic leak,True,M126,ATA 29 - Hydraulic power → Hydraulic leak → Green,reviewed_group_label_alias,False
+Hot air valve,True,M229,ATA 36 - Pneumatic → Pneumatic valves → Hot Air Valve,normalized_exact_label_or_group_label,False
+ILS 1 G/S,True,M210,ATA 34 - Navigation → ILS → 1 G/s,normalized_exact_label_or_group_label,False
+ILS 1 LOC,True,M209,ATA 34 - Navigation → ILS → 1 Loc,normalized_exact_label_or_group_label,False
+ILS 2 G/S,True,M212,ATA 34 - Navigation → ILS → 2 G/s,normalized_exact_label_or_group_label,False
+ILS 2 LOC,True,M211,ATA 34 - Navigation → ILS → 2 Loc,normalized_exact_label_or_group_label,False
+IR1 position failure,True,M175,ATA 34 - Navigation → IRS position failure → Ir1 Position Failure,normalized_exact_label_or_group_label,False
+IR2 IR failure,True,M173,ATA 34 - Navigation → IR fault → Ir2 Ir Failure,normalized_exact_label_or_group_label,False
+IR2 position failure,True,M176,ATA 34 - Navigation → IRS position failure → Ir2 Position Failure,normalized_exact_label_or_group_label,False
+IR3 IR failure,True,M174,ATA 34 - Navigation → IR fault → Ir3 Ir Failure,normalized_exact_label_or_group_label,False
+IR3 position failure,True,M177,ATA 34 - Navigation → IRS position failure → Ir3 Position Failure,normalized_exact_label_or_group_label,False
+LGCUI 1,True,M164,ATA 32 - Landing gear → LGCIU → 1,reviewed_group_label_alias,False
+LGCUI 2,True,M165,ATA 32 - Landing gear → LGCIU → 2,reviewed_group_label_alias,False
+Lavatory/Galley fan,True,M223,ATA 36 - Pneumatic → Lavatory/Galley fan,normalized_exact_label_or_group_label,False
+Left Static heat Capt,True,M263,ATA 30 - Ice and rain protection → Static Heat → Left  Capt,reviewed_group_label_alias,False
+Left Static heat F/O,True,M265,ATA 30 - Ice and rain protection → Static Heat → Left  F/o,reviewed_group_label_alias,False
+Left Static heat Stby,True,M267,ATA 30 - Ice and rain protection → Static Heat → Left  Stby,reviewed_group_label_alias,False
+Left WAI Valve,True,M248,ATA 30 - Ice and rain protection → WAI Valves → Left Wai Valve,normalized_exact_label_or_group_label,False
+Left reverser inhibited by maint,True,M375,ATA 70 - Power plant → Reverser inhibited by maintenance → Left Reverser Inhibited By Maint,normalized_exact_label_or_group_label,False
+Left reverser pressurized,True,M371,ATA 70 - Power plant → Reverser pressurized → Left,reviewed_group_label_alias,False
+Left reverser unlocked,True,M373,ATA 70 - Power plant → Reverser unlocked → Left,reviewed_group_label_alias,False
+Left transfer 1,True,M111,ATA 28 - Fuel → Fuel transfer valves → Left Transfer 1,normalized_exact_label_or_group_label,False
+Left transfer 2,True,M112,ATA 28 - Fuel → Fuel transfer valves → Left Transfer 2,normalized_exact_label_or_group_label,False
+MCDU 1,True,M198,ATA 34 - Navigation → MCDU → 1,normalized_exact_label_or_group_label,False
+MCDU 2,True,M199,ATA 34 - Navigation → MCDU → 2,normalized_exact_label_or_group_label,False
+Outflow valve stuck,True,M019,ATA 21 - Air Conditioning → Outflow valve stuck,normalized_exact_label_or_group_label,False
+PHC 1,True,M269,ATA 30 - Ice and rain protection → PHC → 1,normalized_exact_label_or_group_label,False
+PHC 2,True,M270,ATA 30 - Ice and rain protection → PHC → 2,normalized_exact_label_or_group_label,False
+PHC 3,True,M271,ATA 30 - Ice and rain protection → PHC → 3,normalized_exact_label_or_group_label,False
+PTU Fault,True,M142,ATA 29 - Hydraulic power → PTU Fault,normalized_exact_label_or_group_label,False
+Pack 1 flow control valve,True,M236,ATA 36 - Pneumatic → Pack valves → Pack 1 Flow Control Valve,normalized_exact_label_or_group_label,False
+Pack 1 overheat,True,M003,ATA 21 - Air Conditioning → Overheat → Pack 1,reviewed_group_label_alias,False
+Pack 1 regulator fault,True,M005,ATA 21 - Air Conditioning → Regulator fault → Pack 1,reviewed_group_label_alias,False
+Pack 2 flow control valve,True,M237,ATA 36 - Pneumatic → Pack valves → Pack 2 Flow Control Valve,normalized_exact_label_or_group_label,False
+Pack 2 overheat,True,M004,ATA 21 - Air Conditioning → Overheat → Pack 2,reviewed_group_label_alias,False
+Pack 2 regulator fault,True,M006,ATA 21 - Air Conditioning → Regulator fault → Pack 2,reviewed_group_label_alias,False
+Pitot heat Capt,True,M260,ATA 30 - Ice and rain protection → Pitot Heat → Capt,normalized_exact_label_or_group_label,False
+Pitot heat F/O,True,M261,ATA 30 - Ice and rain protection → Pitot Heat → F/o,normalized_exact_label_or_group_label,False
+Pitot heat STBY,True,M262,ATA 30 - Ice and rain protection → Pitot Heat → Stby,normalized_exact_label_or_group_label,False
+Radio altimeter 1,True,M217,ATA 34 - Navigation → Radio altimeter → 1,normalized_exact_label_or_group_label,False
+Radio altimeter 2,True,M218,ATA 34 - Navigation → Radio altimeter → 2,normalized_exact_label_or_group_label,False
+Ram air valve,True,M226,ATA 36 - Pneumatic → Pneumatic valves → Ram Air Valve,normalized_exact_label_or_group_label,False
+Reactive W/S det channel 1,True,M033,ATA 22 - AutoFlight → Reactive W/S det → Channel 1,normalized_exact_label_or_group_label,False
+Reactive W/S det channel 2,True,M034,ATA 22 - AutoFlight → Reactive W/S det → Channel 2,normalized_exact_label_or_group_label,False
+Recirculation fans,True,M016,ATA 21 - Air Conditioning → Recirculation fans,normalized_exact_label_or_group_label,False
+Right Static heat Capt,True,M264,ATA 30 - Ice and rain protection → Static Heat → Right  Capt,reviewed_group_label_alias,False
+Right Static heat F/O,True,M266,ATA 30 - Ice and rain protection → Static Heat → Right  F/o,reviewed_group_label_alias,False
+Right Static heat Stby,True,M268,ATA 30 - Ice and rain protection → Static Heat → Right  Stby,reviewed_group_label_alias,False
+Right WAI Valve,True,M249,ATA 30 - Ice and rain protection → WAI Valves → Right Wai Valve,normalized_exact_label_or_group_label,False
+Right reverser inhibited by maint,True,M376,ATA 70 - Power plant → Reverser inhibited by maintenance → Right Reverser Inhibited By Maint,normalized_exact_label_or_group_label,False
+Right reverser pressurized,True,M372,ATA 70 - Power plant → Reverser pressurized → Right,reviewed_group_label_alias,False
+Right reverser unlocked,True,M374,ATA 70 - Power plant → Reverser unlocked → Right,reviewed_group_label_alias,False
+Right transfer 1,True,M113,ATA 28 - Fuel → Fuel transfer valves → Right Transfer 1,normalized_exact_label_or_group_label,False
+Right transfer 2,True,M114,ATA 28 - Fuel → Fuel transfer valves → Right Transfer 2,normalized_exact_label_or_group_label,False
+Rudder travel limiter channel 1,True,M029,ATA 22 - AutoFlight → Rudder travel limiter → Channel 1,normalized_exact_label_or_group_label,False
+Rudder travel limiter channel 2,True,M030,ATA 22 - AutoFlight → Rudder travel limiter → Channel 2,normalized_exact_label_or_group_label,False
+Rudder trim channel 1,True,M031,ATA 22 - AutoFlight → Rudder trim → Channel 1,normalized_exact_label_or_group_label,False
+Rudder trim channel 2,True,M032,ATA 22 - AutoFlight → Rudder trim → Channel 2,normalized_exact_label_or_group_label,False
+SDAC 1,True,M319,ATA 31 - Indicating/Recording system → SDAC → 1,normalized_exact_label_or_group_label,False
+SDAC 2,True,M320,ATA 31 - Indicating/Recording system → SDAC → 2,normalized_exact_label_or_group_label,False
+SDCU,True,M073,ATA 26 - Fire protection → SDCU,normalized_exact_label_or_group_label,False
+SEC 1,True,M287,ATA 27 - Flight controls → Nonresettable fault → Sec 1,reviewed_group_label_alias,False
+SEC 2,True,M288,ATA 27 - Flight controls → Nonresettable fault → Sec 2,reviewed_group_label_alias,False
+SEC 3,True,M289,ATA 27 - Flight controls → Nonresettable fault → Sec 3,reviewed_group_label_alias,False
+SFCC 1,True,M279,ATA 27 - Flight controls → SFCC → 1,normalized_exact_label_or_group_label,False
+SFCC 2,True,M280,ATA 27 - Flight controls → SFCC → 2,normalized_exact_label_or_group_label,False
+SFCC 2 flap sys,True,M282,ATA 27 - Flight controls → Flap → Sfcc 2  Sys,reviewed_group_label_alias,False
+SFCC 2 slat sys,True,M284,ATA 27 - Flight controls → Slat → Sfcc 2  Sys,reviewed_group_label_alias,False
+Start valve left,True,M309,ATA 80 - Start faults → Start valve → Left,normalized_exact_label_or_group_label,False
+Start valve right,True,M310,ATA 80 - Start faults → Start valve → Right,normalized_exact_label_or_group_label,False
+TAT heat Capt,True,M257,ATA 30 - Ice and rain protection → TAT Heat → Capt,normalized_exact_label_or_group_label,False
+TAT heat F/O,True,M258,ATA 30 - Ice and rain protection → TAT Heat → F/o,normalized_exact_label_or_group_label,False
+TAT heat STBY,True,M259,ATA 30 - Ice and rain protection → TAT Heat → Stby,normalized_exact_label_or_group_label,False
+TCAS,True,M220,ATA 34 - Navigation → TCAS,normalized_exact_label_or_group_label,False
+TR 1,True,M067,ATA 24 - Electrical power → TR Failure → Tr 1,normalized_exact_label_or_group_label,False
+TR 2,True,M068,ATA 24 - Electrical power → TR Failure → Tr 2,normalized_exact_label_or_group_label,False
+Tyre pressure left 1 low,True,M159,ATA 32 - Landing gear → Tyre pressure → Left 1 Low,normalized_exact_label_or_group_label,False
+VOR 1,True,M205,ATA 34 - Navigation → Radios → Vor 1,normalized_exact_label_or_group_label,False
+VOR 2,True,M206,ATA 34 - Navigation → Radios → Vor 2,normalized_exact_label_or_group_label,False
+Vent extract valve,True,M024,ATA 21 - Air Conditioning → Ventilation valves → Vent Extract Valve,normalized_exact_label_or_group_label,False
+Vent inlet valve,True,M023,ATA 21 - Air Conditioning → Ventilation valves → Vent Inlet Valve,normalized_exact_label_or_group_label,False
+Ventilation AEVC,True,M020,ATA 21 - Air Conditioning → Ventilation → Aevc,normalized_exact_label_or_group_label,False
+Ventilation blower fault,True,M021,ATA 21 - Air Conditioning → Ventilation → Blower Fault,normalized_exact_label_or_group_label,False
+Ventilation extract fault,True,M022,ATA 21 - Air Conditioning → Ventilation → Extract Fault,normalized_exact_label_or_group_label,False
+WHC 1,True,M252,ATA 30 - Ice and rain protection → WHC → 1,normalized_exact_label_or_group_label,False
+WHC 2,True,M253,ATA 30 - Ice and rain protection → WHC → 2,normalized_exact_label_or_group_label,False
+Wheel brake fault 1,True,M153,ATA 32 - Landing gear → Wheel brake fault → 1,normalized_exact_label_or_group_label,False
+Wheel brake fault 2,True,M154,ATA 32 - Landing gear → Wheel brake fault → 2,normalized_exact_label_or_group_label,False
+Wheel brake fault 3,True,M155,ATA 32 - Landing gear → Wheel brake fault → 3,normalized_exact_label_or_group_label,False
+Wheel brake fault 4,True,M156,ATA 32 - Landing gear → Wheel brake fault → 4,normalized_exact_label_or_group_label,False
+Yaw damper channel 1,True,M295,ATA 27 - Flight controls → Yaw damper → Channel 1,normalized_exact_label_or_group_label,False
+Yaw damper channel 2,True,M296,ATA 27 - Flight controls → Yaw damper → Channel 2,normalized_exact_label_or_group_label,False
+Yellow hydraulic leak,True,M128,ATA 29 - Hydraulic power → Hydraulic leak → Yellow,reviewed_group_label_alias,False
+Zone controller primary,True,M007,ATA 21 - Air Conditioning → Zone controller → Primary,normalized_exact_label_or_group_label,False
+Zone controller secondary,True,M008,ATA 21 - Air Conditioning → Zone controller → Secondary,normalized_exact_label_or_group_label,False

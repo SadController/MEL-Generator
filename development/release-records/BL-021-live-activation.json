@@ -1,0 +1,56 @@
+{
+  "startedUtc": "2026-09-20T20:20:46.478Z",
+  "complete": true,
+  "restored": true,
+  "ready": {
+    "sim": "Simulator and aircraft detected: FenixA321 IAE WF SC",
+    "adapter": "Automatic activation available"
+  },
+  "generatedCatalogIds": [
+    "M087",
+    "M260"
+  ],
+  "generatedFenixIds": [
+    "F_OH_FIRE_ENG2_LOOP_A",
+    "F_ICE_PITOT_HEAT_CPT"
+  ],
+  "preExistingForActivation": "F_OH_FIRE_ENG2_LOOP_A",
+  "interface": {
+    "button": "Failures active",
+    "summary": "All generated failures are active in Fenix.",
+    "badges": [
+      {
+        "text": "Already active",
+        "status": "already-active"
+      },
+      {
+        "text": "Activated",
+        "status": "activated"
+      }
+    ],
+    "message": "",
+    "sim": true,
+    "adapter": true
+  },
+  "readback": {
+    "F_OH_FIRE_ENG2_LOOP_A": {
+      "failed": true,
+      "failureCondition": null
+    },
+    "F_ICE_PITOT_HEAT_CPT": {
+      "failed": true,
+      "failureCondition": null
+    }
+  },
+  "restoredStates": {
+    "F_OH_FIRE_ENG2_LOOP_A": {
+      "failed": false,
+      "failureCondition": null
+    },
+    "F_ICE_PITOT_HEAT_CPT": {
+      "failed": false,
+      "failureCondition": null
+    }
+  },
+  "finishedUtc": "2026-09-20T20:20:50.747Z"
+}

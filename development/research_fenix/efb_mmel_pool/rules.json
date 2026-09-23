@@ -1,0 +1,1248 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "id": "FAA_A320_R32",
+    "name": "FAA A320 MMEL",
+    "revision": "32",
+    "date": "2025-07-30",
+    "pdf": "../../sources_mel_mmel/00_current_mmel/FAA_A320_MMEL_Rev32_2025-07-30.pdf",
+    "url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID152739505920250730144819.0001"
+  },
+  "scope": "Only 53 catalogue faults, combinations of 1-3 distinct entries.",
+  "policy": "For every affected profile, at least one MMEL alternative must permit the failed members/count and require no other selected failure to be operative.",
+  "default": "no_mmel_conflict_found",
+  "profiles": [
+    {
+      "id": "CPC",
+      "mmel_id": "21-31-01",
+      "member_ids": [
+        "M001",
+        "M002"
+      ],
+      "alternatives": [
+        {
+          "id": "CPC1",
+          "branch": "1) System 1",
+          "conditions": [
+            "Без ETOPS; CPC1 отключён.",
+            "Ручной режим и индикация давления на CAB PRESS исправны; оба FCU и CPC2 исправны.",
+            "Устранение в течение 3 flight-days."
+          ],
+          "permitted_failed_ids": [
+            "M001"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M002",
+            "M038",
+            "M039"
+          ],
+          "pdf_pages": [
+            37
+          ]
+        },
+        {
+          "id": "CPC2",
+          "branch": "2) System 2",
+          "conditions": [
+            "CPC2 отключён.",
+            "Ручной режим и индикация давления на CAB PRESS исправны; оба FCU и CPC1 исправны."
+          ],
+          "permitted_failed_ids": [
+            "M002"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M001",
+            "M038",
+            "M039"
+          ],
+          "pdf_pages": [
+            37
+          ]
+        }
+      ],
+      "interpretation": "По решению пользователя исключена общая строка негерметизированного полёта. Используются только допуски отдельных CPC при исправном другом CPC; сочетание CPC1+CPC2 исключено из генерации."
+    },
+    {
+      "id": "AEVC",
+      "mmel_id": "21-26-10",
+      "member_ids": [
+        "M020"
+      ],
+      "alternatives": [
+        {
+          "id": "AEVC",
+          "branch": "Основная строка",
+          "conditions": [
+            "Extract fan проверен исправным перед каждым полётом; оба pack исправны.",
+            "BLOWER и EXTRACT — OVRD; air conditioning inlet и extract valve проверены в требуемых положениях перед каждым полётом; skin air inlet valve закреплён закрытым."
+          ],
+          "permitted_failed_ids": [
+            "M020"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M022"
+          ],
+          "pdf_pages": [
+            34
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "BLOWER",
+      "mmel_id": "21-26-01",
+      "member_ids": [
+        "M021"
+      ],
+      "alternatives": [
+        {
+          "id": "BLOWER",
+          "branch": "Альтернативная строка с проверкой открытого inlet valve",
+          "conditions": [
+            "Extract fan и оба pack исправны; BLOWER — OVRD.",
+            "Air conditioning inlet valve проверен открытым перед каждым полётом; для Mod.20056 не превышать FL270."
+          ],
+          "permitted_failed_ids": [
+            "M021"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M022"
+          ],
+          "pdf_pages": [
+            30
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "EXTRACT",
+      "mmel_id": "21-26-02",
+      "member_ids": [
+        "M022"
+      ],
+      "alternatives": [
+        {
+          "id": "EXTRACT",
+          "branch": "Альтернативная строка с проверкой открытого inlet valve",
+          "conditions": [
+            "Blower fan и оба pack исправны; EXTRACT — OVRD; air conditioning inlet valve проверен открытым перед каждым полётом.",
+            "Время на земле с электропитанием: OAT <38 °C — без ограничения; 39–45 °C — 3 ч; 46–50 °C — 2 ч; 51–54 °C — 35 мин. Значение 38 °C и температуры вне этих диапазонов источник явно не определяет; интерполяция не выполняется."
+          ],
+          "permitted_failed_ids": [
+            "M022"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M021"
+          ],
+          "pdf_pages": [
+            31,
+            32
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "FAC2",
+      "mmel_id": "22-66-01",
+      "member_ids": [
+        "M026"
+      ],
+      "alternatives": [
+        {
+          "id": "FAC2",
+          "branch": "1) FAC2, без eRudder",
+          "conditions": [
+            "Оба FCU, ELAC, SEC, ADIRS, SFCC, RA и LGCIU исправны; минимумы захода не требуют отказавший FAC2."
+          ],
+          "permitted_failed_ids": [
+            "M026"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M038",
+            "M039",
+            "M282",
+            "M284"
+          ],
+          "pdf_pages": [
+            60
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "RTL",
+      "mmel_id": "27-23-01",
+      "member_ids": [
+        "M029",
+        "M030"
+      ],
+      "alternatives": [
+        {
+          "id": "RTL_ONE",
+          "branch": "Без eRudder: 2 установлено, 1 требуется",
+          "conditions": [
+            "Допускается один канал, другой должен оставаться исправным."
+          ],
+          "permitted_failed_ids": [
+            "M029",
+            "M030"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [],
+          "pdf_pages": [
+            178
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "RUDDER_TRIM",
+      "mmel_id": "27-22-01",
+      "member_ids": [
+        "M031",
+        "M032"
+      ],
+      "alternatives": [
+        {
+          "id": "TRIM1",
+          "branch": "1) System No.1",
+          "conditions": [
+            "Без ETOPS; канал 2 исправен; минимумы захода не требуют канал 1."
+          ],
+          "permitted_failed_ids": [
+            "M031"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M032"
+          ],
+          "pdf_pages": [
+            178
+          ]
+        },
+        {
+          "id": "TRIM2",
+          "branch": "2) System No.2",
+          "conditions": [
+            "Канал 1 исправен; минимумы захода не требуют канал 2."
+          ],
+          "permitted_failed_ids": [
+            "M032"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M031"
+          ],
+          "pdf_pages": [
+            178
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "FCU",
+      "mmel_id": "22-81-01",
+      "member_ids": [
+        "M038",
+        "M039"
+      ],
+      "alternatives": [
+        {
+          "id": "FCU_NO_ETOPS",
+          "branch": "1) Channels, без eRudder; строка без ETOPS",
+          "conditions": [
+            "Один канал; без ETOPS.",
+            "Исправны 2 RMP, все DU, оба RA/LGCIU/FAC/CPC, три ADIRS и standby altimeter либо барометрическая функция ISIS."
+          ],
+          "permitted_failed_ids": [
+            "M038",
+            "M039"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M001",
+            "M002",
+            "M026"
+          ],
+          "pdf_pages": [
+            63
+          ]
+        },
+        {
+          "id": "FCU_ONE_LEG",
+          "branch": "1) Channels, без eRudder; альтернативная строка",
+          "conditions": [
+            "Один канал на один flight-leg.",
+            "Исправны 2 RMP, все DU, оба RA/LGCIU/FAC/CPC, три ADIRS и standby altimeter либо барометрическая функция ISIS."
+          ],
+          "permitted_failed_ids": [
+            "M038",
+            "M039"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M001",
+            "M002",
+            "M026"
+          ],
+          "pdf_pages": [
+            63
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "AP",
+      "mmel_id": "22-10-01",
+      "member_ids": [
+        "M042",
+        "M043"
+      ],
+      "alternatives": [
+        {
+          "id": "AP_ONE",
+          "branch": "2 установлено, 1 требуется",
+          "conditions": [
+            "Один AP; минимумы захода не требуют его использования."
+          ],
+          "permitted_failed_ids": [
+            "M042",
+            "M043"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [],
+          "pdf_pages": [
+            57
+          ]
+        },
+        {
+          "id": "AP_BOTH",
+          "branch": "2 установлено, 0 требуется",
+          "conditions": [
+            "Минимумы захода и полёт по маршруту не требуют AP.",
+            "Число участков и их продолжительность приемлемы для экипажа. Исправные режимы могут использоваться."
+          ],
+          "permitted_failed_ids": [
+            "M042",
+            "M043"
+          ],
+          "max_failed": 2,
+          "requires_operative_catalog_ids": [],
+          "pdf_pages": [
+            57
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "TR1",
+      "mmel_id": "24-30-01",
+      "member_ids": [
+        "M067"
+      ],
+      "alternatives": [
+        {
+          "id": "TR1",
+          "branch": "Основная строка TR1",
+          "conditions": [
+            "Без ETOPS; исправны Extract fan, индикация напряжения батарей и оба pack.",
+            "Минимумы захода не требуют TR1; устранение в течение 2 flight-days."
+          ],
+          "permitted_failed_ids": [
+            "M067"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M022"
+          ],
+          "pdf_pages": [
+            119
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "ENGINE1_LOOPS",
+      "mmel_id": "26-12-01",
+      "member_ids": [
+        "M085",
+        "M086"
+      ],
+      "alternatives": [
+        {
+          "id": "ENG1_ONE_LOOP",
+          "branch": "1) Loop A / 2) Loop B",
+          "conditions": [
+            "Не более одного отказавшего контура на этом двигателе; другой контур исправен.",
+            "Без ETOPS свыше 120 минут; engine fire test перед каждым вылетом."
+          ],
+          "permitted_failed_ids": [
+            "M085",
+            "M086"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [],
+          "pdf_pages": [
+            156
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "ENGINE2_LOOPS",
+      "mmel_id": "26-12-01",
+      "member_ids": [
+        "M087",
+        "M088"
+      ],
+      "alternatives": [
+        {
+          "id": "ENG2_ONE_LOOP",
+          "branch": "1) Loop A / 2) Loop B",
+          "conditions": [
+            "Не более одного отказавшего контура на этом двигателе; другой контур исправен.",
+            "Без ETOPS свыше 120 минут; engine fire test перед каждым вылетом."
+          ],
+          "permitted_failed_ids": [
+            "M087",
+            "M088"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [],
+          "pdf_pages": [
+            156
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "APU_LOOPS",
+      "mmel_id": "26-13-01",
+      "member_ids": [
+        "M089",
+        "M090"
+      ],
+      "alternatives": [
+        {
+          "id": "APU_LOOP_A",
+          "branch": "1) Loops — Loop A",
+          "conditions": [
+            "Без ETOPS свыше 120 минут; APU fire test перед каждым запуском APU; на земле состояние APU контролируется из кабины."
+          ],
+          "permitted_failed_ids": [
+            "M089"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M090"
+          ],
+          "pdf_pages": [
+            156,
+            157
+          ]
+        },
+        {
+          "id": "APU_LOOP_B",
+          "branch": "1) Loops — Loop B",
+          "conditions": [
+            "Без ETOPS свыше 120 минут; APU fire test перед каждым запуском APU."
+          ],
+          "permitted_failed_ids": [
+            "M090"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M089"
+          ],
+          "pdf_pages": [
+            156,
+            157
+          ]
+        },
+        {
+          "id": "APU_LOOPS_NO_USE",
+          "branch": "1) Loops — 2 установлено, 0 требуется; строка без ETOPS",
+          "conditions": [
+            "APU не используется; без ETOPS."
+          ],
+          "permitted_failed_ids": [
+            "M089",
+            "M090"
+          ],
+          "max_failed": 2,
+          "requires_operative_catalog_ids": [],
+          "pdf_pages": [
+            156,
+            157
+          ]
+        },
+        {
+          "id": "APU_LOOPS_FOUR_FLIGHTS",
+          "branch": "1) Loops — альтернативная строка с 0 требуется",
+          "conditions": [
+            "APU не используется; без ETOPS свыше 120 минут; устранение в течение 4 flights."
+          ],
+          "permitted_failed_ids": [
+            "M089",
+            "M090"
+          ],
+          "max_failed": 2,
+          "requires_operative_catalog_ids": [],
+          "pdf_pages": [
+            156,
+            157
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "YELLOW_PUMP",
+      "mmel_id": "29-25-01",
+      "member_ids": [
+        "M144"
+      ],
+      "alternatives": [
+        {
+          "id": "YELLOW_PUMP",
+          "branch": "Основная строка",
+          "conditions": [
+            "Кнопка yellow electric pump — OFF.",
+            "Передняя и задняя грузовые двери должны обслуживаться вручную."
+          ],
+          "permitted_failed_ids": [
+            "M144"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [],
+          "pdf_pages": [
+            266
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "AUTOBRAKE",
+      "mmel_id": "32-42-04",
+      "member_ids": [
+        "M152"
+      ],
+      "alternatives": [
+        {
+          "id": "AUTOBRAKE",
+          "branch": "AUTO/BRK Function, основная строка",
+          "conditions": [
+            "Минимумы захода не требуют AUTO/BRK; normal braking не затронуто."
+          ],
+          "permitted_failed_ids": [
+            "M152"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M153",
+            "M154",
+            "M155",
+            "M156"
+          ],
+          "pdf_pages": [
+            313
+          ]
+        }
+      ],
+      "interpretation": "Самостоятельно выбранный AUTO/BRK проверяется по 32-42-04(b). Отказ wheel brake затрагивает normal braking. Предусмотренное 32-42-01(i) состояние AUTO/BRK как последствия wheel brake записывается в карточку wheel brake и не требует отдельного выбора M152."
+    },
+    {
+      "id": "WHEEL_BRAKES",
+      "mmel_id": "32-42-01",
+      "member_ids": [
+        "M153",
+        "M154",
+        "M155",
+        "M156"
+      ],
+      "alternatives": [
+        {
+          "id": "ONE_BRAKE",
+          "branch": "4 установлено, 3 требуется",
+          "conditions": [
+            "Один тормоз; ВПП шириной не менее 45 м; исправны antiskid, NWS и оба reverser.",
+            "Отказавший тормоз снят или деактивирован; green и yellow systems на оставшихся тормозах исправны.",
+            "Применяются поправки AFM; минимумы захода не требуют отказавший тормоз; AUTO/BRK считается неработающим."
+          ],
+          "permitted_failed_ids": [
+            "M153",
+            "M154",
+            "M155",
+            "M156"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [],
+          "pdf_pages": [
+            306
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "MCDU",
+      "mmel_id": "22-82-01",
+      "member_ids": [
+        "M198",
+        "M199"
+      ],
+      "alternatives": [
+        {
+          "id": "MCDU_ONE",
+          "branch": "1) Flightcrew Positions: 2 установлено, 1 требуется",
+          "conditions": [
+            "Один MCDU пилотов; навигационные процедуры не требуют его использования."
+          ],
+          "permitted_failed_ids": [
+            "M198",
+            "M199"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [],
+          "pdf_pages": [
+            68
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "AOA_HEAT",
+      "mmel_id": "30-31-04",
+      "member_ids": [
+        "M254",
+        "M255",
+        "M256"
+      ],
+      "alternatives": [
+        {
+          "id": "AOA_CAPT",
+          "branch": "CAPT heater",
+          "conditions": [
+            "ADR, обогреватели и предупреждения остальных двух позиций исправны. Проверка один раз каждый flight-day.",
+            "Без ETOPS свыше 120 минут; вне видимой влаги и известного/прогнозируемого обледенения."
+          ],
+          "permitted_failed_ids": [
+            "M254"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M255",
+            "M258",
+            "M261",
+            "M265",
+            "M266",
+            "M256",
+            "M262",
+            "M267",
+            "M268"
+          ],
+          "pdf_pages": [
+            280
+          ]
+        },
+        {
+          "id": "AOA_FO",
+          "branch": "FO heater",
+          "conditions": [
+            "ADR, обогреватели и предупреждения остальных двух позиций исправны. Проверка один раз каждый flight-day."
+          ],
+          "permitted_failed_ids": [
+            "M255"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M254",
+            "M257",
+            "M260",
+            "M263",
+            "M264",
+            "M256",
+            "M262",
+            "M267",
+            "M268"
+          ],
+          "pdf_pages": [
+            280
+          ]
+        },
+        {
+          "id": "AOA_STBY",
+          "branch": "STBY heater",
+          "conditions": [
+            "ADR, обогреватели и предупреждения остальных двух позиций исправны. Проверка один раз каждый flight-day."
+          ],
+          "permitted_failed_ids": [
+            "M256"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M254",
+            "M257",
+            "M260",
+            "M263",
+            "M264",
+            "M255",
+            "M258",
+            "M261",
+            "M265",
+            "M266"
+          ],
+          "pdf_pages": [
+            280
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "PITOT_HEAT",
+      "mmel_id": "30-31-02",
+      "member_ids": [
+        "M260",
+        "M261",
+        "M262"
+      ],
+      "alternatives": [
+        {
+          "id": "PITOT_CAPT",
+          "branch": "CAPT heater",
+          "conditions": [
+            "ADR, обогреватели и предупреждения остальных двух позиций исправны.",
+            "Без ETOPS свыше 120 минут; вне видимой влаги и известного/прогнозируемого обледенения."
+          ],
+          "permitted_failed_ids": [
+            "M260"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M255",
+            "M258",
+            "M261",
+            "M265",
+            "M266",
+            "M256",
+            "M262",
+            "M267",
+            "M268"
+          ],
+          "pdf_pages": [
+            278
+          ]
+        },
+        {
+          "id": "PITOT_FO",
+          "branch": "FO heater",
+          "conditions": [
+            "ADR, обогреватели и предупреждения остальных двух позиций исправны.",
+            "В обледенении при ADR2 OFF запрещён взлёт CONF1+F."
+          ],
+          "permitted_failed_ids": [
+            "M261"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M254",
+            "M257",
+            "M260",
+            "M263",
+            "M264",
+            "M256",
+            "M262",
+            "M267",
+            "M268"
+          ],
+          "pdf_pages": [
+            278
+          ]
+        },
+        {
+          "id": "PITOT_STBY",
+          "branch": "STBY heater",
+          "conditions": [
+            "ADR, обогреватели и предупреждения остальных двух позиций исправны.",
+            "Без ETOPS свыше 120 минут; вне видимой влаги и известного/прогнозируемого обледенения."
+          ],
+          "permitted_failed_ids": [
+            "M262"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M254",
+            "M257",
+            "M260",
+            "M263",
+            "M264",
+            "M255",
+            "M258",
+            "M261",
+            "M265",
+            "M266"
+          ],
+          "pdf_pages": [
+            278
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "TAT_HEAT",
+      "mmel_id": "30-31-05",
+      "member_ids": [
+        "M257",
+        "M258"
+      ],
+      "alternatives": [
+        {
+          "id": "TAT_ONE",
+          "branch": "2 установлено, 1 требуется",
+          "conditions": [
+            "Допускается один обогреватель TAT."
+          ],
+          "permitted_failed_ids": [
+            "M257",
+            "M258"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [],
+          "pdf_pages": [
+            281
+          ]
+        },
+        {
+          "id": "TAT_BOTH",
+          "branch": "2 установлено, 0 требуется",
+          "conditions": [
+            "Без ETOPS свыше 120 минут; вне видимой влаги и известного/прогнозируемого обледенения."
+          ],
+          "permitted_failed_ids": [
+            "M257",
+            "M258"
+          ],
+          "max_failed": 2,
+          "requires_operative_catalog_ids": [],
+          "pdf_pages": [
+            281
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "STATIC_HEAT",
+      "mmel_id": "30-31-03",
+      "member_ids": [
+        "M263",
+        "M264",
+        "M265",
+        "M266",
+        "M267",
+        "M268"
+      ],
+      "alternatives": [
+        {
+          "id": "STATIC_ONE_STBY",
+          "branch": "6 установлено, 5 требуется; один STBY",
+          "conditions": [
+            "Допускается один STBY static heater."
+          ],
+          "permitted_failed_ids": [
+            "M267",
+            "M268"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [],
+          "pdf_pages": [
+            279
+          ]
+        },
+        {
+          "id": "STATIC_CAPT",
+          "branch": "6 установлено, 4 требуется; CAPT heaters",
+          "conditions": [
+            "ADR, обогреватели и предупреждения исправных позиций проверены работоспособными.",
+            "При ВПП с водой или слякотью температура в аэропорту вылета выше +5 °C."
+          ],
+          "permitted_failed_ids": [
+            "M263",
+            "M264"
+          ],
+          "max_failed": 2,
+          "requires_operative_catalog_ids": [
+            "M255",
+            "M258",
+            "M261",
+            "M265",
+            "M266",
+            "M256",
+            "M262",
+            "M267",
+            "M268"
+          ],
+          "pdf_pages": [
+            279
+          ]
+        },
+        {
+          "id": "STATIC_FO",
+          "branch": "6 установлено, 4 требуется; FO heaters",
+          "conditions": [
+            "ADR, обогреватели и предупреждения исправных позиций проверены работоспособными.",
+            "В обледенении при ADR2 OFF запрещён взлёт CONF1+F."
+          ],
+          "permitted_failed_ids": [
+            "M265",
+            "M266"
+          ],
+          "max_failed": 2,
+          "requires_operative_catalog_ids": [
+            "M254",
+            "M257",
+            "M260",
+            "M263",
+            "M264",
+            "M256",
+            "M262",
+            "M267",
+            "M268"
+          ],
+          "pdf_pages": [
+            279
+          ]
+        },
+        {
+          "id": "STATIC_STBY",
+          "branch": "6 установлено, 4 требуется; STBY heaters",
+          "conditions": [
+            "ADR, обогреватели и предупреждения исправных позиций проверены работоспособными.",
+            "При ВПП с водой или слякотью температура в аэропорту вылета выше +5 °C.",
+            "Без ETOPS свыше 120 минут."
+          ],
+          "permitted_failed_ids": [
+            "M267",
+            "M268"
+          ],
+          "max_failed": 2,
+          "requires_operative_catalog_ids": [
+            "M254",
+            "M257",
+            "M260",
+            "M263",
+            "M264",
+            "M255",
+            "M258",
+            "M261",
+            "M265",
+            "M266"
+          ],
+          "pdf_pages": [
+            279
+          ]
+        }
+      ],
+      "interpretation": "Фраза «associated with the operative units» сопоставлена с остальными позициями CAPT/F/O/STBY. Ветвь одного STBY не содержит этого требования. Это явная интерпретация текста для правил, не проверка архитектуры Fenix."
+    },
+    {
+      "id": "SFCC2_FLAP",
+      "mmel_id": "27-51-01",
+      "member_ids": [
+        "M282"
+      ],
+      "alternatives": [
+        {
+          "id": "SFCC2_FLAP",
+          "branch": "1)a) CEO FLAP Channels",
+          "conditions": [
+            "Slats и flaps работают на SFCC1; WTB SFCC1 проверены перед каждым вылетом; питание SFCC2 flap channel отключено.",
+            "ELAC, SEC, ADIRS, LGCIU, FAC, RA и spoilers 2/4 исправны; minimum idle on ground function считается неработающей."
+          ],
+          "permitted_failed_ids": [
+            "M282"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M026"
+          ],
+          "pdf_pages": [
+            180
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "SFCC2_SLAT",
+      "mmel_id": "27-51-01",
+      "member_ids": [
+        "M284"
+      ],
+      "alternatives": [
+        {
+          "id": "SFCC2_SLAT",
+          "branch": "2)a) SLAT Channel без eRudder",
+          "conditions": [
+            "Slats и flaps работают на SFCC1; WTB SFCC1 проверены перед каждым вылетом; питание SFCC2 slat channel отключено.",
+            "ELAC, SEC, ADIRS, LGCIU, FAC и RA исправны; взлёт CONF1+F запрещён."
+          ],
+          "permitted_failed_ids": [
+            "M284"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M026"
+          ],
+          "pdf_pages": [
+            181
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "YAW_DAMPER",
+      "mmel_id": "22-63-01",
+      "member_ids": [
+        "M295",
+        "M296"
+      ],
+      "alternatives": [
+        {
+          "id": "YAW1",
+          "branch": "1) System 1",
+          "conditions": [
+            "System2 исправна; минимумы захода не требуют System1."
+          ],
+          "permitted_failed_ids": [
+            "M295"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M296"
+          ],
+          "pdf_pages": [
+            60
+          ]
+        },
+        {
+          "id": "YAW2",
+          "branch": "2) System 2",
+          "conditions": [
+            "System1 исправна; минимумы захода не требуют System2; при утечке актуатора System2 деактивируется."
+          ],
+          "permitted_failed_ids": [
+            "M296"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [
+            "M295"
+          ],
+          "pdf_pages": [
+            60
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "CFDIU",
+      "mmel_id": "31-30-01",
+      "member_ids": [
+        "M317"
+      ],
+      "alternatives": [
+        {
+          "id": "CFDIU",
+          "branch": "CFDS, основная строка",
+          "conditions": [
+            "CFDS должен быть доступен, когда требуется для предусмотренных работ техобслуживания."
+          ],
+          "permitted_failed_ids": [
+            "M317"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [],
+          "pdf_pages": [
+            288
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "SDAC2",
+      "mmel_id": "31-55-01",
+      "member_ids": [
+        "M320"
+      ],
+      "alternatives": [
+        {
+          "id": "SDAC2",
+          "branch": "SDAC2: 2 установлено, 1 требуется",
+          "conditions": [
+            "Допускается SDAC2; SDAC1 остаётся исправным."
+          ],
+          "permitted_failed_ids": [
+            "M320"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [],
+          "pdf_pages": [
+            291
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "FWC2",
+      "mmel_id": "31-53-01",
+      "member_ids": [
+        "M322"
+      ],
+      "alternatives": [
+        {
+          "id": "FWC2",
+          "branch": "1)/2) FWC2",
+          "conditions": [
+            "Минимумы захода не требуют FWC2; при Mod.35542 steep approach не используется."
+          ],
+          "permitted_failed_ids": [
+            "M322"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [],
+          "pdf_pages": [
+            291
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "CVR",
+      "mmel_id": "23-71-01",
+      "member_ids": [
+        "M323"
+      ],
+      "alternatives": [
+        {
+          "id": "CVR",
+          "branch": "Основная строка",
+          "conditions": [
+            "FDR исправен; устранение в течение 3 flight-days."
+          ],
+          "permitted_failed_ids": [
+            "M323"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [],
+          "pdf_pages": [
+            86
+          ]
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "id": "DCDU",
+      "mmel_id": "46-21-02",
+      "member_ids": [
+        "M327",
+        "M328"
+      ],
+      "alternatives": [
+        {
+          "id": "DCDU_ONE",
+          "branch": "2 установлено, 1 требуется",
+          "conditions": [
+            "Допускается один DCDU."
+          ],
+          "permitted_failed_ids": [
+            "M327",
+            "M328"
+          ],
+          "max_failed": 1,
+          "requires_operative_catalog_ids": [],
+          "pdf_pages": [
+            403
+          ]
+        },
+        {
+          "id": "DCDU_BOTH_ALT",
+          "branch": "2 установлено, 0 требуется; альтернативные процедуры",
+          "conditions": [
+            "Установлены и используются альтернативные процедуры."
+          ],
+          "permitted_failed_ids": [
+            "M327",
+            "M328"
+          ],
+          "max_failed": 2,
+          "requires_operative_catalog_ids": [],
+          "pdf_pages": [
+            403
+          ]
+        },
+        {
+          "id": "DCDU_BOTH_NOT_REQUIRED",
+          "branch": "2 установлено, 0 требуется; использование не требуется",
+          "conditions": [
+            "Процедуры не требуют использования DCDU."
+          ],
+          "permitted_failed_ids": [
+            "M327",
+            "M328"
+          ],
+          "max_failed": 2,
+          "requires_operative_catalog_ids": [],
+          "pdf_pages": [
+            403
+          ]
+        }
+      ],
+      "interpretation": null
+    }
+  ],
+  "excluded_branches": [
+    {
+      "mmel_id": "21-31-01",
+      "branch": "Общая строка: 2 установлено, 0 требуется",
+      "pdf_pages": [
+        37
+      ],
+      "reason": "User excludes scenarios requiring unpressurized flight. CPC1 and CPC2 individual permissions remain."
+    }
+  ],
+  "interpretation_boundaries": [
+    "A named component/function failure is taken at face value. No simulated secondary effects or undocumented architecture dependencies are inferred.",
+    "Explicit system-wide operative requirements map to catalogue failures of that system: e.g. SFCC includes its FLAP/SLAT channels.",
+    "Static-heater operative units are interpreted as the other CAPT/F/O/STBY positions; stated explicitly in STATIC_HEAT.",
+    "Independent AUTO/BRK failure requires normal braking; a failed wheel brake is a conflict. AUTO/BRK already deemed inoperative by a wheel-brake deferral is recorded as a consequence, not a separately selected independent defect.",
+    "External conditions (weather, route, maintenance, tests and equipment outside this pool) remain in the card and are not additional selection filters.",
+    "No arbitrary ban on two failures in one ATA, severity, same engine, or an undocumented combination is introduced."
+  ]
+}

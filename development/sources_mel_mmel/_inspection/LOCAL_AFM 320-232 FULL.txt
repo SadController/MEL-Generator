@@ -1,0 +1,2691 @@
+
+=== PDF PAGE 1 ===
+
+=== PDF PAGE 2 ===
+Intentionally left blank
+
+=== PDF PAGE 3 ===
+A320
+AIRPLANE FLIGHT MANUAL
+TRANSMITTAL LETTER
+NWS A320-232 FLEET
+TRL P 1/2
+AFM
+16 MAY 14
+Issue date: 16 MAY 14
+This is the AIRPLANE FLIGHT MANUAL at issue date 16 MAY 14 for the A320-232 and replacing
+last issue dated 11 APR 14
+
+=== PDF PAGE 4 ===
+A320
+AIRPLANE FLIGHT MANUAL
+TRANSMITTAL LETTER
+Intentionally left blank
+NWS A320-232 FLEET
+TRL P 2/2
+AFM
+16 MAY 14
+
+=== PDF PAGE 5 ===
+A320
+AIRPLANE FLIGHT MANUAL
+FILING INSTRUCTIONS
+NWS A320-232 FLEET
+FI P 1/2
+AFM
+16 MAY 14
+Please incorporate this revision as follow:
+Insert
+Localization
+Subsection Title
+Remove
+Rev. Date
+PLP-LESS
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+ALL
+16 MAY 14
+PLP-LEDU
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+ALL
+16 MAY 14
+PLP-LETR
+LIST OF EFFECTIVE TEMPORARY REVISIONS
+ALL
+16 MAY 14
+APPRO-PLP-TOC
+TABLE OF CONTENTS
+ALL
+16 MAY 14
+APPRO-PLP-SOH
+SUMMARY OF HIGHLIGHTS
+ALL
+16 MAY 14
+APPRO-TR
+TEMPORARY REVISIONS
+ALL
+16 MAY 14
+MCDL-PLP-TOC
+TABLE OF CONTENTS
+ALL
+16 MAY 14
+MCDL-PLP-SOH
+SUMMARY OF HIGHLIGHTS
+ALL
+16 MAY 14
+MCDL-52-01
+Toilet Servicing and Drainage Door
+ALL
+16 MAY 14
+MCDL-52-02
+Access Door to Hydraulic Ground Connectors 197 CB - 197 EB - 198 CB
+ALL
+16 MAY 14
+MCDL-52-03
+Access Door to Potable Water Filling and Drainage
+ALL
+16 MAY 14
+MCDL-52-04
+Access Door to Opening Control of Landing Gear Doors on Ground 195 BB - 196
+BB
+ALL
+16 MAY 14
+MCDL-52-05
+Access Door to Air Conditioning Ground Supply 191 CB
+ALL
+16 MAY 14
+MCDL-52-20
+Access Door to HP Air Ground Connector 191 DB
+ALL
+16 MAY 14
+
+=== PDF PAGE 6 ===
+A320
+AIRPLANE FLIGHT MANUAL
+FILING INSTRUCTIONS
+Intentionally left blank
+NWS A320-232 FLEET
+FI P 2/2
+AFM
+16 MAY 14
+
+=== PDF PAGE 7 ===
+ 
+PRELIMINARY PAGES
+
+=== PDF PAGE 8 ===
+Intentionally left blank
+
+=== PDF PAGE 9 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+TABLE OF CONTENTS
+NWS A320-232 FLEET
+PLP-TOC P 1/2
+AFM
+27 FEB 13
+PLP PRELIMINARY PAGES
+TABLE OF CONTENTS
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+LIST OF EFFECTIVE TEMPORARY REVISIONS
+LIST OF MODIFICATIONS
+APPRO APPROVAL DATA
+GEN GENERAL
+LIM LIMITATIONS
+EMER EMERGENCY PROCEDURES
+ABN ABNORMAL PROCEDURES
+NORM NORMAL PROCEDURES
+PERF PERFORMANCE
+APP APPENDICES AND SUPPLEMENTS
+MCDL MASTER CONFIGURATION DEVIATION LIST
+SPERF SUPPLEMENTARY PERFORMANCE
+REG REGULATORY DIFFERENCES
+
+=== PDF PAGE 10 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+TABLE OF CONTENTS
+Intentionally left blank
+NWS A320-232 FLEET
+PLP-TOC P 2/2
+AFM
+27 FEB 13
+
+=== PDF PAGE 11 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320-232 FLEET
+PLP-LESS P 1/6
+AFM
+16 MAY 14
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+R
+PLP-LESS
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+16 MAY 14
+APPRO-ENV
+APPROVAL REFERENCE
+14 DEC 13
+R
+APPRO-TR
+TEMPORARY REVISIONS
+16 MAY 14
+GEN-INTR
+INTRODUCTION
+27 FEB 13
+GEN-DESC
+AFM DESCRIPTION
+14 DEC 13
+GEN-DEF
+WORDING DEFINITIONS
+27 FEB 13
+GEN-ABB
+ABBREVIATIONS
+14 DEC 13
+GEN-UNIT
+UNITS
+27 FEB 13
+GEN-VIEW
+3-VIEW DRAWING
+27 FEB 13
+LIM-GEN
+GENERAL
+14 DEC 13
+LIM-WGHT
+WEIGHTS AND LOADING
+27 FEB 13
+LIM-SPD
+AIRSPEEDS
+27 FEB 13
+LIM-OPS
+OPERATIONAL PARAMETERS
+27 FEB 13
+LIM-09
+TOWING AND TAXIING
+27 FEB 13
+LIM-21
+AIR COND/PRESS/VENT
+27 FEB 13
+LIM-22-FMS
+Flight Management System
+14 FEB 14
+LIM-22-FGS
+Flight Guidance System
+14 DEC 13
+LIM-24
+ELECTRICAL POWER
+27 FEB 13
+LIM-25
+EQUIPMENT FURNISHING
+27 FEB 13
+LIM-28
+FUEL
+14 DEC 13
+LIM-29
+HYDRAULIC
+27 FEB 13
+LIM-32
+LANDING GEAR
+27 FEB 13
+LIM-34
+NAVIGATION
+27 FEB 13
+LIM-46
+INFORMATION SYSTEMS
+27 FEB 13
+LIM-49
+AUXILIARY POWER UNIT
+27 FEB 13
+LIM-70
+POWER PLANT
+27 FEB 13
+EMER-GEN
+GENERAL
+13 MAR 14
+EMER-21
+AIR COND/PRESS/VENT
+27 FEB 13
+EMER-24
+ELECTRICAL POWER
+14 DEC 13
+EMER-26
+FIRE/SMOKE
+14 DEC 13
+EMER-27
+FLIGHT CONTROLS
+14 DEC 13
+EMER-29
+HYDRAULIC
+14 DEC 13
+EMER-32
+LANDING GEAR
+27 FEB 13
+EMER-70
+POWER PLANT
+27 FEB 13
+EMER-90
+MISCELLANEOUS
+14 DEC 13
+ABN-GEN
+GENERAL
+13 MAR 14
+ABN-OEI-TO
+TAKEOFF
+27 FEB 13
+ABN-OEI-LDG
+APPROACH AND LANDING
+14 DEC 13
+ABN-21
+AIR COND/PRESS/VENT
+27 FEB 13
+ABN-22-AUTOFLT
+AUTO FLIGHT SYSTEM
+27 FEB 13
+Continued on the following page
+
+=== PDF PAGE 12 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320-232 FLEET
+PLP-LESS P 2/6
+AFM
+16 MAY 14
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+ABN-22-CATII
+FAILURES OR WARNINGS DURING A CAT II APPROACH WITH
+OR WITHOUT AUTOMATIC LANDING
+27 FEB 13
+ABN-22-CATIIIDH
+FAILURES OR WARNINGS DURING A CAT III APPROACH
+WITH DH
+27 FEB 13
+ABN-22-CATIIInoDH
+FAILURES OR WARNINGS DURING A CAT III APPROACH
+WITH NO DH
+14 DEC 13
+ABN-24
+ELECTRICAL POWER
+14 DEC 13
+ABN-27
+FLIGHT CONTROLS
+14 DEC 13
+ABN-28
+FUEL
+27 FEB 13
+ABN-29
+HYDRAULIC
+14 DEC 13
+ABN-30
+ICE AND RAIN PROTECTION
+14 DEC 13
+ABN-31
+INDICATING/RECORDING SYSTEM
+14 DEC 13
+ABN-32
+LANDING GEAR
+14 DEC 13
+ABN-34
+NAVIGATION
+11 APR 14
+ABN-36
+PNEUMATIC
+27 FEB 13
+ABN-52
+DOORS
+27 FEB 13
+ABN-70
+POWER PLANT
+14 DEC 13
+ABN-90
+MISCELLANEOUS
+27 FEB 13
+NORM-GEN
+GENERAL
+27 FEB 13
+NORM-PFLT
+PREFLIGHT CHECKS
+27 FEB 13
+NORM-TO
+TAKEOFF
+14 DEC 13
+NORM-FLT
+FLIGHT
+27 FEB 13
+NORM-LDG
+APPROACH AND LANDING
+27 FEB 13
+NORM-22-CONF
+Demonstrated System Configuration
+14 DEC 13
+NORM-22-NPA
+Non Precision Approach
+14 DEC 13
+NORM-22-PA
+Precision Approach
+27 FEB 13
+NORM-28
+FUEL
+27 FEB 13
+NORM-30
+ICE AND RAIN PROTECTION
+27 FEB 13
+NORM-31
+INDICATING/RECORDING SYSTEM
+27 FEB 13
+NORM-34
+NAVIGATION
+27 FEB 13
+NORM-49
+AUXILIARY POWER UNIT
+27 FEB 13
+PERF-GEN
+GENERAL
+27 FEB 13
+PERF-CAL-TO
+TAKEOFF
+14 DEC 13
+PERF-CAL-CRU
+CRUISE (Clean Configuration)
+27 FEB 13
+PERF-CAL-LDG
+LANDING
+27 FEB 13
+PERF-TO
+TAKEOFF PERFORMANCE
+27 FEB 13
+PERF-FLT
+IN FLIGHT PERFORMANCE
+27 FEB 13
+PERF-LDG
+LANDING PERFORMANCE
+14 DEC 13
+PERF-OCTO
+PERFORMANCE DATABASE
+27 FEB 13
+PERF-ENG
+ENGINE MANAGEMENT
+27 FEB 13
+Continued on the following page
+
+=== PDF PAGE 13 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320-232 FLEET
+PLP-LESS P 3/6
+AFM
+16 MAY 14
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+APP-NOI
+EXTERNAL NOISE
+27 FEB 13
+APP-TCAS
+TRAFFIC ALERT AND COLLISION AVOIDANCE SYSTEM
+27 FEB 13
+APP-INOP
+DISPATCH WITH INOPERATIVE ITEMS
+27 FEB 13
+APP-LGDN-GEN
+GENERAL
+27 FEB 13
+APP-LGDN-LIM
+LIMITATIONS
+27 FEB 13
+APP-LGDN-EMER
+EMERGENCY PROCEDURES
+27 FEB 13
+APP-LGDN-ABN
+ABNORMAL PROCEDURES
+27 FEB 13
+APP-LGDN-NORM
+NORMAL PROCEDURES
+27 FEB 13
+APP-LGDN-PERF
+PERFORMANCE
+27 FEB 13
+APP-LGDN-APP
+APPENDICES AND SUPPLEMENTS
+27 FEB 13
+APP-N1-GEN
+GENERAL
+27 FEB 13
+APP-N1-LIM
+LIMITATIONS
+14 DEC 13
+APP-N1-NORM
+NORMAL PROCEDURES
+27 FEB 13
+APP-N1-PERF
+PERFORMANCE
+27 FEB 13
+APP-N1-APP
+APPENDICES AND SUPPLEMENTS
+27 FEB 13
+APP-TLWD
+TAILWIND OPERATION
+27 FEB 13
+APP-TAWS
+TAWS-GPWS
+14 FEB 14
+APP-NRWY
+NARROW RUNWAY
+27 FEB 13
+APP-PFC
+OPERATIONS ON WET GROOVED/PFC RUNWAYS
+27 FEB 13
+MCDL-GEN-INTR
+Introduction
+14 DEC 13
+MCDL-GEN-LIM
+Limitations
+27 FEB 13
+MCDL-GEN-PERF
+Performance
+13 MAR 14
+MCDL-21-01
+Ram Air Inlet Flap
+27 FEB 13
+MCDL-21-03
+Ram Air Inlet Leading Edge
+27 FEB 13
+MCDL-23-01
+Static Discharger
+14 DEC 13
+MCDL-27-01
+Flap Track Fairing
+14 DEC 13
+MCDL-27-03
+Slat Track Closing Plate
+27 FEB 13
+MCDL-27-05
+Access Panel for Bearings at Elevator
+27 FEB 13
+MCDL-27-06
+Flap Track Fairing Rear Top Cover and Tail Cone
+14 DEC 13
+MCDL-27-07
+Rubber Seal under Slat
+14 DEC 13
+MCDL-27-08
+Seal Between Inboard and Outboard Flap
+27 FEB 13
+MCDL-27-09
+Inboard Aileron Edge to Wing Seal
+27 FEB 13
+MCDL-27-10
+Slat End Seal and Weather Seal
+27 FEB 13
+MCDL-27-11
+Slat Track Filler Block
+27 FEB 13
+MCDL-27-12
+Slat Track Sealing Packer
+27 FEB 13
+MCDL-27-13
+Inter-flap Cushion Seal
+27 FEB 13
+MCDL-27-14
+Flap Track Moveable Fairing Seal
+14 DEC 13
+MCDL-27-15
+Flap Track Fixed Fairing Seal
+14 DEC 13
+MCDL-27-16
+Flap Track Moveable Fairing Pivot Cover
+14 DEC 13
+Continued on the following page
+
+=== PDF PAGE 14 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320-232 FLEET
+PLP-LESS P 4/6
+AFM
+16 MAY 14
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+MCDL-28-01
+Refuel/Defuel Coupling Cap 101 QM Or 41 QM
+14 DEC 13
+MCDL-28-02
+Refuel Panel Door 192MB
+14 DEC 13
+MCDL-30-01
+Icing Indicator
+27 FEB 13
+MCDL-32-03
+Nose Wheel Hubcap
+14 DEC 13
+MCDL-32-04
+Nose Fitting Towing
+14 DEC 13
+MCDL-33-01
+Wing/Engine Scan light Cover 3LX, 4LX
+14 DEC 13
+MCDL-33-02
+Taxi Light Lamp 8LR
+14 DEC 13
+MCDL-33-03
+Rear Navigation Light Lens 15LA
+14 DEC 13
+MCDL-33-04
+Upper 7LV and Lower 6LV Anti-Collision (Beacon) Light Cover
+14 DEC 13
+MCDL-33-05
+Logo Light Lens (Cover) 3LY, 4LY
+14 DEC 13
+MCDL-33-07
+Landing Light Lens 7LB, 8LB
+14 DEC 13
+MCDL-33-08
+Turn OFF Light Lamp 3LC1, 3LC2
+14 DEC 13
+MCDL-33-09
+Takeoff Light Lamp 7LR
+14 DEC 13
+MCDL-49-01
+APU Overpressure Release Door
+27 FEB 13
+MCDL-51-01
+Radome Conductive Strip
+27 FEB 13
+MCDL-51-02
+Passenger Door Scuff Plate
+27 FEB 13
+MCDL-51-03
+Bulk Cargo Door Scuff Plate
+27 FEB 13
+MCDL-51-04
+Fairing Aft Safety Stay Point 311 AL
+27 FEB 13
+R
+MCDL-52-01
+Toilet Servicing and Drainage Door
+16 MAY 14
+R
+MCDL-52-02
+Access Door to Hydraulic Ground Connectors 197 CB - 197
+EB - 198 CB
+16 MAY 14
+R
+MCDL-52-03
+Access Door to Potable Water Filling and Drainage
+16 MAY 14
+R
+MCDL-52-04
+Access Door to Opening Control of Landing Gear Doors on
+Ground 195 BB - 196 BB
+16 MAY 14
+R
+MCDL-52-05
+Access Door to Air Conditioning Ground Supply 191 CB
+16 MAY 14
+MCDL-52-07
+External Power Ground Connection Access Door Assy 121 AL
+14 DEC 13
+MCDL-52-08
+Access Door of Cargo Opening System 134 AR - 154 AR
+27 FEB 13
+MCDL-52-09
+Nose Landing Gear Main Door (713, 714)
+14 DEC 13
+MCDL-52-10
+Nose Landing Gear Aft Door (715, 716)
+14 DEC 13
+MCDL-52-11
+Nose Landing Gear Leg Door (712)
+14 DEC 13
+MCDL-52-12
+Main Landing Gear Door (732, 742) (flight with gear up)
+14 DEC 13
+MCDL-52-13
+Main Landing Gear Door (733, 743) (flight with gear up)
+14 DEC 13
+MCDL-52-14
+Main Landing Gear Door (732, 742) (flight with gear down)
+14 DEC 13
+MCDL-52-15
+Main Landing Gear Door (733, 743) (Flight with gear down)
+14 DEC 13
+MCDL-52-16
+Main Landing Gear Door (734, 744) (Flight with gear down)
+14 DEC 13
+MCDL-52-18
+Main Landing Gear Door : Seal on Secondary Hinged Fairing
+27 FEB 13
+MCDL-52-19
+Pax Door Upper Cover Plate
+27 FEB 13
+R
+MCDL-52-20
+Access Door to HP Air Ground Connector 191 DB
+16 MAY 14
+MCDL-52-21
+Blue Hydraulic Access Door 197 FB
+14 DEC 13
+Continued on the following page
+
+=== PDF PAGE 15 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+NWS A320-232 FLEET
+PLP-LESS P 5/6
+AFM
+16 MAY 14
+Continued from the previous page
+M
+(1)
+Localization
+Subsection Title
+Rev. Date
+MCDL-52-22
+Forward Cargo Door Access Cover Panel 825 AR
+14 DEC 13
+MCDL-52-23
+Aft Cargo Door Access Cover Panel 826 AR
+14 DEC 13
+MCDL-53-01
+Belly Fairing Vent Louver Vane
+14 DEC 13
+MCDL-53-03
+Root Fillet Fairing
+14 DEC 13
+MCDL-54-01
+Nacelle Strake
+14 DEC 13
+MCDL-54-03
+Pylon Pressure Relief Door 413(423) BL - 414(424) BR
+14 DEC 13
+MCDL-54-04
+Pylon Access Door 415(425) AL - 415(425) AR
+27 FEB 13
+MCDL-54-05
+Pylon Fairing Seal
+27 FEB 13
+MCDL-54-06
+Aerodynamic Seal
+14 DEC 13
+MCDL-57-01
+Wing Tip Fence
+14 DEC 13
+MCDL-57-02
+Belly Fairing Sliding Panel
+27 FEB 13
+MCDL-57-03
+Outboard Flaps Rubbing Strip
+27 FEB 13
+MCDL-57-04
+Inboard Flap Rubbing Strip
+14 DEC 13
+MCDL-71-09
+Fan Cowl Hold Open Rod
+14 DEC 13
+MCDL-78-01
+Duct Opening Actuator
+27 FEB 13
+MCDL-78-03
+Thrust Reverser Blocker Door
+14 DEC 13
+MCDL-78-04
+Lockout Pin
+14 FEB 14
+SPERF-CONT-GEN
+GENERAL
+27 FEB 13
+SPERF-CONT-LIM
+LIMITATIONS
+27 FEB 13
+SPERF-CONT-PERF
+PERFORMANCE
+27 FEB 13
+REG-CIS-GEN
+GENERAL
+27 FEB 13
+REG-CIS-LIM-OPS
+OPERATIONAL PARAMETERS
+27 MAR 13
+REG-CIS-LIM-23
+COMMUNICATIONS
+14 DEC 13
+REG-CIS-LIM-34
+NAVIGATION
+14 DEC 13
+REG-CIS-LIM-49
+AUXILIARY POWER UNIT
+27 FEB 13
+REG-CIS-EMER
+EMERGENCY PROCEDURES
+14 DEC 13
+REG-CIS-ABN
+ABNORMAL PROCEDURES
+27 FEB 13
+REG-CIS-APP
+APPENDICES AND SUPPLEMENTS
+27 FEB 13
+(1) Evolution code : N=New, R=Revised, E=Effectivity, M=Moved
+
+=== PDF PAGE 16 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE SECTIONS/SUBSECTIONS
+Intentionally left blank
+NWS A320-232 FLEET
+PLP-LESS P 6/6
+AFM
+16 MAY 14
+
+=== PDF PAGE 17 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+NWS A320-232 FLEET
+PLP-LEDU P 1/48
+AFM
+REVISION: 30
+16 MAY 14
+EASA APPROVED
+M
+(1)
+Localization
+T
+(2)
+DU Title
+DU identification
+DU date
+APPRO-HEAD
+Heading Approbation A320-232
+00007334.0020001
+28 SEP 93
+Criteria: 320-232
+Applicable to: MSN 2649
+APPRO-ENV
+Approval Reference A320-232
+00007012.0020001
+02 DEC 13
+Criteria: 320-232
+Applicable to: MSN 2649
+APPRO-TR
+x
+TAWS Database Compliance Statement
+00015062.0001001
+22 JAN 14
+Criteria: (SA and (26526 or 28244 or 34637 or 39146))
+Applicable to: MSN 2649
+Impacted DU: NONE
+APPRO-TR
+x
+FMS - FAA AC 90-105 Compliance
+00010498.0009001
+22 JAN 14
+Criteria: (SA and ((31896 or 31897 or 32401 or 32402 or 32475 or 32929) and (25205 or 26111 or 26485 or 26999 or
+28382 or 30241 or 30631 or 30635)))
+Applicable to: MSN 2649
+Impacted DU: NONE
+APPRO-TR
+x
+Erroneous RA Height Indication
+00009724.0001001
+09 DEC 13
+Criteria: SA
+Applicable to: MSN 2649
+Impacted DU: NONE
+APPRO-TR
+x
+(TR 2.05.00/47) - Non Precision
+Approaches with OEI
+00009667.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+Impacted DU: NONE
+APPRO-TR
+x
+(TR 8.02.00/03 Issue 3) - APU Limitations
+from CIS for Aircraft fitted with APU
+131-9
+00009693.0001001
+23 NOV 09
+Criteria: ((320-111 or 320-211 or 320-212 or 320-214 or 320-231 or 320-232 or 320-233 or A319 or A321) and
+(25888 or 37987))
+Specific to: CIS
+Applicable to: MSN 2649
+Impacted DU: NONE
+APPRO-TR
+x
+Landing Distance Determination in case
+of In-Flight Failure
+00013997.0003001
+26 FEB 14
+Criteria: (A318 or A319 or A320 or A321)
+Applicable to: MSN 2649
+Impacted DU: NONE
+APPRO-TR
+x
+MCDL Performance database
+00015362.0001001
+18 FEB 14
+Criteria: SA
+Applicable to: MSN 2649
+Impacted DU: NONE
+Continued on the following page
+
+=== PDF PAGE 18 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+NWS A320-232 FLEET
+PLP-LEDU P 2/48
+AFM
+REVISION: 30
+16 MAY 14
+EASA APPROVED
+Continued from the previous page
+M
+(1)
+Localization
+T
+(2)
+DU Title
+DU identification
+DU date
+N
+APPRO-TR
+x
+Update of MCDL 52-02, 52-03, 52-04, 
+-52-05
+00015534.0001001
+17 APR 14
+Criteria: (A319 or A320 or A321)
+Applicable to: MSN 2649
+Impacted DU: NONE
+N
+APPRO-TR
+x
+Update of MCDL 52-01
+00015536.0001001
+17 APR 14
+Criteria: ((A319 or A320 or A321) and 20109)
+Applicable to: MSN 2649
+Impacted DU: NONE
+N
+APPRO-TR
+x
+Update of MCDL 52-20
+00015540.0001001
+17 APR 14
+Criteria: SA
+Applicable to: MSN 2649
+Impacted DU: NONE
+GEN-INTR
+Introduction
+00007010.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+GEN-DESC
+Approved AFM Format
+00015195.0001001
+02 DEC 13
+Criteria: SA
+Applicable to: MSN 2649
+GEN-DESC
+Customized AFM
+00007013.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+GEN-DESC
+Organization of the Manual
+00007015.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+GEN-DESC
+Documentary Unit (DU)
+00007016.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+GEN-DESC
+Identification Strip
+00007017.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+GEN-DESC
+AFM Revision
+00007366.0001001
+03 AUG 10
+Criteria: SA
+Applicable to: MSN 2649
+GEN-DESC
+Temporary Revision (TR)
+00007018.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+GEN-DEF
+Warning Definition
+00007020.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+Continued on the following page
+
+=== PDF PAGE 19 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+NWS A320-232 FLEET
+PLP-LEDU P 3/48
+AFM
+REVISION: 30
+16 MAY 14
+EASA APPROVED
+Continued from the previous page
+M
+(1)
+Localization
+T
+(2)
+DU Title
+DU identification
+DU date
+GEN-DEF
+Caution Definition
+00007021.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+GEN-DEF
+Note Definition
+00006982.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+GEN-DEF
+LAND ASAP Definition
+00007322.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+GEN-ABB
+Abbreviations
+00006976.0001001
+02 DEC 13
+Criteria: SA
+Applicable to: MSN 2649
+GEN-UNIT
+Correspondence Between Units
+00006979.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+GEN-VIEW
+3-View Drawing
+00006880.0002001
+23 NOV 09
+Criteria: 320-200
+Applicable to: MSN 2649
+LIM-GEN
+Introduction
+00006957.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+LIM-GEN
+Kind of Operations
+00006958.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+LIM-GEN
+Minimum Flight Crew
+00006959.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+LIM-GEN
+Maximum Operating Altitude
+00006960.0002001
+23 NOV 09
+Criteria: (SA and 30748)
+Applicable to: MSN 2649
+LIM-GEN
+Maneuver Limit Load Factors
+00006961.0001001
+02 DEC 13
+Criteria: SA
+Applicable to: MSN 2649
+LIM-GEN
+Icing Conditions Definition
+00009165.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+LIM-WGHT
+Weight Limitations
+00006860.0044001
+23 NOV 09
+Criteria: ((320-211 or 320-212 or 320-214 or 320-231 or 320-232 or 320-233) and 30479)
+Applicable to: MSN 2649
+Continued on the following page
+
+=== PDF PAGE 20 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+NWS A320-232 FLEET
+PLP-LEDU P 4/48
+AFM
+REVISION: 30
+16 MAY 14
+EASA APPROVED
+Continued from the previous page
+M
+(1)
+Localization
+T
+(2)
+DU Title
+DU identification
+DU date
+LIM-WGHT
+Center of Gravity Envelope
+00006861.0049001
+23 NOV 09
+Criteria: ((320-212 or 320-232) and 30479)
+Applicable to: MSN 2649
+LIM-WGHT
+Performance Limitations
+00006962.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+LIM-WGHT
+Loading
+00006963.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+LIM-WGHT
+Landing Gear Limitation
+00006964.0001001
+23 NOV 09
+Criteria: ((320-211 or 320-212 or 320-214 or 320-231 or 320-232 or 320-233) and (23264 or 30479))
+Applicable to: MSN 2649
+LIM-SPD
+VMO/MMO
+00007065.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+LIM-SPD
+VA
+00007319.0002001
+23 NOV 09
+Criteria: 320-200
+Applicable to: MSN 2649
+LIM-SPD
+VFE
+00006883.0004001
+23 NOV 09
+Criteria: (320-231 or 320-232 or 320-233 or A318 or A319)
+Applicable to: MSN 2649
+LIM-SPD
+VLO and VLE/MLE
+00007317.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+LIM-OPS
+Environmental Envelope
+00006919.0003001
+23 NOV 09
+Criteria: ((320-214 or 320-232 or 320-233) and 30748)
+Applicable to: MSN 2649
+LIM-OPS
+Tailwind
+00007309.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+LIM-OPS
+Runway Slope
+00007310.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+LIM-09
+Maneuvers on Ground
+00007357.0001001
+23 NOV 09
+Criteria: (SA and SA)
+Applicable to: MSN 2649
+LIM-09
+Towbarless Operations
+00007358.0001001
+03 AUG 10
+Criteria: (SA and SA)
+Applicable to: MSN 2649
+Continued on the following page
+
+=== PDF PAGE 21 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+NWS A320-232 FLEET
+PLP-LEDU P 5/48
+AFM
+REVISION: 30
+16 MAY 14
+EASA APPROVED
+Continued from the previous page
+M
+(1)
+Localization
+T
+(2)
+DU Title
+DU identification
+DU date
+LIM-21
+Cabin Pressurization
+00007261.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+LIM-22-FMS
+General
+00009567.0002001
+23 NOV 09
+Criteria: ((A319 or A320 or A321) and (25205 or 26111 or 26485 or 26999 or 28382 or 30241 or 30631 or 30635))
+Applicable to: MSN 2649
+LIM-22-FMS
+x
+Airworthiness Standards Compliance
+00015234.0001001
+22 JAN 14
+Criteria: (SA and ((31896 or 31897 or 32401 or 32402 or 32475 or 32929) and (25205 or 26111 or 26485 or 26999 or
+28382 or 30241 or 30631 or 30635)))
+Applicable to: MSN 2649
+Impacted DU: NONE
+LIM-22-FMS
+Airworthiness Standards Compliance
+00009568.0016001
+02 DEC 13
+Criteria: ((A319 or A320 or A321) and ((31896 or 31897) and (25205 or 26111 or 26485 or 26999 or 28382 or 30241
+or 30631 or 30635)))
+Applicable to: MSN 2649
+LIM-22-FMS
+Navigation Performance
+00009569.0003001
+23 NOV 09
+Criteria: ((A319 or A320 or A321) and ((31896 or 31897 or 32475 or 32929) and (25205 or 26111 or 26485 or 26999
+or 28382 or 30241 or 30631 or 30635)))
+Applicable to: MSN 2649
+LIM-22-FMS
+Use of NAV Mode
+00009570.0003001
+02 DEC 13
+Criteria: ((A319 or A320 or A321) and (25205 or 26111 or 26485 or 26999 or 28382 or 30241 or 30631 or 30635))
+Applicable to: MSN 2649
+LIM-22-FMS
+x
+Non Precision Approaches with OEI
+00009620.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+Impacted DU: NONE
+LIM-22-FMS
+Approaches
+00009571.0002001
+02 DEC 13
+Criteria: ((A319 or A320 or A321) and (25205 or 26111 or 26485 or 26999 or 28382 or 30241 or 30631 or 30635))
+Applicable to: MSN 2649
+LIM-22-FGS
+Airworthiness Standards Compliance
+00009235.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+LIM-22-FGS
+Autoland
+00009238.0004001
+02 DEC 13
+Criteria: ((320-231 or 320-232 or 320-233) and 23893)
+Applicable to: MSN 2649
+LIM-22-FGS
+AUTOLAND with OEI
+00015319.0001001
+02 DEC 13
+Criteria: A320
+Applicable to: MSN 2649
+LIM-22-FGS
+Minimum Height for Use of the Autopilot
+00009242.0001001
+23 NOV 09
+Criteria: ((A318 or A319 or A320) or ((318-111 or 318-112 or A319 or A320) and 30096))
+Applicable to: MSN 2649
+Continued on the following page
+
+=== PDF PAGE 22 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+NWS A320-232 FLEET
+PLP-LEDU P 6/48
+AFM
+REVISION: 30
+16 MAY 14
+EASA APPROVED
+Continued from the previous page
+M
+(1)
+Localization
+T
+(2)
+DU Title
+DU identification
+DU date
+LIM-22-FGS
+CAT II / CAT III Operations
+00009243.0005001
+23 NOV 09
+Criteria: (320-231 or 320-232 or 320-233)
+Applicable to: MSN 2649
+LIM-24
+Electrical
+00007263.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+LIM-25
+In-Seat Power Supply System (ISPSS)
+00007265.0001001
+23 NOV 09
+Criteria: (SA and (27230 or 28777 or 30339 or 31090 or 32228))
+Applicable to: MSN 2649
+LIM-28
+Fuel and Additive Specifications
+00007246.0002001
+02 DEC 13
+Criteria: (319-131 or 319-132 or 319-133 or 320-231 or 320-232 or 320-233 or 321-131 or 321-231 or 321-232)
+Applicable to: MSN 2649
+LIM-28
+Usable Fuel
+00007248.0003001
+23 NOV 09
+Criteria: (A318 or A319 or 320-200)
+Applicable to: MSN 2649
+LIM-28
+Fuel Imbalance
+00007254.0001001
+23 NOV 09
+Criteria: (A318 or A319 or A320)
+Applicable to: MSN 2649
+LIM-28
+Fuel Temperature Limits
+00007259.0007001
+23 NOV 09
+Criteria: (319-131 or 319-132 or 319-133 or 320-231 or 320-232 or 320-233)
+Applicable to: MSN 2649
+LIM-29
+Hydraulics Fluid
+00007262.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+LIM-32
+Tire Speed
+00011074.0001001
+03 AUG 10
+Criteria: SA
+Applicable to: MSN 2649
+LIM-34
+Inertial Reference System (IRS)
+00007264.0001001
+23 NOV 09
+Criteria: (A318 or A320)
+Applicable to: MSN 2649
+LIM-34
+Reduced Vertical Separation Minimum
+(RVSM)
+00007359.0001001
+23 NOV 09
+Criteria: (SA and (25861 or 25910 or 25952 or 31039 or 31528))
+Applicable to: MSN 2649
+LIM-46
+Airline Operation Control Applications
+00006965.0001001
+23 NOV 09
+Criteria: (SA and 27522)
+Applicable to: MSN 2649
+LIM-46
+FANS - ATC Datalink Application
+System
+00006967.0003001
+03 AUG 10
+Criteria: (SA and 35865)
+Continued on the following page
+
+=== PDF PAGE 23 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+NWS A320-232 FLEET
+PLP-LEDU P 7/48
+AFM
+REVISION: 30
+16 MAY 14
+EASA APPROVED
+Continued from the previous page
+M
+(1)
+Localization
+T
+(2)
+DU Title
+DU identification
+DU date
+Applicable to: MSN 2649
+LIM-49
+Auxiliary Power Unit (APU)
+00007260.0003001
+23 NOV 09
+Criteria: (SA and (25888 or 37987))
+Applicable to: MSN 2649
+LIM-70
+Main Engines
+00007233.0007001
+23 NOV 09
+Criteria: 320-232
+Applicable to: MSN 2649
+LIM-70
+Engine Parameters
+00007235.0003001
+23 NOV 09
+Criteria: (319-131 or 319-132 or 319-133 or 320-231 or 320-232 or 320-233)
+Applicable to: MSN 2649
+LIM-70
+Reverse Thrust
+00007236.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+LIM-70
+Oil
+00007232.0003001
+23 NOV 09
+Criteria: (319-131 or 319-132 or 319-133 or 320-231 or 320-232 or 320-233 or 321-131 or 321-231 or 321-232)
+Applicable to: MSN 2649
+LIM-70
+Reduced Thrust Takeoff
+00007239.0006001
+23 NOV 09
+Criteria: (320-232 or 320-233)
+Applicable to: MSN 2649
+LIM-70
+Operations in Icing Conditions
+00006881.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+EMER-GEN
+INTRODUCTION
+00007037.0001001
+02 DEC 13
+Criteria: SA
+Applicable to: MSN 2649
+EMER-GEN
+x
+LANDING DISTANCE DETERMINATION
+IN CASE OF IN-FLIGHT FAILURE
+00014547.0003001
+26 FEB 14
+Criteria: (A318 or A319 or A320 or A321)
+Applicable to: MSN 2649
+Impacted DU: NONE
+EMER-GEN
+LANDING DISTANCE DETERMINATION
+IN CASE OF IN-FLIGHT FAILURE
+00015177.0001001
+02 DEC 13
+Criteria: SA
+Applicable to: MSN 2649
+EMER-GEN
+FIRE/SMOKE
+00007038.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+EMER-21
+CAB PR - EXCESS CAB ALT
+00007053.0002001
+04 APR 11
+Criteria: ((A319 or A320 or A321) and 31283)
+Applicable to: MSN 2649
+Continued on the following page
+
+=== PDF PAGE 24 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+NWS A320-232 FLEET
+PLP-LEDU P 8/48
+AFM
+REVISION: 30
+16 MAY 14
+EASA APPROVED
+Continued from the previous page
+M
+(1)
+Localization
+T
+(2)
+DU Title
+DU identification
+DU date
+EMER-21
+CAB PR - EXCESS RESIDUAL PR
+00009326.0001001
+23 NOV 09
+Criteria: ((318-111 or 318-112 or A319 or A320 or A321) and 35220)
+Applicable to: MSN 2649
+EMER-24
+ELEC - EMER CONFIG (BOTH ENGINE
+GENERATORS FAILED)
+00006884.0003001
+02 DEC 13
+Criteria: (A320 and 28160)
+Applicable to: MSN 2649
+EMER-26
+ENG 1 (2) FIRE (In Flight)
+00007041.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+EMER-26
+ENG 1 (2) FIRE (On Ground)
+00007042.0001001
+23 NOV 09
+Criteria: (318-111 or 318-112 or A319 or A320 or A321)
+Applicable to: MSN 2649
+EMER-26
+APU FIRE
+00007043.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+EMER-26
+SMOKE - FWD or AFT CARGO SMOKE
+00009335.0001001
+23 NOV 09
+Criteria: ((318-111 or 318-112 or A319 or A320 or A321) and (20067 or 20069))
+Applicable to: MSN 2649
+EMER-26
+SMOKE/FUMES/AVNCS SMOKE
+00007044.0002001
+02 DEC 13
+Criteria: ((A319 or A320 or A321) and 31276)
+Applicable to: MSN 2649
+EMER-26
+REMOVAL OF SMOKE/FUMES
+00007045.0001001
+02 DEC 13
+Criteria: (A319 or A320)
+Applicable to: MSN 2649
+EMER-27
+F/CTL - L + R ELEV FAULT
+00007051.0001001
+02 DEC 13
+Criteria: (A319 or A320 or A321)
+Applicable to: MSN 2649
+EMER-27
+F/CTL - FLAP LVR NOT ZERO
+00009325.0001001
+23 NOV 09
+Criteria: (SA and (28479 or 28916))
+Applicable to: MSN 2649
+EMER-29
+HYD - G + B SYS LO PR
+00007048.0003001
+02 DEC 13
+Criteria: (A320 and (26925 and 35220))
+Applicable to: MSN 2649
+EMER-29
+HYD - B + Y SYS LO PR
+00007049.0003001
+02 DEC 13
+Criteria: ((A319 or A320) and 26925)
+Applicable to: MSN 2649
+EMER-29
+HYD - G + Y SYS LO PR
+00007050.0001001
+02 DEC 13
+Criteria: (A319 or A320)
+Applicable to: MSN 2649
+Continued on the following page
+
+=== PDF PAGE 25 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+NWS A320-232 FLEET
+PLP-LEDU P 9/48
+AFM
+REVISION: 30
+16 MAY 14
+EASA APPROVED
+Continued from the previous page
+M
+(1)
+Localization
+T
+(2)
+DU Title
+DU identification
+DU date
+EMER-32
+L/G - GEAR NOT DOWNLOCKED
+00007052.0001001
+04 APR 11
+Criteria: SA
+Applicable to: MSN 2649
+EMER-32
+LOSS OF BRAKING
+00009809.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+EMER-70
+DUAL ENG FAILURE (BOTH ENGINES
+FLAME OUT)
+00007039.0004001
+23 NOV 09
+Criteria: ((320-232 or 320-233) and 28160)
+Applicable to: MSN 2649
+EMER-70
+ENG - 1(2) OIL LO PR
+00007040.0002001
+23 NOV 09
+Criteria: (319-131 or 319-132 or 319-133 or 320-231 or 320-232 or 320-233 or 321-131 or 321-231 or 321-232)
+Applicable to: MSN 2649
+EMER-90
+STALL RECOVERY
+00013505.0001001
+04 APR 11
+Criteria: SA
+Applicable to: MSN 2649
+EMER-90
+EMER DESCENT
+00006626.0001001
+02 DEC 13
+Criteria: SA
+Applicable to: MSN 2649
+EMER-90
+EMERGENCY EVACUATION
+00006625.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+EMER-90
+DITCHING
+00006622.0002001
+23 NOV 09
+Criteria: ((A319 or A320 or A321) and 31276)
+Applicable to: MSN 2649
+EMER-90
+FORCED LANDING
+00006621.0002001
+23 NOV 09
+Criteria: ((A319 or A320 or A321) and 31276)
+Applicable to: MSN 2649
+ABN-GEN
+INTRODUCTION
+00007087.0001001
+02 DEC 13
+Criteria: SA
+Applicable to: MSN 2649
+ABN-GEN
+x
+LANDING DISTANCE DETERMINATION
+IN CASE OF IN-FLIGHT FAILURE
+00014548.0003001
+26 FEB 14
+Criteria: (A318 or A319 or A320 or A321)
+Applicable to: MSN 2649
+Impacted DU: NONE
+ABN-GEN
+LANDING DISTANCE DETERMINATION
+IN CASE OF IN-FLIGHT FAILURE
+00015178.0001001
+02 DEC 13
+Criteria: SA
+Applicable to: MSN 2649
+Continued on the following page
+
+=== PDF PAGE 26 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+NWS A320-232 FLEET
+PLP-LEDU P 10/48
+AFM
+REVISION: 30
+16 MAY 14
+EASA APPROVED
+Continued from the previous page
+M
+(1)
+Localization
+T
+(2)
+DU Title
+DU identification
+DU date
+ABN-OEI-TO
+ENGINE FAILURE BEFORE V1
+(REJECTED TAKEOFF)
+00007100.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-OEI-TO
+ENGINE FAILURE BETWEEN V1 AND V2
+00007102.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-OEI-TO
+ENGINE FAILURE DURING INITIAL
+CLIMB OUT
+00007103.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-OEI-LDG
+APPROACH AND LANDING
+00007104.0001001
+02 DEC 13
+Criteria: A320
+Applicable to: MSN 2649
+ABN-OEI-LDG
+MISSED APPROACH (FROM
+INTERMEDIATE APPROACH
+CONFIGURATION)
+00007105.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-OEI-LDG
+BALKED LANDING
+00007106.0001001
+23 NOV 09
+Criteria: (A319 or A320 or A321)
+Applicable to: MSN 2649
+ABN-21
+AIR - PACK 1 + 2 FAULT
+00007161.0001001
+04 APR 11
+Criteria: SA
+Applicable to: MSN 2649
+ABN-21
+CAB PR - SYS 1 + 2 FAULT
+00006672.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-21
+CAB PR - SAFETY VALVE OPEN
+00007162.0002001
+23 NOV 09
+Criteria: (SA and 35220)
+Applicable to: MSN 2649
+ABN-21
+COND - HOT AIR FAULT
+00007164.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-21
+VENT - SKIN VALVE FAULT
+00007165.0001001
+04 APR 11
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-AUTOFLT
+AUTO FLT - FCU 1(2) FAULT
+00009309.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+Continued on the following page
+
+=== PDF PAGE 27 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+NWS A320-232 FLEET
+PLP-LEDU P 11/48
+AFM
+REVISION: 30
+16 MAY 14
+EASA APPROVED
+Continued from the previous page
+M
+(1)
+Localization
+T
+(2)
+DU Title
+DU identification
+DU date
+ABN-22-AUTOFLT
+AUTO FLT - RUD TRV LIM SYS
+00006936.0001001
+03 AUG 10
+Criteria: (318-111 or 318-112 or A319 or A320 or A321)
+Applicable to: MSN 2649
+ABN-22-AUTOFLT
+AUTO FLT - FAC 1+2 FAULT
+00009311.0001001
+23 NOV 09
+Criteria: (318-111 or 318-112 or A319 or A320 or A321)
+Applicable to: MSN 2649
+ABN-22-AUTOFLT
+AUTO FLT - YAW DAMPER SYS
+00009310.0001001
+03 AUG 10
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATII
+Multiple Failures or Warnings (CAT II)
+00009313.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATII
+Altitude Loss with Autopilot Malfunction
+(CAT II)
+00009795.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATII
+Failure Leading to Slats/Flaps less than
+FLAPS 3 (CAT II)
+00009315.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATII
+Antiskid System and/or Nosewheel
+Steering Failure (CAT II)
+00009338.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATII
+Alpha Floor Activation (CAT II)
+00009342.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATII
+One Engine Failure (CAT II)
+00009343.0003001
+23 NOV 09
+Criteria: A320
+Applicable to: MSN 2649
+ABN-22-CATII
+Red "RA" Flag on two PFDs (CAT II)
+00009344.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATII
+Amber "CHECK ATT" Flag on two PFDs
+(CAT II)
+00009349.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATII
+Red "ATT" Flag on one PFD (CAT II)
+00009350.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+Continued on the following page
+
+=== PDF PAGE 28 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+NWS A320-232 FLEET
+PLP-LEDU P 12/48
+AFM
+REVISION: 30
+16 MAY 14
+EASA APPROVED
+Continued from the previous page
+M
+(1)
+Localization
+T
+(2)
+DU Title
+DU identification
+DU date
+ABN-22-CATII
+Diagonal Line or "INVALID DATA" on
+one PFD and one ND (CAT II)
+00009351.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATII
+Amber "CHECK HDG" Flag on two PFDs
+and on two NDs (CAT II)
+00009352.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATII
+Red "HDG" Flag on one PFD and one ND
+(CAT II)
+00009353.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATII
+Red "SPD" Flag on one PFD (CAT II)
+00009354.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATII
+"AP OFF" Warning (CAT II)
+00009355.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATII
+Loss of "CAT 2" Capability (CAT II)
+00009314.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATII
+LOC or G/S Excessive Deviation on PFD
+(CAT II)
+00009356.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATII
+"AUTOLAND" Light (CAT II)
+00009357.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATII
+A/THR Fault (CAT II)
+00009358.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATII
+No "LAND" at 350 ft (CAT II)
+00009359.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATII
+Incorrect Selected Course at 350 ft > 5
+deg (CAT II)
+00009360.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATII
+No "FLARE" at 30 ft (CAT II)
+00009361.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+Continued on the following page
+
+=== PDF PAGE 29 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+NWS A320-232 FLEET
+PLP-LEDU P 13/48
+AFM
+REVISION: 30
+16 MAY 14
+EASA APPROVED
+Continued from the previous page
+M
+(1)
+Localization
+T
+(2)
+DU Title
+DU identification
+DU date
+ABN-22-CATIIIDH
+Multiples Failures or Warnings (CAT III
+with DH)
+00009366.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIIDH
+Failure Leading to Slats/Flaps less than
+CONF 3 (CAT III with DH)
+00009383.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIIDH
+Nosewheel Steering Failure (CAT III with
+DH)
+00009382.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIIDH
+Antiskid Failure (CAT III with DH)
+00009381.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIIDH
+Alpha Floor Activation (CAT III with DH)
+00009380.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIIDH
+One Engine Failure (CAT III with DH)
+00009379.0003001
+23 NOV 09
+Criteria: A320
+Applicable to: MSN 2649
+ABN-22-CATIIIDH
+Auto Callout RA Failure (CAT III with DH)
+00009378.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIIDH
+Red "RA" Flag on two PFDs (CAT III with
+DH)
+00009377.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIIDH
+Amber "CHECK ATT" Flag on two PFDs
+(CAT III with DH)
+00009386.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIIDH
+Red "ATT" Flag on one PFD (CAT III with
+DH)
+00009385.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIIDH
+Amber "CHECK HDG" Flag on two PFDs
+and two NDs (CAT III with DH)
+00009376.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+Continued on the following page
+
+=== PDF PAGE 30 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+NWS A320-232 FLEET
+PLP-LEDU P 14/48
+AFM
+REVISION: 30
+16 MAY 14
+EASA APPROVED
+Continued from the previous page
+M
+(1)
+Localization
+T
+(2)
+DU Title
+DU identification
+DU date
+ABN-22-CATIIIDH
+Red "HDG" Flag on one PFD and one ND
+(CAT III with DH)
+00009375.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIIDH
+Red "SPD" Flag on one PFD (CAT III
+with DH)
+00009374.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIIDH
+"AP OFF" Warning (CAT III with DH)
+00009373.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIIDH
+Capability Decrease (Except if due to
+A/THR Loss) (CAT III with DH)
+00009372.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIIDH
+Total Loss of A/THR ("CAT 3" Decreases
+to "CAT 2") (CAT III with DH)
+00009384.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIIDH
+LOC or G/S Excessive Deviation on PFD
+(CAT III with DH)
+00009371.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIIDH
+"AUTOLAND" Light (CAT III with DH)
+00009370.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIIDH
+No "LAND" at 350 ft (CAT III with DH)
+00009369.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIIDH
+Incorrect Selected Course at 350 ft > 5
+deg (CAT III with DH)
+00009368.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIIDH
+No "FLARE" at 30 ft (CAT III with DH)
+00009367.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIInoDH
+Multiple Failures or Warnings (CAT III no
+DH)
+00009393.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+Continued on the following page
+
+=== PDF PAGE 31 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+NWS A320-232 FLEET
+PLP-LEDU P 15/48
+AFM
+REVISION: 30
+16 MAY 14
+EASA APPROVED
+Continued from the previous page
+M
+(1)
+Localization
+T
+(2)
+DU Title
+DU identification
+DU date
+ABN-22-CATIIInoDH
+Failure Leading to Slats/Flaps less than
+CONF 3 (CAT III no DH)
+00009394.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIInoDH
+Nosewheel Steering Failure (CAT III no
+DH)
+00009395.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIInoDH
+Antiskid Failure (CAT III no DH)
+00009396.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIInoDH
+Alpha Floor Activation (CAT III no DH)
+00009397.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIInoDH
+One Engine Failure (CAT III no DH)
+00009413.0003001
+23 NOV 09
+Criteria: A320
+Applicable to: MSN 2649
+ABN-22-CATIIInoDH
+Auto Callout RA Failure (CAT III no DH)
+00009398.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIInoDH
+Red "RA" Flag on two PFDs (CAT III no
+DH)
+00009399.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIInoDH
+Amber "CHECK ATT" Flag on two PFDs
+(CAT III no DH)
+00009400.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIInoDH
+Red "ATT" Flag on one PFD (CAT III no
+DH)
+00009401.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIInoDH
+Amber "CHECK HDG" Flag on two PFDs
+and two NDs (CAT III no DH)
+00009402.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIInoDH
+Red "HDG" Flag on one PFD and one ND
+(CAT III no DH)
+00009403.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+Continued on the following page
+
+=== PDF PAGE 32 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+NWS A320-232 FLEET
+PLP-LEDU P 16/48
+AFM
+REVISION: 30
+16 MAY 14
+EASA APPROVED
+Continued from the previous page
+M
+(1)
+Localization
+T
+(2)
+DU Title
+DU identification
+DU date
+ABN-22-CATIIInoDH
+Red "SPD" Flag on one PFD (CAT III no
+DH)
+00009404.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIInoDH
+"AP OFF" Warnings (CAT III no DH)
+00009405.0001001
+02 DEC 13
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIInoDH
+Capability Decrease (Except if due to
+A/THR Loss) (CAT III no DH)
+00009406.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIInoDH
+Total Loss of A/THR ("CAT 3" Decreases
+to "CAT 2") (CAT III no DH)
+00009407.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIInoDH
+LOC or G/S Excessive Deviation on PFD
+(CAT III no DH)
+00009408.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIInoDH
+"AUTOLAND" Light (CAT III no DH)
+00009409.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIInoDH
+No "LAND" at 350 ft (CAT III no DH)
+00009410.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIInoDH
+Incorrect Selected Course at 350 ft > 5
+deg (CAT III no DH)
+00009411.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-22-CATIIInoDH
+No "FLARE" at 30 ft (CAT III no DH)
+00009412.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-24
+ELEC - AC ESS BUS FAULT
+00007139.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-24
+ELEC - AC BUS 1 FAULT
+00007140.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-24
+ELEC - AC BUS 2 FAULT
+00007141.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+Continued on the following page
+
+=== PDF PAGE 33 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+NWS A320-232 FLEET
+PLP-LEDU P 17/48
+AFM
+REVISION: 30
+16 MAY 14
+EASA APPROVED
+Continued from the previous page
+M
+(1)
+Localization
+T
+(2)
+DU Title
+DU identification
+DU date
+ABN-24
+ELEC - DC ESS BUS FAULT
+00007143.0001001
+02 DEC 13
+Criteria: SA
+Applicable to: MSN 2649
+ABN-24
+ELEC - DC BUS 1 FAULT
+00007148.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-24
+ELEC - DC BUS 2 FAULT
+00007150.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-24
+ELEC - DC EMER CONFIG
+00007152.0001001
+02 DEC 13
+Criteria: SA
+Applicable to: MSN 2649
+ABN-24
+ELEC - DC BUS 1 + 2 FAULT
+00007154.0002001
+02 DEC 13
+Criteria: ((A320 or A321) and 21678)
+Applicable to: MSN 2649
+ABN-24
+ELEC - DC ESS BUS SHED
+00007159.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-27
+F/CTL - FLAPS FAULT
+00007108.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-27
+F/CTL - FLAPS LOCKED
+00006637.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-27
+F/CTL - SLATS FAULT
+00007109.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-27
+F/CTL - SLATS LOCKED
+00006638.0002001
+23 NOV 09
+Criteria: ((A318 or A319 or A320) and 20024)
+Applicable to: MSN 2649
+ABN-27
+APPROACH SPEED INCREMENT AND
+LANDING DISTANCE MULTIPLICATION
+FACTOR
+00006879.0001001
+02 DEC 13
+Criteria: A320
+Applicable to: MSN 2649
+ABN-27
+PERFORMANCE LIMITATION FOR
+LANDING IN CLEAN CONFIGURATION
+00007110.0011001
+02 DEC 13
+Criteria: (320-232 or 320-233)
+Applicable to: MSN 2649
+Continued on the following page
+
+=== PDF PAGE 34 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+NWS A320-232 FLEET
+PLP-LEDU P 18/48
+AFM
+REVISION: 30
+16 MAY 14
+EASA APPROVED
+Continued from the previous page
+M
+(1)
+Localization
+T
+(2)
+DU Title
+DU identification
+DU date
+ABN-27
+F/CTL - SPLR FAULT
+00006639.0001001
+02 DEC 13
+Criteria: SA
+Applicable to: MSN 2649
+ABN-27
+F/CTL - GND SPLR FAULT
+00007114.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-27
+F/CTL - SPD BRK DISAGREE
+00007117.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-27
+F/CTL - SPD BRK FAULT
+00007118.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-27
+F/CTL - RUDDER JAM
+00007119.0001001
+02 DEC 13
+Criteria: SA
+Applicable to: MSN 2649
+ABN-27
+F/CTL - L (R) ELEV FAULT
+00007120.0001001
+02 DEC 13
+Criteria: (A320 or A321)
+Applicable to: MSN 2649
+ABN-27
+F/CTL - ELAC 1(2) FAULT
+00007121.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-27
+F/CTL - SEC FAULT
+00006640.0001001
+02 DEC 13
+Criteria: SA
+Applicable to: MSN 2649
+ABN-27
+F/CTL - FCDC 1 + 2 FAULT
+00007131.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-27
+F/CTL - STABILIZER JAM
+00007132.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-27
+F/CTL - ATLN LAW (PROT LOST)
+00006618.0001001
+02 DEC 13
+Criteria: (A319 or A320 or A321)
+Applicable to: MSN 2649
+ABN-27
+F/CTL - DIRECT LAW (PROT LOST)
+00006671.0001001
+02 DEC 13
+Criteria: (A319 or A320 or A321)
+Applicable to: MSN 2649
+ABN-28
+FUEL - L(R) TK PUMP 1+2 LO PR
+00007194.0002001
+23 NOV 09
+Criteria: ((A319 or A320) and 20024)
+Applicable to: MSN 2649
+Continued on the following page
+
+=== PDF PAGE 35 ===
+A320
+AIRPLANE FLIGHT MANUAL
+PRELIMINARY PAGES
+LIST OF EFFECTIVE DOCUMENTARY UNITS
+NWS A320-232 FLEET
+PLP-LEDU P 19/48
+AFM
+REVISION: 30
+16 MAY 14
+EASA APPROVED
+Continued from the previous page
+M
+(1)
+Localization
+T
+(2)
+DU Title
+DU identification
+DU date
+ABN-28
+FUEL - L(R) WING TK LO LVL
+00007198.0002001
+23 NOV 09
+Criteria: ((A319 or A320) and 20024)
+Applicable to: MSN 2649
+ABN-28
+FUEL - L+R WING TK LO LVL
+00007200.0002001
+23 NOV 09
+Criteria: ((A319 or A320) and 20024)
+Applicable to: MSN 2649
+ABN-28
+FUEL - CTR TK PUMPS LO PR
+00009364.0001001
+23 NOV 09
+Criteria: ((A319 or A320) and 20024)
+Applicable to: MSN 2649
+ABN-28
+FUEL GRAVITY FEEDING
+00006624.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-28
+FUEL - L INNER (R INNER) (L OUTER) (R
+OUTER) TK HI TEMP
+00007201.0002001
+23 NOV 09
+Criteria: (319-131 or 319-132 or 319-133 or 320-231 or 320-232 or 320-233)
+Applicable to: MSN 2649
+ABN-28
+FUEL IMBALANCE
+00007203.0002001
+23 NOV 09
+Criteria: (((319-111 or 319-112 or 319-113 or 319-114 or 319-115 or 320-111 or 320-211 or 320-212 or 320-214 or
+320-215 or 320-216 or A318) and 20024) or (319-131 or 319-132 or 319-133 or 320-231 or 320-232 or 320-233))
+Applicable to: MSN 2649
+ABN-28
+FUEL LEAK
+00006692.0003001
+23 NOV 09
+Criteria: ((320-111 or 320-211 or 320-212 or 320-214 or 320-231 or 320-232 or 320-233 or A318 or A319) and
+20024)
+Applicable to: MSN 2649
+ABN-29
+HYD - G SYS LO PR
+00006656.0005001
+02 DEC 13
+Criteria: SA
+Applicable to: MSN 2649
+ABN-29
+HYD - Y SYS LO PR
+00006657.0002001
+02 DEC 13
+Criteria: ((A319 or A320 or A321) and 26925)
+Applicable to: MSN 2649
+ABN-29
+HYD - B SYS LO PR
+00006658.0001001
+02 DEC 13
+Criteria: SA
+Applicable to: MSN 2649
+ABN-29
+HYD - RSVR LO AIR PR
+00009203.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+ABN-29
+HYD - RSVR OVHT
+00009204.0001001
+23 NOV 09
+Criteria: SA
+Applicable to: MSN 2649
+Continued on the following page
+
+=== PDF PAGE 634 ===
+A320
+AIRPLANE FLIGHT MANUAL
+REGULATORY DIFFERENCES
+IAC AR SUPPLEMENT
+APPENDICES AND SUPPLEMENTS
+Intentionally left blank
+NWS A320-232 FLEET
+REG-CIS-APP P 4/4
+AFM
+27 FEB 13
