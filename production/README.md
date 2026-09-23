@@ -19,10 +19,10 @@ show that a supported Fenix aircraft and its adapter are ready.
 The installed application checks the public GitHub release channel when enabled in
 Settings. **Update available** in the header and **Download update** beside **Check for
 updates** in Settings start the same compatible NSIS download and show progress; after
-verification they change to **Restart to update**. Public update acceptance still
-requires the approved Authenticode certificate and a signed installed-update test. The
-project owner submitted an application to the SignPath Foundation program on
-20 September 2026; its decision is pending.
+verification they change to **Restart to update**. This project is distributed without
+code signing. Public update acceptance still requires an installed older-to-newer
+update test through GitHub Releases, including checksum verification and recovery from
+download or installation failure.
 
 Expected failures use a stable public error code, a plain-English explanation and a
 recovery action. Update connection failures are kept distinct from `No updates

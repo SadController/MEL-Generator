@@ -23,7 +23,7 @@ test('expected update failures map to distinct public recovery messages',()=>{
   assert.equal(classifyError('update-check',new Error('HTTP 429')).code,'UPDATE_RATE_LIMITED');
   assert.equal(classifyError('update-check',new Error('ENOTFOUND github.com')).code,'UPDATE_NETWORK_UNAVAILABLE');
   assert.equal(classifyError('update-download',new Error('ENOSPC')).code,'UPDATE_NO_SPACE');
-  assert.equal(classifyError('update-download',new Error('publisher signature mismatch')).code,'UPDATE_VERIFICATION_FAILED');
+  assert.equal(classifyError('update-download',new Error('sha512 checksum mismatch')).code,'UPDATE_VERIFICATION_FAILED');
   assert.equal(classifyError('update-download',new Error('invalid stable release metadata')).code,'UPDATE_METADATA_INVALID');
 });
 
