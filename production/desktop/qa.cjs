@@ -82,6 +82,11 @@ async function run({app,BrowserWindow,mainWindow,session,output,settingsFile}) {
     assert.match(await js(`document.getElementById('settings-update-status').textContent`),/UPDATE_NETWORK_UNAVAILABLE/);
     assert.equal(await js(`document.getElementById('settings-update-status').textContent.includes('No updates available')`),false);
     await js(`renderUpdateState(null)`);
+    await js(`renderSettingsSaveIssue({code:'SETTINGS_SAVE_FAILED',title:'Settings were not saved',message:'The requested change could not be stored for the next launch.',action:'Check your Windows user profile and try again.'})`);
+    assert.equal(await js(`document.getElementById('settings-save-status').hidden`),false);
+    assert.match(await js(`document.getElementById('settings-save-status').innerText`),/SETTINGS_SAVE_FAILED/);
+    await js(`renderSettingsSaveIssue(null)`);
+    assert.equal(await js(`document.getElementById('settings-save-status').hidden`),true);
     await js(`document.getElementById('diagnostic-log-setting').click()`);
     await until(`document.getElementById('diagnostic-log-setting').checked && !document.getElementById('diagnostic-log-setting').disabled`);
     assert.equal(JSON.parse(fs.readFileSync(settingsFile,'utf8')).enableDiagnosticLog,true);
