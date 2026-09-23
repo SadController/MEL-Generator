@@ -17,8 +17,9 @@ in Settings. The briefing button becomes available when the two integration indi
 show that a supported Fenix aircraft and its adapter are ready.
 
 The installed application checks the public GitHub release channel when enabled in
-Settings. **Update available** downloads the compatible NSIS release and shows progress;
-after verification it changes to **Restart to update**. Public update acceptance still
+Settings. **Update available** in the header and **Download update** beside **Check for
+updates** in Settings start the same compatible NSIS download and show progress; after
+verification they change to **Restart to update**. Public update acceptance still
 requires the approved Authenticode certificate and a signed installed-update test. The
 project owner submitted an application to the SignPath Foundation program on
 20 September 2026; its decision is pending.

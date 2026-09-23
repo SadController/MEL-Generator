@@ -52,7 +52,6 @@ to the local log together with the failed operation.
 | `UPDATE_NO_SPACE` | Not enough disk space for the update | Free space on the Windows system drive and retry. | Warning | Yes |
 | `UPDATE_PERMISSION_DENIED` | Windows blocked the update | Close other app copies and retry from the user account. | Error | Yes |
 | `UPDATE_VERIFICATION_FAILED` | The update could not be verified | Keep the installed version and do not run the download manually. | Error | Yes |
-| `UPDATE_SIGNING_PENDING` | Automatic installation is not available yet | Use the official GitHub release page for a manual update. | Warning | No |
 | `UPDATE_DOWNLOAD_FAILED` | The update was not downloaded | Retry later or use the official GitHub release page. | Warning | Yes |
 | `UPDATE_INSTALL_FAILED` | The update could not be installed | Restart and retry, or install the official release manually. | Error | Yes |
 | `UPDATE_NOT_AVAILABLE` | No compatible update is ready | Run Check for updates again. | Warning | Yes |

@@ -176,13 +176,15 @@ When selected:
 A later successful check replaces the previous result. The result message does not
 need to persist after the application closes.
 
-## Update available button
+## Update actions
 
-The header button is shared by automatic and manual update checks. It is visible only
-when a newer compatible version has been found during the current application session.
-In the settings implementation milestone, selecting it opens the exact matching release
-page on GitHub for manual installation. BL-005 will replace this temporary manual route
-with the approved download, integrity verification, restart and installation process.
+The `Update available` header button is shared by automatic and manual update checks.
+When a newer compatible stable version has been found, Settings also shows a `Download
+update` button to the right of `Check for updates`. Either update button starts the same
+in-app download. Both show progress; once the download completes, both change to
+`Restart to update`. The Settings button is hidden when no update is available.
+Release-signing configuration does not gate the update notification or download action;
+a failed download or verification is reported as an update error.
 
 ## Persisted structure
 
@@ -213,5 +215,4 @@ Existing last-selection and window-state values are migrated rather than discard
 
 ## Remaining decisions
 
-- Exact download, restart and installation interaction after `Update available` is
-  selected; the release must still use the approved installed-app-only update model.
+- Public signed-release acceptance and the installed-app update test remain outstanding.

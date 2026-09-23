@@ -189,11 +189,7 @@ else {
     logger.event('application.started',{version:app.getVersion(),platform:process.platform,arch:process.arch});
     if(settingsState.recovered) logger.event('settings.recovered',{reason:settingsState.reason});
     updateChecker = new UpdateChecker({currentVersion:app.getVersion()});
-    const updateConfig=app.isPackaged ? path.join(process.resourcesPath,'app-update.yml') : null;
-    const signaturePolicyReady=Boolean(updateConfig && fs.existsSync(updateConfig) &&
-      /^publisherName\s*:/m.test(fs.readFileSync(updateConfig,'utf8')));
-    updateManager = new UpdateManager({updater:autoUpdater,isPackaged:app.isPackaged,
-      signaturePolicyReady,logger,
+    updateManager = new UpdateManager({updater:autoUpdater,isPackaged:app.isPackaged,logger,
       onState:state=>{
         latestUpdate={...(latestUpdate || {}),...state};
         publishUpdateState(latestUpdate);

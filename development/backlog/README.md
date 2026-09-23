@@ -284,6 +284,12 @@ blocked from public update acceptance until SignPath or another approved free pr
 provides the certificate subject used by Windows Authenticode verification, and a signed
 older-to-newer installed update is tested through GitHub Releases.
 
+**Settings update action:** When a stable update is available, Settings shows `Download
+update` next to `Check for updates`. It shares the header action's progress, retry and
+restart states. Missing signing configuration no longer blocks update discovery or
+download in the application; release signing and installed-update verification remain
+public release acceptance work.
+
 **Signing milestone, 20 September 2026:** The project owner submitted the application
 for the SignPath Foundation free code-signing program. The application is awaiting a
 decision. Public automatic-update acceptance still requires the issued certificate

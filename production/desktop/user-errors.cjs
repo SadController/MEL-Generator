@@ -27,7 +27,6 @@ const CATALOG=Object.freeze({
   UPDATE_NO_SPACE:{title:'Not enough disk space for the update',message:'The update could not be downloaded or prepared.',action:'Free disk space on the Windows system drive and try again.',severity:'warning',retryable:true},
   UPDATE_PERMISSION_DENIED:{title:'Windows blocked the update',message:'MEL Generator could not write or start the downloaded installer.',action:'Close other copies of the application and try again from your Windows user account.',severity:'error',retryable:true},
   UPDATE_VERIFICATION_FAILED:{title:'The update could not be verified',message:'The downloaded installer did not pass the required signature or integrity check.',action:'Keep the installed version. Do not run the downloaded file manually.',severity:'error',retryable:true},
-  UPDATE_SIGNING_PENDING:{title:'Automatic installation is not available yet',message:'Release signing is still being configured for this version.',action:'Use the official GitHub release page for a manual update.',severity:'warning',retryable:false},
   UPDATE_DOWNLOAD_FAILED:{title:'The update was not downloaded',message:'The installed version was not changed.',action:'Try again later or use the official GitHub release page.',severity:'warning',retryable:true},
   UPDATE_INSTALL_FAILED:{title:'The update could not be installed',message:'The installed version remains available.',action:'Restart MEL Generator and try again, or install the official release manually.',severity:'error',retryable:true},
   UPDATE_NOT_AVAILABLE:{title:'No compatible update is ready',message:'MEL Generator has not found a newer compatible release in this session.',action:'Run Check for updates again.',severity:'warning',retryable:true},
@@ -65,7 +64,6 @@ function classifyError(scope,error) {
     if(/EACCES|EPERM|permission|access denied/i.test(text)) return issue('UPDATE_PERMISSION_DENIED');
     if(/signature|publisher|certificate|checksum|sha512|integrity|verify/i.test(text)) return issue('UPDATE_VERIFICATION_FAILED');
     if(/metadata|invalid stable release|invalid.*release|invalid data|malformed/i.test(text)) return issue('UPDATE_METADATA_INVALID');
-    if(/signing is configured/i.test(text)) return issue('UPDATE_SIGNING_PENDING');
     if(/No compatible update/i.test(text)) return issue('UPDATE_NOT_AVAILABLE');
     return issue(scope==='update-check'?'UPDATE_METADATA_INVALID':scope==='update-install'?'UPDATE_INSTALL_FAILED':'UPDATE_DOWNLOAD_FAILED');
   }
