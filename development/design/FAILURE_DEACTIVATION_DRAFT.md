@@ -1,7 +1,7 @@
 # Briefing failure deactivation — proposal
 
-Status: draft for review, 23 September 2026. No release target or implementation is
-assigned. This extends the existing briefing activation action; it does not change
+Status: implemented on the beta development branch, 23 September 2026. No release target
+is assigned. This extends the existing briefing activation action; it does not change
 scenario generation or the automatic-activation setting.
 
 ## User interaction
@@ -66,3 +66,10 @@ briefing and was left unchanged.`
 
 Open product choice: whether a future, separately labelled action should ever clear
 pre-existing failures. This draft recommends preserving them.
+
+Implementation: the Integration Service stores app-owned failure IDs and their verified
+active state in memory, bound to a simulator session number. The briefing page reuses
+the activation action for deactivation and reports each clear result. The ledger is
+discarded when a new briefing is generated or the application restarts. Live simulator
+acceptance remains necessary before a release because automated tests use a simulated
+aircraft failure interface.

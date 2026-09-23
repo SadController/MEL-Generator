@@ -15,7 +15,7 @@ internal sealed class ProtocolWriter
     public void State(ServiceState state) => Write(new {
         protocolVersion=Version,type="state",state.SimConnected,state.AircraftLoaded,
         state.AircraftTitle,state.SupportedAircraft,state.AdapterReady,
-        error=state.BridgeError,adapterError=state.AdapterError
+        state.SessionId,error=state.BridgeError,adapterError=state.AdapterError
     });
     public void Response(string requestId,object result) => Write(new {
         protocolVersion=Version,type="response",requestId,ok=true,result
@@ -33,7 +33,7 @@ internal sealed class ProtocolWriter
 
 internal sealed record ServiceState(bool SimConnected=false,bool AircraftLoaded=false,
     string? AircraftTitle=null,bool SupportedAircraft=false,bool AdapterReady=false,
-    string? BridgeError=null,string? AdapterError=null);
+    string? BridgeError=null,string? AdapterError=null,long SessionId=0);
 
 internal sealed class RequestEnvelope
 {

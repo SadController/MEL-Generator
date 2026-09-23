@@ -67,7 +67,7 @@ function publicIntegrationState(value={}) {
   } else if(value.adapterError) publicIssue=classifyError('activation',value.adapterError);
   return {simConnected:value.simConnected===true,aircraftLoaded:value.aircraftLoaded===true,
     aircraftTitle:value.aircraftTitle || null,supportedAircraft:value.supportedAircraft===true,
-    adapterReady:value.adapterReady===true,issue:publicIssue};
+    adapterReady:value.adapterReady===true,sessionId:value.sessionId || 0,issue:publicIssue};
 }
 
 function handle(channel,scope,operation) {
@@ -136,11 +136,29 @@ async function activateCurrentScenario({manual=true}={}) {
       catalogId:item.catalogId,fenixId:item.fenixId || null,status:item.status}))});
   const safeActivation={requested:activation.requested===true,overall:activation.overall,
     rolledBack:activation.rolledBack===true,issue:publicIssue,
+    ownedCount:activation.ownedCount || 0,sessionId:activation.sessionId || 0,
     message:publicIssue?.message || null,results:(activation.results || []).map(item=>({
       catalogId:item.catalogId,fenixId:item.fenixId || null,status:item.status,
       message:publicIssue?.message || null}))};
-  lastScenario={...lastScenario,activation:safeActivation};
+  lastScenario={...lastScenario,activation:safeActivation,deactivation:null};
   return safeActivation;
+}
+
+async function deactivateCurrentScenario() {
+  if(!lastScenario?.activation?.ownedCount) throw new Error('No app-owned failures are available to deactivate.');
+  const deactivation=await integration.deactivate();
+  const previous=lastScenario.deactivation?.results || [];
+  const resultMap=new Map(previous.map(item=>[item.catalogId,item]));
+  for(const item of deactivation.results || []) resultMap.set(item.catalogId,
+    {catalogId:item.catalogId,status:item.status,message:item.message || null});
+  const safe={overall:deactivation.overall,remainingCount:deactivation.remainingCount,
+    preExistingCount:deactivation.preExistingCount,sessionId:deactivation.sessionId,
+    issue:deactivation.overall==='success' ? null : classifyError('deactivation',deactivation.message),
+    results:[...resultMap.values()]};
+  logger.event('deactivation.completed',{overall:safe.overall,remainingCount:safe.remainingCount,
+    results:safe.results.map(item=>({catalogId:item.catalogId,status:item.status}))});
+  lastScenario={...lastScenario,deactivation:safe};
+  return safe;
 }
 
 function publishUpdateState(value) {
@@ -259,6 +277,7 @@ else {
       return updateManager.download();
     });
     handle('mel:activate-current','activation',()=>activateCurrentScenario());
+    handle('mel:deactivate-current','deactivation',()=>deactivateCurrentScenario());
     handle('mel:generate','generation',async value=>{
       const selected = checkSelection(value);
       lastScenario = await integration.generate(selected);

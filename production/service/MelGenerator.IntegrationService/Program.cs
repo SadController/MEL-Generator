@@ -14,6 +14,7 @@ var writer=new ProtocolWriter();
 var cancellation=new CancellationTokenSource();
 var stateGate=new SemaphoreSlim(1,1);
 var state=new ServiceState(BridgeError:String.IsNullOrWhiteSpace(arguments.GetValueOrDefault("dll")) ? "SimConnect.dll was not found." : null);
+long sessionId=0;
 writer.State(state);
 
 async Task PublishSimulatorState(bool connected,bool loaded,string? title,string? error)
@@ -21,6 +22,12 @@ async Task PublishSimulatorState(bool connected,bool loaded,string? title,string
     await stateGate.WaitAsync(cancellation.Token);
     try
     {
+        if(!connected || !loaded || !state.SimConnected || !state.AircraftLoaded ||
+            !String.Equals(state.AircraftTitle,title,StringComparison.Ordinal))
+        {
+            if(state.SimConnected && state.AircraftLoaded || connected && loaded)
+                sessionId++;
+        }
         var supported=connected && loaded && title is not null &&
             System.Text.RegularExpressions.Regex.IsMatch(title.Trim(),"^FenixA(?:319|320|321)\\b",System.Text.RegularExpressions.RegexOptions.IgnoreCase);
         var ready=false; string? adapterError=null;
@@ -29,7 +36,7 @@ async Task PublishSimulatorState(bool connected,bool loaded,string? title,string
             try { await fenix.ProbeAsync(cancellation.Token); ready=true; }
             catch(Exception probeError) { adapterError=probeError.Message; }
         }
-        state=new ServiceState(connected,loaded,title,supported,ready,error,adapterError);
+        state=new ServiceState(connected,loaded,title,supported,ready,error,adapterError,sessionId);
         writer.State(state);
     }
     finally { stateGate.Release(); }
@@ -50,8 +57,9 @@ while((line=await Console.In.ReadLineAsync()) is not null)
             throw new InvalidDataException("Unsupported integration protocol request.");
         object result=request.Method switch
         {
-            "generate"=>Generate(engine,request.Payload),
-            "activate"=>await Activate(fenix,state,request.Payload,cancellation.Token),
+            "generate"=>GenerateAndBeginBriefing(engine,fenix,request.Payload),
+            "activate"=>await Activate(fenix,()=>state,request.Payload,cancellation.Token),
+            "deactivate"=>await Deactivate(fenix,()=>state,cancellation.Token),
             "status"=>state,
             _=>throw new InvalidDataException("Unknown integration service method.")
         };
@@ -70,8 +78,16 @@ static ScenarioResult Generate(ScenarioEngine engine,JsonElement payload)
     return engine.Generate(new ScenarioRequest(profile,count));
 }
 
-static async Task<ActivationResult> Activate(FenixAdapter fenix,ServiceState state,JsonElement payload,CancellationToken cancellationToken)
+static ScenarioResult GenerateAndBeginBriefing(ScenarioEngine engine,FenixAdapter fenix,JsonElement payload)
 {
+    var result=Generate(engine,payload);
+    fenix.BeginBriefing();
+    return result;
+}
+
+static async Task<ActivationResult> Activate(FenixAdapter fenix,Func<ServiceState> getState,JsonElement payload,CancellationToken cancellationToken)
+{
+    var state=getState();
     var ids=payload.GetProperty("catalogIds").EnumerateArray().Select(node=>node.GetString() ?? "").ToArray();
     if(!state.SimConnected || !state.AircraftLoaded)
         return new(true,"failed",ids.Select(id=>new ActivationItem(id,null,"failed")).ToArray(),
@@ -82,7 +98,17 @@ static async Task<ActivationResult> Activate(FenixAdapter fenix,ServiceState sta
     if(!state.AdapterReady)
         return new(true,"failed",ids.Select(id=>new ActivationItem(id,null,"failed")).ToArray(),
             Message:state.AdapterError ?? "The aircraft failure adapter is unavailable.");
-    return await fenix.ActivateAsync(ids,cancellationToken);
+    return await fenix.ActivateAsync(ids,cancellationToken,state.SessionId,
+        ()=>getState() is {SimConnected:true,AircraftLoaded:true,SupportedAircraft:true,AdapterReady:true} current &&
+            current.SessionId==state.SessionId);
+}
+
+static Task<DeactivationResult> Deactivate(FenixAdapter fenix,Func<ServiceState> getState,CancellationToken cancellationToken)
+{
+    var state=getState();
+    return fenix.DeactivateAsync(state.SessionId,()=>getState() is
+        {SimConnected:true,AircraftLoaded:true,SupportedAircraft:true,AdapterReady:true} current &&
+        current.SessionId==state.SessionId,cancellationToken);
 }
 
 static Dictionary<string,string?> ParseArguments(string[] values)

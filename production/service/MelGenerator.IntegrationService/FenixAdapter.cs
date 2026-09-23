@@ -8,7 +8,10 @@ internal sealed record FailureState(bool Failed,string? FailureCondition);
 internal sealed record FenixFailure(string Id,string Title,bool Failed,string? FailureCondition);
 internal sealed record ActivationItem(string CatalogId,string? FenixId,string Status,string? Message=null);
 internal sealed record ActivationResult(bool Requested,string Overall,IReadOnlyList<ActivationItem> Results,
-    bool RolledBack=false,string? Message=null,string? RollbackError=null);
+    bool RolledBack=false,string? Message=null,string? RollbackError=null,int OwnedCount=0,long SessionId=0);
+internal sealed record DeactivationItem(string CatalogId,string FenixId,string Status,string? Message=null);
+internal sealed record DeactivationResult(string Overall,IReadOnlyList<DeactivationItem> Results,
+    int RemainingCount,int PreExistingCount,string? Message=null,long SessionId=0);
 
 internal sealed class FenixAdapter
 {
@@ -16,6 +19,9 @@ internal sealed class FenixAdapter
     private readonly HttpClient client;
     private readonly string baseUrl;
     private readonly int clearSettleMs;
+    private readonly Dictionary<string,(string FenixId,FailureState Expected)> owned=new(StringComparer.Ordinal);
+    private int preExistingCount;
+    private long ownedSessionId;
 
     public FenixAdapter(IReadOnlyDictionary<string,string> mapping,HttpClient? client=null,
         string baseUrl="http://127.0.0.1:8083/fenix",int clearSettleMs=750)
@@ -33,8 +39,17 @@ internal sealed class FenixAdapter
         if(missing.Length>0) throw new InvalidDataException($"Failure mapping is missing {missing.Length} aircraft records.");
     }
 
-    public async Task<ActivationResult> ActivateAsync(IReadOnlyList<string> catalogIds,CancellationToken cancellationToken)
+    public void BeginBriefing()
     {
+        owned.Clear();
+        preExistingCount=0;
+        ownedSessionId=0;
+    }
+
+    public async Task<ActivationResult> ActivateAsync(IReadOnlyList<string> catalogIds,CancellationToken cancellationToken,
+        long sessionId=0,Func<bool>? sessionValid=null)
+    {
+        if(owned.Count>0) throw new InvalidOperationException("Current briefing still has active app-owned failures.");
         var unique=catalogIds.Distinct(StringComparer.Ordinal).ToArray();
         if(unique.Length!=catalogIds.Count || unique.Any(id=>!mapping.ContainsKey(id)))
             throw new ArgumentException("Scenario contains an unsupported failure mapping.");
@@ -71,7 +86,12 @@ internal sealed class FenixAdapter
             var intended=unique.Select(id=>mapping[id]).ToHashSet(StringComparer.Ordinal);
             var collateral=mapping.Values.Where(id=>!intended.Contains(id) && Stable(finalState[id])!=before[id]).ToArray();
             if(collateral.Length>0) throw new InvalidOperationException($"Other mapped failures changed: {string.Join(", ",collateral)}.");
-            return new(true,"success",results);
+            if(sessionValid is not null && !sessionValid()) throw new InvalidOperationException("Simulator session changed during activation.");
+            foreach(var entry in activated)
+                owned[entry.CatalogId]=(entry.FenixId,Stable(finalState[entry.FenixId]));
+            preExistingCount=results.Count(item=>item.Status=="already-active");
+            ownedSessionId=sessionId;
+            return new(true,"success",results,OwnedCount:owned.Count,SessionId:sessionId);
         }
         catch(Exception error)
         {
@@ -79,6 +99,11 @@ internal sealed class FenixAdapter
             activated.Reverse();
             foreach(var entry in activated)
             {
+                if(sessionValid is not null && !sessionValid())
+                {
+                    rollbackError="Simulator session changed; verify the affected failures manually.";
+                    break;
+                }
                 try
                 {
                     await SetFailureAsync(entry.Item,false,cancellationToken);
@@ -92,6 +117,49 @@ internal sealed class FenixAdapter
                 results.Add(new(catalogId,mapping[catalogId],"failed",error.Message));
             return new(true,"failed",results,activated.Count>0,error.Message,rollbackError);
         }
+    }
+
+    public async Task<DeactivationResult> DeactivateAsync(long sessionId,Func<bool> sessionValid,CancellationToken cancellationToken)
+    {
+        if(owned.Count==0 || ownedSessionId!=sessionId || !sessionValid())
+            return new("unavailable",[],owned.Count,preExistingCount,"No active failures are owned by this briefing in the current simulator session.",sessionId);
+        var results=new List<DeactivationItem>();
+        foreach(var (catalogId,entry) in owned.ToArray())
+        {
+            if(!sessionValid())
+            {
+                results.Add(new(catalogId,entry.FenixId,"unavailable","The simulator session changed."));
+                break;
+            }
+            try
+            {
+                var current=(await CatalogueAsync(cancellationToken))[entry.FenixId];
+                if(!current.Failed && current.FailureCondition is null)
+                {
+                    owned.Remove(catalogId);
+                    results.Add(new(catalogId,entry.FenixId,"already-inactive"));
+                    continue;
+                }
+                if(Stable(current)!=entry.Expected)
+                {
+                    owned.Remove(catalogId);
+                    results.Add(new(catalogId,entry.FenixId,"changed","Aircraft failure state changed; review it manually."));
+                    continue;
+                }
+                if(!sessionValid()) throw new InvalidOperationException("The simulator session changed.");
+                await SetFailureAsync(current,false,cancellationToken);
+                owned.Remove(catalogId);
+                results.Add(new(catalogId,entry.FenixId,"deactivated"));
+            }
+            catch(Exception error)
+            {
+                results.Add(new(catalogId,entry.FenixId,"failed",error.Message));
+            }
+        }
+        var overall=owned.Count==0 && results.All(item=>item.Status is "deactivated" or "already-inactive")
+            ? "success" : "partial";
+        return new(overall,results,owned.Count,preExistingCount,
+            overall=="partial" ? "Some failures could not be cleared automatically; review their card status." : null,sessionId);
     }
 
     private async Task<Dictionary<string,FenixFailure>> CatalogueAsync(CancellationToken cancellationToken)

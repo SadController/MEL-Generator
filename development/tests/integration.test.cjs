@@ -22,8 +22,9 @@ test('integration client accepts only protocol v2 state and strict Fenix titles'
   const states=[];
   const client=new IntegrationServiceClient({onState:state=>states.push(state)});
   client.handleLine(JSON.stringify({protocolVersion:PROTOCOL_VERSION,type:'state',simConnected:true,
-    aircraftLoaded:true,aircraftTitle:'FenixA321 IAE WF SC',supportedAircraft:true,adapterReady:true}));
+    aircraftLoaded:true,aircraftTitle:'FenixA321 IAE WF SC',supportedAircraft:true,adapterReady:true,sessionId:7}));
   assert.equal(client.publicState().adapterReady,true);
+  assert.equal(client.publicState().sessionId,7);
   assert.equal(states.length,1);
   client.handleLine(JSON.stringify({protocolVersion:1,type:'state',simConnected:true}));
   assert.equal(client.publicState().bridgeError,'Integration service protocol is incompatible.');
@@ -55,4 +56,27 @@ test('published integration service generates through the versioned boundary wit
   assert.equal(message.result.explanation.profileId,'fenix-faa-r32');
   assert.equal(message.result.explanation.compatibleScenarioCount,19311);
   assert.equal(message.result.explanation.validated,true);
+});
+
+test('published service rejects deactivation when no briefing owns an active failure',async()=>{
+  const child=spawn(service,['--data',data],{windowsHide:true,stdio:['pipe','pipe','pipe']});
+  const lines=readline.createInterface({input:child.stdout});
+  try {
+    const response=new Promise((resolve,reject)=>{
+      const timer=setTimeout(()=>reject(new Error('Deactivation smoke test timed out.')),15000);
+      lines.on('line',line=>{
+        const message=JSON.parse(line);
+        if(message.type==='response' && message.requestId==='deactivate-smoke') {
+          clearTimeout(timer);resolve(message);
+        }
+      });
+      child.once('error',reject);
+    });
+    child.stdin.write(JSON.stringify({protocolVersion:2,type:'request',requestId:'deactivate-smoke',
+      method:'deactivate',payload:{}})+'\n');
+    const message=await response;
+    assert.equal(message.ok,true);
+    assert.equal(message.result.overall,'unavailable');
+    assert.equal(message.result.remainingCount,0);
+  } finally {child.stdin.end();}
 });
