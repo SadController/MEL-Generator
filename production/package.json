@@ -1,7 +1,7 @@
 {
   "name": "mel-generator",
   "productName": "MEL Generator",
-  "version": "1.1.0-beta.1",
+  "version": "1.1.0",
   "description": "MMEL scenario generator with optional Fenix failure activation for MSFS 2024",
   "author": "MEL Generator Project",
   "private": true,

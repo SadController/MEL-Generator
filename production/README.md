@@ -1,11 +1,11 @@
-# MEL Generator 1.1.0 beta 1
+# MEL Generator 1.1.0
 
 Windows desktop application for Fenix A319 / A320 / A321 in flight simulation.
 Uses the agreed pool of 53 failures and FAA A320 MMEL Rev. 32 (30 July 2025).
 
 # Run
 
-Install `release/MEL-Generator-Setup-1.1.0-beta.1.exe` for the current Windows user.
+Install `release/MEL-Generator-Setup-1.1.0.exe` for the current Windows user.
 The assisted installer offers a `Create desktop icon` checkbox and always creates the
 approved Start menu shortcut.
 Portable editions are no longer produced. No separately installed browser, Node.js or
@@ -20,9 +20,8 @@ The installed application checks the public GitHub release channel when enabled 
 Settings. **Update available** in the header and **Download update** beside **Check for
 updates** in Settings start the same compatible NSIS download and show progress; after
 verification they change to **Restart to update**. This project is distributed without
-code signing. Public update acceptance still requires an installed older-to-newer
-update test through GitHub Releases, including checksum verification and recovery from
-download or installation failure.
+code signing. An installed older-to-newer update test through the stable GitHub release
+channel remains open, including restart, version verification and failure recovery.
 
 Expected failures use a stable public error code, a plain-English explanation and a
 recovery action. Update connection failures are kept distinct from `No updates
@@ -115,8 +114,8 @@ web prototype are kept in the sibling `development/` folder.
 
 Preferences are stored in `%APPDATA%\MEL Generator\settings.json`. No scenario history
 is saved across launches. Update checks use the public stable GitHub Release endpoint;
-the current alpha opens an available release page for manual installation. Automatic
-download and installation remain part of BL-005. Optional diagnostic logs are stored as
+the installer can download a newer stable release and restart to apply it. The installed
+upgrade path has not yet been verified end to end. Optional diagnostic logs are stored as
 JSON Lines under `%APPDATA%\MEL Generator\logs`, rotate at 10 MB and are deleted after
 seven days. The build is unsigned; no signing certificate is included in this project.
 
