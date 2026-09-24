@@ -6,7 +6,7 @@ on FAA A320 MMEL Revision 32. The app is for flight simulation only.
 
 ## Install
 
-1. Once v1.1.0 is published, download `MEL-Generator-Setup-1.1.0.exe` from the [GitHub Releases page](https://github.com/SadController/MEL-Generator/releases).
+1. Download `MEL-Generator-Setup-1.1.0.exe` from the [v1.1.0 release](https://github.com/SadController/MEL-Generator/releases/tag/v1.1.0).
 2. Run the installer on Windows x64, then open **MEL Generator** from the Start menu or your desktop shortcut.
 
 The installer is unsigned, so Windows may show an unknown-publisher warning. No
