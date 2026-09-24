@@ -8,6 +8,12 @@ either field means that the priority or target release has not yet been assigned
 an item into development still requires a separate specification and an explicit
 decision to implement it.
 
+Version 1.1.0 was published as a stable release on 23 September 2026:
+https://github.com/SadController/MEL-Generator/releases/tag/v1.1.0.
+The Fenix activation, settings and user-facing error features are recorded as done for
+the released scope. The in-app update feature shipped, but its installed older-to-newer
+upgrade and restart acceptance remains in Verification.
+
 ## Release format decision
 
 Starting with version 1.1.0, MEL Generator will be distributed only as an installed
@@ -23,11 +29,11 @@ entry and uninstaller.
 
 | ID | Item | Area | Priority | Target release | Status | Main dependency |
 |---|---|---|---|---|---|---|
-| BL-001 | Automatic failure activation in the simulator | Integration | P1 | 1.1.0 | In Development | Verified provider adapters over SimConnect/WASM |
+| BL-001 | Automatic failure activation in the simulator | Integration | P1 | 1.1.0 | Done | Fenix adapter only; other aircraft need separate adapters |
 | BL-002 | Technical log note presentation | Presentation | P2 | 1.2.0 | Proposed | Technical log template and content rules |
-| BL-003 | Application settings | Core UX | P1 | 1.1.0 | In Development | Packaged acceptance of implemented settings and diagnostics |
+| BL-003 | Application settings | Core UX | P1 | 1.1.0 | Done | — |
 | BL-004 | Dark and light themes | UI | P2 | 1.2.0 | Proposed | BL-003 application settings |
-| BL-005 | In-app application updates | Distribution | P1 | 1.1.0 | In Development | Unsigned GitHub release and installed-update acceptance |
+| BL-005 | In-app application updates | Distribution | P1 | 1.1.0 | Verification | Installed older-to-newer upgrade and restart acceptance |
 | BL-006 | PMDG 737 and 777 support | Aircraft support | P3 | 3.0.0 | Research | Family-specific catalogs and verified PMDG SDK failure interfaces |
 | BL-007 | Source document selection | Data | P2 | 1.2.0 | Proposed | Separate reviewed catalog for every document |
 | BL-008 | Up to 10 simultaneous failures | Generator | P3 | 3.0.0 | Proposed | Generator and compatibility-engine redesign |
@@ -42,16 +48,19 @@ entry and uninstaller.
 | BL-018 | Synaptic A220 support | Aircraft support | — | — | Research | A220 catalog and verified mappings using the published external interface |
 | BL-019 | Fenix event-type failures | Generator / Fenix | — | — | Proposed | Separate event catalog, generation rules and verified Fenix manager mappings |
 | BL-020 | Expand the Fenix MEL failure pool | Data / Fenix | — | 2.0.0 | Proposed | BL-010, reviewed source-document coverage and verified Fenix manager mappings |
-| BL-021 | User-facing error catalogue and recovery messages | Reliability / UX | P1 | 1.1.0 | Verification | Live recovery checks with MSFS/Fenix and the final release candidate |
+| BL-021 | User-facing error catalogue and recovery messages | Reliability / UX | P1 | 1.1.0 | Done | — |
 
 ## Release roadmap
 
-### Version 1.1.0 — Priority P1
+### Version 1.1.0 — released 23 September 2026 (Priority P1)
 
 - BL-001 — Automatic failure activation in the simulator.
 - BL-003 — Application settings.
 - BL-005 — In-app application updates.
 - BL-021 — User-facing error catalogue and recovery messages.
+
+BL-005 is still in Verification after release because the installed upgrade and restart
+path has not been accepted end to end.
 
 ### Version 1.2.0 — Priority P2
 
@@ -135,34 +144,35 @@ remain unverified. The gateway interface is version-bound until Fenix documents 
 confirms it for external use. See
 `../research_simulator_integration/fenix_live_2026-09-19/README.md`.
 
-**Implementation milestone, 19 September 2026:** The 1.1.0 alpha production source now
-contains an out-of-process SimConnect identity helper, automatic reconnection state, a
+**Implementation milestone, 19 September 2026:** The 1.1.0 alpha production source
+contained an out-of-process SimConnect identity helper, automatic reconnection state, a
 Fenix localhost adapter, all 53 production mappings, activation readback, rollback of
 newly activated records after a partial failure, persistent opt-in activation and the
 approved two-circle header status. Automated adapter, generator, settings and Electron
-UI checks pass. The production controller, SimConnect helper and Fenix adapter also
+UI checks passed. The production controller, SimConnect helper and Fenix adapter also
 passed a live activation/readback/restoration test on `FenixA321 IAE WF SC`, while
-preserving three pre-existing unmapped Fenix states. Final installed-application
-acceptance remains before BL-001 is complete. On 20 September the packaged alpha also
-passed a two-failure UI activation with separate Fenix readback, an already-active item,
+preserving three pre-existing unmapped Fenix states. On 20 September the packaged alpha
+also passed a two-failure UI activation with separate Fenix readback, an already-active item,
 an Integration Service interruption, a clean application restart and reconnection.
 Both generated failures were restored and all 53 mapped entries passed the final clear-
 state check. See
 [`BL-021-LIVE-ACCEPTANCE-2026-09-20.md`](../release-records/BL-021-LIVE-ACCEPTANCE-2026-09-20.md).
-The Failures page also provides an explicit `Activate failures` action beside the
+The Failures page provides an explicit `Activate failures` action beside the
 scenario count; it retries the same verified adapter operation without generating a new
 scenario and changes to `Failures active` after successful readback.
 
-A [draft deactivation interaction](../design/FAILURE_DEACTIVATION_DRAFT.md) proposes a
-one-button way to clear only failures activated by the current briefing. Its scope and
-release target have not yet been approved.
+**Released in 1.1.0:** Users can activate failures manually from the briefing or enable
+automatic activation when selecting `Prepare briefing`. The briefing also provides a
+one-button deactivation action for failures activated in the current session, preserving
+failures that were already active. The packaged 1.1.0 app passed its release QA; the
+live Fenix activation and recovery checks above were performed on earlier builds.
 
-**Open decisions:** Supported Fenix versions, availability of a supported Fenix failure
-API, first reversible vertical-slice failure, helper implementation language, whether a
-WASM package is necessary and the default value of automatic activation. The approved
-settings behavior starts activation when `Prepare briefing` is selected and
-`Automatically activate failures when generating the briefing` is enabled. See
-`../settings/README.md`.
+**Remaining integration limits:** The Fenix localhost gateway remains version-bound
+without a documented external failure API. Other Fenix variants and future updates need
+their own compatibility checks. Other aircraft require separate adapters. See
+`../settings/README.md` and
+[`FAILURE_DEACTIVATION_DRAFT.md`](../design/FAILURE_DEACTIVATION_DRAFT.md) for the
+original interaction design.
 
 ## BL-002 — Technical log note presentation
 
@@ -221,9 +231,10 @@ future ideas.
 **Implementation milestone, 20 September 2026:** All three approved settings are stored,
 validated and migrated through schema version 3. Startup and manual update checks use
 the public stable GitHub Release endpoint. Diagnostic logging is opt-in JSON Lines with
-credential-field redaction, 10 MB rotation and seven-day cleanup. The update button uses
-the approved manual release-page fallback until BL-005 supplies installation. The main
-generation action is labelled `Prepare briefing`.
+credential-field redaction, 10 MB rotation and seven-day cleanup. At that milestone the
+update button used a manual release-page fallback. In the released 1.1.0 app, Settings
+can start the in-app download and restart flow from BL-005. The main generation action
+is labelled `Prepare briefing`.
 
 ## BL-004 — Dark and light themes
 
@@ -273,8 +284,8 @@ use the NSIS-compatible update flow. Do not embed a personal GitHub token in the
 application. The owner decided on 23 September 2026 to distribute this project without
 code signing; neither SignPath nor a paid certificate is part of the release plan.
 Keep the existing stable-release-only policy, checksum validation and explicit user
-action before installation. Verify this unsigned flow with two installed versions
-before public release.
+action before installation. The planned two-installed-version acceptance check was not
+completed before publication and remains open after release.
 
 **Implementation milestone, 20 September 2026:** The application now uses the
 `electron-updater` NSIS flow against `SadController/MEL-Generator`. Selecting `Update
@@ -302,6 +313,11 @@ not a release dependency.
 the existing GitHub beta release, with the downloaded installer matching `latest.yml`.
 The installed older-to-newer upgrade and restart remain unverified; see
 [`BL-005-UPDATE-QA-2026-09-23.md`](../release-records/BL-005-UPDATE-QA-2026-09-23.md).
+
+**Released in 1.1.0:** The stable GitHub release includes the NSIS installer,
+`latest.yml`, blockmap and checksum file. Update discovery, download and restart controls
+are present in the app. This item remains in Verification until an installed older-to-
+newer upgrade, restart/version check and failure recovery are demonstrated.
 
 **Open decisions:** Installation timing and staged rollout.
 The startup-check default is enabled under BL-003.
@@ -746,7 +762,8 @@ SimConnect banner, settings, all aircraft/count combinations, repeated generatio
 the bundled PDF viewer. A live Fenix A321 run then verified both green readiness lights,
 mixed `already-active`/`activated` readback, restoration, an Integration Service failure
 without technical-detail leakage, and successful reconnection after restart. The final
-unsigned release candidate remains the BL-021 release-candidate check.
+unsigned 1.1.0 package passed the release QA on 23 September; the error catalogue is
+recorded as done for the released scope.
 
 ## Dependency notes
 
@@ -776,8 +793,8 @@ unsigned release candidate remains the BL-021 release-candidate check.
 - BL-020 targets version 2.0.0 with BL-010 because the larger Fenix catalog should use
   the redesigned applicability, compatibility, severity and weighting model rather than
   extend the current precomputed combination pools.
-- BL-021 must be completed after the main BL-001, BL-003 and BL-005 flows stabilize so
-  its catalogue covers their actual failure modes before the 1.1.0 release candidate.
+- BL-021 covers the released BL-001, BL-003 and BL-005 flows; future integration and
+  update features must extend the catalogue for any new failure modes.
 
 ## Backlog workflow
 
